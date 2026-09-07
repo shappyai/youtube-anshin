@@ -1,0 +1,17 @@
+{
+  "episode": "Short001",
+  "status": "uploaded_private",
+  "mode": "private",
+  "final_sha256": "88329E9246656546A92C1A702E87036177EB3FD1972C64A24111903F85CBC77C",
+  "title": "ChatGPT、文字を打たなくても使える？",
+  "requested_privacy": "private",
+  "publish_at_local": null,
+  "publish_at_api": null,
+  "started_at": "2026-09-07T05:08:36Z",
+  "video_id": "lkUiDHNWWJk",
+  "uploaded_at": "2026-09-07T05:08:39Z",
+  "thumbnail_uploaded": true,
+  "verification": "PASS",
+  "verification_note": "videos.list omitted containsSyntheticMedia; requested value was sent in videos.insert",
+  "verified_at": "2026-09-07T05:12:10Z"
+}

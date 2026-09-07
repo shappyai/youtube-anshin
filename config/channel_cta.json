@@ -1,0 +1,105 @@
+{
+  "profile": "channel_common_cta",
+  "audio_required": true,
+  "duration_mode": "audio_based",
+  "trailing_seconds": 1.0,
+  "canonical_text": "大人のデジタル安心室では、スマホやパソコンを、もっと安全・快適に使うための情報をお届けします。チャンネル登録・高評価もよろしくお願いします。",
+  "narration_text": "大人のデジタル安心室では、スマホやパソコンを、もっと安全・快適に使うための情報をお届けします。チャンネル登録・高評価もよろしくお願いします。",
+  "display_text": "大人のデジタル安心室では、スマホやパソコンを、もっと安全・快適に使うための情報をお届けします。チャンネル登録・高評価もよろしくお願いします。",
+  "content_hash": "c0df4a036b397effa920436c4ba473186737ed6e5cc3df54b85afe8ba32b82eb",
+  "voice": {
+    "speaker": "VOICEVOX",
+    "voice": "剣崎雌雄",
+    "style": "ノーマル",
+    "speedScale": 1.0,
+    "intonationScale": 1.0,
+    "pitchScale": 0.0
+  },
+  "logo": null,
+  "animation": "static",
+  "colors": {
+    "background": "#f7fbfe",
+    "top_bar": "#2f74bb",
+    "panel": "#ffffff",
+    "panel_outline": "#d4e5f0",
+    "blue": "#2f74bb",
+    "ink": "#173a68",
+    "soft": "#587187",
+    "green_fill": "#eaf7ee",
+    "green_outline": "#63a975",
+    "green_text": "#3f8c58"
+  },
+  "text": {
+    "channel_name": "",
+    "description": "大人のデジタル安心室では、スマホやパソコンを、もっと安全・快適に使うための情報をお届けします。",
+    "cta": "チャンネル登録・\n高評価もよろしくお願いします"
+  },
+  "layout": {
+    "panel": [
+      90,
+      105,
+      1080,
+      890
+    ],
+    "logo_area": [
+      155,
+      205,
+      425,
+      475
+    ],
+    "logo_max": [
+      270,
+      270
+    ],
+    "tagline_box": [
+      455,
+      150,
+      1020,
+      230
+    ],
+    "channel_name_box": [
+      150,
+      470,
+      1030,
+      600
+    ],
+    "description_box": [
+      138,
+      450,
+      1042,
+      695
+    ],
+    "cta_box": [
+      138,
+      714,
+      1032,
+      890
+    ],
+    "cta_text_box": [
+      158,
+      736,
+      1012,
+      872
+    ],
+    "brand_box": [
+      150,
+      785,
+      560,
+      850
+    ],
+    "check_center": [
+      590,
+      802
+    ]
+  },
+  "next_label": {
+    "text": "次はこちら",
+    "box": [
+      1090,
+      110,
+      1450,
+      175
+    ],
+    "color": "#587187"
+  }
+}

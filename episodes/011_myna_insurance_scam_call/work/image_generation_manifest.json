@@ -1,0 +1,131 @@
+{
+  "version": "2.0",
+  "prompt_contract": "one_scene_full_frame_text_v2",
+  "image_count": 2,
+  "scenes": [
+    {
+      "scene_id": "SCENE-001",
+      "filename": "scene_001.png",
+      "narration": "「マイナ保険証の確認です。1番を押してください」と言われた。本物でしょうか。1番は押さずに止まります。厚労省は、電話やSMSで直接、利用登録を求めません。",
+      "main_message": "まず止まって確認",
+      "headline": "その電話、本物？",
+      "support_text": "マイナ保険証の確認を口実にした電話",
+      "duration": 14.8,
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "text_spec": {
+        "headline": "その電話、本物？",
+        "support_text": "マイナ保険証の確認を口実にした電話",
+        "placement": "upper-left or left-center quiet area, away from the person and phone",
+        "style": "large dark navy Japanese type on a gentle pale blue area, high contrast, exactly two lines",
+        "aspect_ratio": "16:9"
+      },
+      "text_qa": {
+        "status": "passed",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "very_slow_zoom",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Use case: stylized-concept. Asset type: one finished 1920x1080 full-frame opening illustration for a calm Japanese senior digital-safety explainer. Scene/backdrop: a warm, softly lit home table scene with a generic smartphone receiving an abstract incoming call, no recognizable brand or UI. Subject: an older Japanese man calmly pauses with his hand above the phone and looks thoughtful, not frightened. Style/medium: polished editorial illustration, non-photorealistic, soft blue and pale amber accents, trustworthy and gentle. Composition/framing: balanced full-frame composition with the older viewer and phone as one focal group near the center-right, a real continuous background across the whole image, bottom 180px quiet. Text (verbatim): line 1 「その電話、本物？」 and line 2 「まず止まって確認」; render Japanese text exactly, large, unclipped, with no other readable text. Constraints: no actual call audio, no real phone number, no official interface, no My Number Card design, no government logo, no fake screenshot, no personal data, no watermark, no collage, no split panel, no storyboard, no contact sheet, no pseudo subscribe button. Generation contract: render the declared Japanese text inside the image exactly as written (imagegen_native).",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-018",
+      "filename": "scene_018.png",
+      "narration": "迷ったときは、その場で決めず、いったん止まって公式から確認してください。確認できたら、必要な手続きを進めます。",
+      "main_message": "迷ったら、その場で決めない",
+      "headline": "迷ったら、その場で決めない",
+      "support_text": "いったん止まって、公式から確認",
+      "duration": 10.6,
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "text_spec": {
+        "headline": "迷ったら、その場で決めない",
+        "support_text": "いったん止まって、公式から確認",
+        "placement": "calm low-detail area, upper-left preferred",
+        "style": "white Japanese type with dark blue outline, high contrast",
+        "aspect_ratio": "16:9"
+      },
+      "text_qa": {
+        "status": "passed",
+        "retry_count": 1,
+        "fallback": null,
+        "generation_attempts": 2,
+        "retry_reason": "補助文言を含む最終ImageGen-native契約へ合わせて再生成。pil_overlay fallbackなし"
+      },
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "very_slow_zoom",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Use case: stylized-concept. Asset type: one finished 1920x1080 full-frame raster illustration for a Japanese YouTube digital-safety explainer, SCENE-018 closing story-resolution image. Use the existing SCENE-018 illustration as a style and composition reference: calm blue evening palette, softly lit Japanese home interior, calm Japanese adult aged 60 or older, face-down smartphone, reassuring mood. Generate the background, person, smartphone, and both Japanese text blocks together in one coherent ImageGen-native image, not a later text overlay. Composition: landscape 1920x1080, large highly legible main text in the left 48 percent, quiet right 40 to 45 percent for future YouTube End Screen placement, bottom 180 pixels quiet for subtitles. Main text (verbatim, exact Japanese): \"迷ったら、その場で決めない\". Render it as two large lines: \"迷ったら、\" and \"その場で決めない\". Add only this smaller supporting text (verbatim, exact Japanese): \"いったん止まって、公式から確認\". Render it as a smaller two-line block below the main text: \"いったん止まって、\" and \"公式から確認\". These two text blocks are the only readable text in the entire image. No subtitle, caption, source label, brand promise, slogan, logo, phone number, letters, numerals, labels, signs, screen text, watermark, government mark, official UI, My Number Card design, pseudo-subscribe icon, collage, split panel, storyboard, contact sheet, or any other readable characters. Keep the subject composed and not frightened, with soft blue, pale green, and a small warm amber accent. Generation contract: render the declared Japanese text inside the image exactly as written (imagegen_native).",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    }
+  ]
+}

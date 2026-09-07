@@ -1,0 +1,70 @@
+{
+  "title_candidates": [
+    "【LINE】機種変更の前に確認！トーク履歴を残すバックアップとPIN",
+    "【LINE】トーク履歴、消えない？機種変更・故障の前に確認したい3つ",
+    "【LINE】機種変更してもトークを残す。今のスマホで確認する3つ"
+  ],
+  "selected_title": "【LINE】機種変更の前に確認！トーク履歴を残すバックアップとPIN",
+  "description": "「スマホを買い替えたり、壊れてしまったりしたとき、LINEのトークは消えないの？」という不安を、LINE公式ヘルプ（2026年9月2日確認）に沿って解消します。この動画では「今のスマホで今日確認したい3つ」——①トーク履歴のバックアップの日時 ②自動バックアップの設定 ③バックアップ用の暗証番号（PIN）——を、公式手順の進め方に沿って説明します。あわせて、アカウントの引き継ぎとトーク履歴のバックアップが別物であること、無料の標準バックアップは「文字のトークだけ・同じOSどうしだけ」であること、写真や動画はバックアップされないこと（残したいものは引き継ぎ前に端末へ保存）、OSをまたぐ機種変更では直近14日間より前のトークを引き継げないこと（2026年9月時点の公式仕様）も確認します。\n\n主な根拠（確認日: 2026年9月2日）:\nLINE トーク履歴を標準バックアップするには？ https://help.line.me/line/smartphone?contentId=20023473&lang=ja\nLINE [バックアップ用のPINコード]とは？ https://help.line.me/line/smartphone/pc?contentId=20020033&lang=ja\nLINE バックアップしたトークの復元方法 https://help.line.me/line/smartphone/categoryId/20007890/3/pc?contentId=20007389&lang=ja\nLINE プレミアムバックアップとは？ https://help.line.me/line/smartphone?contentId=200000425&lang=ja\nLINE バックアップ・復元で問題が発生している場合 https://help.line.me/line/smartphone?contentId=20020173&lang=ja\nLINE 新しい端末に変える前の事前準備 https://help.line.me/line/smartphone?contentId=20023724&lang=ja\nLINE あんぜん引き継ぎガイド https://help.line.me/line/smartphone?contentId=200002096&lang=ja\nLINEみんなの使い方ガイド トーク履歴のバックアップ方法 https://guide.line.me/ja/account-and-settings/talk-backup.html\n\n※LINEアプリのバージョンによって、画面やメニューの場所が異なる場合があります。\nこの動画の人物・イラストの一部はAIで生成した画像を使用しています。\n\n大人のデジタル安心室では、スマホやパソコンを、もっと安全・快適に使うための情報をお届けします。チャンネル登録・高評価もよろしくお願いします。\n\nナレーション：VOICEVOX:剣崎雌雄",
+  "chapters": [
+    "00:00 はじめに・今日確認する3つ",
+    "00:34 引き継ぎとバックアップは別もの",
+    "01:45 ① バックアップの日時を確認",
+    "02:44 ② 自動バックアップを確認",
+    "03:42 ③ バックアップ用のPINコード",
+    "04:40 OSをまたぐ機種変更に注意",
+    "05:24 写真・動画はバックアップされない",
+    "05:58 まとめ・次の一歩"
+  ],
+  "tags": [
+    "LINE",
+    "トーク履歴",
+    "バックアップ",
+    "機種変更",
+    "バックアップ用のPINコード",
+    "引き継ぎ",
+    "スマホ",
+    "シニア"
+  ],
+  "credit": "ナレーション：VOICEVOX:剣崎雌雄",
+  "contains_synthetic_media": true,
+  "ai_disclosure_review": "REVIEW_REQUIRED",
+  "pinned_comment": "",
+  "source_urls": [
+    "https://help.line.me/line/smartphone?contentId=20023473&lang=ja",
+    "https://help.line.me/line/smartphone/pc?contentId=20020033&lang=ja",
+    "https://help.line.me/line/smartphone/categoryId/20007890/3/pc?contentId=20007389&lang=ja",
+    "https://help.line.me/line/smartphone?contentId=200000425&lang=ja",
+    "https://help.line.me/line/smartphone?contentId=20020173&lang=ja",
+    "https://help.line.me/line/smartphone?contentId=20023724&lang=ja",
+    "https://help.line.me/line/smartphone?contentId=200002096&lang=ja",
+    "https://guide.line.me/ja/account-and-settings/talk-backup.html"
+  ],
+  "thumbnail_candidates": [
+    "正式採用: 人間作成案（assets/thumbnail/thumbnail.png・機種変更しても、トークは残る？）",
+    "旧案A: work/publish_review/thumbnail_a.png",
+    "旧案B: work/publish_review/thumbnail_b.png"
+  ],
+  "thumbnail": "assets/thumbnail/thumbnail.png",
+  "thumbnail_status": "approved",
+  "category_id": "22",
+  "made_for_kids": false,
+  "default_language": "ja",
+  "privacy": "private",
+  "scheduled_at": null,
+  "visibility": "private",
+  "notes_phase_b": "contains_synthetic_media は現時点でfalseのまま保持。GPT画像5枚を人間が確認した後、写実的な人物・sceneに該当するかをAI disclosure reviewで最終決定する。公式手順引用カードはCodexで後描画した説明素材で、LINE実画面ではない。",
+  "youtube_upload": "uploaded_private_verification_failed",
+  "youtube_video_id": "DK0431L9TwA",
+  "youtube_url": "https://youtu.be/DK0431L9TwA",
+  "youtube_privacy": "private",
+  "youtube_scheduled_at": null,
+  "youtube_scheduled_at_api": null,
+  "thumbnail_uploaded": true,
+  "uploaded_at": "2026-09-02T21:06:48Z",
+  "youtube_channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+  "youtube_publish_error": "PublishError",
+  "youtube_ai_disclosure_updated_at": "2026-09-02T21:07:09Z",
+  "youtube_ai_disclosure_verified": true,
+  "youtube_ai_disclosure_verification": "videos.update response; videos.list omitted containsSyntheticMedia"
+}

@@ -1,0 +1,1922 @@
+{
+  "teacher_count": 35,
+  "auto_count": 35,
+  "teacher_summary": {
+    "dark_area_ratio": 0.03914,
+    "color_area_ratio": 0.0493,
+    "active_nonwhite_ratio": 0.17313,
+    "active_bbox_area_ratio": 0.85289,
+    "headline_band_height_px": 218.74286,
+    "headline_band_width_px": 945.22857,
+    "headline_width_ratio": 0.49231,
+    "headline_band_count": 2.57143,
+    "small_dark_band_count": 1.2,
+    "largest_color_component_area_ratio": 0.02408
+  },
+  "auto_summary": {
+    "dark_area_ratio": 0.02198,
+    "color_area_ratio": 0.04918,
+    "active_nonwhite_ratio": 0.29562,
+    "active_bbox_area_ratio": 0.98171,
+    "headline_band_height_px": 113.71429,
+    "headline_band_width_px": 1028.02857,
+    "headline_width_ratio": 0.53543,
+    "headline_band_count": 4.25714,
+    "small_dark_band_count": 1.25714,
+    "largest_color_component_area_ratio": 0.03231
+  },
+  "teacher": [
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_001.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.04822,
+      "color_area_ratio": 0.05141,
+      "active_nonwhite_ratio": 0.09554,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        691
+      ],
+      "active_bbox_area_ratio": 0.76778,
+      "headline_band_height_px": 74,
+      "headline_band_width_px": 1139,
+      "headline_width_ratio": 0.59323,
+      "headline_band_count": 3,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_002.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03599,
+      "color_area_ratio": 0.04618,
+      "active_nonwhite_ratio": 0.14413,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        721
+      ],
+      "active_bbox_area_ratio": 0.80111,
+      "headline_band_height_px": 85,
+      "headline_band_width_px": 1176,
+      "headline_width_ratio": 0.6125,
+      "headline_band_count": 2,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_003.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.04895,
+      "color_area_ratio": 0.06123,
+      "active_nonwhite_ratio": 0.2171,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        795
+      ],
+      "active_bbox_area_ratio": 0.88333,
+      "headline_band_height_px": 71,
+      "headline_band_width_px": 999,
+      "headline_width_ratio": 0.52031,
+      "headline_band_count": 5,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_004.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03829,
+      "color_area_ratio": 0.03985,
+      "active_nonwhite_ratio": 0.07005,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        826
+      ],
+      "active_bbox_area_ratio": 0.91778,
+      "headline_band_height_px": 521,
+      "headline_band_width_px": 421,
+      "headline_width_ratio": 0.21927,
+      "headline_band_count": 1,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02444,
+      "largest_color_component_box": [
+        46,
+        22,
+        74,
+        74
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_005.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03088,
+      "color_area_ratio": 0.03948,
+      "active_nonwhite_ratio": 0.0998,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        816
+      ],
+      "active_bbox_area_ratio": 0.90667,
+      "headline_band_height_px": 371,
+      "headline_band_width_px": 461,
+      "headline_width_ratio": 0.2401,
+      "headline_band_count": 2,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_006.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.04748,
+      "color_area_ratio": 0.05176,
+      "active_nonwhite_ratio": 0.30098,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        831
+      ],
+      "active_bbox_area_ratio": 0.92333,
+      "headline_band_height_px": 392,
+      "headline_band_width_px": 1546,
+      "headline_width_ratio": 0.80521,
+      "headline_band_count": 2,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_007.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03482,
+      "color_area_ratio": 0.04416,
+      "active_nonwhite_ratio": 0.27924,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        671
+      ],
+      "active_bbox_area_ratio": 0.74556,
+      "headline_band_height_px": 291,
+      "headline_band_width_px": 1442,
+      "headline_width_ratio": 0.75104,
+      "headline_band_count": 2,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_008.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03185,
+      "color_area_ratio": 0.03345,
+      "active_nonwhite_ratio": 0.04045,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        817
+      ],
+      "active_bbox_area_ratio": 0.90778,
+      "headline_band_height_px": 69,
+      "headline_band_width_px": 846,
+      "headline_width_ratio": 0.44062,
+      "headline_band_count": 1,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_009.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.04358,
+      "color_area_ratio": 0.04611,
+      "active_nonwhite_ratio": 0.16272,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        853
+      ],
+      "active_bbox_area_ratio": 0.94778,
+      "headline_band_height_px": 350,
+      "headline_band_width_px": 925,
+      "headline_width_ratio": 0.48177,
+      "headline_band_count": 2,
+      "small_dark_band_count": 3,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_010.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03265,
+      "color_area_ratio": 0.03547,
+      "active_nonwhite_ratio": 0.06326,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        742
+      ],
+      "active_bbox_area_ratio": 0.82444,
+      "headline_band_height_px": 62,
+      "headline_band_width_px": 820,
+      "headline_width_ratio": 0.42708,
+      "headline_band_count": 5,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_011.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.04872,
+      "color_area_ratio": 0.05839,
+      "active_nonwhite_ratio": 0.17831,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        881
+      ],
+      "active_bbox_area_ratio": 0.97889,
+      "headline_band_height_px": 361,
+      "headline_band_width_px": 541,
+      "headline_width_ratio": 0.28177,
+      "headline_band_count": 2,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.0225,
+      "largest_color_component_box": [
+        43,
+        25,
+        77,
+        61
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_012.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.05134,
+      "color_area_ratio": 0.05339,
+      "active_nonwhite_ratio": 0.22268,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        601
+      ],
+      "active_bbox_area_ratio": 0.66778,
+      "headline_band_height_px": 281,
+      "headline_band_width_px": 1543,
+      "headline_width_ratio": 0.80365,
+      "headline_band_count": 2,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02454,
+      "largest_color_component_box": [
+        45,
+        32,
+        110,
+        60
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_013.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.02874,
+      "color_area_ratio": 0.03579,
+      "active_nonwhite_ratio": 0.05586,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        762
+      ],
+      "active_bbox_area_ratio": 0.84667,
+      "headline_band_height_px": 59,
+      "headline_band_width_px": 667,
+      "headline_width_ratio": 0.3474,
+      "headline_band_count": 4,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_014.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.0443,
+      "color_area_ratio": 0.05331,
+      "active_nonwhite_ratio": 0.13805,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        791
+      ],
+      "active_bbox_area_ratio": 0.87889,
+      "headline_band_height_px": 542,
+      "headline_band_width_px": 864,
+      "headline_width_ratio": 0.45,
+      "headline_band_count": 2,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_015.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03327,
+      "color_area_ratio": 0.03647,
+      "active_nonwhite_ratio": 0.09623,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        841
+      ],
+      "active_bbox_area_ratio": 0.93444,
+      "headline_band_height_px": 251,
+      "headline_band_width_px": 331,
+      "headline_width_ratio": 0.1724,
+      "headline_band_count": 2,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_016.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.04604,
+      "color_area_ratio": 0.05894,
+      "active_nonwhite_ratio": 0.36256,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        784
+      ],
+      "active_bbox_area_ratio": 0.87111,
+      "headline_band_height_px": 401,
+      "headline_band_width_px": 1501,
+      "headline_width_ratio": 0.78177,
+      "headline_band_count": 2,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_017.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.02881,
+      "color_area_ratio": 0.04398,
+      "active_nonwhite_ratio": 0.04807,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        652
+      ],
+      "active_bbox_area_ratio": 0.72444,
+      "headline_band_height_px": 68,
+      "headline_band_width_px": 495,
+      "headline_width_ratio": 0.25781,
+      "headline_band_count": 3,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_018.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.04572,
+      "color_area_ratio": 0.08195,
+      "active_nonwhite_ratio": 0.15932,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        769
+      ],
+      "active_bbox_area_ratio": 0.85444,
+      "headline_band_height_px": 291,
+      "headline_band_width_px": 752,
+      "headline_width_ratio": 0.39167,
+      "headline_band_count": 4,
+      "small_dark_band_count": 4,
+      "largest_color_component_area_ratio": 0.04713,
+      "largest_color_component_box": [
+        23,
+        30,
+        45,
+        64
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_019.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03995,
+      "color_area_ratio": 0.04214,
+      "active_nonwhite_ratio": 0.16708,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        771
+      ],
+      "active_bbox_area_ratio": 0.85667,
+      "headline_band_height_px": 566,
+      "headline_band_width_px": 1123,
+      "headline_width_ratio": 0.5849,
+      "headline_band_count": 1,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_020.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03539,
+      "color_area_ratio": 0.03954,
+      "active_nonwhite_ratio": 0.05893,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        811
+      ],
+      "active_bbox_area_ratio": 0.90111,
+      "headline_band_height_px": 501,
+      "headline_band_width_px": 1204,
+      "headline_width_ratio": 0.62708,
+      "headline_band_count": 2,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_021.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.0343,
+      "color_area_ratio": 0.0373,
+      "active_nonwhite_ratio": 0.41884,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        852
+      ],
+      "active_bbox_area_ratio": 0.94667,
+      "headline_band_height_px": 64,
+      "headline_band_width_px": 874,
+      "headline_width_ratio": 0.45521,
+      "headline_band_count": 3,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_022.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03944,
+      "color_area_ratio": 0.04784,
+      "active_nonwhite_ratio": 0.21225,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        759
+      ],
+      "active_bbox_area_ratio": 0.84333,
+      "headline_band_height_px": 66,
+      "headline_band_width_px": 653,
+      "headline_width_ratio": 0.3401,
+      "headline_band_count": 3,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_023.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03765,
+      "color_area_ratio": 0.04508,
+      "active_nonwhite_ratio": 0.12431,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        852
+      ],
+      "active_bbox_area_ratio": 0.94667,
+      "headline_band_height_px": 501,
+      "headline_band_width_px": 595,
+      "headline_width_ratio": 0.3099,
+      "headline_band_count": 2,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02278,
+      "largest_color_component_box": [
+        5,
+        9,
+        52,
+        16
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_024.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03996,
+      "color_area_ratio": 0.04867,
+      "active_nonwhite_ratio": 0.26746,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        744
+      ],
+      "active_bbox_area_ratio": 0.82667,
+      "headline_band_height_px": 46,
+      "headline_band_width_px": 1383,
+      "headline_width_ratio": 0.72031,
+      "headline_band_count": 3,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_025.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.04146,
+      "color_area_ratio": 0.04699,
+      "active_nonwhite_ratio": 0.15982,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        651
+      ],
+      "active_bbox_area_ratio": 0.72333,
+      "headline_band_height_px": 68,
+      "headline_band_width_px": 1049,
+      "headline_width_ratio": 0.54635,
+      "headline_band_count": 4,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_026.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.0351,
+      "color_area_ratio": 0.04242,
+      "active_nonwhite_ratio": 0.19763,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        813
+      ],
+      "active_bbox_area_ratio": 0.90333,
+      "headline_band_height_px": 76,
+      "headline_band_width_px": 997,
+      "headline_width_ratio": 0.51927,
+      "headline_band_count": 2,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_027.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03753,
+      "color_area_ratio": 0.03981,
+      "active_nonwhite_ratio": 0.04959,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        744
+      ],
+      "active_bbox_area_ratio": 0.82667,
+      "headline_band_height_px": 64,
+      "headline_band_width_px": 1078,
+      "headline_width_ratio": 0.56146,
+      "headline_band_count": 1,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_028.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.02279,
+      "color_area_ratio": 0.02838,
+      "active_nonwhite_ratio": 0.09618,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        826
+      ],
+      "active_bbox_area_ratio": 0.91778,
+      "headline_band_height_px": 64,
+      "headline_band_width_px": 631,
+      "headline_width_ratio": 0.32865,
+      "headline_band_count": 1,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_029.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03791,
+      "color_area_ratio": 0.1203,
+      "active_nonwhite_ratio": 0.1258,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        736
+      ],
+      "active_bbox_area_ratio": 0.81778,
+      "headline_band_height_px": 62,
+      "headline_band_width_px": 464,
+      "headline_width_ratio": 0.24167,
+      "headline_band_count": 6,
+      "small_dark_band_count": 3,
+      "largest_color_component_area_ratio": 0.0462,
+      "largest_color_component_box": [
+        32,
+        36,
+        65,
+        58
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_030.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03782,
+      "color_area_ratio": 0.05001,
+      "active_nonwhite_ratio": 0.05408,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        801
+      ],
+      "active_bbox_area_ratio": 0.89,
+      "headline_band_height_px": 505,
+      "headline_band_width_px": 927,
+      "headline_width_ratio": 0.48281,
+      "headline_band_count": 2,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.03037,
+      "largest_color_component_box": [
+        10,
+        30,
+        30,
+        80
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_031.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03559,
+      "color_area_ratio": 0.04832,
+      "active_nonwhite_ratio": 0.07731,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        672
+      ],
+      "active_bbox_area_ratio": 0.74667,
+      "headline_band_height_px": 74,
+      "headline_band_width_px": 871,
+      "headline_width_ratio": 0.45365,
+      "headline_band_count": 3,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_032.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.04416,
+      "color_area_ratio": 0.05248,
+      "active_nonwhite_ratio": 0.38884,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        741
+      ],
+      "active_bbox_area_ratio": 0.82333,
+      "headline_band_height_px": 151,
+      "headline_band_width_px": 1401,
+      "headline_width_ratio": 0.72969,
+      "headline_band_count": 3,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_033.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.05362,
+      "color_area_ratio": 0.06126,
+      "active_nonwhite_ratio": 0.38884,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        741
+      ],
+      "active_bbox_area_ratio": 0.82333,
+      "headline_band_height_px": 151,
+      "headline_band_width_px": 1401,
+      "headline_width_ratio": 0.72969,
+      "headline_band_count": 4,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_034.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03432,
+      "color_area_ratio": 0.04861,
+      "active_nonwhite_ratio": 0.46582,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        813
+      ],
+      "active_bbox_area_ratio": 0.90333,
+      "headline_band_height_px": 78,
+      "headline_band_width_px": 1134,
+      "headline_width_ratio": 0.59062,
+      "headline_band_count": 1,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02222,
+      "largest_color_component_box": [
+        0,
+        0,
+        120,
+        2
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_035.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.04322,
+      "color_area_ratio": 0.05519,
+      "active_nonwhite_ratio": 0.07245,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        695
+      ],
+      "active_bbox_area_ratio": 0.77222,
+      "headline_band_height_px": 79,
+      "headline_band_width_px": 829,
+      "headline_width_ratio": 0.43177,
+      "headline_band_count": 3,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.02491,
+      "largest_color_component_box": [
+        34,
+        14,
+        86,
+        23
+      ]
+    }
+  ],
+  "auto": [
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_001.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.01643,
+      "color_area_ratio": 0.139,
+      "active_nonwhite_ratio": 0.41104,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 71,
+      "headline_band_width_px": 869,
+      "headline_width_ratio": 0.4526,
+      "headline_band_count": 6,
+      "small_dark_band_count": 2,
+      "largest_color_component_area_ratio": 0.12787,
+      "largest_color_component_box": [
+        9,
+        26,
+        48,
+        79
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_002.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.0181,
+      "color_area_ratio": 0.05738,
+      "active_nonwhite_ratio": 0.28565,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 70,
+      "headline_band_width_px": 922,
+      "headline_width_ratio": 0.48021,
+      "headline_band_count": 4,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.03731,
+      "largest_color_component_box": [
+        9,
+        33,
+        25,
+        59
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_003.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.02347,
+      "color_area_ratio": 0.02995,
+      "active_nonwhite_ratio": 0.27867,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        900
+      ],
+      "active_bbox_area_ratio": 1.0,
+      "headline_band_height_px": 71,
+      "headline_band_width_px": 820,
+      "headline_width_ratio": 0.42708,
+      "headline_band_count": 5,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.00861,
+      "largest_color_component_box": [
+        7,
+        49,
+        100,
+        51
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_004.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.01722,
+      "color_area_ratio": 0.14024,
+      "active_nonwhite_ratio": 0.41213,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 77,
+      "headline_band_width_px": 807,
+      "headline_width_ratio": 0.42031,
+      "headline_band_count": 4,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.12787,
+      "largest_color_component_box": [
+        9,
+        26,
+        48,
+        79
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_005.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.02683,
+      "color_area_ratio": 0.02337,
+      "active_nonwhite_ratio": 0.26006,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 570,
+      "headline_band_width_px": 1595,
+      "headline_width_ratio": 0.83073,
+      "headline_band_count": 2,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.01509,
+      "largest_color_component_box": [
+        7,
+        55,
+        59,
+        60
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_006.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.01794,
+      "color_area_ratio": 0.02664,
+      "active_nonwhite_ratio": 0.26889,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 72,
+      "headline_band_width_px": 779,
+      "headline_width_ratio": 0.40573,
+      "headline_band_count": 4,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.01111,
+      "largest_color_component_box": [
+        57,
+        50,
+        103,
+        83
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_007.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.01763,
+      "color_area_ratio": 0.02093,
+      "active_nonwhite_ratio": 0.27492,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 84,
+      "headline_band_width_px": 729,
+      "headline_width_ratio": 0.37969,
+      "headline_band_count": 3,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.01296,
+      "largest_color_component_box": [
+        39,
+        53,
+        86,
+        57
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_008.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.01758,
+      "color_area_ratio": 0.03478,
+      "active_nonwhite_ratio": 0.27699,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 70,
+      "headline_band_width_px": 841,
+      "headline_width_ratio": 0.43802,
+      "headline_band_count": 4,
+      "small_dark_band_count": 4,
+      "largest_color_component_area_ratio": 0.01111,
+      "largest_color_component_box": [
+        57,
+        50,
+        103,
+        83
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_009.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.01904,
+      "color_area_ratio": 0.02441,
+      "active_nonwhite_ratio": 0.26706,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 74,
+      "headline_band_width_px": 925,
+      "headline_width_ratio": 0.48177,
+      "headline_band_count": 8,
+      "small_dark_band_count": 6,
+      "largest_color_component_area_ratio": 0.01324,
+      "largest_color_component_box": [
+        7,
+        55,
+        51,
+        60
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_010.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.02297,
+      "color_area_ratio": 0.03194,
+      "active_nonwhite_ratio": 0.27973,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 70,
+      "headline_band_width_px": 1235,
+      "headline_width_ratio": 0.64323,
+      "headline_band_count": 4,
+      "small_dark_band_count": 3,
+      "largest_color_component_area_ratio": 0.01111,
+      "largest_color_component_box": [
+        57,
+        50,
+        103,
+        83
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_011.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.01988,
+      "color_area_ratio": 0.02419,
+      "active_nonwhite_ratio": 0.30735,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 75,
+      "headline_band_width_px": 1053,
+      "headline_width_ratio": 0.54844,
+      "headline_band_count": 4,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.01074,
+      "largest_color_component_box": [
+        53,
+        21,
+        74,
+        29
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_012.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.02013,
+      "color_area_ratio": 0.14895,
+      "active_nonwhite_ratio": 0.35842,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 75,
+      "headline_band_width_px": 801,
+      "headline_width_ratio": 0.41719,
+      "headline_band_count": 6,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.1363,
+      "largest_color_component_box": [
+        9,
+        26,
+        48,
+        79
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_013.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.01995,
+      "color_area_ratio": 0.02421,
+      "active_nonwhite_ratio": 0.27164,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 76,
+      "headline_band_width_px": 885,
+      "headline_width_ratio": 0.46094,
+      "headline_band_count": 8,
+      "small_dark_band_count": 4,
+      "largest_color_component_area_ratio": 0.00889,
+      "largest_color_component_box": [
+        48,
+        21,
+        63,
+        29
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_014.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.02594,
+      "color_area_ratio": 0.03325,
+      "active_nonwhite_ratio": 0.23966,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 74,
+      "headline_band_width_px": 1420,
+      "headline_width_ratio": 0.73958,
+      "headline_band_count": 7,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.01565,
+      "largest_color_component_box": [
+        82,
+        22,
+        115,
+        78
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_015.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.02363,
+      "color_area_ratio": 0.02856,
+      "active_nonwhite_ratio": 0.27369,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 44,
+      "headline_band_width_px": 1682,
+      "headline_width_ratio": 0.87604,
+      "headline_band_count": 7,
+      "small_dark_band_count": 3,
+      "largest_color_component_area_ratio": 0.015,
+      "largest_color_component_box": [
+        7,
+        21,
+        38,
+        29
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_016.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03111,
+      "color_area_ratio": 0.03876,
+      "active_nonwhite_ratio": 0.28637,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        900
+      ],
+      "active_bbox_area_ratio": 1.0,
+      "headline_band_height_px": 71,
+      "headline_band_width_px": 1161,
+      "headline_width_ratio": 0.60469,
+      "headline_band_count": 4,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.01269,
+      "largest_color_component_box": [
+        30,
+        39,
+        77,
+        43
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_017.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.02192,
+      "color_area_ratio": 0.06462,
+      "active_nonwhite_ratio": 0.25792,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 78,
+      "headline_band_width_px": 1299,
+      "headline_width_ratio": 0.67656,
+      "headline_band_count": 4,
+      "small_dark_band_count": 1,
+      "largest_color_component_area_ratio": 0.03731,
+      "largest_color_component_box": [
+        9,
+        33,
+        25,
+        59
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_018.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03126,
+      "color_area_ratio": 0.04265,
+      "active_nonwhite_ratio": 0.41918,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 73,
+      "headline_band_width_px": 1319,
+      "headline_width_ratio": 0.68698,
+      "headline_band_count": 4,
+      "small_dark_band_count": 3,
+      "largest_color_component_area_ratio": 0.01185,
+      "largest_color_component_box": [
+        7,
+        60,
+        53,
+        83
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_019.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.0156,
+      "color_area_ratio": 0.05497,
+      "active_nonwhite_ratio": 0.28134,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 72,
+      "headline_band_width_px": 692,
+      "headline_width_ratio": 0.36042,
+      "headline_band_count": 3,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.03731,
+      "largest_color_component_box": [
+        9,
+        33,
+        25,
+        59
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_020.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.02131,
+      "color_area_ratio": 0.02455,
+      "active_nonwhite_ratio": 0.28164,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 85,
+      "headline_band_width_px": 902,
+      "headline_width_ratio": 0.46979,
+      "headline_band_count": 3,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.01519,
+      "largest_color_component_box": [
+        30,
+        30,
+        53,
+        39
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_021.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.02128,
+      "color_area_ratio": 0.02542,
+      "active_nonwhite_ratio": 0.25278,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 45,
+      "headline_band_width_px": 1429,
+      "headline_width_ratio": 0.74427,
+      "headline_band_count": 5,
+      "small_dark_band_count": 2,
+      "largest_color_component_area_ratio": 0.01361,
+      "largest_color_component_box": [
+        30,
+        21,
+        56,
+        29
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_022.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.04256,
+      "color_area_ratio": 0.0392,
+      "active_nonwhite_ratio": 0.27069,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 554,
+      "headline_band_width_px": 1717,
+      "headline_width_ratio": 0.89427,
+      "headline_band_count": 2,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.01491,
+      "largest_color_component_box": [
+        30,
+        20,
+        55,
+        29
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_023.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.03001,
+      "color_area_ratio": 0.06245,
+      "active_nonwhite_ratio": 0.28438,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 581,
+      "headline_band_width_px": 1218,
+      "headline_width_ratio": 0.63438,
+      "headline_band_count": 2,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.03731,
+      "largest_color_component_box": [
+        9,
+        33,
+        25,
+        59
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_024.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.02241,
+      "color_area_ratio": 0.02927,
+      "active_nonwhite_ratio": 0.27803,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        900
+      ],
+      "active_bbox_area_ratio": 1.0,
+      "headline_band_height_px": 68,
+      "headline_band_width_px": 751,
+      "headline_width_ratio": 0.39115,
+      "headline_band_count": 4,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.00926,
+      "largest_color_component_box": [
+        6,
+        52,
+        30,
+        90
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_025.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.02603,
+      "color_area_ratio": 0.0662,
+      "active_nonwhite_ratio": 0.29414,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 72,
+      "headline_band_width_px": 930,
+      "headline_width_ratio": 0.48438,
+      "headline_band_count": 4,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.03731,
+      "largest_color_component_box": [
+        9,
+        33,
+        25,
+        59
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_026.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.01831,
+      "color_area_ratio": 0.02132,
+      "active_nonwhite_ratio": 0.27497,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 84,
+      "headline_band_width_px": 1048,
+      "headline_width_ratio": 0.54583,
+      "headline_band_count": 3,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.01028,
+      "largest_color_component_box": [
+        13,
+        30,
+        33,
+        39
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_027.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.01836,
+      "color_area_ratio": 0.03168,
+      "active_nonwhite_ratio": 0.27413,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 40,
+      "headline_band_width_px": 1035,
+      "headline_width_ratio": 0.53906,
+      "headline_band_count": 4,
+      "small_dark_band_count": 4,
+      "largest_color_component_area_ratio": 0.01648,
+      "largest_color_component_box": [
+        7,
+        19,
+        36,
+        26
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_028.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.01722,
+      "color_area_ratio": 0.14017,
+      "active_nonwhite_ratio": 0.41132,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 73,
+      "headline_band_width_px": 803,
+      "headline_width_ratio": 0.41823,
+      "headline_band_count": 4,
+      "small_dark_band_count": 2,
+      "largest_color_component_area_ratio": 0.12787,
+      "largest_color_component_box": [
+        9,
+        26,
+        48,
+        79
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_029.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.01795,
+      "color_area_ratio": 0.05784,
+      "active_nonwhite_ratio": 0.27967,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 73,
+      "headline_band_width_px": 929,
+      "headline_width_ratio": 0.48385,
+      "headline_band_count": 4,
+      "small_dark_band_count": 2,
+      "largest_color_component_area_ratio": 0.03731,
+      "largest_color_component_box": [
+        9,
+        33,
+        25,
+        59
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_030.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.0202,
+      "color_area_ratio": 0.06178,
+      "active_nonwhite_ratio": 0.28107,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 71,
+      "headline_band_width_px": 922,
+      "headline_width_ratio": 0.48021,
+      "headline_band_count": 5,
+      "small_dark_band_count": 3,
+      "largest_color_component_area_ratio": 0.03731,
+      "largest_color_component_box": [
+        9,
+        33,
+        25,
+        59
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_031.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.0186,
+      "color_area_ratio": 0.05943,
+      "active_nonwhite_ratio": 0.27982,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 71,
+      "headline_band_width_px": 766,
+      "headline_width_ratio": 0.39896,
+      "headline_band_count": 4,
+      "small_dark_band_count": 3,
+      "largest_color_component_area_ratio": 0.03731,
+      "largest_color_component_box": [
+        9,
+        33,
+        25,
+        59
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_032.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.01873,
+      "color_area_ratio": 0.02639,
+      "active_nonwhite_ratio": 0.27334,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 71,
+      "headline_band_width_px": 660,
+      "headline_width_ratio": 0.34375,
+      "headline_band_count": 4,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.00861,
+      "largest_color_component_box": [
+        7,
+        49,
+        100,
+        51
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_033.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.02972,
+      "color_area_ratio": 0.03844,
+      "active_nonwhite_ratio": 0.28805,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 73,
+      "headline_band_width_px": 1080,
+      "headline_width_ratio": 0.5625,
+      "headline_band_count": 4,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.02019,
+      "largest_color_component_box": [
+        41,
+        19,
+        75,
+        27
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_034.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.0181,
+      "color_area_ratio": 0.02206,
+      "active_nonwhite_ratio": 0.30476,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 76,
+      "headline_band_width_px": 978,
+      "headline_width_ratio": 0.50938,
+      "headline_band_count": 3,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.01602,
+      "largest_color_component_box": [
+        7,
+        21,
+        42,
+        29
+      ]
+    },
+    {
+      "path": "episodes\\002_myna_app\\work\\efficiency_test\\scene_035.png",
+      "width": 1920,
+      "height": 1080,
+      "dark_area_ratio": 0.02176,
+      "color_area_ratio": 0.0264,
+      "active_nonwhite_ratio": 0.30735,
+      "active_bbox": [
+        0,
+        0,
+        1920,
+        882
+      ],
+      "active_bbox_area_ratio": 0.98,
+      "headline_band_height_px": 76,
+      "headline_band_width_px": 979,
+      "headline_width_ratio": 0.5099,
+      "headline_band_count": 3,
+      "small_dark_band_count": 0,
+      "largest_color_component_area_ratio": 0.03,
+      "largest_color_component_box": [
+        7,
+        21,
+        68,
+        29
+      ]
+    }
+  ]
+}

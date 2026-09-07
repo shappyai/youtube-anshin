@@ -1,0 +1,799 @@
+{
+  "status": "PASS",
+  "qa": "approved_pronunciation_match",
+  "failures": [],
+  "counts": {
+    "方": 4,
+    "Windows": 16,
+    "Update": 7,
+    "ID": 1
+  },
+  "segment_ids": {
+    "方": [
+      1,
+      6,
+      11,
+      38
+    ],
+    "Windows": [
+      1,
+      2,
+      4,
+      5,
+      8,
+      9,
+      14,
+      20,
+      22,
+      23,
+      25,
+      37,
+      39,
+      47,
+      49,
+      50
+    ],
+    "Update": [
+      5,
+      22,
+      23,
+      37,
+      39,
+      47,
+      50
+    ],
+    "ID": [
+      19
+    ]
+  },
+  "occurrences": {
+    "方": [
+      {
+        "segment_id": 1,
+        "timestamp_sec": 0.0,
+        "context": "Windows 11を使っている方、2026年10月13日に、一部のWindows 11で更新の提供が終わります。",
+        "expected": "かた",
+        "effective_text": "Windows 11を使っているかた、2026年10月13日に、一部のWindows 11で更新の提供が終わります。",
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 6,
+        "timestamp_sec": 27.379,
+        "context": "三つ目、更新が表示されないときの考え方です。",
+        "expected": "ほう",
+        "effective_text": "三つ目、更新が表示されないときの考えほうです。",
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 11,
+        "timestamp_sec": 62.285,
+        "context": "家庭でよく使われるHomeやProの方は、まず自分のバージョンを確認しましょう。",
+        "expected": "かた",
+        "effective_text": "家庭でよく使われるHomeやProのかたは、まず自分のバージョンを確認しましょう。",
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 38,
+        "timestamp_sec": 204.485,
+        "context": "24H2の方は、まず25H2が表示されるかを確認してください。",
+        "expected": "ほう",
+        "effective_text": "にじゅうよん、エイチ、ツーのほうは、まずにじゅうご、エイチ、ツーが表示されるかを確認してください。",
+        "approved_pronunciation_match": true
+      }
+    ],
+    "Windows": [
+      {
+        "segment_id": 1,
+        "timestamp_sec": 0.0,
+        "context": "Windows 11を使っている方、2026年10月13日に、一部のWindows 11で更新の提供が終わります。",
+        "expected_reading": "ウィンドオズ",
+        "expected_accent": 5,
+        "matches": [
+          {
+            "start_mora": 0,
+            "end_mora": 4,
+            "mora_count": 5,
+            "phrase_indexes": [
+              0
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          },
+          {
+            "start_mora": 43,
+            "end_mora": 47,
+            "mora_count": 5,
+            "phrase_indexes": [
+              13
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 2,
+        "timestamp_sec": 9.981,
+        "context": "ただし、Windows 11全部が、その日に使えなくなるわけではありません。",
+        "expected_reading": "ウィンドオズ",
+        "expected_accent": 5,
+        "matches": [
+          {
+            "start_mora": 3,
+            "end_mora": 7,
+            "mora_count": 5,
+            "phrase_indexes": [
+              1
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 4,
+        "timestamp_sec": 20.995,
+        "context": "一つ目、自分のWindowsのバージョンです。",
+        "expected_reading": "ウィンドオズ",
+        "expected_accent": 5,
+        "matches": [
+          {
+            "start_mora": 8,
+            "end_mora": 12,
+            "mora_count": 5,
+            "phrase_indexes": [
+              2
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 5,
+        "timestamp_sec": 24.149,
+        "context": "二つ目、Windows Updateの画面です。",
+        "expected_reading": "ウィンドオズ",
+        "expected_accent": 5,
+        "matches": [
+          {
+            "start_mora": 4,
+            "end_mora": 8,
+            "mora_count": 5,
+            "phrase_indexes": [
+              1
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 8,
+        "timestamp_sec": 34.396,
+        "context": "今回、2026年10月13日に更新の終了とされているのは、Windows 11のうち、バージョン24H2のHome、Pro、Pro Education、Pro for Workstationsです。",
+        "expected_reading": "ウィンドオズ",
+        "expected_accent": 5,
+        "matches": [
+          {
+            "start_mora": 42,
+            "end_mora": 46,
+            "mora_count": 5,
+            "phrase_indexes": [
+              12
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 9,
+        "timestamp_sec": 50.504,
+        "context": "これは、Windows 11全体が10月13日に終了する、という意味ではありません。",
+        "expected_reading": "ウィンドオズ",
+        "expected_accent": 5,
+        "matches": [
+          {
+            "start_mora": 3,
+            "end_mora": 7,
+            "mora_count": 5,
+            "phrase_indexes": [
+              1
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 14,
+        "timestamp_sec": 76.244,
+        "context": "下のほうにある、Windowsの仕様を見てください。",
+        "expected_reading": "ウィンドオズ",
+        "expected_accent": 5,
+        "matches": [
+          {
+            "start_mora": 8,
+            "end_mora": 12,
+            "mora_count": 5,
+            "phrase_indexes": [
+              3
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 20,
+        "timestamp_sec": 104.36,
+        "context": "デバイスの仕様という見出しの下で、Windowsの仕様を探します。",
+        "expected_reading": "ウィンドオズ",
+        "expected_accent": 5,
+        "matches": [
+          {
+            "start_mora": 18,
+            "end_mora": 22,
+            "mora_count": 5,
+            "phrase_indexes": [
+              5
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 22,
+        "timestamp_sec": 114.449,
+        "context": "二つ目は、Windows Updateです。",
+        "expected_reading": "ウィンドオズ",
+        "expected_accent": 5,
+        "matches": [
+          {
+            "start_mora": 5,
+            "end_mora": 9,
+            "mora_count": 5,
+            "phrase_indexes": [
+              1
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 23,
+        "timestamp_sec": 117.401,
+        "context": "設定から、Windows Updateを開きます。",
+        "expected_reading": "ウィンドオズ",
+        "expected_accent": 5,
+        "matches": [
+          {
+            "start_mora": 6,
+            "end_mora": 10,
+            "mora_count": 5,
+            "phrase_indexes": [
+              1
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 25,
+        "timestamp_sec": 123.789,
+        "context": "更新が準備できている場合は、Windows 11 version 25H2のダウンロードとインストールが表示されます。",
+        "expected_reading": "ウィンドオズ",
+        "expected_accent": 5,
+        "matches": [
+          {
+            "start_mora": 17,
+            "end_mora": 21,
+            "mora_count": 5,
+            "phrase_indexes": [
+              5
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 37,
+        "timestamp_sec": 195.951,
+        "context": "Microsoftは、26H1を既存のパソコンへWindows Updateで提供しないと説明しています。",
+        "expected_reading": "ウィンドオズ",
+        "expected_accent": 5,
+        "matches": [
+          {
+            "start_mora": 28,
+            "end_mora": 32,
+            "mora_count": 5,
+            "phrase_indexes": [
+              6
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 39,
+        "timestamp_sec": 212.376,
+        "context": "まずは、いまのWindows Updateを最新の状態にします。",
+        "expected_reading": "ウィンドオズ",
+        "expected_accent": 5,
+        "matches": [
+          {
+            "start_mora": 6,
+            "end_mora": 10,
+            "mora_count": 5,
+            "phrase_indexes": [
+              2
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 47,
+        "timestamp_sec": 260.815,
+        "context": "まず、バージョンを確認し、Windows Updateを確認する。これが、いま行う順番です。",
+        "expected_reading": "ウィンドオズ",
+        "expected_accent": 5,
+        "matches": [
+          {
+            "start_mora": 12,
+            "end_mora": 16,
+            "mora_count": 5,
+            "phrase_indexes": [
+              4
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 49,
+        "timestamp_sec": 271.0,
+        "context": "一つ目、自分のWindowsのバージョンを確認する。",
+        "expected_reading": "ウィンドオズ",
+        "expected_accent": 5,
+        "matches": [
+          {
+            "start_mora": 8,
+            "end_mora": 12,
+            "mora_count": 5,
+            "phrase_indexes": [
+              2
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 50,
+        "timestamp_sec": 274.699,
+        "context": "二つ目、Windows Updateで更新プログラムを確認する。",
+        "expected_reading": "ウィンドオズ",
+        "expected_accent": 5,
+        "matches": [
+          {
+            "start_mora": 4,
+            "end_mora": 8,
+            "mora_count": 5,
+            "phrase_indexes": [
+              1
+            ],
+            "accent_values": [
+              5
+            ],
+            "mora_text": [
+              "ウィ",
+              "ン",
+              "ド",
+              "オ",
+              "ズ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      }
+    ],
+    "Update": [
+      {
+        "segment_id": 5,
+        "timestamp_sec": 24.149,
+        "context": "二つ目、Windows Updateの画面です。",
+        "expected_reading": "アップデエト",
+        "expected_accent": 6,
+        "matches": [
+          {
+            "start_mora": 9,
+            "end_mora": 14,
+            "mora_count": 6,
+            "phrase_indexes": [
+              2
+            ],
+            "accent_values": [
+              6
+            ],
+            "mora_text": [
+              "ア",
+              "ッ",
+              "プ",
+              "デ",
+              "エ",
+              "ト"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 22,
+        "timestamp_sec": 114.449,
+        "context": "二つ目は、Windows Updateです。",
+        "expected_reading": "アップデエト",
+        "expected_accent": 6,
+        "matches": [
+          {
+            "start_mora": 10,
+            "end_mora": 15,
+            "mora_count": 6,
+            "phrase_indexes": [
+              2
+            ],
+            "accent_values": [
+              6
+            ],
+            "mora_text": [
+              "ア",
+              "ッ",
+              "プ",
+              "デ",
+              "エ",
+              "ト"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 23,
+        "timestamp_sec": 117.401,
+        "context": "設定から、Windows Updateを開きます。",
+        "expected_reading": "アップデエト",
+        "expected_accent": 6,
+        "matches": [
+          {
+            "start_mora": 11,
+            "end_mora": 16,
+            "mora_count": 6,
+            "phrase_indexes": [
+              2
+            ],
+            "accent_values": [
+              6
+            ],
+            "mora_text": [
+              "ア",
+              "ッ",
+              "プ",
+              "デ",
+              "エ",
+              "ト"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 37,
+        "timestamp_sec": 195.951,
+        "context": "Microsoftは、26H1を既存のパソコンへWindows Updateで提供しないと説明しています。",
+        "expected_reading": "アップデエト",
+        "expected_accent": 6,
+        "matches": [
+          {
+            "start_mora": 33,
+            "end_mora": 38,
+            "mora_count": 6,
+            "phrase_indexes": [
+              7
+            ],
+            "accent_values": [
+              6
+            ],
+            "mora_text": [
+              "ア",
+              "ッ",
+              "プ",
+              "デ",
+              "エ",
+              "ト"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 39,
+        "timestamp_sec": 212.376,
+        "context": "まずは、いまのWindows Updateを最新の状態にします。",
+        "expected_reading": "アップデエト",
+        "expected_accent": 6,
+        "matches": [
+          {
+            "start_mora": 11,
+            "end_mora": 16,
+            "mora_count": 6,
+            "phrase_indexes": [
+              3
+            ],
+            "accent_values": [
+              6
+            ],
+            "mora_text": [
+              "ア",
+              "ッ",
+              "プ",
+              "デ",
+              "エ",
+              "ト"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 47,
+        "timestamp_sec": 260.815,
+        "context": "まず、バージョンを確認し、Windows Updateを確認する。これが、いま行う順番です。",
+        "expected_reading": "アップデエト",
+        "expected_accent": 6,
+        "matches": [
+          {
+            "start_mora": 17,
+            "end_mora": 22,
+            "mora_count": 6,
+            "phrase_indexes": [
+              5
+            ],
+            "accent_values": [
+              6
+            ],
+            "mora_text": [
+              "ア",
+              "ッ",
+              "プ",
+              "デ",
+              "エ",
+              "ト"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      },
+      {
+        "segment_id": 50,
+        "timestamp_sec": 274.699,
+        "context": "二つ目、Windows Updateで更新プログラムを確認する。",
+        "expected_reading": "アップデエト",
+        "expected_accent": 6,
+        "matches": [
+          {
+            "start_mora": 9,
+            "end_mora": 14,
+            "mora_count": 6,
+            "phrase_indexes": [
+              2
+            ],
+            "accent_values": [
+              6
+            ],
+            "mora_text": [
+              "ア",
+              "ッ",
+              "プ",
+              "デ",
+              "エ",
+              "ト"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      }
+    ],
+    "ID": [
+      {
+        "segment_id": 19,
+        "timestamp_sec": 98.695,
+        "context": "個人名やIDが見えている場合は、動画や人に見せる前に隠してください。",
+        "expected_reading": "アイディイ",
+        "expected_accent": 3,
+        "matches": [
+          {
+            "start_mora": 6,
+            "end_mora": 9,
+            "mora_count": 4,
+            "phrase_indexes": [
+              1
+            ],
+            "accent_values": [
+              3
+            ],
+            "mora_text": [
+              "ア",
+              "イ",
+              "ディ",
+              "イ"
+            ]
+          }
+        ],
+        "approved_pronunciation_match": true
+      }
+    ]
+  },
+  "context_rules": {
+    "方": {
+      "person_segments": [
+        1,
+        11
+      ],
+      "direction_or_comparison_segments": [
+        6,
+        38
+      ]
+    }
+  }
+}

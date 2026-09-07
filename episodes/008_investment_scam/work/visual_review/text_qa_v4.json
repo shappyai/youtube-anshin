@@ -1,0 +1,185 @@
+{
+  "summary": {
+    "total": 5,
+    "auto_fail": 0,
+    "vision_review_required": 5,
+    "fallback_after": 2
+  },
+  "scenes": [
+    {
+      "scene_id": "SCENE-001",
+      "text_render_mode": "imagegen_native",
+      "headline": "その投資広告、\n本物？",
+      "support_text": "LINEに誘導されたら、振り込む前に、3つ確認",
+      "auto_passed": [
+        "文言仕様がsceneに定義されている",
+        "生成画像が配置されている",
+        "アスペクト比がおおよそ16:9",
+        "画像サイズが1280x720以上",
+        "SHA-256: 1ff3a5ba86614008..."
+      ],
+      "auto_fail": [],
+      "vision_checklist": [
+        "指定文言と一致している",
+        "誤字なし",
+        "脱字なし",
+        "余計な文字なし",
+        "文字化けなし",
+        "不自然な漢字置換なし",
+        "行順が指定どおり",
+        "文字切れなし",
+        "画像端にはみ出していない",
+        "人物・重要オブジェクトと重なっていない",
+        "背景とのコントラスト十分",
+        "スマホ縮小時でも主見出しが読める"
+      ],
+      "vision_status": "pending",
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "image_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\assets\\generated_ai\\scene_001.png"
+    },
+    {
+      "scene_id": "SCENE-004",
+      "text_render_mode": "imagegen_native",
+      "headline": "広告の有名人を、\nそのまま信用しない",
+      "support_text": "まずは、そのまま信じない",
+      "auto_passed": [
+        "文言仕様がsceneに定義されている",
+        "生成画像が配置されている",
+        "アスペクト比がおおよそ16:9",
+        "画像サイズが1280x720以上",
+        "SHA-256: b7f26b03ab524c05..."
+      ],
+      "auto_fail": [],
+      "vision_checklist": [
+        "指定文言と一致している",
+        "誤字なし",
+        "脱字なし",
+        "余計な文字なし",
+        "文字化けなし",
+        "不自然な漢字置換なし",
+        "行順が指定どおり",
+        "文字切れなし",
+        "画像端にはみ出していない",
+        "人物・重要オブジェクトと重なっていない",
+        "背景とのコントラスト十分",
+        "スマホ縮小時でも主見出しが読める"
+      ],
+      "vision_status": "pending",
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "image_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\assets\\generated_ai\\scene_004.png"
+    },
+    {
+      "scene_id": "SCENE-006",
+      "text_render_mode": "imagegen_native",
+      "headline": "本人が、すすめているとは、\n限らない",
+      "support_text": "写真や動画を無断で使った広告が増加（警察庁）",
+      "auto_passed": [
+        "文言仕様がsceneに定義されている",
+        "生成画像が配置されている",
+        "アスペクト比がおおよそ16:9",
+        "画像サイズが1280x720以上",
+        "SHA-256: e3a65a38186721c6..."
+      ],
+      "auto_fail": [],
+      "vision_checklist": [
+        "指定文言と一致している",
+        "誤字なし",
+        "脱字なし",
+        "余計な文字なし",
+        "文字化けなし",
+        "不自然な漢字置換なし",
+        "行順が指定どおり",
+        "文字切れなし",
+        "画像端にはみ出していない",
+        "人物・重要オブジェクトと重なっていない",
+        "背景とのコントラスト十分",
+        "スマホ縮小時でも主見出しが読める"
+      ],
+      "vision_status": "pending",
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "image_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\assets\\generated_ai\\scene_006.png"
+    },
+    {
+      "scene_id": "SCENE-008",
+      "text_render_mode": "imagegen_native",
+      "headline": "LINEに誘導されたら、\n一度、止まる",
+      "support_text": "グループに移る前に、確認",
+      "auto_passed": [
+        "文言仕様がsceneに定義されている",
+        "生成画像が配置されている",
+        "アスペクト比がおおよそ16:9",
+        "画像サイズが1280x720以上",
+        "SHA-256: 617bb03e5e2e6d38..."
+      ],
+      "auto_fail": [],
+      "vision_checklist": [
+        "指定文言と一致している",
+        "誤字なし",
+        "脱字なし",
+        "余計な文字なし",
+        "文字化けなし",
+        "不自然な漢字置換なし",
+        "行順が指定どおり",
+        "文字切れなし",
+        "画像端にはみ出していない",
+        "人物・重要オブジェクトと重なっていない",
+        "背景とのコントラスト十分",
+        "スマホ縮小時でも主見出しが読める"
+      ],
+      "vision_status": "pending",
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "image_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\assets\\generated_ai\\scene_008.png"
+    },
+    {
+      "scene_id": "SCENE-013",
+      "text_render_mode": "imagegen_native",
+      "headline": "送金する前に、\n登録と振込先を確認",
+      "support_text": "この2つが、最後の確認",
+      "auto_passed": [
+        "文言仕様がsceneに定義されている",
+        "生成画像が配置されている",
+        "アスペクト比がおおよそ16:9",
+        "画像サイズが1280x720以上",
+        "SHA-256: 7e375e99f236982b..."
+      ],
+      "auto_fail": [],
+      "vision_checklist": [
+        "指定文言と一致している",
+        "誤字なし",
+        "脱字なし",
+        "余計な文字なし",
+        "文字化けなし",
+        "不自然な漢字置換なし",
+        "行順が指定どおり",
+        "文字切れなし",
+        "画像端にはみ出していない",
+        "人物・重要オブジェクトと重なっていない",
+        "背景とのコントラスト十分",
+        "スマホ縮小時でも主見出しが読める"
+      ],
+      "vision_status": "pending",
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "image_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\assets\\generated_ai\\scene_013.png"
+    }
+  ]
+}

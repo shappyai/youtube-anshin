@@ -1,0 +1,591 @@
+{
+  "short_id": "Short002",
+  "version": "v4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "audio_path": "audio/narration_v4.wav",
+  "audio_reused_except_targets": true,
+  "audio_target_segments": [
+    7
+  ],
+  "core_scene_count": 3,
+  "visual_beats": [
+    {
+      "id": "A1",
+      "index": 1,
+      "core_scene": "A",
+      "start_sec": 0.0,
+      "end_sec": 1.664,
+      "duration_sec": 1.664,
+      "kind": "imagegen",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "purpose": "person_hook",
+      "headline_lines": [
+        "このメール、",
+        "本物？"
+      ],
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "id": "A2",
+      "index": 2,
+      "core_scene": "A",
+      "start_sec": 1.664,
+      "end_sec": 3.328,
+      "duration_sec": 1.664,
+      "kind": "imagegen",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "purpose": "phone_crop",
+      "headline_lines": [
+        "このメール、",
+        "本物？"
+      ],
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "id": "B1",
+      "index": 3,
+      "core_scene": "B",
+      "start_sec": 3.328,
+      "end_sec": 8.273,
+      "duration_sec": 4.945,
+      "kind": "renderer",
+      "asset": "assets/renderer_v4/privacy_mask_stage_0.png",
+      "purpose": "generic_document_before_mask",
+      "headline_lines": [],
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "id": "B2",
+      "index": 4,
+      "core_scene": "B",
+      "start_sec": 8.273,
+      "end_sec": 13.217,
+      "duration_sec": 4.945,
+      "kind": "renderer",
+      "asset": "assets/renderer_v4/privacy_mask_stage_1.png",
+      "purpose": "name_and_phone_masked",
+      "headline_lines": [],
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "id": "B3",
+      "index": 5,
+      "core_scene": "B",
+      "start_sec": 13.217,
+      "end_sec": 18.162,
+      "duration_sec": 4.945,
+      "kind": "renderer",
+      "asset": "assets/renderer_v4/privacy_mask_stage_2.png",
+      "purpose": "all_pii_regions_masked",
+      "headline_lines": [],
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "id": "C1",
+      "index": 6,
+      "core_scene": "C",
+      "start_sec": 18.162,
+      "end_sec": 22.854,
+      "duration_sec": 4.692,
+      "kind": "imagegen",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "purpose": "official_confirmation",
+      "headline_lines": [
+        "最後は",
+        "公式から確認"
+      ],
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "id": "C2",
+      "index": 7,
+      "core_scene": "C",
+      "start_sec": 22.854,
+      "end_sec": 27.546,
+      "duration_sec": 4.692,
+      "kind": "imagegen",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "purpose": "official_confirmation_close",
+      "headline_lines": [
+        "最後は",
+        "公式から確認"
+      ],
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "id": "C3",
+      "index": 8,
+      "core_scene": "C",
+      "start_sec": 27.546,
+      "end_sec": 32.239,
+      "duration_sec": 4.692,
+      "kind": "imagegen",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "purpose": "conclusion_cta",
+      "headline_lines": [
+        "最後は",
+        "公式から確認"
+      ],
+      "motion": "slow_crop_push_in",
+      "cta_lockup": true
+    }
+  ],
+  "frame_rows": [
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0001.png",
+      "start_sec": 0.0,
+      "end_sec": 1.664,
+      "duration_sec": 1.664,
+      "beat_id": "A1",
+      "beat_index": 1,
+      "core_scene": "A",
+      "purpose": "person_hook",
+      "segment_id": 1,
+      "cue_number": 1,
+      "subtitle": [
+        "AIに聞く前に",
+        "一呼吸"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0002.png",
+      "start_sec": 1.664,
+      "end_sec": 3.328,
+      "duration_sec": 1.664,
+      "beat_id": "A2",
+      "beat_index": 2,
+      "core_scene": "A",
+      "purpose": "phone_crop",
+      "segment_id": 1,
+      "cue_number": 1,
+      "subtitle": [
+        "AIに聞く前に",
+        "一呼吸"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0003.png",
+      "start_sec": 3.328,
+      "end_sec": 3.398,
+      "duration_sec": 0.07,
+      "beat_id": "B1",
+      "beat_index": 3,
+      "core_scene": "B",
+      "purpose": "generic_document_before_mask",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "renderer_native",
+      "asset": "assets/renderer_v4/privacy_mask_stage_0.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0004.png",
+      "start_sec": 3.398,
+      "end_sec": 8.272667,
+      "duration_sec": 4.874667,
+      "beat_id": "B1",
+      "beat_index": 3,
+      "core_scene": "B",
+      "purpose": "generic_document_before_mask",
+      "segment_id": 2,
+      "cue_number": 2,
+      "subtitle": [
+        "名前や番号は",
+        "先に隠す"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": "assets/renderer_v4/privacy_mask_stage_0.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0005.png",
+      "start_sec": 8.272667,
+      "end_sec": 9.371333,
+      "duration_sec": 1.098666,
+      "beat_id": "B2",
+      "beat_index": 4,
+      "core_scene": "B",
+      "purpose": "name_and_phone_masked",
+      "segment_id": 2,
+      "cue_number": 2,
+      "subtitle": [
+        "名前や番号は",
+        "先に隠す"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": "assets/renderer_v4/privacy_mask_stage_1.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0006.png",
+      "start_sec": 9.371333,
+      "end_sec": 9.441333,
+      "duration_sec": 0.07,
+      "beat_id": "B2",
+      "beat_index": 4,
+      "core_scene": "B",
+      "purpose": "name_and_phone_masked",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "renderer_native",
+      "asset": "assets/renderer_v4/privacy_mask_stage_1.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0007.png",
+      "start_sec": 9.441333,
+      "end_sec": 13.217333,
+      "duration_sec": 3.776,
+      "beat_id": "B2",
+      "beat_index": 4,
+      "core_scene": "B",
+      "purpose": "name_and_phone_masked",
+      "segment_id": 3,
+      "cue_number": 3,
+      "subtitle": [
+        "AIは整理の補助",
+        "怪しい点を洗い出す"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": "assets/renderer_v4/privacy_mask_stage_1.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0008.png",
+      "start_sec": 13.217333,
+      "end_sec": 14.444,
+      "duration_sec": 1.226667,
+      "beat_id": "B3",
+      "beat_index": 5,
+      "core_scene": "B",
+      "purpose": "all_pii_regions_masked",
+      "segment_id": 3,
+      "cue_number": 3,
+      "subtitle": [
+        "AIは整理の補助",
+        "怪しい点を洗い出す"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": "assets/renderer_v4/privacy_mask_stage_2.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0009.png",
+      "start_sec": 14.444,
+      "end_sec": 14.514,
+      "duration_sec": 0.07,
+      "beat_id": "B3",
+      "beat_index": 5,
+      "core_scene": "B",
+      "purpose": "all_pii_regions_masked",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "renderer_native",
+      "asset": "assets/renderer_v4/privacy_mask_stage_2.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0010.png",
+      "start_sec": 14.514,
+      "end_sec": 18.162,
+      "duration_sec": 3.648,
+      "beat_id": "B3",
+      "beat_index": 5,
+      "core_scene": "B",
+      "purpose": "all_pii_regions_masked",
+      "segment_id": 4,
+      "cue_number": 4,
+      "subtitle": [
+        "AIだけで決めない"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": "assets/renderer_v4/privacy_mask_stage_2.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0011.png",
+      "start_sec": 18.162,
+      "end_sec": 18.232,
+      "duration_sec": 0.07,
+      "beat_id": "C1",
+      "beat_index": 6,
+      "core_scene": "C",
+      "purpose": "official_confirmation",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0012.png",
+      "start_sec": 18.232,
+      "end_sec": 20.294222,
+      "duration_sec": 2.062222,
+      "beat_id": "C1",
+      "beat_index": 6,
+      "core_scene": "C",
+      "purpose": "official_confirmation",
+      "segment_id": 5,
+      "cue_number": 5,
+      "subtitle": [
+        "メールのリンクは開かない"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0013.png",
+      "start_sec": 20.294222,
+      "end_sec": 22.356444,
+      "duration_sec": 2.062222,
+      "beat_id": "C1",
+      "beat_index": 6,
+      "core_scene": "C",
+      "purpose": "official_confirmation",
+      "segment_id": 5,
+      "cue_number": 6,
+      "subtitle": [
+        "公式アプリから"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0014.png",
+      "start_sec": 22.356444,
+      "end_sec": 22.854222,
+      "duration_sec": 0.497778,
+      "beat_id": "C1",
+      "beat_index": 6,
+      "core_scene": "C",
+      "purpose": "official_confirmation",
+      "segment_id": 5,
+      "cue_number": 7,
+      "subtitle": [
+        "ブックマークから確認"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0015.png",
+      "start_sec": 22.854222,
+      "end_sec": 24.418667,
+      "duration_sec": 1.564445,
+      "beat_id": "C2",
+      "beat_index": 7,
+      "core_scene": "C",
+      "purpose": "official_confirmation_close",
+      "segment_id": 5,
+      "cue_number": 7,
+      "subtitle": [
+        "ブックマークから確認"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0016.png",
+      "start_sec": 24.418667,
+      "end_sec": 24.488667,
+      "duration_sec": 0.07,
+      "beat_id": "C2",
+      "beat_index": 7,
+      "core_scene": "C",
+      "purpose": "official_confirmation_close",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0017.png",
+      "start_sec": 24.488667,
+      "end_sec": 27.546444,
+      "duration_sec": 3.057777,
+      "beat_id": "C2",
+      "beat_index": 7,
+      "core_scene": "C",
+      "purpose": "official_confirmation_close",
+      "segment_id": 6,
+      "cue_number": 8,
+      "subtitle": [
+        "AIは補助",
+        "確認は公式へ"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0018.png",
+      "start_sec": 27.546444,
+      "end_sec": 27.678,
+      "duration_sec": 0.131556,
+      "beat_id": "C3",
+      "beat_index": 8,
+      "core_scene": "C",
+      "purpose": "conclusion_cta",
+      "segment_id": 6,
+      "cue_number": 8,
+      "subtitle": [
+        "AIは補助",
+        "確認は公式へ"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": true
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0019.png",
+      "start_sec": 27.678,
+      "end_sec": 27.748,
+      "duration_sec": 0.07,
+      "beat_id": "C3",
+      "beat_index": 8,
+      "core_scene": "C",
+      "purpose": "conclusion_cta",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": true
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v4\\frame_0020.png",
+      "start_sec": 27.748,
+      "end_sec": 32.238667,
+      "duration_sec": 4.490667,
+      "beat_id": "C3",
+      "beat_index": 8,
+      "core_scene": "C",
+      "purpose": "conclusion_cta",
+      "segment_id": 7,
+      "cue_number": 9,
+      "subtitle": [
+        "次に困ったときのために",
+        "このチャンネルを登録"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": true
+    }
+  ],
+  "mode_counts": {
+    "imagegen_native": 12,
+    "official_capture": 0,
+    "official_capture_reference": 0,
+    "renderer_native": 8
+  },
+  "cta": {
+    "dedicated_scene": 0,
+    "spoken_text": "次に困ったときのために、このチャンネルを登録しておいてください。",
+    "display_lines": [
+      "次に困ったときのために",
+      "このチャンネルを登録"
+    ],
+    "channel_icon": "local/channel/icon.png",
+    "channel_name": "大人のデジタル安心室",
+    "pseudo_subscribe_ui": 0
+  },
+  "no_image_text_hybrid": true,
+  "viewer_facing_short_id": 0,
+  "fake_ui": 0,
+  "official_ui_ai_reconstruction": 0,
+  "privacy_fail": 0,
+  "pitch_qa": [],
+  "qa_metrics": {
+    "visual_beat_count": 8,
+    "visual_change_interval_target_sec": [
+      2,
+      4
+    ],
+    "mean_meaningful_visual_change_interval_sec": 4.03,
+    "max_visual_beat_duration_sec": 4.94,
+    "static_hold_over_5sec": 0,
+    "static_hold_over_7sec": 0,
+    "shorts_slideshow_feel": "1/5_REVIEW",
+    "shorts_native_feel": "4/5_REVIEW",
+    "visual_beat_durations_sec": [
+      1.66,
+      1.66,
+      4.94,
+      4.94,
+      4.94,
+      4.69,
+      4.69,
+      4.69
+    ],
+    "timeline_coverage_sec": 32.24,
+    "audio_duration_sec": 32.24
+  }
+}

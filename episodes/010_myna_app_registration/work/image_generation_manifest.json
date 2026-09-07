@@ -1,0 +1,191 @@
+{
+  "version": "2.0",
+  "prompt_contract": "one_scene_full_frame_text_v2",
+  "image_count": 3,
+  "scenes": [
+    {
+      "scene_id": "SCENE-001",
+      "filename": "scene_001.png",
+      "narration": "マイナアプリ、最初に何をすればいい？今回は、初めて使うときの「利用登録」を、順番に確認します。",
+      "main_message": "初めて使うときの利用登録を順番に確認",
+      "headline": "マイナアプリ\n最初に何する？",
+      "support_text": "初回利用登録の順番を確認",
+      "duration": 9.0,
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "text_spec": {
+        "headline": "マイナアプリ\n最初に何する？",
+        "support_text": "初回利用登録の順番を確認",
+        "placement": "calm low-detail area, upper-left preferred",
+        "style": "white Japanese type with dark blue outline, high contrast",
+        "aspect_ratio": "16:9"
+      },
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "static",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Calm polished editorial illustration for older Japanese viewers. An older Japanese adult holding a generic smartphone on the right, soft blue and pale green abstract shapes, gentle magnifying-glass motif, generous quiet space on the left, bottom 180px quiet for subtitles. Render exactly these two Japanese lines: マイナアプリ / 最初に何する？. No other readable text, no official UI, no app logo, no government mark, no watermark, no collage, no split panel, no contact sheet. Generation contract: render the declared Japanese text inside the image exactly as written (imagegen_native).",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-017",
+      "filename": "scene_017.png",
+      "narration": "スマホの読み取り位置は機種ごとに違うので、同じ場所だと一律に決めません。",
+      "main_message": "スマホの背面をカードに重ねる動作",
+      "headline": "カードを重ねて読み取る",
+      "support_text": "読み取り位置は機種ごとに違います",
+      "duration": 6.9,
+      "render_mode": "gpt_image",
+      "text_render_mode": "no_text",
+      "text_spec": {
+        "headline": "カードを重ねて読み取る",
+        "support_text": "読み取り位置は機種ごとに違います",
+        "placement": "calm low-detail area, upper-left preferred",
+        "style": "white Japanese type with dark blue outline, high contrast",
+        "aspect_ratio": "16:9"
+      },
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "very_slow_zoom",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Clean calm educational illustration of hands gently holding a generic smartphone over a plain abstract contactless card to communicate NFC reading. Soft blue and pale green background with a single subtle contactless wave motif. Full-frame 16:9 with bottom 180px quiet for subtitles. No readable text, no letters, no numbers, no logo, no QR code, no government emblem, no official app UI, no realistic My Number Card design, no watermark, no collage, no split panel, no contact sheet. Generation contract: this is one finished standalone scene with NO readable text anywhere in the image.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area",
+        "any readable text, letters, numbers, words, labels, signage, or captions"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-020",
+      "filename": "scene_020.png",
+      "narration": "マイナアプリを初めて使う人は、まずこの順番で落ち着いて確認してください。役に立ったら、チャンネル登録して、次回も一緒に確認しましょう。",
+      "main_message": "初めて使う人は順番に確認",
+      "headline": "この順番で確認",
+      "support_text": "初回利用登録を落ち着いて進める",
+      "duration": 12.9,
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "text_spec": {
+        "headline": "この順番で確認",
+        "support_text": "初回利用登録を落ち着いて進める",
+        "placement": "calm low-detail area, upper-left preferred",
+        "style": "white Japanese type with dark blue outline, high contrast",
+        "aspect_ratio": "16:9"
+      },
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "very_slow_zoom",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Warm reassuring editorial illustration for older Japanese viewers. An older Japanese adult calmly checking a generic smartphone and a plain abstract card at a table, soft blue and pale green home atmosphere, three gentle rounded shapes with no text, generous quiet space on the left, bottom 180px quiet for subtitles. Render exactly this one Japanese headline: この順番で確認. No other readable text, no logo, no official interface, no realistic My Number Card design, no watermark, no collage, no split panel, no contact sheet, no pseudo subscribe button. Generation contract: render the declared Japanese text inside the image exactly as written (imagegen_native).",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    }
+  ]
+}

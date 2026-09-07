@@ -1,0 +1,8 @@
+{
+  "30": {
+    "source": "human_audio_override",
+    "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\human_approved\\030.wav",
+    "wav_sha256": "7B534892A4AC893CC7F1D0D483B67A8A94E690353DB652EA16B0077C3F4C7106",
+    "automatic_regeneration": false
+  }
+}

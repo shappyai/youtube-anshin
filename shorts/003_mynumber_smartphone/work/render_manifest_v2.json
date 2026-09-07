@@ -1,0 +1,147 @@
+{
+  "short_id": "Short003",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "audio_reused": true,
+  "audio_gap_sec": 0.07,
+  "frame_rows": [
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v2\\scene_01_seg_01_cue_01.png",
+      "duration_sec": 2.8906666666666667,
+      "start_sec": 0.0,
+      "end_sec": 2.8906666666666667,
+      "scene": 1,
+      "segment_id": 1,
+      "cue_index": 1,
+      "subtitle": [
+        "カードを",
+        "スマホに？"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "shorts/003_mynumber_smartphone/assets/imagegen_native_v2/normalized/scene_01_hook.png"
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v2\\scene_02_seg_02_cue_01.png",
+      "duration_sec": 1.5264000000000002,
+      "start_sec": 2.960666666666666,
+      "end_sec": 4.487066666666666,
+      "scene": 2,
+      "segment_id": 2,
+      "cue_index": 1,
+      "subtitle": [
+        "マイナポータル"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v2\\scene_02_seg_02_cue_02.png",
+      "duration_sec": 1.5263999999999998,
+      "start_sec": 4.487066666666666,
+      "end_sec": 6.013466666666666,
+      "scene": 2,
+      "segment_id": 2,
+      "cue_index": 2,
+      "subtitle": [
+        "コンビニの証明書"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v2\\scene_02_seg_02_cue_03.png",
+      "duration_sec": 2.0351999999999997,
+      "start_sec": 6.013466666666666,
+      "end_sec": 8.048666666666666,
+      "scene": 2,
+      "segment_id": 2,
+      "cue_index": 3,
+      "subtitle": [
+        "e-Taxなど"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v2\\scene_03_seg_03_cue_01.png",
+      "duration_sec": 5.514666666666667,
+      "start_sec": 8.118666666666666,
+      "end_sec": 13.633333333333333,
+      "scene": 3,
+      "segment_id": 3,
+      "cue_index": 1,
+      "subtitle": [
+        "保険証として",
+        "使える場合も"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "shorts/003_mynumber_smartphone/assets/imagegen_native_v2/normalized/scene_03_health.png"
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v2\\scene_04_seg_04_cue_01.png",
+      "duration_sec": 4.885333333333335,
+      "start_sec": 13.703333333333333,
+      "end_sec": 18.58866666666667,
+      "scene": 4,
+      "segment_id": 4,
+      "cue_index": 1,
+      "subtitle": [
+        "iPhone / Androidで違いあり"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v2\\scene_05_seg_05_cue_01.png",
+      "duration_sec": 2.150400000000001,
+      "start_sec": 18.65866666666667,
+      "end_sec": 20.80906666666667,
+      "scene": 5,
+      "segment_id": 5,
+      "cue_index": 1,
+      "subtitle": [
+        "実物カードが必要な場面も"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v2\\scene_05_seg_05_cue_02.png",
+      "duration_sec": 3.2256,
+      "start_sec": 20.80906666666667,
+      "end_sec": 24.03466666666667,
+      "scene": 5,
+      "segment_id": 5,
+      "cue_index": 2,
+      "subtitle": [
+        "スマホだけで全部、",
+        "ではありません"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "shorts/003_mynumber_smartphone/assets/imagegen_native_v2/normalized/scene_05_conclusion.png"
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v2\\scene_06_seg_06_cue_01.png",
+      "duration_sec": 3.2319999999999993,
+      "start_sec": 24.10466666666667,
+      "end_sec": 27.33666666666667,
+      "scene": 6,
+      "segment_id": 6,
+      "cue_index": 1,
+      "subtitle": [
+        "困ったときのために",
+        "登録しておいてください"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    }
+  ],
+  "mode_counts": {
+    "imagegen_native": 3,
+    "renderer_native": 6
+  },
+  "no_image_text_hybrid": true
+}

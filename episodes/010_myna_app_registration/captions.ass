@@ -1,0 +1,53 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Yu Gothic,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H0016263F,-1,0,0,0,100,100,0,0,1,4,0,2,60,60,25,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.65,Default,,0,0,0,,マイナアプリを入れて、開いてみた。
+Dialogue: 0,0:00:02.65,0:00:05.25,Default,,0,0,0,,でも、最初に何をすればいい？
+Dialogue: 0,0:00:05.40,0:00:11.36,Default,,0,0,0,,初めて使うときの「利用登録」を順番に確認
+Dialogue: 0,0:00:11.51,0:00:13.61,Default,,0,0,0,,規約 → 利用登録 → 通知 → 
+Dialogue: 0,0:00:13.61,0:00:16.15,Default,,0,0,0,,画面ロック → 本人認証 → はじめる
+Dialogue: 0,0:00:16.30,0:00:21.56,Default,,0,0,0,,準備：最新版 / 画面ロック / 本人確認
+Dialogue: 0,0:00:21.71,0:00:25.20,Default,,0,0,0,,実物カードなら：数字4桁の暗証番号
+Dialogue: 0,0:00:25.35,0:00:28.37,Default,,0,0,0,,利用規約を確認
+Dialogue: 0,0:00:28.52,0:00:30.19,Default,,0,0,0,,マイナアプリを開く
+Dialogue: 0,0:00:30.34,0:00:34.81,Default,,0,0,0,,利用規約とプライバシーポリシーを確認
+Dialogue: 0,0:00:34.96,0:00:38.49,Default,,0,0,0,,確認したら、同意して次へ
+Dialogue: 0,0:00:38.64,0:00:42.11,Default,,0,0,0,,利用登録をはじめる画面で、次へ
+Dialogue: 0,0:00:42.26,0:00:45.48,Default,,0,0,0,,アプリの利用登録
+Dialogue: 0,0:00:45.63,0:00:50.93,Default,,0,0,0,,マイナポータル利用者登録とは別
+Dialogue: 0,0:00:51.08,0:00:53.65,Default,,0,0,0,,通知を受け取るか確認
+Dialogue: 0,0:00:53.80,0:00:56.82,Default,,0,0,0,,通知はあとで変更できます
+Dialogue: 0,0:00:56.97,0:01:01.11,Default,,0,0,0,,通知を許可しないと必ず使えない、ではありません
+Dialogue: 0,0:01:01.26,0:01:04.74,Default,,0,0,0,,端末のロックを利用する画面
+Dialogue: 0,0:01:04.89,0:01:11.68,Default,,0,0,0,,画面ロックでログインや認証を安全に
+Dialogue: 0,0:01:11.83,0:01:17.03,Default,,0,0,0,,画面ロック未設定なら、先にスマホ本体で設定
+Dialogue: 0,0:01:17.18,0:01:20.86,Default,,0,0,0,,アプリ本体の対応条件を補足
+Dialogue: 0,0:01:21.02,0:01:25.34,Default,,0,0,0,,iOS 16.4以上 / Android 11以上
+Dialogue: 0,0:01:25.48,0:01:33.10,Default,,0,0,0,,AndroidはNFC対応端末 / スマホ内カードは別条件
+Dialogue: 0,0:01:33.25,0:01:35.84,Default,,0,0,0,,本人認証の選択肢を選ぶ
+Dialogue: 0,0:01:35.99,0:01:43.89,Default,,0,0,0,,実物カード / iPhone / Androidから選ぶ
+Dialogue: 0,0:01:44.04,0:01:48.38,Default,,0,0,0,,実物カードの手順を中心に確認
+Dialogue: 0,0:01:48.53,0:01:51.95,Default,,0,0,0,,実物のマイナンバーカードを選ぶ
+Dialogue: 0,0:01:52.10,0:01:57.26,Default,,0,0,0,,利用者証明用電子証明書：数字4桁
+Dialogue: 0,0:01:57.42,0:02:02.64,Default,,0,0,0,,署名用パスワードとは別の暗証番号
+Dialogue: 0,0:02:02.79,0:02:07.08,Default,,0,0,0,,スマホの背面をカードに重ねる
+Dialogue: 0,0:02:07.23,0:02:11.58,Default,,0,0,0,,読み取り開始 → 終わるまで動かさず待つ
+Dialogue: 0,0:02:11.73,0:02:16.85,Default,,0,0,0,,読み取り位置は機種ごとに違います
+Dialogue: 0,0:02:17.00,0:02:22.80,Default,,0,0,0,,スマホ内のカード：顔認証や指紋認証
+Dialogue: 0,0:02:22.95,0:02:28.01,Default,,0,0,0,,iPhone・Androidの登録手順は別に確認
+Dialogue: 0,0:02:28.16,0:02:32.52,Default,,0,0,0,,認証が終わると、利用登録完了
+Dialogue: 0,0:02:32.67,0:02:36.88,Default,,0,0,0,,「はじめる」で利用開始
+Dialogue: 0,0:02:37.02,0:02:41.29,Default,,0,0,0,,ここまで来れば、初回利用登録は完了
+Dialogue: 0,0:02:41.44,0:02:50.46,Default,,0,0,0,,ログイン・保険証・スマホ用電子証明書は別手続き
+Dialogue: 0,0:02:50.60,0:02:59.04,Default,,0,0,0,,読み取れない場合は、別の確認へ
+Dialogue: 0,0:02:59.19,0:03:04.14,Default,,0,0,0,,ログインできないときは\N関連動画で確認
+Dialogue: 0,0:03:04.29,0:03:08.32,Default,,0,0,0,,規約 → 利用登録 → 通知 → 
+Dialogue: 0,0:03:08.32,0:03:12.77,Default,,0,0,0,,ロック → 本人認証 → はじめる
+Dialogue: 0,0:03:12.92,0:03:18.87,Default,,0,0,0,,実物カード：数字4桁とカード読み取り
+Dialogue: 0,0:03:19.02,0:03:24.34,Default,,0,0,0,,初めて使う人は、この順番で確認

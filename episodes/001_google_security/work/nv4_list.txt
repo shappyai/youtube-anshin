@@ -1,0 +1,2 @@
+file 'C:/Codex/260829_youtube-anshin/episodes/001_google_security/audio/narration_v3.mp3'
+file 'C:/Codex/260829_youtube-anshin/episodes/001_google_security/work/silence_103.mp3'

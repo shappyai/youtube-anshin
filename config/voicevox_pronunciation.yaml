@@ -1,0 +1,356 @@
+# config/voicevox_pronunciation.yaml
+#
+# VOICEVOX「剣崎雌雄」向けの単語単位の発音・アクセント調整用の設定ファイル。
+# 人間の試聴・GUIでの確認で確定した項目のみ登録する。
+# 未確認の単語の値を勝手に登録しないこと。
+#
+# 2つの方式:
+# 1) method: text_replacement
+#    「surface」表記を「to」に置き換えてから audio_query に渡す。
+#    VOICEVOX は文脈条件を持てないため、同じ表記でも文脈によって
+#    読みが異なる可能性がある場合は、該当segment単位で適用を制御する。
+# 2) method: accent_phrases
+#    audio_query のアクセント句を「accent_phrases」の構成に組み替え、
+#    /mora_length・/mora_pitch で再計算する（VOICEVOX GUIの
+#    アクセント編集と同じ処理）。
+pronunciations:
+  - surface: "開けます"
+    method: text_replacement
+    to: "ひらけます"
+    scope: "episodes/001（本編）の「開けます」表記すべて"
+    note: >-
+      2026-08-30 人間指定。画面・ページを「開く」意では「ひらけます」と読む。
+      制約: VOICEVOXには文脈条件がないため、将来「ドアを開けます」等で
+      「あけます」と読むべき文脈が出た場合は、該当segmentだけ
+      text_replacementを適用せず個別生成で対応する。
+  - surface: "セキュリティ"
+    method: text_replacement
+    to: "セキュリティー"
+    scope: "episodes/001（本編）の「セキュリティ」表記すべて"
+    note: "2026-08-30 人間指定。語尾を伸ばした読みに統一。"
+  - surface: "Gmail"
+    method: text_replacement
+    to: "ジーメール"
+    scope: "episodes/001（本編）の「Gmail」表記すべて"
+    note: "2026-08-30 人間指定。グメイル→ジーメール。"
+  - surface: "右上"
+    method: text_replacement
+    to: "みぎうえ"
+    scope: "標準辞書（本編含む）。文脈により「みぎじょう」と読まれるのを防ぐ"
+    note: "2026-08-30 人間指定。segment 7 で「みぎじょうの」と読まれる問題を修正。"
+  - surface: "右下"
+    method: text_replacement
+    to: "みぎした"
+    scope: "標準辞書（将来使用に備えて登録）"
+    note: "2026-08-30 人間指定。"
+  - surface: "左上"
+    method: text_replacement
+    to: "ひだりうえ"
+    scope: "標準辞書（将来使用に備えて登録）"
+    note: "2026-08-30 人間指定。"
+  - surface: "左下"
+    method: text_replacement
+    to: "ひだりした"
+    scope: "標準辞書（将来使用に備えて登録）"
+    note: "2026-08-30 人間指定。"
+  - surface: "再設定用"
+    method: accent_phrases
+    reading: "サイセッテイヨウ"
+    accent_phrases:
+      - kana: "サイセッテイヨウ"
+        accent: 7
+    scope: "episodes/001（本編）の「再設定用」表記すべて"
+    note: >-
+      2026-08-30 改定: 人間がGUI添付画像（アクセント/イントネーション/長さ）で
+      確認した構成を採用。1アクセント句「サイセッテイヨウ」、
+      サ低→イ以降フラット高、ヨで下降（accent 7、尾高）。
+      （旧: 2句「サイ2｜セッテイヨウ5」は廃止）
+  - surface: "App Store"
+    method: accent_phrases
+    reading: "アップストア"
+    accent_phrases:
+      - kana: "アップストア"
+        accent: 5
+    scope: "標準辞書（人間承認済み。App Store表記）"
+    note: >-
+      2026-08-30 人間指定（VOICEVOX GUIで確認した設定を採用）。
+      1アクセント句「アップストア」、モーラ ア・ッ・プ・ス・ト・ア、
+      アクセント位置5。ア低→ッ以降で高く、トがアクセント核、
+      最後のアで下がる形。
+  - surface: "信用"
+    method: accent_phrases
+    reading: "シンヨオ"
+    accent_phrases:
+      - kana: "シンヨオ"
+        accent: 2
+    pitch_shape: low_high_plateau
+    pitch_high_anchor_mora: 2
+    pitch_low_delta: -0.45
+    pitch_equalize_following_same_mora: true
+    scope: "標準辞書（Episode008 human review）"
+    note: >-
+      2026-09-05 Episode 008 human review・添付VOICEVOX手動調整で承認。
+      旧accent指定だけの設定を置き換え、VOICEVOXの長音表記（シンヨオ）に
+      「シ」は低く、2モーラ目の「ン」で上げ、その後は高い位置を完全に
+      維持する low_high_plateau を適用する。連続する「オ」「オ」は同じ
+      pitchにそろえ、pitch差を作らない。pitch_low_delta=-0.45は文脈ごとの
+      audio_queryで得た2モーラ目を高い基準にする相対値で、今後のEpisodeでも再利用する。
+  - surface: "開きます"
+    method: text_replacement
+    to: "ひらきます"
+    scope: "標準辞書（将来の表記に備えて登録）"
+    note: >-
+      2026-08-30 人間指定（レビュー）。「開けます → ひらけます」とは別表記の
+      人間承認エントリ。なお episode 002 の本編に「開きます」表記は存在せず、
+      同種の「開くと」「開かなく」「開く・開いて」は VOICEVOX 標準で
+      すでに「ひらく」系の読みになっていることを確認済み（再生成対象外）。
+  - surface: "Windows"
+    method: accent_phrases
+    reading: "ウィンドオズ"
+    accent_phrases:
+      - kana: "ウィンドオズ"
+        accent: 5
+    scope: "標準辞書（Episode009 human review）"
+    status: approved
+    provenance: "Episode009 human review"
+    date: "2026-09-05"
+    note: >-
+      Episode009 draft_v1の人間レビューで承認。読みはVOICEVOXの自然な
+      「ウィンドウズ」相当（engine mora表記: ウィンドオズ）を維持し、
+      語末の「ズ」にイントネーションの山を置く。Windows 11を含む全出現へ適用する。
+  - surface: "Update"
+    method: accent_phrases
+    reading: "アップデエト"
+    accent_phrases:
+      - kana: "アップデエト"
+        accent: 6
+    scope: "標準辞書（Episode009 human review）"
+    status: approved
+    provenance: "Episode009 human review"
+    date: "2026-09-05"
+    note: >-
+      Episode009 draft_v1の人間レビューで承認。読みはVOICEVOXの自然な
+      「アップデート」相当（engine mora表記: アップデエト）を維持し、
+      語末の「ト」にイントネーションの山を置く。Windows Update内を含む全出現へ適用する。
+  - surface: "ID"
+    method: accent_phrases
+    reading: "アイディイ"
+    accent_phrases:
+      - kana: "アイディイ"
+        accent: 3
+    scope: "標準辞書（Episode009 human review）"
+    status: approved
+    provenance: "Episode009 human review"
+    date: "2026-09-05"
+    note: >-
+      Episode009 draft_v1の人間レビューで承認。読みは「アイディー」を維持し、
+      VOICEVOXのengine mora表記「アイ・イ・ディ・イ」の「ディ」に
+      イントネーションの山を置く。表示字幕はIDのまま維持する。
+  - surface: "開けない"
+    method: text_replacement
+    to: "ひらけない"
+    scope: "episodes/002（完全一致の語句のみ）"
+    note: >-
+      2026-08-30 人間承認。episode 002 の segment 047 にある「開けない」のみを
+      「ひらけない」として読み上げる。「開けます」「開く」「開ける」などの
+      別表記には適用しない。
+  - surface: "後から"
+    method: text_replacement
+    to: "あとから"
+    scope: "episodes/002（完全一致の語句のみ）"
+    note: >-
+      2026-08-30 人間承認。episode 002 の segment 045 にある「後から」のみを
+      「あとから」として読み上げる。「後」単体は文脈依存のため辞書登録しない。
+  - surface: "で空くのは"
+    method: text_replacement
+    to: "であくのは"
+    scope: "標準辞書（approved context rule: ストレージ容量がfreeになる文脈のみ）"
+    note: >-
+      2026-09-02 人間承認（draft_v2レビュー）。「空き容量を増やす」で空くのは、
+      スマホ本体の容量だけです。」の「空く」を「すく」ではなく「あく」と読む。
+      「空く」単体は「席が空く→あく／電車が空く→すく」等の複数読みがあるため
+      無条件登録しない。フレーズ限定のapproved context rule。
+  - surface: "空く容量が"
+    method: text_replacement
+    to: "あく容量が"
+    scope: "標準辞書（approved context rule: ストレージ容量がfreeになる文脈のみ）"
+    note: >-
+      2026-09-02 人間承認（draft_v2レビュー）。「対象の写真の数と、空く容量が
+      表示されます。」の「空く」を「あく」と読むためのフレーズ限定ルール。
+      単体「空く」のglobal登録はしない。
+  - surface: "NFC"
+    method: text_replacement
+    to: "エヌエフシー"
+    scope: "episodes/007（本編）の「NFC」表記すべて（3文字英字略語の恒久ルール）"
+    note: >-
+      2026-09-04 人間指定（draft_v1レビュー）。「NFC」をカナ表記へ置換してから
+      audio_queryに渡す（エンジンが英字NFCをtext無しのphraseとして解析し
+      アクセント指定が効かないため）。アクセント（accent=3）は
+      別エントリ「エヌエフシー」で適用する。1文字目だけにピークを置かない。
+  - surface: "エヌエフシー"
+    method: accent_phrases
+    reading: "エヌエフシー"
+    accent_phrases:
+      - kana: "エヌエフシー"
+        accent: 3
+    scope: "episodes/007（本編）の「NFC」由来のカナ句（NFC→エヌエフシー転換後）"
+    note: >-
+      2026-09-04 人間指定（draft_v1レビュー）。エヌ低・エフで上がりシーまで
+      高さを維持する尾高形（アクセント位置3）。3-letter acronym policy:
+      1文字目集中読みをしない（PIN と同型の尾高形に統一）。
+  - surface: "PIN"
+    method: accent_phrases
+    reading: "ピイアイエヌ"
+    accent_phrases:
+      - kana: "ピーアイエヌ"
+        accent: 6
+    accent_on_phrase: true
+    scope: "episodes/006（本編）・episodes/007（本編）の「PIN」「PINコード」表記すべて（人間承認済み設定の再利用）"
+    note: >-
+      2026-09-03 人間指定（draft_v1レビュー・添付GUI設定に従う）。
+      「PIN」は「ピーアイエヌ」（エンジンmora表記: ピイアイエヌ）。
+      句頭をピー低、アイで上がり、エヌまで高さを維持し、後続（デス・コード・ノ）は
+      低く自然に流す形（アクセント位置6）。Episode 006の全出現箇所（seg 7/39/40/45/66）に
+      共通適用。2026-09-04にEpisode 007（seg 17）へscope拡張（3文字英字略語のピーク位置は
+      1文字目に寄せないルールの一環・人間指定）。他Episode・他単語へは適用しない。
+  - surface: "普段"
+    method: accent_phrases
+    reading: "フダン"
+    accent_phrases:
+      - kana: "フダン"
+        accent: 1
+    scope: "標準辞書（Episode012 human pronunciation review）"
+    status: approved
+    provenance: "Episode012 draft_v1 human full review"
+    date: "2026-09-06"
+    note: >-
+      「普段」は「ふ」を低く置き、ふにアクセントの山を置く人間承認設定。
+      「普段使っている」「普段利用している」などの全出現へ適用する。
+      表示字幕は漢字の「普段」を維持する。
+  - surface: "何も"
+    method: accent_phrases
+    reading: "ナニモ"
+    accent_phrases:
+      - kana: "ナニモ"
+        accent: 2
+    scope: "標準辞書（Episode012 human pronunciation review）"
+    status: approved
+    provenance: "Episode012 draft_v1 human full review"
+    date: "2026-09-06"
+    note: >-
+      「何も」は「なにも」と読み、にへアクセントの山を置く人間承認設定。
+      表示字幕へ読み仮名を流出させない。
+  - surface: "届け物"
+    method: text_replacement
+    to: "とどけもの"
+    scope: "標準辞書（Episode012 human pronunciation review）"
+    status: approved
+    provenance: "Episode012 draft_v1 human full review"
+    date: "2026-09-06"
+    note: >-
+      「届け物」は「とどけもの」と読む。誤読されやすい「とどけぶつ」を避け、
+      全出現へ適用する。
+  - surface: "本物"
+    method: text_replacement
+    to: "ほんもの"
+    scope: "標準辞書（Episode012 human pronunciation review）"
+    status: approved
+    provenance: "Episode012 draft_v1 human full review"
+    date: "2026-09-06"
+    note: >-
+      「本物」は「ホンモノ」と読む。長音を入れず、全出現（本物でしょうか、
+      本物らしく、本物そっくり等）へ適用する。表示字幕は「本物」のままにする。
+  - surface: "カード会社"
+    method: accent_phrases
+    reading: "カードがいしゃ"
+    accent_phrases:
+      - kana: "カアドガイシャ"
+        accent: 3
+    accent_on_phrase: true
+    scope: "標準辞書（Episode012 human pronunciation review）"
+    status: approved
+    provenance: "Episode012 draft_v1 human full review"
+    date: "2026-09-06"
+    note: >-
+      「カード会社」は「カードがいしゃ」と読み、カードの「ド」にアクセントの
+      山を置く人間承認設定。エンジンmora表記は「カアドガイシャ」。全出現へ適用する。
+  - surface: "e-Tax"
+    method: text_replacement
+    to: "イータックス"
+    reading: "イータックス"
+    accent_phrases:
+      - kana: "イイタックス"
+        accent: 3
+    accent_on_phrase: true
+    scope: "標準辞書（Episode012 human pronunciation review）"
+    status: approved
+    provenance: "Episode012 draft_v3 contextual pronunciation correction"
+    date: "2026-09-06"
+    note: >-
+      「e-Tax」は「イータックス」と一続きで読む。エンジンmora表記は
+      「イ・イ・タ・ッ・ク・ス」、アクセント位置3（タ）とし、語中ポーズは入れない。
+      「ス」を不自然に引き伸ばさない。表示字幕はe-Taxの表記を維持する。
+  - surface: "ちいかわ"
+    method: accent_phrases
+    reading: "チイカワ"
+    accent_phrases:
+      - kana: "チイカワ"
+        accent: 4
+    accent_on_phrase: true
+    scope: "標準辞書（Episode014 human pronunciation review）"
+    status: approved
+    human_approved: true
+    provenance: "Episode014 draft_v1 human full review"
+    date: "2026-09-06"
+    accent_nucleus_mora: "ワ"
+    note: >-
+      人間指定：「わ」にアクセント。2026-09-06にVOICEVOX style_id=21の
+      audio_query/mora_dataでチ・イ・カ・ワを確認し、語末ワのaccent=4を採用。
+      表示字幕は「ちいかわ」のまま。
+  - surface: "フリマ"
+    method: accent_phrases
+    reading: "フリマ"
+    accent_phrases:
+      - kana: "フリマ"
+        accent: 3
+    accent_on_phrase: true
+    scope: "標準辞書（Episode014 human pronunciation review）"
+    status: approved
+    human_approved: true
+    provenance: "Episode014 draft_v1 human full review"
+    date: "2026-09-06"
+    accent_nucleus_mora: "マ"
+    note: >-
+      人間指定：「マ」にアクセント。2026-09-06にVOICEVOX style_id=21の
+      audio_query/mora_dataでフ・リ・マを確認し、語末マのaccent=3を採用。
+  - surface: "188"
+    method: text_replacement
+    to: "イチハチハチ"
+    scope: "標準辞書（Episode014 human pronunciation review）"
+    status: approved
+    human_approved: true
+    provenance: "Episode014 draft_v1 human full review"
+    date: "2026-09-06"
+    note: >-
+      表示は188のまま、TTS入力はイチハチハチ。Episode014人間確認指定。
+      188の既存global entryはscanで未検出。v1はspoken_textを
+      いちはちはちへ先回りしていたためsurface=188が適用されなかった。
+      数字の整数読み（ひゃくはちじゅうはち）とイチワチワチを禁止。
+  - surface: "ChatGPT"
+    method: accent_phrases
+    reading: "チャット"
+    accent_phrases:
+      - kana: "チャット"
+        accent: 3
+    accent_on_phrase: true
+    human_approved: true
+    global: true
+    scope: "標準辞書（Shorts探索バッチ001 Visual Redesign v4 human approval）"
+    provenance: "2026-09-07 user human instruction + VOICEVOX audio_query/mora_data inspection"
+    date: "2026-09-07"
+    accent_nucleus_mora: "ト"
+    note: >-
+      表示字幕はChatGPT、VOICEVOX入力はチャットジーピーティーのまま維持する。
+      2026-09-07、剣崎雌雄 / ノーマルの実audio_queryで「チャ・ッ・ト」を確認し、
+      accent=3（3モーラ目の「ト」）を指定。mora_data再計算後の修正版audioでも
+      チャよりトのpitchが高くなることを確認して承認した。今後のEpisode/Shortsで再利用する。

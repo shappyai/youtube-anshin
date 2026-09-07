@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "api_called": false,
+  "oauth_called": false,
+  "episode": "003_line_renewal",
+  "final_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\003_line_renewal\\output\\final.mp4",
+  "thumbnail_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\003_line_renewal\\output\\thumbnail.png",
+  "title": "【LINE】画面が変わった？「友だちはどこ？」新しいトーク・ホームをやさしく解説",
+  "description_bytes": 1473,
+  "tag_count": 7,
+  "tag_total_length": 34,
+  "privacy": "private",
+  "schedule_local": null,
+  "schedule_api": null,
+  "video_sha256": "AF4323F3364832CDE784EDE9F717A0D26AD45E1F285182D8F807C51DCEAE4788",
+  "existing_video_id": null,
+  "expected_api_requests": [
+    "videos.insert part=snippet,status resumable=True notifySubscribers=False",
+    "thumbnails.set",
+    "videos.list part=snippet,status"
+  ],
+  "errors": []
+}

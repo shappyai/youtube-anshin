@@ -1,0 +1,83 @@
+{
+  "raw": {
+    "duration_sec": 9.0,
+    "rms_dbfs": -21.42,
+    "peak_dbfs": -0.96,
+    "clipped_samples": 0,
+    "near_silence_ratio": 0.6305
+  },
+  "processed": {
+    "duration_sec": 9.0,
+    "rms_dbfs": -28.36,
+    "peak_dbfs": -7.93,
+    "clipped_samples": 0,
+    "near_silence_ratio": 0.6671
+  },
+  "quiet_regions_raw": [
+    {
+      "duration_sec": 0.85,
+      "rms_dbfs": -58.52,
+      "peak_dbfs": -34.88,
+      "clipped_samples": 0,
+      "near_silence_ratio": 0.9867
+    },
+    {
+      "duration_sec": 3.45,
+      "rms_dbfs": -59.59,
+      "peak_dbfs": -46.17,
+      "clipped_samples": 0,
+      "near_silence_ratio": 0.9967
+    }
+  ],
+  "quiet_regions_processed": [
+    {
+      "duration_sec": 0.85,
+      "rms_dbfs": -66.72,
+      "peak_dbfs": -42.18,
+      "clipped_samples": 0,
+      "near_silence_ratio": 0.9983
+    },
+    {
+      "duration_sec": 3.45,
+      "rms_dbfs": -68.65,
+      "peak_dbfs": -55.82,
+      "clipped_samples": 0,
+      "near_silence_ratio": 1.0
+    }
+  ],
+  "speech_regions_raw": [
+    {
+      "duration_sec": 2.05,
+      "rms_dbfs": -19.28,
+      "peak_dbfs": -1.06,
+      "clipped_samples": 0,
+      "near_silence_ratio": 0.2597
+    },
+    {
+      "duration_sec": 2.15,
+      "rms_dbfs": -17.23,
+      "peak_dbfs": -0.96,
+      "clipped_samples": 0,
+      "near_silence_ratio": 0.1858
+    }
+  ],
+  "speech_regions_processed": [
+    {
+      "duration_sec": 2.05,
+      "rms_dbfs": -26.22,
+      "peak_dbfs": -8.08,
+      "clipped_samples": 0,
+      "near_silence_ratio": 0.3349
+    },
+    {
+      "duration_sec": 2.15,
+      "rms_dbfs": -24.17,
+      "peak_dbfs": -7.93,
+      "clipped_samples": 0,
+      "near_silence_ratio": 0.2502
+    }
+  ],
+  "processing": "70Hz high-pass + volume 0.45（約−6.9dB）。denoise / gate / compressorなし。",
+  "capture_audio_use": "YES（Dictation入力区間のみ）",
+  "machine_voice_use": "NO（回答画面はテキストを主役にし、返答音声は使用しない）"
+}

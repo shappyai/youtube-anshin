@@ -1,0 +1,52 @@
+{
+  "episode": "003_line_renewal",
+  "overall": "PASS",
+  "checks": [
+    {
+      "name": "episode schema",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "sources",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "subtitles",
+      "status": "PASS",
+      "details": [
+        "fail=0 warn=0"
+      ]
+    },
+    {
+      "name": "pronunciation",
+      "status": "PASS",
+      "details": [
+        "remaining review=0"
+      ]
+    },
+    {
+      "name": "scenes",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "scene modes",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "official assets",
+      "status": "PASS",
+      "details": [
+        "declared=9"
+      ]
+    },
+    {
+      "name": "GPT image assets",
+      "status": "PASS",
+      "details": []
+    }
+  ]
+}

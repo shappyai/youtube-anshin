@@ -1,0 +1,28 @@
+{
+  "short_id": "Short001",
+  "version": "v7",
+  "assets": [
+    {
+      "asset": "assets/imagegen_native_v7/normalized/short001_dictation_hook.png",
+      "source": "built-in image_gen",
+      "text_render_mode": "imagegen_native",
+      "expected_text": "ChatGPT、文字を打たなくても使える？",
+      "exact_text_qa": "PASS",
+      "official_ui_ai_reconstruction": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "7f3a606e48911f59753df5d3025bf255654d61c1ca5718f488079d51b05c7f93"
+    },
+    {
+      "asset": "assets/imagegen_native_v7/normalized/short001_dictation_conclusion.png",
+      "source": "built-in image_gen",
+      "text_render_mode": "imagegen_native",
+      "expected_text": "文字を打たずに質問",
+      "exact_text_qa": "PASS",
+      "official_ui_ai_reconstruction": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "08fd8f2c40b8d859ac22bdc4836e23b0054a7f1dff9b803672f0cc8259d4fbaa"
+    }
+  ],
+  "imagegen_call_count": 2,
+  "regeneration_count": 0
+}

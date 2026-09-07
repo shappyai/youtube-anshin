@@ -1,0 +1,323 @@
+{
+  "version": 1,
+  "segments": {
+    "1": {
+      "hash": "554edda7ffcc095cfcf7704ccf361b9d48366ef7070ed90fbaa2a43c52981ef3",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\001.wav"
+    },
+    "2": {
+      "hash": "35dee59ff3ecd4d7a6202327cba794feed2f78e43c1b09a86997e17eb840401d",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\002.wav"
+    },
+    "3": {
+      "hash": "1201f4cea5a41860e1c22b215b921d1710981aa8c34af1181fbc79a19c127657",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\003.wav"
+    },
+    "4": {
+      "hash": "4e53fc9b115d4a39c2eb63e73c37bbfd1f01202b0ce5d48dfaefea1cb01f7f8b",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\004.wav"
+    },
+    "5": {
+      "hash": "d147d29fc6c7dfb331f114dc948acb20452bb7825e7fcd52b19c146832454714",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\005.wav"
+    },
+    "6": {
+      "hash": "cf1125692f86be0cc5490f137bcb468f4fe19a236a435b8b5808e3944716afb9",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\006.wav"
+    },
+    "7": {
+      "hash": "a5b7ab940a168118eaf92013af8beb17d383ab9d87cf826e30005752da47cfbb",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\007.wav"
+    },
+    "8": {
+      "hash": "a9b36e5149b31c18f2722dea5f0c3e97d6d70ea9ceac0408f710cf131108b7be",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\008.wav"
+    },
+    "9": {
+      "hash": "84651c7909acf69c4849a6a1d331f59ac1665ccbd31e9705b7e8e78a52c52bc5",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\009.wav"
+    },
+    "10": {
+      "hash": "69e8e7d83afa1183cbeddf679de0c9a4f7817fc647df8cae0f9d7e004fa82b3d",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\010.wav"
+    },
+    "11": {
+      "hash": "3bf21a0465cf285cd0b1a0a37e5c51b216908e4fd41600b96f7c395215d70e80",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\011.wav"
+    },
+    "12": {
+      "hash": "a521024b6d5a03c724cea5f4a0c125f4914d5536d5acac42c714239e7ac3f63d",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\012.wav"
+    },
+    "13": {
+      "hash": "2cc70739523e94fd68bb8670453603fd0e0afc29161a8d3971ecea90022cac98",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\013.wav"
+    },
+    "14": {
+      "hash": "df1bd3bee6c1f9394b66ac3176f8e92928a230bc9c7bdcb31233ec85bdea45df",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\014.wav"
+    },
+    "15": {
+      "hash": "67a2f02910d2f855d7a44e9afc3d0695b06240240d33a24ba1b22aba4822bb3c",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\015.wav"
+    },
+    "16": {
+      "hash": "d804ed1019ce8f2cdc563212f11e36d661b323e52dcef2702387bfe9c49cfdd1",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\016.wav"
+    },
+    "17": {
+      "hash": "c9cee361eac1c3cdab3b8c455ec217482ca1cbe00908fcc070e4ae68428647a4",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\017.wav"
+    },
+    "18": {
+      "hash": "1089f0abc74e84d6e59cfe580a6ec4a497a9877df0811071e495f326e5b61fc6",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\018.wav"
+    },
+    "19": {
+      "hash": "c710c5841d1d7e23f33cf3e3325a5fe8e024e58746f4252c769ed4db37f9df44",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\019.wav"
+    },
+    "20": {
+      "hash": "36ae07b81ac6cfa376bd45034295d2ec90ae98c4ba56ba5dac5f7dc85714b841",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\020.wav"
+    },
+    "21": {
+      "hash": "59d4e36a8d9e0a18a6544ac826278f45839d8b207f6372c9d21701d46ff66e7c",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\021.wav"
+    },
+    "22": {
+      "hash": "c22601a5a9213bdb2dbd49291af09cde6bd42abb28acd3c2fab0e8a63e0e08ff",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\022.wav"
+    },
+    "23": {
+      "hash": "137847df0c0881fe885440d1a2d5efad989975a9b4c104efa985a06d31de22fb",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\023.wav"
+    },
+    "24": {
+      "hash": "6db366efcb897ae90fb00dc8c1a60443a1d4e86796ff96f68b48fa3f8a0333da",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\024.wav"
+    },
+    "25": {
+      "hash": "7863d48b7fa257966a65c9bae220315130c1fbf42cf5e5dee9a0a5d90865cc2a",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\025.wav"
+    },
+    "26": {
+      "hash": "6c189c9b89353eb830d1b136a6bf2f68d07a5aa50713be518d80cae1573d91f7",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\026.wav"
+    },
+    "27": {
+      "hash": "f4550cb9ede6b99557d8e133eb3471da044b37ef4f9baa7607e478d854a2527f",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\027.wav"
+    },
+    "28": {
+      "hash": "63513299f6d1a880b053636674a827937c3e8c01d440161fc050bea92e077581",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\028.wav"
+    },
+    "29": {
+      "hash": "81f46b22c272f8fb541dccdeee7d7e87fff5db88b8c03210a8cee2482fa4caff",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\029.wav"
+    },
+    "30": {
+      "hash": "1e5683cde3933ced97053c7eb11327680b3cc11429a6f52a4cfe8968ce690378",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\human_approved\\030.wav",
+      "source": "human_audio_override",
+      "wav_sha256": "7B534892A4AC893CC7F1D0D483B67A8A94E690353DB652EA16B0077C3F4C7106"
+    },
+    "31": {
+      "hash": "a4957d01c0d94bbe2e849e43cccf75183dc6cc7d66e2dadb228742213446cc14",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\031.wav"
+    },
+    "32": {
+      "hash": "b0814b5547350d2a8c7581f6cf51c5b65b5cd81f3015e6aab2581740771455c6",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\032.wav"
+    },
+    "33": {
+      "hash": "6385058d465e9990809fdf9d2dd5762f84278d7f7c25685d99c1b2536bb5e52a",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\033.wav"
+    },
+    "34": {
+      "hash": "806932e35f4c236b063cbf644f214cbddef6222b757bef5a2b879a2675e37633",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\034.wav"
+    },
+    "35": {
+      "hash": "8663b5ff32f6578d8ae6cd1456af471968899f3027560551f072f1db402eb606",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\035.wav"
+    },
+    "36": {
+      "hash": "705805ef1fe95dad4e5dd9460a60bf91c08f0c76bf39f4c13df1fd543112b474",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\036.wav"
+    },
+    "37": {
+      "hash": "5384a2700ebeb025b7037f113d5917b9bc099bd1497fb76dacbecfc831e2019c",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\037.wav"
+    },
+    "38": {
+      "hash": "f1690b8a2abbf8011612cc09451c1430d356a5ebc5a6717590f6ff25323b3cc8",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\038.wav"
+    },
+    "39": {
+      "hash": "c36af7c85fcc74fa3ca80cb4fb98f570a562f142befd56a193a2b859cc41d43f",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\039.wav"
+    },
+    "40": {
+      "hash": "5a90464c42d47ff9e7752953a15de00fccc7b629397268de2cc34376302243a3",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\040.wav"
+    },
+    "41": {
+      "hash": "12c3eb5a7f96f1df509763ba9ca29fbe09860e94969d7e942e0eaadfbf386ed2",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\041.wav"
+    },
+    "42": {
+      "hash": "e0a77037713bf73e3034df7fc59f3c2c9bc0f7bbee43f4ba19f74d205286f282",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\042.wav"
+    },
+    "43": {
+      "hash": "ed920b3d74707e7de50454d553ceaa63e0298bd93dfd7afc5adb10b911679df7",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\043.wav"
+    },
+    "44": {
+      "hash": "f1905491b2ea663e3e12333983f68860a58ad742cedd01899166e7685f83d9ec",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\044.wav"
+    },
+    "45": {
+      "hash": "a58dd7300095415e3886d65aa4c7084c3bd8605df6ad9b289c0b5544b0e8e85a",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\045.wav"
+    },
+    "46": {
+      "hash": "a1937ead898a71d378430e043ab172c35e15933e15b4c07a6049f598a8482d18",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\046.wav"
+    },
+    "47": {
+      "hash": "3738aaca78840ea05e632640d44f87d8139a0bd392aa904f7ee7dbc50dd5ee91",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\047.wav"
+    },
+    "48": {
+      "hash": "efd346aef836024a19a1e9071b8d30dc98d8bddb311c0db03350790d6f83b0f6",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\048.wav"
+    },
+    "49": {
+      "hash": "3961d2937798941595b17093f52b6d9a503b9c40f6b959f1b2435b6ae4f7a296",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\049.wav"
+    },
+    "50": {
+      "hash": "d55d2672df04f16ed7c72fb1ac6b5ca7b6eaf053d5a11303d5840d09ba0bba94",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\050.wav"
+    },
+    "51": {
+      "hash": "dc95ecd2386b2522a503ae87e12993d3a317b6e31b4eabcad20f0d7138f9e42d",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\051.wav"
+    },
+    "52": {
+      "hash": "42cffbf6b2e407e8f9a77255aaa5aaddfe051e558ea2b0314d4c678fba5acc66",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\052.wav"
+    },
+    "53": {
+      "hash": "2dbbb47bd69117abc7a84ba3cd905715aba3fc30c29f8013531d743df4ec7d7b",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\053.wav"
+    },
+    "54": {
+      "hash": "11a69e6c857ae06a62752cd3dda29fc540544c3dc0d94637c064f0958440e0ea",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\054.wav"
+    },
+    "55": {
+      "hash": "289de43225ebb1db8669a3e0686545316f813a6933d6a231a6f493e545f70cae",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\055.wav"
+    },
+    "56": {
+      "hash": "582034da303ece3192e8d0540c43700f716158ebcd72088fd4e23542a47ceabe",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\056.wav"
+    },
+    "57": {
+      "hash": "05c6102d679a983088cfec39c0f988b9c1a482ea4df7beab1fe2c374f8470353",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\057.wav"
+    },
+    "58": {
+      "hash": "ef8c08e65b66eeeafa768159efe530f9367c1d969c22cc000ad996df80afb64b",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\058.wav"
+    },
+    "59": {
+      "hash": "67e02a7e5a6e60734d7db1951c8ffbff207bbcd508a278a96c13c52997254955",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\059.wav"
+    },
+    "60": {
+      "hash": "959be4b6741272148c07a1a06d2d265032b1c6abdbc8ab86468a572d776acab4",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\060.wav"
+    },
+    "61": {
+      "hash": "60eec18363cea2ad9131d056f3a9f8a2d2a31cc51b1d291ccd7fff4495672dbb",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\061.wav"
+    },
+    "62": {
+      "hash": "550d3b044f18e64421ce3fd4c0d0a0ccfa9bd973a67bdab4db4bcb150745bda7",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\062.wav"
+    },
+    "63": {
+      "hash": "3429e612c6563907d7735ba7ba56ef7b09c5fb63005bd7848f61b87ba054b727",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\063.wav"
+    },
+    "64": {
+      "hash": "4388f8433b92dc1e2bc452907f1a287ac73a52c0745c3dc8e60630aeed68c83c",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\064.wav"
+    },
+    "65": {
+      "hash": "623f6be13ccfbe75636a2ea256ec40049ec804ab1758fafa5483acf117546c97",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\065.wav"
+    },
+    "66": {
+      "hash": "e837fa302c0402d79fc3644dcaa3b93f59adcbc67f90e479858d675a2976ee9b",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\066.wav"
+    },
+    "67": {
+      "hash": "df171058536c3e566ad5fe13f297bb9bbbe6a6716f71af9c98f45a8d07fc5696",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\067.wav"
+    },
+    "68": {
+      "hash": "74f72a4e78aad69f599aaf06b83c068b911211f9928b41d3a354da73335a47df",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\068.wav"
+    },
+    "69": {
+      "hash": "dd6bbada30a3ba59d92c5c80ebf899da47e6c99d35abdbde06cde2e4eeb733d6",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\069.wav"
+    },
+    "70": {
+      "hash": "c656853128a1efe58c62dc8e1ef2df792c8f6a8f6de10b8b76374275d91a25ed",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\070.wav"
+    },
+    "71": {
+      "hash": "8fdbd93925fcdf1059a8196bbf64091cb051dd0c6099a35efe310837089de11f",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\071.wav"
+    },
+    "72": {
+      "hash": "92fbaa82a87de04a7fda0d45d6a8ba6898660a798288c926b0eb88a5f3cc742c",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\072.wav"
+    },
+    "73": {
+      "hash": "030c4e25d27a19c26af7ef090c06fa186b9f424567164c4bc340a68152da3d83",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\073.wav"
+    },
+    "74": {
+      "hash": "fb3e50a644cbcfe799cccb57ce6133e277384eedb2b22fac7d4b9df75c07fb00",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\074.wav"
+    },
+    "75": {
+      "hash": "892ff0160146e6d2f7831a89ba1b64e52883025ea7cbd0ac75bfd0715fc27ae4",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\075.wav"
+    },
+    "76": {
+      "hash": "1ddfd94e1e859580eff9d2acc35528f154e7a00641879c15dbc8c72da9c6156f",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\076.wav"
+    },
+    "77": {
+      "hash": "b4b11d1e375e683d4a547fc1588b1be2362bef211b6aeb4bca3db2b128aeab41",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\077.wav"
+    },
+    "78": {
+      "hash": "c5ff250962a2a937fa8c64db27b018053a0bfe1e51eb2af01867fad1c81e6d7c",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\078.wav"
+    },
+    "79": {
+      "hash": "4f3e4d873cd6b5d17eb14bae01740c9051ca96c52a60bddeb9076de3a356f942",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\audio\\voicevox_kenzaki\\segments\\079.wav"
+    }
+  }
+}

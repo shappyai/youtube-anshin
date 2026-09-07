@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "episode": {
+    "episode_id": "000",
+    "slug": "text_render_poc",
+    "title": "text_render_mode検証サンプル（本番外）",
+    "target_duration": 20,
+    "status": "draft",
+    "topic": "imagegen_nativeの文字QAフロー検証のみに使うsandboxサンプル",
+    "target_audience": "検証用"
+  },
+  "sources": [],
+  "narration_segments": [
+    {
+      "id": 1,
+      "section": "検証",
+      "narration": "のんびり、いこう。今日もいい一日を。",
+      "reading_overrides": {},
+      "pause_after": 0,
+      "scene_id": 1,
+      "subtitle_ids": ["SUB-001"]
+    }
+  ],
+  "subtitles": [
+    {
+      "id": "SUB-001",
+      "text_lines": ["のんびり、いこう。", "今日もいい一日を。"],
+      "segment_id": 1
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "layout": "layout_01_hero",
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "main_message": "のんびり、いこう。",
+      "headline": "のんびり、いこう。",
+      "support_text": "今日もいい一日を。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 1,
+      "end_segment": 1,
+      "subtitle_ids": ["SUB-001"]
+    }
+  ],
+  "postroll": {
+    "kind": "channel_cta",
+    "cta_profile": "channel_common_cta",
+    "duration_sec": 0,
+    "animation": "static"
+  },
+  "publish": {
+    "title": "検証サンプル（公開しない）",
+    "description": "text_render_mode検証用。公開対象外。",
+    "chapters": [],
+    "voice_credit": "検証用（ナレーションなし）",
+    "contains_synthetic_media": false
+  }
+}

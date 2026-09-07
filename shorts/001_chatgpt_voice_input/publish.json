@@ -1,0 +1,44 @@
+{
+  "schema_version": "short-publish-v1",
+  "short_id": "Short001",
+  "selected_title": "ChatGPT、文字を打たなくても使える？",
+  "title": "ChatGPT、文字を打たなくても使える？",
+  "description": "ChatGPT、文字を打たなくても使える？\n\nこのShortでは、音声入力で質問を話し、文字になった内容を確認して送信し、実際の回答が返るまでを、ユーザー提供の画面録画で確認します。\n\n※画面や名称は、アプリのバージョン・OS・アカウントなどで異なる場合があります。\n\n【確認した公式情報】\nhttps://help.openai.com/en/articles/12168547-voice-dictation-faq\nhttps://help.openai.com/en/articles/20001274\n\nナレーション：VOICEVOX:剣崎雌雄",
+  "tags": [
+    "ChatGPT",
+    "音声入力",
+    "Dictation",
+    "スマホ",
+    "AI"
+  ],
+  "category_id": "22",
+  "default_language": "ja",
+  "made_for_kids": false,
+  "contains_synthetic_media": true,
+  "thumbnail": "assets/thumbnail/thumbnail.jpg",
+  "thumbnail_candidates": [
+    "assets/thumbnail/thumbnail.jpg"
+  ],
+  "thumbnail_review": {
+    "status": "approved_by_human",
+    "source": "assets/thumbnail_candidate/first_frame_thumbnail_candidate.png",
+    "aspect_ratio": "9:16"
+  },
+  "privacy": "private",
+  "visibility": "private",
+  "source_urls": [
+    "https://help.openai.com/en/articles/12168547-voice-dictation-faq",
+    "https://help.openai.com/en/articles/20001274"
+  ],
+  "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
+  "publication_intent": "private_upload_after_human_approval",
+  "youtube_upload": "uploaded_private",
+  "youtube_video_id": "lkUiDHNWWJk",
+  "youtube_url": "https://youtu.be/lkUiDHNWWJk",
+  "youtube_privacy": "private",
+  "youtube_scheduled_at": null,
+  "youtube_scheduled_at_api": null,
+  "thumbnail_uploaded": true,
+  "uploaded_at": "2026-09-07T05:12:10Z",
+  "youtube_channel_id": "UCgVRceTJYO5KOrPX4w2jXZw"
+}

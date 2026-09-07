@@ -1,0 +1,435 @@
+{
+  "generated_at": "2026-08-29T18:39:22",
+  "shots": {
+    "SHOT-01": [
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "email",
+        "text": "ogle アカウント: デジタル安心 (digital.anshin.test@gmail.com)",
+        "bounds": "[947,310][1057,415]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティ診断(最終)",
+        "kind": "email",
+        "text": "oogle アカウント: デジタル安心（digital.anshin.test@gmail.com）",
+        "bounds": "[912,142][1080,310]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティ診断(最終)",
+        "kind": "device",
+        "text": "Google emulator",
+        "bounds": "[273,310][593,310]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティ診断(最終)",
+        "kind": "attention",
+        "text": "Google emulator",
+        "bounds": "[273,310][593,310]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティ診断(最終確認)",
+        "kind": "email",
+        "text": "oogle アカウント: デジタル安心（digital.anshin.test@gmail.com）",
+        "bounds": "[912,142][1080,310]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティ診断(最終確認)",
+        "kind": "device",
+        "text": "Google emulator",
+        "bounds": "[273,310][593,310]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティ診断(最終確認)",
+        "kind": "attention",
+        "text": "Google emulator",
+        "bounds": "[273,310][593,310]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "email",
+        "text": "ogle アカウント: デジタル安心 (digital.anshin.test@gmail.com)",
+        "bounds": "[947,305][1057,410]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "location",
+        "text": "or での新しいログイン 8:30 · 日本、東京都",
+        "bounds": "[42,1040][1042,1221]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "device",
+        "text": "Google emulator での新しいログイン 8:30 · 日本",
+        "bounds": "[42,1040][1042,1221]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "attention",
+        "text": "or での新しいログイン 8:30 · 日本、東京都",
+        "bounds": "[42,1040][1042,1221]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "device",
+        "text": "Google emulator での新しいログイン",
+        "bounds": "[84,1068][1000,1137]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "attention",
+        "text": "Google emulator での新しいログイン",
+        "bounds": "[84,1068][1000,1137]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "location",
+        "text": "8:30 · 日本、東京都",
+        "bounds": "[84,1131][1000,1187]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "attention",
+        "text": "8:30 · 日本、東京都",
+        "bounds": "[84,1131][1000,1187]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "location",
+        "text": "ws での新しいログイン 8:28 · 日本、東京都",
+        "bounds": "[42,1221][1042,1404]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "device",
+        "text": "Windows での新しいログイン 8:28 · 日本",
+        "bounds": "[42,1221][1042,1404]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "attention",
+        "text": "ws での新しいログイン 8:28 · 日本、東京都",
+        "bounds": "[42,1221][1042,1404]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "device",
+        "text": "Windows での新しいログイン",
+        "bounds": "[84,1252][1000,1320]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "attention",
+        "text": "Windows での新しいログイン",
+        "bounds": "[84,1252][1000,1320]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "location",
+        "text": "8:28 · 日本、東京都",
+        "bounds": "[84,1315][1000,1373]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "attention",
+        "text": "8:28 · 日本、東京都",
+        "bounds": "[84,1315][1000,1373]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "device",
+        "text": "ン - Android スマートフォン Google emulator",
+        "bounds": "[42,2363][1042,2363]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "attention",
+        "text": "ン - Android スマートフォン Google emulator",
+        "bounds": "[42,2363][1042,2363]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "device",
+        "text": "Google emulator",
+        "bounds": "[217,2363][1000,2363]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティとログイン",
+        "kind": "attention",
+        "text": "Google emulator",
+        "bounds": "[217,2363][1000,2363]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティ診断(最終)",
+        "kind": "email",
+        "text": "oogle アカウント: デジタル安心（digital.anshin.test@gmail.com）",
+        "bounds": "[912,137][1080,305]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティ診断(最終)",
+        "kind": "device",
+        "text": "Google emulator",
+        "bounds": "[273,305][593,305]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティ診断(最終)",
+        "kind": "attention",
+        "text": "Google emulator",
+        "bounds": "[273,305][593,305]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティ診断(最終)",
+        "kind": "device",
+        "text": "Google emulator",
+        "bounds": "[273,1215][593,1273]"
+      },
+      {
+        "shot": "SHOT-01",
+        "screen": "セキュリティ診断(最終)",
+        "kind": "attention",
+        "text": "Google emulator",
+        "bounds": "[273,1215][593,1273]"
+      }
+    ],
+    "01": [
+      {
+        "shot": "01",
+        "screen": "セキュリティ診断(録画後)",
+        "kind": "email",
+        "text": "oogle アカウント: デジタル安心（digital.anshin.test@gmail.com）",
+        "bounds": "[912,137][1080,305]"
+      },
+      {
+        "shot": "01",
+        "screen": "セキュリティ診断(録画後)",
+        "kind": "device",
+        "text": "Google emulator",
+        "bounds": "[273,305][593,305]"
+      },
+      {
+        "shot": "01",
+        "screen": "セキュリティ診断(録画後)",
+        "kind": "attention",
+        "text": "Google emulator",
+        "bounds": "[273,305][593,305]"
+      }
+    ],
+    "SHOT-02": [
+      {
+        "shot": "SHOT-02",
+        "screen": "電話番号(最終)",
+        "kind": "email",
+        "text": "ogle アカウント: デジタル安心 (digital.anshin.test@gmail.com)",
+        "bounds": "[947,305][1057,410]"
+      },
+      {
+        "shot": "SHOT-02",
+        "screen": "電話番号(最終)",
+        "kind": "attention",
+        "text": "(digital.anshin.test@gmail.com)",
+        "bounds": "[947,305][1057,410]"
+      },
+      {
+        "shot": "SHOT-02",
+        "screen": "電話番号(最終)",
+        "kind": "device",
+        "text": "Google emulator",
+        "bounds": "[199,2363][485,2363]"
+      },
+      {
+        "shot": "SHOT-02",
+        "screen": "電話番号(最終)",
+        "kind": "device",
+        "text": "Google emulator このデバイス",
+        "bounds": "[918,2363][1018,2363]"
+      },
+      {
+        "shot": "SHOT-02",
+        "screen": "再設定用の電話番号(録画後)",
+        "kind": "email",
+        "text": "ogle アカウント: デジタル安心 (digital.anshin.test@gmail.com)",
+        "bounds": "[947,305][1057,410]"
+      },
+      {
+        "shot": "SHOT-02",
+        "screen": "再設定用の電話番号(録画後)",
+        "kind": "attention",
+        "text": "(digital.anshin.test@gmail.com)",
+        "bounds": "[947,305][1057,410]"
+      },
+      {
+        "shot": "SHOT-02",
+        "screen": "再設定用の電話番号(録画後)",
+        "kind": "device",
+        "text": "Google emulator",
+        "bounds": "[199,2363][485,2363]"
+      },
+      {
+        "shot": "SHOT-02",
+        "screen": "再設定用の電話番号(録画後)",
+        "kind": "device",
+        "text": "Google emulator このデバイス",
+        "bounds": "[918,2363][1018,2363]"
+      }
+    ],
+    "SHOT-05": [
+      {
+        "shot": "SHOT-05",
+        "screen": "リンク済みアプリ(最終)",
+        "kind": "email",
+        "text": "ogle アカウント: デジタル安心 (digital.anshin.test@gmail.com)",
+        "bounds": "[947,305][1057,410]"
+      },
+      {
+        "shot": "SHOT-05",
+        "screen": "リンク済みアプリ(最終)",
+        "kind": "attention",
+        "text": "(digital.anshin.test@gmail.com)",
+        "bounds": "[947,305][1057,410]"
+      },
+      {
+        "shot": "SHOT-05",
+        "screen": "リンク済みアプリ（サードパーティ接続）(録画後)",
+        "kind": "email",
+        "text": "ogle アカウント: デジタル安心 (digital.anshin.test@gmail.com)",
+        "bounds": "[947,305][1057,410]"
+      },
+      {
+        "shot": "SHOT-05",
+        "screen": "リンク済みアプリ（サードパーティ接続）(録画後)",
+        "kind": "attention",
+        "text": "(digital.anshin.test@gmail.com)",
+        "bounds": "[947,305][1057,410]"
+      }
+    ],
+    "SHOT-03": [
+      {
+        "shot": "SHOT-03",
+        "screen": "2 段階認証プロセス",
+        "kind": "email",
+        "text": "Google アカウント: デジタル安心 (digital.anshin.test@gmail.com)",
+        "bounds": "[947,305][1057,410]"
+      }
+    ],
+    "SHOT-04": [
+      {
+        "shot": "SHOT-04",
+        "screen": "お使いのデバイス",
+        "kind": "email",
+        "text": "Google アカウント: デジタル安心 (digital.anshin.test@gmail.com)",
+        "bounds": "[947,305][1057,410]",
+        "note": "座標はuiautomator dump(2026-08-29)より"
+      },
+      {
+        "shot": "SHOT-04",
+        "screen": "お使いのデバイス",
+        "kind": "device",
+        "text": "Google emulator",
+        "bounds": "[336,1092][882,1147]",
+        "note": "座標はuiautomator dump(2026-08-29)より"
+      },
+      {
+        "shot": "SHOT-04",
+        "screen": "お使いのデバイス",
+        "kind": "location",
+        "text": "日本",
+        "bounds": "[336,1145][882,1200]",
+        "note": "座標はuiautomator dump(2026-08-29)より"
+      },
+      {
+        "shot": "SHOT-04",
+        "screen": "お使いのデバイス",
+        "kind": "device",
+        "text": "Android",
+        "bounds": "[336,1460][882,1515]",
+        "note": "座標はuiautomator dump(2026-08-29)より"
+      },
+      {
+        "shot": "SHOT-04",
+        "screen": "お使いのデバイス",
+        "kind": "location",
+        "text": "日本",
+        "bounds": "[336,1512][882,1567]",
+        "note": "座標はuiautomator dump(2026-08-29)より"
+      },
+      {
+        "shot": "SHOT-04",
+        "screen": "お使いのデバイス",
+        "kind": "attention",
+        "text": "たった今（最終利用）",
+        "bounds": "[336,1565][882,1620]",
+        "note": "座標はuiautomator dump(2026-08-29)より"
+      },
+      {
+        "shot": "SHOT-04",
+        "screen": "お使いのデバイス",
+        "kind": "device",
+        "text": "Google Chrome",
+        "bounds": "[336,1617][882,1672]",
+        "note": "座標はuiautomator dump(2026-08-29)より"
+      },
+      {
+        "shot": "SHOT-04",
+        "screen": "お使いのデバイス",
+        "kind": "device",
+        "text": "Windows",
+        "bounds": "[336,2158][882,2213]",
+        "note": "座標はuiautomator dump(2026-08-29)より"
+      },
+      {
+        "shot": "SHOT-04",
+        "screen": "お使いのデバイス",
+        "kind": "location",
+        "text": "日本、東京都練馬区",
+        "bounds": "[294,2116][1018,2363]",
+        "note": "座標はuiautomator dump(2026-08-29)より"
+      },
+      {
+        "shot": "SHOT-04",
+        "screen": "お使いのデバイス",
+        "kind": "attention",
+        "text": "3 時間前（最終利用）",
+        "bounds": "[294,2116][1018,2363]",
+        "note": "座標はuiautomator dump(2026-08-29)より"
+      }
+    ],
+    "SHOT-02B": [
+      {
+        "shot": "SHOT-02B",
+        "screen": "再設定用のメールアドレス",
+        "kind": "email",
+        "text": "Google アカウント: デジタル安心 (digital.anshin.test@gmail.com)",
+        "bounds": "[947,305][1057,410]"
+      }
+    ]
+  }
+}

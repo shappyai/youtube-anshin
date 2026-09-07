@@ -1,0 +1,41 @@
+{
+  "draft": "output/draft_v3.mp4",
+  "frames": [
+    {
+      "path": "C:/Codex/260829_youtube-anshin/episodes/008_investment_scam/work/qa_frames_draft_v3/t_0026_credit.png",
+      "captured_sec": 26.0,
+      "scene_id": 2,
+      "note": "seg006 信用"
+    },
+    {
+      "path": "C:/Codex/260829_youtube-anshin/episodes/008_investment_scam/work/qa_frames_draft_v3/t_0165_now_dake.png",
+      "captured_sec": 165.0,
+      "scene_id": 9,
+      "note": "seg031 今だけ（v2維持）"
+    },
+    {
+      "path": "C:/Codex/260829_youtube-anshin/episodes/008_investment_scam/work/qa_frames_draft_v3/t_0272_188.png",
+      "captured_sec": 272.5,
+      "scene_id": 16,
+      "note": "seg052 188（v2維持）"
+    },
+    {
+      "path": "C:/Codex/260829_youtube-anshin/episodes/008_investment_scam/work/qa_frames_draft_v3/t_0285_phone.png",
+      "captured_sec": 284.8,
+      "scene_id": 17,
+      "note": "seg055 0570-050588（音声v2維持）"
+    },
+    {
+      "path": "C:/Codex/260829_youtube-anshin/episodes/008_investment_scam/work/qa_frames_draft_v3/t_0327_cta.png",
+      "captured_sec": 327.0,
+      "scene_id": null,
+      "note": "CTA お届けします。"
+    },
+    {
+      "path": "C:/Codex/260829_youtube-anshin/episodes/008_investment_scam/work/qa_frames_draft_v3/t_0334_cta_end.png",
+      "captured_sec": 334.0,
+      "scene_id": null,
+      "note": "CTA終盤"
+    }
+  ]
+}

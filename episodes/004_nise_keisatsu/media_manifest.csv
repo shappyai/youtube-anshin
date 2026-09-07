@@ -1,0 +1,19 @@
+shot_id,filename,use,notes,status,source_url,organization,captured_at,intended_scene,crop_note
+SHOT-01,assets/generated_ai/scene_001.png,導入の安心画面,人物と受話器の抽象; 人間生成; 原本1672x941→検証用1920x1080正規化コピーを使用（原本無変更）,downloaded,,,2026-08-31,SCENE-001,full_bleed; 下180px字幕安全領域
+SHOT-02,template/layout_02_list,今日確認する5項目,Codexテンプレート,ready,,,2026-08-31,SCENE-002,
+SHOT-03,assets/generated_ai/scene_003.png,1 / 5 セクション扉,受話器と数字カードの抽象; 人間生成,downloaded,,,2026-08-31,SCENE-003,full_bleed
+SHOT-04,template/layout_07_summary,被害の数字（令和7年確定値・8年暫定値）,警察庁SOS47の公表値のみをCodex描画,ready,,,2026-08-31,SCENE-004,
+SHOT-05,template/layout_03_visual_text,手口の流れ,正確な犯行文言はtemplateで表示,ready,,,2026-08-31,SCENE-005,
+SHOT-06,assets/generated_ai/scene_006.png,2 / 5 セクション扉,地球と受話器の抽象; 人間生成,downloaded,,,2026-08-31,SCENE-006,full_bleed
+SHOT-07,template/layout_05_compare,国コードの見分け方,＋81と＋1・＋44の比較,ready,,,2026-08-31,SCENE-007,
+SHOT-08,template/layout_06_caution,末尾0110・75.5％の注意,数字の正確性を優先しtemplate,ready,,,2026-08-31,SCENE-008,
+SHOT-09,assets/generated_ai/scene_009.png,3 / 5 セクション扉,確認マークと電話の抽象; 人間生成,downloaded,,,2026-08-31,SCENE-009,full_bleed
+SHOT-10,template/layout_07_summary,本物の警察官がしない4つ,警察庁SOS47の文言を列挙,ready,,,2026-08-31,SCENE-010,
+SHOT-11,template/layout_06_caution,電話番号の偽装に注意,折り返し禁止・#9110の注意カード,ready,,,2026-08-31,SCENE-011,
+SHOT-12,assets/generated_ai/scene_012.png,4 / 5 セクション扉,通話から離れる抽象; LINE UIは生成しない,downloaded,,,2026-08-31,SCENE-012,full_bleed
+SHOT-13,assets/official/kokusen_line_police.png,国民生活センターの明言,公式発表ページのスクリーンショット; 明言文をピンク強調のまま表示; draft QAで小さいと判断し明言文2文＋相談事例見出しへ再crop（旧cropはwork/phase_b_review/kokusen_line_police_full_crop.pngに保管）,downloaded,https://www.kokusen.go.jp/news/data/n-20250423_2.html,国民生活センター,2026-08-31,SCENE-013,明言文「警察がLINEのトークやビデオ通話で連絡を取ったり、金銭を個人名義の口座に振り込ませたりすることはありません。」＋188/#9110案内の2文を横長crop（755x142）。表示は1680pxスロットで約2.2倍に拡大される
+SHOT-14,template/layout_07_summary,ブロック・通報・相談の3つ,行動リスト＋1人で対応しない注意,ready,,,2026-08-31,SCENE-014,
+SHOT-15,assets/generated_ai/scene_015.png,5 / 5 セクション扉,3つのチェックカードの抽象; 人間生成,downloaded,,,2026-08-31,SCENE-015,full_bleed
+SHOT-16,template/layout_06_caution,固定電話の対策（0120-210-364）,実在番号のためtemplateで正確表示,ready,,,2026-08-31,SCENE-016,
+SHOT-17,template/layout_07_summary,スマホと家族の対策,着信設定・警察庁推奨アプリ・家族の約束,ready,,,2026-08-31,SCENE-017,
+SHOT-18,assets/generated_ai/scene_018.png,まとめとCTA,人物と確認マークの抽象; 人間生成,downloaded,,,2026-08-31,SCENE-018,full_bleed

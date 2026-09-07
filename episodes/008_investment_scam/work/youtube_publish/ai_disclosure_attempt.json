@@ -1,0 +1,37 @@
+{
+  "episode": "008_investment_scam",
+  "status": "verified",
+  "operation": "videos.update(part=status)",
+  "video_id": "GryqJ70DCHs",
+  "source": "STATE.md",
+  "target_containsSyntheticMedia": true,
+  "status_before": {
+    "privacyStatus": "private",
+    "publishAt": "2026-09-08T10:00:00Z",
+    "license": "youtube",
+    "embeddable": false,
+    "publicStatsViewable": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "reupload": false,
+  "started_at": "2026-09-05T04:00:23Z",
+  "update_response_status": {
+    "privacyStatus": "private",
+    "publishAt": "2026-09-08T10:00:00Z",
+    "license": "youtube",
+    "embeddable": false,
+    "publicStatsViewable": false,
+    "selfDeclaredMadeForKids": false,
+    "containsSyntheticMedia": true
+  },
+  "status_after": {
+    "privacyStatus": "private",
+    "publishAt": "2026-09-08T10:00:00Z",
+    "license": "youtube",
+    "embeddable": false,
+    "publicStatsViewable": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "verification_source": "videos.update response; videos.list omitted containsSyntheticMedia",
+  "verified_at": "2026-09-05T04:00:24Z"
+}

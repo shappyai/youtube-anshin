@@ -1,0 +1,53 @@
+{
+  "episode_id": "008",
+  "review_date": "2026-09-05",
+  "source_path": "assets/thumbnail/thumbnail_source.png",
+  "source_type": "human_provided_chatgpt_image",
+  "source_sha256": "8759ba8a8d7f4534d66c3227bd84164236ae4764648103afd7bfb2627b4100f2",
+  "source_dimensions": [
+    1672,
+    941
+  ],
+  "formal_path": "assets/thumbnail/thumbnail.png",
+  "formal_sha256": "f73ffff3b74414fe921104ac1e89605ee9ba3cb643c818130cdeb8010d3d923e",
+  "formal_dimensions": [
+    1280,
+    720
+  ],
+  "normalization": "centered cover crop with aspect-ratio preservation and LANCZOS; content unchanged",
+  "thumbnail_25_path": "work/thumbnail_review/thumbnail_25.png",
+  "thumbnail_25_sha256": "2dd5d0af00848bf1485c4ce32dd37e5411abf0771dbc5842042ea253c3f2a1e2",
+  "thumbnail_25_dimensions": [
+    320,
+    180
+  ],
+  "qa": {
+    "aspect_ratio_16_9": "PASS",
+    "decode": "PASS",
+    "text_typo": "PASS",
+    "text_clipping": "PASS",
+    "edge_clipping": "PASS",
+    "small_text_primary_message": "PASS",
+    "readability_at_25_percent": "PASS",
+    "real_celebrity": 0,
+    "personal_information": 0,
+    "account_number": 0,
+    "qr_code": 0,
+    "line_context": "PASS（投資広告からLINEへ誘導されたら注意、という文脈を維持）"
+  },
+  "visible_text_checked": [
+    "その投資広告",
+    "本物？",
+    "LINEに誘導されたら",
+    "注意"
+  ],
+  "visual_elements_checked": [
+    "青系背景",
+    "黄色の本物？",
+    "スマホ内の架空の投資広告イメージ",
+    "心配そうなシニア男性",
+    "実在著名人なし"
+  ],
+  "candidate_policy": "A/B/C候補は作成せず、ユーザー提供画像を正式採用",
+  "manual_review_note": "100%表示と25%縮小表示を目視確認。大見出し2箇所と下部メッセージを確認でき、内容・文字・人物・構成の変更なし。"
+}

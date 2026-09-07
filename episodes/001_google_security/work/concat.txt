@@ -1,0 +1,8 @@
+file 'seg01_intro.mp4'
+file 'seg02_checkup.mp4'
+file 'seg03_phone.mp4'
+file 'seg04_email.mp4'
+file 'seg05_2fa.mp4'
+file 'seg06_devices.mp4'
+file 'seg07_conn.mp4'
+file 'seg08_summary.mp4'

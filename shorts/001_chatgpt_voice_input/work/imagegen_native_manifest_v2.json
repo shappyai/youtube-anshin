@@ -1,0 +1,62 @@
+{
+  "short_id": "Short001",
+  "prompt_file": "shorts/001_chatgpt_voice_input/work/imagegen_prompts_v2.md",
+  "assets": [
+    {
+      "segment": 1,
+      "cue": "all",
+      "asset": "shorts/001_chatgpt_voice_input/assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "headline_lines": [
+        "ChatGPT",
+        "話すだけで使える？"
+      ],
+      "text_render_mode": "imagegen_native",
+      "source": "built-in image_gen",
+      "regeneration_count": 0,
+      "exact_text_qa": "PASS",
+      "vision_qa": "PASS",
+      "official_ui_generated": 0,
+      "hybrid_generated_image_large_text": 0
+    },
+    {
+      "segment": 4,
+      "cue": "all",
+      "asset": "shorts/001_chatgpt_voice_input/assets/imagegen_native_v2/normalized/scene_04_life.png",
+      "headline_lines": [
+        "今日のごはん、",
+        "何を作れる？"
+      ],
+      "text_render_mode": "imagegen_native",
+      "source": "built-in image_gen",
+      "regeneration_count": 0,
+      "exact_text_qa": "PASS",
+      "vision_qa": "PASS",
+      "official_ui_generated": 0,
+      "hybrid_generated_image_large_text": 0
+    },
+    {
+      "segment": 6,
+      "cue": "all",
+      "asset": "shorts/001_chatgpt_voice_input/assets/imagegen_native_v2/normalized/scene_06_summary.png",
+      "headline_lines": [
+        "まずは",
+        "話しかけるだけ"
+      ],
+      "text_render_mode": "imagegen_native",
+      "source": "built-in image_gen",
+      "regeneration_count": 0,
+      "exact_text_qa": "PASS",
+      "vision_qa": "PASS",
+      "official_ui_generated": 0,
+      "hybrid_generated_image_large_text": 0
+    }
+  ],
+  "metrics": {
+    "imagegen_native_text_scene_count": 3,
+    "imagegen_native_text_regeneration_count": 0,
+    "imagegen_native_text_fallback_count": 0,
+    "exact_text_pass_count": 3,
+    "exact_text_fail_count": 0,
+    "hybrid_generated_image_large_text": 0
+  }
+}

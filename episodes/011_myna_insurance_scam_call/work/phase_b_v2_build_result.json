@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "image": {
+    "scene": "SCENE-018",
+    "text_render_mode": "imagegen_native",
+    "post_text_overlay": 0,
+    "text_qa": "PASS"
+  },
+  "voice": {
+    "planned": [
+      39
+    ],
+    "skipped": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "segment_count": 39,
+    "duration": 236.795
+  },
+  "cta": {
+    "config": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\cta_registration_conversion_v1.json",
+    "screen": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\cta_registration_conversion_v1.png",
+    "audio": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\cta_registration_conversion_v1.wav",
+    "duration": 11.456,
+    "trailing": 3.544,
+    "declared_postroll": 15.0,
+    "canonical_text": "スマホやパソコンの「これ、どうすればいい？」を、公式情報で分かりやすく確認しています。次に困ったときのために、チャンネル登録しておいてください。"
+  },
+  "subtitles": {
+    "srt": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\captions.srt",
+    "ass": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\captions.ass",
+    "cue_count": 39
+  },
+  "video": {
+    "status": "PASS",
+    "output": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\output\\draft_v2.mp4",
+    "clip_count": 20,
+    "scene_count": 19,
+    "main_duration": 236.795,
+    "postroll_duration": 15.0,
+    "postroll_source": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\cta_registration_conversion_v1.png",
+    "cta_audio": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\cta_registration_conversion_v1.wav"
+  },
+  "qa": {
+    "status": "PASS",
+    "failures": [],
+    "warnings": [],
+    "probe": {
+      "format": {
+        "duration": 251.8
+      },
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "sample_rate": 48000,
+          "channels": 1
+        }
+      ]
+    },
+    "scene_count": 19,
+    "subtitle_count": 39,
+    "postroll": {
+      "kind": "channel_cta",
+      "cta_profile": "channel_common_cta",
+      "cta_variant": "registration_conversion_v1_reuse",
+      "reuse_from_episode": "010",
+      "reuse_source_status": "Episode010のdraft_v1で実使用されたregistration_conversion_v1 CTAを、canonical text・画面・音声の3点で再利用する。",
+      "cta_content_hash": "e20707f4cdf3a79dbd4bd4dc27be0d7c8159ed8693783881293c069be47cc08f",
+      "canonical_text": "スマホやパソコンの「これ、どうすればいい？」を、公式情報で分かりやすく確認しています。次に困ったときのために、チャンネル登録しておいてください。",
+      "display_text": "次に困ったときのために。\nチャンネル登録しておいてください。",
+      "duration_sec": 15,
+      "animation": "static",
+      "status": "draft_v2_built_waiting_human_review",
+      "audio_required": true,
+      "duration_mode": "audio_based",
+      "cta_config": "work/cta_registration_conversion_v1.json",
+      "asset": "work/cta_registration_conversion_v1.png",
+      "cta_audio": "audio/voicevox_kenzaki/cta_registration_conversion_v1.wav",
+      "audio_actual_seconds": 11.456,
+      "trailing_seconds": 3.544,
+      "fake_subscribe_ui": false,
+      "reserved_end_screen_right_percent": "40〜45%"
+    },
+    "scene_visual_warnings": {},
+    "expected_duration": 251.795
+  }
+}

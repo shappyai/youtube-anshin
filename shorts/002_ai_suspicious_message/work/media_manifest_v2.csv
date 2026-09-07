@@ -1,0 +1,5 @@
+﻿path,kind,source,status,note
+assets/imagegen_native_v2/normalized/scene_01_hook.png,imagegen_native_scene,built-in image_gen,used_in_draft_v2,人物・背景・主要見出しを一体生成。公式UI・ロゴ・個人情報なし。
+assets/imagegen_native_v2/normalized/scene_02_mask.png,imagegen_native_scene,built-in image_gen,used_in_draft_v2,人物・背景・主要見出しを一体生成。公式UI・ロゴ・個人情報なし。
+assets/imagegen_native_v2/normalized/scene_05_official.png,imagegen_native_scene,built-in image_gen,used_in_draft_v2,人物・背景・主要見出しを一体生成。公式UI・ロゴ・個人情報なし。
+assets/thumbnail_candidate/first_frame_thumbnail_candidate.png,first_frame_thumbnail_candidate,assets/imagegen_native_v2/normalized/scene_01_hook.png,reused_from_hook,動画冒頭と同じImageGen-native画像。サムネイル確定は未実施。

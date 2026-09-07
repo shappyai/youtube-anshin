@@ -1,0 +1,30 @@
+{
+  "status": "REVIEW",
+  "preflight": "ambiguous_kanji_pronunciation",
+  "rule": "ambiguous_方_avoidance",
+  "episode": "011_myna_insurance_scam_call",
+  "narration_segment_count": 39,
+  "narration_occurrence_count": 1,
+  "narration_occurrences": [
+    {
+      "segment_id": 22,
+      "category": "A",
+      "status": "REVIEW",
+      "context": "正式な利用登録の方法は、医療機関や薬局の顔認証付きカードリーダー、マイナポータル、セブン銀行ATMの3つです。",
+      "reason": "人を指す表現のため文脈確認"
+    }
+  ],
+  "script_occurrence_count": 2,
+  "script_occurrences": [
+    {
+      "line": 16,
+      "text": "- 推定方法：冒頭文字量を5.6文字/秒で読み、句読点と短い区切りを加算。VOICEVOX実測はPhase B。"
+    },
+    {
+      "line": 123,
+      "text": "正式な利用登録の方法は、医療機関や薬局の顔認証付きカードリーダー、マイナポータル、セブン銀行ATMの3つです。"
+    }
+  ],
+  "global_方_dictionary_entry": false,
+  "failures": []
+}

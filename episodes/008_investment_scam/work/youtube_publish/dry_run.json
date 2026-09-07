@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "api_called": false,
+  "oauth_called": false,
+  "episode": "008_investment_scam",
+  "final_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\output\\final.mp4",
+  "thumbnail_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\assets\\thumbnail\\thumbnail.png",
+  "title": "【投資詐欺】その有名人、本物？LINEに誘導されたら確認したい3つ",
+  "description_bytes": 3750,
+  "tag_count": 7,
+  "tag_total_length": 45,
+  "privacy": "scheduled",
+  "ai_disclosure": true,
+  "schedule_local": "2026-09-08 19:00:00 JST",
+  "schedule_api": "2026-09-08T10:00:00Z",
+  "video_sha256": "92166D59C228BAFF67AD32280899066AD050FF6C715646D773427CCBA04F2854",
+  "existing_video_id": null,
+  "expected_api_requests": [
+    "videos.insert part=snippet,status resumable=True notifySubscribers=False status.containsSyntheticMedia",
+    "videos.update part=status private+publishAt",
+    "thumbnails.set",
+    "videos.list part=snippet,status"
+  ],
+  "errors": []
+}

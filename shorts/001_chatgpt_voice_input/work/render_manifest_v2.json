@@ -1,0 +1,133 @@
+{
+  "short_id": "Short001",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "audio_reused": true,
+  "audio_gap_sec": 0.07,
+  "frame_rows": [
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v2\\scene_01_seg_01_cue_01.png",
+      "duration_sec": 3.3066666666666666,
+      "start_sec": 0.0,
+      "end_sec": 3.3066666666666666,
+      "scene": 1,
+      "segment_id": 1,
+      "cue_index": 1,
+      "subtitle": [
+        "ChatGPT",
+        "話すだけで使える？"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "shorts/001_chatgpt_voice_input/assets/imagegen_native_v2/normalized/scene_01_hook.png"
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v2\\scene_02_seg_02_cue_01.png",
+      "duration_sec": 2.986666666666667,
+      "start_sec": 3.3766666666666665,
+      "end_sec": 6.363333333333333,
+      "scene": 2,
+      "segment_id": 2,
+      "cue_index": 1,
+      "subtitle": [
+        "音声モードなら",
+        "話しかけて使える"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v2\\scene_03_seg_03_cue_01.png",
+      "duration_sec": 4.373333333333332,
+      "start_sec": 6.433333333333333,
+      "end_sec": 10.806666666666665,
+      "scene": 3,
+      "segment_id": 3,
+      "cue_index": 1,
+      "subtitle": [
+        "Voiceアイコンをタップ"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v2\\scene_04_seg_04_cue_01.png",
+      "duration_sec": 3.968,
+      "start_sec": 10.876666666666665,
+      "end_sec": 14.844666666666665,
+      "scene": 4,
+      "segment_id": 4,
+      "cue_index": 1,
+      "subtitle": [
+        "今日のごはん、",
+        "何を作れる？"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "shorts/001_chatgpt_voice_input/assets/imagegen_native_v2/normalized/scene_04_life.png"
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v2\\scene_05_seg_05_cue_01.png",
+      "duration_sec": 3.8826666666666654,
+      "start_sec": 14.914666666666665,
+      "end_sec": 18.79733333333333,
+      "scene": 5,
+      "segment_id": 5,
+      "cue_index": 1,
+      "subtitle": [
+        "答え始める"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v2\\scene_06_seg_06_cue_01.png",
+      "duration_sec": 2.2719999999999985,
+      "start_sec": 18.86733333333333,
+      "end_sec": 21.13933333333333,
+      "scene": 6,
+      "segment_id": 6,
+      "cue_index": 1,
+      "subtitle": [
+        "まずは話しかけるだけ"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "shorts/001_chatgpt_voice_input/assets/imagegen_native_v2/normalized/scene_06_summary.png"
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v2\\scene_06_seg_07_cue_01.png",
+      "duration_sec": 3.189333333333334,
+      "start_sec": 21.20933333333333,
+      "end_sec": 24.398666666666664,
+      "scene": 6,
+      "segment_id": 7,
+      "cue_index": 1,
+      "subtitle": [
+        "次は写真で聞く"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v2\\scene_06_seg_08_cue_01.png",
+      "duration_sec": 3.2319999999999993,
+      "start_sec": 24.468666666666664,
+      "end_sec": 27.700666666666663,
+      "scene": 6,
+      "segment_id": 8,
+      "cue_index": 1,
+      "subtitle": [
+        "困ったときのために",
+        "登録しておいてください"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    }
+  ],
+  "mode_counts": {
+    "imagegen_native": 3,
+    "renderer_native": 5
+  },
+  "no_image_text_hybrid": true
+}

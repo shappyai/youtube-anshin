@@ -1,0 +1,20 @@
+{
+  "channel_name": "大人のデジタル安心室",
+  "channel_config_path": "local/youtube/channel_config.json",
+  "client_secret_path": "local/youtube/client_secret.json",
+  "token_path": "local/youtube/token.json",
+  "category_id": "22",
+  "default_language": "ja",
+  "made_for_kids": false,
+  "default_privacy": "private",
+  "oauth_scopes": [
+    "https://www.googleapis.com/auth/youtube.upload",
+    "https://www.googleapis.com/auth/youtube.force-ssl"
+  ],
+  "thumbnail_candidates": [
+    "assets/thumbnail/thumbnail.png",
+    "thumbnail/thumbnail.png",
+    "output/thumbnail.png",
+    "final/thumbnail.png"
+  ]
+}

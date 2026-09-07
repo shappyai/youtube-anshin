@@ -1,0 +1,152 @@
+{
+  "episode_id": "006",
+  "scene_count": 24,
+  "rendered_scene_count": 24,
+  "failures": [],
+  "warnings": [],
+  "manual_review": "PENDING",
+  "visual_balance": {
+    "status": "PASS",
+    "human_review": "PENDING"
+  },
+  "official_readability": {
+    "status": "REVIEW",
+    "reason": "公式引用カードをスマホ視聴サイズで人間確認する"
+  },
+  "placeholder_issues": [],
+  "linebreak_issues": [],
+  "item_count_issues": [],
+  "scene_visual_warnings": {},
+  "ai_validation": {
+    "status": "PASS",
+    "missing": [],
+    "invalid": [],
+    "safe_area_warnings": []
+  },
+  "ai_originals": [
+    {
+      "path": "assets/generated_ai/scene_001.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "bytes": 4608010,
+      "sha256": "e2d1862e3997e5e8c3768b20c4e0f45a520aeec42ffef0d8774b278ca584a079"
+    },
+    {
+      "path": "assets/generated_ai/scene_003.png",
+      "size": [
+        1672,
+        941
+      ],
+      "bytes": 2140435,
+      "sha256": "ad4c2042b6e5a97a9d9a24ffd970dc56335bbdb94381725bef9fa83757680f17"
+    },
+    {
+      "path": "assets/generated_ai/scene_015.png",
+      "size": [
+        1672,
+        941
+      ],
+      "bytes": 2194807,
+      "sha256": "c3bf62c709ced2d1cf41e1557c1412ab038294aca83eda3e6089ffb53e66c1a7"
+    },
+    {
+      "path": "assets/generated_ai/scene_019.png",
+      "size": [
+        1672,
+        941
+      ],
+      "bytes": 2076197,
+      "sha256": "003907e0195a9cca6c0b2d04ab7fa14dc619629fe4300acae2c8a7fdcc0cff3b"
+    },
+    {
+      "path": "assets/generated_ai/scene_025.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "bytes": 3761392,
+      "sha256": "e1ad0a5e513440d863bfd69a8abd5e03aab6a73a08ea3cfa92f91e50a84e86cb"
+    }
+  ],
+  "duplicate_sha256_groups": [],
+  "official_assets": [
+    {
+      "path": "assets/official/line_backup_transfer_menu_fallback.png",
+      "size": [
+        1680,
+        515
+      ],
+      "bytes": 76090,
+      "sha256": "66636f79855d0fbf624babc5262853951a9a600c0ddf491b14e96c6a0baca7d5"
+    },
+    {
+      "path": "assets/official/line_talk_backup_datetime_fallback.png",
+      "size": [
+        1680,
+        515
+      ],
+      "bytes": 78328,
+      "sha256": "f75a1c28d19c8e5483ef3840ffcb79d15b945026d91f098f095900de86c21451"
+    },
+    {
+      "path": "assets/official/line_auto_backup_fallback.png",
+      "size": [
+        1680,
+        515
+      ],
+      "bytes": 75083,
+      "sha256": "2035fabc4f5bddb24fe8d91a8e0e38780ffc44502e0ae674642a172b5dd7d827"
+    },
+    {
+      "path": "assets/official/line_icloud_drive_crop.png",
+      "size": [
+        1680,
+        515
+      ],
+      "bytes": 74770,
+      "sha256": "87f18e2e87a881b1ffb9ec5ead9bb9a41daebac98aea39076b7b6f354ff80ce1"
+    },
+    {
+      "path": "assets/official/line_backup_pin_fallback.png",
+      "size": [
+        1680,
+        515
+      ],
+      "bytes": 78122,
+      "sha256": "e2a3660ab3d09815ce7496adc051eafbae8e7286bef067ef88ea34f9759711ba"
+    },
+    {
+      "path": "assets/official/line_standard_backup_same_os_crop.png",
+      "size": [
+        1680,
+        515
+      ],
+      "bytes": 75745,
+      "sha256": "3d8034f9c2f3e554962d0160961c4389cc7a73ec573542a78671665b254dd310"
+    },
+    {
+      "path": "assets/official/line_backup_trouble_media_crop.png",
+      "size": [
+        1680,
+        515
+      ],
+      "bytes": 83642,
+      "sha256": "07fa29aa1ed1b7c9b864445d57f471636f1bd084a307ef046505a9c87d4787c8"
+    }
+  ],
+  "media_manifest_count": 7,
+  "legacy_episode_term_hits": {},
+  "contact_sheets": {
+    "all_scenes": true,
+    "gpt_images": true
+  },
+  "manual_observations": [
+    "contact sheet上で、5枚のGPT画像は1 scene=1 imageで、collage/storyboard/split panel/大きな白抜きなし。",
+    "GPT原本にはLINE UI・ロゴ・QR・電話番号風文字列・生成文字は見当たらず、Codex後描画の文字だけを表示。",
+    "公式引用カード7枚は『実際のLINE画面ではありません』を表示し、公式URL・確認日・HTML由来の出典をmanifestに記録。",
+    "公式引用カードの可読性、fallbackのまま公開するか、AI disclosureの要否は人間ゲートで最終確認する。"
+  ],
+  "status": "REVIEW"
+}

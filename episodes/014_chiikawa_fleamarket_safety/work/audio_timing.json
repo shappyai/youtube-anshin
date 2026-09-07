@@ -1,0 +1,347 @@
+{
+  "duration": 274.597,
+  "segments": [
+    {
+      "segment_id": 1,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\001.wav",
+      "hash": "035720990f767f6b18133630b60ed39dafec0ccaddc74c3287bc1f715896bac2",
+      "start_sec": 0.0,
+      "end_sec": 7.616,
+      "duration_sec": 7.616,
+      "pause_after": 0.12
+    },
+    {
+      "segment_id": 2,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\002.wav",
+      "hash": "3b6f4d497935f5d2b069f71d624e177b4baea78f723e820200aced5389698d67",
+      "start_sec": 7.736,
+      "end_sec": 23.512,
+      "duration_sec": 15.776,
+      "pause_after": 0.12
+    },
+    {
+      "segment_id": 3,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\003.wav",
+      "hash": "40fc4dd832920c54117b50aca005a431de5798df4c009f32fd09ad24514b6a6a",
+      "start_sec": 23.632,
+      "end_sec": 35.76,
+      "duration_sec": 12.128,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 4,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\004.wav",
+      "hash": "9faf9e4e5c469f5b5ece68051e7a8d6703391b4c1ad170899e05a4bdae58695e",
+      "start_sec": 35.9,
+      "end_sec": 42.353,
+      "duration_sec": 6.453,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 5,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\005.wav",
+      "hash": "f904c5c1d610392a6c62b0ebeaa0de791d1751d4b9f64020274b7027e7f5bdb6",
+      "start_sec": 42.493,
+      "end_sec": 51.517,
+      "duration_sec": 9.024,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 6,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\006.wav",
+      "hash": "6cc517afbc04871b158f48a685a8f9e4ae3d89f792451d6bdfb79bd96dbc296c",
+      "start_sec": 51.657,
+      "end_sec": 66.004,
+      "duration_sec": 14.347,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 7,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\007.wav",
+      "hash": "019b09c9ee143758a1204fd4ea82a420691db56b09005ca3e3226f7d7896f0bd",
+      "start_sec": 66.144,
+      "end_sec": 86.453,
+      "duration_sec": 20.309,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 8,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\008.wav",
+      "hash": "f4a618a2c890728decadbc1ebe8197557ea4221d47ae2c63839b9b55973fff5e",
+      "start_sec": 86.593,
+      "end_sec": 93.185,
+      "duration_sec": 6.592,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 9,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\009.wav",
+      "hash": "c73e85a6842cf4f5e14c2688dbe8efc4e2649eaeb10f3bd65f2a0ff15361f011",
+      "start_sec": 93.325,
+      "end_sec": 96.408,
+      "duration_sec": 3.083,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 10,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\010.wav",
+      "hash": "00b0e2b6cb78c865031cc60b54dc0e00b1b3ccb79f172c8b75289cca705abe39",
+      "start_sec": 96.588,
+      "end_sec": 99.425,
+      "duration_sec": 2.837,
+      "pause_after": 0.16
+    },
+    {
+      "segment_id": 11,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\011.wav",
+      "hash": "80eb1dc3f2ebfd54bf4eba3961a0b30df5ca8f2f89245778e8a7fa1881858664",
+      "start_sec": 99.585,
+      "end_sec": 105.911,
+      "duration_sec": 6.325,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 12,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\012.wav",
+      "hash": "fc37eeaa31111f6cde420b40ecbb0cdc5cc421409293d4684418db74cf523eca",
+      "start_sec": 106.051,
+      "end_sec": 113.016,
+      "duration_sec": 6.965,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 13,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\013.wav",
+      "hash": "b2a7142d19bf84b3105e33876921ce9ecfac011fae6affe80f06b0afc41ea823",
+      "start_sec": 113.156,
+      "end_sec": 118.447,
+      "duration_sec": 5.291,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 14,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\014.wav",
+      "hash": "2daaa4477e44e7eec7ac42984c38781521adc3efb1cf5bb4952395de9923423c",
+      "start_sec": 118.587,
+      "end_sec": 124.389,
+      "duration_sec": 5.803,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 15,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\015.wav",
+      "hash": "068105cd094b21d707b1e02aa5b427a2b86706cf85217215ecdad9cff71fcd46",
+      "start_sec": 124.569,
+      "end_sec": 130.831,
+      "duration_sec": 6.261,
+      "pause_after": 0.16
+    },
+    {
+      "segment_id": 16,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\016.wav",
+      "hash": "a1d29b2b4800a89ae5bedacdac67efb1b5072bafb93d506d1c6bb8f70312f85c",
+      "start_sec": 130.991,
+      "end_sec": 137.22,
+      "duration_sec": 6.229,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 17,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\017.wav",
+      "hash": "860eb194ae83ac6176ebeea74bb89c414761fdbf6bbc43348c776f306d08a7bc",
+      "start_sec": 137.36,
+      "end_sec": 144.165,
+      "duration_sec": 6.805,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 18,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\018.wav",
+      "hash": "e172142b70e1c73d40d0fb8a1dfe358c01767210c0bb94fcfc9835e3bf30581f",
+      "start_sec": 144.305,
+      "end_sec": 150.716,
+      "duration_sec": 6.411,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 19,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\019.wav",
+      "hash": "28a5ef60dbc94b9160ed91803c206e1993b98c92e74da813a95babf9630040fd",
+      "start_sec": 150.856,
+      "end_sec": 157.725,
+      "duration_sec": 6.869,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 20,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\020.wav",
+      "hash": "b9fd0b19ee578233dc2f9627081f960e3e58cb8522be39e1184be03efcf4ef81",
+      "start_sec": 157.905,
+      "end_sec": 162.343,
+      "duration_sec": 4.437,
+      "pause_after": 0.16
+    },
+    {
+      "segment_id": 21,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\021.wav",
+      "hash": "4cdbeacf5327972c4de8be811fbf7f50f722996cf56847c36f8998fe55eb4095",
+      "start_sec": 162.503,
+      "end_sec": 171.143,
+      "duration_sec": 8.64,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 22,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\022.wav",
+      "hash": "2784a70dc3bb9a5a392cc8b019cc21b8e89586039034356cb1ebb00080aea492",
+      "start_sec": 171.283,
+      "end_sec": 175.208,
+      "duration_sec": 3.925,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 23,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\023.wav",
+      "hash": "764a02be48a3e1dda3c76f1fb7be60e6e19146099b542ce2e0f6318475283120",
+      "start_sec": 175.348,
+      "end_sec": 181.727,
+      "duration_sec": 6.379,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 24,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\024.wav",
+      "hash": "042b040ba5106d4510188057ec4dcb45be0f9c7fd5b5edb1ecc9370a5c2ef964",
+      "start_sec": 181.867,
+      "end_sec": 186.112,
+      "duration_sec": 4.245,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 25,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\025.wav",
+      "hash": "1dfcb13de53983b784d4756f521b027f7cd485e0be4e3dac3b8a767888cd5bf9",
+      "start_sec": 186.292,
+      "end_sec": 190.623,
+      "duration_sec": 4.331,
+      "pause_after": 0.16
+    },
+    {
+      "segment_id": 26,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\026.wav",
+      "hash": "6bc3c555e6ad018e5b76948650c57c09ebda6bae7263e74d75745f94d03502cd",
+      "start_sec": 190.783,
+      "end_sec": 196.66,
+      "duration_sec": 5.877,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 27,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\027.wav",
+      "hash": "88ef9eccecb3f56ba0daf6652f4e9c2db44989ba07a1e3fe3c8d30d94fc18f2a",
+      "start_sec": 196.8,
+      "end_sec": 201.621,
+      "duration_sec": 4.821,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 28,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\028.wav",
+      "hash": "d132a3ab6ebc932c141c9511d160e8435623f566f12b7df16b2a7a66ba1cf7c6",
+      "start_sec": 201.761,
+      "end_sec": 208.695,
+      "duration_sec": 6.933,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 29,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\029.wav",
+      "hash": "ff5fe3d8dfed2dd055a030b7d276e6baad212deef7cc9724b77920b2b68cbe1c",
+      "start_sec": 208.875,
+      "end_sec": 213.195,
+      "duration_sec": 4.32,
+      "pause_after": 0.16
+    },
+    {
+      "segment_id": 30,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\030.wav",
+      "hash": "8106c4f04e68e3081d6ac12b013ea0504d9b84a0f2b6ece573012dae760c9ef6",
+      "start_sec": 213.355,
+      "end_sec": 219.456,
+      "duration_sec": 6.101,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 31,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\031.wav",
+      "hash": "3efa8e9ec613c19c31bc3b3c6b70b78fb7a1c84c3f9ca653a50736e8caf421ac",
+      "start_sec": 219.596,
+      "end_sec": 226.049,
+      "duration_sec": 6.453,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 32,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\032.wav",
+      "hash": "4285f2baf9de8682ea11bd41791dff7c29114dae6b707ef4ef432cf9f28213fb",
+      "start_sec": 226.189,
+      "end_sec": 233.059,
+      "duration_sec": 6.869,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 33,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\033.wav",
+      "hash": "e34f8e247921255f0a130addce6b6946ee34f537687d7926b0590e8b464554c8",
+      "start_sec": 233.199,
+      "end_sec": 239.385,
+      "duration_sec": 6.187,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 34,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\034.wav",
+      "hash": "45480deeba064a05e4f64dd2f8b2fff9304d2f44b57fdf5232949663d5f2c539",
+      "start_sec": 239.565,
+      "end_sec": 247.352,
+      "duration_sec": 7.787,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 35,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\035.wav",
+      "hash": "b26e311c88b54070714e56391f920fd9a791872187cf35d4e8def0b9d86899da",
+      "start_sec": 247.492,
+      "end_sec": 252.793,
+      "duration_sec": 5.301,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 36,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\036.wav",
+      "hash": "3231b3cc30783bfe05886630dc84f6dbcf3b2e4011efe2e3fb0f09cfa3d34145",
+      "start_sec": 252.933,
+      "end_sec": 259.355,
+      "duration_sec": 6.421,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 37,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\037.wav",
+      "hash": "010f7b853c3b6df25556e5659a1bd521942a3f14b528157d040694a34520c831",
+      "start_sec": 259.495,
+      "end_sec": 266.716,
+      "duration_sec": 7.221,
+      "pause_after": 0.14
+    },
+    {
+      "segment_id": 38,
+      "wav_path": "episodes\\014_chiikawa_fleamarket_safety\\audio\\voicevox_kenzaki\\segments\\038.wav",
+      "hash": "64bfc8406ba234053f21c5a7020c0974748e2ad24e5332719d96b8cf4c5e741a",
+      "start_sec": 266.856,
+      "end_sec": 274.397,
+      "duration_sec": 7.541,
+      "pause_after": 0.2
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "api_called": false,
+  "oauth_called": false,
+  "episode": "007_myna_app_login",
+  "final_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\007_myna_app_login\\output\\final.mp4",
+  "thumbnail_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\007_myna_app_login\\assets\\thumbnail\\thumbnail.png",
+  "title": "【マイナアプリ】ログインできない？まず確認したい5つ",
+  "description_bytes": 2267,
+  "tag_count": 5,
+  "tag_total_length": 32,
+  "privacy": "private",
+  "ai_disclosure": true,
+  "schedule_local": null,
+  "schedule_api": null,
+  "video_sha256": "80AD01947A57A4AAFF4745122BFE35B41B7F62009E89BA43664BEF8621289393",
+  "existing_video_id": null,
+  "expected_api_requests": [
+    "videos.insert part=snippet,status resumable=True notifySubscribers=False status.containsSyntheticMedia",
+    "thumbnails.set",
+    "videos.list part=snippet,status"
+  ],
+  "errors": []
+}

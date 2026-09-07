@@ -1,0 +1,1824 @@
+{
+  "schema_version": "1.0.0",
+  "metadata": {
+    "research_date": "2026-09-06",
+    "visual_theme": "adult_digital_soft_image_bg",
+    "production_phase": "Phase C（registration_conversion_v1実験・draft_v2人間承認済み・final確定・YouTube予約済み）",
+    "channel": "大人のデジタル安心室",
+    "brand_promise": "怖がらせる前に、確認する。",
+    "target_audience_detail": "50〜70代、特に65歳以上。TV視聴を想定し、情報文字44px未満を出さず、操作箇所を大きく見せる。",
+    "media_decision": "スマートフォン実機を主媒体候補とし、正確なUIはデジタル庁公式画面、概念sceneだけImageGenを使用する。",
+    "fact_boundary": "扱うのはマイナアプリの利用登録。マイナポータル利用者登録、ログイン、スマホ用電子証明書登録、健康保険証利用登録、機種変更、トラブルは別扱い。",
+    "source_of_truth": [
+      "research/episode010_myna_app_registration/official_flow.md",
+      "research/episode010_myna_app_registration/sources.md",
+      "fact_check.md",
+      "script.md",
+      "scene_plan.json",
+      "work/visual_review/visual_gate_v2.md",
+      "work/analytics_plan.md"
+    ],
+    "human_gates": [
+      "テーマ・台本：PRODUCTION GO済み",
+      "冒頭30秒v2＋scene contact sheet＋privacy・exact text確認：2026-09-05承認済み",
+      "full draft：draft_v2全編確認済み（2026-09-06承認、senior_readability=PASS）",
+      "thumbnail・publish：サムネイル受領・画像QA・YouTube private予約完了"
+    ],
+    "phase_a_not_created": [
+      "audio/",
+      "captions.srt",
+      "draft.mp4",
+      "thumbnail/",
+      "final/final.mp4",
+      "YouTube upload"
+    ]
+  },
+  "episode": {
+    "episode_id": "010",
+    "slug": "myna_app_registration",
+    "title": "【マイナアプリ】登録方法は？初めて使う人が確認したい手順",
+    "target_duration": 300,
+    "status": "publish_ready",
+    "topic": "マイナアプリを初めて使う人向けに、アプリの利用登録を公式6段階に沿って説明する。",
+    "target_audience": "50〜70代、特に65歳以上。マイナアプリを開いたが、最初に何をすればよいか分からない人。",
+    "topic_scores": {
+      "topic_score_search": 4,
+      "topic_score_senior_fit": 5,
+      "topic_score_channel_fit": 5,
+      "topic_score_home_ctr": 4,
+      "topic_score_practicality": 5,
+      "selected_topic_reason": "名称刷新後の検索入口を、初回利用登録の成功ルートへ絞り、Episode 002・007との役割を分ける。"
+    }
+  },
+  "narration": {
+    "speaker": "VOICEVOX",
+    "voice": "剣崎雌雄",
+    "style": "ノーマル",
+    "speedScale": 1,
+    "intonationScale": 1,
+    "pitchScale": 0,
+    "segment_policy": "1文ずつaudio_query→synthesis。VOICEVOX実測WAVと音声タイミングを確定済み。"
+  },
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "url": "https://services.digital.go.jp/mynaapp/",
+      "title": "マイナアプリ（旧マイナポータルアプリ）",
+      "organization": "デジタル庁",
+      "verified_at": "2026-09-05",
+      "claim": "2026年8月25日の刷新、旧アプリからの更新、初回利用登録、マイナポータルとの関係"
+    },
+    {
+      "source_id": "SRC-002",
+      "url": "https://services.digital.go.jp/mynaapp/register/",
+      "title": "マイナアプリの利用登録の方法",
+      "organization": "デジタル庁",
+      "verified_at": "2026-09-05",
+      "claim": "利用規約、利用登録開始、通知、画面ロック、本人認証、登録完了までの公式フロー"
+    },
+    {
+      "source_id": "SRC-003",
+      "url": "https://services.digital.go.jp/mynaapp/system-requirements/",
+      "title": "マイナアプリの動作環境",
+      "organization": "デジタル庁",
+      "verified_at": "2026-09-05",
+      "claim": "iOS 16.4以上、Android 11以上、AndroidのNFC、端末ロック等のアプリ本体条件"
+    },
+    {
+      "source_id": "SRC-004",
+      "url": "https://services.digital.go.jp/mynaapp/scan-mynumbercard/",
+      "title": "マイナアプリを使ってマイナンバーカードを読み取る方法",
+      "organization": "デジタル庁",
+      "verified_at": "2026-09-05",
+      "claim": "実物カードの読み取り手順と、スマートフォンをカードに重ねる操作"
+    },
+    {
+      "source_id": "SRC-005",
+      "url": "https://services.digital.go.jp/mynumbercard/auth-passcode/",
+      "title": "マイナンバーカードの利用者証明用暗証番号",
+      "organization": "デジタル庁",
+      "verified_at": "2026-09-05",
+      "claim": "利用者証明用電子証明書の数字4桁と、署名用パスワードとの区別"
+    },
+    {
+      "source_id": "SRC-006",
+      "url": "https://services.digital.go.jp/mynumbercard-iphone/",
+      "title": "iPhoneのマイナンバーカード",
+      "organization": "デジタル庁",
+      "verified_at": "2026-09-05",
+      "claim": "iPhoneのマイナンバーカードの別ルートと対応条件"
+    },
+    {
+      "source_id": "SRC-007",
+      "url": "https://services.digital.go.jp/mynumbercard-android/",
+      "title": "Androidスマホ用電子証明書搭載サービス",
+      "organization": "デジタル庁",
+      "verified_at": "2026-09-05",
+      "claim": "Androidスマートフォンの電子証明書の別ルートと対応機種確認"
+    },
+    {
+      "source_id": "SRC-008",
+      "url": "https://services.digital.go.jp/mynaportal/login/",
+      "title": "マイナポータルへのログイン方法",
+      "organization": "デジタル庁",
+      "verified_at": "2026-09-05",
+      "claim": "マイナポータルへのログインは利用登録とは別の案内であること"
+    },
+    {
+      "source_id": "SRC-009",
+      "url": "https://faq.myna.go.jp/faq/show/2685?category_id=14&site_domain=default",
+      "title": "利用者登録とは何ですか。",
+      "organization": "マイナポータル",
+      "verified_at": "2026-09-05",
+      "claim": "マイナポータル利用者登録は、利用者情報・メール等を登録する別概念であること"
+    },
+    {
+      "source_id": "SRC-010",
+      "url": "https://apps.apple.com/jp/app/マイナアプリ-旧マイナポータルアプリ/id1476359069",
+      "title": "マイナアプリ（旧マイナポータルアプリ）",
+      "organization": "Apple App Store",
+      "verified_at": "2026-09-05",
+      "claim": "ストア上の現行アプリ名と対応情報"
+    },
+    {
+      "source_id": "SRC-011",
+      "url": "https://play.google.com/store/apps/details?id=jp.go.cas.mpa&hl=ja",
+      "title": "マイナアプリ（旧マイナポータルアプリ）",
+      "organization": "Google Play",
+      "verified_at": "2026-09-05",
+      "claim": "ストア上の現行アプリ名と配信情報"
+    }
+  ],
+  "narration_segments": [
+    {
+      "id": 1,
+      "section": "はじめに",
+      "narration": "マイナアプリを入れて、開いてみた。でも、最初に何をすればいい？",
+      "display_text": "マイナアプリを入れて、開いてみた。でも、最初に何をすればいい？",
+      "reading_overrides": {
+        "開いて": "ひらいて"
+      },
+      "pause_after": 0.15,
+      "scene_id": 1,
+      "subtitle_ids": ["SUB-001-1", "SUB-001-2"]
+    },
+    {
+      "id": 2,
+      "section": "はじめに",
+      "narration": "今回は、初めて使うときの「利用登録」を、順番に確認します。",
+      "display_text": "初めて使うときの「利用登録」を順番に確認",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 1,
+      "subtitle_ids": ["SUB-002"]
+    },
+    {
+      "id": 3,
+      "section": "はじめに",
+      "narration": "利用登録を、規約から「はじめる」まで確認します。",
+      "display_text": "規約 → 利用登録 → 通知 → 画面ロック → 本人認証 → はじめる",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 2,
+      "subtitle_ids": ["SUB-003-1","SUB-003-2"]
+    },
+    {
+      "id": 4,
+      "section": "はじめに",
+      "narration": "準備は、最新版、画面ロック、本人確認に使うものです。",
+      "display_text": "準備：最新版 / 画面ロック / 本人確認",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 3,
+      "subtitle_ids": ["SUB-004"]
+    },
+    {
+      "id": 5,
+      "section": "はじめに",
+      "narration": "実物カードなら、数字4桁も確認します。",
+      "display_text": "実物カードなら：数字4桁の暗証番号",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 3,
+      "subtitle_ids": ["SUB-005"]
+    },
+    {
+      "id": 6,
+      "section": "1 / 6",
+      "narration": "では、まず利用規約の確認からです。",
+      "display_text": "利用規約を確認",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 4,
+      "subtitle_ids": ["SUB-006"]
+    },
+    {
+      "id": 7,
+      "section": "1 / 6",
+      "narration": "マイナアプリを開きます。",
+      "display_text": "マイナアプリを開く",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 5,
+      "subtitle_ids": ["SUB-007"]
+    },
+    {
+      "id": 8,
+      "section": "1 / 6",
+      "narration": "初回画面で、利用規約とプライバシーポリシーを確認します。",
+      "display_text": "利用規約とプライバシーポリシーを確認",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 5,
+      "subtitle_ids": ["SUB-008"]
+    },
+    {
+      "id": 9,
+      "section": "1 / 6",
+      "narration": "内容を確認したら、同意して次へ進みます。",
+      "display_text": "確認したら、同意して次へ",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 5,
+      "subtitle_ids": ["SUB-009"]
+    },
+    {
+      "id": 10,
+      "section": "2 / 6",
+      "narration": "利用登録をはじめる画面で、次へ進みます。",
+      "display_text": "利用登録をはじめる画面で、次へ",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 6,
+      "subtitle_ids": ["SUB-010"]
+    },
+    {
+      "id": 11,
+      "section": "2 / 6",
+      "narration": "ここで行うのは、アプリの利用登録です。",
+      "display_text": "アプリの利用登録",
+      "reading_overrides": {
+        "行う": "おこなう"
+      },
+      "pause_after": 0.15,
+      "scene_id": 7,
+      "subtitle_ids": ["SUB-011"]
+    },
+    {
+      "id": 12,
+      "section": "2 / 6",
+      "narration": "マイナポータルの利用者登録とは別なので、画面の案内に沿って進みます。",
+      "display_text": "マイナポータル利用者登録とは別",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 7,
+      "subtitle_ids": ["SUB-012"]
+    },
+    {
+      "id": 13,
+      "section": "3 / 6",
+      "narration": "通知を受け取るかどうかを確認します。",
+      "display_text": "通知を受け取るか確認",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 8,
+      "subtitle_ids": ["SUB-013"]
+    },
+    {
+      "id": 14,
+      "section": "3 / 6",
+      "narration": "通知は、あとでメニューから変更できます。",
+      "display_text": "通知はあとで変更できます",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 9,
+      "subtitle_ids": ["SUB-014"]
+    },
+    {
+      "id": 15,
+      "section": "3 / 6",
+      "narration": "通知を許可しないと必ず使えない、という意味ではありません。",
+      "display_text": "通知を許可しないと必ず使えない、ではありません",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 9,
+      "subtitle_ids": ["SUB-015"]
+    },
+    {
+      "id": 16,
+      "section": "4 / 6",
+      "narration": "次に、端末のロックを利用する画面が出ます。",
+      "display_text": "端末のロックを利用する画面",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 10,
+      "subtitle_ids": ["SUB-016"]
+    },
+    {
+      "id": 17,
+      "section": "4 / 6",
+      "narration": "スマホの画面ロックを使って、アプリへのログインやサービスの認証を安全に行うための設定です。",
+      "display_text": "画面ロックでログインや認証を安全に",
+      "reading_overrides": {
+        "行う": "おこなう"
+      },
+      "pause_after": 0.15,
+      "scene_id": 11,
+      "subtitle_ids": ["SUB-017"]
+    },
+    {
+      "id": 18,
+      "section": "4 / 6",
+      "narration": "画面ロックをまだ設定していない場合は、先にスマホ本体で設定します。",
+      "display_text": "画面ロック未設定なら、先にスマホ本体で設定",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 11,
+      "subtitle_ids": ["SUB-018"]
+    },
+    {
+      "id": 19,
+      "section": "5 / 6",
+      "narration": "ここで、アプリ本体の対応条件を補足します。",
+      "display_text": "アプリ本体の対応条件を補足",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 12,
+      "subtitle_ids": ["SUB-019"]
+    },
+    {
+      "id": 20,
+      "section": "5 / 6",
+      "narration": "アイオーエス16.4以上、アンドロイド11以上です。",
+      "display_text": "iOS 16.4以上 / Android 11以上",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 12,
+      "subtitle_ids": ["SUB-020"]
+    },
+    {
+      "id": 21,
+      "section": "5 / 6",
+      "narration": "アンドロイドでは、エヌエフシー対応端末が必要です。スマホ内のマイナンバーカード機能は別の条件です。",
+      "display_text": "AndroidはNFC対応端末 / スマホ内カードは別条件",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 12,
+      "subtitle_ids": ["SUB-021"]
+    },
+    {
+      "id": 22,
+      "section": "5 / 6",
+      "narration": "本人認証の選択肢を選びます。",
+      "display_text": "本人認証の選択肢を選ぶ",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 13,
+      "subtitle_ids": ["SUB-022"]
+    },
+    {
+      "id": 23,
+      "section": "5 / 6",
+      "narration": "実物カード、アイフォーンのマイナンバーカード、アンドロイドスマートフォンの電子証明書から、使えるものを選びます。",
+      "display_text": "実物カード / iPhone / Androidから選ぶ",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 13,
+      "subtitle_ids": ["SUB-023"]
+    },
+    {
+      "id": 24,
+      "section": "5 / 6",
+      "narration": "今回は、実物カードを使う手順を中心に確認します。",
+      "display_text": "実物カードの手順を中心に確認",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 14,
+      "subtitle_ids": ["SUB-024"]
+    },
+    {
+      "id": 25,
+      "section": "5 / 6",
+      "narration": "実物カードを使う場合は、カードを選びます。",
+      "display_text": "実物のマイナンバーカードを選ぶ",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 15,
+      "subtitle_ids": ["SUB-025"]
+    },
+    {
+      "id": 26,
+      "section": "5 / 6",
+      "narration": "利用者証明用電子証明書の数字4桁の暗証番号を入力します。",
+      "display_text": "利用者証明用電子証明書：数字4桁",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 15,
+      "subtitle_ids": ["SUB-026"]
+    },
+    {
+      "id": 27,
+      "section": "5 / 6",
+      "narration": "これは、署名用の英数字6文字から16文字のパスワードとは別です。",
+      "display_text": "署名用パスワードとは別の暗証番号",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 15,
+      "subtitle_ids": ["SUB-027"]
+    },
+    {
+      "id": 28,
+      "section": "5 / 6",
+      "narration": "カードの読み取り画面では、スマホの背面をカードに重ねます。",
+      "display_text": "スマホの背面をカードに重ねる",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 16,
+      "subtitle_ids": ["SUB-028"]
+    },
+    {
+      "id": 29,
+      "section": "5 / 6",
+      "narration": "読み取り開始を選び、読み取りが終わるまで動かさずに待ちます。",
+      "display_text": "読み取り開始 → 終わるまで動かさず待つ",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 16,
+      "subtitle_ids": ["SUB-029"]
+    },
+    {
+      "id": 30,
+      "section": "5 / 6",
+      "narration": "スマホの読み取り位置は機種ごとに違うので、同じ場所だと一律に決めません。",
+      "display_text": "読み取り位置は機種ごとに違います",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 17,
+      "subtitle_ids": ["SUB-030"]
+    },
+    {
+      "id": 31,
+      "section": "5 / 6",
+      "narration": "アイフォーンやアンドロイドのスマホ内のカードは、顔認証や指紋認証などで進みます。",
+      "display_text": "スマホ内のカード：顔認証や指紋認証",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 18,
+      "subtitle_ids": ["SUB-031"]
+    },
+    {
+      "id": 32,
+      "section": "5 / 6",
+      "narration": "それぞれの登録手順は別なので、詳しくは別の動画で確認します。",
+      "display_text": "iPhone・Androidの登録手順は別に確認",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 18,
+      "subtitle_ids": ["SUB-032"]
+    },
+    {
+      "id": 33,
+      "section": "6 / 6",
+      "narration": "認証が終わると、利用登録完了の画面が表示されます。",
+      "display_text": "認証が終わると、利用登録完了",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 19,
+      "subtitle_ids": ["SUB-033"]
+    },
+    {
+      "id": 34,
+      "section": "6 / 6",
+      "narration": "「はじめる」を選ぶと、マイナアプリを使い始められます。",
+      "display_text": "「はじめる」で利用開始",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 19,
+      "subtitle_ids": ["SUB-034"]
+    },
+    {
+      "id": 35,
+      "section": "6 / 6",
+      "narration": "ここまで来れば、初めて使うときの利用登録は完了です。",
+      "display_text": "ここまで来れば、初回利用登録は完了",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 19,
+      "subtitle_ids": ["SUB-035"]
+    },
+    {
+      "id": 36,
+      "section": "6 / 6",
+      "narration": "マイナポータルへのログイン、健康保険証利用登録、スマホ用電子証明書の登録は、今回の利用登録とは別です。",
+      "display_text": "ログイン・保険証・スマホ用電子証明書は別手続き",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 19,
+      "subtitle_ids": ["SUB-036"]
+    },
+    {
+      "id": 37,
+      "section": "6 / 6",
+      "narration": "読み取れない、ログインできない、暗証番号を間違えた場合は、成功手順に混ぜず、別の確認を行います。",
+      "display_text": "読み取れない場合は、別の確認へ",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 19,
+      "subtitle_ids": ["SUB-037"]
+    },
+    {
+      "id": 38,
+      "section": "6 / 6",
+      "narration": "読み取れない、ログインできないときは、関連動画で確認してください。",
+      "display_text": "ログインできないときは関連動画で確認",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 19,
+      "subtitle_ids": ["SUB-038"]
+    },
+    {
+      "id": 39,
+      "section": "6 / 6",
+      "narration": "今日の順番は、規約、利用登録、通知、画面ロック、本人認証、はじめる、です。",
+      "display_text": "規約 → 利用登録 → 通知 → ロック → 本人認証 → はじめる",
+      "reading_overrides": {
+        "今日": "きょう"
+      },
+      "pause_after": 0.15,
+      "scene_id": 19,
+      "subtitle_ids": ["SUB-039-1","SUB-039-2"]
+    },
+    {
+      "id": 40,
+      "section": "6 / 6",
+      "narration": "実物カードを使う人は、数字4桁の暗証番号とカード読み取りを確認します。",
+      "display_text": "実物カード：数字4桁とカード読み取り",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 19,
+      "subtitle_ids": ["SUB-040"]
+    },
+    {
+      "id": 41,
+      "section": "まとめ",
+      "narration": "マイナアプリを初めて使う人は、まずこの順番で落ち着いて確認してください。",
+      "display_text": "初めて使う人は、この順番で確認",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 20,
+      "subtitle_ids": ["SUB-041"]
+    }
+  ],
+  "subtitles": [
+    {
+      "id": "SUB-001-1",
+      "text_lines": [
+        "マイナアプリを入れて、開いてみた。"
+      ],
+      "segment_id": 1,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-001-2",
+      "text_lines": [
+        "でも、最初に何をすればいい？"
+      ],
+      "segment_id": 1,
+      "display_order": 1,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-002",
+      "text_lines": [
+        "初めて使うときの「利用登録」を順番に確認"
+      ],
+      "segment_id": 2,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-003-1",
+      "text_lines": [
+        "規約 → 利用登録 → 通知 → "
+      ],
+      "segment_id": 3,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-003-2",
+      "text_lines": [
+        "画面ロック → 本人認証 → はじめる"
+      ],
+      "segment_id": 3,
+      "display_order": 1,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-004",
+      "text_lines": [
+        "準備：最新版 / 画面ロック / 本人確認"
+      ],
+      "segment_id": 4,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-005",
+      "text_lines": [
+        "実物カードなら：数字4桁の暗証番号"
+      ],
+      "segment_id": 5,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-006",
+      "text_lines": [
+        "利用規約を確認"
+      ],
+      "segment_id": 6,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-007",
+      "text_lines": [
+        "マイナアプリを開く"
+      ],
+      "segment_id": 7,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-008",
+      "text_lines": [
+        "利用規約とプライバシーポリシーを確認"
+      ],
+      "segment_id": 8,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-009",
+      "text_lines": [
+        "確認したら、同意して次へ"
+      ],
+      "segment_id": 9,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-010",
+      "text_lines": [
+        "利用登録をはじめる画面で、次へ"
+      ],
+      "segment_id": 10,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-011",
+      "text_lines": [
+        "アプリの利用登録"
+      ],
+      "segment_id": 11,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-012",
+      "text_lines": [
+        "マイナポータル利用者登録とは別"
+      ],
+      "segment_id": 12,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-013",
+      "text_lines": [
+        "通知を受け取るか確認"
+      ],
+      "segment_id": 13,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-014",
+      "text_lines": [
+        "通知はあとで変更できます"
+      ],
+      "segment_id": 14,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-015",
+      "text_lines": [
+        "通知を許可しないと必ず使えない、ではありません"
+      ],
+      "segment_id": 15,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-016",
+      "text_lines": [
+        "端末のロックを利用する画面"
+      ],
+      "segment_id": 16,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-017",
+      "text_lines": [
+        "画面ロックでログインや認証を安全に"
+      ],
+      "segment_id": 17,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-018",
+      "text_lines": [
+        "画面ロック未設定なら、先にスマホ本体で設定"
+      ],
+      "segment_id": 18,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-019",
+      "text_lines": [
+        "アプリ本体の対応条件を補足"
+      ],
+      "segment_id": 19,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-020",
+      "text_lines": [
+        "iOS 16.4以上 / Android 11以上"
+      ],
+      "segment_id": 20,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-021",
+      "text_lines": [
+        "AndroidはNFC対応端末 / スマホ内カードは別条件"
+      ],
+      "segment_id": 21,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-022",
+      "text_lines": [
+        "本人認証の選択肢を選ぶ"
+      ],
+      "segment_id": 22,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-023",
+      "text_lines": [
+        "実物カード / iPhone / Androidから選ぶ"
+      ],
+      "segment_id": 23,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-024",
+      "text_lines": [
+        "実物カードの手順を中心に確認"
+      ],
+      "segment_id": 24,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-025",
+      "text_lines": [
+        "実物のマイナンバーカードを選ぶ"
+      ],
+      "segment_id": 25,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-026",
+      "text_lines": [
+        "利用者証明用電子証明書：数字4桁"
+      ],
+      "segment_id": 26,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-027",
+      "text_lines": [
+        "署名用パスワードとは別の暗証番号"
+      ],
+      "segment_id": 27,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-028",
+      "text_lines": [
+        "スマホの背面をカードに重ねる"
+      ],
+      "segment_id": 28,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-029",
+      "text_lines": [
+        "読み取り開始 → 終わるまで動かさず待つ"
+      ],
+      "segment_id": 29,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-030",
+      "text_lines": [
+        "読み取り位置は機種ごとに違います"
+      ],
+      "segment_id": 30,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-031",
+      "text_lines": [
+        "スマホ内のカード：顔認証や指紋認証"
+      ],
+      "segment_id": 31,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-032",
+      "text_lines": [
+        "iPhone・Androidの登録手順は別に確認"
+      ],
+      "segment_id": 32,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-033",
+      "text_lines": [
+        "認証が終わると、利用登録完了"
+      ],
+      "segment_id": 33,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-034",
+      "text_lines": [
+        "「はじめる」で利用開始"
+      ],
+      "segment_id": 34,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-035",
+      "text_lines": [
+        "ここまで来れば、初回利用登録は完了"
+      ],
+      "segment_id": 35,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-036",
+      "text_lines": [
+        "ログイン・保険証・スマホ用電子証明書は別手続き"
+      ],
+      "segment_id": 36,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-037",
+      "text_lines": [
+        "読み取れない場合は、別の確認へ"
+      ],
+      "segment_id": 37,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-038",
+      "text_lines": [
+        "ログインできないときは",
+        "関連動画で確認"
+      ],
+      "segment_id": 38,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-039-1",
+      "text_lines": [
+        "規約 → 利用登録 → 通知 → "
+      ],
+      "segment_id": 39,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-039-2",
+      "text_lines": [
+        "ロック → 本人認証 → はじめる"
+      ],
+      "segment_id": 39,
+      "display_order": 1,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-040",
+      "text_lines": [
+        "実物カード：数字4桁とカード読み取り"
+      ],
+      "segment_id": 40,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-041",
+      "text_lines": [
+        "初めて使う人は、この順番で確認"
+      ],
+      "segment_id": 41,
+      "display_order": 0,
+      "font_px": 72
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "section_label": "はじめに",
+      "layout": "layout_01_hero",
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "main_message": "初めて使うときの利用登録を順番に確認",
+      "headline": "マイナアプリ\n最初に何する？",
+      "support_text": "初回利用登録の順番を確認",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "image_prompt": "Calm polished editorial illustration for older Japanese viewers. An older Japanese adult holding a generic smartphone on the right, soft blue and pale green abstract shapes, gentle magnifying-glass motif, generous quiet space on the left, bottom 180px quiet for subtitles. Render exactly these two Japanese lines: マイナアプリ / 最初に何する？. No other readable text, no official UI, no app logo, no government mark, no watermark, no collage, no split panel, no contact sheet.",
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 1,
+      "end_segment": 2,
+      "image_prompt_id": "IMG-010-001",
+      "text_render_contract": {
+        "mode": "imagegen_native",
+        "exact_text": [
+          "マイナアプリ",
+          "最初に何する？"
+        ],
+        "max_other_readable_text": 0
+      },
+      "production_note": "冒頭30秒v2。既存画像は維持し、registration_conversion_v1のミニストーリーを字幕・narrationだけで補完する。1 / 6へ直結する。",
+      "subtitle_ids": ["SUB-001-1","SUB-001-2","SUB-002"]
+    },
+    {
+      "id": 2,
+      "section_label": "はじめに",
+      "layout": "layout_02_list",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "利用登録の順番を短く確認",
+      "headline": "今日は、この順番",
+      "support_text": "規約から「はじめる」まで",
+      "items": [
+        "準備するもの",
+        "利用登録の画面",
+        "本人認証と「はじめる」"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 3,
+      "end_segment": 3,
+      "icon_name": "verified_user",
+      "icon_tone": "blue",
+      "production_note": "冒頭30秒v2の超短い全体像。制度背景と細かな条件は置かない。",
+      "subtitle_ids": ["SUB-003-1","SUB-003-2"]
+    },
+    {
+      "id": 3,
+      "section_label": "はじめに",
+      "layout": "layout_03_visual_text",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "利用登録の前に最低限の準備を確認",
+      "headline": "まず、準備するもの",
+      "support_text": "最新版・画面ロック・本人確認",
+      "items": [
+        "最新版のマイナアプリ",
+        "スマホ本体の画面ロック",
+        "実物カードなら数字4桁"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 4,
+      "end_segment": 5,
+      "icon_name": "lock",
+      "icon_tone": "blue",
+      "production_note": "冒頭に残す準備だけを表示。刷新説明と既存利用者向け更新案内は削除。",
+      "subtitle_ids": ["SUB-004","SUB-005"]
+    },
+    {
+      "id": 4,
+      "section_label": "1 / 6",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "利用規約とプライバシーポリシーを確認",
+      "headline": "利用規約を確認",
+      "support_text": "ここから実際の画面へ",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 6,
+      "end_segment": 6,
+      "icon_name": "verified_user",
+      "icon_tone": "blue",
+      "production_note": "冒頭30秒v2の到達点。1 / 6をsegment 006で開始する。",
+      "subtitle_ids": ["SUB-006"]
+    },
+    {
+      "id": 5,
+      "section_label": "1 / 6",
+      "layout": "layout_03_visual_text",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "利用規約とプライバシーポリシーを確認して同意",
+      "headline": "確認したら、次へ",
+      "support_text": "利用規約・プライバシーポリシー",
+      "items": [
+        "利用規約を確認",
+        "プライバシーポリシーを確認",
+        "同意して次へ"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 7,
+      "end_segment": 9,
+      "icon_name": "verified_user",
+      "icon_tone": "blue",
+      "production_note": "segment 007で最初の実操作「マイナアプリを開く」を開始する。",
+      "subtitle_ids": ["SUB-007","SUB-008","SUB-009"]
+    },
+    {
+      "id": 6,
+      "section_label": "2 / 6",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "アプリの利用登録を始める",
+      "headline": "利用登録を開始",
+      "support_text": "案内を確認して次へ",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 10,
+      "end_segment": 10,
+      "icon_name": "login",
+      "icon_tone": "blue",
+      "production_note": "1 / 6の直後に配置。利用者登録との違いは公式画面付近で補足する。",
+      "subtitle_ids": ["SUB-010"]
+    },
+    {
+      "id": 7,
+      "section_label": "2 / 6",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "アプリの利用登録をはじめる画面で次へ進む",
+      "headline": "利用登録をはじめる",
+      "support_text": "公式画面の案内に沿って進みます",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/official_screen_register_start.png",
+          "label": "デジタル庁公式：利用登録開始画面",
+          "source": "SRC-002"
+        }
+      ],
+      "official_asset_crop": [
+        {
+          "asset_index": 0,
+          "box": [
+            8,
+            82,
+            320,
+            300
+          ],
+          "slot": "ui_focus",
+          "fit": "contain",
+          "note": "公式画面の見出し・案内部分を拡大"
+        }
+      ],
+      "animation": "very_slow_zoom",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 11,
+      "end_segment": 12,
+      "production_note": "公式UIをそのまま使用。アプリ登録とマイナポータル利用者登録を分離。",
+      "subtitle_ids": ["SUB-011","SUB-012"]
+    },
+    {
+      "id": 8,
+      "section_label": "3 / 6",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "通知の設定を確認",
+      "headline": "通知を確認",
+      "support_text": "受け取るかどうかを選びます",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 13,
+      "end_segment": 13,
+      "icon_name": "campaign",
+      "icon_tone": "blue",
+      "production_note": "通知許可を必須と誤解させない。",
+      "subtitle_ids": ["SUB-013"]
+    },
+    {
+      "id": 9,
+      "section_label": "3 / 6",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "通知を受け取るかどうかを確認",
+      "headline": "通知を受け取るか確認",
+      "support_text": "あとでメニューから変更できます",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/official_screen_register_agreement.png",
+          "label": "デジタル庁公式：通知設定画面",
+          "source": "SRC-002"
+        }
+      ],
+      "official_asset_crop": [
+        {
+          "asset_index": 0,
+          "box": [
+            8,
+            82,
+            320,
+            300
+          ],
+          "slot": "ui_focus",
+          "fit": "contain",
+          "note": "公式画面の見出し・案内部分を拡大"
+        }
+      ],
+      "animation": "very_slow_zoom",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 14,
+      "end_segment": 15,
+      "production_note": "ファイル原画名は旧Episode管理名だが、内容は通知設定画面。",
+      "subtitle_ids": ["SUB-014","SUB-015"]
+    },
+    {
+      "id": 10,
+      "section_label": "4 / 6",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "端末の画面ロックを確認",
+      "headline": "画面ロックを確認",
+      "support_text": "端末のロックを利用します",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 16,
+      "end_segment": 16,
+      "icon_name": "lock",
+      "icon_tone": "blue",
+      "production_note": "設定未完了の場合はスマホ本体の設定が必要。",
+      "subtitle_ids": ["SUB-016"]
+    },
+    {
+      "id": 11,
+      "section_label": "4 / 6",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "端末のロックの利用を許可",
+      "headline": "端末のロックを許可",
+      "support_text": "ログインや認証を安全に行うための設定",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/official_screen_register_device_lock.png",
+          "label": "デジタル庁公式：端末ロックの利用許可画面",
+          "source": "SRC-002"
+        }
+      ],
+      "official_asset_crop": [
+        {
+          "asset_index": 0,
+          "box": [
+            8,
+            82,
+            320,
+            300
+          ],
+          "slot": "ui_focus",
+          "fit": "contain",
+          "note": "公式画面の見出し・案内部分を拡大"
+        }
+      ],
+      "animation": "very_slow_zoom",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 17,
+      "end_segment": 18,
+      "production_note": "公式UIを再現せず、公式原画を拡大して使用。",
+      "subtitle_ids": ["SUB-017","SUB-018"]
+    },
+    {
+      "id": 12,
+      "section_label": "5 / 6",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "アプリ本体とカード機能の条件を分けて確認",
+      "headline": "条件は、分けて確認",
+      "support_text": "アプリ本体とスマホ内カードは別条件",
+      "compare_cards": [
+        {
+          "title": "アプリ本体",
+        "body": "iOS 16.4以上\nAndroid 11以上\nAndroidはNFC対応",
+          "color": "blue-card"
+        },
+        {
+          "title": "スマホ内カード",
+          "body": "iPhone・Androidの別条件",
+          "color": "green-card"
+        }
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 19,
+      "end_segment": 21,
+      "icon_name": "contactless",
+      "icon_tone": "teal",
+      "production_note": "冒頭から移動。本人認証の直前に補足し、アプリ本体とスマホ内カードの条件を分ける。",
+      "subtitle_ids": ["SUB-019","SUB-020","SUB-021"]
+    },
+    {
+      "id": 13,
+      "section_label": "5 / 6",
+      "layout": "layout_02_list",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "本人認証には3つの選択肢がある",
+      "headline": "本人認証は、3通り",
+      "support_text": "実物カード・iPhone・Androidから選ぶ",
+      "compare_cards": [
+        {
+          "title": "実物カード",
+          "body": "数字4桁・カード読み取り",
+          "color": "blue-card"
+        },
+        {
+          "title": "スマホ内カード",
+          "body": "iPhone / Android・生体認証",
+          "color": "green-card"
+        }
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 22,
+      "end_segment": 23,
+      "icon_name": "verified_user",
+      "icon_tone": "green",
+      "production_note": "冒頭から移動。3ルートを一覧で示し、詳細実演は実物カードに限定する。",
+      "subtitle_ids": ["SUB-022","SUB-023"],
+      "items": [
+        "実物のマイナンバーカード",
+        "iPhoneのマイナンバーカード",
+        "Androidの電子証明書"
+      ]
+    },
+    {
+      "id": 14,
+      "section_label": "5 / 6",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "本人認証の選択肢を選ぶ",
+      "headline": "本人認証を選ぶ",
+      "support_text": "実物カード・iPhone・Android",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 24,
+      "end_segment": 24,
+      "icon_name": "verified_user",
+      "icon_tone": "green",
+      "production_note": "3つのルートを同じ手順と見せない。SCENE-013の一覧直後に置く。",
+      "subtitle_ids": ["SUB-024"]
+    },
+    {
+      "id": 15,
+      "section_label": "5 / 6",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "実物カードを選び、数字4桁を入力",
+      "headline": "数字4桁を入力",
+      "support_text": "利用者証明用電子証明書の暗証番号",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/official_register_card_passcode_crop.png",
+          "label": "デジタル庁公式：実物カードの暗証番号入力画面",
+          "source": "SRC-005"
+        }
+      ],
+      "official_asset_crop": [
+        {
+          "asset_index": 0,
+          "box": [
+            8,
+            82,
+            320,
+            335
+          ],
+          "slot": "ui_focus",
+          "fit": "contain",
+          "note": "公式画面の見出し・入力欄を拡大"
+        }
+      ],
+      "animation": "very_slow_zoom",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 25,
+      "end_segment": 27,
+      "production_note": "暗証番号は実データではなく公式イメージ。署名用パスワードとの違いを音声で補足。",
+      "subtitle_ids": ["SUB-025","SUB-026","SUB-027"]
+    },
+    {
+      "id": 16,
+      "section_label": "5 / 6",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "スマホの背面をカードに重ねて読み取る",
+      "headline": "カードを読み取る",
+      "support_text": "読み取り開始を選び、動かさず待ちます",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/official_register_card_read_crop.png",
+          "label": "デジタル庁公式：マイナンバーカード読み取り画面",
+          "source": "SRC-004"
+        }
+      ],
+      "official_asset_crop": [
+        {
+          "asset_index": 0,
+          "box": [
+            8,
+            70,
+            320,
+            330
+          ],
+          "slot": "ui_focus",
+          "fit": "contain",
+          "note": "公式画面の見出し・読み取り案内を拡大"
+        }
+      ],
+      "animation": "very_slow_zoom",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 28,
+      "end_segment": 29,
+      "production_note": "機種別の読み取り位置は一律に断定しない。",
+      "subtitle_ids": ["SUB-028","SUB-029"]
+    },
+    {
+      "id": 17,
+      "section_label": "5 / 6",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "text_render_mode": "no_text",
+      "main_message": "スマホの背面をカードに重ねる動作",
+      "headline": "カードを重ねて読み取る",
+      "support_text": "読み取り位置は機種ごとに違います",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "image_prompt": "Clean calm educational illustration of hands gently holding a generic smartphone over a plain abstract contactless card to communicate NFC reading. Soft blue and pale green background with a single subtle contactless wave motif. Full-frame 16:9 with bottom 180px quiet for subtitles. No readable text, no letters, no numbers, no logo, no QR code, no government emblem, no official app UI, no realistic My Number Card design, no watermark, no collage, no split panel, no contact sheet.",
+      "animation": "very_slow_zoom",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 30,
+      "end_segment": 30,
+      "image_prompt_id": "IMG-010-017",
+      "text_render_contract": {
+        "mode": "no_text",
+        "exact_text": [],
+        "max_other_readable_text": 0
+      },
+      "production_note": "動作の理解だけを補助する概念画像。公式UIの代替にはしない。",
+      "subtitle_ids": ["SUB-030"]
+    },
+    {
+      "id": 18,
+      "section_label": "5 / 6",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "スマホ内のカードは生体認証で進む",
+      "headline": "スマホ内カードは生体認証",
+      "support_text": "iPhone・Androidは別の登録手順",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/official_screen_register_biometric.png",
+          "label": "デジタル庁公式：生体認証画面",
+          "source": "SRC-006"
+        }
+      ],
+      "official_asset_crop": [
+        {
+          "asset_index": 0,
+          "box": [
+            8,
+            70,
+            320,
+            340
+          ],
+          "slot": "ui_focus",
+          "fit": "contain",
+          "note": "公式画面の見出し・生体認証案内を拡大"
+        }
+      ],
+      "animation": "very_slow_zoom",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 31,
+      "end_segment": 32,
+      "production_note": "iPhoneのマイナンバーカードとAndroidの電子証明書を同一画面として扱わない。",
+      "subtitle_ids": ["SUB-031","SUB-032"]
+    },
+    {
+      "id": 19,
+      "section_label": "6 / 6",
+      "layout": "layout_07_summary",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "利用登録完了から、困ったときの導線まで確認",
+      "headline": "登録完了まで、この順番",
+      "support_text": "ログインできないときは関連動画で確認",
+      "items": [
+        "利用登録完了",
+        "「はじめる」で利用開始",
+        "別手続きは混ぜない",
+        "関連動画で確認",
+        "この順番で落ち着いて確認"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 33,
+      "end_segment": 40,
+      "icon_name": "verified_user",
+      "icon_tone": "green",
+      "production_note": "完了画面の公式スクリーンショットがないため、公式文言をtemplateで正確に表示。",
+      "subtitle_ids": ["SUB-033","SUB-034","SUB-035","SUB-036","SUB-037","SUB-038","SUB-039-1","SUB-039-2","SUB-040"]
+    },
+    {
+      "id": 20,
+      "section_label": "まとめ",
+      "layout": "layout_01_hero",
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "main_message": "初めて使う人は順番に確認",
+      "headline": "この順番で確認",
+      "support_text": "初回利用登録を落ち着いて進める",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "image_prompt": "Warm reassuring editorial illustration for older Japanese viewers. An older Japanese adult calmly checking a generic smartphone and a plain abstract card at a table, soft blue and pale green home atmosphere, three gentle rounded shapes with no text, generous quiet space on the left, bottom 180px quiet for subtitles. Render exactly this one Japanese headline: この順番で確認. No other readable text, no logo, no official interface, no realistic My Number Card design, no watermark, no collage, no split panel, no contact sheet, no pseudo subscribe button.",
+      "animation": "very_slow_zoom",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 41,
+      "end_segment": 41,
+      "image_prompt_id": "IMG-010-020",
+      "text_render_contract": {
+        "mode": "imagegen_native",
+        "exact_text": [
+          "この順番で確認"
+        ],
+        "max_other_readable_text": 0
+      },
+      "production_note": "概念closing。CTA音声とEnd Screen要素はPhase B以降。",
+      "subtitle_ids": ["SUB-041"]
+    }
+  ],
+  "postroll": {
+    "kind": "channel_cta",
+    "cta_content_hash": "e20707f4cdf3a79dbd4bd4dc27be0d7c8159ed8693783881293c069be47cc08f",
+    "cta_profile": "channel_common_cta",
+    "cta_variant": "registration_conversion_v1",
+    "cta_config": "work/cta_registration_conversion_v1.json",
+    "duration_sec": 15,
+    "cta_audio_duration_seconds": 11.456,
+    "trailing_seconds": 3.544,
+    "animation": "static",
+    "status": "scheduled_private",
+    "profile": "channel_common_cta",
+    "audio_required": true,
+    "duration_mode": "audio_based",
+    "asset": "work/cta_registration_conversion_v1.png",
+    "cta_audio": "audio/voicevox_kenzaki/cta_registration_conversion_v1.wav"
+  },
+  "experiment": {
+    "id": "registration_conversion_v1",
+    "status": "episode_specific_experiment",
+    "story_intro": true,
+    "reason_to_return_cta": true,
+    "midroll_subscribe_cta": false,
+    "proposed_rule": "micro_story_explainer",
+    "internal_episode_id_not_viewer_facing": {
+      "status": "PROPOSED",
+      "canonicalization": "human_decision_pending",
+      "viewer_facing_rule": "Episode番号は視聴者向けのnarration・subtitle・scene text・CTA・descriptionに表示せず、関連動画などの一般表現を使う。",
+      "viewer_facing_episode_number_scan": 0,
+      "spoken_episode_number_scan": 0
+    },
+    "latest_fix": {
+      "draft_version": "v2",
+      "related_video_wording": "PASS",
+      "subtitle_sync": "PASS",
+      "cta_visual_balance": "PASS",
+      "cta_description_shift_px": 110,
+      "cta_clipping": 0,
+      "end_screen_reserved": "PASS",
+      "subtitle_safe_area": "PASS",
+      "draft_v1_regression": 0
+    },
+    "hypothesis": "困った出来事から一緒に確認し、解決後に次もここで確認できる理由を示すと、説明終了後の登録行動につながりやすくなる。",
+    "primary_kpi": "subscriber_conversion_rate",
+    "primary_formula": "subscribers_gained / unique_viewers",
+    "secondary_kpi": "subscribers_per_1000_unique_viewers",
+    "comparison_episodes": ["002", "008", "009"],
+    "measurement_windows": ["24h", "7d", "28d"],
+    "not_subscribed_ratio_is_separate_metric": true,
+    "not_subscribed_ratio_note": "registered / not subscribed比率は登録転換率とは呼ばず、別指標として記録する。"
+  },
+  "publish": {
+    "title": "【マイナアプリ】登録方法は？初めて使う人が確認したい手順",
+    "description_file": "description.md",
+    "chapters_file": "chapters.md",
+    "source_urls": [
+      "https://services.digital.go.jp/mynaapp/register/",
+      "https://services.digital.go.jp/mynaapp/system-requirements/",
+      "https://services.digital.go.jp/mynaapp/scan-mynumbercard/",
+      "https://services.digital.go.jp/mynumbercard/auth-passcode/"
+    ],
+    "description": "マイナアプリを初めて使う人向けに、「利用登録」の順番を説明します。\n実物のマイナンバーカードを使う本人認証を中心に、規約の確認から登録完了までを一緒に確認します。\n\n今回扱うこと\n- 利用規約とプライバシーポリシーの確認\n- 利用登録の開始、通知、画面ロック\n- 本人認証の選択\n- 実物のマイナンバーカードで数字4桁を入力し、カードを読み取る手順\n- 登録完了後に「はじめる」を選ぶところまで\n\n今回の主題ではないこと\n- マイナポータルの利用者登録\n- 健康保険証利用登録\n- スマホへのマイナンバーカード追加\n- マイナポータルへのログインや読み取りトラブル\n\nログインできない、読み取れないときは、関連動画も参考にしてください。\n\n主な公式情報\n- デジタル庁「マイナアプリの利用登録の方法」\n  https://services.digital.go.jp/mynaapp/register/\n- デジタル庁「マイナアプリの動作環境」\n  https://services.digital.go.jp/mynaapp/system-requirements/\n- デジタル庁「マイナアプリを使ってマイナンバーカードを読み取る方法」\n  https://services.digital.go.jp/mynaapp/scan-mynumbercard/\n- デジタル庁「マイナンバーカードの利用者証明用暗証番号」\n  https://services.digital.go.jp/mynumbercard/auth-passcode/\n\n情報は2026年9月6日に確認。画面文言や対応端末は更新されることがあるため、利用時は公式案内も確認してください。\n\nナレーション：VOICEVOX:剣崎雌雄",
+    "chapters": [
+      "00:00 マイナアプリ 最初に何する？",
+      "00:16 まず準備するもの",
+      "00:25 利用規約を確認",
+      "00:38 利用登録を開始",
+      "00:51 通知を確認",
+      "01:01 画面ロックを確認",
+      "01:17 本人認証",
+      "01:48 数字4桁を入力",
+      "02:02 カードを読み取る",
+      "02:17 スマホ内カードは生体認証",
+      "02:28 登録完了",
+      "03:19 まとめ"
+    ],
+    "tags": [
+      "マイナアプリ",
+      "マイナポータル",
+      "マイナンバーカード",
+      "利用登録",
+      "初期設定",
+      "暗証番号",
+      "NFC",
+      "シニア向け",
+      "スマホ操作",
+      "大人のデジタル安心室"
+    ],
+    "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
+    "contains_synthetic_media": true,
+    "ai_disclosure_review": "VERIFIED_TRUE（upload後のstatus-only API検証PASS。videos.update responseでcontainsSyntheticMedia=trueを確認）",
+    "ai_disclosure_status": "VERIFIED_TRUE",
+    "thumbnail_status": "HUMAN_SELECTED",
+    "thumbnail": "assets/thumbnail/thumbnail.png",
+    "thumbnail_source": "assets/thumbnail/thumbnail_source.png",
+    "thumbnail_brief": "work/thumbnail_brief.md",
+    "thumbnail_human_selected": true,
+    "thumbnail_qa": "work/thumbnail_review/thumbnail_qa.json",
+    "upload_status": "UPLOADED_SCHEDULED",
+    "scheduled_publish_target": "2026-09-06 19:00 JST",
+    "selected_title_reason": "検索語を入口に残し、初めて使う人向けの利用登録へ対象を限定する。",
+    "experiment_id": "registration_conversion_v1",
+    "category": 22,
+    "category_id": "22",
+    "default_language": "ja",
+    "made_for_kids": false,
+    "privacy_status": "private",
+    "human_gate": "DRAFT_V2_APPROVED",
+    "human_draft_approved": true,
+    "senior_readability": "PASS",
+    "final_video": "output/final.mp4",
+    "final_video_status": "PASS（draft_v2からbyte-identical copy・再encodeなし）",
+    "final_qa": "work/final_qa.md",
+    "metadata_status": "SCHEDULED_PRIVATE",
+    "end_screen": {
+      "related_video_candidate": {
+        "internal_episode_id": "007",
+        "viewer_facing_title": "ログインできない？まず確認したい5つ"
+      },
+      "related_video": 1,
+      "subscribe": 1,
+      "reserved_area": "右40〜45%",
+      "status": "NOT_CONFIGURED"
+    },
+    "youtube_upload": "uploaded_scheduled",
+    "youtube_video_id": "rU5jlU7eq3I",
+    "youtube_url": "https://youtu.be/rU5jlU7eq3I",
+    "youtube_privacy": "private",
+    "youtube_scheduled_at": "2026-09-06 19:00:00 JST",
+    "youtube_scheduled_at_api": "2026-09-06T10:00:00Z",
+    "thumbnail_uploaded": true,
+    "uploaded_at": "2026-09-05T22:51:38Z",
+    "youtube_channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+    "youtube_ai_disclosure_verified": true,
+    "youtube_ai_disclosure_verification": "videos.update response; videos.list omitted containsSyntheticMedia"
+  },
+  "intro_qa": {
+    "version": "v2",
+    "rule": "intro_before_first_action_seconds <= 30",
+    "intro_core_only": "PASS",
+    "old_intro_segment_range": "001-012",
+    "old_intro_segment_count": 12,
+    "old_intro_character_count": 486,
+    "new_intro_core_segment_range": "001-005",
+    "new_intro_core_segment_count": 5,
+    "new_intro_core_character_count": 129,
+    "new_intro_segment_range": "001-006（segment 006は1 / 6到達用の遷移）",
+    "new_intro_segment_count": 6,
+    "new_intro_character_count": 146,
+    "first_1_6_scene": "SCENE-004",
+    "first_1_6_segment": 6,
+    "first_action_scene": "SCENE-005",
+    "first_action_segment": 7,
+    "estimated_before_first_action_seconds": 27,
+    "estimate_method": "registration_conversion_v1反映後のVOICEVOX実測タイミングを正本とする。speedScaleは変更しない。",
+    "estimate_status": "PASS（registration_conversion_v1再実測）",
+    "measured_1_6_start_seconds": 25.347,
+    "measured_before_first_action_seconds": 28.516,
+    "measured_status": "PASS",
+    "micro_story_intro": "PASS（VOICEVOX実測。SCENE-001画像は変更なし）",
+    "problem_to_solution_clear": "PASS（冒頭の迷い→本編の確認→登録完了を明示）",
+    "cta_experiment": "registration_conversion_v1",
+    "midroll_subscribe_cta": 0,
+    "cta_qa": {
+      "reason_to_return_present": "PASS",
+      "duplicate_cta": 0,
+      "midroll_cta": 0,
+      "cta_audio_duration_seconds": 11.456,
+      "cta_audio_duration_lte_15": "PASS",
+      "cta_full_text_visible": "PASS",
+      "end_screen_reserved": "PASS",
+      "description_shift_px": 110,
+      "subtitle_safe_area": "PASS",
+      "clipping": 0
+    },
+    "removed_duplicate_information": [
+      "マイナアプリは旧マイナポータルアプリを2026年8月25日に刷新したものです",
+      "すでに入っている人は、別のアプリを探すのではなく、まず更新を確認します"
+    ],
+    "moved_information": [
+      "アプリ本体のiOS 16.4以上・Android 11以上・NFC条件 → SCENE-012 / segment 019-021",
+      "本人認証3ルート → SCENE-013 / segment 022-023",
+      "スマホ内カードの別条件 → SCENE-012からSCENE-018付近"
+    ],
+    "qa_status": "PASS"
+  }
+}

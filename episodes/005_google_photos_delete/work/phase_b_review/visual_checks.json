@@ -1,0 +1,284 @@
+{
+  "rendered_count": 25,
+  "scene_count": 25,
+  "missing_scenes": [],
+  "scene_rows": [
+    {
+      "scene": 1,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 2,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 3,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 4,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 5,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 6,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 7,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 8,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 9,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 10,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 11,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 12,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 13,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 14,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 15,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 16,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 17,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 18,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 19,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 20,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 21,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 22,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 23,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 24,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": 25,
+      "exists": true,
+      "warnings": [],
+      "size": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "ai_rows": [
+    {
+      "file": "scene_001.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "d9fd075fb5d299bb739b16a814fbc5af88d337ec8633a1e3bdaf2aa076ed858d"
+    },
+    {
+      "file": "scene_003.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "898a6b984c5d943b3f34dfc6e38b7718fd67ea10554ab65f1c2bfb129d472d0d"
+    },
+    {
+      "file": "scene_013.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "04589a15a00b273709646e2603068e5484039fbb8a32a53cec703bfdf06f8ce8"
+    },
+    {
+      "file": "scene_017.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "922a587f6ce85bab1a7ee5a55ad52ad556afadb00adade59bb85f564a7861b13"
+    },
+    {
+      "file": "scene_025.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "be23e1a4e23cfe93561f0db8016d8f1f450f6dd65a7bbf54b64e60b13f2e6c72"
+    }
+  ],
+  "ai_duplicate_groups": [],
+  "linebreak_issues": [],
+  "item_count_issues": [],
+  "subtitle": {
+    "status": "PASS",
+    "cue_count": 65,
+    "fail_count": 0,
+    "warn_count": 0,
+    "report_path": "episodes\\005_google_photos_delete\\work\\phase_b_review\\subtitle_preflight_machine.md"
+  }
+}

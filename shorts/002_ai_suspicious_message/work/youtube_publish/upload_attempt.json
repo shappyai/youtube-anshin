@@ -1,0 +1,16 @@
+{
+  "episode": "Short002",
+  "status": "uploaded_private",
+  "mode": "private",
+  "final_sha256": "52F33C4F038F34A1FC79D47970B826BF1DDCABCFF25ED1D82D7EFA212CF37C90",
+  "title": "怪しいメール、AIに見せて大丈夫？",
+  "requested_privacy": "private",
+  "publish_at_local": null,
+  "publish_at_api": null,
+  "started_at": "2026-09-07T05:14:55Z",
+  "video_id": "VgwnmAL3Bc4",
+  "uploaded_at": "2026-09-07T05:14:58Z",
+  "thumbnail_uploaded": false,
+  "thumbnail_status": "not_set_private_allowed",
+  "verification": "PASS"
+}

@@ -1,0 +1,28 @@
+{
+  "episode": "003_line_renewal",
+  "status": "verified",
+  "operation": "videos.update(part=status)",
+  "video_id": "Y524WX3U4q4",
+  "source": "STATE.md",
+  "target_containsSyntheticMedia": true,
+  "status_before": {
+    "privacyStatus": "private",
+    "publishAt": "2026-09-01T10:00:00Z",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+  },
+  "reupload": false,
+  "started_at": "2026-08-31T03:12:33Z",
+  "status_after": {
+    "privacyStatus": "private",
+    "publishAt": "2026-09-01T10:00:00Z",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+  },
+  "verification_source": "videos.update response; videos.list omitted containsSyntheticMedia",
+  "verified_at": "2026-08-31T03:12:34Z"
+}

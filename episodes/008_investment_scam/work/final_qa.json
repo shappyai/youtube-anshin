@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "review_date": "2026-09-05",
+  "finalization": "copy-only",
+  "draft": {
+    "path": "output/draft_v3.mp4",
+    "sha256": "92166d59c228baff67ad32280899066ad050ff6c715646d773427ccba04f2854"
+  },
+  "final": {
+    "path": "output/final.mp4",
+    "sha256": "92166d59c228baff67ad32280899066ad050ff6c715646d773427ccba04f2854"
+  },
+  "sha256_match": true,
+  "duration_seconds": 336.870,
+  "video": {
+    "codec": "h264",
+    "dimensions": "1920x1080",
+    "frame_rate": "30/1",
+    "audio_codec": "aac",
+    "audio_sample_rate": 48000,
+    "audio_channels": 1
+  },
+  "decode_errors": 0,
+  "black_frames": 0,
+  "unexpected_silence": 0,
+  "expected_silence": "CTA末尾の意図した余韻のみ",
+  "visual_regression": 0,
+  "subtitle_regression": 0,
+  "phase2_qa_source": "work/draft_v3/phase2_qa.json",
+  "thumbnail_qa_source": "work/thumbnail_review/thumbnail_qa.json",
+  "tooling_note": "ffprobe非搭載環境のため、動画仕様はdraft_v3のPASS済みprobeをbyte-identical確認と併用。decode/black/silenceは同梱ffmpegでfinal.mp4を直接確認。"
+}

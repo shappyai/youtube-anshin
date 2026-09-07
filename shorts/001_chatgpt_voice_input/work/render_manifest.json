@@ -1,0 +1,183 @@
+{
+  "short_id": "Short001",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "frame_rows": [
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames\\scene_01_seg_01_cue_01.png",
+      "duration_sec": 3.3066666666666666,
+      "start_sec": 0.0,
+      "end_sec": 3.3066666666666666,
+      "scene": 1,
+      "segment_id": 1,
+      "subtitle": [
+        "ChatGPTで",
+        "文字を打つのが大変？"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames\\scene_02_seg_02_cue_01.png",
+      "duration_sec": 2.986666666666667,
+      "start_sec": 3.3766666666666665,
+      "end_sec": 6.363333333333333,
+      "scene": 2,
+      "segment_id": 2,
+      "subtitle": [
+        "音声モードなら",
+        "話しかけて使える"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames\\scene_03_seg_03_cue_01.png",
+      "duration_sec": 4.373333333333333,
+      "start_sec": 6.433333333333334,
+      "end_sec": 10.806666666666667,
+      "scene": 3,
+      "segment_id": 3,
+      "subtitle": [
+        "Voiceアイコンをタップ"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames\\scene_04_seg_04_cue_01.png",
+      "duration_sec": 3.968,
+      "start_sec": 10.876666666666667,
+      "end_sec": 14.844666666666667,
+      "scene": 4,
+      "segment_id": 4,
+      "subtitle": [
+        "卵とキャベツがあります",
+        "何を作れますか？"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames\\scene_05_seg_05_cue_01.png",
+      "duration_sec": 3.882666666666667,
+      "start_sec": 14.914666666666667,
+      "end_sec": 18.797333333333334,
+      "scene": 5,
+      "segment_id": 5,
+      "subtitle": [
+        "答え始める"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames\\scene_06_seg_06_cue_01.png",
+      "duration_sec": 2.2719999999999985,
+      "start_sec": 18.867333333333335,
+      "end_sec": 21.139333333333333,
+      "scene": 6,
+      "segment_id": 6,
+      "subtitle": [
+        "まずは話しかけるだけ"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames\\scene_06_seg_07_cue_01.png",
+      "duration_sec": 3.189333333333334,
+      "start_sec": 21.209333333333333,
+      "end_sec": 24.398666666666667,
+      "scene": 6,
+      "segment_id": 7,
+      "subtitle": [
+        "次は写真で聞く"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames\\scene_06_seg_08_cue_01.png",
+      "duration_sec": 3.2319999999999993,
+      "start_sec": 24.468666666666667,
+      "end_sec": 27.700666666666667,
+      "scene": 6,
+      "segment_id": 8,
+      "subtitle": [
+        "困ったときのために",
+        "登録しておいてください"
+      ]
+    }
+  ],
+  "subtitle_cues": [
+    {
+      "number": 1,
+      "segment_id": 1,
+      "start_sec": 0.0,
+      "end_sec": 3.3066666666666666,
+      "text_lines": [
+        "ChatGPTで",
+        "文字を打つのが大変？"
+      ]
+    },
+    {
+      "number": 2,
+      "segment_id": 2,
+      "start_sec": 3.3766666666666665,
+      "end_sec": 6.363333333333333,
+      "text_lines": [
+        "音声モードなら",
+        "話しかけて使える"
+      ]
+    },
+    {
+      "number": 3,
+      "segment_id": 3,
+      "start_sec": 6.433333333333334,
+      "end_sec": 10.806666666666667,
+      "text_lines": [
+        "Voiceアイコンをタップ"
+      ]
+    },
+    {
+      "number": 4,
+      "segment_id": 4,
+      "start_sec": 10.876666666666667,
+      "end_sec": 14.844666666666667,
+      "text_lines": [
+        "卵とキャベツがあります",
+        "何を作れますか？"
+      ]
+    },
+    {
+      "number": 5,
+      "segment_id": 5,
+      "start_sec": 14.914666666666667,
+      "end_sec": 18.797333333333334,
+      "text_lines": [
+        "答え始める"
+      ]
+    },
+    {
+      "number": 6,
+      "segment_id": 6,
+      "start_sec": 18.867333333333335,
+      "end_sec": 21.139333333333333,
+      "text_lines": [
+        "まずは話しかけるだけ"
+      ]
+    },
+    {
+      "number": 7,
+      "segment_id": 7,
+      "start_sec": 21.209333333333333,
+      "end_sec": 24.398666666666667,
+      "text_lines": [
+        "次は写真で聞く"
+      ]
+    },
+    {
+      "number": 8,
+      "segment_id": 8,
+      "start_sec": 24.468666666666667,
+      "end_sec": 27.700666666666667,
+      "text_lines": [
+        "困ったときのために",
+        "登録しておいてください"
+      ]
+    }
+  ],
+  "render_mode": "renderer_native",
+  "real_ui_count": 1,
+  "subtitle_rule": "実音声のsegment時間を基礎に、意味単位の固定weightでcueを割り当てた。文字数按分ではない。"
+}

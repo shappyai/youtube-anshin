@@ -1,0 +1,80 @@
+{
+  "episode": "003_line_renewal",
+  "review_date": "2026-08-31",
+  "phase": "Final human review approved",
+  "note": "人間レビュー済み。seg_002のみsegment単位の読み上書きを適用し、seg_006・seg_015・seg_039は既定読みを承認。v2ではseg_024の今ブラウン→いまブラウンを維持し、App Storeは人間承認済み標準辞書を適用。共通辞書へ今・方は登録しない。v3のSCENE-015構図、チャンネル共通CTA、発音、字幕、scene、QAを人間が最終確認し、draft_auto_v3を承認した。YouTube公開は未実施。",
+  "pronunciation": {
+    "approved_segments": [2, 6, 15, 39],
+    "seg_002": {
+      "status": "approved_override",
+      "surface": "方",
+      "reading": "かた"
+    },
+    "seg_006": {
+      "status": "approved_default"
+    },
+    "seg_015": {
+      "status": "approved_default"
+    },
+    "seg_039": {
+      "status": "approved_default"
+    },
+    "review_items": [
+      {
+        "segment_id": 2,
+        "surface": "方",
+        "context": "画面の配置が変わって、驚いた方もいると思います。",
+        "current_engine_reading": "がめんの はいちが かわって、おどろいた ほうも いると おもいます",
+        "engine_kana": "ガメンノ'/ハイチガ'/カワッテ'、オドロ'イタ/ホ'オモ/イルト'/オモイマ'_ス",
+        "recommended_reading": "かた",
+        "reason": "ここでの「方」は驚いた人を指す敬称で、「かた」が自然。現在のVOICEVOX読みは「ほうも」と解釈されるため、segment単位で修正候補とする。",
+        "proposed_reading_override": {"方": "かた"},
+        "override_scope": "segment 002 only",
+        "status": "approved_override",
+        "human_approved": true
+      },
+      {
+        "segment_id": 6,
+        "surface": "方",
+        "context": "最後に、画面が違うときの考え方と、今やることをまとめます。",
+        "current_engine_reading": "さいごに、がめんが ちがう ときの かんがえかたと、いま やる ことを まとめます",
+        "engine_kana": "サ'イゴニ、ガメンガ'/チガウ'/ト'キノ/カンガエカ'タト、イ'マ/ヤル'/コト'オ/マトメマ'_ス",
+        "recommended_reading": "かた",
+        "reason": "「考え方」は考える方法・考えの仕方を意味するため、「かた」が自然。現在のVOICEVOX読みも「かた」と解釈できるが、文脈依存語として人間が確認する。",
+        "proposed_reading_override": {"方": "かた"},
+        "override_scope": "segment 006 only",
+        "status": "approved_default",
+        "human_approved": true
+      },
+      {
+        "segment_id": 15,
+        "surface": "方",
+        "context": "つまり、友だちの一覧がなくなったのではなく、探し方が二つになった、ということです。",
+        "current_engine_reading": "つまり、ともだちの いちらんが なくなった のではなく、さがしかたが ふたつに なった、という ことです",
+        "engine_kana": "ツ'マリ、トモダチノ'/イチランガ'/ナクナッタ'/ノデ'ワナク、サガシ'カタガ/_フタツ'ニ/ナ'ッタ、ト'/イウ'/コト'デ_ス",
+        "recommended_reading": "かた",
+        "reason": "「探し方」は探す方法を意味するため、「かた」が自然。現在のVOICEVOX読みも「さがしかた」と解釈できるが、文脈依存語として人間が確認する。",
+        "proposed_reading_override": {"方": "かた"},
+        "override_scope": "segment 015 only",
+        "status": "approved_default",
+        "human_approved": true
+      },
+      {
+        "segment_id": 39,
+        "surface": "方",
+        "context": "一方で、特別な切り替え設定をしないと使えない、という案内も確認できませんでした。",
+        "current_engine_reading": "いっぽうで、とくべつな きりかえせっていを しないと、つかえない、という あんないも かくにんできませんでした",
+        "engine_kana": "イッポ'オデ、トクベツナ'/キリカエセ'ッテエオ/シナイト'/_ツカエ'ナイ、ト'/イウ'/アンナ'イモ/カクニン'/デキマセ'ンデ_シタ",
+        "recommended_reading": "ほう（「一方で」全体で「いっぽうで」）",
+        "reason": "ここは「一方で」という接続詞で、単独の「かた」ではないため「いっぽうで」が自然。現在のVOICEVOX読みも「いっぽうで」と解釈できる。",
+        "proposed_reading_override": {"一方": "いっぽう"},
+        "override_scope": "segment 039 only; apply only after human approval",
+        "status": "approved_default",
+        "human_approved": true
+      }
+    ]
+  },
+  "video": {
+    "draft_auto_v3": "approved"
+  }
+}

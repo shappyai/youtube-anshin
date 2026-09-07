@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "api_called": false,
+  "oauth_called": false,
+  "episode": "004_nise_keisatsu",
+  "final_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\output\\final.mp4",
+  "thumbnail_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\assets\\thumbnail\\thumbnail.png",
+  "title": "【ニセ警察詐欺】「警察です」と電話が来たら？まず切って確認｜LINE誘導・国際電話",
+  "description_bytes": 2432,
+  "tag_count": 7,
+  "tag_total_length": 27,
+  "privacy": "scheduled",
+  "ai_disclosure": true,
+  "schedule_local": "2026-09-04 19:00:00 JST",
+  "schedule_api": "2026-09-04T10:00:00Z",
+  "video_sha256": "2022F1BD549B60CAA6664BFDA22F92789DDA781FD35C6F3589E7155EACBFD6FE",
+  "existing_video_id": null,
+  "expected_api_requests": [
+    "videos.insert part=snippet,status resumable=True notifySubscribers=False status.containsSyntheticMedia",
+    "videos.update part=status private+publishAt",
+    "thumbnails.set",
+    "videos.list part=snippet,status"
+  ],
+  "errors": []
+}

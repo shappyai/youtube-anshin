@@ -1,0 +1,32 @@
+channel:
+  name: "大人のデジタル安心室"
+  tagline: "スマホ・詐欺・AIを、難しい言葉なしで。"
+  brand_promise: "怖がらせる前に、確認する。"
+  audience_primary: "50〜70代"
+  audience_secondary: "親のスマホを支える40代"
+
+common_cta:
+  profile: "channel_common_cta"
+  config: "config/channel_cta.json"
+  logo: "local/channel/icon.png"
+  duration_sec: 10.0
+  animation: "static"
+
+content_mix:
+  protect: 40
+  organize: 25
+  use: 20
+  ai: 15
+
+style:
+  language: "やさしい日本語"
+  intro_seconds_max: 20
+  target_minutes_min: 8
+  target_minutes_max: 15
+  show_source_date: true
+  use_real_device: true
+  banned_hype:
+    - "絶対"
+    - "100%"
+    - "全員漏れている"
+    - "今すぐやらないと危険"

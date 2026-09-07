@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "api_called": false,
+  "oauth_called": false,
+  "episode": "014_chiikawa_fleamarket_safety",
+  "final_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\014_chiikawa_fleamarket_safety\\output\\final.mp4",
+  "thumbnail_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\014_chiikawa_fleamarket_safety\\thumbnail\\thumbnail.png",
+  "title": "【ちいかわ転売問題】フリマで限定品を買う前に確認したい5つ",
+  "description_bytes": 1377,
+  "tag_count": 7,
+  "tag_total_length": 27,
+  "privacy": "private",
+  "ai_disclosure": true,
+  "schedule_local": null,
+  "schedule_api": null,
+  "video_sha256": "379D265E899549B34D9AE69CD290E2FC9D948A11B204C4EB37729C7046FCF3BD",
+  "existing_video_id": null,
+  "expected_api_requests": [
+    "videos.insert part=snippet,status resumable=True notifySubscribers=False status.containsSyntheticMedia",
+    "thumbnails.set",
+    "videos.list part=snippet,status"
+  ],
+  "errors": []
+}

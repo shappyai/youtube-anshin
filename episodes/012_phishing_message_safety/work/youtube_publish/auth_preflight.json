@@ -1,0 +1,26 @@
+{
+  "episode_id": "012",
+  "credential_path": "C:\\Codex\\260829_youtube-anshin\\local\\youtube\\token.json",
+  "token_exists": true,
+  "token_bytes": 790,
+  "token_mtime_utc": "2026-09-05T23:05:47.021527Z",
+  "refresh_token_present": true,
+  "expired_before": true,
+  "expiry_before_utc": "2026-09-05T23:51:11Z",
+  "scopes": [
+    "https://www.googleapis.com/auth/youtube.upload",
+    "https://www.googleapis.com/auth/youtube.force-ssl"
+  ],
+  "restricted_run_refresh_result": "FAIL",
+  "restricted_run_exception": "TransportError",
+  "real_network_refresh_result": "PASS",
+  "real_network_credentials_valid_after": true,
+  "channels_list": "PASS",
+  "channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+  "channel_title": "大人のデジタル安心室",
+  "channel_guard": "PASS",
+  "reauth_performed": false,
+  "token_deleted": false,
+  "token_overwritten_by_read_only_test": false,
+  "cause": "通常sandboxの通信TransportErrorを現行get_youtube_serviceが握りつぶし、既存tokenがある状態でもブラウザOAuthへフォールバックしていた。"
+}

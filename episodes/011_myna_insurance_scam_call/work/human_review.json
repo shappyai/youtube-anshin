@@ -1,0 +1,24 @@
+{
+  "episode_id": "011",
+  "reviewed_at": "2026-09-06",
+  "reviewer": "user",
+  "video": {
+    "draft_v2.mp4": "approved"
+  },
+  "thumbnail": {
+    "assets/thumbnail/thumbnail_source.png": "user_provided_original",
+    "assets/thumbnail/thumbnail.png": "approved"
+  },
+  "senior_readability": "PASS",
+  "scope": [
+    "Visual Gate v1 human approval with 2 requested fixes reflected",
+    "draft_v2 full-watch approval",
+    "SCENE-018 ImageGen-native exact text",
+    "viewer-facing internal episode ID scan",
+    "viewer-facing brand promise scan",
+    "registration_conversion_v2 story_intro / reason_to_return / midroll CTA",
+    "Episode010 ending CTA reuse",
+    "thumbnail user selection and unchanged-content adoption"
+  ],
+  "note": "draft_v2の全編視聴を承認。Episode011はdraft_v2からfinal.mp4をcopy-onlyで確定し、ユーザー提供サムネイルを公開用サムネイルとして採用する。YouTubeはprivateで2026-09-11 19:00 JSTに予約し、即時publicは行わない。"
+}

@@ -1,0 +1,58 @@
+{
+  "short_id": "Short003",
+  "version": "v4",
+  "prompt_file": "work/imagegen_prompts_v3.md",
+  "reuse_policy": "v2のImageGen-native完成画を再利用。新規ImageGen callなし。Short002の拒否済みscene_02_maskは再利用しない。",
+  "assets": [
+    {
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "source": "reused_from_v2 / built-in image_gen",
+      "text_render_mode": "imagegen_native",
+      "headline_lines": [
+        "カードを",
+        "スマホに？"
+      ],
+      "exact_text_qa": "PASS_REVALIDATED",
+      "vision_qa": "PASS_REUSED",
+      "official_ui_ai_reconstruction": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "a4f879d31ea0987a28dabcdd0cae30eb02ac56f4e3eb3b4926262969164f47d1"
+    },
+    {
+      "asset": "assets/imagegen_native_v2/normalized/scene_03_health.png",
+      "source": "reused_from_v2 / built-in image_gen",
+      "text_render_mode": "imagegen_native",
+      "headline_lines": [
+        "保険証として",
+        "使える場合も"
+      ],
+      "exact_text_qa": "PASS_REVALIDATED",
+      "vision_qa": "PASS_REUSED",
+      "official_ui_ai_reconstruction": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "01f73abdef6215514dc608ce6d19835ac2d1ea9da7772b64a0aeeb947332db7d"
+    },
+    {
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_conclusion.png",
+      "source": "reused_from_v2 / built-in image_gen",
+      "text_render_mode": "imagegen_native",
+      "headline_lines": [
+        "スマホだけで",
+        "全部ではない"
+      ],
+      "exact_text_qa": "PASS_REVALIDATED",
+      "vision_qa": "PASS_REUSED",
+      "official_ui_ai_reconstruction": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "9e0a40e707bdbf0ea01e567cb795017d398041475630efb5f3f49f1d1a0fb465"
+    }
+  ],
+  "official_capture_assets": [],
+  "metrics": {
+    "unique_imagegen_native_asset_count": 3,
+    "imagegen_call_count": 0,
+    "regeneration_count": 0,
+    "exact_text_fail_count": 0,
+    "hybrid_generated_image_large_text": 0
+  }
+}

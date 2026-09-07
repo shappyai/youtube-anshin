@@ -1,0 +1,36 @@
+scene_id,start,end,narration_segment_start,narration_segment_end,image_filename,visual_type,subtitle_ids,official_asset,transition,notes
+SCENE-001,0.000,10.545,1,2,scene_001.png,generated_plus_official,SUB-001;SUB-002,official_icon_rounded_3x.png（左スロット420px）＋任意br_03小窓,crossfade(前なし・後0.5s),冒頭。8月25日→マイナアプリ
+SCENE-002,10.545,18.889,3,4,scene_002.png,generated_fullscreen,SUB-003;SUB-004,なし,crossfade 0.5s,安心メッセージ「なくなりません」
+SCENE-003,18.889,25.174,5,5,scene_003.png,summary_card,SUB-005,なし,crossfade 0.5s,今日の5項目リスト
+SCENE-004,25.174,36.357,6,7,scene_004.png,generated_fullscreen,SUB-006;SUB-007,なし,slow_zoom 1.0→1.05＋crossfade,名前を変えたアップデート版
+SCENE-005,36.357,52.364,8,10,scene_005.png,generated_plus_official,SUB-008;SUB-009;SUB-010,official_screen_card.png（右スロット高さ430px）,none＋crossfade 0.5s,認証＝本人確認・統合
+SCENE-006,52.364,70.707,11,13,scene_006.png,generated_fullscreen,SUB-011;SUB-012;SUB-013;SUB-014,なし,slow_pan 左→右,2つのアプリ→ひとつ
+SCENE-007,70.707,80.974,14,16,scene_007.png,generated_fullscreen,SUB-015;SUB-016;SUB-017,なし,crossfade 0.5s,2/5章見出し・名前
+SCENE-008,80.974,95.866,17,19,scene_008.png,generated_plus_official,SUB-018;SUB-019;SUB-020,official_icon_rounded_3x.png＋official_icon_limited_3x.png（2スロット430px）,none,アイコン2種比較
+SCENE-009,95.866,115.647,20,22,scene_009.png,generated_plus_official,SUB-021;SUB-022;SUB-023,br_03_news_20260825.png（右スロット幅560px）,slow_zoom 1.0→1.06,年内統一・認証アプリ統合・8/25単体終了
+SCENE-010,115.647,135.078,23,26,scene_010.png,generated_plus_official,SUB-024;SUB-025;SUB-026;SUB-027;SUB-028,br_02_svc_top_faq.png（2スロット各幅520px）,none,「別のアプリですか→いいえ」・なくならない
+SCENE-011,135.078,149.082,27,29,scene_011.png,generated_fullscreen,SUB-029;SUB-030;SUB-031,なし,crossfade 0.5s,マイナポータル窓口・Web存続
+SCENE-012,149.082,165.521,30,31,scene_012.png,generated_fullscreen,SUB-032;SUB-033;SUB-034;SUB-035,なし,slow_pan 左→右,ログイン方法のバトンタッチ
+SCENE-013,166.205,179.730,32,33,scene_013.png,generated_plus_official,SUB-036;SUB-037;SUB-038,br_09_gplay.png（右スロット幅420px）,crossfade 0.5s,3/5章・まず名前とアイコン・ストア情報を確認
+SCENE-014,179.730,196.468,34,36,scene_014.png,generated_plus_official,SUB-039;SUB-040;SUB-041,公式FAQ引用（自動更新・Codexレンダ）,none,アップデートでOK・自動更新ON
+SCENE-015,196.468,206.319,37,37,scene_015.png,generated_plus_official,SUB-042;SUB-043,br_09_gplay.png（右スロット幅560px）,crossfade 0.5s,自動更新OFF→ストアで更新
+SCENE-016,206.319,227.042,38,41,scene_016.png,generated_fullscreen,SUB-044;SUB-045;SUB-046;SUB-047;SUB-048,なし,slow_zoom 1.0→1.05,引き継ぎ・当面使える（尺20.7s）
+SCENE-017,227.042,234.267,42,43,scene_017.png,generated_plus_official,SUB-049;SUB-050,公式FAQ引用（入れ直しQ・Codexレンダ）,crossfade 0.5s,注意：削除・入れ直しは待って
+SCENE-018,234.267,254.889,44,45,scene_018.png,generated_plus_official,SUB-051;SUB-052;SUB-053;SUB-054,公式FAQ引用（入れ直しA・Codexレンダ）,slow_pan 左→右,後から入れたアプリが優先（尺20.6s）
+SCENE-019,254.889,263.950,46,46,scene_019.png,generated_fullscreen,SUB-055;SUB-056,なし,crossfade 0.5s,困ったら公式FAQ・概要欄
+SCENE-020,263.950,271.767,47,48,scene_020.png,generated_fullscreen,SUB-057;SUB-058,なし,crossfade 0.5s,4/5章見出し
+SCENE-021,271.767,284.724,49,50,scene_021.png,generated_plus_official,SUB-059;SUB-060,br_06_sysreq.png（右スロット幅600px）,none,動作環境（iOS16.4/Android11・NFC）
+SCENE-022,284.724,305.275,51,53,scene_022.png,generated_plus_official,SUB-061;SUB-062;SUB-063;SUB-064,official_screen_register_card_auth.png＋official_screen_register_biometric.png（右2スロット縦）,none,初回利用登録（尺20.6s）
+SCENE-023,305.275,319.397,54,55,scene_023.png,generated_plus_official,SUB-065;SUB-066;SUB-067,official_screen_register_device_lock.png＋br_06ロック節,slow_zoom 1.0→1.05,端末ロック必須
+SCENE-024,319.397,339.455,56,58,scene_024.png,generated_fullscreen,SUB-068;SUB-069;SUB-070;SUB-071,なし,none,ログインできない場合の対処（尺20.1s）
+SCENE-025,339.455,352.639,59,60,scene_025.png,generated_fullscreen,SUB-072;SUB-073,なし,crossfade 0.5s,実演しない・ご自身のスマホで
+SCENE-026,352.639,366.392,61,62,scene_026.png,generated_fullscreen,SUB-074;SUB-075,なし,crossfade 0.5s,5/5章・公式は2ストアのみ
+SCENE-027,366.392,384.568,63,64,scene_027.png,generated_plus_official,SUB-076;SUB-077;SUB-078;SUB-079,br_08_appstore.png＋br_09_gplay.png（2カラム各幅820px）,none,提供元の確認（2カラム）
+SCENE-028,384.568,391.034,65,65,scene_028.png,generated_plus_official,SUB-080,official_icon_rounded_3x.png（中央スロット450px）,crossfade 0.5s,アイコンのデザイン
+SCENE-029,391.034,406.288,66,67,scene_029.png,generated_plus_official,SUB-081;SUB-082,br_10_notice_fakeapp.png（右スロット幅600px）,none,偽サイト・偽アプリの注意喚起
+SCENE-030,406.288,414.073,68,68,scene_030.png,generated_plus_official,SUB-083,br_11_notice_phishing.png（右スロット幅560px）,crossfade 0.5s,暗証番号を入力・回答しない
+SCENE-031,414.073,428.771,69,70,scene_031.png,generated_plus_official,SUB-084;SUB-085,br_10_notice_fakeapp.png下部（相談窓口・幅560px）,none,相談窓口 0120-95-0178
+SCENE-032,428.771,440.838,71,73,scene_032.png,summary_card,SUB-086;SUB-087;SUB-088;SUB-089,なし,crossfade 0.5s,まとめ：今やること3つ（提示・1つ目強調）
+SCENE-033,440.838,456.421,74,75,scene_033.png,summary_card,SUB-090;SUB-091;SUB-092,なし,crossfade（強調バリアント切替）＋slow_zoom,3項目カード（2→3強調）
+SCENE-034,456.421,466.467,76,78,scene_034.png,generated_fullscreen,SUB-093;SUB-094;SUB-095,なし,crossfade 0.5s,ブランドライン＋チャンネル登録CTA
+SCENE-035,466.467,475.142,79,80,scene_035.png,generated_fullscreen,SUB-096;SUB-097,なし,none（フェードアウト0.5s）,エンド：概要欄・コメント

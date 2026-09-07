@@ -1,0 +1,92 @@
+{
+  "title_candidates": [
+    "【マイナアプリ】ログインできない？まず確認したい5つ",
+    "【マイナアプリ】ログインできないとき、まず確認したい5つのこと",
+    "【マイナアプリ】ログインできない？まず「利用登録」を確認",
+    "【マイナアプリ】ログインできないとき、あわてず確認したい5つ"
+  ],
+  "selected_title": "【マイナアプリ】ログインできない？まず確認したい5つ",
+  "description": "マイナアプリにログインできない。カードが読み取れない。暗証番号で止まる。そんなときに、順番に確認していくための動画です。\n\nこの動画では「確認する5つ」——①スマホが対応しているか ②カードを読み取れない場合 ③暗証番号で止まる場合 ④カードや電子証明書の期限 ⑤それでもダメなら（再設定・メンテナンス・公式窓口）——を、困ったときに見る順番で説明します。\n\n主な根拠（確認日: 2026年9月3日）:\nデジタル庁 マイナアプリ https://services.digital.go.jp/mynaapp/\n動作環境 https://services.digital.go.jp/mynaapp/system-requirements/\n利用登録 https://services.digital.go.jp/mynaapp/register/\nマイナアプリFAQ（ログインできない・EDZ207） https://support.mynaapp.digital.go.jp/hc/ja\nマイナンバーカードの読み取りかた（公的個人認証サービス） https://www.jpki.go.jp/\n有効期限・更新 https://www.digital.go.jp/policies/mynumber/expiration-date/\n障害・メンテナンス情報 https://myna.go.jp/html/info/index.html\nマイナンバー総合フリーダイヤル https://www.kojinbango-card.go.jp/contact/tel/\n\nマイナアプリの変更点については、以前の動画「【マイナアプリ】マイナポータルアプリはどう変わった？今やること3つ」でも紹介しています（関連動画リンクは公開時に追加予定）。\n\n※アプリのバージョンやスマホの機種によって、画面や読み取り位置が異なる場合があります。\nこの動画の人物・イラストの一部はAIで生成した画像を使用しています。\n\n大人のデジタル安心室では、スマホやパソコンを、もっと安全・快適に使うための情報をお届けします。チャンネル登録・高評価もよろしくお願いします。\n\nナレーション：VOICEVOX:剣崎雌雄",
+  "description_file": null,
+  "chapters": [
+    "00:00 はじめに・今日確認する5つ",
+    "00:25 1/5 スマホが対応しているか",
+    "01:15 2/5 カードを読み取れない場合",
+    "02:25 3/5 暗証番号で止まる場合",
+    "03:25 4/5 カードや電子証明書の期限",
+    "04:15 5/5 それでもダメなら",
+    "05:05 まとめ"
+  ],
+  "chapters_text": "00:00 はじめに・今日確認する5つ\n00:25 1/5 スマホが対応しているか\n01:15 2/5 カードを読み取れない場合\n02:25 3/5 暗証番号で止まる場合\n03:25 4/5 カードや電子証明書の期限\n04:15 5/5 それでもダメなら\n05:05 まとめ",
+  "tags": [
+    "マイナアプリ",
+    "ログインできない",
+    "マイナンバーカード",
+    "暗証番号",
+    "シニア向け"
+  ],
+  "credit": "ナレーション：VOICEVOX:剣崎雌雄",
+  "contains_synthetic_media": true,
+  "ai_disclosure_review": "REVIEWED_BY_HUMAN（2026-09-04・画像生成素材/AI生成ビジュアル使用により true 確定指示）",
+  "made_for_kids": false,
+  "pinned_comment": "どの画面で止まりましたか？「カード読み取り」「暗証番号」「その他」など、差し支えない範囲でコメントで教えてください。暗証番号・マイナンバー・氏名・生年月日など、個人情報は書かないでくださいね。",
+  "pinned_comment_status": "candidate（公開時に自動投稿しない・人間操作）",
+  "source_urls": [
+    "https://services.digital.go.jp/mynaapp/",
+    "https://services.digital.go.jp/mynaapp/system-requirements/",
+    "https://services.digital.go.jp/mynaapp/register/",
+    "https://support.mynaapp.digital.go.jp/hc/ja",
+    "https://www.jpki.go.jp/",
+    "https://www.digital.go.jp/policies/mynumber/expiration-date/",
+    "https://myna.go.jp/html/info/index.html",
+    "https://www.kojinbango-card.go.jp/contact/tel/"
+  ],
+  "thumbnail_candidates": [],
+  "thumbnail": "assets/thumbnail/thumbnail.png",
+  "thumbnail_status": "APPROVED_BY_HUMAN（2026-09-04・output/thumbnail.png を正式採用。assets/thumbnail/thumbnail.png へコピーのみ・SHA一致・1672x941=16:9・decode正常・文字切れなし）",
+  "thumbnail_source": "episodes/007_myna_app_login/output/thumbnail.png（人間確定済み・新規生成なし）",
+  "category_id": "22",
+  "default_language": "ja",
+  "privacy": "private",
+  "scheduled_at": null,
+  "visibility": "private",
+  "youtube_upload": {
+    "video_id": "CAb0b7n0ByY",
+    "url": "https://youtu.be/CAb0b7n0ByY",
+    "uploaded_at": "2026-09-04T12:47:52Z",
+    "privacy_status": "private",
+    "thumbnail_uploaded": true,
+    "made_for_kids": false,
+    "contains_synthetic_media": true,
+    "channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+    "upload_status": "processed",
+    "duration": "PT6M41S",
+    "verification": "PASS",
+    "ai_disclosure_verification": "videos.update response; videos.list omitted containsSyntheticMedia"
+  },
+  "cross_link_plan": {
+    "episode002_title": "【マイナアプリ】マイナポータルアプリはどう変わった？今やること3つ",
+    "episode002_video_id": null,
+    "episode002_video_id_source": "repo内に存在しないため推測しない。公開時に人間が確認して設定",
+    "description_link": "「マイナアプリの変更点はこちら」としてEpisode 002への関連動画リンクを公開時に追加（構造準備済み）",
+    "end_screen": "Episode 002を第一候補（関連動画1本＋チャンネル登録1個の終了画面標準・2026-09-04確定）。007公開後に002の終了画面へ007追加もHuman Publish Checklistに記録（APIで既存動画は変更しない・人間操作）",
+    "note": "Episode 007本編での002宣伝は終盤1文のみ「マイナアプリの変更点については、以前の動画でも、紹介しています」。"
+  },
+  "publish_checklist_refs": {
+    "human_analytics_checklist": "公開後: impressions / CTR / browse features % / YouTube Home % / average view duration / first 30 sec retention / subscriber gain / end screen CTR / related video traffic / Episode 002→007流入 / device type（002と比較）",
+    "end_screen_standard": "関連動画1本＋チャンネル登録1個（Episode 007→002／002→007公開後追加）。既存動画はAPI変更せず人間操作"
+  },
+  "youtube_upload": "uploaded_private_verification_failed",
+  "youtube_video_id": "CAb0b7n0ByY",
+  "youtube_url": "https://youtu.be/CAb0b7n0ByY",
+  "youtube_privacy": "private",
+  "youtube_scheduled_at": null,
+  "youtube_scheduled_at_api": null,
+  "thumbnail_uploaded": true,
+  "uploaded_at": "2026-09-04T12:47:52Z",
+  "youtube_channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+  "youtube_publish_error": "PublishError",
+  "youtube_ai_disclosure_updated_at": "2026-09-04T12:49:47Z",
+  "youtube_ai_disclosure_verified": true,
+  "youtube_ai_disclosure_verification": "videos.update response; videos.list omitted containsSyntheticMedia"
+}

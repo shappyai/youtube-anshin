@@ -1,0 +1,547 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/otona-digital-anshin/episode.schema.json",
+  "title": "大人のデジタル安心室 episode manifest",
+  "description": "企画確定後のエピソードを、音声・字幕・画面・公開情報まで一つに束ねる正本。",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema_version",
+    "episode",
+    "sources",
+    "narration_segments",
+    "subtitles",
+    "scenes",
+    "publish"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "episode": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "episode_id",
+        "slug",
+        "title",
+        "target_duration",
+        "status",
+        "topic",
+        "target_audience"
+      ],
+      "properties": {
+        "episode_id": {
+          "type": "string",
+          "pattern": "^[0-9]{3}$"
+        },
+        "slug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "target_duration": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "in_review",
+            "ready_for_production",
+            "publish_ready",
+            "published",
+            "archived"
+          ]
+        },
+        "topic": {
+          "type": "string",
+          "minLength": 1
+        },
+        "target_audience": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "narration_segments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/narration_segment"
+      }
+    },
+    "subtitles": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/subtitle"
+      }
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/scene"
+      }
+    },
+    "postroll": {
+      "$ref": "#/$defs/postroll",
+      "description": "任意のエンドカード。特別な理由がなければ channel_common_cta を使う。"
+    },
+    "publish": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "title",
+        "description",
+        "chapters",
+        "voice_credit",
+        "contains_synthetic_media"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string"
+        },
+        "chapters": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "voice_credit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "contains_synthetic_media": {
+          "type": "boolean",
+          "description": "YouTubeのstatus.containsSyntheticMediaへ明示的に対応する。未設定は禁止。"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "source_id",
+        "url",
+        "title",
+        "organization",
+        "verified_at",
+        "claim"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^SRC-[0-9]{3}$"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "organization": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verified_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "claim": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "narration_segment": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "id",
+        "section",
+        "narration",
+        "reading_overrides",
+        "pause_after",
+        "scene_id",
+        "subtitle_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "section": {
+          "type": "string",
+          "minLength": 1
+        },
+        "narration": {
+          "type": "string",
+          "minLength": 1
+        },
+        "spoken_text": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Optional explicit VOICEVOX input when visible display_text differs."
+        },
+        "display_text": {
+          "type": "string",
+          "description": "Optional canonical visible subtitle text."
+        },
+        "reading_overrides": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "accent_overrides": {
+          "type": "object",
+          "description": "Segment-scoped accent settings; never promoted to the global dictionary.",
+          "additionalProperties": {
+            "type": "object",
+            "required": [
+              "reading",
+              "accent"
+            ],
+            "properties": {
+              "reading": {
+                "type": "string",
+                "minLength": 1
+              },
+              "accent": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "pause_after": {
+          "type": "number",
+          "minimum": 0
+        },
+        "scene_id": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "subtitle_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^SUB-[0-9]{3}$"
+          }
+        },
+        "audio_path": {
+          "type": "string"
+        },
+        "duration_sec": {
+          "type": "number",
+          "minimum": 0
+        },
+        "start_sec": {
+          "type": "number",
+          "minimum": 0
+        },
+        "end_sec": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "subtitle": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "id",
+        "text_lines",
+        "segment_id"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^SUB-[0-9]{3}$"
+        },
+        "text_lines": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 2,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "segment_id": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "asset": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "kind"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "image",
+            "quote",
+            "placeholder"
+          ]
+        },
+        "path": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        }
+      }
+    },
+    "asset_crop": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "asset_index"
+      ],
+      "properties": {
+        "asset_index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "box": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "slot": {
+          "type": "string"
+        },
+        "fit": {
+          "type": "string",
+          "enum": [
+            "contain",
+            "cover"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "scene": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "id",
+        "layout",
+        "main_message",
+        "headline",
+        "support_text",
+        "official_asset",
+        "official_asset_crop",
+        "start_segment",
+        "end_segment"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "layout": {
+          "type": "string",
+          "pattern": "^layout_[0-9]{2}_[a-z_]+$"
+        },
+        "render_mode": {
+          "type": "string",
+          "enum": [
+            "template",
+            "gpt_image",
+            "official",
+            "hybrid"
+          ],
+          "default": "template"
+        },
+        "text_render_mode": {
+          "type": "string",
+          "enum": [
+            "imagegen_native",
+            "pil_overlay",
+            "no_text",
+            "codex",
+            "image"
+          ],
+          "default": "imagegen_native",
+          "description": "画像への文字入れ方式。imagegen_native=ImageGenで背景と文字を同時生成（Episode 007以降の新規sceneの既定）。pil_overlay=PIL/HTML等で文字を正確に後乗せ（公式引用・手順・長文等）。no_text=画像内に文字を入れない。codex / image は過去Episode用の後方互換別名（codex=pil_overlay、image=imagegen_native）。詳細は docs/text_render_policy.md。"
+        },
+        "image_prompt": {
+          "type": "string"
+        },
+        "official_asset_slot": {
+          "type": [
+            "object",
+            "array",
+            "string"
+          ]
+        },
+        "main_message": {
+          "type": "string",
+          "minLength": 1
+        },
+        "headline": {
+          "type": "string",
+          "minLength": 1
+        },
+        "support_text": {
+          "type": "string"
+        },
+        "official_asset": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/asset"
+          }
+        },
+        "official_asset_crop": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/asset_crop"
+          }
+        },
+        "animation": {
+          "type": "string",
+          "default": "static",
+          "description": "static を既定とし、意味のある場合だけ slow_pan を指定する。"
+        },
+        "animation_reason": {
+          "type": "string",
+          "description": "slow_pan 等の例外的な横移動を使う理由。"
+        },
+        "fit_mode": {
+          "type": "string",
+          "enum": [
+            "full_bleed",
+            "crop",
+            "cover_blur"
+          ],
+          "default": "full_bleed",
+          "description": "GPT画像は full_bleed、軽微な比率差は crop、cover_blur は最後のfallback。"
+        },
+        "background_fill": {
+          "type": "string",
+          "enum": [
+            "none",
+            "soft_gradient",
+            "cover_blur"
+          ],
+          "default": "none"
+        },
+        "content_offset_x": {
+          "type": "integer",
+          "description": "レイアウトの視覚的重心を調整する横方向オフセット。意味のないpanとは別。"
+        },
+        "visual_balance_center_x": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1920,
+          "description": "主役・文字・公式画面を合わせた視覚的重心の任意宣言値。QAはWARNのみ。"
+        },
+        "visual_balance": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "center_x": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1920
+            },
+            "intentional_asymmetry": {
+              "type": "boolean",
+              "default": false
+            }
+          }
+        }, 
+        "start_segment": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "end_segment": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "subtitle_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^SUB-[0-9]{3}$"
+          }
+        }
+      }
+    },
+    "postroll": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "kind": {
+          "type": "string",
+          "default": "channel_cta"
+        },
+        "cta_profile": {
+          "type": "string",
+          "enum": [
+            "channel_common_cta"
+          ],
+          "default": "channel_common_cta"
+        },
+        "asset": {
+          "type": "string"
+        },
+        "duration_sec": {
+          "type": "number",
+          "minimum": 0,
+          "default": 10.0
+        },
+        "animation": {
+          "type": "string",
+          "default": "static"
+        },
+        "source_episode": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

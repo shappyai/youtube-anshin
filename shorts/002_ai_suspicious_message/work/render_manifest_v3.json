@@ -1,0 +1,339 @@
+{
+  "short_id": "Short002",
+  "version": "v3",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "audio_path": "audio/narration_v3.wav",
+  "audio_reused": true,
+  "audio_gap_sec": 0.07,
+  "major_visual_count": 3,
+  "major_visuals": [
+    {
+      "id": "A",
+      "role": "冒頭",
+      "segments": [
+        1
+      ],
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "headline_lines": [
+        "このメール、",
+        "本物？"
+      ],
+      "purpose": "迷いを問いにする",
+      "range_sec": [
+        0.0,
+        3.328
+      ]
+    },
+    {
+      "id": "B",
+      "role": "行動",
+      "segments": [
+        2,
+        3,
+        4
+      ],
+      "asset": "assets/imagegen_native_v2/normalized/scene_02_mask.png",
+      "headline_lines": [
+        "個人情報は",
+        "まず隠す"
+      ],
+      "purpose": "隠す・AIは補助を一続きで示す",
+      "range_sec": [
+        3.3979999999999997,
+        18.162
+      ]
+    },
+    {
+      "id": "C",
+      "role": "結論",
+      "segments": [
+        5,
+        6,
+        7
+      ],
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "headline_lines": [
+        "最後は",
+        "公式から確認"
+      ],
+      "purpose": "公式確認の結論を保ったままCTAを重ねる",
+      "range_sec": [
+        18.232,
+        30.98
+      ]
+    }
+  ],
+  "frame_rows": [
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v3\\major_A_seg_01_cue_01.png",
+      "duration_sec": 3.328,
+      "start_sec": 0.0,
+      "end_sec": 3.328,
+      "major_visual": "A",
+      "role": "冒頭",
+      "segment_id": 1,
+      "cue_number": 1,
+      "subtitle": [
+        "AIに聞く前に",
+        "一呼吸"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v3\\major_A_seg_01_cue_01.png",
+      "duration_sec": 0.06999999999999984,
+      "start_sec": 3.328,
+      "end_sec": 3.3979999999999997,
+      "major_visual": "A",
+      "role": "冒頭",
+      "segment_id": 1,
+      "cue_number": 1,
+      "subtitle": [
+        "AIに聞く前に",
+        "一呼吸"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v3\\major_B_seg_02_cue_02.png",
+      "duration_sec": 5.973333333333333,
+      "start_sec": 3.3979999999999997,
+      "end_sec": 9.371333333333332,
+      "major_visual": "B",
+      "role": "行動",
+      "segment_id": 2,
+      "cue_number": 2,
+      "subtitle": [
+        "名前や番号は",
+        "先に隠す"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_02_mask.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v3\\major_B_seg_02_cue_02.png",
+      "duration_sec": 0.07000000000000028,
+      "start_sec": 9.371333333333332,
+      "end_sec": 9.441333333333333,
+      "major_visual": "B",
+      "role": "行動",
+      "segment_id": 2,
+      "cue_number": 2,
+      "subtitle": [
+        "名前や番号は",
+        "先に隠す"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_02_mask.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v3\\major_B_seg_03_cue_03.png",
+      "duration_sec": 5.002666666666666,
+      "start_sec": 9.441333333333333,
+      "end_sec": 14.443999999999999,
+      "major_visual": "B",
+      "role": "行動",
+      "segment_id": 3,
+      "cue_number": 3,
+      "subtitle": [
+        "AIは整理の補助",
+        "怪しい点を洗い出す"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_02_mask.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v3\\major_B_seg_03_cue_03.png",
+      "duration_sec": 0.07000000000000028,
+      "start_sec": 14.443999999999999,
+      "end_sec": 14.514,
+      "major_visual": "B",
+      "role": "行動",
+      "segment_id": 3,
+      "cue_number": 3,
+      "subtitle": [
+        "AIは整理の補助",
+        "怪しい点を洗い出す"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_02_mask.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v3\\major_B_seg_04_cue_04.png",
+      "duration_sec": 3.6479999999999997,
+      "start_sec": 14.514,
+      "end_sec": 18.162,
+      "major_visual": "B",
+      "role": "行動",
+      "segment_id": 4,
+      "cue_number": 4,
+      "subtitle": [
+        "AIだけで決めない"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_02_mask.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v3\\major_B_seg_04_cue_04.png",
+      "duration_sec": 0.07000000000000028,
+      "start_sec": 18.162,
+      "end_sec": 18.232,
+      "major_visual": "B",
+      "role": "行動",
+      "segment_id": 4,
+      "cue_number": 4,
+      "subtitle": [
+        "AIだけで決めない"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_02_mask.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v3\\major_C_seg_05_cue_05.png",
+      "duration_sec": 2.0622222222222213,
+      "start_sec": 18.232,
+      "end_sec": 20.29422222222222,
+      "major_visual": "C",
+      "role": "結論",
+      "segment_id": 5,
+      "cue_number": 5,
+      "subtitle": [
+        "メールのリンクは開かない"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v3\\major_C_seg_05_cue_06.png",
+      "duration_sec": 2.0622222222222213,
+      "start_sec": 20.29422222222222,
+      "end_sec": 22.356444444444442,
+      "major_visual": "C",
+      "role": "結論",
+      "segment_id": 5,
+      "cue_number": 6,
+      "subtitle": [
+        "公式アプリから"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v3\\major_C_seg_05_cue_07.png",
+      "duration_sec": 2.0622222222222213,
+      "start_sec": 22.356444444444442,
+      "end_sec": 24.418666666666663,
+      "major_visual": "C",
+      "role": "結論",
+      "segment_id": 5,
+      "cue_number": 7,
+      "subtitle": [
+        "ブックマークから確認"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v3\\major_C_seg_05_cue_07.png",
+      "duration_sec": 0.07000000000000384,
+      "start_sec": 24.418666666666663,
+      "end_sec": 24.488666666666667,
+      "major_visual": "C",
+      "role": "結論",
+      "segment_id": 5,
+      "cue_number": 7,
+      "subtitle": [
+        "ブックマークから確認"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v3\\major_C_seg_06_cue_08.png",
+      "duration_sec": 3.189333333333334,
+      "start_sec": 24.488666666666667,
+      "end_sec": 27.678,
+      "major_visual": "C",
+      "role": "結論",
+      "segment_id": 6,
+      "cue_number": 8,
+      "subtitle": [
+        "AIは補助",
+        "確認は公式へ"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v3\\major_C_seg_06_cue_08.png",
+      "duration_sec": 0.07000000000000028,
+      "start_sec": 27.678,
+      "end_sec": 27.748,
+      "major_visual": "C",
+      "role": "結論",
+      "segment_id": 6,
+      "cue_number": 8,
+      "subtitle": [
+        "AIは補助",
+        "確認は公式へ"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v3\\major_C_seg_07_cue_09.png",
+      "duration_sec": 3.2319999999999993,
+      "start_sec": 27.748,
+      "end_sec": 30.98,
+      "major_visual": "C",
+      "role": "結論",
+      "segment_id": 7,
+      "cue_number": 9,
+      "subtitle": [
+        "困ったときのために",
+        "登録しておいてください"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png"
+    }
+  ],
+  "cue_frame_count": 9,
+  "mode_counts": {
+    "imagegen_native": 9,
+    "renderer_native": 0
+  },
+  "motion": {
+    "type": "slow_zoom",
+    "from": 1.05,
+    "to": 1.12,
+    "pan": "gentle_centered"
+  },
+  "dedicated_cta_scene": 0,
+  "cta_visual": "final_major_visual_C",
+  "headline_subtitle_duplicate_count": 0,
+  "no_image_text_hybrid": true,
+  "viewer_facing_short_id": 0,
+  "fake_ui": 0,
+  "official_ui_ai_reconstruction": 0
+}

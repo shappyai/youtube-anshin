@@ -1,0 +1,12 @@
+{
+  "episode_id": "009",
+  "reviewed_at": "2026-09-05",
+  "reviewer": "user",
+  "video": {
+    "draft_v3.mp4": "approved"
+  },
+  "thumbnail": {
+    "assets/thumbnail/thumbnail.png": "approved"
+  },
+  "note": "draft_v3とfinal.mp4を人間最終承認済み。今回提供されたサムネイル画像をEpisode 009の正式サムネイルとして採用し、2026-09-09 19:00 JSTの予約公開まで進める。"
+}

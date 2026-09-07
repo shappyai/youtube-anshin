@@ -1,0 +1,37 @@
+{
+  "title": "【LINE】画面が変わった？「友だちはどこ？」新しいトーク・ホームをやさしく解説",
+  "description": "LINEを開いたら、いつもの場所に友だちが見当たらない。そんな画面の変化を、LINE公式情報に沿ってやさしく確認します。\n\n今回のポイント\n・トーク画面の「トーク」「友だち」\n・ホームの「アクティビティ」「コンテンツ」\n・画面が人によって違う理由\n・旧画面へ戻す設定について、公式に確認できた範囲\n\n主な公式情報\nhttps://guide.line.me/ja/update/chat-renewal2025.html\nhttps://guide.line.me/ja/update/home-renewal2026.html\nhttps://help.line.me/line/smartphone?contentId=200001630&contentid=20002328&lang=ja\n\n※LINEの画面や提供時期は、アプリのバージョンやアカウントによって異なる場合があります。確認日：2026年8月31日\n\nナレーション：VOICEVOX:剣崎雌雄",
+  "chapters": [
+    "00:00 画面が変わった理由",
+    "00:30 「友だち」はどこ？",
+    "01:35 新しいトーク画面",
+    "02:35 ホームはどこを見る？",
+    "03:35 自分だけ違う？元に戻せる？",
+    "04:40 今やること3つ",
+    "05:45 まとめ"
+  ],
+  "tags": [
+    "LINE",
+    "画面が変わった",
+    "友だちはどこ",
+    "トーク",
+    "ホーム",
+    "スマホ初心者",
+    "シニア向け"
+  ],
+  "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
+  "contains_synthetic_media": true,
+  "status": "finalized_human_approved",
+  "youtube_upload": "uploaded_scheduled",
+  "youtube_video_id": "Y524WX3U4q4",
+  "youtube_url": "https://youtu.be/Y524WX3U4q4",
+  "youtube_privacy": "private",
+  "youtube_scheduled_at": "2026-09-01 19:00:00 JST",
+  "youtube_scheduled_at_api": "2026-09-01T10:00:00Z",
+  "thumbnail_uploaded": true,
+  "uploaded_at": "2026-08-31T02:51:46Z",
+  "youtube_channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+  "youtube_ai_disclosure_updated_at": "2026-08-31T03:12:34Z",
+  "youtube_ai_disclosure_verified": true,
+  "youtube_ai_disclosure_verification": "videos.update response; videos.list omitted containsSyntheticMedia"
+}

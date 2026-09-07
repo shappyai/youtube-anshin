@@ -1,0 +1,177 @@
+{
+  "episode_id": "012",
+  "status": "PASS",
+  "target_scenes": [
+    {
+      "scene_id": "SCENE-007",
+      "variant": "browser",
+      "asset_kinds": [
+        "image"
+      ],
+      "asset_paths": [
+        "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\assets\\official\\scene_007_nlc_keyphrase.png"
+      ],
+      "source_label_min_px": 46,
+      "official_text_readability": "PASS",
+      "visual_balance": "PASS",
+      "centroid_status": "PASS"
+    },
+    {
+      "scene_id": "SCENE-008",
+      "variant": "semantic_operation",
+      "asset_kinds": [],
+      "asset_paths": [],
+      "source_label_min_px": null,
+      "official_text_readability": "PASS",
+      "visual_balance": "PASS",
+      "centroid_status": "PASS"
+    },
+    {
+      "scene_id": "SCENE-012",
+      "variant": "browser",
+      "asset_kinds": [
+        "image"
+      ],
+      "asset_paths": [
+        "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\assets\\official\\scene_012_antiphishing_delivery_flow.png"
+      ],
+      "source_label_min_px": 46,
+      "official_text_readability": "PASS",
+      "visual_balance": "PASS",
+      "centroid_status": "PASS"
+    },
+    {
+      "scene_id": "SCENE-013",
+      "variant": "safe_entry_options_centered",
+      "asset_kinds": [],
+      "asset_paths": [],
+      "source_label_min_px": null,
+      "official_text_readability": "PASS",
+      "visual_balance": "PASS",
+      "centroid_status": "PASS"
+    },
+    {
+      "scene_id": "SCENE-018",
+      "variant": "browser",
+      "asset_kinds": [
+        "image"
+      ],
+      "asset_paths": [
+        "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\assets\\official\\scene_018_jcb_warning.png"
+      ],
+      "source_label_min_px": 46,
+      "official_text_readability": "PASS",
+      "visual_balance": "PASS",
+      "centroid_status": "PASS"
+    },
+    {
+      "scene_id": "SCENE-022",
+      "variant": "browser",
+      "asset_kinds": [
+        "image"
+      ],
+      "asset_paths": [
+        "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\assets\\official\\scene_022_softbank_warning.png"
+      ],
+      "source_label_min_px": 46,
+      "official_text_readability": "PASS",
+      "visual_balance": "PASS",
+      "centroid_status": "PASS"
+    },
+    {
+      "scene_id": "SCENE-026",
+      "variant": "browser",
+      "asset_kinds": [
+        "image"
+      ],
+      "asset_paths": [
+        "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\assets\\official\\scene_026_nta_warning.png"
+      ],
+      "source_label_min_px": 46,
+      "official_text_readability": "PASS",
+      "visual_balance": "PASS",
+      "centroid_status": "PASS"
+    }
+  ],
+  "checks": [
+    {
+      "name": "placeholder_remaining",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "neutral_browser_frame",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "neutral_phone_frame",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "official_capture_or_semantic_visual",
+      "status": "PASS",
+      "details": [
+        "SCENE-007: official asset",
+        "SCENE-008: semantic visual",
+        "SCENE-012: official asset",
+        "SCENE-013: semantic visual",
+        "SCENE-018: official asset",
+        "SCENE-022: official asset",
+        "SCENE-026: official asset"
+      ]
+    },
+    {
+      "name": "official_ui_ai_reconstruction",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "privacy",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "source_label_min_44px",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "official_text_tv_readability",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "visual_balance",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "oversized_checkmark",
+      "status": "PASS",
+      "details": [
+        "0"
+      ]
+    },
+    {
+      "name": "meaningless_filler_icon",
+      "status": "PASS",
+      "details": [
+        "0"
+      ]
+    }
+  ],
+  "counts": {
+    "placeholder_remaining": 0,
+    "neutral_browser_frame": 0,
+    "neutral_phone_frame": 0,
+    "official_asset_scene_count": 5,
+    "semantic_visual_scene_count": 2
+  },
+  "policy": {
+    "oversized_checkmark_count": 0,
+    "decorative_checkmark_as_main_visual": 0,
+    "meaningless_filler_icon_count": 0
+  }
+}

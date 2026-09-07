@@ -1,0 +1,2062 @@
+{
+  "schema_version": "1.0.0",
+  "metadata": {
+    "research_date": "2026-09-05",
+    "visual_theme": "adult_digital_soft_image_bg",
+    "production_phase": "Phase B（VOICEVOX・字幕・draft）",
+    "channel": "大人のデジタル安心室",
+    "brand_promise": "怖がらせる前に、確認する。",
+    "target_audience_detail": "50〜70代、特に65歳以上。Windows Updateに詳しくない家庭ユーザーを想定し、情報文字44px未満を出さない。",
+    "media_decision": "Windows設定の正確なUIはMicrosoft公式画面を使用。概念sceneだけImageGenを使用し、実在のWindows UI・ロゴ・設定画面は生成しない。",
+    "current_host_check": "制作PCはWindows 10 Pro 24H2（DisplayVersion=24H2 / CurrentBuild=26100）のため、Windows 11実機画面として使用しない。",
+    "official_capture_method": "local/capture_windows_settings.ps1。Windows 11でないPCではblockedを記録し、画面撮影しない。",
+    "fact_boundary": "2026-10-13はWindows 11 24H2の対象エディションの更新終了日。Windows 11全体の終了とは言わない。Enterprise/Education/LTSC等の期間をHome/Proと同じに扱わない。25H2未表示を故障・買い替え必須としない。",
+    "source_of_truth": [
+      "research.md",
+      "fact_check.md",
+      "script.md",
+      "scene_plan.json",
+      "publish.json"
+    ],
+    "phase_a_not_created": [
+      "audio/",
+      "captions.srt",
+      "draft.mp4",
+      "thumbnail/",
+      "final/final.mp4",
+      "YouTube upload"
+    ]
+  },
+  "episode": {
+    "episode_id": "009",
+    "slug": "windows11_24h2_support",
+    "title": "【Windows 11】このままで大丈夫？10月13日までに確認したいこと",
+    "target_duration": 300,
+    "status": "draft",
+    "topic": "Windows 11 version 24H2のサポート終了と、一般ユーザーが今確認することを、公式情報と実際の設定場所に沿って説明する。",
+    "target_audience": "50〜70代、特に65歳以上のWindows 11 Home / Pro利用者。終了日を見て不安になったが、何を確認すればよいか分からない人。",
+    "topic_scores": {
+      "topic_score_trend": 5,
+      "topic_score_age_fit": 5,
+      "topic_score_channel_fit": 5,
+      "topic_score_home_ctr": 4,
+      "topic_score_practicality": 5,
+      "selected_topic_reason": "終了日を入口にしながら、買い替えを急がせず、バージョンとWindows Updateを確認する行動へ落とし込める。"
+    }
+  },
+  "narration": {
+    "speaker": "VOICEVOX",
+    "voice": "剣崎雌雄",
+    "style": "ノーマル",
+    "speedScale": 1.0,
+    "intonationScale": 1.0,
+    "pitchScale": 0.0,
+    "segment_policy": "1文ずつaudio_query→synthesis。実測WAVで字幕・scene timelineを作成。"
+  },
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "url": "https://learn.microsoft.com/ja-jp/windows/release-health/supported-versions-windows-client",
+      "title": "Windows client supported versions",
+      "organization": "Microsoft Learn",
+      "verified_at": "2026-09-05",
+      "claim": "Windows 11 version 24H2のHome、Pro、Pro Education、Pro for Workstationsは2026-10-13まで。25H2は2027-10-12まで。エディションにより期間が異なる。"
+    },
+    {
+      "source_id": "SRC-002",
+      "url": "https://learn.microsoft.com/ja-jp/windows/release-health/status-windows-11-24h2",
+      "title": "Windows 11 version 24H2 known issues and notifications",
+      "organization": "Microsoft Learn",
+      "verified_at": "2026-09-05",
+      "claim": "Home / Proの24H2は2026-10-13に更新終了。対象の管理されていない端末には25H2が提供され、Windows Updateで確認できる。"
+    },
+    {
+      "source_id": "SRC-003",
+      "url": "https://learn.microsoft.com/ja-jp/windows/release-health/windows11-release-information",
+      "title": "Windows 11 release information",
+      "organization": "Microsoft Learn",
+      "verified_at": "2026-09-05",
+      "claim": "Home / Pro等とEnterprise / Educationでサポート期間が異なり、24H2の更新終了日がエディション別に掲載されている。"
+    },
+    {
+      "source_id": "SRC-004",
+      "url": "https://learn.microsoft.com/ja-jp/windows/whats-new/windows-11-version-26h1",
+      "title": "Windows 11 version 26H1",
+      "organization": "Microsoft Learn",
+      "verified_at": "2026-09-05",
+      "claim": "26H1は一部の新しい機器向けの特別なリリースで、既存PCへWindows Updateで提供されず、既存PCへインプレースで導入するものではない。"
+    },
+    {
+      "source_id": "SRC-005",
+      "url": "https://support.microsoft.com/ja-jp/windows/deployment/updates-lifecycle/inside-this-update",
+      "title": "Windows 11の2025年更新プログラム",
+      "organization": "Microsoft Support",
+      "verified_at": "2026-09-05",
+      "claim": "Windows 11 2025 updateの案内とWindows Updateから確認する手順を掲載。"
+    },
+    {
+      "source_id": "SRC-006",
+      "url": "https://support.microsoft.com/ja-JP/Windows/Deployment/Updates-Lifecycle/install-windows-updates",
+      "title": "Windows の更新プログラムをインストールする",
+      "organization": "Microsoft Support",
+      "verified_at": "2026-09-05",
+      "claim": "スタート > 設定 > Windows Update > 更新プログラムの確認、利用可能な更新のダウンロードとインストール、再起動の案内を確認。"
+    },
+    {
+      "source_id": "SRC-007",
+      "url": "https://support.microsoft.com/ja-jp/windows/experience/find-information-about-your-windows-device",
+      "title": "Windows デバイスの情報を確認する",
+      "organization": "Microsoft Support",
+      "verified_at": "2026-09-05",
+      "claim": "スタートを右クリック > 設定 > システム > バージョン情報で、Windowsの仕様のエディションとバージョンを確認する。"
+    },
+    {
+      "source_id": "SRC-008",
+      "url": "https://support.microsoft.com/ja-JP/servicing/os/windows-11/2026/02/windows-11-version-26h1-update-history",
+      "title": "Windows 11 version 26H1 update history",
+      "organization": "Microsoft Support",
+      "verified_at": "2026-09-05",
+      "claim": "設定 > システム > バージョン情報のWindowsの仕様でVersionを確認する手順を掲載。"
+    },
+    {
+      "source_id": "SRC-009",
+      "url": "https://blogs.windows.com/windowsexperience/2025/09/30/how-to-get-the-windows-11-2025-update/",
+      "title": "How to get the Windows 11 2025 update",
+      "organization": "Windows Experience Blog",
+      "verified_at": "2026-09-05",
+      "claim": "25H2は段階的に提供され、アプリやドライバーの互換性により提供時期が異なる。"
+    },
+    {
+      "source_id": "SRC-010",
+      "url": "https://support.microsoft.com/en-us/servicing/os/windows/2021/09/kb5006965-how-to-check-information-about-safeguard-holds-affecting-your-device",
+      "title": "How to check information about safeguard holds affecting your device",
+      "organization": "Microsoft Support",
+      "verified_at": "2026-09-05",
+      "claim": "既知の問題から保護するため、機能更新の提供を一時保留するセーフガードホールドの仕組みを確認。"
+    },
+    {
+      "source_id": "SRC-011",
+      "url": "https://learn.microsoft.com/ja-jp/windows/release-health/status-windows-11-25h2",
+      "title": "Windows 11 version 25H2 known issues and notifications",
+      "organization": "Microsoft Learn",
+      "verified_at": "2026-09-05",
+      "claim": "25H2は対象機器へ段階的に提供され、Windows Updateで確認できる。セーフガードホールドにより待つ場合がある。"
+    }
+  ],
+  "narration_segments": [
+    {
+      "id": 1,
+      "section": "はじめに",
+      "narration": "Windows 11を使っている方、2026年10月13日に、一部のWindows 11で更新の提供が終わります。",
+      "reading_overrides": {
+        "方": "かた"
+      },
+      "pause_after": 0.2,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-001-1",
+        "SUB-001-2"
+      ],
+      "display_text": "Windows 11を使っている方、2026年10月13日に、一部のWindows 11で更新の提供が終わります。"
+    },
+    {
+      "id": 2,
+      "section": "はじめに",
+      "narration": "ただし、Windows 11全部が、その日に使えなくなるわけではありません。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-002"
+      ],
+      "display_text": "ただし、Windows 11全部が、その日に使えなくなるわけではありません。"
+    },
+    {
+      "id": 3,
+      "section": "はじめに",
+      "narration": "今日は、自分のパソコンで確認したい3つを、順番に見ていきます。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-003"
+      ],
+      "display_text": "今日は、自分のパソコンで確認したい3つを、順番に見ていきます。"
+    },
+    {
+      "id": 4,
+      "section": "はじめに",
+      "narration": "一つ目、自分のWindowsのバージョンです。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-004"
+      ],
+      "display_text": "一つ目、自分のWindowsのバージョンです。"
+    },
+    {
+      "id": 5,
+      "section": "はじめに",
+      "narration": "二つ目、Windows Updateの画面です。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-005"
+      ],
+      "display_text": "二つ目、Windows Updateの画面です。"
+    },
+    {
+      "id": 6,
+      "section": "はじめに",
+      "narration": "三つ目は、更新が表示されないときに考えるポイントです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-006"
+      ],
+      "display_text": "三つ目は、更新が表示されないときに考えるポイントです。"
+    },
+    {
+      "id": 7,
+      "section": "1 / 3",
+      "narration": "最初に、安心してほしいことです。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-007"
+      ],
+      "display_text": "最初に、安心してほしいことです。"
+    },
+    {
+      "id": 8,
+      "section": "1 / 3",
+      "narration": "今回、2026年10月13日に更新の終了とされているのは、Windows 11のうち、バージョン24H2のHome、Pro、Pro Education、Pro for Workstationsです。",
+      "reading_overrides": {
+        "24H2": "にじゅうよん、エイチ、ツー"
+      },
+      "pause_after": 0.3,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-008-1",
+        "SUB-008-2"
+      ],
+      "display_text": "今回、2026年10月13日に更新の終了とされているのは、Windows 11のうち、バージョン24H2のHome、Pro、Pro Education、Pro for Workstationsです。"
+    },
+    {
+      "id": 9,
+      "section": "1 / 3",
+      "narration": "これは、Windows 11全体が10月13日に終了する、という意味ではありません。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-009"
+      ],
+      "display_text": "これは、Windows 11全体が10月13日に終了する、という意味ではありません。"
+    },
+    {
+      "id": 10,
+      "section": "1 / 3",
+      "narration": "EnterpriseやEducationなどは、サポート期間が異なります。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-010"
+      ],
+      "display_text": "EnterpriseやEducationなどは、サポート期間が異なります。"
+    },
+    {
+      "id": 11,
+      "section": "1 / 3",
+      "narration": "家庭でよく使われるHomeやProの方は、まず自分のバージョンを確認しましょう。",
+      "reading_overrides": {
+        "方": "かた"
+      },
+      "pause_after": 0.3,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-011"
+      ],
+      "display_text": "家庭でよく使われるHomeやProの方は、まず自分のバージョンを確認しましょう。"
+    },
+    {
+      "id": 12,
+      "section": "1 / 3",
+      "narration": "画面左下のスタートボタンを右クリックします。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-012"
+      ],
+      "display_text": "画面左下のスタートボタンを右クリックします。"
+    },
+    {
+      "id": 13,
+      "section": "1 / 3",
+      "narration": "設定を開き、システム、バージョン情報の順に進みます。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-013"
+      ],
+      "display_text": "設定を開き、システム、バージョン情報の順に進みます。"
+    },
+    {
+      "id": 14,
+      "section": "1 / 3",
+      "narration": "下のほうにある、Windowsの仕様を見てください。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-014"
+      ],
+      "display_text": "下のほうにある、Windowsの仕様を見てください。"
+    },
+    {
+      "id": 15,
+      "section": "1 / 3",
+      "narration": "ここで見るのは、エディションと、バージョンです。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-015"
+      ],
+      "display_text": "ここで見るのは、エディションと、バージョンです。"
+    },
+    {
+      "id": 16,
+      "section": "1 / 3",
+      "narration": "バージョンが24H2か、25H2かを確認します。",
+      "reading_overrides": {
+        "24H2": "にじゅうよん、エイチ、ツー",
+        "25H2": "にじゅうご、エイチ、ツー"
+      },
+      "pause_after": 0.2,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-016"
+      ],
+      "display_text": "バージョンが24H2か、25H2かを確認します。"
+    },
+    {
+      "id": 17,
+      "section": "1 / 3",
+      "narration": "画面は、パソコンによって少し違うことがあります。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-017"
+      ],
+      "display_text": "画面は、パソコンによって少し違うことがあります。"
+    },
+    {
+      "id": 18,
+      "section": "1 / 3",
+      "narration": "実際の画面では、システムの中にあるバージョン情報を開きます。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 6,
+      "subtitle_ids": [
+        "SUB-018"
+      ],
+      "display_text": "実際の画面では、システムの中にあるバージョン情報を開きます。"
+    },
+    {
+      "id": 19,
+      "section": "1 / 3",
+      "narration": "個人名やIDが見えている場合は、動画や人に見せる前に隠してください。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 6,
+      "subtitle_ids": [
+        "SUB-019"
+      ],
+      "display_text": "個人名やIDが見えている場合は、動画や人に見せる前に隠してください。"
+    },
+    {
+      "id": 20,
+      "section": "1 / 3",
+      "narration": "デバイスの仕様という見出しの下で、Windowsの仕様を探します。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-020"
+      ],
+      "display_text": "デバイスの仕様という見出しの下で、Windowsの仕様を探します。"
+    },
+    {
+      "id": 21,
+      "section": "1 / 3",
+      "narration": "この確認は、24H2かどうかを知るためのものです。",
+      "reading_overrides": {
+        "24H2": "にじゅうよん、エイチ、ツー"
+      },
+      "pause_after": 0.3,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-021"
+      ],
+      "display_text": "この確認は、24H2かどうかを知るためのものです。"
+    },
+    {
+      "id": 22,
+      "section": "2 / 3",
+      "narration": "二つ目は、Windows Updateです。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-022"
+      ],
+      "display_text": "二つ目は、Windows Updateです。"
+    },
+    {
+      "id": 23,
+      "section": "2 / 3",
+      "narration": "設定から、Windows Updateを開きます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-023"
+      ],
+      "display_text": "設定から、Windows Updateを開きます。"
+    },
+    {
+      "id": 24,
+      "section": "2 / 3",
+      "narration": "更新プログラムの確認を選びます。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 9,
+      "subtitle_ids": [
+        "SUB-024"
+      ],
+      "display_text": "更新プログラムの確認を選びます。"
+    },
+    {
+      "id": 25,
+      "section": "2 / 3",
+      "narration": "更新が準備できている場合は、Windows 11 version 25H2のダウンロードとインストールが表示されます。",
+      "reading_overrides": {
+        "25H2": "にじゅうご、エイチ、ツー"
+      },
+      "pause_after": 0.3,
+      "scene_id": 9,
+      "subtitle_ids": [
+        "SUB-025-1",
+        "SUB-025-2"
+      ],
+      "display_text": "更新が準備できている場合は、Windows 11 version 25H2のダウンロードとインストールが表示されます。"
+    },
+    {
+      "id": 26,
+      "section": "2 / 3",
+      "narration": "表示されたときは、作業中のファイルを保存して、案内を読みながら進めます。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-026"
+      ],
+      "display_text": "表示されたときは、作業中のファイルを保存して、案内を読みながら進めます。"
+    },
+    {
+      "id": 27,
+      "section": "2 / 3",
+      "narration": "再起動を求められることがあります。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-027"
+      ],
+      "display_text": "再起動を求められることがあります。"
+    },
+    {
+      "id": 28,
+      "section": "2 / 3",
+      "narration": "更新の表示やタイミングは、すべてのパソコンで同じではありません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-028"
+      ],
+      "display_text": "更新の表示やタイミングは、すべてのパソコンで同じではありません。"
+    },
+    {
+      "id": 29,
+      "section": "2 / 3",
+      "narration": "三つ目は、25H2が表示されないときです。",
+      "reading_overrides": {
+        "25H2": "にじゅうご、エイチ、ツー"
+      },
+      "pause_after": 0.2,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-029"
+      ],
+      "display_text": "三つ目は、25H2が表示されないときです。"
+    },
+    {
+      "id": 30,
+      "section": "2 / 3",
+      "narration": "表示されないからといって、故障とは限りません。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-030"
+      ],
+      "display_text": "表示されないからといって、故障とは限りません。"
+    },
+    {
+      "id": 31,
+      "section": "2 / 3",
+      "narration": "アプリやドライバーとの相性を確認するため、Microsoftが一時的に更新を保留することがあります。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-031-1",
+        "SUB-031-2"
+      ],
+      "display_text": "アプリやドライバーとの相性を確認するため、Microsoftが一時的に更新を保留することがあります。"
+    },
+    {
+      "id": 32,
+      "section": "2 / 3",
+      "narration": "これを、セーフガードホールドといいます。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-032"
+      ],
+      "display_text": "これを、セーフガードホールドといいます。"
+    },
+    {
+      "id": 33,
+      "section": "2 / 3",
+      "narration": "無理にISOファイルなどを使って、手動で更新することはおすすめしません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-033"
+      ],
+      "display_text": "無理にISOファイルなどを使って、手動で更新することはおすすめしません。"
+    },
+    {
+      "id": 34,
+      "section": "3 / 3",
+      "narration": "ここで、検索すると出てくる26H1についても、短く説明します。",
+      "reading_overrides": {
+        "26H1": "にじゅうろく、エイチ、ワン"
+      },
+      "pause_after": 0.2,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-034"
+      ],
+      "display_text": "ここで、検索すると出てくる26H1についても、短く説明します。"
+    },
+    {
+      "id": 35,
+      "section": "3 / 3",
+      "narration": "26H1は、2026年の新しい一部の機器向けに用意された、特別なリリースです。",
+      "reading_overrides": {
+        "26H1": "にじゅうろく、エイチ、ワン"
+      },
+      "pause_after": 0.2,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-035"
+      ],
+      "display_text": "26H1は、2026年の新しい一部の機器向けに用意された、特別なリリースです。"
+    },
+    {
+      "id": 36,
+      "section": "3 / 3",
+      "narration": "いま使っている24H2のパソコンが、26H1へ更新されるわけではありません。",
+      "reading_overrides": {
+        "24H2": "にじゅうよん、エイチ、ツー",
+        "26H1": "にじゅうろく、エイチ、ワン"
+      },
+      "pause_after": 0.2,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-036"
+      ],
+      "display_text": "いま使っている24H2のパソコンが、26H1へ更新されるわけではありません。"
+    },
+    {
+      "id": 37,
+      "section": "3 / 3",
+      "narration": "Microsoftは、26H1を既存のパソコンへWindows Updateで提供しないと説明しています。",
+      "reading_overrides": {
+        "26H1": "にじゅうろく、エイチ、ワン"
+      },
+      "pause_after": 0.3,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-037"
+      ],
+      "display_text": "Microsoftは、26H1を既存のパソコンへWindows Updateで提供しないと説明しています。"
+    },
+    {
+      "id": 38,
+      "section": "3 / 3",
+      "narration": "24H2の場合は、まず25H2が表示されるかを確認してください。",
+      "reading_overrides": {
+        "24H2": "にじゅうよん、エイチ、ツー",
+        "25H2": "にじゅうご、エイチ、ツー"
+      },
+      "pause_after": 0.2,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-038"
+      ],
+      "display_text": "24H2の場合は、まず25H2が表示されるかを確認してください。"
+    },
+    {
+      "id": 39,
+      "section": "3 / 3",
+      "narration": "まずは、いまのWindows Updateを最新の状態にします。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-039"
+      ],
+      "display_text": "まずは、いまのWindows Updateを最新の状態にします。"
+    },
+    {
+      "id": 40,
+      "section": "3 / 3",
+      "narration": "パソコンを再起動し、少し時間を置いて、もう一度確認します。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-040"
+      ],
+      "display_text": "パソコンを再起動し、少し時間を置いて、もう一度確認します。"
+    },
+    {
+      "id": 41,
+      "section": "3 / 3",
+      "narration": "それでも分からないときは、Microsoftの公式サポートや、パソコンメーカーに相談しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-041-1",
+        "SUB-041-2"
+      ],
+      "display_text": "それでも分からないときは、Microsoftの公式サポートや、パソコンメーカーに相談しましょう。"
+    },
+    {
+      "id": 42,
+      "section": "3 / 3",
+      "narration": "会社や学校で管理されているパソコンは、管理者の案内を優先してください。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-042"
+      ],
+      "display_text": "会社や学校で管理されているパソコンは、管理者の案内を優先してください。"
+    },
+    {
+      "id": 43,
+      "section": "困ったとき",
+      "narration": "サポート終了とは、10月13日を過ぎた瞬間にパソコンが使えなくなる、という意味ではありません。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 15,
+      "subtitle_ids": [
+        "SUB-043-1",
+        "SUB-043-2"
+      ],
+      "display_text": "サポート終了とは、10月13日を過ぎた瞬間にパソコンが使えなくなる、という意味ではありません。"
+    },
+    {
+      "id": 44,
+      "section": "困ったとき",
+      "narration": "ただし、HomeやProの24H2では、その後、通常のセキュリティ更新などを受けられなくなります。",
+      "reading_overrides": {
+        "24H2": "にじゅうよん、エイチ、ツー"
+      },
+      "pause_after": 0.2,
+      "scene_id": 15,
+      "subtitle_ids": [
+        "SUB-044-1",
+        "SUB-044-2"
+      ],
+      "display_text": "ただし、HomeやProの24H2では、その後、通常のセキュリティ更新などを受けられなくなります。"
+    },
+    {
+      "id": 45,
+      "section": "困ったとき",
+      "narration": "対応するバージョンへ更新することが大切です。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 15,
+      "subtitle_ids": [
+        "SUB-045"
+      ],
+      "display_text": "対応するバージョンへ更新することが大切です。"
+    },
+    {
+      "id": 46,
+      "section": "困ったとき",
+      "narration": "10月13日までに、慌ててパソコンを買い替えましょう、という話ではありません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 15,
+      "subtitle_ids": [
+        "SUB-046"
+      ],
+      "display_text": "10月13日までに、慌ててパソコンを買い替えましょう、という話ではありません。"
+    },
+    {
+      "id": 47,
+      "section": "困ったとき",
+      "narration": "まず、バージョンを確認し、Windows Updateを確認する。これが、いま行う順番です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-047"
+      ],
+      "display_text": "まず、バージョンを確認し、Windows Updateを確認する。これが、いま行う順番です。"
+    },
+    {
+      "id": 48,
+      "section": "まとめ",
+      "narration": "最後に、今日の3つです。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-048"
+      ],
+      "display_text": "最後に、今日の3つです。"
+    },
+    {
+      "id": 49,
+      "section": "まとめ",
+      "narration": "一つ目、自分のWindowsのバージョンを確認する。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-049"
+      ],
+      "display_text": "一つ目、自分のWindowsのバージョンを確認する。"
+    },
+    {
+      "id": 50,
+      "section": "まとめ",
+      "narration": "二つ目、Windows Updateで更新プログラムを確認する。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 18,
+      "subtitle_ids": [
+        "SUB-050"
+      ],
+      "display_text": "二つ目、Windows Updateで更新プログラムを確認する。"
+    },
+    {
+      "id": 51,
+      "section": "まとめ",
+      "narration": "三つ目、表示されないときは、慌てず、無理な手動更新をしない。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 18,
+      "subtitle_ids": [
+        "SUB-051"
+      ],
+      "display_text": "三つ目、表示されないときは、慌てず、無理な手動更新をしない。"
+    },
+    {
+      "id": 52,
+      "section": "まとめ",
+      "narration": "不安なときは、公式サポートや詳しい人に相談してください。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 19,
+      "subtitle_ids": [
+        "SUB-052"
+      ],
+      "display_text": "不安なときは、公式サポートや詳しい人に相談してください。"
+    }
+  ],
+  "subtitles": [
+    {
+      "id": "SUB-001-1",
+      "text_lines": [
+        "Windows 11を使っている方、2026年10月13日に、"
+      ],
+      "segment_id": 1,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-001-2",
+      "text_lines": [
+        "一部のWindows 11で更新の提供が終わります。"
+      ],
+      "segment_id": 1,
+      "display_order": 1,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-002",
+      "text_lines": [
+        "ただし、Windows 11全部が、",
+        "その日に使えなくなるわけではありません。"
+      ],
+      "segment_id": 2,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-003",
+      "text_lines": [
+        "今日は、自分のパソコンで確認したい3つを、",
+        "順番に見ていきます。"
+      ],
+      "segment_id": 3,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-004",
+      "text_lines": [
+        "一つ目、自分のWindowsのバージョンです。"
+      ],
+      "segment_id": 4,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-005",
+      "text_lines": [
+        "二つ目、Windows Updateの画面です。"
+      ],
+      "segment_id": 5,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-006",
+      "text_lines": [
+        "三つ目は、更新が表示されないときに",
+        "考えるポイントです。"
+      ],
+      "segment_id": 6,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-007",
+      "text_lines": [
+        "最初に、安心してほしいことです。"
+      ],
+      "segment_id": 7,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-008-1",
+      "text_lines": [
+        "今回、2026年10月13日に更新の終了と",
+        "されているのは、Windows 11のうち、"
+      ],
+      "segment_id": 8,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-008-2",
+      "text_lines": [
+        "バージョン24H2のHome、Pro、Pro Education、",
+        "Pro for Workstationsです。"
+      ],
+      "segment_id": 8,
+      "display_order": 1,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-009",
+      "text_lines": [
+        "これは、Windows 11全体が10月13日に終了する、",
+        "という意味ではありません。"
+      ],
+      "segment_id": 9,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-010",
+      "text_lines": [
+        "EnterpriseやEducationなどは、",
+        "サポート期間が異なります。"
+      ],
+      "segment_id": 10,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-011",
+      "text_lines": [
+        "家庭でよく使われるHomeやProの方は、",
+        "まず自分のバージョンを確認しましょう。"
+      ],
+      "segment_id": 11,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-012",
+      "text_lines": [
+        "画面左下のスタートボタンを右クリックします。"
+      ],
+      "segment_id": 12,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-013",
+      "text_lines": [
+        "設定を開き、システム、",
+        "バージョン情報の順に進みます。"
+      ],
+      "segment_id": 13,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-014",
+      "text_lines": [
+        "下のほうにある、Windowsの仕様を見てください。"
+      ],
+      "segment_id": 14,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-015",
+      "text_lines": [
+        "ここで見るのは、エディションと、バージョンです。"
+      ],
+      "segment_id": 15,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-016",
+      "text_lines": [
+        "バージョンが24H2か、25H2かを確認します。"
+      ],
+      "segment_id": 16,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-017",
+      "text_lines": [
+        "画面は、パソコンによって少し違うことがあります。"
+      ],
+      "segment_id": 17,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-018",
+      "text_lines": [
+        "実際の画面では、",
+        "システムの中にあるバージョン情報を開きます。"
+      ],
+      "segment_id": 18,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-019",
+      "text_lines": [
+        "個人名やIDが見えている場合は、",
+        "動画や人に見せる前に隠してください。"
+      ],
+      "segment_id": 19,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-020",
+      "text_lines": [
+        "デバイスの仕様という見出しの下で、",
+        "Windowsの仕様を探します。"
+      ],
+      "segment_id": 20,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-021",
+      "text_lines": [
+        "この確認は、24H2かどうかを知るためのものです。"
+      ],
+      "segment_id": 21,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-022",
+      "text_lines": [
+        "二つ目は、Windows Updateです。"
+      ],
+      "segment_id": 22,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-023",
+      "text_lines": [
+        "設定から、Windows Updateを開きます。"
+      ],
+      "segment_id": 23,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-024",
+      "text_lines": [
+        "更新プログラムの確認を選びます。"
+      ],
+      "segment_id": 24,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-025-1",
+      "text_lines": [
+        "更新が準備できている場合は、"
+      ],
+      "segment_id": 25,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-025-2",
+      "text_lines": [
+        "Windows 11 version 25H2",
+        "のダウンロードとインストールが表示されます。"
+      ],
+      "segment_id": 25,
+      "display_order": 1,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-026",
+      "text_lines": [
+        "表示されたときは、作業中のファイルを保存して、",
+        "案内を読みながら進めます。"
+      ],
+      "segment_id": 26,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-027",
+      "text_lines": [
+        "再起動を求められることがあります。"
+      ],
+      "segment_id": 27,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-028",
+      "text_lines": [
+        "更新の表示やタイミングは、",
+        "すべてのパソコンで同じではありません。"
+      ],
+      "segment_id": 28,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-029",
+      "text_lines": [
+        "三つ目は、25H2が表示されないときです。"
+      ],
+      "segment_id": 29,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-030",
+      "text_lines": [
+        "表示されないからといって、故障とは限りません。"
+      ],
+      "segment_id": 30,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-031-1",
+      "text_lines": [
+        "アプリやドライバーとの相性を確認するため、"
+      ],
+      "segment_id": 31,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-031-2",
+      "text_lines": [
+        "Microsoftが一時的に更新を",
+        "保留することがあります。"
+      ],
+      "segment_id": 31,
+      "display_order": 1,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-032",
+      "text_lines": [
+        "これを、セーフガードホールドといいます。"
+      ],
+      "segment_id": 32,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-033",
+      "text_lines": [
+        "無理にISOファイルなどを使って、",
+        "手動で更新することはおすすめしません。"
+      ],
+      "segment_id": 33,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-034",
+      "text_lines": [
+        "ここで、検索すると出てくる26H1についても、",
+        "短く説明します。"
+      ],
+      "segment_id": 34,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-035",
+      "text_lines": [
+        "26H1は、2026年の新しい一部の機",
+        "器向けに用意された、特別なリリースです。"
+      ],
+      "segment_id": 35,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-036",
+      "text_lines": [
+        "いま使っている24H2のパソコンが、",
+        "26H1へ更新されるわけではありません。"
+      ],
+      "segment_id": 36,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-037",
+      "text_lines": [
+        "Microsoftは、26H1を既存のパソコンへ",
+        "Windows Updateで提供しないと説明しています。"
+      ],
+      "segment_id": 37,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-038",
+      "text_lines": [
+        "24H2の場合は、まず25H2が",
+        "表示されるかを確認してください。"
+      ],
+      "segment_id": 38,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-039",
+      "text_lines": [
+        "まずは、いまのWindows Updateを",
+        "最新の状態にします。"
+      ],
+      "segment_id": 39,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-040",
+      "text_lines": [
+        "パソコンを再起動し、",
+        "少し時間を置いて、もう一度確認します。"
+      ],
+      "segment_id": 40,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-041-1",
+      "text_lines": [
+        "それでも分からないときは、",
+        "Microsoftの公式サポートや、"
+      ],
+      "segment_id": 41,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-041-2",
+      "text_lines": [
+        "パソコンメーカーに相談しましょう。"
+      ],
+      "segment_id": 41,
+      "display_order": 1,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-042",
+      "text_lines": [
+        "会社や学校で管理されているパソコンは、",
+        "管理者の案内を優先してください。"
+      ],
+      "segment_id": 42,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-043-1",
+      "text_lines": [
+        "サポート終了とは、",
+        "10月13日を過ぎた瞬間にパソコンが使えなくなる、"
+      ],
+      "segment_id": 43,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-043-2",
+      "text_lines": [
+        "という意味ではありません。"
+      ],
+      "segment_id": 43,
+      "display_order": 1,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-044-1",
+      "text_lines": [
+        "ただし、HomeやProの24H2では、その後、"
+      ],
+      "segment_id": 44,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-044-2",
+      "text_lines": [
+        "通常のセキュリティ更新などを受けられなくなります。"
+      ],
+      "segment_id": 44,
+      "display_order": 1,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-045",
+      "text_lines": [
+        "対応するバージョンへ更新することが大切です。"
+      ],
+      "segment_id": 45,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-046",
+      "text_lines": [
+        "10月13日までに、慌ててパソコンを買",
+        "い替えましょう、という話ではありません。"
+      ],
+      "segment_id": 46,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-047",
+      "text_lines": [
+        "まず、バージョンを確認し、Windows Update",
+        "を確認する。これが、いま行う順番です。"
+      ],
+      "segment_id": 47,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-048",
+      "text_lines": [
+        "最後に、今日の3つです。"
+      ],
+      "segment_id": 48,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-049",
+      "text_lines": [
+        "一つ目、自分のWindowsのバージョンを確認する。"
+      ],
+      "segment_id": 49,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-050",
+      "text_lines": [
+        "二つ目、Windows Updateで",
+        "更新プログラムを確認する。"
+      ],
+      "segment_id": 50,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-051",
+      "text_lines": [
+        "三つ目、表示されないときは、",
+        "慌てず、無理な手動更新をしない。"
+      ],
+      "segment_id": 51,
+      "display_order": 0,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-052",
+      "text_lines": [
+        "不安なときは、公式サポートや",
+        "詳しい人に相談してください。"
+      ],
+      "segment_id": 52,
+      "display_order": 0,
+      "font_px": 72
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "section_label": "はじめに",
+      "layout": "layout_01_hero",
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "main_message": "結論：まず、バージョンを確認します。",
+      "headline": "Windows 11\nこのままで大丈夫？",
+      "support_text": "10月13日までに、確認すること",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "image_prompt": "Calm educational illustration for older Japanese viewers, one adult at home looking at a generic laptop with a mild concern turning into reassurance, soft blue and warm amber palette, abstract four-pane window-like shape without any trademark or logo, full-frame 16:9, clean composition with the bottom 180px left quiet for subtitles. Render exactly these two Japanese headline lines and no other readable text: Windows 11 / このままで大丈夫？. No real Windows UI, no Microsoft logo, no watermark, no extra symbols, no collage.",
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 1,
+      "end_segment": 3,
+      "image_prompt_id": "IMG-009-001",
+      "text_render_contract": {
+        "mode": "imagegen_native",
+        "exact_text": [
+          "Windows 11",
+          "このままで大丈夫？"
+        ],
+        "max_other_readable_text": 0
+      },
+      "production_note": "短いオープニング概念scene。ImageGen生成後に目視・機械文字QA。",
+      "subtitle_ids": [
+        "SUB-001-1",
+        "SUB-001-2",
+        "SUB-002",
+        "SUB-003"
+      ]
+    },
+    {
+      "id": 2,
+      "section_label": "はじめに",
+      "layout": "layout_02_list",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "慌てず、順番に確認します。",
+      "headline": "今日確認する、3つ",
+      "support_text": "自分のパソコンで見てみましょう",
+      "items": [
+        "Windowsのバージョン",
+        "Windows Update",
+        "表示されないときの考え方"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 4,
+      "end_segment": 6,
+      "icon_name": "verified_user",
+      "icon_tone": "green",
+      "production_note": "冒頭20秒以内に結論と確認項目を一覧表示。",
+      "subtitle_ids": [
+        "SUB-004",
+        "SUB-005",
+        "SUB-006"
+      ]
+    },
+    {
+      "id": 3,
+      "section_label": "はじめに",
+      "layout": "layout_01_hero",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "Windows 11全部ではありません",
+      "headline": "24H2の一部で\n更新終了",
+      "support_text": "Home・Proなど / 2026年10月13日",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_emphasis": "hero",
+      "headline_scale": 1.0,
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 7,
+      "end_segment": 11,
+      "icon_name": "verified_user",
+      "icon_tone": "green",
+      "production_note": "重要日付と対象範囲を一画面に集中。Enterprise / Education等はナレーションで条件を補足。",
+      "subtitle_ids": [
+        "SUB-007",
+        "SUB-008-1",
+        "SUB-008-2",
+        "SUB-009",
+        "SUB-010",
+        "SUB-011"
+      ]
+    },
+    {
+      "id": 4,
+      "section_label": "1 / 3",
+      "layout": "layout_03_visual_text",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "スタート → 設定 → システム → バージョン情報",
+      "headline": "バージョン情報までの道順",
+      "support_text": "スタートを右クリックして、設定を開きます",
+      "items": [
+        "スタートを右クリック",
+        "設定 > システム",
+        "バージョン情報"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 12,
+      "end_segment": 14,
+      "icon_name": "verified_user",
+      "icon_tone": "green",
+      "production_note": "UIの場所を概念カードで先に理解させ、次sceneで公式画面を見せる。",
+      "subtitle_ids": [
+        "SUB-012",
+        "SUB-013",
+        "SUB-014"
+      ]
+    },
+    {
+      "id": 5,
+      "section_label": "1 / 3",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "24H2か、25H2かを確認",
+      "headline": "見る場所は、2つ",
+      "support_text": "エディションとバージョン",
+      "compare_cards": [
+        {
+          "title": "エディション",
+          "body": "Home / Pro など",
+          "color": "blue-card"
+        },
+        {
+          "title": "バージョン",
+          "body": "24H2 / 25H2",
+          "color": "green-card"
+        }
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 15,
+      "end_segment": 17,
+      "icon_name": "verified_user",
+      "icon_tone": "green",
+      "production_note": "英数字tokenを分断しない。細かなWindows仕様は字幕・ナレーションへ。",
+      "subtitle_ids": [
+        "SUB-015",
+        "SUB-016",
+        "SUB-017"
+      ]
+    },
+    {
+      "id": 6,
+      "section_label": "1 / 3",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "ここを開きます",
+      "headline": "「バージョン情報」を開く",
+      "support_text": "設定 → システム → バージョン情報",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/about_version_focus_official.png",
+          "label": "Microsoft公式：バージョン情報のfocus crop",
+          "source": "SRC-007"
+        }
+      ],
+      "official_asset_crop": [],
+      "official_focus_variant": "version_open",
+      "animation": "very_slow_zoom",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 18,
+      "end_segment": 19,
+      "production_note": "公式画面はAIで再現しない。左に操作step、右にPII-freeのバージョン情報focus cropを大きく配置。",
+      "subtitle_ids": [
+        "SUB-018",
+        "SUB-019"
+      ]
+    },
+    {
+      "id": 7,
+      "section_label": "1 / 3",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "Windowsの仕様で、バージョンを見る",
+      "headline": "見るのは「Windowsの仕様」",
+      "support_text": "バージョンの数字を確認",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/about_specs_focus_official.png",
+          "label": "Microsoft公式：デバイスの仕様のfocus crop",
+          "source": "SRC-007"
+        }
+      ],
+      "official_asset_crop": [],
+      "official_focus_variant": "version_field",
+      "animation": "very_slow_zoom",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 20,
+      "end_segment": 21,
+      "production_note": "公式cropはデバイスの仕様見出しのみ。24H2 / 25H2は実画面を書き換えない説明用の例示欄として表示。値・ID・アカウント情報は映さない。",
+      "subtitle_ids": [
+        "SUB-020",
+        "SUB-021"
+      ]
+    },
+    {
+      "id": 8,
+      "section_label": "2 / 3",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "更新プログラムの確認へ",
+      "headline": "Windows Updateを確認",
+      "support_text": "表示された内容を、落ち着いて読みます",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 22,
+      "end_segment": 23,
+      "icon_name": "verified_user",
+      "icon_tone": "green",
+      "production_note": "セクション扉。",
+      "subtitle_ids": [
+        "SUB-022",
+        "SUB-023"
+      ]
+    },
+    {
+      "id": 9,
+      "section_label": "2 / 3",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "ここを確認します",
+      "headline": "「更新プログラムの確認」を選ぶ",
+      "support_text": "設定 → Windows Update → 更新プログラムの確認",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/windows_update_check_button_official.png",
+          "label": "Microsoft公式：Check for updatesボタンのcrop",
+          "source": "SRC-005 / SRC-006"
+        }
+      ],
+      "official_asset_crop": [],
+      "official_focus_variant": "update_check",
+      "animation": "very_slow_zoom",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 24,
+      "end_segment": 25,
+      "production_note": "公式UIは英語の実在画面をそのまま使用。日本語の『更新プログラムのチェック』は別レイヤーの補助ラベル。",
+      "subtitle_ids": [
+        "SUB-024",
+        "SUB-025-1",
+        "SUB-025-2"
+      ]
+    },
+    {
+      "id": 10,
+      "section_label": "2 / 3",
+      "layout": "layout_02_list",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "表示されたら、案内を読んで進める",
+      "headline": "25H2が表示されたら",
+      "support_text": "保存 → 案内を読む → 必要なら再起動",
+      "items": [
+        "ファイルを保存",
+        "ダウンロードとインストール",
+        "再起動の案内を確認"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 26,
+      "end_segment": 28,
+      "icon_name": "verified_user",
+      "icon_tone": "green",
+      "production_note": "ダウンロードとインストールの表示は、対象端末・時期により異なる。",
+      "subtitle_ids": [
+        "SUB-026",
+        "SUB-027",
+        "SUB-028"
+      ]
+    },
+    {
+      "id": 11,
+      "section_label": "2 / 3",
+      "layout": "layout_01_hero",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "無理な手動更新はしない",
+      "headline": "25H2が出ない\n＝故障ではありません",
+      "support_text": "段階提供やセーフガードホールドの場合があります",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 29,
+      "end_segment": 33,
+      "icon_name": "block",
+      "icon_tone": "amber",
+      "production_note": "block semantic icon。ISOやUpdate Assistantの強制手順は出さない。",
+      "subtitle_ids": [
+        "SUB-029",
+        "SUB-030",
+        "SUB-031-1",
+        "SUB-031-2",
+        "SUB-032",
+        "SUB-033"
+      ]
+    },
+    {
+      "id": 12,
+      "section_label": "3 / 3",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "24H2の確認先は、まず25H2",
+      "headline": "26H1は、別の話",
+      "support_text": "一部の新しい機器向けの特別なリリース",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 34,
+      "end_segment": 37,
+      "icon_name": "lock",
+      "icon_tone": "blue",
+      "production_note": "26H1を既存PCの更新先として描かない。",
+      "subtitle_ids": [
+        "SUB-034",
+        "SUB-035",
+        "SUB-036",
+        "SUB-037"
+      ]
+    },
+    {
+      "id": 13,
+      "section_label": "3 / 3",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "まず、いまのWindows Updateを確認",
+      "headline": "24H2の方は、まず25H2",
+      "support_text": "更新 → 再起動 → 少し置いて再確認",
+      "compare_cards": [
+        {
+          "title": "いま確認",
+          "body": "Windows Updateを最新にする",
+          "color": "blue-card"
+        },
+        {
+          "title": "あとで再確認",
+          "body": "25H2の表示を確認する",
+          "color": "green-card"
+        }
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 38,
+      "end_segment": 40,
+      "icon_name": "verified_user",
+      "icon_tone": "green",
+      "production_note": "表示されない場合の安全な次の行動を比較で示す。",
+      "subtitle_ids": [
+        "SUB-038",
+        "SUB-039",
+        "SUB-040"
+      ]
+    },
+    {
+      "id": 14,
+      "section_label": "3 / 3",
+      "layout": "layout_03_visual_text",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "分からなければ、公式サポートへ",
+      "headline": "相談先を使う",
+      "support_text": "Microsoft、メーカー、会社や学校の管理者",
+      "items": [
+        "Microsoftの公式サポート",
+        "パソコンメーカー",
+        "会社・学校の管理者"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 41,
+      "end_segment": 42,
+      "icon_name": "support_agent",
+      "icon_tone": "green",
+      "production_note": "管理端末では管理者の案内を優先。",
+      "subtitle_ids": [
+        "SUB-041-1",
+        "SUB-041-2",
+        "SUB-042"
+      ]
+    },
+    {
+      "id": 15,
+      "section_label": "困ったとき",
+      "layout": "layout_01_hero",
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "main_message": "まず確認。慌てて買い替えなくて大丈夫です。",
+      "headline": "慌てて買い替えなくて大丈夫",
+      "support_text": "10月13日までに、まずバージョンと更新を確認",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "image_prompt": "Calm reassuring educational illustration for older Japanese viewers, an adult at home calmly checking a generic laptop beside a simple written checklist, hands relaxed, no shopping bags, no retail urgency, soft blue and pale amber palette, full-frame 16:9, bottom 180px quiet for subtitles. Render exactly one Japanese headline: 慌てて買い替えなくて大丈夫. No other readable text, no real Windows UI, no logo, no watermark, no collage, no fake warning badge.",
+      "animation": "very_slow_zoom",
+      "fit_mode": "full_bleed",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 43,
+      "end_segment": 46,
+      "image_prompt_id": "IMG-009-015",
+      "text_render_contract": {
+        "mode": "imagegen_native",
+        "exact_text": [
+          "慌てて買い替えなくて大丈夫"
+        ],
+        "max_other_readable_text": 0
+      },
+      "production_note": "タイトル以上の恐怖を作らない安心scene。ImageGen生成後に目視・機械文字QA。",
+      "subtitle_ids": [
+        "SUB-043-1",
+        "SUB-043-2",
+        "SUB-044-1",
+        "SUB-044-2",
+        "SUB-045",
+        "SUB-046"
+      ]
+    },
+    {
+      "id": 16,
+      "section_label": "困ったとき",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "この順番で確認します",
+      "headline": "いま行う順番",
+      "support_text": "バージョン → Windows Update",
+      "compare_cards": [
+        {
+          "title": "1",
+          "body": "バージョンを確認",
+          "color": "blue-card"
+        },
+        {
+          "title": "2",
+          "body": "Windows Updateを確認",
+          "color": "green-card"
+        }
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 47,
+      "end_segment": 47,
+      "icon_name": "verified_user",
+      "icon_tone": "blue",
+      "production_note": "買い替えの結論ではなく、確認の順番を提示。",
+      "subtitle_ids": [
+        "SUB-047"
+      ]
+    },
+    {
+      "id": 17,
+      "section_label": "まとめ",
+      "layout": "layout_02_list",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "まず、自分の画面を確認",
+      "headline": "今日の3つ",
+      "support_text": "Windows 11 24H2が気になったら",
+      "items": [
+        "Windowsのバージョンを確認",
+        "Windows Updateを確認",
+        "表示されないときは慌てない"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 48,
+      "end_segment": 49,
+      "icon_name": "verified_user",
+      "icon_tone": "green",
+      "production_note": "3つの行動をタイトルと同じ順番で再掲。",
+      "subtitle_ids": [
+        "SUB-048",
+        "SUB-049"
+      ]
+    },
+    {
+      "id": 18,
+      "section_label": "まとめ",
+      "layout": "layout_02_list",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "無理な手動更新はしない",
+      "headline": "慌てず、相談する",
+      "support_text": "不安なときは、公式サポートや詳しい人へ",
+      "items": [
+        "Windows Updateを確認",
+        "表示されないときは時間を置く",
+        "困ったら相談する"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 50,
+      "end_segment": 51,
+      "icon_name": "support_agent",
+      "icon_tone": "green",
+      "production_note": "次sceneの相談導線へつなぐ。",
+      "subtitle_ids": [
+        "SUB-050",
+        "SUB-051"
+      ]
+    },
+    {
+      "id": 19,
+      "section_label": "まとめ",
+      "layout": "layout_01_hero",
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "main_message": "困ったら、公式サポートや詳しい人に相談",
+      "headline": "まずバージョンを確認",
+      "support_text": "役に立ったら、チャンネル登録して、次回も一緒に確認しましょう。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "image_prompt": "Warm reassuring educational illustration for older Japanese viewers, a calm adult checking a generic laptop settings page with a magnifying glass motif and a small support conversation cue, full-frame 16:9, soft blue and pale green palette, bottom 180px quiet for subtitles. Render exactly one Japanese headline: まずバージョンを確認. No other readable text, no real Windows UI, no Microsoft logo, no watermark, no collage.",
+      "animation": "very_slow_zoom",
+      "fit_mode": "full_bleed",
+      "visual_balance_center_x": 960,
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
+      "start_segment": 52,
+      "end_segment": 52,
+      "image_prompt_id": "IMG-009-019",
+      "text_render_contract": {
+        "mode": "imagegen_native",
+        "exact_text": [
+          "まずバージョンを確認"
+        ],
+        "max_other_readable_text": 0
+      },
+      "production_note": "概念closing。共通CTAの実画面・音声はPhase Bで追加。",
+      "subtitle_ids": [
+        "SUB-052"
+      ]
+    }
+  ],
+  "postroll": {
+    "kind": "channel_cta",
+    "cta_content_hash": "c0df4a036b397effa920436c4ba473186737ed6e5cc3df54b85afe8ba32b82eb",
+    "cta_profile": "channel_common_cta",
+    "duration_sec": 15,
+    "animation": "static",
+    "status": "phase_b_ready",
+    "profile": "channel_common_cta",
+    "audio_required": true,
+    "duration_mode": "audio_based",
+    "asset": "work/channel_cta.png",
+    "cta_audio": "audio/voicevox_kenzaki/cta_channel_common.wav"
+  },
+  "publish": {
+    "title": "【Windows 11】このままで大丈夫？10月13日までに確認したいこと",
+    "description": "Windows 11 version 24H2の更新終了について、一般ユーザーが今確認したい3つを、公式情報に沿って整理します。\\n\\n確認すること\\n1. Windowsのエディションとバージョン\\n2. Windows Updateの更新プログラム\\n3. 25H2が表示されないときの考え方\\n\\n2026年10月13日は、Windows 11 version 24H2のHome、Pro、Pro Education、Pro for Workstationsの更新終了日です。Windows 11全体が終了するという意味ではありません。Enterprise、Education、LTSCなどはサポート期間が異なります。\\n\\n25H2が表示されない場合、段階提供やセーフガードホールドの可能性があります。無理にISOや手動更新を使わず、まずWindows Updateを確認してください。\\n\\n主な公式情報\\n- https://learn.microsoft.com/ja-jp/windows/release-health/supported-versions-windows-client\\n- https://learn.microsoft.com/ja-jp/windows/release-health/status-windows-11-24h2\\n- https://learn.microsoft.com/ja-jp/windows/release-health/windows11-release-information\\n- https://learn.microsoft.com/ja-jp/windows/whats-new/windows-11-version-26h1\\n- https://support.microsoft.com/ja-jp/windows/experience/find-information-about-your-windows-device\\n- https://support.microsoft.com/ja-jp/windows/deployment/updates-lifecycle/inside-this-update\\n- https://support.microsoft.com/ja-JP/Windows/Deployment/Updates-Lifecycle/install-windows-updates\\n\\n※情報は2026年9月5日に確認。公開前に公式ページを再確認します。\\n\\nナレーション：VOICEVOX:剣崎雌雄（Phase Bで音声生成）",
+    "chapters": [
+      "00:00 はじめに：10月13日までに確認する3つ",
+      "01:08 1 / 3：自分のWindowsのバージョン",
+      "01:55 2 / 3：Windows Update",
+      "02:52 3 / 3：25H2が表示されないときと26H1",
+      "03:55 困ったとき：サポート終了の意味",
+      "04:29 まとめ"
+    ],
+    "tags": [
+      "Windows11",
+      "24H2",
+      "25H2",
+      "26H1",
+      "WindowsUpdate",
+      "サポート終了",
+      "パソコン設定",
+      "シニア向け",
+      "大人のデジタル安心室"
+    ],
+    "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄（Phase Bで生成）",
+    "contains_synthetic_media": true,
+    "ai_disclosure_review": "CANDIDATE（概念イラスト3sceneを使用予定。人間確認後にYouTube設定を確定）",
+    "thumbnail_status": "PHASE_A_CONCEPT_ONLY（thumbnailはChatGPT側で後工程）",
+    "upload_status": "NOT_STARTED",
+    "selected_title_reason": "終了を断定せず、日付と確認行動をホームで理解しやすく伝える。"
+  }
+}

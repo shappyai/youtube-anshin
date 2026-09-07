@@ -1,0 +1,98 @@
+{
+  "status": "REVIEW",
+  "preflight": "ambiguous_kanji_pronunciation",
+  "target_checks": [
+    {
+      "segment_id": 6,
+      "old_phrase_absent": true,
+      "new_phrase_matches_narration": true,
+      "new_phrase_matches_subtitle": true,
+      "status": "PASS"
+    },
+    {
+      "segment_id": 38,
+      "old_phrase_absent": true,
+      "new_phrase_matches_narration": true,
+      "new_phrase_matches_subtitle": true,
+      "status": "PASS"
+    }
+  ],
+  "narration_segment_count": 52,
+  "narration_occurrence_count": 2,
+  "narration_occurrences": [
+    {
+      "segment_id": 1,
+      "category": "A",
+      "status": "REVIEW",
+      "context": "Windows 11を使っている方、2026年10月13日に、一部のWindows 11で更新の提供が終わります。",
+      "reason": "人を指す可能性があるため文脈確認"
+    },
+    {
+      "segment_id": 11,
+      "category": "D",
+      "status": "REWRITE",
+      "context": "家庭でよく使われるHomeやProの方は、まず自分のバージョンを確認しましょう。",
+      "reason": "「〜の方は」は冗長表現の候補"
+    }
+  ],
+  "script_occurrence_count": 4,
+  "script_occurrences": [
+    {
+      "line": 15,
+      "text": "Windows 11を使っている方、2026年10月13日に、一部のWindows 11で更新の提供が終わります。"
+    },
+    {
+      "line": 41,
+      "text": "家庭でよく使われるHomeやProの方は、まず自分のバージョンを確認しましょう。"
+    },
+    {
+      "line": 93,
+      "text": "## 2:52 3 / 3 — 表示されないときの考え方"
+    },
+    {
+      "line": 174,
+      "text": "- `Windows 11`、`24H2`、`25H2`、`26H1`、`Windows Update`、`ISO`、`Pro Education`、`Pro for Workstations`は、VOICEVOX生成前に読み方を確認する。表示字幕へ読み仮名を流出させない。"
+    }
+  ],
+  "episode_json_non_narration_occurrences": [
+    {
+      "path": "narration_segments[0].narration",
+      "value": "Windows 11を使っている方、2026年10月13日に、一部のWindows 11で更新の提供が終わります。"
+    },
+    {
+      "path": "narration_segments[0].display_text",
+      "value": "Windows 11を使っている方、2026年10月13日に、一部のWindows 11で更新の提供が終わります。"
+    },
+    {
+      "path": "narration_segments[10].narration",
+      "value": "家庭でよく使われるHomeやProの方は、まず自分のバージョンを確認しましょう。"
+    },
+    {
+      "path": "narration_segments[10].display_text",
+      "value": "家庭でよく使われるHomeやProの方は、まず自分のバージョンを確認しましょう。"
+    },
+    {
+      "path": "subtitles[0].text_lines[0]",
+      "value": "Windows 11を使っている方、2026年10月13日に、"
+    },
+    {
+      "path": "subtitles[12].text_lines[0]",
+      "value": "家庭でよく使われるHomeやProの方は、"
+    },
+    {
+      "path": "scenes[1].items[2]",
+      "value": "表示されないときの考え方"
+    },
+    {
+      "path": "scenes[12].headline",
+      "value": "24H2の方は、まず25H2"
+    },
+    {
+      "path": "publish.description",
+      "value": "Windows 11 version 24H2の更新終了について、一般ユーザーが今確認したい3つを、公式情報に沿って整理します。\\n\\n確認すること\\n1. Windowsのエディションとバージョン\\n2. Windows Updateの更新プログラム\\n3. 25H2が表示されないときの考え方\\n\\n2026年10月13日は、Windows 11 version 24H2のHome、Pro、Pro Education、Pro for Workstationsの更新終了日です。Windows 11全体が終了するという意味ではありません。Enterprise、Education、LTSCなどはサポート期間が異なります。\\n\\n25H2が表示されない場合、段階提供やセーフガードホールドの可能性があります。無理にISOや手動更新を使わず、まずWindows Updateを確認してください。\\n\\n主な公式情報\\n- https://learn.microsoft.com/ja-jp/windows/release-health/supported-versions-windows-client\\n- https://learn.microsoft.com/ja-jp/windows/release-health/status-windows-11-24h2\\n- https://learn.microsoft.com/ja-jp/windows/release-health/windows11-release-information\\n- https://learn.microsoft.com/ja-jp/windows/whats-new/windows-11-version-26h1\\n- https://support.microsoft.com/ja-jp/windows/experience/find-information-about-your-windows-device\\n- https://support.microsoft.com/ja-jp/windows/deployment/updates-lifecycle/inside-this-update\\n- https://support.microsoft.com/ja-JP/Windows/Deployment/Updates-Lifecycle/install-windows-updates\\n\\n※情報は2026年9月5日に確認。公開前に公式ページを再確認します。\\n\\nナレーション：VOICEVOX:剣崎雌雄（Phase Bで音声生成）"
+    }
+  ],
+  "global_方_dictionary_entry": false,
+  "failures": [],
+  "deferred_review_count": 2
+}

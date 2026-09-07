@@ -1,0 +1,10 @@
+{
+  "5": {
+    "text": "料理の答えが返ってきました。",
+    "wav": "audio/segments/005_answer_v8.wav",
+    "voicevox_kana": "リョオリノコタエガカエッテキマシタ",
+    "status": "regenerated_v8_answer_segment",
+    "query": "work/audio_queries_v8/answer_segment_005.json",
+    "trailing_silence_sec": 0.0
+  }
+}

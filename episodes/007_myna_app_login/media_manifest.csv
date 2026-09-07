@@ -1,0 +1,26 @@
+shot_id,filename,use,notes,status,source_url,organization,captured_at,intended_scene,crop_note
+SHOT-01,assets/official/quote_004_system_requirements.png,1/5 動作環境（対応OS・NFC・ロック設定）の公式引用カード,公式本文を引用したカード（実在UIではない）。全体2〜4秒→必要ならcrop。,ready,https://services.digital.go.jp/mynaapp/system-requirements/,デジタル庁,2026-09-03,SCENE-004,quote card full 1920x1080
+SHOT-02,assets/official/quote_005_faq_login.png,1/5 公式FAQ（シークレットモード→通常モード）の引用カード,公式本文引用カード。,ready,https://support.mynaapp.digital.go.jp/hc/ja,デジタル庁,2026-09-03,SCENE-005,quote card full 1920x1080
+SHOT-03,assets/generated_ai/scene_003.png,1/5 セクション扉（imagegen_native・正式採用）,,ready,--,imagegen_native,2026-09-03,SCENE-003,full_bleed 1920x1080（A/B Candidate A採用）
+SHOT-04,assets/official/quote_008_scan_iphone.png,2/5 iPhone読み取り位置（公式イメージ入り引用カード）,公式イラスト+公式文言。実機撮影はテストカード確保後に追加検討。,ready,https://services.digital.go.jp/mynaapp/scan-mynumbercard/,デジタル庁,2026-09-03,SCENE-008,quote card full 1920x1080・公式イメージ入り
+SHOT-05,assets/official/quote_009_scan_android.png,2/5 Android読み取り位置（公式イメージ入り引用カード）,同上。,ready,https://services.digital.go.jp/mynaapp/scan-mynumbercard/,デジタル庁,2026-09-03,SCENE-009,quote card full 1920x1080・公式イメージ入り
+SHOT-06,assets/official/quote_012_register.png,3/5 利用登録（数字4桁・読み取り開始・顔/指紋）の公式引用カード,暗証番号の実値は表示しない。,ready,https://services.digital.go.jp/mynaapp/register/,デジタル庁,2026-09-03,SCENE-012,quote card full 1920x1080
+SHOT-07,assets/official/quote_015_expiration.png,4/5 有効期限（10回目の誕生日・3か月前）の公式引用カード,,ready,https://www.digital.go.jp/policies/mynumber/expiration-date/,デジタル庁,2026-09-03,SCENE-015,quote card full 1920x1080
+SHOT-08,assets/official/quote_018_maintenance.png,5/5 障害・メンテナンス情報ページの公式引用カード,,ready,https://myna.go.jp/html/info/index.html,マイナポータル,2026-09-03,SCENE-018,quote card full 1920x1080
+SHOT-09,assets/official/quote_019_reset.png,5/5 コンビニ再設定の公式引用カード,本人確認のためパスワード入力が必要、の公式文言。,ready,https://www.jpki.go.jp/jpkiidreset/howto/kiosk.html,J-LIS,2026-09-03,SCENE-019,quote card full 1920x1080
+IMG-001,assets/generated_ai/scene_007.png,2/5 セクション扉（concept・imagegen_native予定）,画像生成サービスの復旧後に生成。,pending,imagegen_native,--,2026-09-03,SCENE-007,full_bleed 1920x1080予定
+IMG-002,assets/generated_ai/scene_022.png,クロージング（concept・imagegen_native予定）,同上。,pending,imagegen_native,--,2026-09-03,SCENE-022,full_bleed 1920x1080予定
+IMG-003,assets/generated_ai/scene_011.png,3/5 セクション扉（imagegen_native予定）,同上。,pending,imagegen_native,--,2026-09-03,SCENE-011,full_bleed 1920x1080予定
+IMG-004,assets/generated_ai/scene_014.png,4/5 セクション扉（imagegen_native予定）,同上。,pending,imagegen_native,--,2026-09-03,SCENE-014,full_bleed 1920x1080予定
+IMG-005,assets/generated_ai/scene_017.png,5/5 セクション扉（imagegen_native予定）,同上。,pending,imagegen_native,--,2026-09-03,SCENE-017,full_bleed 1920x1080予定
+TEMPLATE,work/rendered_final_scenes/scene_*.png,一覧・注意・比較・まとめ12scene（1,2,6,10,13,16,20,21 ほか）,Codex renderer（template）。,ready,--,--,2026-09-03,--,layout_01/02/05/06/07/08系
+ICON-001,assets/icons/material_symbols/login_navy.png,1/5 semantic icon（Material Symbols Rounded login・navy tint）,Apache 2.0・公式GitHubから取得。LICENSES.md参照。,ready,https://github.com/google/material-design-icons,Google,2026-09-04,SCENE-001,淡いnavy円+180pxアイコン
+ICON-002,assets/icons/material_symbols/lock_blue.png,1/5 semantic icon（lock・blue tint）,同上。,ready,https://github.com/google/material-design-icons,Google,2026-09-04,SCENE-006,淡いblue円+180pxアイコン
+ICON-003,assets/icons/material_symbols/contactless_blue.png,2/5 semantic icon（contactless・blue tint）,同上。,ready,https://github.com/google/material-design-icons,Google,2026-09-04,SCENE-010,淡いblue円+180pxアイコン
+ICON-004,assets/icons/material_symbols/block_amber.png,3/5 semantic icon（block・amber tint）,同上。,ready,https://github.com/google/material-design-icons,Google,2026-09-04,SCENE-013,淡いamber円+180pxアイコン
+ICON-005,assets/icons/material_symbols/support_agent_green.png,5/5 semantic icon（support_agent・green tint）,同上。,ready,https://github.com/google/material-design-icons,Google,2026-09-04,SCENE-020,淡いgreen円+180pxアイコン
+ICON-006,assets/icons/material_symbols/dialpad_blue.png,3/5 semantic icon（dialpad・blue tilt）2次追加,Apache 2.0・LICENSES.md参照。,ready,https://github.com/google/material-design-icons,Google,2026-09-04,SCENE-012,カード内左上96px
+ICON-007,assets/icons/material_symbols/badge_blue.png,4/5 semantic icon（badge・blue）,同上。,ready,https://github.com/google/material-design-icons,Google,2026-09-04,SCENE-015,カード内左上96px
+ICON-008,assets/icons/material_symbols/construction_blue.png,5/5 semantic icon（construction・blue）,同上。,ready,https://github.com/google/material-design-icons,Google,2026-09-04,SCENE-018,カード内左上96px
+ICON-009,assets/icons/material_symbols/lock_reset_blue.png,5/5 semantic icon（lock_reset・blue）,同上。,ready,https://github.com/google/material-design-icons,Google,2026-09-04,SCENE-019,カード内左上96px
+

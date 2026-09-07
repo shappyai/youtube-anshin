@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-09-05",
+  "artifact": "output/final.mp4",
+  "source_artifact": "output/draft_v3.mp4",
+  "finalization_method": "copy_only_byte_identical",
+  "sha256": "e4e181b9a264f00bae04673352bf88676c47982508fcfe6de4b73ad5c825fc70",
+  "filesize_bytes": 28770325,
+  "byte_identical_to_draft_v3": true,
+  "duration_seconds": 304.880,
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30.0
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate_hz": 48000,
+    "channels": "mono"
+  },
+  "decode_error_count": 0,
+  "black_frame_count": 0,
+  "unexpected_narration_silence_count": 0,
+  "visual_regression_count": 0,
+  "visual_regression_status": "PASS",
+  "subtitle_regression_count": 0,
+  "subtitle_regression_status": "PASS",
+  "subtitle_evidence": {
+    "cue_count": 59,
+    "minimum_font_px": 72,
+    "font_below_56_count": 0,
+    "overflow_count": 0,
+    "three_line_count": 0,
+    "tts_reading_leakage_count": 0
+  },
+  "privacy_issue_count": 0,
+  "privacy_status": "PASS",
+  "privacy_evidence": {
+    "temporary_source_exists": false,
+    "canonical_reference_count": 0
+  },
+  "cta_regression_count": 0,
+  "cta_regression_status": "PASS",
+  "cta_audio_duration_seconds": 11.563,
+  "pronunciation_unresolved_count": 0,
+  "pronunciation_status": "PASS",
+  "pronunciation_approval": "work/phase_b_review/ambiguous_kanji_pronunciation_v3_final_approval.json",
+  "fact_fail_count": 0,
+  "fact_review_count": 0,
+  "fact_status": "PASS",
+  "fact_watch": "work/fact_watch_final.md",
+  "senior_readability": "PASS",
+  "chapter_status": "PASS",
+  "metadata_status": "READY_THUMBNAIL_PENDING",
+  "failures": [],
+  "warnings": [],
+  "notes": [
+    "Visual Gate v2 contact sheet and target scene regression are unchanged and PASS.",
+    "Microsoft Lifecycle pageの時刻表示差はfact_watch_final.mdへ記録。利用者向け日付はrelease-healthの2026-10-13を採用。"
+  ]
+}

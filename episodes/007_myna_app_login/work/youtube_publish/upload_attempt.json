@@ -1,0 +1,17 @@
+{
+  "episode": "007_myna_app_login",
+  "status": "uploaded_private",
+  "mode": "private",
+  "final_sha256": "80AD01947A57A4AAFF4745122BFE35B41B7F62009E89BA43664BEF8621289393",
+  "title": "【マイナアプリ】ログインできない？まず確認したい5つ",
+  "requested_privacy": "private",
+  "publish_at_local": null,
+  "publish_at_api": null,
+  "started_at": "2026-09-04T12:47:48Z",
+  "video_id": "CAb0b7n0ByY",
+  "uploaded_at": "2026-09-04T12:47:52Z",
+  "thumbnail_uploaded": true,
+  "verification": "PASS",
+  "error": null,
+  "note": "videos.list が containsSyntheticMedia を返さない仕様のため、AI開示は --set-ai-disclosure true（videos.update 応答）で verified: true（2026-09-04T12:49:47Z）。privacy=private・thumbnail=success・channel=UCgVRceTJYO5KOrPX4w2jXZw 確認済み。"
+}

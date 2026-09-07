@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "preflight": "ambiguous_kanji_pronunciation",
+  "rule": "ambiguous_方_avoidance",
+  "episode": "011_myna_insurance_scam_call",
+  "narration_segment_count": 39,
+  "narration_occurrence_count": 0,
+  "narration_occurrences": [],
+  "script_occurrence_count": 0,
+  "script_occurrences": [],
+  "global_方_dictionary_entry": false,
+  "failures": []
+}

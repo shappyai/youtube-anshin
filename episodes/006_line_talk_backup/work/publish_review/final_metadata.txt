@@ -1,0 +1,43 @@
+【タイトル】
+【LINE】機種変更の前に確認！トーク履歴を残すバックアップとPIN
+
+【概要欄】
+「スマホを買い替えたり、壊れてしまったりしたとき、LINEのトークは消えないの？」という不安を、LINE公式ヘルプ（2026年9月2日確認）に沿って解消します。この動画では「今のスマホで今日確認したい3つ」——①トーク履歴のバックアップの日時 ②自動バックアップの設定 ③バックアップ用の暗証番号（PIN）——を、公式手順の進め方に沿って説明します。あわせて、アカウントの引き継ぎとトーク履歴のバックアップが別物であること、無料の標準バックアップは「文字のトークだけ・同じOSどうしだけ」であること、写真や動画はバックアップされないこと（残したいものは引き継ぎ前に端末へ保存）、OSをまたぐ機種変更では直近14日間より前のトークを引き継げないこと（2026年9月時点の公式仕様）も確認します。
+
+主な根拠（確認日: 2026年9月2日）:
+LINE トーク履歴を標準バックアップするには？ https://help.line.me/line/smartphone?contentId=20023473&lang=ja
+LINE [バックアップ用のPINコード]とは？ https://help.line.me/line/smartphone/pc?contentId=20020033&lang=ja
+LINE バックアップしたトークの復元方法 https://help.line.me/line/smartphone/categoryId/20007890/3/pc?contentId=20007389&lang=ja
+LINE プレミアムバックアップとは？ https://help.line.me/line/smartphone?contentId=200000425&lang=ja
+LINE バックアップ・復元で問題が発生している場合 https://help.line.me/line/smartphone?contentId=20020173&lang=ja
+LINE 新しい端末に変える前の事前準備 https://help.line.me/line/smartphone?contentId=20023724&lang=ja
+LINE あんぜん引き継ぎガイド https://help.line.me/line/smartphone?contentId=200002096&lang=ja
+LINEみんなの使い方ガイド トーク履歴のバックアップ方法 https://guide.line.me/ja/account-and-settings/talk-backup.html
+
+※LINEアプリのバージョンによって、画面やメニューの場所が異なる場合があります。
+この動画の人物・イラストの一部はAIで生成した画像を使用しています。
+
+大人のデジタル安心室では、スマホやパソコンを、もっと安全・快適に使うための情報をお届けします。チャンネル登録・高評価もよろしくお願いします。
+
+ナレーション：VOICEVOX:剣崎雌雄
+
+【チャプター】
+00:00 はじめに・今日確認する3つ
+00:34 引き継ぎとバックアップは別もの
+01:45 ① バックアップの日時を確認
+02:44 ② 自動バックアップを確認
+03:42 ③ バックアップ用のPINコード
+04:40 OSをまたぐ機種変更に注意
+05:24 写真・動画はバックアップされない
+05:58 まとめ・次の一歩
+
+【公開設定候補（人間が確認して入力）】
+category_id: 22（教育）
+default_language: ja
+made_for_kids: false
+tags: LINE, トーク履歴, バックアップ, 機種変更, バックアップ用のPINコード, 引き継ぎ, スマホ, シニア
+AI素材開示（containsSyntheticMedia）: true 推奨（写実的なAI人物イラストを5枚使用。人間確認後に確定）
+公開状態候補: private（確認後）→ 必要に応じてscheduled（未来時刻）。即時publicはしない
+
+【サムネイル】
+推奨: work/publish_review/thumbnail_a.png（案b: thumbnail_b.png）

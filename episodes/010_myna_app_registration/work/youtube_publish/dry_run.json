@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "api_called": false,
+  "oauth_called": false,
+  "episode": "010_myna_app_registration",
+  "final_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\output\\final.mp4",
+  "thumbnail_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\assets\\thumbnail\\thumbnail.png",
+  "title": "【マイナアプリ】登録方法は？初めて使う人が確認したい手順",
+  "description_bytes": 2007,
+  "tag_count": 10,
+  "tag_total_length": 57,
+  "privacy": "scheduled",
+  "ai_disclosure": true,
+  "schedule_local": "2026-09-06 19:00:00 JST",
+  "schedule_api": "2026-09-06T10:00:00Z",
+  "video_sha256": "89BBDE65D864944B1E0940E077ADD8C3094997CBD44DCF26A286F0492D830374",
+  "existing_video_id": null,
+  "expected_api_requests": [
+    "videos.insert part=snippet,status resumable=True notifySubscribers=False status.containsSyntheticMedia",
+    "videos.update part=status private+publishAt",
+    "thumbnails.set",
+    "videos.list part=snippet,status"
+  ],
+  "errors": []
+}

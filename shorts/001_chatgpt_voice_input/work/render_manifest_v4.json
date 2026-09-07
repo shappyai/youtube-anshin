@@ -1,0 +1,635 @@
+{
+  "short_id": "Short001",
+  "version": "v4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "audio_path": "audio/narration_v4.wav",
+  "audio_reused_except_targets": true,
+  "audio_target_segments": [
+    1,
+    5,
+    8
+  ],
+  "core_scene_count": 3,
+  "visual_beats": [
+    {
+      "id": "A1",
+      "index": 1,
+      "core_scene": "A",
+      "start_sec": 0.0,
+      "end_sec": 3.182,
+      "duration_sec": 3.182,
+      "kind": "imagegen",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "purpose": "person_hook",
+      "headline_lines": [
+        "ChatGPT",
+        "話すだけで使える？"
+      ],
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "id": "A2",
+      "index": 2,
+      "core_scene": "A",
+      "start_sec": 3.182,
+      "end_sec": 6.363,
+      "duration_sec": 3.182,
+      "kind": "imagegen",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "purpose": "phone_crop",
+      "headline_lines": [
+        "ChatGPT",
+        "話すだけで使える？"
+      ],
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "id": "B1",
+      "index": 3,
+      "core_scene": "B",
+      "start_sec": 6.363,
+      "end_sec": 9.285,
+      "duration_sec": 2.922,
+      "kind": "real_ui",
+      "asset": "assets/official_v4/normalized/chatgpt_home_current.png",
+      "purpose": "current_public_chatgpt_home",
+      "headline_lines": [],
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "id": "B2",
+      "index": 4,
+      "core_scene": "B",
+      "start_sec": 9.285,
+      "end_sec": 12.207,
+      "duration_sec": 2.922,
+      "kind": "official_reference",
+      "asset": "assets/official_v4/normalized/voice_official_reference.png",
+      "purpose": "official_voice_reference_not_live_session",
+      "headline_lines": [],
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "id": "B3",
+      "index": 5,
+      "core_scene": "B",
+      "start_sec": 12.207,
+      "end_sec": 15.129,
+      "duration_sec": 2.922,
+      "kind": "real_ui",
+      "asset": "assets/official_v4/normalized/chatgpt_home_current.png",
+      "purpose": "question_capture_pending",
+      "headline_lines": [],
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "id": "B4",
+      "index": 6,
+      "core_scene": "B",
+      "start_sec": 15.129,
+      "end_sec": 18.051,
+      "duration_sec": 2.922,
+      "kind": "real_ui",
+      "asset": "assets/official_v4/normalized/chatgpt_home_current.png",
+      "purpose": "response_capture_pending",
+      "headline_lines": [],
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "id": "C1",
+      "index": 7,
+      "core_scene": "C",
+      "start_sec": 18.051,
+      "end_sec": 24.997,
+      "duration_sec": 6.946,
+      "kind": "imagegen",
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png",
+      "purpose": "conclusion",
+      "headline_lines": [
+        "まずは",
+        "話しかけるだけ"
+      ],
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "id": "C2",
+      "index": 8,
+      "core_scene": "C",
+      "start_sec": 24.997,
+      "end_sec": 28.213,
+      "duration_sec": 3.216,
+      "kind": "imagegen",
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png",
+      "purpose": "conclusion_cta",
+      "headline_lines": [
+        "まずは",
+        "話しかけるだけ"
+      ],
+      "motion": "slow_crop_push_in",
+      "cta_lockup": true
+    }
+  ],
+  "frame_rows": [
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0001.png",
+      "start_sec": 0.0,
+      "end_sec": 3.181667,
+      "duration_sec": 3.181667,
+      "beat_id": "A1",
+      "beat_index": 1,
+      "core_scene": "A",
+      "purpose": "person_hook",
+      "segment_id": 1,
+      "cue_number": 1,
+      "subtitle": [
+        "文字入力は",
+        "大変ですか？"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0002.png",
+      "start_sec": 3.181667,
+      "end_sec": 3.306667,
+      "duration_sec": 0.125,
+      "beat_id": "A2",
+      "beat_index": 2,
+      "core_scene": "A",
+      "purpose": "phone_crop",
+      "segment_id": 1,
+      "cue_number": 1,
+      "subtitle": [
+        "文字入力は",
+        "大変ですか？"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0003.png",
+      "start_sec": 3.306667,
+      "end_sec": 3.376667,
+      "duration_sec": 0.07,
+      "beat_id": "A2",
+      "beat_index": 2,
+      "core_scene": "A",
+      "purpose": "phone_crop",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0004.png",
+      "start_sec": 3.376667,
+      "end_sec": 6.363333,
+      "duration_sec": 2.986666,
+      "beat_id": "A2",
+      "beat_index": 2,
+      "core_scene": "A",
+      "purpose": "phone_crop",
+      "segment_id": 2,
+      "cue_number": 2,
+      "subtitle": [
+        "音声モードなら",
+        "話しかけて使える"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0005.png",
+      "start_sec": 6.363333,
+      "end_sec": 6.433333,
+      "duration_sec": 0.07,
+      "beat_id": "B1",
+      "beat_index": 3,
+      "core_scene": "B",
+      "purpose": "current_public_chatgpt_home",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "official_capture",
+      "asset": "assets/official_v4/normalized/chatgpt_home_current.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0006.png",
+      "start_sec": 6.433333,
+      "end_sec": 9.285167,
+      "duration_sec": 2.851834,
+      "beat_id": "B1",
+      "beat_index": 3,
+      "core_scene": "B",
+      "purpose": "current_public_chatgpt_home",
+      "segment_id": 3,
+      "cue_number": 3,
+      "subtitle": [
+        "スマホに向かって",
+        "短い質問を話す"
+      ],
+      "visual_mode": "official_capture",
+      "asset": "assets/official_v4/normalized/chatgpt_home_current.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0007.png",
+      "start_sec": 9.285167,
+      "end_sec": 10.06,
+      "duration_sec": 0.774833,
+      "beat_id": "B2",
+      "beat_index": 4,
+      "core_scene": "B",
+      "purpose": "official_voice_reference_not_live_session",
+      "segment_id": 3,
+      "cue_number": 3,
+      "subtitle": [
+        "スマホに向かって",
+        "短い質問を話す"
+      ],
+      "visual_mode": "official_capture_reference",
+      "asset": "assets/official_v4/normalized/voice_official_reference.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0008.png",
+      "start_sec": 10.06,
+      "end_sec": 10.13,
+      "duration_sec": 0.07,
+      "beat_id": "B2",
+      "beat_index": 4,
+      "core_scene": "B",
+      "purpose": "official_voice_reference_not_live_session",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "official_capture_reference",
+      "asset": "assets/official_v4/normalized/voice_official_reference.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0009.png",
+      "start_sec": 10.13,
+      "end_sec": 12.207,
+      "duration_sec": 2.077,
+      "beat_id": "B2",
+      "beat_index": 4,
+      "core_scene": "B",
+      "purpose": "official_voice_reference_not_live_session",
+      "segment_id": 4,
+      "cue_number": 4,
+      "subtitle": [
+        "卵とキャベツで",
+        "聞いてみる"
+      ],
+      "visual_mode": "official_capture_reference",
+      "asset": "assets/official_v4/normalized/voice_official_reference.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0010.png",
+      "start_sec": 12.207,
+      "end_sec": 14.098,
+      "duration_sec": 1.891,
+      "beat_id": "B3",
+      "beat_index": 5,
+      "core_scene": "B",
+      "purpose": "question_capture_pending",
+      "segment_id": 4,
+      "cue_number": 4,
+      "subtitle": [
+        "卵とキャベツで",
+        "聞いてみる"
+      ],
+      "visual_mode": "official_capture",
+      "asset": "assets/official_v4/normalized/chatgpt_home_current.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0011.png",
+      "start_sec": 14.098,
+      "end_sec": 14.168,
+      "duration_sec": 0.07,
+      "beat_id": "B3",
+      "beat_index": 5,
+      "core_scene": "B",
+      "purpose": "question_capture_pending",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "official_capture",
+      "asset": "assets/official_v4/normalized/chatgpt_home_current.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0012.png",
+      "start_sec": 14.168,
+      "end_sec": 15.128833,
+      "duration_sec": 0.960833,
+      "beat_id": "B3",
+      "beat_index": 5,
+      "core_scene": "B",
+      "purpose": "question_capture_pending",
+      "segment_id": 5,
+      "cue_number": 5,
+      "subtitle": [
+        "答え始める"
+      ],
+      "visual_mode": "official_capture",
+      "asset": "assets/official_v4/normalized/chatgpt_home_current.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0013.png",
+      "start_sec": 15.128833,
+      "end_sec": 18.050667,
+      "duration_sec": 2.921834,
+      "beat_id": "B4",
+      "beat_index": 6,
+      "core_scene": "B",
+      "purpose": "response_capture_pending",
+      "segment_id": 5,
+      "cue_number": 5,
+      "subtitle": [
+        "答え始める"
+      ],
+      "visual_mode": "official_capture",
+      "asset": "assets/official_v4/normalized/chatgpt_home_current.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0014.png",
+      "start_sec": 18.050667,
+      "end_sec": 18.120667,
+      "duration_sec": 0.07,
+      "beat_id": "C1",
+      "beat_index": 7,
+      "core_scene": "C",
+      "purpose": "conclusion",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0015.png",
+      "start_sec": 18.120667,
+      "end_sec": 20.392667,
+      "duration_sec": 2.272,
+      "beat_id": "C1",
+      "beat_index": 7,
+      "core_scene": "C",
+      "purpose": "conclusion",
+      "segment_id": 6,
+      "cue_number": 6,
+      "subtitle": [
+        "まずは短い質問から"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0016.png",
+      "start_sec": 20.392667,
+      "end_sec": 20.462667,
+      "duration_sec": 0.07,
+      "beat_id": "C1",
+      "beat_index": 7,
+      "core_scene": "C",
+      "purpose": "conclusion",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0017.png",
+      "start_sec": 20.462667,
+      "end_sec": 23.652,
+      "duration_sec": 3.189333,
+      "beat_id": "C1",
+      "beat_index": 7,
+      "core_scene": "C",
+      "purpose": "conclusion",
+      "segment_id": 7,
+      "cue_number": 7,
+      "subtitle": [
+        "次は写真で聞く"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0018.png",
+      "start_sec": 23.652,
+      "end_sec": 23.722,
+      "duration_sec": 0.07,
+      "beat_id": "C1",
+      "beat_index": 7,
+      "core_scene": "C",
+      "purpose": "conclusion",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0019.png",
+      "start_sec": 23.722,
+      "end_sec": 24.996844,
+      "duration_sec": 1.274844,
+      "beat_id": "C1",
+      "beat_index": 7,
+      "core_scene": "C",
+      "purpose": "conclusion",
+      "segment_id": 8,
+      "cue_number": 8,
+      "subtitle": [
+        "次に困ったときのために",
+        "このチャンネルを登録"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v4\\frame_0020.png",
+      "start_sec": 24.996844,
+      "end_sec": 28.212667,
+      "duration_sec": 3.215823,
+      "beat_id": "C2",
+      "beat_index": 8,
+      "core_scene": "C",
+      "purpose": "conclusion_cta",
+      "segment_id": 8,
+      "cue_number": 8,
+      "subtitle": [
+        "次に困ったときのために",
+        "このチャンネルを登録"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": true
+    }
+  ],
+  "mode_counts": {
+    "imagegen_native": 11,
+    "official_capture": 6,
+    "official_capture_reference": 3,
+    "renderer_native": 0
+  },
+  "cta": {
+    "dedicated_scene": 0,
+    "spoken_text": "次に困ったときのために、このチャンネルを登録しておいてください。",
+    "display_lines": [
+      "次に困ったときのために",
+      "このチャンネルを登録"
+    ],
+    "channel_icon": "local/channel/icon.png",
+    "channel_name": "大人のデジタル安心室",
+    "pseudo_subscribe_ui": 0
+  },
+  "no_image_text_hybrid": true,
+  "viewer_facing_short_id": 0,
+  "fake_ui": 0,
+  "official_ui_ai_reconstruction": 0,
+  "privacy_fail": 0,
+  "pitch_qa": [
+    {
+      "phrase_index": 0,
+      "moras": [
+        {
+          "text": "チャ",
+          "pitch": 4.887
+        },
+        {
+          "text": "ッ",
+          "pitch": 0.0
+        },
+        {
+          "text": "ト",
+          "pitch": 5.0219
+        }
+      ],
+      "accent": 3,
+      "to_mora_index": 2,
+      "to_pitch": 5.0219,
+      "segment_id": 1,
+      "narration": "チャットジーピーティー、文字入力は大変ですか。",
+      "status": "PASS"
+    },
+    {
+      "phrase_index": 0,
+      "moras": [
+        {
+          "text": "チャ",
+          "pitch": 4.8886
+        },
+        {
+          "text": "ッ",
+          "pitch": 0.0
+        },
+        {
+          "text": "ト",
+          "pitch": 5.0285
+        }
+      ],
+      "accent": 3,
+      "to_mora_index": 2,
+      "to_pitch": 5.0285,
+      "segment_id": 5,
+      "narration": "チャットジーピーティーが、質問に合わせて答え始めます。",
+      "status": "PASS"
+    }
+  ],
+  "qa_metrics": {
+    "visual_beat_count": 8,
+    "visual_change_interval_target_sec": [
+      2,
+      4
+    ],
+    "mean_meaningful_visual_change_interval_sec": 3.53,
+    "max_visual_beat_duration_sec": 6.95,
+    "static_hold_over_5sec": 1,
+    "static_hold_over_7sec": 0,
+    "shorts_slideshow_feel": "1/5_REVIEW",
+    "shorts_native_feel": "4/5_REVIEW",
+    "visual_beat_durations_sec": [
+      3.18,
+      3.18,
+      2.92,
+      2.92,
+      2.92,
+      2.92,
+      6.95,
+      3.22
+    ],
+    "timeline_coverage_sec": 28.21,
+    "audio_duration_sec": 28.21
+  }
+}

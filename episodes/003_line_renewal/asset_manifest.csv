@@ -1,0 +1,12 @@
+filename,source_url,source_title,organization,verified_at,intended_use,usage_note,status
+chat_new_overview.png,https://guide.line.me/ja/update/chat-renewal2025.html,トークタブが新しくなりました,LINEみんなの使い方ガイド（LY Corporation）,2026-08-31,SCENE-004 新トークタブ全体,公式CDNから取得; 2台のスマホとトーク/友だちの状態を場所理解用に使用,downloaded
+chat_new_tabs.png,https://guide.line.me/ja/update/chat-renewal2025.html,トークタブが新しくなりました,LINEみんなの使い方ガイド（LY Corporation）,2026-08-31,SCENE-005 2タブの拡大,公式画像の上部をクロップ; 「トーク」「友だち」の正確なUIをそのまま使用,downloaded
+chat_brown_historical.png,https://guide.line.me/ja/update/chat-renewal2025.html,トークタブが新しくなりました,LINEみんなの使い方ガイド（LY Corporation）,2026-08-31,SCENE-009 ブラウン案内の補足,リニューアル当時の画面。ページの2026年8月追記「現在ブラウンは表示されていません」と併記,downloaded
+chat_tabs_switch_1.png,https://guide.line.me/ja/update/chat-renewal2025.html,トークタブが新しくなりました,LINEみんなの使い方ガイド（LY Corporation）,2026-08-31,SCENE-006 トーク選択状態,公式の赤枠を含むタブ切り替え画像。UIを再描画しない,downloaded
+chat_tabs_switch_2.png,https://guide.line.me/ja/update/chat-renewal2025.html,トークタブが新しくなりました,LINEみんなの使い方ガイド（LY Corporation）,2026-08-31,SCENE-006 友だち選択状態,公式の赤枠を含むタブ切り替え画像。UIを再描画しない,downloaded
+chat_album_all.png,https://guide.line.me/ja/update/chat-renewal2025.html,トークタブが新しくなりました,LINEみんなの使い方ガイド（LY Corporation）,2026-08-31,予備（アルバムまとめて見る）,公式ページの「友だち」タブにあるアルバム導線。今回の本編では未使用,downloaded
+chat_plus_menu.png,https://guide.line.me/ja/update/chat-renewal2025.html,トークタブが新しくなりました,LINEみんなの使い方ガイド（LY Corporation）,2026-08-31,SCENE-008 プラスメニュー,公式のiOS/Android比較。OSによる項目差の説明に使用,downloaded
+home_new_overview.png,https://guide.line.me/ja/update/home-renewal2026.html,ホームタブのリニューアルを開始しました,LINEみんなの使い方ガイド（LY Corporation）,2026-08-31,SCENE-011 ホーム全体,公式のホームタブ全体像。場所理解用に使用,downloaded
+home_activity_content.png,https://guide.line.me/ja/update/home-renewal2026.html,ホームタブのリニューアルを開始しました,LINEみんなの使い方ガイド（LY Corporation）,2026-08-31,SCENE-012 アクティビティ,友だちリスト・通知・サービスの公式画面をそのまま使用,downloaded
+home_activity_detail.jpeg,https://guide.line.me/ja/update/home-renewal2026.html,ホームタブのリニューアルを開始しました,LINEみんなの使い方ガイド（LY Corporation）,2026-08-31,SCENE-012 コンテンツ,LINE NEWS等のコンテンツ表示の公式画像。実在のLINE UIとして使用,downloaded
+home_reaction.png,https://guide.line.me/ja/update/home-renewal2026.html,ホームタブのリニューアルを開始しました,LINEみんなの使い方ガイド（LY Corporation）,2026-08-31,予備（リアクション）,公式ページのリアクション説明。今回の本編では機能紹介を詰め込みすぎないため未使用,downloaded

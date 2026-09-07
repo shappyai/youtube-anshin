@@ -1,0 +1,15 @@
+{
+  "episode": "009_windows11_24h2_support",
+  "status": "uploaded_scheduled",
+  "mode": "scheduled",
+  "final_sha256": "E4E181B9A264F00BAE04673352BF88676C47982508FCFE6DE4B73AD5C825FC70",
+  "title": "【Windows 11】このままで大丈夫？10月13日までに確認したいこと",
+  "requested_privacy": "private",
+  "publish_at_local": "2026-09-09 19:00:00 JST",
+  "publish_at_api": "2026-09-09T10:00:00Z",
+  "started_at": "2026-09-05T11:20:05Z",
+  "video_id": "NO4ZwXPvgA0",
+  "uploaded_at": "2026-09-05T11:20:10Z",
+  "thumbnail_uploaded": true,
+  "verification": "PASS"
+}

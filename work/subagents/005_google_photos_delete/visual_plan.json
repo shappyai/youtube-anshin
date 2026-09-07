@@ -1,0 +1,517 @@
+{
+  "episode_id": "005",
+  "summary": {
+    "scene_count": 26,
+    "render_mode_counts": {
+      "template": 13,
+      "gpt_image": 5,
+      "official_placeholder": 8
+    }
+  },
+  "scenes": [
+    {
+      "scene_id": 1,
+      "purpose": "導入",
+      "narration_range": {"start": 1, "end": 4},
+      "section_label": "はじめに",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "device": "gpt_image",
+      "main_visual": "写真整理に困るシニアの安心感を写実的に描いたGPT full-frame背景。右側に人物、左半分は文字用の静かな壁面。スマホの画面はぼかしてUIを判別させず、Googleのロゴ・UIは描かない。",
+      "codex_overlay_text": {
+        "headline": "写真を消す前に、確認すること",
+        "support_text": "「削除」と「空き容量を増やす」は、よく似ていますが、意味が違います。",
+        "items": []
+      },
+      "text_safe_area": "文字は左半分（x≦960）・上部60%以内に配置。下部180px字幕帯（y≧900）には配置しない。右側の人物はそのまま見せる。",
+      "animation_recommendation": "very_slow_zoom（安堵の表情へゆっくり寄る。1.0→約1.06）。意味のないpanはしない。",
+      "image_prompt": "1920×1080、一枚で完結した写実的な背景イラスト。60代の日本人女性（グレーの髪、ナチュラルな服装）が、明るく暖かいリビングのソファに座り、手元のスマートフォンを穏やかな笑顔で見つめている。スマホの画面は白飛び・ぼかしで具体的なUIは判別できない。手前のローテーブルに印刷された家族写真が数枚並ぶ。右側に人物、左半分は淡いクリーム色の壁と観葉植物だけの、文字を重ねるための静かな余白（真っ白ではなくわずかな質感のある壁）。暖かい自然光、落ち着いたベージュ・アイボリー・薄茶の色調。テキスト、文字、数字、ロゴ、ブランドマーク、スマホ画面のUIは一切描かない。コラージュや複数シーンの分割はしない。",
+      "notes": "冒頭20秒以内に結論（seg 4）を出すナレーションと同期。GPT画像リテイク基準: 右側に人物・左半分が静か・真っ白でない・生成文字なし。"
+    },
+    {
+      "scene_id": 2,
+      "purpose": "一覧",
+      "narration_range": {"start": 5, "end": 9},
+      "section_label": "はじめに（確認リスト）",
+      "layout": "layout_02_list",
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "「今日、確認すること」の3項目一覧カード（番号付き1〜3）。Codexテンプレートの正確な日本語のみ使用。",
+      "codex_overlay_text": {
+        "headline": "今日、確認すること",
+        "support_text": "",
+        "items": [
+          "写真がバックアップされているか",
+          "「削除」と「空き容量を増やす」の違い",
+          "ゴミ箱からの復元"
+        ]
+      },
+      "text_safe_area": "リストは中央カラム（x=240〜1680）、y=220〜820に収める。項目間の行間を広くとる。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "static（3項目とも最初から表示。意味のないアニメーションなし）。",
+      "notes": "seg 7〜9のナレーション1件ずつに項目を同期させる案もあるが、既定はstatic一括表示。"
+    },
+    {
+      "scene_id": 3,
+      "purpose": "セクション扉",
+      "narration_range": {"start": 10, "end": 11},
+      "section_label": "1 / 6 まず、バックアップの確認",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "device": "gpt_image",
+      "main_visual": "「バックアップ＝写真のコピーをGoogle側に預ける」概念のGPTイラスト（スマホ→雲の上の保管箱へ光の帯でコピーが流れる）。GoogleフォトのUI・ロゴは描かない。",
+      "codex_overlay_text": {
+        "headline": "バックアップ＝写真のコピーをGoogleに預けること",
+        "support_text": "スマホとは別の、Googleの保管場所に、コピーを預けておきます。",
+        "items": []
+      },
+      "text_safe_area": "左半分（x≦960）・上部60%以内に配置。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "very_slow_zoom（光の帯の流れが伝わる程度のゆっくりした寄り）。",
+      "image_prompt": "1920×1080、一枚の完成した柔らかい絵本風イラスト背景。左手前に、画面が無地のスマートフォンのシルエットがあり、そこから数枚の家族写真のシルエットが優しい光の帯になって、右上方の雲の上の小さな木製の保管箱へ流れていく（写真のコピーを預けるイメージ）。空は青と白の穏やかなグラデーション、雲はふんわりとした形。左半分の下〜中央は文字を重ねるための静かな空の余白（やや薄い水色で、真っ白にはしない）。右側と上方に光の帯と雲を配置。テキスト、文字、数字、ロゴ、ブランドマーク、実在サービス名、スマホのUIは一切描かない。コラージュ、分割パネル、枠線つきレイアウトはしない。",
+      "notes": "見出し「1 / 6」はCodex後描画（生成文字は使わない）。"
+    },
+    {
+      "scene_id": 4,
+      "purpose": "実演",
+      "narration_range": {"start": 12, "end": 16},
+      "section_label": "1 / 6 まず、バックアップの確認",
+      "layout": "layout_04_text_official",
+      "render_mode": "official_placeholder",
+      "device": "emulator",
+      "main_visual": "Android EmulatorでGoogleフォトのバックアップ設定を確認する実演（右上プロフィール写真マーク→フォトの設定→バックアップ→「バックアップが完了しました」表示）。レイアウトの実画面スロットに配置。",
+      "codex_overlay_text": {
+        "headline": "まず、バックアップを確認",
+        "support_text": "「バックアップが完了しました」と表示されれば、コピーはGoogle側にあります。",
+        "items": []
+      },
+      "text_safe_area": "説明文は左スロット、実画面は右スロット（x=1000〜1840）。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "static（操作画面。動きは実録画側で生じるため不要なカメラムーブなし）。",
+      "asset_placeholder_path": "assets/emulator/backup_status.png",
+      "notes": "crop_target: ①右上プロフィール写真マーク ②「バックアップ」項目 ③「バックアップが完了しました」表示。全体画面は2〜4秒に留め、各確認箇所を大きくクロップする（画面表示ルール準拠）。"
+    },
+    {
+      "scene_id": 5,
+      "purpose": "セクション扉",
+      "narration_range": {"start": 17, "end": 17},
+      "section_label": "2 / 6 「削除」を押すと、何が起きる？",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "セクション見出しカード「2 / 6」。ゴミ箱はtemplateの簡単なシンボルで表現（Googleフォトの実UIを再現しない）。",
+      "codex_overlay_text": {
+        "headline": "「削除」を押すと、何が起きる？",
+        "support_text": "",
+        "items": []
+      },
+      "text_safe_area": "見出しは中央（x=240〜1680）、y=300〜700に配置。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "section_fade（セクション扉の切替えのみ。内容アニメーションなし）。",
+      "notes": ""
+    },
+    {
+      "scene_id": 6,
+      "purpose": "実演",
+      "narration_range": {"start": 18, "end": 18},
+      "section_label": "2 / 6 「削除」を押すと、何が起きる？",
+      "layout": "layout_04_text_official",
+      "render_mode": "official_placeholder",
+      "device": "emulator",
+      "main_visual": "Emulatorで写真を選択→ゴミ箱アイコンをタップ→写真が消えるまでの一連の操作。レイアウトの実画面スロットに配置。",
+      "codex_overlay_text": {
+        "headline": "写真を選んで、ゴミ箱アイコンをタップ",
+        "support_text": "押すと、その写真は消えます。",
+        "items": []
+      },
+      "text_safe_area": "説明文は左スロット、実画面は右スロット（x=1000〜1840）。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "static（1連の操作は実録画を途切れさせず見せる）。",
+      "asset_placeholder_path": "assets/emulator/delete_photo_trash.png",
+      "notes": "crop_target: ゴミ箱アイコンと、削除後の変化（写真が消える）。操作部を大きくクロップし、全体画面は2〜4秒に留める。"
+    },
+    {
+      "scene_id": 7,
+      "purpose": "比較",
+      "narration_range": {"start": 19, "end": 21},
+      "section_label": "2 / 6 「削除」を押すと、何が起きる？",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "「何が消えるか」比較表の初出し。3操作（削除／デバイスから削除／空き容量を増やす）×2列（スマホ本体／Googleフォト）。今回のハイライト行は「削除」。",
+      "codex_overlay_text": {
+        "headline": "「削除」で消えるもの",
+        "support_text": "Googleフォトで消すと、スマホ本体の同じ写真もいっしょに消えます。バックアップ中なら、ほかの端末からも消えます。",
+        "items": [
+          "スマホ本体: 消える",
+          "Googleフォト: ゴミ箱へ（60日/30日後に完全削除）"
+        ]
+      },
+      "text_safe_area": "表はx=140〜1780・y=240〜860に収める。行高は50px以上。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "static（行ハイライトは配色で固定し、出現アニメーションは入れない）。",
+      "notes": "この表はScene 11（デバイスから削除行）・Scene 15（空き容量を増やす行）で同一レイアウトを使い、ハイライト行だけを変える（script_reviewの比較表方式）。表の全行はこの場で初出し。"
+    },
+    {
+      "scene_id": 8,
+      "purpose": "実演",
+      "narration_range": {"start": 22, "end": 24},
+      "section_label": "2 / 6 「削除」を押すと、何が起きる？",
+      "layout": "layout_04_text_official",
+      "render_mode": "official_placeholder",
+      "device": "emulator",
+      "main_visual": "Emulatorでゴミ箱の画面（保持期間の案内を含む）を表示。レイアウトの実画面スロットに配置。",
+      "codex_overlay_text": {
+        "headline": "消えた写真は、まずゴミ箱へ",
+        "support_text": "バックアップ済みは60日間。バックアップされていない写真は30日で完全に削除されます。",
+        "items": []
+      },
+      "text_safe_area": "説明文は左スロット、実画面は右スロット（x=1000〜1840）。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "static（操作画面）。",
+      "asset_placeholder_path": "assets/emulator/trash_days.png",
+      "notes": "crop_target: ゴミ箱内のアイテムと保持期間の案内表示。「60日」「30日」の数字はCodex後描画で強調表示する。"
+    },
+    {
+      "scene_id": 9,
+      "purpose": "注意",
+      "narration_range": {"start": 25, "end": 25},
+      "section_label": "2 / 6 「削除」を押すと、何が起きる？",
+      "layout": "layout_06_caution",
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "注意カード（落ち着いた配色）。ゴミ箱のシンボルと確認のひとことを表示。",
+      "codex_overlay_text": {
+        "headline": "「削除」の前の、ひとこと確認",
+        "support_text": "「この写真は、もういらない」と思えたら、削除しましょう。",
+        "items": []
+      },
+      "text_safe_area": "中央・上部（x=240〜1680・y=220〜700）。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "static",
+      "notes": ""
+    },
+    {
+      "scene_id": 10,
+      "purpose": "セクション扉",
+      "narration_range": {"start": 26, "end": 26},
+      "section_label": "3 / 6 「デバイスから削除」とは？",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "セクション見出しカード「3 / 6」。スマホ本体のシルエット（templateシンボル）。",
+      "codex_overlay_text": {
+        "headline": "「デバイスから削除」とは？",
+        "support_text": "",
+        "items": []
+      },
+      "text_safe_area": "見出しは中央（x=240〜1680）、y=300〜700。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "section_fade",
+      "notes": ""
+    },
+    {
+      "scene_id": 11,
+      "purpose": "比較",
+      "narration_range": {"start": 27, "end": 31},
+      "section_label": "3 / 6 「デバイスから削除」とは？",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "Scene 7と同じ比較表。「デバイスから削除」行をハイライト（スマホ本体:消える／Googleフォト:残る）。",
+      "codex_overlay_text": {
+        "headline": "スマホ本体からだけ消す操作",
+        "support_text": "Googleフォトには残したまま、スマホ本体からだけ写真を消します。対象になるのは、バックアップ済みの写真です。",
+        "items": [
+          "スマホ本体: 消える",
+          "Googleフォト: 残る（これからも見られます）"
+        ]
+      },
+      "text_safe_area": "表はScene 7と同位置（x=140〜1780・y=240〜860）。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "static（ハイライト行の配色だけを変更）。",
+      "notes": "表レイアウトはScene 7と完全に同一にし、位置・配色を揃える（変更差分はハイライト行のみ）。"
+    },
+    {
+      "scene_id": 12,
+      "purpose": "実演",
+      "narration_range": {"start": 32, "end": 33},
+      "section_label": "3 / 6 「デバイスから削除」とは？",
+      "layout": "layout_04_text_official",
+      "render_mode": "official_placeholder",
+      "device": "emulator",
+      "main_visual": "Emulatorでメニューを開き「デバイスから削除」の項目を表示。レイアウトの実画面スロットに配置。",
+      "codex_overlay_text": {
+        "headline": "名前は「デバイスから削除」",
+        "support_text": "場所は、機種やアプリのバージョンによって、違う場合があります。",
+        "items": []
+      },
+      "text_safe_area": "説明文は左スロット、実画面は右スロット（x=1000〜1840）。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "static",
+      "asset_placeholder_path": "assets/emulator/delete_from_device.png",
+      "notes": "crop_target: 「デバイスから削除」メニュー項目の文字。「機種やバージョンで違う場合があります」の留保を字幕で明示。"
+    },
+    {
+      "scene_id": 13,
+      "purpose": "セクション扉",
+      "narration_range": {"start": 34, "end": 35},
+      "section_label": "4 / 6 「空き容量を増やす」とは？",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "device": "gpt_image",
+      "main_visual": "「スマホ本体の容量が空く」概念のGPTイラスト（スマホの収納が整理されてスッキリ空く）。GoogleフォトのUI・ロゴは描かない。",
+      "codex_overlay_text": {
+        "headline": "「このデバイスの空き容量を増やす」",
+        "support_text": "バックアップ済みの写真をまとめて、スマホ本体から削除して、容量を空ける機能です。",
+        "items": []
+      },
+      "text_safe_area": "左半分（x≦960）・上部60%以内。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "very_slow_zoom（整理されて空いていくイメージへゆっくり寄る）。",
+      "image_prompt": "1920×1080、一枚の完成した清潔感のある優しいイラスト背景。右側に、透明なガラスケースのように中が見えるスマートフォンのシルエット（画面は無地）。その中で、写真のつまった箱がいっぱいに詰まった状態から、明るい光とともに整理されてスッキリと空いた状態へ変わる「容量が空く」様子を、シンプルな箱と光で表現。左半分は文字用の静かなスペース（淡いミントグリーン〜白の壁面で、真っ白にはしない）。全体的に淡いグリーン・水色・ベージュのトーンで不安感を与えない。テキスト、文字、数字、ロゴ、ブランドマーク、スマホのUIは一切描かない。コラージュや複数シーンの分割はしない。",
+      "notes": "見出し「4 / 6」はCodex後描画。"
+    },
+    {
+      "scene_id": 14,
+      "purpose": "実演",
+      "narration_range": {"start": 36, "end": 38},
+      "section_label": "4 / 6 「空き容量を増やす」とは？",
+      "layout": "layout_04_text_official",
+      "render_mode": "official_placeholder",
+      "device": "emulator",
+      "main_visual": "Emulatorでプロフィール写真マーク→「このデバイスの空き容量を増やす」→対象の写真数と空く容量の表示まで。レイアウトの実画面スロットに配置。",
+      "codex_overlay_text": {
+        "headline": "押す前に、対象を確認",
+        "support_text": "「バックアップ済み」の写真だけが対象かを確認してください。",
+        "items": []
+      },
+      "text_safe_area": "説明文は左スロット、実画面は右スロット（x=1000〜1840）。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "static",
+      "asset_placeholder_path": "assets/emulator/free_up_space.png",
+      "notes": "crop_target: ①メニュー項目名 ②対象件数・空く容量の確認表示。確認ダイアログを大きくクロップして「押す前の確認」を強調。"
+    },
+    {
+      "scene_id": 15,
+      "purpose": "比較",
+      "narration_range": {"start": 39, "end": 41},
+      "section_label": "4 / 6 「空き容量を増やす」とは？",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "Scene 7と同じ比較表。「空き容量を増やす」行をハイライト（スマホ本体:消える／Googleフォト:残る）。",
+      "codex_overlay_text": {
+        "headline": "Googleフォトには残ります",
+        "support_text": "この操作では、Googleフォトの保存先から写真が消えることはありません。Androidでは、最近30日以内に保存した写真は、そのまま残る場合があります。",
+        "items": [
+          "スマホ本体: 消える",
+          "Googleフォト: 残る（引き続き見られます）"
+        ]
+      },
+      "text_safe_area": "表はScene 7と同位置（x=140〜1780・y=240〜860）。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "static（ハイライト行の配色だけを変更）。",
+      "notes": "表レイアウトはScene 7と同一。support_textの「場合があります」表現は事実境界に合わせる（断定しない）。"
+    },
+    {
+      "scene_id": 16,
+      "purpose": "比較",
+      "narration_range": {"start": 42, "end": 45},
+      "section_label": "4 / 6 「空き容量を増やす」とは？",
+      "layout": "layout_03_visual_text",
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "「スマホ本体の容量」と「Googleアカウントの保存容量」の2つの箱の図解（別々の箱であることを区切り線で明示）。Codexテンプレート描画。",
+      "codex_overlay_text": {
+        "headline": "スマホの容量と、Googleの容量は、別もの",
+        "support_text": "「空き容量を増やす」で空くのは、スマホ本体の容量だけです。Google側の容量は、変わりません。",
+        "items": [
+          "Google側の容量を空けたいとき: 写真を削除して、ゴミ箱からも完全に削除"
+        ]
+      },
+      "text_safe_area": "図は中央（x=240〜1680・y=200〜840）。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "static（2箱の図解は最初から表示）。",
+      "notes": "2箱の図はシンプルな矩形＋ラベルで描き、カードや装飾を増やさない。Google側の「ゴミ箱からも完全に削除」までを含める（seg 45）。"
+    },
+    {
+      "scene_id": 17,
+      "purpose": "セクション扉",
+      "narration_range": {"start": 46, "end": 47},
+      "section_label": "5 / 6 iPhoneはここに注意",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "device": "gpt_image",
+      "main_visual": "「iPhoneに2つの保管場所」の概念GPTイラスト（少し離れた2つの収納箱に写真が入る）。AppleのUI・ロゴ・アイコンは描かない。",
+      "codex_overlay_text": {
+        "headline": "iPhoneには、2つの保管場所",
+        "support_text": "もともとの「写真」アプリと、Googleフォトは、別の場所です。",
+        "items": []
+      },
+      "text_safe_area": "左半分（x≦960）・上部60%以内。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "very_slow_zoom（2つの保管場所の違いが伝わる程度のゆっくりした寄り）。",
+      "image_prompt": "1920×1080、一枚の完成した柔らかいイラスト背景。「別々の2つの保管場所」を、少し離れて並んだ2つの木製チェスト（または2つの紙箱）で表現し、それぞれの中に同じ家族写真のシルエットが1枚ずつ入っている。2つの箱の間には明確な余白があり、「別の場所」であることが一目で分かる。左半分は文字用に静かな背景（淡いブルーグレーの壁で、真っ白にはしない）。右側に2つの箱を配置。iPhoneやスマホの実機イラスト、画面UI、リンゴマーク等のロゴ、テキスト、文字、数字は一切描かない。コラージュや分割パネルはしない。",
+      "notes": "見出し「5 / 6」はCodex後描画。Appleの実機ロゴをGPTで描かせない。"
+    },
+    {
+      "scene_id": 18,
+      "purpose": "実演",
+      "narration_range": {"start": 48, "end": 49},
+      "section_label": "5 / 6 iPhoneはここに注意",
+      "layout": "layout_04_text_official",
+      "render_mode": "official_placeholder",
+      "device": "iphone",
+      "main_visual": "iPhone実機（またはApple公式ページ）で、Apple「写真」アプリとGoogleフォトの関係（どちらで消したかで結果が違う例）を確認する実演。レイアウトの実画面スロットに配置。",
+      "codex_overlay_text": {
+        "headline": "どこで消すかで、結果が違います",
+        "support_text": "たとえば、Googleフォトで「完全に削除」しても、Appleの「写真」アプリに、残る場合があります。",
+        "items": []
+      },
+      "text_safe_area": "説明文は左スロット、実画面は右スロット（x=1000〜1840）。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "static",
+      "asset_placeholder_path": "assets/iphone/photos_app_relation.png",
+      "notes": "crop_target: 削除の操作箇所と、残る場所（「最近削除した項目」）の関係が分かる表示。挙動はPhase Bで実機確認し、公式文言「残る場合があります」と一致させる。実機が用意できない場合はApple公式ページ（SRC-016/017）で代替。"
+    },
+    {
+      "scene_id": 19,
+      "purpose": "実演",
+      "narration_range": {"start": 50, "end": 52},
+      "section_label": "5 / 6 iPhoneはここに注意",
+      "layout": "layout_04_text_official",
+      "render_mode": "official_placeholder",
+      "device": "iphone",
+      "main_visual": "iPhone実機（またはApple公式ページ）の「最近削除した項目」画面。レイアウトの実画面スロットに配置。",
+      "codex_overlay_text": {
+        "headline": "「最近削除した項目」がゴミ箱",
+        "support_text": "iPhoneのゴミ箱のような場所で、30日間保管されます。30日を過ぎると、完全に削除されます。",
+        "items": []
+      },
+      "text_safe_area": "説明文は左スロット、実画面は右スロット（x=1000〜1840）。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "static",
+      "asset_placeholder_path": "assets/iphone/recently_deleted.png",
+      "notes": "crop_target: 「最近削除した項目」のタイトルと保管日数の表示。Apple公式ページのスクリーンショット（SRC-016/017）での代替可。"
+    },
+    {
+      "scene_id": 20,
+      "purpose": "比較",
+      "narration_range": {"start": 53, "end": 53},
+      "section_label": "5 / 6 iPhoneはここに注意",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "左右比較: Googleフォトのゴミ箱（バックアップ済み60日／未バックアップ30日）とiPhone「最近削除した項目」（30日間）。別の場所で名前が違うことを明示。",
+      "codex_overlay_text": {
+        "headline": "消したら、両方のゴミ箱を確認",
+        "support_text": "iPhoneでは、Googleフォトのゴミ箱と、「最近削除した項目」の、両方を確認しましょう。",
+        "items": [
+          "Googleフォトのゴミ箱: 60日（バックアップ済み）／30日（未バックアップ）",
+          "最近削除した項目: 30日間"
+        ]
+      },
+      "text_safe_area": "比較カードはx=140〜1780・y=240〜860に収める。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "static",
+      "notes": "Scene 7の比較表とは別物（2項目の左右比較としてlayout_05_compareを使用）。2つの保存場所の名前の違いを明示し、同じ役割（一時的に残る場所）であることはsupport_textで結ぶ。"
+    },
+    {
+      "scene_id": 21,
+      "purpose": "セクション扉",
+      "narration_range": {"start": 54, "end": 55},
+      "section_label": "6 / 6 間違えて消したら、復元",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "セクション見出しカード「6 / 6」。復元（戻す矢印）のtemplateシンボル。",
+      "codex_overlay_text": {
+        "headline": "間違えて消しても、復元できます",
+        "support_text": "Googleフォトのゴミ箱には、消した写真が、しばらく残っています。",
+        "items": []
+      },
+      "text_safe_area": "見出しは中央（x=240〜1680）、y=300〜700。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "section_fade",
+      "notes": "ゴミ箱の存在と保持期間はScene 8で説明済みのため、ここでは参照のみ（重複説明しない）。"
+    },
+    {
+      "scene_id": 22,
+      "purpose": "実演",
+      "narration_range": {"start": 56, "end": 58},
+      "section_label": "6 / 6 間違えて消したら、復元",
+      "layout": "layout_04_text_official",
+      "render_mode": "official_placeholder",
+      "device": "emulator",
+      "main_visual": "Emulatorでゴミ箱を開く→戻したい写真を選択→「復元」をタップ→元の場所に戻る一連の操作。レイアウトの実画面スロットに配置。",
+      "codex_overlay_text": {
+        "headline": "ゴミ箱から復元できます",
+        "support_text": "ただし、期間を過ぎると完全に削除されて、戻せなくなります。",
+        "items": []
+      },
+      "text_safe_area": "説明文は左スロット、実画面は右スロット（x=1000〜1840）。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "static（1連の復元操作は実録画を途切れさせず見せる）。",
+      "asset_placeholder_path": "assets/emulator/restore_from_trash.png",
+      "notes": "crop_target: 「復元」ボタンと復元後の表示。「戻せなくなる」注意（seg 58）は画面の切替えのタイミングに合わせる。"
+    },
+    {
+      "scene_id": 23,
+      "purpose": "注意",
+      "narration_range": {"start": 59, "end": 59},
+      "section_label": "6 / 6 間違えて消したら、復元",
+      "layout": "layout_06_caution",
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "安心カード（落ち着いた配色）。ゴミ箱の確認を促すひとこと。",
+      "codex_overlay_text": {
+        "headline": "消したことに気づいたら、早めに確認",
+        "support_text": "ゴミ箱を確認するのが安心です。",
+        "items": []
+      },
+      "text_safe_area": "中央・上部（x=240〜1680・y=220〜700）。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "static",
+      "notes": ""
+    },
+    {
+      "scene_id": 24,
+      "purpose": "まとめ",
+      "narration_range": {"start": 60, "end": 64},
+      "section_label": "まとめ",
+      "layout": "layout_07_summary",
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "まとめ4項目のチェックリスト。要点のみで各節の再説明はしない。",
+      "codex_overlay_text": {
+        "headline": "今日のまとめ",
+        "support_text": "",
+        "items": [
+          "写真を消す前に: バックアップが済んでいるか確認",
+          "「削除」: スマホとGoogleフォトの、両方から消える",
+          "「デバイスから削除」「空き容量を増やす」: Googleフォトには残る",
+          "間違えて消しても: ゴミ箱に残っている間は復元できる"
+        ]
+      },
+      "text_safe_area": "リストはx=240〜1680・y=200〜840に収め、行間を広くとる（50〜70代向け）。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "summary_stagger（4項目をseg 61〜64のナレーションに合わせて1件ずつ表示）。",
+      "notes": "「あわてずに、確認しましょう」（seg 65）はScene 25で受ける。"
+    },
+    {
+      "scene_id": 25,
+      "purpose": "クロージング",
+      "narration_range": {"start": 65, "end": 65},
+      "section_label": "まとめ（クロージング）",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "device": "gpt_image",
+      "main_visual": "家族（シニア夫妻または親子）が一緒にスマホを確認する安心の光景。テキスト・ロゴなし。",
+      "codex_overlay_text": {
+        "headline": "あわてずに、確認しましょう",
+        "support_text": "分からないことは、家族といっしょに確認できます。",
+        "items": []
+      },
+      "text_safe_area": "左半分（x≦960）・上部60%以内。下部180px字幕帯（y≧900）には配置しない。",
+      "animation_recommendation": "very_slow_zoom（人々の穏やかな様子へゆっくり寄る）。",
+      "image_prompt": "1920×1080、一枚で完結した温かい写実的な背景イラスト。60代の日本人夫妻が、家庭のダイニングテーブルで並んで座り、1台のスマートフォンを2人でのぞき込んでいる。2人とも穏やかで安心した表情、肩の力が抜けた姿勢。スマホの画面はわずかにぼかして具体的なUIは判別できない。右側に夫妻、左半分は静かな壁と小さな棚（本や湯のみ）だけの、文字を重ねるための落ち着いた余白（真っ白ではない）。夕方の暖かい照明、くつろいだ家庭の雰囲気。テキスト、文字、数字、ロゴ、ブランドマーク、スマホのUIは一切描かない。コラージュ、分割パネル、複数シーンの合成はしない。",
+      "notes": "最終ナレーション（seg 65）と同期させ、CTA（Scene 26）へ自然につなぐ。"
+    },
+    {
+      "scene_id": 26,
+      "purpose": "クロージング",
+      "narration_range": {"start": null, "end": null},
+      "section_label": "CTA",
+      "layout": "layout_01_hero",
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "channel_common_cta（共通CTA画面）を表示。ナレーションなし・約10秒。",
+      "codex_overlay_text": {
+        "headline": "",
+        "support_text": "",
+        "items": []
+      },
+      "text_safe_area": "CTA画像の標準構図（チャンネル名・登録ボタン領域）をそのまま使用。ナレーションなしのため字幕もなし（下部180px字幕帯は空ける）。",
+      "animation_recommendation": "static",
+      "notes": "文言はconfig/channel_cta.jsonのchannel_common_ctaに準拠（Phase Bで確定）。CTA asset: work/channel_cta.png（未作成・Phase Bで用意）。「怖がらせる前に、確認する。」のブランド約束はCTAに含めない。"
+    }
+  ]
+}

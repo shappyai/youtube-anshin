@@ -1,0 +1,3 @@
+﻿path,kind,source,status,note
+assets/chatgpt_home_mobile.png,official_mobile_capture,https://chatgpt.com/,captured_public_logged_out,現行ChatGPTモバイルWebの公開画面。アカウント情報・履歴なし。Voiceアイコンはログアウト画面では未表示。
+assets/voice_official_mobile_clean2.png,official_reference_capture,https://chatgpt.com/ja-JP/features/voice/,captured_public,OpenAI公式音声モード案内。実機UIとしてではなく、用語確認用。

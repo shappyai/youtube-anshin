@@ -1,0 +1,8 @@
+﻿path,kind,source,status,note
+assets/imagegen_native_v2/normalized/scene_01_hook.png,imagegen_native_reused,reused_from_v2 / built-in image_gen,used_in_draft_v5,ImageGen-native完成画。文字なしまたは既存native文字。後乗せ大見出しなし。
+assets/official_v5/normalized/chatgpt_home_current.png,real_current_ui_capture,https://chatgpt.com/,used_in_draft_v5,現行chatgpt.comログアウト画面の実画面。Voiceライブセッションとして表示しない。
+assets/official_v5/normalized/voice_official_reference.png,official_reference_capture,https://chatgpt.com/ja-JP/features/voice/,used_in_draft_v5,公式Voice紹介ページの参照画面。アプリ内ライブUIとして表示しない。
+assets/imagegen_native_v2/normalized/scene_04_life.png,imagegen_native_reused,reused_from_v2 / built-in image_gen,used_in_draft_v5,ImageGen-native完成画。文字なしまたは既存native文字。後乗せ大見出しなし。
+assets/imagegen_native_v2/normalized/scene_06_summary.png,imagegen_native_reused,reused_from_v2 / built-in image_gen,used_in_draft_v5,ImageGen-native完成画。文字なしまたは既存native文字。後乗せ大見出しなし。
+assets/official_v5/channel_icon.png,canonical_channel_icon,local/channel/icon.png,used_in_draft_v5_cta,人間承認済み実チャンネルアイコン。180px。チャンネル名：大人のデジタル安心室。疑似subscribe UIなし。
+assets/thumbnail_candidate/first_frame_thumbnail_candidate.png,first_frame_thumbnail_candidate,assets/imagegen_native_v2/normalized/scene_01_hook.png,reused_not_confirmed,サムネイル候補。サムネイル確定は未実施。

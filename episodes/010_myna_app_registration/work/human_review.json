@@ -1,0 +1,23 @@
+{
+  "episode_id": "010",
+  "reviewed_at": "2026-09-06",
+  "reviewer": "user",
+  "video": {
+    "draft_v2.mp4": "approved"
+  },
+  "thumbnail": {
+    "thumbnail_source.png": "human_selected",
+    "thumbnail.png": "approved"
+  },
+  "senior_readability": "PASS",
+  "scope": [
+    "Visual Gate v2",
+    "draft_v2 full-watch",
+    "viewer-facing internal episode ID removal",
+    "related-video wording",
+    "CTA visual balance and +110px shift",
+    "first action at approximately 28.5 seconds",
+    "registration_conversion_v1"
+  ],
+  "note": "draft_v2の全編視聴を承認。final.mp4はcopy-onlyで確定。ユーザー指定のChatGPT生成サムネイルを受領し、公開用正規化画像のQAを承認。YouTubeはprivateで2026-09-06 19:00 JSTに予約する。"
+}

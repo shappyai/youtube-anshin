@@ -1,0 +1,34 @@
+{
+  "episode_id": "009",
+  "artifact": "draft_v3",
+  "status": "APPROVED",
+  "approval_date": "2026-09-05",
+  "human_approval": true,
+  "human_review_scope": "draft_v3全編視聴と発音確認",
+  "resolved_review_count": 2,
+  "unresolved_count": 0,
+  "global_dictionary_entry_for_方": false,
+  "permanent_rule": "AGENTS.mdのambiguous_方_avoidanceを維持",
+  "occurrences": [
+    {
+      "segment_id": 1,
+      "category": "A_person_reference",
+      "text": "Windows 11を使っている方、2026年10月13日に、一部のWindows 11で更新の提供が終わります。",
+      "approved_reading": "かた",
+      "status": "APPROVED",
+      "approval_note": "人を指す用法。draft_v3全編レビューで聞き取り・文脈を承認。"
+    },
+    {
+      "segment_id": 11,
+      "category": "D_redundant_person_phrase",
+      "text": "家庭でよく使われるHomeやProの方は、まず自分のバージョンを確認しましょう。",
+      "approved_reading": "かた",
+      "status": "APPROVED",
+      "approval_note": "既存の台本文脈を維持した局所読み。draft_v3全編レビューで承認。"
+    }
+  ],
+  "target_rewrites": [
+    {"segment_id": 6, "old": "考え方", "new": "考えるポイント", "status": "PASS"},
+    {"segment_id": 38, "old": "24H2の方は", "new": "24H2の場合は", "status": "PASS"}
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "short_id": "Short002",
+  "version": "v4",
+  "prompt_file": "work/imagegen_prompts_v3.md",
+  "reuse_policy": "v2のImageGen-native完成画を再利用。新規ImageGen callなし。Short002の拒否済みscene_02_maskは再利用しない。",
+  "assets": [
+    {
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "source": "reused_from_v2 / built-in image_gen",
+      "text_render_mode": "imagegen_native",
+      "headline_lines": [
+        "このメール、",
+        "本物？"
+      ],
+      "exact_text_qa": "PASS_REVALIDATED",
+      "vision_qa": "PASS_REUSED",
+      "official_ui_ai_reconstruction": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "a3ebe0f10d85dcdae4135df728fc41a0b43f5484d7ff9260110f7137a82e0b85"
+    },
+    {
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "source": "reused_from_v2 / built-in image_gen",
+      "text_render_mode": "imagegen_native",
+      "headline_lines": [
+        "最後は",
+        "公式から確認"
+      ],
+      "exact_text_qa": "PASS_REVALIDATED",
+      "vision_qa": "PASS_REUSED",
+      "official_ui_ai_reconstruction": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "9b710d3a5878d219335461a090b07a623834feebc08ee73231c5e5638c1a88d6"
+    }
+  ],
+  "official_capture_assets": [],
+  "metrics": {
+    "unique_imagegen_native_asset_count": 2,
+    "imagegen_call_count": 0,
+    "regeneration_count": 0,
+    "exact_text_fail_count": 0,
+    "hybrid_generated_image_large_text": 0
+  }
+}

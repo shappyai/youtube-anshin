@@ -1,0 +1,2057 @@
+{
+  "schema_version": "1.0.0",
+  "metadata": {
+    "research_date": "2026-09-01",
+    "production_phase": "Phase 2 Phase A / GPT image gate",
+    "media_decision": "AndroidのGoogleフォト操作=Android Emulator、iPhone（Apple写真アプリ・最近削除した項目）=iPhone実機またはApple公式ページ、概念・安心画面=GPT画像（GoogleフォトのUIはAIで再現しない）、一覧・比較・まとめ=Codexテンプレート、公式文言の出典=Google/Apple公式ページ。",
+    "primary_sources": [
+      "Googleフォト公式ヘルプ（削除・空き容量を増やす・バックアップ・ストレージ管理）",
+      "Googleドライブ公式ヘルプ（保存容量管理）",
+      "Apple Support公式（最近削除した項目・写真の削除）",
+      "Google公式ブログ（ストレージポリシー変更）"
+    ],
+    "fact_boundary": "「写真を消しても大丈夫」と一括断定しない。「削除」はスマホとGoogleフォト両方から消える（公式の重要文言）。「デバイスから削除」「空き容量を増やす」はクラウド側に残る。ゴミ箱はバックアップ済み60日・未バックアップ30日（2026-09-01時点の公式値）。Apple「最近削除した項目」は30日。iOSの「デバイスから削除」は公式ヘルプに手順あり（2026-09-01）だが実機UIはバージョン差の可能性を留保。空き容量を増やすでGoogleアカウント容量は減らない。"
+  },
+  "episode": {
+    "episode_id": "005",
+    "slug": "google_photos_delete",
+    "title": "【Googleフォト】写真を消して大丈夫？「削除」と「空き容量を増やす」の違い",
+    "target_duration": 390.0,
+    "status": "draft",
+    "topic": "Googleフォトの「削除」「デバイスから削除」「このデバイスの空き容量を増やす」の違いと、バックアップ確認・ゴミ箱復元・Android/iPhone差",
+    "target_audience": "スマホの容量がいっぱいで写真を整理したいが、Googleフォトから写真が消えるのではと不安な50〜70代と、その家族"
+  },
+  "narration": {
+    "speaker": "VOICEVOX",
+    "voice": "剣崎雌雄",
+    "style": "ノーマル",
+    "speedScale": 1.0,
+    "intonationScale": 1.0,
+    "pitchScale": 0.0,
+    "segment_policy": "1文ずつaudio_query→synthesis。Phase Aでは全文生成しない。"
+  },
+  "postroll": {
+    "kind": "channel_cta",
+    "profile": "channel_common_cta",
+    "duration_sec": 12.56,
+    "animation": "static",
+    "cta_profile": "channel_common_cta",
+    "asset": "work/channel_cta.png",
+    "cta_audio": "audio/voicevox_kenzaki/cta_channel_common.wav",
+    "cta_content_hash": "c0df4a036b397effa920436c4ba473186737ed6e5cc3df54b85afe8ba32b82eb"
+  },
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "url": "https://support.google.com/photos/answer/6128858?co=GENIE.Platform%3DAndroid&hl=ja",
+      "title": "写真や動画を削除する（Android）",
+      "organization": "Google（フォト公式ヘルプ）",
+      "verified_at": "2026-09-01",
+      "claim": "バックアップ済み写真・動画は削除後ゴミ箱に保持され、60日後に完全削除。バックアップ済みでないものは30日後に完全削除。「重要: Googleフォトアプリから写真や動画を削除すると、デバイスからも同じ写真や動画が削除されます…バックアップ対象のアイテムの場合は、バックアップがオンになっているすべてのデバイスから削除されます。Googleフォトアプリからのみ削除するには、まずスマートフォンでバックアップをオフにします。」「デバイスから削除」手順（その他アイコン→デバイスから削除）。削除ページのヒント「一部の写真は、削除すると容量を節約できます」。"
+    },
+    {
+      "source_id": "SRC-002",
+      "url": "https://support.google.com/photos/answer/6128858?co=GENIE.Platform%3DiOS&hl=ja",
+      "title": "写真や動画を削除する（iPhone/iPad）",
+      "organization": "Google（フォト公式ヘルプ）",
+      "verified_at": "2026-09-01",
+      "claim": "iOS版にも「デバイスから削除」手順が記載（2026-09-01現在）。ヒント「iPhoneまたはiPadのGoogleフォトから写真や動画を完全に削除しても、Appleの写真アプリの［最近削除した項目］フォルダには残る場合があります。」"
+    },
+    {
+      "source_id": "SRC-003",
+      "url": "https://support.google.com/photos/answer/6128858?co=GENIE.Platform%3DDesktop&hl=ja",
+      "title": "写真や動画を削除する（パソコン/Web）",
+      "organization": "Google（フォト公式ヘルプ）",
+      "verified_at": "2026-09-01",
+      "claim": "ゴミ箱を空にする手順、完全削除手順（photos.google.com）。ゴミ箱・完全削除の仕様はSRC-001/004と同じ。"
+    },
+    {
+      "source_id": "SRC-004",
+      "url": "https://support.google.com/photos/answer/6128858?co=GENIE.Platform%3DDesktop&hl=en",
+      "title": "Delete photos & videos (Desktop, en)",
+      "organization": "Google（フォト公式ヘルプ）",
+      "verified_at": "2026-09-01",
+      "claim": "英語公式文「Backed up photos and videos you delete will stay in your trash for 60 days before they're permanently deleted forever. If the photos and videos aren't backed up, they'll be permanently deleted after 30 days. Photos and videos that were permanently deleted can't be restored.」"
+    },
+    {
+      "source_id": "SRC-005",
+      "url": "https://support.google.com/photos/answer/6128843?co=GENIE.Platform%3DAndroid&hl=ja",
+      "title": "デバイスの空き容量を増やす（Android）",
+      "organization": "Google（フォト公式ヘルプ）",
+      "verified_at": "2026-09-01",
+      "claim": "「Googleフォトに写真を安全にバックアップした後にデバイスから写真を削除すれば、デバイスの空き容量を増やせます。」「重要: 写真を削除する前に、必ずバックアップを取ってください。」手順（プロフィール写真またはイニシャル→このデバイスの空き容量を増やす→空き容量を[x]増やす）。「過去30日以内にデバイスに保存した写真や動画は、デバイスに保持される場合があります。写真や動画は、Googleフォトライブラリにバックアップとして残ります。」削除後もGoogleフォトアプリやphotos.google.comで表示可能。"
+    },
+    {
+      "source_id": "SRC-006",
+      "url": "https://support.google.com/photos/answer/6128843?co=GENIE.Platform%3DiOS&hl=ja",
+      "title": "デバイスの空き容量を増やす（iPhone/iPad）",
+      "organization": "Google（フォト公式ヘルプ）",
+      "verified_at": "2026-09-01",
+      "claim": "iOS版の手順（プロフィール写真またはイニシャル→このデバイスの空き容量を増やす→デバイスから[x]個のアイテムを削除→削除）。「30日以上経過した写真や動画は、デバイスから削除しても、Googleフォトライブラリにバックアップとして残ります。」実行後に「iPhoneまたはiPadの写真アプリを開きます（Googleフォトアプリではありません）。［最近削除した項目］を開き、同じ写真と動画を削除します」と公式案内。"
+    },
+    {
+      "source_id": "SRC-007",
+      "url": "https://support.google.com/photos/answer/6193313?co=GENIE.Platform%3DAndroid&hl=ja",
+      "title": "写真や動画をバックアップする（Android）",
+      "organization": "Google（フォト公式ヘルプ）",
+      "verified_at": "2026-09-01",
+      "claim": "現行の設定項目名は「バックアップ」（パス: プロフィール写真またはイニシャル→フォトの設定→バックアップ）。「アイテムのバックアップが完了すると、ステータスには『バックアップが完了しました』と表示されます。バックアップステータスがオフの場合『バックアップがオフになっています』。」"
+    },
+    {
+      "source_id": "SRC-008",
+      "url": "https://support.google.com/photos/answer/6193313?co=GENIE.Platform%3DiOS&hl=ja",
+      "title": "写真や動画をバックアップする（iPhone/iPad）",
+      "organization": "Google（フォト公式ヘルプ）",
+      "verified_at": "2026-09-01",
+      "claim": "iOSの設定パス（右上のプロフィール写真またはイニシャル→Googleフォトの設定→バックアップ）、iOSの写真アクセス許可手順。"
+    },
+    {
+      "source_id": "SRC-009",
+      "url": "https://support.google.com/photos/answer/10100180?hl=ja",
+      "title": "Google フォト ストレージ使用量",
+      "organization": "Google（フォト公式ヘルプ）",
+      "verified_at": "2026-09-01",
+      "claim": "各Googleアカウント最大15GB、Gmail/ドライブ/フォトで共有。保存容量を使い切ると新しい写真や動画を保存できなくなる。2021年6月1日境界。ストレージ管理ツール、保留中バックアップ。"
+    },
+    {
+      "source_id": "SRC-010",
+      "url": "https://support.google.com/photos/answer/10100180?hl=en",
+      "title": "Storage usage in Google Photos (en)",
+      "organization": "Google（フォト公式ヘルプ）",
+      "verified_at": "2026-09-01",
+      "claim": "英語版の同内容（trash 60日などの仕様と一致）。"
+    },
+    {
+      "source_id": "SRC-011",
+      "url": "https://support.google.com/photos/answer/9284827?hl=ja",
+      "title": "ストレージを管理する（パソコン）",
+      "organization": "Google（フォト公式ヘルプ）",
+      "verified_at": "2026-09-01",
+      "claim": "保存容量にカウントされないアイテムの一覧、削除で容量を節約するヒント。"
+    },
+    {
+      "source_id": "SRC-012",
+      "url": "https://support.google.com/photos/answer/9284827?co=GENIE.Platform%3DAndroid&hl=ja",
+      "title": "ストレージを管理する（Android）",
+      "organization": "Google（フォト公式ヘルプ）",
+      "verified_at": "2026-09-01",
+      "claim": "設定パス（プロフィール→フォトの設定→バックアップ→ストレージを管理）。「2021年6月1日より前に保存容量の節約画質（旧称『高画質』）またはエクスプレス画質でバックアップしたすべての写真と動画は、Googleアカウントの保存容量にカウントされません。」"
+    },
+    {
+      "source_id": "SRC-013",
+      "url": "https://support.google.com/photos/answer/9284827?co=GENIE.Platform%3DiOS&hl=ja",
+      "title": "ストレージを管理する（iPhone/iPad）",
+      "organization": "Google（フォト公式ヘルプ）",
+      "verified_at": "2026-09-01",
+      "claim": "iOSの設定パス（プロフィール→Googleフォトの設定アイコン→バックアップ→ストレージを管理）。"
+    },
+    {
+      "source_id": "SRC-014",
+      "url": "https://support.google.com/photos/answer/9284827?hl=en",
+      "title": "Manage your storage (en)",
+      "organization": "Google（フォト公式ヘルプ）",
+      "verified_at": "2026-09-01",
+      "claim": "英語版（what doesn't count toward storage）。"
+    },
+    {
+      "source_id": "SRC-015",
+      "url": "https://support.google.com/drive/answer/6374270?hl=ja",
+      "title": "ドライブ、Gmail、フォトの保存容量を管理する",
+      "organization": "Google（ドライブ公式ヘルプ）",
+      "verified_at": "2026-09-01",
+      "claim": "「ゴミ箱と迷惑メールフォルダを空にする: これが、空き容量を増やす最も迅速な方法です。これらのフォルダ内のアイテムは、完全に削除するまで保存容量の上限の対象としてカウントされます。」「重要: 複数のファイルを一度に削除すると、保存容量が更新されるまでに時間がかかることがあります（最長で48〜72時間）。」"
+    },
+    {
+      "source_id": "SRC-016",
+      "url": "https://support.apple.com/ja-jp/124460",
+      "title": "iPhone、iPad、Mac、またはApple Vision Proで削除された写真を復元する方法",
+      "organization": "Apple（サポート公式）",
+      "verified_at": "2026-09-01",
+      "claim": "「写真やビデオを削除すると、『最近削除した項目』アルバムに移動します。『最近削除した項目』アルバムの中身は30日間保管されます。30日が経過した後は完全に削除されるので、取り戻せなくなります。」復元手順。"
+    },
+    {
+      "source_id": "SRC-017",
+      "url": "https://support.apple.com/ja-jp/guide/iphone/iphb4defbde9/26/ios/26",
+      "title": "iPhoneで写真やビデオを削除する/非表示にする",
+      "organization": "Apple（iPhoneユーザガイド公式）",
+      "verified_at": "2026-09-01",
+      "claim": "削除した写真・ビデオは完全に削除されるまで「最近削除した項目」コレクションに30日間保管され、その間復元または完全削除できる。「iCloud写真を使用している場合は、削除するか非表示にした写真がすべてのデバイスでも削除されるか非表示になります。」"
+    },
+    {
+      "source_id": "SRC-018",
+      "url": "https://blog.google/intl/ja-jp/products/connect-communicate/2020_11_storage-policies-update/",
+      "title": "Googleアカウントのストレージポリシー変更について",
+      "organization": "Google公式ブログ",
+      "verified_at": "2026-09-01",
+      "claim": "2020-11-12公開。「2021年6月1日以降に、Googleフォトにアップロードされる新しい写真や動画は、すべてGoogleアカウントに付随する無料の15GBストレージ、またはGoogle Oneメンバーシップとして購入した追加のストレージ容量を使用しているものとして計上されます。」それ以前の高画質分は対象外。当時は「バックアップと同期」という名称だった。"
+    },
+    {
+      "source_id": "SRC-019",
+      "url": "https://blog.google/products-and-platforms/products/photos/storage-changes/",
+      "title": "Updating Google Photos' storage policy to build for the future",
+      "organization": "Google公式ブログ",
+      "verified_at": "2026-09-01",
+      "claim": "2020-11-11公開の英語版発表。2021年6月1日以降のアップロードが15GBに計上される。"
+    },
+    {
+      "source_id": "SRC-020",
+      "url": "https://support.apple.com/ja-jp/guide/iphone/welcome/ios",
+      "title": "iPhoneユーザガイド（目次）",
+      "organization": "Apple",
+      "verified_at": "2026-09-01",
+      "claim": "誤って取得したガイド目次（深リンクがリダイレクト）。削除トピックの本文はSRC-017で取得済み。参考のみ。"
+    },
+    {
+      "source_id": "SRC-021",
+      "url": "https://support.google.com/photos/answer/9343482?co=GENIE.Platform%3DAndroid&hl=ja",
+      "title": "最近削除した写真や動画を復元する（Android）",
+      "organization": "Google（フォト公式ヘルプ）",
+      "verified_at": "2026-09-01",
+      "claim": "まだゴミ箱に残っている写真や動画は復元できる。Androidでは「コレクション」→「ゴミ箱」→写真や動画を長押し→下部の「復元」。復元先は保存されていたアルバム、Googleフォトライブラリ、スマートフォンのギャラリーアプリ。バックアップ済みは60日以内、未バックアップはAndroid 11以降で30日以内など、復元可能期間の公式条件も確認。"
+    }
+  ],
+  "narration_segments": [
+    {
+      "id": 1,
+      "section": "はじめに",
+      "narration": "スマホの写真がたまって、容量がいっぱいになったことはありませんか。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-001"
+      ]
+    },
+    {
+      "id": 2,
+      "section": "はじめに",
+      "narration": "でも、写真を消したら、Googleフォトからも、なくなってしまいそうで、こわいですよね。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-002"
+      ]
+    },
+    {
+      "id": 3,
+      "section": "はじめに",
+      "narration": "今日は、その不安を、いっしょに解消しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-003"
+      ]
+    },
+    {
+      "id": 4,
+      "section": "はじめに",
+      "narration": "結論から言うと、Googleフォトの「削除」と「空き容量を増やす」は、よく似ていますが、意味が違います。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-004"
+      ]
+    },
+    {
+      "id": 5,
+      "section": "はじめに",
+      "narration": "どの操作で、何が消えて、何が残るのかを、順番に確認していきます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-005"
+      ]
+    },
+    {
+      "id": 6,
+      "section": "はじめに",
+      "narration": "確認することは、この3つです。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-006"
+      ]
+    },
+    {
+      "id": 7,
+      "section": "はじめに",
+      "narration": "一つ、写真がバックアップされているか。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-007"
+      ]
+    },
+    {
+      "id": 8,
+      "section": "はじめに",
+      "narration": "二つ、「削除」と「空き容量を増やす」の違い。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-008"
+      ]
+    },
+    {
+      "id": 9,
+      "section": "はじめに",
+      "narration": "三つ、消してしまったときの、ゴミ箱からの復元です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-009"
+      ]
+    },
+    {
+      "id": 10,
+      "section": "1 / 6 まず、バックアップの確認",
+      "narration": "最初に確認するのは、写真がバックアップされているかどうかです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-010"
+      ]
+    },
+    {
+      "id": 11,
+      "section": "1 / 6 まず、バックアップの確認",
+      "narration": "バックアップとは、写真のコピーを、スマホとは別の、Googleの保管場所に、預けておくことです。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-011"
+      ]
+    },
+    {
+      "id": 12,
+      "section": "1 / 6 まず、バックアップの確認",
+      "narration": "実際の画面で、確認の仕方を見てみましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-012"
+      ]
+    },
+    {
+      "id": 13,
+      "section": "1 / 6 まず、バックアップの確認",
+      "narration": "Googleフォトのアプリを開き、右上の、自分の写真のマークをタップします。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-013"
+      ]
+    },
+    {
+      "id": 14,
+      "section": "1 / 6 まず、バックアップの確認",
+      "narration": "設定の画面を開くと、バックアップという項目があります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-014"
+      ]
+    },
+    {
+      "id": 15,
+      "section": "1 / 6 まず、バックアップの確認",
+      "narration": "オンになっていて、「バックアップが完了しました」と表示されていれば、写真のコピーは、Google側にあります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-015"
+      ]
+    },
+    {
+      "id": 16,
+      "section": "1 / 6 まず、バックアップの確認",
+      "narration": "これからの操作は、この「バックアップ済み」の写真を対象にするので、まず、ここを確認しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-016"
+      ]
+    },
+    {
+      "id": 17,
+      "section": "2 / 6 「削除」を押すと、何が起きる？",
+      "narration": "では次に、「削除」を押すと、何が起きるのかを、確認します。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-017"
+      ]
+    },
+    {
+      "id": 18,
+      "section": "2 / 6 「削除」を押すと、何が起きる？",
+      "narration": "Googleフォトで、写真を選んで、ゴミ箱のアイコンを押すと、その写真は消えます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 6,
+      "subtitle_ids": [
+        "SUB-018"
+      ]
+    },
+    {
+      "id": 19,
+      "section": "2 / 6 「削除」を押すと、何が起きる？",
+      "narration": "ここが、いちばん知っておいてほしいポイントです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-019"
+      ]
+    },
+    {
+      "id": 20,
+      "section": "2 / 6 「削除」を押すと、何が起きる？",
+      "narration": "Googleフォトで「削除」すると、スマホ本体にあった、同じ写真も、いっしょに消えます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-020"
+      ]
+    },
+    {
+      "id": 21,
+      "section": "2 / 6 「削除」を押すと、何が起きる？",
+      "narration": "バックアップをオンにしている、ほかの端末からも、消えます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-021"
+      ]
+    },
+    {
+      "id": 22,
+      "section": "2 / 6 「削除」を押すと、何が起きる？",
+      "narration": "消えた写真は、すぐに完全に消えるのではなく、まず、ゴミ箱に入ります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-022"
+      ]
+    },
+    {
+      "id": 23,
+      "section": "2 / 6 「削除」を押すと、何が起きる？",
+      "narration": "バックアップ済みの写真は、ゴミ箱に60日間、残ります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-023"
+      ]
+    },
+    {
+      "id": 24,
+      "section": "2 / 6 「削除」を押すと、何が起きる？",
+      "narration": "バックアップされていない写真は、30日で、完全に削除されます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-024"
+      ]
+    },
+    {
+      "id": 25,
+      "section": "2 / 6 「削除」を押すと、何が起きる？",
+      "narration": "つまり、「削除」を押す前には、「この写真は、もういらない」と、確認してからにしましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 9,
+      "subtitle_ids": [
+        "SUB-025"
+      ]
+    },
+    {
+      "id": 26,
+      "section": "3 / 6 「デバイスから削除」とは？",
+      "narration": "次は、「デバイスから削除」という操作です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-026"
+      ]
+    },
+    {
+      "id": 27,
+      "section": "3 / 6 「デバイスから削除」とは？",
+      "narration": "デバイスとは、スマホ本体のことです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-027"
+      ]
+    },
+    {
+      "id": 28,
+      "section": "3 / 6 「デバイスから削除」とは？",
+      "narration": "これは、Googleフォトには残したまま、スマホ本体からだけ、写真を消す操作です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-028"
+      ]
+    },
+    {
+      "id": 29,
+      "section": "3 / 6 「デバイスから削除」とは？",
+      "narration": "つまり、Googleフォトでは、写真を、これからも見ることができます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-029"
+      ]
+    },
+    {
+      "id": 30,
+      "section": "3 / 6 「デバイスから削除」とは？",
+      "narration": "スマホ本体の容量だけを、空けるための操作です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-030"
+      ]
+    },
+    {
+      "id": 31,
+      "section": "3 / 6 「デバイスから削除」とは？",
+      "narration": "対象になるのは、基本的に、バックアップ済みの写真です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-031"
+      ]
+    },
+    {
+      "id": 32,
+      "section": "3 / 6 「デバイスから削除」とは？",
+      "narration": "メニューの場所は、機種やアプリのバージョンによって、違う場合があります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-032"
+      ]
+    },
+    {
+      "id": 33,
+      "section": "3 / 6 「デバイスから削除」とは？",
+      "narration": "名前は、「デバイスから削除」です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-033"
+      ]
+    },
+    {
+      "id": 34,
+      "section": "4 / 6 「空き容量を増やす」とは？",
+      "narration": "次は、「このデバイスの空き容量を増やす」という機能です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-034"
+      ]
+    },
+    {
+      "id": 35,
+      "section": "4 / 6 「空き容量を増やす」とは？",
+      "narration": "これは、バックアップ済みの写真をまとめて、スマホ本体から削除して、容量を空ける機能です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-035"
+      ]
+    },
+    {
+      "id": 36,
+      "section": "4 / 6 「空き容量を増やす」とは？",
+      "narration": "場所は、右上の、自分の写真のマークから、このメニューにあります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-036"
+      ]
+    },
+    {
+      "id": 37,
+      "section": "4 / 6 「空き容量を増やす」とは？",
+      "narration": "押すと、対象の写真の数と、空く容量が表示されます。",
+      "reading_overrides": {
+        "空く": "あく"
+      },
+      "pause_after": 0.3,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-037"
+      ]
+    },
+    {
+      "id": 38,
+      "section": "4 / 6 「空き容量を増やす」とは？",
+      "narration": "ここで、「バックアップ済み」の写真だけが対象かを、確認してください。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-038"
+      ]
+    },
+    {
+      "id": 39,
+      "section": "4 / 6 「空き容量を増やす」とは？",
+      "narration": "この操作では、Googleフォトの保存先から、写真が消えることは、ありません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 15,
+      "subtitle_ids": [
+        "SUB-039"
+      ]
+    },
+    {
+      "id": 40,
+      "section": "4 / 6 「空き容量を増やす」とは？",
+      "narration": "スマホ本体から消えるだけで、Googleフォトでは、引き続き、写真を見られます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 15,
+      "subtitle_ids": [
+        "SUB-040"
+      ]
+    },
+    {
+      "id": 41,
+      "section": "4 / 6 「空き容量を増やす」とは？",
+      "narration": "なお、Androidでは、最近30日以内に保存した写真は、そのまま残る場合があります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 15,
+      "subtitle_ids": [
+        "SUB-041"
+      ]
+    },
+    {
+      "id": 42,
+      "section": "4 / 6 「空き容量を増やす」とは？",
+      "narration": "もうひとつ、大切なことをお伝えします。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-042"
+      ]
+    },
+    {
+      "id": 43,
+      "section": "4 / 6 「空き容量を増やす」とは？",
+      "narration": "スマホ本体の容量と、Googleアカウントの保存容量は、別ものです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-043"
+      ]
+    },
+    {
+      "id": 44,
+      "section": "4 / 6 「空き容量を増やす」とは？",
+      "narration": "「空き容量を増やす」で空くのは、スマホ本体の容量だけで、Google側の容量は、変わりません。",
+      "reading_overrides": {
+        "空く": "あく"
+      },
+      "pause_after": 0.3,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-044"
+      ]
+    },
+    {
+      "id": 45,
+      "section": "4 / 6 「空き容量を増やす」とは？",
+      "narration": "Google側の容量を空けたいときは、写真を削除して、ゴミ箱からも、完全に削除する必要があります。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-045"
+      ]
+    },
+    {
+      "id": 46,
+      "section": "5 / 6 iPhoneはここに注意",
+      "narration": "次は、iPhoneをお使いの方に、確認しておきたいことがあります。",
+      "reading_overrides": {
+        "方": "かた"
+      },
+      "pause_after": 0.5,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-046"
+      ]
+    },
+    {
+      "id": 47,
+      "section": "5 / 6 iPhoneはここに注意",
+      "narration": "iPhone本体にある写真と、Googleフォトにバックアップされた写真では、削除したときの扱いが違います。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-047"
+      ]
+    },
+    {
+      "id": 48,
+      "section": "5 / 6 iPhoneはここに注意",
+      "narration": "同じ写真が表示されていても、どのアプリで、どの操作をしたかを確認することが大切です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 18,
+      "subtitle_ids": [
+        "SUB-048"
+      ]
+    },
+    {
+      "id": 49,
+      "section": "5 / 6 iPhoneはここに注意",
+      "narration": "たとえば、Googleフォトで「完全に削除」しても、Appleの「写真」アプリに、残る場合があります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 18,
+      "subtitle_ids": [
+        "SUB-049"
+      ]
+    },
+    {
+      "id": 50,
+      "section": "5 / 6 iPhoneはここに注意",
+      "narration": "残る場所の名前は、「最近削除した項目」です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 19,
+      "subtitle_ids": [
+        "SUB-050"
+      ]
+    },
+    {
+      "id": 51,
+      "section": "5 / 6 iPhoneはここに注意",
+      "narration": "「最近削除した項目」は、iPhoneのゴミ箱のような場所で、30日間、保管されます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 19,
+      "subtitle_ids": [
+        "SUB-051"
+      ]
+    },
+    {
+      "id": 52,
+      "section": "5 / 6 iPhoneはここに注意",
+      "narration": "30日を過ぎると、完全に削除されます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 19,
+      "subtitle_ids": [
+        "SUB-052"
+      ]
+    },
+    {
+      "id": 53,
+      "section": "5 / 6 iPhoneはここに注意",
+      "narration": "ですから、iPhoneでは、Googleフォトのゴミ箱と、「最近削除した項目」の、両方を確認しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 20,
+      "subtitle_ids": [
+        "SUB-053"
+      ]
+    },
+    {
+      "id": 54,
+      "section": "6 / 6 間違えて消したら、復元",
+      "narration": "では、間違えて写真を消してしまったときは、どうすればよいでしょうか。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 21,
+      "subtitle_ids": [
+        "SUB-054"
+      ]
+    },
+    {
+      "id": 55,
+      "section": "6 / 6 間違えて消したら、復元",
+      "narration": "Googleフォトのゴミ箱には、消した写真が、しばらく残っています。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 21,
+      "subtitle_ids": [
+        "SUB-055"
+      ]
+    },
+    {
+      "id": 56,
+      "section": "6 / 6 間違えて消したら、復元",
+      "narration": "ゴミ箱を開いて、戻したい写真を選び、「復元」をタップします。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 22,
+      "subtitle_ids": [
+        "SUB-056"
+      ]
+    },
+    {
+      "id": 57,
+      "section": "6 / 6 間違えて消したら、復元",
+      "narration": "すると、写真は、Googleフォトの写真一覧に、戻ってきます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 22,
+      "subtitle_ids": [
+        "SUB-057"
+      ]
+    },
+    {
+      "id": 58,
+      "section": "6 / 6 間違えて消したら、復元",
+      "narration": "ただし、さきほど確認した期間を過ぎると、完全に削除されて、戻せなくなります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 22,
+      "subtitle_ids": [
+        "SUB-058"
+      ]
+    },
+    {
+      "id": 59,
+      "section": "6 / 6 間違えて消したら、復元",
+      "narration": "消したことに気づいたら、早めに、ゴミ箱を確認するのが安心です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 23,
+      "subtitle_ids": [
+        "SUB-059"
+      ]
+    },
+    {
+      "id": 60,
+      "section": "まとめ",
+      "narration": "今日のまとめです。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 24,
+      "subtitle_ids": [
+        "SUB-060"
+      ]
+    },
+    {
+      "id": 61,
+      "section": "まとめ",
+      "narration": "写真を消す前に、まず、バックアップが済んでいるか、確認しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 24,
+      "subtitle_ids": [
+        "SUB-061"
+      ]
+    },
+    {
+      "id": 62,
+      "section": "まとめ",
+      "narration": "「削除」は、スマホとGoogleフォトの、両方から消えます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 24,
+      "subtitle_ids": [
+        "SUB-062"
+      ]
+    },
+    {
+      "id": 63,
+      "section": "まとめ",
+      "narration": "「デバイスから削除」と「空き容量を増やす」は、Googleフォトには、残ります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 24,
+      "subtitle_ids": [
+        "SUB-063"
+      ]
+    },
+    {
+      "id": 64,
+      "section": "まとめ",
+      "narration": "間違えて消しても、ゴミ箱に残っている間は、復元できます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 24,
+      "subtitle_ids": [
+        "SUB-064"
+      ]
+    },
+    {
+      "id": 65,
+      "section": "まとめ",
+      "narration": "あわてずに、確認しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 25,
+      "subtitle_ids": [
+        "SUB-065"
+      ]
+    }
+  ],
+  "subtitles": [
+    {
+      "id": "SUB-001",
+      "text_lines": [
+        "スマホの写真がたまって、",
+        "容量がいっぱいになったことはありませんか。"
+      ],
+      "segment_id": 1
+    },
+    {
+      "id": "SUB-002",
+      "text_lines": [
+        "でも、写真を消したら、Googleフォトからも、",
+        "なくなってしまいそうで、こわいですよね。"
+      ],
+      "segment_id": 2
+    },
+    {
+      "id": "SUB-003",
+      "text_lines": [
+        "今日は、その不安を、いっしょに解消しましょう。"
+      ],
+      "segment_id": 3
+    },
+    {
+      "id": "SUB-004",
+      "text_lines": [
+        "結論から言うと、Googleフォトの「削除」と",
+        "「空き容量を増やす」は、意味が違います。"
+      ],
+      "segment_id": 4
+    },
+    {
+      "id": "SUB-005",
+      "text_lines": [
+        "どの操作で、何が消えて、何が残るのかを、",
+        "順番に確認していきます。"
+      ],
+      "segment_id": 5
+    },
+    {
+      "id": "SUB-006",
+      "text_lines": [
+        "確認することは、この3つです。"
+      ],
+      "segment_id": 6
+    },
+    {
+      "id": "SUB-007",
+      "text_lines": [
+        "一つ、写真がバックアップされているか。"
+      ],
+      "segment_id": 7
+    },
+    {
+      "id": "SUB-008",
+      "text_lines": [
+        "二つ、「削除」と「空き容量を増やす」の違い。"
+      ],
+      "segment_id": 8
+    },
+    {
+      "id": "SUB-009",
+      "text_lines": [
+        "三つ、消してしまったときの、ゴミ箱からの復元です。"
+      ],
+      "segment_id": 9
+    },
+    {
+      "id": "SUB-010",
+      "text_lines": [
+        "最初に確認するのは、",
+        "写真がバックアップされているかどうかです。"
+      ],
+      "segment_id": 10
+    },
+    {
+      "id": "SUB-011",
+      "text_lines": [
+        "バックアップとは、写真のコピーを、スマホとは別の、",
+        "Googleの保管場所に、預けておくことです。"
+      ],
+      "segment_id": 11
+    },
+    {
+      "id": "SUB-012",
+      "text_lines": [
+        "実際の画面で、確認の仕方を見てみましょう。"
+      ],
+      "segment_id": 12
+    },
+    {
+      "id": "SUB-013",
+      "text_lines": [
+        "Googleフォトのアプリを開き、",
+        "右上の、自分の写真のマークをタップします。"
+      ],
+      "segment_id": 13
+    },
+    {
+      "id": "SUB-014",
+      "text_lines": [
+        "設定の画面を開くと、",
+        "バックアップという項目があります。"
+      ],
+      "segment_id": 14
+    },
+    {
+      "id": "SUB-015",
+      "text_lines": [
+        "「バックアップが完了しました」と",
+        "表示されていれば、コピーはGoogle側にあります。"
+      ],
+      "segment_id": 15
+    },
+    {
+      "id": "SUB-016",
+      "text_lines": [
+        "これからの操作は、この「バックアップ済み」の",
+        "写真を対象にするので、まず、ここを確認しましょう。"
+      ],
+      "segment_id": 16
+    },
+    {
+      "id": "SUB-017",
+      "text_lines": [
+        "では次に、「削除」を押すと、",
+        "何が起きるのかを、確認します。"
+      ],
+      "segment_id": 17
+    },
+    {
+      "id": "SUB-018",
+      "text_lines": [
+        "Googleフォトで、写真を選んで、",
+        "ゴミ箱のアイコンを押すと、その写真は消えます。"
+      ],
+      "segment_id": 18
+    },
+    {
+      "id": "SUB-019",
+      "text_lines": [
+        "ここが、いちばん知っておいてほしいポイントです。"
+      ],
+      "segment_id": 19
+    },
+    {
+      "id": "SUB-020",
+      "text_lines": [
+        "Googleフォトで「削除」すると、",
+        "スマホ本体の写真も、いっしょに消えます。"
+      ],
+      "segment_id": 20
+    },
+    {
+      "id": "SUB-021",
+      "text_lines": [
+        "バックアップをオンにしている、",
+        "ほかの端末からも、消えます。"
+      ],
+      "segment_id": 21
+    },
+    {
+      "id": "SUB-022",
+      "text_lines": [
+        "消えた写真は、すぐに完全に消えるのではなく、",
+        "まず、ゴミ箱に入ります。"
+      ],
+      "segment_id": 22
+    },
+    {
+      "id": "SUB-023",
+      "text_lines": [
+        "バックアップ済みの写真は、",
+        "ゴミ箱に60日間、残ります。"
+      ],
+      "segment_id": 23
+    },
+    {
+      "id": "SUB-024",
+      "text_lines": [
+        "バックアップされていない写真は、",
+        "30日で、完全に削除されます。"
+      ],
+      "segment_id": 24
+    },
+    {
+      "id": "SUB-025",
+      "text_lines": [
+        "つまり、「削除」を押す前には、「この写真は、",
+        "もういらない」と、確認してからにしましょう。"
+      ],
+      "segment_id": 25
+    },
+    {
+      "id": "SUB-026",
+      "text_lines": [
+        "次は、「デバイスから削除」という操作です。"
+      ],
+      "segment_id": 26
+    },
+    {
+      "id": "SUB-027",
+      "text_lines": [
+        "デバイスとは、スマホ本体のことです。"
+      ],
+      "segment_id": 27
+    },
+    {
+      "id": "SUB-028",
+      "text_lines": [
+        "これは、Googleフォトには残したまま、",
+        "スマホ本体からだけ、写真を消す操作です。"
+      ],
+      "segment_id": 28
+    },
+    {
+      "id": "SUB-029",
+      "text_lines": [
+        "つまり、Googleフォトでは、写真を、",
+        "これからも見ることができます。"
+      ],
+      "segment_id": 29
+    },
+    {
+      "id": "SUB-030",
+      "text_lines": [
+        "スマホ本体の容量だけを、空けるための操作です。"
+      ],
+      "segment_id": 30
+    },
+    {
+      "id": "SUB-031",
+      "text_lines": [
+        "対象になるのは、基本的に、",
+        "バックアップ済みの写真です。"
+      ],
+      "segment_id": 31
+    },
+    {
+      "id": "SUB-032",
+      "text_lines": [
+        "メニューの場所は、機種やアプリのバージョンで、",
+        "違う場合があります。"
+      ],
+      "segment_id": 32
+    },
+    {
+      "id": "SUB-033",
+      "text_lines": [
+        "名前は、「デバイスから削除」です。"
+      ],
+      "segment_id": 33
+    },
+    {
+      "id": "SUB-034",
+      "text_lines": [
+        "「このデバイスの空き容量を増やす」機能です。"
+      ],
+      "segment_id": 34
+    },
+    {
+      "id": "SUB-035",
+      "text_lines": [
+        "これは、バックアップ済みの写真をまとめて、",
+        "スマホ本体から削除して、容量を空ける機能です。"
+      ],
+      "segment_id": 35
+    },
+    {
+      "id": "SUB-036",
+      "text_lines": [
+        "場所は、右上の、自分の写真のマークから、",
+        "このメニューにあります。"
+      ],
+      "segment_id": 36
+    },
+    {
+      "id": "SUB-037",
+      "text_lines": [
+        "押すと、対象の写真の数と、空く容量が表示されます。"
+      ],
+      "segment_id": 37
+    },
+    {
+      "id": "SUB-038",
+      "text_lines": [
+        "ここで、「バックアップ済み」の写真だけが",
+        "対象かを、確認してください。"
+      ],
+      "segment_id": 38
+    },
+    {
+      "id": "SUB-039",
+      "text_lines": [
+        "この操作では、Googleフォトの保存先から、",
+        "写真が消えることは、ありません。"
+      ],
+      "segment_id": 39
+    },
+    {
+      "id": "SUB-040",
+      "text_lines": [
+        "スマホ本体から消えるだけで、",
+        "Googleフォトでは、引き続き、写真を見られます。"
+      ],
+      "segment_id": 40
+    },
+    {
+      "id": "SUB-041",
+      "text_lines": [
+        "なお、Androidでは、最近30日以内に保存した写真は、",
+        "そのまま残る場合があります。"
+      ],
+      "segment_id": 41
+    },
+    {
+      "id": "SUB-042",
+      "text_lines": [
+        "もうひとつ、大切なことをお伝えします。"
+      ],
+      "segment_id": 42
+    },
+    {
+      "id": "SUB-043",
+      "text_lines": [
+        "スマホ本体の容量と、",
+        "Googleアカウントの保存容量は、別ものです。"
+      ],
+      "segment_id": 43
+    },
+    {
+      "id": "SUB-044",
+      "text_lines": [
+        "「空き容量を増やす」は、スマホ本体の容量だけです。",
+        "Google側の容量は、変わりません。"
+      ],
+      "segment_id": 44
+    },
+    {
+      "id": "SUB-045",
+      "text_lines": [
+        "Google側の容量を空けたいときは、写真を削除して、",
+        "ゴミ箱からも、完全に削除する必要があります。"
+      ],
+      "segment_id": 45
+    },
+    {
+      "id": "SUB-046",
+      "text_lines": [
+        "次は、iPhoneをお使いの方に、",
+        "確認しておきたいことがあります。"
+      ],
+      "segment_id": 46
+    },
+    {
+      "id": "SUB-047",
+      "text_lines": [
+        "iPhone本体の写真と、",
+        "Googleフォトのバックアップ写真は別の扱いです。"
+      ],
+      "segment_id": 47
+    },
+    {
+      "id": "SUB-048",
+      "text_lines": [
+        "同じ写真が表示されていても、どのアプリで、",
+        "どの操作をしたかを確認することが大切です。"
+      ],
+      "segment_id": 48
+    },
+    {
+      "id": "SUB-049",
+      "text_lines": [
+        "たとえば、Googleフォトで「完全に削除」しても、",
+        "Appleの「写真」アプリに、残る場合があります。"
+      ],
+      "segment_id": 49
+    },
+    {
+      "id": "SUB-050",
+      "text_lines": [
+        "残る場所の名前は、「最近削除した項目」です。"
+      ],
+      "segment_id": 50
+    },
+    {
+      "id": "SUB-051",
+      "text_lines": [
+        "「最近削除した項目」は、",
+        "iPhoneのゴミ箱のような場所。30日間保管されます。"
+      ],
+      "segment_id": 51
+    },
+    {
+      "id": "SUB-052",
+      "text_lines": [
+        "30日を過ぎると、完全に削除されます。"
+      ],
+      "segment_id": 52
+    },
+    {
+      "id": "SUB-053",
+      "text_lines": [
+        "ですから、iPhoneでは、Googleフォトのゴミ箱と、",
+        "「最近削除した項目」の、両方を確認しましょう。"
+      ],
+      "segment_id": 53
+    },
+    {
+      "id": "SUB-054",
+      "text_lines": [
+        "では、間違えて写真を消してしまったときは、",
+        "どうすればよいでしょうか。"
+      ],
+      "segment_id": 54
+    },
+    {
+      "id": "SUB-055",
+      "text_lines": [
+        "Googleフォトのゴミ箱には、",
+        "消した写真が、しばらく残っています。"
+      ],
+      "segment_id": 55
+    },
+    {
+      "id": "SUB-056",
+      "text_lines": [
+        "ゴミ箱を開いて、戻したい写真を選び、",
+        "「復元」をタップします。"
+      ],
+      "segment_id": 56
+    },
+    {
+      "id": "SUB-057",
+      "text_lines": [
+        "すると、写真は、",
+        "Googleフォトの写真一覧に、戻ってきます。"
+      ],
+      "segment_id": 57
+    },
+    {
+      "id": "SUB-058",
+      "text_lines": [
+        "ただし、さきほど確認した期間を過ぎると、",
+        "完全に削除されて、戻せなくなります。"
+      ],
+      "segment_id": 58
+    },
+    {
+      "id": "SUB-059",
+      "text_lines": [
+        "消したことに気づいたら、早めに、",
+        "ゴミ箱を確認するのが安心です。"
+      ],
+      "segment_id": 59
+    },
+    {
+      "id": "SUB-060",
+      "text_lines": [
+        "今日のまとめです。"
+      ],
+      "segment_id": 60
+    },
+    {
+      "id": "SUB-061",
+      "text_lines": [
+        "写真を消す前に、まず、",
+        "バックアップが済んでいるか、確認しましょう。"
+      ],
+      "segment_id": 61
+    },
+    {
+      "id": "SUB-062",
+      "text_lines": [
+        "「削除」は、スマホとGoogleフォトの、",
+        "両方から消えます。"
+      ],
+      "segment_id": 62
+    },
+    {
+      "id": "SUB-063",
+      "text_lines": [
+        "「デバイスから削除」と「空き容量を増やす」は、",
+        "Googleフォトには、残ります。"
+      ],
+      "segment_id": 63
+    },
+    {
+      "id": "SUB-064",
+      "text_lines": [
+        "間違えて消しても、",
+        "ゴミ箱に残っている間は、復元できます。"
+      ],
+      "segment_id": 64
+    },
+    {
+      "id": "SUB-065",
+      "text_lines": [
+        "あわてずに、確認しましょう。"
+      ],
+      "segment_id": 65
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "section_label": "はじめに",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "main_message": "導入",
+      "headline": "写真を消す前に、確認すること",
+      "support_text": "「削除」と「空き容量を増やす」は、よく似ていますが、意味が違います。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 1,
+      "end_segment": 4,
+      "subtitle_ids": [
+        "SUB-001",
+        "SUB-002",
+        "SUB-003",
+        "SUB-004"
+      ],
+      "fit_mode": "full_bleed",
+      "image_prompt": "1920×1080、一枚で完結した写実的な背景イラスト。60代の日本人女性（グレーの髪、ナチュラルな服装）が、明るく暖かいリビングのソファに座り、手元のスマートフォンを穏やかな笑顔で見つめている。スマホの画面は白飛び・ぼかしで具体的なUIは判別できない。手前のローテーブルに印刷された家族写真が数枚並ぶ。右側に人物、左半分は淡いクリーム色の壁と観葉植物だけの、文字を重ねるための静かな余白（真っ白ではなくわずかな質感のある壁）。暖かい自然光、落ち着いたベージュ・アイボリー・薄茶の色調。テキスト、文字、数字、ロゴ、ブランドマーク、スマホ画面のUIは一切描かない。コラージュや複数シーンの分割はしない。"
+    },
+    {
+      "id": 2,
+      "section_label": "はじめに（確認リスト）",
+      "layout": "layout_02_list",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "一覧",
+      "headline": "今日、確認すること",
+      "support_text": "3つの項目を、順番に確認します",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 5,
+      "end_segment": 9,
+      "subtitle_ids": [
+        "SUB-005",
+        "SUB-006",
+        "SUB-007",
+        "SUB-008",
+        "SUB-009"
+      ],
+      "items": [
+        "写真がバックアップされているか",
+        "「削除」と「空き容量を増やす」の違い",
+        "ゴミ箱からの復元"
+      ]
+    },
+    {
+      "id": 3,
+      "section_label": "1 / 6 まず、バックアップの確認",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "main_message": "セクション扉",
+      "headline": "バックアップ＝写真のコピーをGoogleに預けること",
+      "support_text": "スマホとは別の、Googleの保管場所に、コピーを預けておきます。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 10,
+      "end_segment": 11,
+      "subtitle_ids": [
+        "SUB-010",
+        "SUB-011"
+      ],
+      "fit_mode": "full_bleed",
+      "image_prompt": "1920×1080、一枚の完成した柔らかい絵本風イラスト背景。左手前に、画面が無地のスマートフォンのシルエットがあり、そこから数枚の家族写真のシルエットが優しい光の帯になって、右上方の雲の上の小さな木製の保管箱へ流れていく（写真のコピーを預けるイメージ）。空は青と白の穏やかなグラデーション、雲はふんわりとした形。左半分の下〜中央は文字を重ねるための静かな空の余白（やや薄い水色で、真っ白にはしない）。右側と上方に光の帯と雲を配置。テキスト、文字、数字、ロゴ、ブランドマーク、実在サービス名、スマホのUIは一切描かない。コラージュ、分割パネル、枠線つきレイアウトはしない。"
+    },
+    {
+      "id": 4,
+      "section_label": "1 / 6 まず、バックアップの確認",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "codex",
+      "main_message": "実演",
+      "headline": "まず、バックアップを確認",
+      "support_text": "「バックアップが完了しました」と表示されれば、コピーはGoogle側にあります。",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/google_photos_backup_android_crop.png",
+          "label": "Google公式ヘルプ：バックアップ完了時のステータス表示",
+          "source": "https://support.google.com/photos/answer/6193313?co=GENIE.Platform%3DAndroid&hl=ja"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 12,
+      "end_segment": 16,
+      "subtitle_ids": [
+        "SUB-012",
+        "SUB-013",
+        "SUB-014",
+        "SUB-015",
+        "SUB-016"
+      ]
+    },
+    {
+      "id": 5,
+      "section_label": "2 / 6 「削除」を押すと、何が起きる？",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "セクション扉",
+      "headline": "「削除」を押すと、何が起きる？",
+      "support_text": "消す前に、何が起きるのかを見てみましょう",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 17,
+      "end_segment": 17,
+      "subtitle_ids": [
+        "SUB-017"
+      ]
+    },
+    {
+      "id": 6,
+      "section_label": "2 / 6 「削除」を押すと、何が起きる？",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "codex",
+      "main_message": "実演",
+      "headline": "写真を選んで、ゴミ箱アイコンをタップ",
+      "support_text": "押すと、その写真は消えます。",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/captured/android/delete_photo_trash_crop.png",
+          "label": "Android実機相当のGoogleフォト画面：選択した写真の「ゴミ箱」操作",
+          "source": "adb exec-out screencap -p / emulator-5556 / Googleフォト 7.8.0.697873850"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 18,
+      "end_segment": 18,
+      "subtitle_ids": [
+        "SUB-018"
+      ]
+    },
+    {
+      "id": 7,
+      "section_label": "2 / 6 「削除」を押すと、何が起きる？",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "比較",
+      "headline": "「削除」で消えるもの",
+      "support_text": "スマホ本体も、バックアップがオンの\n他の端末も、いっしょに消えます。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 19,
+      "end_segment": 21,
+      "subtitle_ids": [
+        "SUB-019",
+        "SUB-020",
+        "SUB-021"
+      ],
+      "items": [
+        "スマホ本体: 消える",
+        "Googleフォト: ゴミ箱へ（60日/30日後に完全削除）"
+      ]
+    },
+    {
+      "id": 8,
+      "section_label": "2 / 6 「削除」を押すと、何が起きる？",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "codex",
+      "main_message": "実演",
+      "headline": "消えた写真は、まずゴミ箱へ",
+      "support_text": "バックアップ済みは60日間。バックアップされていない写真は30日で完全に削除されます。",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/captured/android/trash_days_crop.png",
+          "label": "Android実機相当のGoogleフォト「ゴミ箱」：60日／30日の保持案内",
+          "source": "adb exec-out screencap -p / emulator-5556 / Googleフォト 7.8.0.697873850"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 22,
+      "end_segment": 24,
+      "subtitle_ids": [
+        "SUB-022",
+        "SUB-023",
+        "SUB-024"
+      ]
+    },
+    {
+      "id": 9,
+      "section_label": "2 / 6 「削除」を押すと、何が起きる？",
+      "layout": "layout_06_caution",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "注意",
+      "headline": "「削除」の前の、ひとこと確認",
+      "support_text": "「この写真は、もういらない」と思えたら、削除しましょう。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 25,
+      "end_segment": 25,
+      "subtitle_ids": [
+        "SUB-025"
+      ]
+    },
+    {
+      "id": 10,
+      "section_label": "3 / 6 「デバイスから削除」とは？",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "セクション扉",
+      "headline": "「デバイスから削除」とは？",
+      "support_text": "Googleフォトには残したまま、スマホ本体からだけ消す操作です",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "section_fade",
+      "start_segment": 26,
+      "end_segment": 26,
+      "subtitle_ids": [
+        "SUB-026"
+      ]
+    },
+    {
+      "id": 11,
+      "section_label": "3 / 6 「デバイスから削除」とは？",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "比較",
+      "headline": "スマホ本体からだけ消す操作",
+      "support_text": "Googleフォトには残したまま、スマホ本体からだけ写真を消します。対象になるのは、基本的に、バックアップ済みの写真です。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 27,
+      "end_segment": 31,
+      "subtitle_ids": [
+        "SUB-027",
+        "SUB-028",
+        "SUB-029",
+        "SUB-030",
+        "SUB-031"
+      ],
+      "items": [
+        "スマホ本体: 消える",
+        "Googleフォト: 残る（これからも見られます）"
+      ]
+    },
+    {
+      "id": 12,
+      "section_label": "3 / 6 「デバイスから削除」とは？",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "codex",
+      "main_message": "実演",
+      "headline": "名前は「デバイスから削除」",
+      "support_text": "場所は、機種やアプリのバージョンによって、違う場合があります。",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/captured/android/delete_from_device_crop.png",
+          "label": "Android実機相当のGoogleフォトメニュー：「デバイスから削除」",
+          "source": "adb exec-out screencap -p / emulator-5556 / Googleフォト 7.8.0.697873850"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 32,
+      "end_segment": 33,
+      "subtitle_ids": [
+        "SUB-032",
+        "SUB-033"
+      ]
+    },
+    {
+      "id": 13,
+      "section_label": "4 / 6 「空き容量を増やす」とは？",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "main_message": "セクション扉",
+      "headline": "このデバイスの\n空き容量を増やす",
+      "support_text": "バックアップ済みの写真をまとめて、スマホ本体から削除して、容量を空ける機能です。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 34,
+      "end_segment": 35,
+      "subtitle_ids": [
+        "SUB-034",
+        "SUB-035"
+      ],
+      "fit_mode": "full_bleed",
+      "image_prompt": "1920×1080、一枚の完成した清潔感のある優しいイラスト背景。右側に、透明なガラスケースのように中が見えるスマートフォンのシルエット（画面は無地）。その中で、写真のつまった箱がいっぱいに詰まった状態から、明るい光とともに整理されてスッキリと空いた状態へ変わる「容量が空く」様子を、シンプルな箱と光で表現。左半分は文字用の静かなスペース（淡いミントグリーン〜白の壁面で、真っ白にはしない）。全体的に淡いグリーン・水色・ベージュのトーンで不安感を与えない。テキスト、文字、数字、ロゴ、ブランドマーク、スマホのUIは一切描かない。コラージュや複数シーンの分割はしない。"
+    },
+    {
+      "id": 14,
+      "section_label": "4 / 6 「空き容量を増やす」とは？",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "codex",
+      "main_message": "実演",
+      "headline": "押す前に、対象を確認",
+      "support_text": "「バックアップ済み」の写真だけが対象かを確認してください。",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/captured/android/free_up_space_crop.png",
+          "label": "Android実機相当のGoogleフォト：「このデバイスの空き容量を増やす」",
+          "source": "adb exec-out screencap -p / emulator-5556 / Googleフォト 7.8.0.697873850"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 36,
+      "end_segment": 38,
+      "subtitle_ids": [
+        "SUB-036",
+        "SUB-037",
+        "SUB-038"
+      ]
+    },
+    {
+      "id": 15,
+      "section_label": "4 / 6 「空き容量を増やす」とは？",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "比較",
+      "headline": "Googleフォトには残ります",
+      "support_text": "この操作では、Googleフォトの保存先から写真が消えることはありません。Androidでは、最近30日以内に保存した写真は、そのまま残る場合があります。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 39,
+      "end_segment": 41,
+      "subtitle_ids": [
+        "SUB-039",
+        "SUB-040",
+        "SUB-041"
+      ],
+      "items": [
+        "スマホ本体: 消える",
+        "Googleフォト: 残る（引き続き見られます）"
+      ]
+    },
+    {
+      "id": 16,
+      "section_label": "4 / 6 「空き容量を増やす」とは？",
+      "layout": "layout_03_visual_text",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "比較",
+      "headline": "スマホの容量と、Googleの容量は、別もの",
+      "support_text": "「空き容量を増やす」で空くのは、スマホ本体の容量だけです。Google側の容量は、変わりません。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 42,
+      "end_segment": 45,
+      "subtitle_ids": [
+        "SUB-042",
+        "SUB-043",
+        "SUB-044",
+        "SUB-045"
+      ],
+      "items": [
+        "Google側の容量を空けたいとき: 写真を削除して、ゴミ箱からも完全に削除"
+      ]
+    },
+    {
+      "id": 17,
+      "section_label": "5 / 6 iPhoneはここに注意",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "main_message": "セクション扉",
+      "headline": "iPhone本体と\nGoogleフォト",
+      "support_text": "削除したときの扱いが違います。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 46,
+      "end_segment": 47,
+      "subtitle_ids": [
+        "SUB-046",
+        "SUB-047"
+      ],
+      "fit_mode": "full_bleed",
+      "image_prompt": "1920×1080、一枚の完成した柔らかいイラスト背景。右側に、画面が無地の一般的なスマートフォンのシルエットと、そこから光の帯で複製された写真カードが雲のようなオンライン保管のイメージへつながる構図。同じ写真の『本体にあるもの』と『Googleフォトにバックアップされたコピー』を表すが、二つの別々の保管場所として誤解されないよう、1枚の写真カードからコピーが作られる流れを明確にする。左半分は文字用に静かな背景（淡いブルーグレーの壁で、真っ白にはしない）。iPhoneの実機再現、画面UI、リンゴマーク等のロゴ、GoogleフォトのUI、テキスト、文字、数字は一切描かない。コラージュや分割パネルはしない。"
+    },
+    {
+      "id": 18,
+      "section_label": "5 / 6 iPhoneはここに注意",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "codex",
+      "main_message": "実演",
+      "headline": "どこで消すかで、結果が違います",
+      "support_text": "たとえば、Googleフォトで「完全に削除」しても、Appleの「写真」アプリに、残る場合があります。",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/google_photos_delete_ios_crop.png",
+          "label": "Google公式ヘルプ「写真や動画を削除する」（iPhone/iPad）",
+          "source": "https://support.google.com/photos/answer/6128858?co=GENIE.Platform%3DiOS&hl=ja"
+        },
+        {
+          "kind": "image",
+          "path": "assets/official/apple_guide_delete_photos_crop.png",
+          "label": "Apple公式「iPhoneで写真やビデオを削除する／非表示にする」",
+          "source": "https://support.apple.com/ja-jp/guide/iphone/iphb4defbde9/26/ios/26"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 48,
+      "end_segment": 49,
+      "subtitle_ids": [
+        "SUB-048",
+        "SUB-049"
+      ]
+    },
+    {
+      "id": 19,
+      "section_label": "5 / 6 iPhoneはここに注意",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "codex",
+      "main_message": "実演",
+      "headline": "「最近削除した項目」がゴミ箱",
+      "support_text": "ゴミ箱のような場所。30日間保管され、\n30日を過ぎると完全に削除されます。",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/apple_recently_deleted_crop.png",
+          "label": "Apple公式「最近削除した項目」30日案内",
+          "source": "https://support.apple.com/ja-jp/124460"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 50,
+      "end_segment": 52,
+      "subtitle_ids": [
+        "SUB-050",
+        "SUB-051",
+        "SUB-052"
+      ]
+    },
+    {
+      "id": 20,
+      "section_label": "5 / 6 iPhoneはここに注意",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "比較",
+      "headline": "消したら、両方のゴミ箱を確認",
+      "support_text": "iPhoneでは、Googleフォトのゴミ箱と、\n「最近削除した項目」の、両方を確認しましょう。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 53,
+      "end_segment": 53,
+      "subtitle_ids": [
+        "SUB-053"
+      ],
+      "compare_cards": [
+        {
+          "title": "Googleフォトのゴミ箱",
+          "body": "60日（バックアップ済み）／\n30日（未バックアップ）"
+        },
+        {
+          "title": "最近削除した項目",
+          "body": "30日間"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "section_label": "6 / 6 間違えて消したら、復元",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "セクション扉",
+      "headline": "間違えて消しても、復元できます",
+      "support_text": "Googleフォトのゴミ箱には、消した写真が、しばらく残っています。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "section_fade",
+      "start_segment": 54,
+      "end_segment": 55,
+      "subtitle_ids": [
+        "SUB-054",
+        "SUB-055"
+      ]
+    },
+    {
+      "id": 22,
+      "section_label": "6 / 6 間違えて消したら、復元",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "codex",
+      "main_message": "コレクション → ゴミ箱 → 写真を選択 → 復元",
+      "headline": "ゴミ箱から復元できます",
+      "support_text": "ただし、期間を過ぎると完全に削除されて、戻せなくなります。",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/google_photos_restore_android_steps_crop.png",
+          "label": "Google公式ヘルプ：ゴミ箱から写真や動画を復元する手順",
+          "source": "https://support.google.com/photos/answer/9343482?co=GENIE.Platform%3DAndroid&hl=ja"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 56,
+      "end_segment": 58,
+      "subtitle_ids": [
+        "SUB-056",
+        "SUB-057",
+        "SUB-058"
+      ]
+    },
+    {
+      "id": 23,
+      "section_label": "6 / 6 間違えて消したら、復元",
+      "layout": "layout_06_caution",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "注意",
+      "headline": "消したことに気づいたら、早めに確認",
+      "support_text": "ゴミ箱を確認するのが安心です。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 59,
+      "end_segment": 59,
+      "subtitle_ids": [
+        "SUB-059"
+      ]
+    },
+    {
+      "id": 24,
+      "section_label": "まとめ",
+      "layout": "layout_07_summary",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "まとめ",
+      "headline": "今日のまとめ",
+      "support_text": "今日の3つのポイント",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 60,
+      "end_segment": 64,
+      "subtitle_ids": [
+        "SUB-060",
+        "SUB-061",
+        "SUB-062",
+        "SUB-063",
+        "SUB-064"
+      ],
+      "items": [
+        "写真を消す前に: バックアップが済んでいるか確認",
+        "「削除」: スマホとGoogleフォトの、両方から消える",
+        "「デバイスから削除」「空き容量を増やす」: Googleフォトには残る",
+        "間違えて消しても: ゴミ箱に残っている間は復元できる"
+      ]
+    },
+    {
+      "id": 25,
+      "section_label": "まとめ（クロージング）",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "main_message": "クロージング",
+      "headline": "あわてずに、\n確認しましょう",
+      "support_text": "分からないことは、\n家族といっしょに確認できます。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 65,
+      "end_segment": 65,
+      "subtitle_ids": [
+        "SUB-065"
+      ],
+      "fit_mode": "full_bleed",
+      "image_prompt": "1920×1080、一枚で完結した温かい写実的な背景イラスト。60代の日本人夫妻が、家庭のダイニングテーブルで並んで座り、1台のスマートフォンを2人でのぞき込んでいる。2人とも穏やかで安心した表情、肩の力が抜けた姿勢。スマホの画面はわずかにぼかして具体的なUIは判別できない。右側に夫妻、左半分は静かな壁と小さな棚（本や湯のみ）だけの、文字を重ねるための落ち着いた余白（真っ白ではない）。夕方の暖かい照明、くつろいだ家庭の雰囲気。テキスト、文字、数字、ロゴ、ブランドマーク、スマホのUIは一切描かない。コラージュ、分割パネル、複数シーンの合成はしない。"
+    }
+  ],
+  "publish": {
+    "title": "【Googleフォト】写真を消して大丈夫？「削除」と「空き容量を増やす」の違い",
+    "description": "「スマホの容量がいっぱいだから写真を整理したい。でも、Googleフォトから写真が消えてしまわないか不安…」そんな方に向けて、Googleフォトの「削除」「デバイスから削除」「このデバイスの空き容量を増やす」の違いを、Google公式ヘルプ（2026年9月1日確認）に沿ってやさしく説明します。写真を消す前に確認したい「バックアップ済み」の見方、ゴミ箱に残る期間（バックアップ済みは60日・未バックアップは30日）、iPhoneの「最近削除した項目」（Apple公式では30日）との関係、そして「スマホ本体の容量」と「Googleアカウントの保存容量」の違いも確認します。\n\n主な根拠（確認日: 2026年9月1日）:\nGoogleフォト 写真や動画を削除する（Android/iOS/パソコン） https://support.google.com/photos/answer/6128858\nGoogleフォト デバイスの空き容量を増やす（Android/iOS） https://support.google.com/photos/answer/6128843\nGoogleフォト 写真や動画をバックアップする https://support.google.com/photos/answer/6193313\nGoogleフォト ストレージ使用量・ストレージを管理する https://support.google.com/photos/answer/10100180 / answer/9284827\nGoogleドライブ公式ヘルプ 保存容量を管理する https://support.google.com/drive/answer/6374270\nApple 削除された写真を復元する方法 https://support.apple.com/ja-jp/124460\nApple iPhoneで写真やビデオを削除する/非表示にする https://support.apple.com/ja-jp/guide/iphone/iphb4defbde9/ios\nGoogle公式ブログ ストレージポリシー変更 https://blog.google/intl/ja-jp/products/connect-communicate/2020_11_storage-policies-update/\n\n※OS・アプリのバージョンによって、画面やメニューの場所が異なる場合があります。\n\nナレーション：VOICEVOX:剣崎雌雄",
+    "chapters": [
+      "00:00 写真を消して大丈夫？の確認方法",
+      "00:46 まず、バックアップの確認",
+      "01:30 「削除」を押すと、何が起きる？",
+      "02:23 「デバイスから削除」とは？",
+      "03:00 「空き容量を増やす」とは？",
+      "04:13 iPhoneはここに注意",
+      "05:07 間違えて消したら、復元",
+      "05:41 まとめ"
+    ],
+    "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
+    "contains_synthetic_media": true,
+    "made_for_kids": false
+  }
+}

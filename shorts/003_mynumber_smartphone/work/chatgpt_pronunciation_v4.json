@@ -1,0 +1,15 @@
+{
+  "short_id": "Short003",
+  "version": "v4",
+  "requested_nucleus": "ト",
+  "dictionary_entry": {
+    "surface": "ChatGPT",
+    "reading": "チャット",
+    "accent": 3,
+    "human_approved": true,
+    "global": true
+  },
+  "observations": [],
+  "status": "PASS_QUERY_OBSERVATION",
+  "human_listening_gate": "REVIEW"
+}

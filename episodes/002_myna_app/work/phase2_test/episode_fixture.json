@@ -1,0 +1,3827 @@
+{
+  "schema_version": "1.0.0",
+  "episode": {
+    "episode_id": "002",
+    "slug": "myna_app",
+    "title": "【マイナアプリ】マイナポータルアプリはどう変わった？今やること3つ",
+    "target_duration": 475.407,
+    "status": "publish_ready",
+    "topic": "マイナポータルアプリからマイナアプリへの変更",
+    "target_audience": "スマホのアプリ名・アイコン変更に戸惑う50〜70代とその家族"
+  },
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "url": "https://digital-gov.note.jp/n/n64bc51024681",
+      "title": "マイナポータルアプリが「マイナアプリ」になりました（利用登録のご案内）",
+      "organization": "デジタル庁",
+      "claim": "2026年8月25日から提供開始。マイナポータルアプリにデジタル認証アプリの仕組みを統合し、既存利用者はアップデートだけで利用できる。",
+      "verified_at": "2026-08-30"
+    },
+    {
+      "source_id": "SRC-002",
+      "url": "https://www.digital.go.jp/policies/mynumber/local-government/mynaportal-app",
+      "title": "マイナアプリ（自治体向け活用情報）",
+      "organization": "デジタル庁",
+      "claim": "ログイン認証、電子署名、券面情報入力支援、スマホ用電子証明書搭載の4機能と、行政・民間での利用を確認。",
+      "verified_at": "2026-08-30"
+    },
+    {
+      "source_id": "SRC-003",
+      "url": "https://www.digital.go.jp/speech/minister-260825-01",
+      "title": "松本大臣記者会見（令和8年8月25日）",
+      "organization": "デジタル庁",
+      "claim": "2026年8月25日のリリース、両アプリの統合、自動更新、初回登録、端末ロック、暫定アイコンについて確認。",
+      "verified_at": "2026-08-30"
+    },
+    {
+      "source_id": "SRC-004",
+      "url": "https://services.digital.go.jp/mynaapp/",
+      "title": "マイナアプリ（サービスサイト・トップ）",
+      "organization": "デジタル庁",
+      "claim": "呼称変更、期間限定アイコン、既存アプリのアップデート、マイナポータルWebの継続利用、公式ストアへの導線を確認。",
+      "verified_at": "2026-08-30"
+    },
+    {
+      "source_id": "SRC-005",
+      "url": "https://services.digital.go.jp/mynaapp/news/20260825-01/",
+      "title": "マイナアプリの提供を開始しました（お知らせ）",
+      "organization": "デジタル庁",
+      "claim": "マイナポータルアプリへのデジタル認証アプリ機能統合と、マイナポータルWebの継続利用を確認。",
+      "verified_at": "2026-08-30"
+    },
+    {
+      "source_id": "SRC-006",
+      "url": "https://services.digital.go.jp/mynaapp/system-requirements/",
+      "title": "マイナアプリの動作環境",
+      "organization": "デジタル庁",
+      "claim": "iOS 16.4以上、Android 11以降かつNFC、端末ロック設定が必要であることを確認。",
+      "verified_at": "2026-08-30"
+    },
+    {
+      "source_id": "SRC-007",
+      "url": "https://services.digital.go.jp/mynaapp/register/",
+      "title": "マイナアプリの利用登録の方法",
+      "organization": "デジタル庁",
+      "claim": "初回登録の流れ、実物カードと数字4桁の暗証番号、スマホ内カードの顔・指紋認証を確認。",
+      "verified_at": "2026-08-30"
+    },
+    {
+      "source_id": "SRC-008",
+      "url": "https://services.digital.go.jp/mynaapp/communication-guidelines/",
+      "title": "マイナアプリ 広報素材およびガイドライン",
+      "organization": "デジタル庁",
+      "claim": "正しい呼称、公式アイコンの仕様、公式素材、移行期間の新旧呼称併記を確認。",
+      "verified_at": "2026-08-30"
+    },
+    {
+      "source_id": "SRC-009",
+      "url": "https://developers.digital.go.jp/documents/auth-and-sign/implement-guideline/",
+      "title": "行政機関等・民間事業者向け実装ガイドライン",
+      "organization": "デジタル庁",
+      "claim": "デジタル認証アプリがマイナアプリに統合され、単体利用が終了したことを確認。",
+      "verified_at": "2026-08-30"
+    },
+    {
+      "source_id": "SRC-010",
+      "url": "https://apps.apple.com/jp/app/マイナアプリ-旧マイナポータルアプリ/id1476359069",
+      "title": "App Store「マイナアプリ（旧マイナポータルアプリ）」",
+      "organization": "Apple",
+      "claim": "アプリ名、販売元 Digital Agency of Japan、同じアプリID・バンドルIDの掲載情報を確認。",
+      "verified_at": "2026-08-30"
+    },
+    {
+      "source_id": "SRC-011",
+      "url": "https://play.google.com/store/apps/details?id=jp.go.cas.mpa",
+      "title": "Google Play「マイナアプリ（旧マイナポータルアプリ）」",
+      "organization": "Google",
+      "claim": "アプリ名、提供者デジタル庁、マイナポータルアプリをアップデートして統合した説明を確認。",
+      "verified_at": "2026-08-30"
+    },
+    {
+      "source_id": "SRC-012",
+      "url": "https://support.mynaapp.digital.go.jp/hc/ja",
+      "title": "マイナアプリ よくある質問",
+      "organization": "デジタル庁",
+      "claim": "自動更新、名前・アイコン変更、未更新時、データ引き継ぎ、入れ直し、ログイン不調の公式案内を確認。",
+      "verified_at": "2026-08-30"
+    },
+    {
+      "source_id": "SRC-013",
+      "url": "https://www.digital.go.jp/news/b32e5c16-8272-4cc3-9171-b4c583325feb",
+      "title": "年金事務所を騙る偽サイト・偽アプリへの注意喚起",
+      "organization": "デジタル庁",
+      "claim": "公式アプリはApp Store・Google Playからのみ入手すること、偽サイト・偽アプリ事案、相談窓口を確認。",
+      "verified_at": "2026-08-30"
+    },
+    {
+      "source_id": "SRC-014",
+      "url": "https://www.digital.go.jp/news/4750a8f5-1061-4ae6-903b-cfb327a50465",
+      "title": "マイナポータルを騙った詐欺メール・偽サイトへの注意喚起",
+      "organization": "デジタル庁",
+      "claim": "不審なメールでは暗証番号などの個人情報を入力しないよう案内していることを確認。",
+      "verified_at": "2026-08-30"
+    },
+    {
+      "source_id": "SRC-015",
+      "url": "https://services.digital.go.jp/mynaapp/",
+      "title": "マイナポータル（Web）の継続利用に関する相互参照",
+      "organization": "デジタル庁",
+      "claim": "公式サービスサイト等で、マイナポータルWebは変わらず利用できることを確認。",
+      "verification_note": "myna.go.jp本体はWAFで自動取得できなかったため、関連する公式ページの記述を相互参照。",
+      "verified_at": "2026-08-30"
+    }
+  ],
+  "narration_segments": [
+    {
+      "id": 1,
+      "section": "はじめに",
+      "narration": "アプリの名前やアイコンが、急に変わって驚いた方はいませんか。",
+      "reading_overrides": {
+        "方": "かた"
+      },
+      "pause_after": 0.17,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-001"
+      ],
+      "shot_id": null,
+      "section_start": true,
+      "audio_path": "audio/voicevox_kenzaki/segments/001.wav",
+      "duration_sec": 4.416,
+      "start_sec": 0.0,
+      "end_sec": 4.416,
+      "audio_status": "updated",
+      "audio_notes": "「方」→「かた」（該当文のみの読み指定。グローバル辞書登録なし） (old 4.416s -> new 4.416s, diff +0.000s; timeline recomputed)"
+    },
+    {
+      "id": 2,
+      "section": "はじめに",
+      "narration": "マイナポータルアプリは、8月25日から「マイナアプリ」になりました。",
+      "reading_overrides": {},
+      "pause_after": 0.178,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-002"
+      ],
+      "shot_id": null,
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/002.wav",
+      "duration_sec": 5.781,
+      "start_sec": 4.586,
+      "end_sec": 10.367,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 3,
+      "section": "はじめに",
+      "narration": "お伝えしますが、マイナポータルというサービス自体は、なくなりません。",
+      "reading_overrides": {},
+      "pause_after": 0.198,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-003"
+      ],
+      "shot_id": null,
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/003.wav",
+      "duration_sec": 4.885,
+      "start_sec": 10.545,
+      "end_sec": 15.43,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 4,
+      "section": "はじめに",
+      "narration": "アプリを消して、入れ直す必要もありません。",
+      "reading_overrides": {},
+      "pause_after": 0.189,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-004"
+      ],
+      "shot_id": null,
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/004.wav",
+      "duration_sec": 3.072,
+      "start_sec": 15.628,
+      "end_sec": 18.7,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 5,
+      "section": "はじめに",
+      "narration": "今日は、何が変わったのか、今すべきことを、5つに分けて確認します。",
+      "reading_overrides": {},
+      "pause_after": 0.674,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-005"
+      ],
+      "shot_id": "SHOT-01",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/005.wav",
+      "duration_sec": 5.611,
+      "start_sec": 18.889,
+      "end_sec": 24.5,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 6,
+      "section": "1 / 5 マイナアプリとは何か",
+      "narration": "マイナアプリは、これまで使われてきたマイナポータルアプリの、新しい名前です。",
+      "reading_overrides": {},
+      "pause_after": 0.172,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-006"
+      ],
+      "shot_id": "SHOT-02",
+      "section_start": true,
+      "audio_path": "audio/voicevox_kenzaki/segments/006.wav",
+      "duration_sec": 5.728,
+      "start_sec": 25.174,
+      "end_sec": 30.902,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 7,
+      "section": "1 / 5 マイナアプリとは何か",
+      "narration": "同じアプリのアップデート版で、いわば「名前を変えた」ものです。",
+      "reading_overrides": {},
+      "pause_after": 0.183,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-007"
+      ],
+      "shot_id": "SHOT-02",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/007.wav",
+      "duration_sec": 5.099,
+      "start_sec": 31.074,
+      "end_sec": 36.173,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 8,
+      "section": "1 / 5 マイナアプリとは何か",
+      "narration": "そこに、「デジタル認証アプリ」の機能も統合されました。",
+      "reading_overrides": {},
+      "pause_after": 0.172,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-008"
+      ],
+      "shot_id": "SHOT-02",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/008.wav",
+      "duration_sec": 4.416,
+      "start_sec": 36.357,
+      "end_sec": 40.773,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 9,
+      "section": "1 / 5 マイナアプリとは何か",
+      "narration": "デジタル認証アプリは、マイナンバーカードで「本人であることを確認する」ためのアプリでした。",
+      "reading_overrides": {},
+      "pause_after": 0.18,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-009"
+      ],
+      "shot_id": "SHOT-02",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/009.wav",
+      "duration_sec": 6.933,
+      "start_sec": 40.945,
+      "end_sec": 47.878,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 10,
+      "section": "1 / 5 マイナアプリとは何か",
+      "narration": "「認証」は「本人確認」という意味です。",
+      "reading_overrides": {},
+      "pause_after": 0.178,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-010"
+      ],
+      "shot_id": "SHOT-02",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/010.wav",
+      "duration_sec": 4.128,
+      "start_sec": 48.058,
+      "end_sec": 52.186,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 11,
+      "section": "1 / 5 マイナアプリとは何か",
+      "narration": "これまで、行政の手続きにはマイナポータルアプリ、民間のサービスにはデジタル認証アプリと、場面によって使い分ける必要がありました。",
+      "reading_overrides": {},
+      "pause_after": 0.178,
+      "scene_id": 6,
+      "subtitle_ids": [
+        "SUB-011",
+        "SUB-012"
+      ],
+      "shot_id": "SHOT-02",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/011.wav",
+      "duration_sec": 9.803,
+      "start_sec": 52.364,
+      "end_sec": 62.167,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 12,
+      "section": "1 / 5 マイナアプリとは何か",
+      "narration": "それが、マイナアプリひとつでできるようになります。",
+      "reading_overrides": {},
+      "pause_after": 0.178,
+      "scene_id": 6,
+      "subtitle_ids": [
+        "SUB-013"
+      ],
+      "shot_id": "SHOT-02",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/012.wav",
+      "duration_sec": 3.403,
+      "start_sec": 62.345,
+      "end_sec": 65.748,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 13,
+      "section": "1 / 5 マイナアプリとは何か",
+      "narration": "ひとつのアプリにまとめたのが、今回の変更の中心です。",
+      "reading_overrides": {},
+      "pause_after": 0.674,
+      "scene_id": 6,
+      "subtitle_ids": [
+        "SUB-014"
+      ],
+      "shot_id": "SHOT-02",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/013.wav",
+      "duration_sec": 4.107,
+      "start_sec": 65.926,
+      "end_sec": 70.033,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 14,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "変わったのは、主に3つです。",
+      "reading_overrides": {},
+      "pause_after": 0.176,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-015"
+      ],
+      "shot_id": "SHOT-03",
+      "section_start": true,
+      "audio_path": "audio/voicevox_kenzaki/segments/014.wav",
+      "duration_sec": 2.357,
+      "start_sec": 70.707,
+      "end_sec": 73.064,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 15,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "1つ目は、スマホアプリの名前です。",
+      "reading_overrides": {},
+      "pause_after": 0.168,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-016"
+      ],
+      "shot_id": "SHOT-03",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/015.wav",
+      "duration_sec": 2.773,
+      "start_sec": 73.24,
+      "end_sec": 76.013,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 16,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "「マイナポータルアプリ」が「マイナアプリ」になりました。",
+      "reading_overrides": {},
+      "pause_after": 0.185,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-017"
+      ],
+      "shot_id": "SHOT-03",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/016.wav",
+      "duration_sec": 4.608,
+      "start_sec": 76.181,
+      "end_sec": 80.789,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 17,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "2つ目は、アプリアイコンです。",
+      "reading_overrides": {},
+      "pause_after": 0.173,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-018"
+      ],
+      "shot_id": "SHOT-03",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/017.wav",
+      "duration_sec": 2.325,
+      "start_sec": 80.974,
+      "end_sec": 83.299,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 18,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "ピンクのグラデーションに「マイナ」の文字と、桜のマークのデザインになりました。",
+      "reading_overrides": {},
+      "pause_after": 0.178,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-019"
+      ],
+      "shot_id": "SHOT-03",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/018.wav",
+      "duration_sec": 5.696,
+      "start_sec": 83.473,
+      "end_sec": 89.169,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 19,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "しばらくの間は、左下に「マイナちゃん」がついた、期間限定のアイコンです。",
+      "reading_overrides": {},
+      "pause_after": 0.183,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-020"
+      ],
+      "shot_id": "SHOT-03",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/019.wav",
+      "duration_sec": 6.336,
+      "start_sec": 89.347,
+      "end_sec": 95.683,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 20,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "デジタル庁は、年内をめどに、最終的なデザインに統一すると案内しています。",
+      "reading_overrides": {},
+      "pause_after": 0.375,
+      "scene_id": 9,
+      "subtitle_ids": [
+        "SUB-021"
+      ],
+      "shot_id": "SHOT-03",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/020.wav",
+      "duration_sec": 6.027,
+      "start_sec": 95.866,
+      "end_sec": 101.893,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 21,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "3つ目は、ログインや認証に使うアプリが、ひとつに統合されたことです。",
+      "reading_overrides": {},
+      "pause_after": 0.183,
+      "scene_id": 9,
+      "subtitle_ids": [
+        "SUB-022"
+      ],
+      "shot_id": "SHOT-03",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/021.wav",
+      "duration_sec": 5.504,
+      "start_sec": 102.268,
+      "end_sec": 107.772,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 22,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "デジタル認証アプリは、2026年8月25日をもって、単体での提供が終了しました。",
+      "reading_overrides": {},
+      "pause_after": 0.182,
+      "scene_id": 9,
+      "subtitle_ids": [
+        "SUB-023"
+      ],
+      "shot_id": "SHOT-03",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/022.wav",
+      "duration_sec": 7.509,
+      "start_sec": 107.955,
+      "end_sec": 115.464,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 23,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "開くと、マイナアプリの利用を案内する画面が表示される、と公式のよくある質問にあります。",
+      "reading_overrides": {},
+      "pause_after": 0.185,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-024",
+        "SUB-025"
+      ],
+      "shot_id": "SHOT-03",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/023.wav",
+      "duration_sec": 6.869,
+      "start_sec": 115.647,
+      "end_sec": 122.516,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 24,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "使っていた人も、同じ機能をマイナアプリで引き続き使えます。",
+      "reading_overrides": {},
+      "pause_after": 0.178,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-026"
+      ],
+      "shot_id": "SHOT-03",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/024.wav",
+      "duration_sec": 4.299,
+      "start_sec": 122.7,
+      "end_sec": 126.999,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 25,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "ここで、いちばん大事なことをお伝えします。",
+      "reading_overrides": {},
+      "pause_after": 0.383,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-027"
+      ],
+      "shot_id": "SHOT-03",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/025.wav",
+      "duration_sec": 3.051,
+      "start_sec": 127.177,
+      "end_sec": 130.228,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 26,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "マイナポータルというサービス自体が、なくなったわけではありません。",
+      "reading_overrides": {},
+      "pause_after": 0.19,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-028"
+      ],
+      "shot_id": "SHOT-03",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/026.wav",
+      "duration_sec": 4.277,
+      "start_sec": 130.611,
+      "end_sec": 134.888,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 27,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "マイナポータルは、行政サービスのオンライン窓口です。",
+      "reading_overrides": {},
+      "pause_after": 0.178,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-029"
+      ],
+      "shot_id": "SHOT-04",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/027.wav",
+      "duration_sec": 4.0,
+      "start_sec": 135.078,
+      "end_sec": 139.078,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 28,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "ウェブサイトは、引き続き使えます。",
+      "reading_overrides": {},
+      "pause_after": 0.177,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-030"
+      ],
+      "shot_id": "SHOT-04",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/028.wav",
+      "duration_sec": 2.592,
+      "start_sec": 139.256,
+      "end_sec": 141.848,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 29,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "医療費などの自己情報の確認や、引越し・パスポートなどの申請も、今までどおりです。",
+      "reading_overrides": {},
+      "pause_after": 0.178,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-031"
+      ],
+      "shot_id": "SHOT-04",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/029.wav",
+      "duration_sec": 6.88,
+      "start_sec": 142.024,
+      "end_sec": 148.904,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 30,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "変わったのは、スマホアプリの名前とアイコン、そしてログインや認証に使うアプリが統合されたことです。",
+      "reading_overrides": {},
+      "pause_after": 0.183,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-032",
+        "SUB-033"
+      ],
+      "shot_id": "SHOT-04",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/030.wav",
+      "duration_sec": 7.211,
+      "start_sec": 149.082,
+      "end_sec": 156.293,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 31,
+      "section": "2 / 5 何が変わったのか",
+      "narration": "ログインのときの本人確認の役割が、マイナポータルアプリから、マイナアプリにバトンタッチされた、と考えると分かりやすいです。",
+      "reading_overrides": {},
+      "pause_after": 0.683,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-034",
+        "SUB-035"
+      ],
+      "shot_id": "SHOT-04",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/031.wav",
+      "duration_sec": 9.045,
+      "start_sec": 156.476,
+      "end_sec": 165.521,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 32,
+      "section": "3 / 5 すでに使っていた人は？",
+      "narration": "では、ずっとマイナポータルアプリを使っていた人は、何をすればいいのでしょうか。",
+      "reading_overrides": {},
+      "pause_after": 0.184,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-036"
+      ],
+      "shot_id": "SHOT-05",
+      "section_start": true,
+      "audio_path": "audio/voicevox_kenzaki/segments/032.wav",
+      "duration_sec": 5.461,
+      "start_sec": 166.205,
+      "end_sec": 171.666,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 33,
+      "section": "3 / 5 すでに使っていた人は？",
+      "narration": "まず、今お使いのアプリの名前とアイコン、そして、ストアで公開されている情報を確認してください。",
+      "reading_overrides": {},
+      "pause_after": 0.371,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-037",
+        "SUB-038"
+      ],
+      "shot_id": "SHOT-05",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/033.wav",
+      "duration_sec": 7.509,
+      "start_sec": 171.85,
+      "end_sec": 179.359,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 34,
+      "section": "3 / 5 すでに使っていた人は？",
+      "narration": "マイナポータルアプリなら、アップデートするだけで、そのままマイナアプリとして使えます。",
+      "reading_overrides": {},
+      "pause_after": 0.178,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-039"
+      ],
+      "shot_id": "SHOT-05",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/034.wav",
+      "duration_sec": 5.803,
+      "start_sec": 179.73,
+      "end_sec": 185.533,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 35,
+      "section": "3 / 5 すでに使っていた人は？",
+      "narration": "削除して、入れ直す必要はありません。",
+      "reading_overrides": {},
+      "pause_after": 0.386,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-040"
+      ],
+      "shot_id": "SHOT-05",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/035.wav",
+      "duration_sec": 2.891,
+      "start_sec": 185.712,
+      "end_sec": 188.603,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 36,
+      "section": "3 / 5 すでに使っていた人は？",
+      "narration": "スマホの「自動更新」の設定がオンになっていれば、そのまま自動で更新されている場合があります。",
+      "reading_overrides": {},
+      "pause_after": 0.183,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-041"
+      ],
+      "shot_id": "SHOT-05",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/036.wav",
+      "duration_sec": 7.296,
+      "start_sec": 188.989,
+      "end_sec": 196.285,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 37,
+      "section": "3 / 5 すでに使っていた人は？",
+      "narration": "オンになっていなければ、App StoreやGoogle Playで「マイナアプリ（旧マイナポータルアプリ）」を探して、ご自分で更新してください。",
+      "reading_overrides": {},
+      "pause_after": 0.187,
+      "scene_id": 15,
+      "subtitle_ids": [
+        "SUB-042",
+        "SUB-043"
+      ],
+      "shot_id": "SHOT-05",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/037.wav",
+      "duration_sec": 9.664,
+      "start_sec": 196.468,
+      "end_sec": 206.132,
+      "audio_status": "generated",
+      "audio_notes": "appstore_ok=True kana=オンニナッテイナケレバアップストアヤグウグルプレエデマイナアプリキュウマイナポオタルアプリオサガシテゴジブンデコオシンシテクダサイ"
+    },
+    {
+      "id": 38,
+      "section": "3 / 5 すでに使っていた人は？",
+      "narration": "アップデート後も、スマホの中に入れたマイナンバーカードの設定や、これまでの機能・データは引き継がれます。",
+      "reading_overrides": {},
+      "pause_after": 0.183,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-044",
+        "SUB-045"
+      ],
+      "shot_id": "SHOT-05",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/038.wav",
+      "duration_sec": 7.531,
+      "start_sec": 206.319,
+      "end_sec": 213.85,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 39,
+      "section": "3 / 5 すでに使っていた人は？",
+      "narration": "再登録は不要です。",
+      "reading_overrides": {},
+      "pause_after": 0.172,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-046"
+      ],
+      "shot_id": "SHOT-05",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/039.wav",
+      "duration_sec": 1.728,
+      "start_sec": 214.033,
+      "end_sec": 215.761,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 40,
+      "section": "3 / 5 すでに使っていた人は？",
+      "narration": "アップデートしなくても、マイナポータルアプリは当面使えます。",
+      "reading_overrides": {},
+      "pause_after": 0.178,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-047"
+      ],
+      "shot_id": "SHOT-05",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/040.wav",
+      "duration_sec": 4.256,
+      "start_sec": 215.933,
+      "end_sec": 220.189,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 41,
+      "section": "3 / 5 すでに使っていた人は？",
+      "narration": "ただ、一部の手続きでは、マイナアプリが必要になる、と公式に案内されています。",
+      "reading_overrides": {},
+      "pause_after": 0.179,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-048"
+      ],
+      "shot_id": "SHOT-05",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/041.wav",
+      "duration_sec": 6.496,
+      "start_sec": 220.367,
+      "end_sec": 226.863,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 42,
+      "section": "3 / 5 すでに使っていた人は？",
+      "narration": "ここで注意です。",
+      "reading_overrides": {},
+      "pause_after": 0.368,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-049"
+      ],
+      "shot_id": "SHOT-05",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/042.wav",
+      "duration_sec": 1.248,
+      "start_sec": 227.042,
+      "end_sec": 228.29,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 43,
+      "section": "3 / 5 すでに使っていた人は？",
+      "narration": "分からなくなったからといって、アプリを削除して入れ直すのは、まず待ってください。",
+      "reading_overrides": {},
+      "pause_after": 0.169,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-050"
+      ],
+      "shot_id": "SHOT-05",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/043.wav",
+      "duration_sec": 5.44,
+      "start_sec": 228.658,
+      "end_sec": 234.098,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 44,
+      "section": "3 / 5 すでに使っていた人は？",
+      "narration": "公式のよくある質問には、アプリを入れ直したあと、マイナアプリが開かなくなった、という質問への案内があります。",
+      "reading_overrides": {},
+      "pause_after": 0.183,
+      "scene_id": 18,
+      "subtitle_ids": [
+        "SUB-051",
+        "SUB-052"
+      ],
+      "shot_id": "SHOT-06",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/044.wav",
+      "duration_sec": 8.299,
+      "start_sec": 234.267,
+      "end_sec": 242.566,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 45,
+      "section": "3 / 5 すでに使っていた人は？",
+      "narration": "スマホには「後からインストールしたアプリが優先して開く」という仕組みがあり、デジタル認証アプリを後から入れ直すと、マイナアプリの代わりに開いてしまうことがあるそうです。",
+      "reading_overrides": {
+        "後から": "あとから"
+      },
+      "pause_after": 0.183,
+      "scene_id": 18,
+      "subtitle_ids": [
+        "SUB-053",
+        "SUB-054"
+      ],
+      "shot_id": "SHOT-06",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/045.wav",
+      "duration_sec": 12.096,
+      "start_sec": 242.749,
+      "end_sec": 254.845,
+      "audio_status": "updated",
+      "audio_notes": "「後から」→「あとから」（完全一致の語句のみ。『後』単体は変更しない） (old 11.957s -> new 12.096s, diff +0.139s; timeline recomputed)"
+    },
+    {
+      "id": 46,
+      "section": "3 / 5 すでに使っていた人は？",
+      "narration": "困ったときは、まず削除ではなく、公式のよくある質問や、概要欄の公式ページを確認するのが安心です。",
+      "reading_overrides": {},
+      "pause_after": 0.677,
+      "scene_id": 19,
+      "subtitle_ids": [
+        "SUB-055",
+        "SUB-056"
+      ],
+      "shot_id": "SHOT-06",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/046.wav",
+      "duration_sec": 8.384,
+      "start_sec": 255.028,
+      "end_sec": 263.412,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 47,
+      "section": "4 / 5 新しく使う人・開けない人",
+      "narration": "次に、新しく使う人や、アップデート後に開けない人向けの確認です。",
+      "reading_overrides": {
+        "開けない": "ひらけない"
+      },
+      "pause_after": 0.176,
+      "scene_id": 20,
+      "subtitle_ids": [
+        "SUB-057"
+      ],
+      "shot_id": "SHOT-07",
+      "section_start": true,
+      "audio_path": "audio/voicevox_kenzaki/segments/047.wav",
+      "duration_sec": 5.461,
+      "start_sec": 264.089,
+      "end_sec": 269.55,
+      "audio_status": "updated",
+      "audio_notes": "「開けない」→「ひらけない」（完全一致の語句のみ） (old 5.333s -> new 5.461s, diff +0.128s; timeline recomputed)"
+    },
+    {
+      "id": 48,
+      "section": "4 / 5 新しく使う人・開けない人",
+      "narration": "まず、動作環境です。",
+      "reading_overrides": {},
+      "pause_after": 0.183,
+      "scene_id": 20,
+      "subtitle_ids": [
+        "SUB-058"
+      ],
+      "shot_id": "SHOT-07",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/048.wav",
+      "duration_sec": 2.123,
+      "start_sec": 269.726,
+      "end_sec": 271.849,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 49,
+      "section": "4 / 5 新しく使う人・開けない人",
+      "narration": "iPhoneはiOS 16.4以上、AndroidはAndroid 11以降で、NFC機能が必要です。",
+      "reading_overrides": {},
+      "pause_after": 0.182,
+      "scene_id": 21,
+      "subtitle_ids": [
+        "SUB-059"
+      ],
+      "shot_id": "SHOT-07",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/049.wav",
+      "duration_sec": 8.789,
+      "start_sec": 272.032,
+      "end_sec": 280.821,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 50,
+      "section": "4 / 5 新しく使う人・開けない人",
+      "narration": "NFCは、カードをかざして読み取るための機能です。",
+      "reading_overrides": {},
+      "pause_after": 0.178,
+      "scene_id": 21,
+      "subtitle_ids": [
+        "SUB-060"
+      ],
+      "shot_id": "SHOT-07",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/050.wav",
+      "duration_sec": 3.808,
+      "start_sec": 281.003,
+      "end_sec": 284.811,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 51,
+      "section": "4 / 5 新しく使う人・開けない人",
+      "narration": "新しく使う人は、初回だけ「利用登録」という手続きが必要です。",
+      "reading_overrides": {},
+      "pause_after": 0.183,
+      "scene_id": 22,
+      "subtitle_ids": [
+        "SUB-061"
+      ],
+      "shot_id": "SHOT-07",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/051.wav",
+      "duration_sec": 5.728,
+      "start_sec": 284.989,
+      "end_sec": 290.717,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 52,
+      "section": "4 / 5 新しく使う人・開けない人",
+      "narration": "お手元に、マイナンバーカードと、数字4桁の「利用者証明用暗証番号」を用意してください。",
+      "reading_overrides": {},
+      "pause_after": 0.179,
+      "scene_id": 22,
+      "subtitle_ids": [
+        "SUB-062"
+      ],
+      "shot_id": "SHOT-07",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/052.wav",
+      "duration_sec": 7.84,
+      "start_sec": 290.9,
+      "end_sec": 298.74,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 53,
+      "section": "4 / 5 新しく使う人・開けない人",
+      "narration": "実物のカードをかざすか、スマホの中にカードを入れている人は、顔や指紋で認証します。",
+      "reading_overrides": {},
+      "pause_after": 0.178,
+      "scene_id": 22,
+      "subtitle_ids": [
+        "SUB-063",
+        "SUB-064"
+      ],
+      "shot_id": "SHOT-08",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/053.wav",
+      "duration_sec": 6.443,
+      "start_sec": 298.919,
+      "end_sec": 305.362,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 54,
+      "section": "4 / 5 新しく使う人・開けない人",
+      "narration": "また、端末のロック設定が必須です。",
+      "reading_overrides": {},
+      "pause_after": 0.168,
+      "scene_id": 23,
+      "subtitle_ids": [
+        "SUB-065"
+      ],
+      "shot_id": "SHOT-08",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/054.wav",
+      "duration_sec": 2.997,
+      "start_sec": 305.54,
+      "end_sec": 308.537,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 55,
+      "section": "4 / 5 新しく使う人・開けない人",
+      "narration": "PIN、顔認証、指紋認証など、スマホ本体のロックが設定されていないと、マイナアプリは使えません、と公式に案内されています。",
+      "reading_overrides": {},
+      "pause_after": 0.183,
+      "scene_id": 23,
+      "subtitle_ids": [
+        "SUB-066",
+        "SUB-067"
+      ],
+      "shot_id": "SHOT-08",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/055.wav",
+      "duration_sec": 10.773,
+      "start_sec": 308.706,
+      "end_sec": 319.479,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 56,
+      "section": "4 / 5 新しく使う人・開けない人",
+      "narration": "もし、マイナポータルにログインできない場合は、よくある原因があります。",
+      "reading_overrides": {},
+      "pause_after": 0.183,
+      "scene_id": 24,
+      "subtitle_ids": [
+        "SUB-068"
+      ],
+      "shot_id": "SHOT-08",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/056.wav",
+      "duration_sec": 5.248,
+      "start_sec": 319.662,
+      "end_sec": 324.91,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 57,
+      "section": "4 / 5 新しく使う人・開けない人",
+      "narration": "ブラウザの「プライベートブラウズ」や「シークレットモード」を使っていると、ストアへの移動を繰り返すことがあるそうです。",
+      "reading_overrides": {},
+      "pause_after": 0.183,
+      "scene_id": 24,
+      "subtitle_ids": [
+        "SUB-069",
+        "SUB-070"
+      ],
+      "shot_id": "SHOT-08",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/057.wav",
+      "duration_sec": 8.875,
+      "start_sec": 325.093,
+      "end_sec": 333.968,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 58,
+      "section": "4 / 5 新しく使う人・開けない人",
+      "narration": "通常モードに戻して、スマホを再起動してから、もう一度試してください。",
+      "reading_overrides": {},
+      "pause_after": 0.172,
+      "scene_id": 24,
+      "subtitle_ids": [
+        "SUB-071"
+      ],
+      "shot_id": "SHOT-08",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/058.wav",
+      "duration_sec": 5.397,
+      "start_sec": 334.151,
+      "end_sec": 339.548,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 59,
+      "section": "4 / 5 新しく使う人・開けない人",
+      "narration": "なお、この動画では、カードの読み取りや暗証番号の入力は実演しません。",
+      "reading_overrides": {},
+      "pause_after": 0.194,
+      "scene_id": 25,
+      "subtitle_ids": [
+        "SUB-072"
+      ],
+      "shot_id": "SHOT-08",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/059.wav",
+      "duration_sec": 5.899,
+      "start_sec": 339.72,
+      "end_sec": 345.619,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 60,
+      "section": "4 / 5 新しく使う人・開けない人",
+      "narration": "個人情報にかかわる手続きは、ご自身のスマホで、画面の案内に沿って進めてください。",
+      "reading_overrides": {},
+      "pause_after": 0.67,
+      "scene_id": 25,
+      "subtitle_ids": [
+        "SUB-073"
+      ],
+      "shot_id": "SHOT-08",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/060.wav",
+      "duration_sec": 6.421,
+      "start_sec": 345.813,
+      "end_sec": 352.234,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 61,
+      "section": "5 / 5 本物のマイナアプリを確認するポイント",
+      "narration": "最後に、偽物のアプリや、フィッシングにだまされないための、本物の確認ポイントです。",
+      "reading_overrides": {},
+      "pause_after": 0.183,
+      "scene_id": 26,
+      "subtitle_ids": [
+        "SUB-074"
+      ],
+      "shot_id": "SHOT-09",
+      "section_start": true,
+      "audio_path": "audio/voicevox_kenzaki/segments/061.wav",
+      "duration_sec": 6.517,
+      "start_sec": 352.904,
+      "end_sec": 359.421,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 62,
+      "section": "5 / 5 本物のマイナアプリを確認するポイント",
+      "narration": "公式のマイナアプリは、App StoreとGoogle Playの、ふたつの場所からだけ、ダウンロードできます。",
+      "reading_overrides": {},
+      "pause_after": 0.183,
+      "scene_id": 26,
+      "subtitle_ids": [
+        "SUB-075"
+      ],
+      "shot_id": "SHOT-09",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/062.wav",
+      "duration_sec": 6.869,
+      "start_sec": 359.605,
+      "end_sec": 366.474,
+      "audio_status": "generated",
+      "audio_notes": "appstore_ok=True kana=コオシキノマイナアプリワアップストアトグウグルプレエノフタツノバショカラダケダウンロオドデキマス"
+    },
+    {
+      "id": 63,
+      "section": "5 / 5 本物のマイナアプリを確認するポイント",
+      "narration": "アプリの名前は「マイナアプリ（旧マイナポータルアプリ）」、提供元の表示は、App Storeでは「Digital Agency of Japan」、Google Playでは「デジタル庁」です。",
+      "reading_overrides": {},
+      "pause_after": 0.178,
+      "scene_id": 27,
+      "subtitle_ids": [
+        "SUB-076",
+        "SUB-077",
+        "SUB-078"
+      ],
+      "shot_id": "SHOT-09",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/063.wav",
+      "duration_sec": 12.853,
+      "start_sec": 366.657,
+      "end_sec": 379.51,
+      "audio_status": "generated",
+      "audio_notes": "appstore_ok=True kana=アプリノナマエワマイナアプリキュウマイナポオタルアプリテエキョオモトノヒョオジワアップストアデワデジタルエエジェンシイオブジャパングウグルプレエデワデジタルチョオデス"
+    },
+    {
+      "id": 64,
+      "section": "5 / 5 本物のマイナアプリを確認するポイント",
+      "narration": "どちらの場合も、デジタル庁が提供元であることを確認してください。",
+      "reading_overrides": {},
+      "pause_after": 0.366,
+      "scene_id": 27,
+      "subtitle_ids": [
+        "SUB-079"
+      ],
+      "shot_id": "SHOT-09",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/064.wav",
+      "duration_sec": 4.779,
+      "start_sec": 379.688,
+      "end_sec": 384.467,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 65,
+      "section": "5 / 5 本物のマイナアプリを確認するポイント",
+      "narration": "アイコンのデザインは、ピンクのグラデーションに「マイナ」の文字と、桜のマークです。",
+      "reading_overrides": {},
+      "pause_after": 0.183,
+      "scene_id": 28,
+      "subtitle_ids": [
+        "SUB-080"
+      ],
+      "shot_id": "SHOT-09",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/065.wav",
+      "duration_sec": 6.283,
+      "start_sec": 384.833,
+      "end_sec": 391.116,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 66,
+      "section": "5 / 5 本物のマイナアプリを確認するポイント",
+      "narration": "デジタル庁は、マイナポータルをかたる偽サイトや、偽アプリの事案について、注意喚起を出しています。",
+      "reading_overrides": {},
+      "pause_after": 0.378,
+      "scene_id": 29,
+      "subtitle_ids": [
+        "SUB-081"
+      ],
+      "shot_id": "SHOT-10",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/066.wav",
+      "duration_sec": 7.371,
+      "start_sec": 391.299,
+      "end_sec": 398.67,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 67,
+      "section": "5 / 5 本物のマイナアプリを確認するポイント",
+      "narration": "メールや電話で、アプリのダウンロードや、暗証番号の入力を求められたら、まず疑ってください。",
+      "reading_overrides": {},
+      "pause_after": 0.177,
+      "scene_id": 29,
+      "subtitle_ids": [
+        "SUB-082"
+      ],
+      "shot_id": "SHOT-10",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/067.wav",
+      "duration_sec": 7.328,
+      "start_sec": 399.048,
+      "end_sec": 406.376,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 68,
+      "section": "5 / 5 本物のマイナアプリを確認するポイント",
+      "narration": "暗証番号などをメールや電話で聞かれても、入力・回答しないよう、デジタル庁は案内しています。",
+      "reading_overrides": {},
+      "pause_after": 0.382,
+      "scene_id": 30,
+      "subtitle_ids": [
+        "SUB-083"
+      ],
+      "shot_id": "SHOT-10",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/068.wav",
+      "duration_sec": 7.403,
+      "start_sec": 406.553,
+      "end_sec": 413.956,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 69,
+      "section": "5 / 5 本物のマイナアプリを確認するポイント",
+      "narration": "公式の相談窓口は、マイナンバー総合フリーダイヤル、0120-95-0178です。",
+      "reading_overrides": {},
+      "pause_after": 0.175,
+      "scene_id": 31,
+      "subtitle_ids": [
+        "SUB-084"
+      ],
+      "shot_id": "SHOT-10",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/069.wav",
+      "duration_sec": 8.245,
+      "start_sec": 414.338,
+      "end_sec": 422.583,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 70,
+      "section": "5 / 5 本物のマイナアプリを確認するポイント",
+      "narration": "心配なことがあれば、一人で判断せず、確認するのもひとつの方法です。",
+      "reading_overrides": {},
+      "pause_after": 0.678,
+      "scene_id": 31,
+      "subtitle_ids": [
+        "SUB-085"
+      ],
+      "shot_id": "SHOT-10",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/070.wav",
+      "duration_sec": 5.6,
+      "start_sec": 422.758,
+      "end_sec": 428.358,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 71,
+      "section": "まとめ",
+      "narration": "今日の内容をまとめます。",
+      "reading_overrides": {},
+      "pause_after": 0.378,
+      "scene_id": 32,
+      "subtitle_ids": [
+        "SUB-086"
+      ],
+      "shot_id": "SHOT-10",
+      "section_start": true,
+      "audio_path": "audio/voicevox_kenzaki/segments/071.wav",
+      "duration_sec": 1.739,
+      "start_sec": 429.036,
+      "end_sec": 430.775,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 72,
+      "section": "まとめ",
+      "narration": "今やっていただきたいことは、3つです。",
+      "reading_overrides": {},
+      "pause_after": 0.168,
+      "scene_id": 32,
+      "subtitle_ids": [
+        "SUB-087"
+      ],
+      "shot_id": "SHOT-11",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/072.wav",
+      "duration_sec": 2.741,
+      "start_sec": 431.153,
+      "end_sec": 433.894,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 73,
+      "section": "まとめ",
+      "narration": "1つ目、まず、お使いのアプリが本物かどうか、名前と提供元とアイコンを確認する。",
+      "reading_overrides": {},
+      "pause_after": 0.171,
+      "scene_id": 32,
+      "subtitle_ids": [
+        "SUB-088",
+        "SUB-089"
+      ],
+      "shot_id": "SHOT-11",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/073.wav",
+      "duration_sec": 6.869,
+      "start_sec": 434.063,
+      "end_sec": 440.932,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 74,
+      "section": "まとめ",
+      "narration": "2つ目、マイナポータルアプリなら、削除せずに、アップデートする。",
+      "reading_overrides": {},
+      "pause_after": 0.169,
+      "scene_id": 33,
+      "subtitle_ids": [
+        "SUB-090"
+      ],
+      "shot_id": "SHOT-11",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/074.wav",
+      "duration_sec": 5.12,
+      "start_sec": 441.103,
+      "end_sec": 446.223,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 75,
+      "section": "まとめ",
+      "narration": "3つ目、利用登録の案内が出たら、マイナンバーカードと数字4桁の暗証番号を用意して、端末のロックが設定されているか確認する。",
+      "reading_overrides": {},
+      "pause_after": 0.183,
+      "scene_id": 33,
+      "subtitle_ids": [
+        "SUB-091",
+        "SUB-092"
+      ],
+      "shot_id": "SHOT-11",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/075.wav",
+      "duration_sec": 10.112,
+      "start_sec": 446.392,
+      "end_sec": 456.504,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 76,
+      "section": "まとめ",
+      "narration": "慌てて消す前に、まず確認する。",
+      "reading_overrides": {},
+      "pause_after": 0.165,
+      "scene_id": 34,
+      "subtitle_ids": [
+        "SUB-093"
+      ],
+      "shot_id": "SHOT-11",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/076.wav",
+      "duration_sec": 2.731,
+      "start_sec": 456.687,
+      "end_sec": 459.418,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 77,
+      "section": "まとめ",
+      "narration": "それが一番の近道です。",
+      "reading_overrides": {},
+      "pause_after": 0.176,
+      "scene_id": 34,
+      "subtitle_ids": [
+        "SUB-094"
+      ],
+      "shot_id": "SHOT-11",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/077.wav",
+      "duration_sec": 1.952,
+      "start_sec": 459.583,
+      "end_sec": 461.535,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 78,
+      "section": "まとめ",
+      "narration": "役に立ったら、チャンネル登録して、次回も一緒に確認しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.19,
+      "scene_id": 34,
+      "subtitle_ids": [
+        "SUB-095"
+      ],
+      "shot_id": "SHOT-11",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/078.wav",
+      "duration_sec": 4.832,
+      "start_sec": 461.711,
+      "end_sec": 466.543,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 79,
+      "section": "まとめ",
+      "narration": "概要欄に、今回確認したデジタル庁の公式ページを載せておきます。",
+      "reading_overrides": {},
+      "pause_after": 0.172,
+      "scene_id": 35,
+      "subtitle_ids": [
+        "SUB-096"
+      ],
+      "shot_id": "SHOT-11",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/079.wav",
+      "duration_sec": 5.099,
+      "start_sec": 466.732,
+      "end_sec": 471.831,
+      "audio_status": "generated",
+      "audio_notes": ""
+    },
+    {
+      "id": 80,
+      "section": "まとめ",
+      "narration": "分からないことがあれば、コメントで教えてください。",
+      "reading_overrides": {},
+      "pause_after": 0.0,
+      "scene_id": 35,
+      "subtitle_ids": [
+        "SUB-097"
+      ],
+      "shot_id": "SHOT-11",
+      "section_start": false,
+      "audio_path": "audio/voicevox_kenzaki/segments/080.wav",
+      "duration_sec": 3.403,
+      "start_sec": 472.004,
+      "end_sec": 475.407,
+      "audio_status": "generated",
+      "audio_notes": ""
+    }
+  ],
+  "subtitles": [
+    {
+      "id": "SUB-001",
+      "text_lines": [
+        "アプリの名前やアイコンが、",
+        "急に変わって驚いた方はいませんか。"
+      ],
+      "segment_id": 1
+    },
+    {
+      "id": "SUB-002",
+      "text_lines": [
+        "マイナポータルアプリは、8月25日から",
+        "「マイナアプリ」になりました。"
+      ],
+      "segment_id": 2
+    },
+    {
+      "id": "SUB-003",
+      "text_lines": [
+        "お伝えしますが、マイナポータルという",
+        "サービス自体は、なくなりません。"
+      ],
+      "segment_id": 3
+    },
+    {
+      "id": "SUB-004",
+      "text_lines": [
+        "アプリを消して、入れ直す",
+        "必要もありません。"
+      ],
+      "segment_id": 4
+    },
+    {
+      "id": "SUB-005",
+      "text_lines": [
+        "今日は、何が変わったのか、今すべきことを",
+        "5つに分けて確認します。"
+      ],
+      "segment_id": 5
+    },
+    {
+      "id": "SUB-006",
+      "text_lines": [
+        "マイナアプリは、これまで使われてきた",
+        "マイナポータルアプリの、新しい名前です。"
+      ],
+      "segment_id": 6
+    },
+    {
+      "id": "SUB-007",
+      "text_lines": [
+        "同じアプリのアップデート版で、",
+        "いわば「名前を変えた」ものです。"
+      ],
+      "segment_id": 7
+    },
+    {
+      "id": "SUB-008",
+      "text_lines": [
+        "そこに、「デジタル認証アプリ」の",
+        "機能も統合されました。"
+      ],
+      "segment_id": 8
+    },
+    {
+      "id": "SUB-009",
+      "text_lines": [
+        "デジタル認証アプリは、マイナンバーカードで",
+        "「本人であることを確認する」ためのアプリでした。"
+      ],
+      "segment_id": 9
+    },
+    {
+      "id": "SUB-010",
+      "text_lines": [
+        "「認証」は「本人確認」という意味です。"
+      ],
+      "segment_id": 10
+    },
+    {
+      "id": "SUB-011",
+      "text_lines": [
+        "これまで、行政の手続きには",
+        "マイナポータルアプリ、"
+      ],
+      "segment_id": 11
+    },
+    {
+      "id": "SUB-012",
+      "text_lines": [
+        "民間のサービスにはデジタル認証アプリと、",
+        "場面によって使い分ける必要がありました。"
+      ],
+      "segment_id": 11
+    },
+    {
+      "id": "SUB-013",
+      "text_lines": [
+        "それが、マイナアプリひとつで",
+        "できるようになります。"
+      ],
+      "segment_id": 12
+    },
+    {
+      "id": "SUB-014",
+      "text_lines": [
+        "ひとつのアプリにまとめたのが、",
+        "今回の変更の中心です。"
+      ],
+      "segment_id": 13
+    },
+    {
+      "id": "SUB-015",
+      "text_lines": [
+        "変わったのは、主に3つです。"
+      ],
+      "segment_id": 14
+    },
+    {
+      "id": "SUB-016",
+      "text_lines": [
+        "1つ目は、スマホアプリの名前です。"
+      ],
+      "segment_id": 15
+    },
+    {
+      "id": "SUB-017",
+      "text_lines": [
+        "「マイナポータルアプリ」が",
+        "「マイナアプリ」になりました。"
+      ],
+      "segment_id": 16
+    },
+    {
+      "id": "SUB-018",
+      "text_lines": [
+        "2つ目は、アプリアイコンです。"
+      ],
+      "segment_id": 17
+    },
+    {
+      "id": "SUB-019",
+      "text_lines": [
+        "ピンクのグラデーションに「マイナ」の文字と、",
+        "桜のマークのデザインになりました。"
+      ],
+      "segment_id": 18
+    },
+    {
+      "id": "SUB-020",
+      "text_lines": [
+        "しばらくの間は、左下に「マイナちゃん」が",
+        "ついた、期間限定のアイコンです。"
+      ],
+      "segment_id": 19
+    },
+    {
+      "id": "SUB-021",
+      "text_lines": [
+        "デジタル庁は、年内をめどに、",
+        "最終的なデザインに統一すると案内しています。"
+      ],
+      "segment_id": 20
+    },
+    {
+      "id": "SUB-022",
+      "text_lines": [
+        "3つ目は、ログインや認証に使うアプリが、",
+        "ひとつに統合されたことです。"
+      ],
+      "segment_id": 21
+    },
+    {
+      "id": "SUB-023",
+      "text_lines": [
+        "デジタル認証アプリは、2026年8月25日をもって、",
+        "単体での提供が終了しました。"
+      ],
+      "segment_id": 22
+    },
+    {
+      "id": "SUB-024",
+      "text_lines": [
+        "開くと、マイナアプリの利用を",
+        "案内する画面が表示される、"
+      ],
+      "segment_id": 23
+    },
+    {
+      "id": "SUB-025",
+      "text_lines": [
+        "と公式のよくある質問にあります。"
+      ],
+      "segment_id": 23
+    },
+    {
+      "id": "SUB-026",
+      "text_lines": [
+        "使っていた人も、同じ機能を",
+        "マイナアプリで引き続き使えます。"
+      ],
+      "segment_id": 24
+    },
+    {
+      "id": "SUB-027",
+      "text_lines": [
+        "ここで、いちばん大事なことをお伝えします。"
+      ],
+      "segment_id": 25
+    },
+    {
+      "id": "SUB-028",
+      "text_lines": [
+        "マイナポータルというサービス自体が、",
+        "なくなったわけではありません。"
+      ],
+      "segment_id": 26
+    },
+    {
+      "id": "SUB-029",
+      "text_lines": [
+        "マイナポータルは、行政サービスの",
+        "オンライン窓口です。"
+      ],
+      "segment_id": 27
+    },
+    {
+      "id": "SUB-030",
+      "text_lines": [
+        "ウェブサイトは、引き続き使えます。"
+      ],
+      "segment_id": 28
+    },
+    {
+      "id": "SUB-031",
+      "text_lines": [
+        "医療費などの自己情報の確認や、",
+        "引越しやパスポートの申請も、今までどおりです。"
+      ],
+      "segment_id": 29
+    },
+    {
+      "id": "SUB-032",
+      "text_lines": [
+        "変わったのは、スマホアプリの",
+        "名前とアイコン、"
+      ],
+      "segment_id": 30
+    },
+    {
+      "id": "SUB-033",
+      "text_lines": [
+        "そしてログインや認証に使うアプリが",
+        "統合されたことです。"
+      ],
+      "segment_id": 30
+    },
+    {
+      "id": "SUB-034",
+      "text_lines": [
+        "ログインのときの本人確認の役割が、",
+        "マイナポータルアプリから、"
+      ],
+      "segment_id": 31
+    },
+    {
+      "id": "SUB-035",
+      "text_lines": [
+        "マイナアプリにバトンタッチされた、",
+        "と考えると分かりやすいです。"
+      ],
+      "segment_id": 31
+    },
+    {
+      "id": "SUB-036",
+      "text_lines": [
+        "では、ずっとマイナポータルアプリを",
+        "使っていた人は、何をすればいいのでしょうか。"
+      ],
+      "segment_id": 32
+    },
+    {
+      "id": "SUB-037",
+      "text_lines": [
+        "まず、今お使いのアプリの",
+        "名前とアイコン、"
+      ],
+      "segment_id": 33
+    },
+    {
+      "id": "SUB-038",
+      "text_lines": [
+        "そして、ストアで公開されている",
+        "情報を確認してください。"
+      ],
+      "segment_id": 33
+    },
+    {
+      "id": "SUB-039",
+      "text_lines": [
+        "マイナポータルアプリなら、アップデートするだけで、",
+        "そのままマイナアプリとして使えます。"
+      ],
+      "segment_id": 34
+    },
+    {
+      "id": "SUB-040",
+      "text_lines": [
+        "削除して、入れ直す",
+        "必要はありません。"
+      ],
+      "segment_id": 35
+    },
+    {
+      "id": "SUB-041",
+      "text_lines": [
+        "スマホの「自動更新」の設定がオンになっていれば、",
+        "そのまま自動で更新されている場合があります。"
+      ],
+      "segment_id": 36
+    },
+    {
+      "id": "SUB-042",
+      "text_lines": [
+        "オンになっていなければ、App StoreやGoogle Playで",
+        "「マイナアプリ（旧マイナポータルアプリ）」を探して、"
+      ],
+      "segment_id": 37
+    },
+    {
+      "id": "SUB-043",
+      "text_lines": [
+        "ご自分で更新してください。"
+      ],
+      "segment_id": 37
+    },
+    {
+      "id": "SUB-044",
+      "text_lines": [
+        "アップデート後も、スマホの中に入れた",
+        "マイナンバーカードの設定や、"
+      ],
+      "segment_id": 38
+    },
+    {
+      "id": "SUB-045",
+      "text_lines": [
+        "これまでの機能・データは",
+        "引き継がれます。"
+      ],
+      "segment_id": 38
+    },
+    {
+      "id": "SUB-046",
+      "text_lines": [
+        "再登録は不要です。"
+      ],
+      "segment_id": 39
+    },
+    {
+      "id": "SUB-047",
+      "text_lines": [
+        "アップデートしなくても、",
+        "マイナポータルアプリは当面使えます。"
+      ],
+      "segment_id": 40
+    },
+    {
+      "id": "SUB-048",
+      "text_lines": [
+        "ただ、一部の手続きでは、マイナアプリが",
+        "必要になる、と公式に案内されています。"
+      ],
+      "segment_id": 41
+    },
+    {
+      "id": "SUB-049",
+      "text_lines": [
+        "ここで注意です。"
+      ],
+      "segment_id": 42
+    },
+    {
+      "id": "SUB-050",
+      "text_lines": [
+        "分からなくなったからといって、アプリを",
+        "削除して入れ直すのは、まず待ってください。"
+      ],
+      "segment_id": 43
+    },
+    {
+      "id": "SUB-051",
+      "text_lines": [
+        "公式のよくある質問には、アプリを入れ直したあと、",
+        "マイナアプリが開かなくなった、"
+      ],
+      "segment_id": 44
+    },
+    {
+      "id": "SUB-052",
+      "text_lines": [
+        "という質問への案内があります。"
+      ],
+      "segment_id": 44
+    },
+    {
+      "id": "SUB-053",
+      "text_lines": [
+        "スマホには「後からインストールしたアプリが",
+        "優先して開く」という仕組みがあり、"
+      ],
+      "segment_id": 45
+    },
+    {
+      "id": "SUB-054",
+      "text_lines": [
+        "デジタル認証アプリを後から入れ直すと、",
+        "マイナアプリの代わりに開くことがあります。"
+      ],
+      "segment_id": 45
+    },
+    {
+      "id": "SUB-055",
+      "text_lines": [
+        "困ったときは、まず削除ではなく、"
+      ],
+      "segment_id": 46
+    },
+    {
+      "id": "SUB-056",
+      "text_lines": [
+        "公式のよくある質問や、概要欄の",
+        "公式ページを確認するのが安心です。"
+      ],
+      "segment_id": 46
+    },
+    {
+      "id": "SUB-057",
+      "text_lines": [
+        "次に、新しく使う人や、アップデート後に",
+        "開けない人向けの確認です。"
+      ],
+      "segment_id": 47
+    },
+    {
+      "id": "SUB-058",
+      "text_lines": [
+        "まず、動作環境です。"
+      ],
+      "segment_id": 48
+    },
+    {
+      "id": "SUB-059",
+      "text_lines": [
+        "iPhoneはiOS 16.4以上、Androidは",
+        "Android 11以降で、NFC機能が必要です。"
+      ],
+      "segment_id": 49
+    },
+    {
+      "id": "SUB-060",
+      "text_lines": [
+        "NFCは、カードをかざして",
+        "読み取るための機能です。"
+      ],
+      "segment_id": 50
+    },
+    {
+      "id": "SUB-061",
+      "text_lines": [
+        "新しく使う人は、初回だけ",
+        "「利用登録」という手続きが必要です。"
+      ],
+      "segment_id": 51
+    },
+    {
+      "id": "SUB-062",
+      "text_lines": [
+        "お手元に、マイナンバーカードと、数字4桁の",
+        "「利用者証明用暗証番号」を用意してください。"
+      ],
+      "segment_id": 52
+    },
+    {
+      "id": "SUB-063",
+      "text_lines": [
+        "実物のカードをかざすか、スマホの中に",
+        "カードを入れている人は、"
+      ],
+      "segment_id": 53
+    },
+    {
+      "id": "SUB-064",
+      "text_lines": [
+        "顔や指紋で認証します。"
+      ],
+      "segment_id": 53
+    },
+    {
+      "id": "SUB-065",
+      "text_lines": [
+        "また、端末のロック設定が必須です。"
+      ],
+      "segment_id": 54
+    },
+    {
+      "id": "SUB-066",
+      "text_lines": [
+        "PIN、顔認証、指紋認証など、スマホ本体の",
+        "ロックが設定されていないと、"
+      ],
+      "segment_id": 55
+    },
+    {
+      "id": "SUB-067",
+      "text_lines": [
+        "マイナアプリは使えません、",
+        "と公式に案内されています。"
+      ],
+      "segment_id": 55
+    },
+    {
+      "id": "SUB-068",
+      "text_lines": [
+        "もし、マイナポータルにログインできない場合は、",
+        "よくある原因があります。"
+      ],
+      "segment_id": 56
+    },
+    {
+      "id": "SUB-069",
+      "text_lines": [
+        "ブラウザの「プライベートブラウズ」や",
+        "「シークレットモード」を使っていると、"
+      ],
+      "segment_id": 57
+    },
+    {
+      "id": "SUB-070",
+      "text_lines": [
+        "ストアへの移動を繰り返すことが",
+        "あるそうです。"
+      ],
+      "segment_id": 57
+    },
+    {
+      "id": "SUB-071",
+      "text_lines": [
+        "通常モードに戻して、スマホを再起動してから、",
+        "もう一度試してください。"
+      ],
+      "segment_id": 58
+    },
+    {
+      "id": "SUB-072",
+      "text_lines": [
+        "なお、この動画では、カードの読み取りや",
+        "暗証番号の入力は実演しません。"
+      ],
+      "segment_id": 59
+    },
+    {
+      "id": "SUB-073",
+      "text_lines": [
+        "個人情報にかかわる手続きは、ご自身のスマホで、",
+        "画面の案内に沿って進めてください。"
+      ],
+      "segment_id": 60
+    },
+    {
+      "id": "SUB-074",
+      "text_lines": [
+        "最後に、偽物のアプリや、フィッシングに",
+        "だまされないための、本物の確認ポイントです。"
+      ],
+      "segment_id": 61
+    },
+    {
+      "id": "SUB-075",
+      "text_lines": [
+        "公式のマイナアプリは、App StoreとGoogle Playの、",
+        "ふたつの場所からだけ、ダウンロードできます。"
+      ],
+      "segment_id": 62
+    },
+    {
+      "id": "SUB-076",
+      "text_lines": [
+        "アプリの名前は「マイナアプリ",
+        "（旧マイナポータルアプリ）」、"
+      ],
+      "segment_id": 63
+    },
+    {
+      "id": "SUB-077",
+      "text_lines": [
+        "提供元の表示は、App Storeでは",
+        "「Digital Agency of Japan」、"
+      ],
+      "segment_id": 63
+    },
+    {
+      "id": "SUB-078",
+      "text_lines": [
+        "Google Playでは「デジタル庁」です。"
+      ],
+      "segment_id": 63
+    },
+    {
+      "id": "SUB-079",
+      "text_lines": [
+        "どちらの場合も、デジタル庁が",
+        "提供元であることを確認してください。"
+      ],
+      "segment_id": 64
+    },
+    {
+      "id": "SUB-080",
+      "text_lines": [
+        "アイコンのデザインは、ピンクのグラデーションに",
+        "「マイナ」の文字と、桜のマークです。"
+      ],
+      "segment_id": 65
+    },
+    {
+      "id": "SUB-081",
+      "text_lines": [
+        "デジタル庁は、マイナポータルをかたる",
+        "偽サイトや偽アプリへの注意喚起を出しています。"
+      ],
+      "segment_id": 66
+    },
+    {
+      "id": "SUB-082",
+      "text_lines": [
+        "メールや電話で、アプリのダウンロードや、",
+        "暗証番号の入力を求められたら、まず疑ってください。"
+      ],
+      "segment_id": 67
+    },
+    {
+      "id": "SUB-083",
+      "text_lines": [
+        "暗証番号などをメールや電話で聞かれても、",
+        "入力・回答しないよう、デジタル庁は案内しています。"
+      ],
+      "segment_id": 68
+    },
+    {
+      "id": "SUB-084",
+      "text_lines": [
+        "公式の相談窓口は、マイナンバー総合フリーダイヤル、",
+        "0120-95-0178です。"
+      ],
+      "segment_id": 69
+    },
+    {
+      "id": "SUB-085",
+      "text_lines": [
+        "心配なことがあれば、一人で判断せず、",
+        "確認するのもひとつの方法です。"
+      ],
+      "segment_id": 70
+    },
+    {
+      "id": "SUB-086",
+      "text_lines": [
+        "今日の内容をまとめます。"
+      ],
+      "segment_id": 71
+    },
+    {
+      "id": "SUB-087",
+      "text_lines": [
+        "今やっていただきたいことは、",
+        "3つです。"
+      ],
+      "segment_id": 72
+    },
+    {
+      "id": "SUB-088",
+      "text_lines": [
+        "1つ目、まず、お使いのアプリが本物かどうか、"
+      ],
+      "segment_id": 73
+    },
+    {
+      "id": "SUB-089",
+      "text_lines": [
+        "名前と提供元とアイコンを確認する。"
+      ],
+      "segment_id": 73
+    },
+    {
+      "id": "SUB-090",
+      "text_lines": [
+        "2つ目、マイナポータルアプリなら、",
+        "削除せずに、アップデートする。"
+      ],
+      "segment_id": 74
+    },
+    {
+      "id": "SUB-091",
+      "text_lines": [
+        "3つ目、利用登録の案内が出たら、",
+        "マイナンバーカードと数字4桁の暗証番号を用意して、"
+      ],
+      "segment_id": 75
+    },
+    {
+      "id": "SUB-092",
+      "text_lines": [
+        "端末のロックが設定されているか",
+        "確認する。"
+      ],
+      "segment_id": 75
+    },
+    {
+      "id": "SUB-093",
+      "text_lines": [
+        "慌てて消す前に、",
+        "まず確認する。"
+      ],
+      "segment_id": 76
+    },
+    {
+      "id": "SUB-094",
+      "text_lines": [
+        "それが一番の近道です。"
+      ],
+      "segment_id": 77
+    },
+    {
+      "id": "SUB-095",
+      "text_lines": [
+        "役に立ったら、チャンネル登録して、",
+        "次回も一緒に確認しましょう。"
+      ],
+      "segment_id": 78
+    },
+    {
+      "id": "SUB-096",
+      "text_lines": [
+        "概要欄に、今回確認したデジタル庁の",
+        "公式ページを載せておきます。"
+      ],
+      "segment_id": 79
+    },
+    {
+      "id": "SUB-097",
+      "text_lines": [
+        "分からないことがあれば、",
+        "コメントで教えてください。"
+      ],
+      "segment_id": 80
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "legacy_id": "SCENE-001",
+      "layout": "layout_03_visual_text",
+      "section_label": "はじめに",
+      "main_message": "マイナポータルアプリは、マイナアプリになりました。",
+      "headline": "8月25日から「マイナアプリ」",
+      "support_text": "名前とアイコンが変わります",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/official_icon_rounded_3x.png",
+          "label": "公式アイコン"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "crossfade(前なし・後0.5s)",
+      "start_segment": 1,
+      "end_segment": 2,
+      "subtitle_ids": [
+        "SUB-001",
+        "SUB-002"
+      ],
+      "image_filename": "scene_001.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "official_icon_rounded_3x.png（左スロット420px）＋任意br_03小窓",
+      "legacy_notes": "冒頭。8月25日→マイナアプリ",
+      "timing": {
+        "start_sec": 0.0,
+        "end_sec": 10.545,
+        "duration_sec": 10.545
+      },
+      "render_mode": "hybrid",
+      "text_render_mode": "codex"
+    },
+    {
+      "id": 2,
+      "legacy_id": "SCENE-002",
+      "layout": "layout_06_caution",
+      "section_label": "はじめに",
+      "main_message": "サービスそのものは、引き続き使えます。",
+      "headline": "マイナポータルは、なくなりません",
+      "support_text": "アプリを消して、入れ直す必要はありません",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "crossfade 0.5s",
+      "start_segment": 3,
+      "end_segment": 4,
+      "subtitle_ids": [
+        "SUB-003",
+        "SUB-004"
+      ],
+      "image_filename": "scene_002.png",
+      "visual_type": "generated_fullscreen",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "安心メッセージ「なくなりません」",
+      "timing": {
+        "start_sec": 10.545,
+        "end_sec": 18.889,
+        "duration_sec": 8.344
+      },
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex"
+    },
+    {
+      "id": 3,
+      "legacy_id": "SCENE-003",
+      "layout": "layout_02_list",
+      "section_label": "はじめに",
+      "main_message": "5項目の一覧",
+      "headline": "今日は5つのことを確認",
+      "support_text": "変更点と、今やることを順番に見ていきます",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "crossfade 0.5s",
+      "start_segment": 5,
+      "end_segment": 5,
+      "subtitle_ids": [
+        "SUB-005"
+      ],
+      "image_filename": "scene_003.png",
+      "visual_type": "summary_card",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "今日の5項目リスト",
+      "timing": {
+        "start_sec": 18.889,
+        "end_sec": 25.174,
+        "duration_sec": 6.285
+      },
+      "items": [
+        "マイナアプリとは何か",
+        "何が変わったのか",
+        "すでに使っていた人は？",
+        "新しく使う人・開けない人",
+        "本物の確認ポイント"
+      ],
+      "render_mode": "template"
+    },
+    {
+      "id": 4,
+      "legacy_id": "SCENE-004",
+      "layout": "layout_03_visual_text",
+      "section_label": "1 / 5 マイナアプリとは何か",
+      "main_message": "名前を変えたアプリです。",
+      "headline": "同じアプリの、新しい名前",
+      "support_text": "マイナポータルアプリのアップデート版です",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "slow_zoom 1.0→1.05＋crossfade",
+      "start_segment": 6,
+      "end_segment": 7,
+      "subtitle_ids": [
+        "SUB-006",
+        "SUB-007"
+      ],
+      "image_filename": "scene_004.png",
+      "visual_type": "generated_fullscreen",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "名前を変えたアップデート版",
+      "timing": {
+        "start_sec": 25.174,
+        "end_sec": 36.357,
+        "duration_sec": 11.183
+      },
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex"
+    },
+    {
+      "id": 5,
+      "legacy_id": "SCENE-005",
+      "layout": "layout_04_text_official",
+      "section_label": "1 / 5 マイナアプリとは何か",
+      "main_message": "マイナンバーカードで本人であることを確認する機能です。",
+      "headline": "認証は、本人確認",
+      "support_text": "デジタル認証アプリの機能も統合されました",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/official_screen_card.png",
+          "label": "公式カード読み取り画面"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "none＋crossfade 0.5s",
+      "start_segment": 8,
+      "end_segment": 10,
+      "subtitle_ids": [
+        "SUB-008",
+        "SUB-009",
+        "SUB-010"
+      ],
+      "image_filename": "scene_005.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "official_screen_card.png（右スロット高さ430px）",
+      "legacy_notes": "認証＝本人確認・統合",
+      "timing": {
+        "start_sec": 36.357,
+        "end_sec": 52.364,
+        "duration_sec": 16.007
+      },
+      "render_mode": "official"
+    },
+    {
+      "id": 6,
+      "legacy_id": "SCENE-006",
+      "layout": "layout_05_compare",
+      "section_label": "1 / 5 マイナアプリとは何か",
+      "main_message": "マイナアプリひとつで使えるようになります。",
+      "headline": "2つのアプリを、1つに",
+      "support_text": "行政と民間の本人確認をまとめます",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "slow_pan 左→右",
+      "start_segment": 11,
+      "end_segment": 13,
+      "subtitle_ids": [
+        "SUB-011",
+        "SUB-012",
+        "SUB-013",
+        "SUB-014"
+      ],
+      "image_filename": "scene_006.png",
+      "visual_type": "generated_fullscreen",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "2つのアプリ→ひとつ",
+      "timing": {
+        "start_sec": 52.364,
+        "end_sec": 70.707,
+        "duration_sec": 18.343
+      },
+      "render_mode": "template"
+    },
+    {
+      "id": 7,
+      "legacy_id": "SCENE-007",
+      "layout": "layout_08_section",
+      "section_label": "2 / 5 何が変わったのか",
+      "main_message": "2 / 5の確認ポイント",
+      "headline": "何が変わったのか",
+      "support_text": "名前・アイコン・ログインや認証のアプリが変わります",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "crossfade 0.5s",
+      "start_segment": 14,
+      "end_segment": 16,
+      "subtitle_ids": [
+        "SUB-015",
+        "SUB-016",
+        "SUB-017"
+      ],
+      "image_filename": "scene_007.png",
+      "visual_type": "generated_fullscreen",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "2/5章見出し・名前",
+      "timing": {
+        "start_sec": 70.707,
+        "end_sec": 80.974,
+        "duration_sec": 10.267
+      },
+      "render_mode": "template"
+    },
+    {
+      "id": 8,
+      "legacy_id": "SCENE-008",
+      "layout": "layout_05_compare",
+      "section_label": "2 / 5 何が変わったのか",
+      "main_message": "公式素材の新旧アイコンを比較します。",
+      "headline": "アイコンも変わりました",
+      "support_text": "期間限定のデザインもあります",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/official_icon_rounded_3x.png",
+          "label": "新アイコン"
+        },
+        {
+          "kind": "image",
+          "path": "assets/official/official_icon_limited_3x.png",
+          "label": "期間限定アイコン"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "none",
+      "start_segment": 17,
+      "end_segment": 19,
+      "subtitle_ids": [
+        "SUB-018",
+        "SUB-019",
+        "SUB-020"
+      ],
+      "image_filename": "scene_008.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "official_icon_rounded_3x.png＋official_icon_limited_3x.png（2スロット430px）",
+      "legacy_notes": "アイコン2種比較",
+      "timing": {
+        "start_sec": 80.974,
+        "end_sec": 95.866,
+        "duration_sec": 14.892
+      },
+      "render_mode": "official"
+    },
+    {
+      "id": 9,
+      "legacy_id": "SCENE-009",
+      "layout": "layout_04_text_official",
+      "section_label": "2 / 5 何が変わったのか",
+      "main_message": "機能はマイナアプリで引き続き使えます。",
+      "headline": "ログインや認証も、1つに",
+      "support_text": "デジタル認証アプリは単体提供が終了しました",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/browser/br_03_news_20260825.png",
+          "label": "デジタル庁のお知らせ"
+        }
+      ],
+      "official_asset_crop": [
+        {
+          "asset_index": 0,
+          "slot": "right",
+          "fit": "contain",
+          "box": [
+            143,
+            240,
+            1297,
+            760
+          ]
+        }
+      ],
+      "animation": "slow_zoom 1.0→1.06",
+      "start_segment": 20,
+      "end_segment": 22,
+      "subtitle_ids": [
+        "SUB-021",
+        "SUB-022",
+        "SUB-023"
+      ],
+      "image_filename": "scene_009.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "br_03_news_20260825.png（右スロット幅560px）",
+      "legacy_notes": "年内統一・認証アプリ統合・8/25単体終了",
+      "timing": {
+        "start_sec": 95.866,
+        "end_sec": 115.647,
+        "duration_sec": 19.781
+      },
+      "render_mode": "official"
+    },
+    {
+      "id": 10,
+      "legacy_id": "SCENE-010",
+      "layout": "layout_05_compare",
+      "section_label": "2 / 5 何が変わったのか",
+      "main_message": "サービスとアプリを分けて考えると安心です。",
+      "headline": "マイナポータルは、なくなりません",
+      "support_text": "変わるのは、スマホアプリの名前とログイン方法",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/browser/br_02_svc_top_faq.png",
+          "label": "公式サービスサイトFAQ"
+        }
+      ],
+      "official_asset_crop": [
+        {
+          "asset_index": 0,
+          "slot": "left",
+          "fit": "contain",
+          "box": [
+            0,
+            5300,
+            1440,
+            5680
+          ]
+        },
+        {
+          "asset_index": 0,
+          "slot": "right",
+          "fit": "contain",
+          "box": [
+            0,
+            5680,
+            1440,
+            6080
+          ]
+        }
+      ],
+      "animation": "none",
+      "start_segment": 23,
+      "end_segment": 26,
+      "subtitle_ids": [
+        "SUB-024",
+        "SUB-025",
+        "SUB-026",
+        "SUB-027",
+        "SUB-028"
+      ],
+      "image_filename": "scene_010.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "br_02_svc_top_faq.png（2スロット各幅520px）",
+      "legacy_notes": "「別のアプリですか→いいえ」・なくならない",
+      "timing": {
+        "start_sec": 115.647,
+        "end_sec": 135.078,
+        "duration_sec": 19.431
+      },
+      "render_mode": "hybrid",
+      "text_render_mode": "codex"
+    },
+    {
+      "id": 11,
+      "legacy_id": "SCENE-011",
+      "layout": "layout_01_hero",
+      "section_label": "2 / 5 何が変わったのか",
+      "main_message": "医療費の確認や各種申請も対象です。",
+      "headline": "マイナポータルは、行政の窓口",
+      "support_text": "ウェブサイトは、今までどおり使えます",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "crossfade 0.5s",
+      "start_segment": 27,
+      "end_segment": 29,
+      "subtitle_ids": [
+        "SUB-029",
+        "SUB-030",
+        "SUB-031"
+      ],
+      "image_filename": "scene_011.png",
+      "visual_type": "generated_fullscreen",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "マイナポータル窓口・Web存続",
+      "timing": {
+        "start_sec": 135.078,
+        "end_sec": 149.082,
+        "duration_sec": 14.004
+      },
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex"
+    },
+    {
+      "id": 12,
+      "legacy_id": "SCENE-012",
+      "layout": "layout_03_visual_text",
+      "section_label": "2 / 5 何が変わったのか",
+      "main_message": "概念図で、役割の移り変わりを確認します。",
+      "headline": "ログインの役割が、バトンタッチ",
+      "support_text": "マイナポータルアプリから、マイナアプリへ",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "slow_pan 左→右",
+      "start_segment": 30,
+      "end_segment": 31,
+      "subtitle_ids": [
+        "SUB-032",
+        "SUB-033",
+        "SUB-034",
+        "SUB-035"
+      ],
+      "image_filename": "scene_012.png",
+      "visual_type": "generated_fullscreen",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "ログイン方法のバトンタッチ",
+      "timing": {
+        "start_sec": 149.082,
+        "end_sec": 165.521,
+        "duration_sec": 16.439
+      },
+      "render_mode": "template"
+    },
+    {
+      "id": 13,
+      "legacy_id": "SCENE-013",
+      "layout": "layout_04_text_official",
+      "section_label": "3 / 5 すでに使っていた人は？",
+      "main_message": "すでに使っている人は、最初に表示を確認します。",
+      "headline": "まず、今のアプリを確認",
+      "support_text": "名前・アイコン・ストアの情報",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/browser/br_09_gplay.png",
+          "label": "Google Play公式掲載"
+        }
+      ],
+      "official_asset_crop": [
+        {
+          "asset_index": 0,
+          "slot": "right",
+          "fit": "contain",
+          "box": [
+            80,
+            100,
+            1240,
+            560
+          ]
+        }
+      ],
+      "animation": "crossfade 0.5s",
+      "start_segment": 32,
+      "end_segment": 33,
+      "subtitle_ids": [
+        "SUB-036",
+        "SUB-037",
+        "SUB-038"
+      ],
+      "image_filename": "scene_013.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "br_09_gplay.png（右スロット幅420px）",
+      "legacy_notes": "3/5章・まず名前とアイコン・ストア情報を確認",
+      "timing": {
+        "start_sec": 166.205,
+        "end_sec": 179.73,
+        "duration_sec": 13.525
+      },
+      "render_mode": "official"
+    },
+    {
+      "id": 14,
+      "legacy_id": "SCENE-014",
+      "layout": "layout_04_text_official",
+      "section_label": "3 / 5 すでに使っていた人は？",
+      "main_message": "削除して入れ直す必要はありません。",
+      "headline": "アップデートするだけでOK",
+      "support_text": "自動更新の設定によっては、そのまま更新されます",
+      "official_asset": [
+        {
+          "kind": "quote",
+          "text": "App StoreやGoogle Playの自動更新設定をご利用の場合は、自動的に更新される場合があります。自動更新を利用していない場合は、ご自身でアップデートをお願いします。",
+          "source": "https://support.mynaapp.digital.go.jp/hc/ja",
+          "label": "公式FAQ・自動更新"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "none",
+      "start_segment": 34,
+      "end_segment": 36,
+      "subtitle_ids": [
+        "SUB-039",
+        "SUB-040",
+        "SUB-041"
+      ],
+      "image_filename": "scene_014.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "公式FAQ引用（自動更新・Codexレンダ）",
+      "legacy_notes": "アップデートでOK・自動更新ON",
+      "timing": {
+        "start_sec": 179.73,
+        "end_sec": 196.468,
+        "duration_sec": 16.738
+      },
+      "render_mode": "official"
+    },
+    {
+      "id": 15,
+      "legacy_id": "SCENE-015",
+      "layout": "layout_04_text_official",
+      "section_label": "3 / 5 すでに使っていた人は？",
+      "main_message": "アプリ名と提供元を見てから更新します。",
+      "headline": "自分で更新する場合",
+      "support_text": "App StoreやGoogle Playで公式の掲載情報を確認",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/browser/br_09_gplay.png",
+          "label": "Google Play公式掲載"
+        }
+      ],
+      "official_asset_crop": [
+        {
+          "asset_index": 0,
+          "slot": "right",
+          "fit": "contain",
+          "box": [
+            80,
+            100,
+            1240,
+            560
+          ]
+        }
+      ],
+      "animation": "crossfade 0.5s",
+      "start_segment": 37,
+      "end_segment": 37,
+      "subtitle_ids": [
+        "SUB-042",
+        "SUB-043"
+      ],
+      "image_filename": "scene_015.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "br_09_gplay.png（右スロット幅560px）",
+      "legacy_notes": "自動更新OFF→ストアで更新",
+      "timing": {
+        "start_sec": 196.468,
+        "end_sec": 206.319,
+        "duration_sec": 9.851
+      },
+      "render_mode": "official"
+    },
+    {
+      "id": 16,
+      "legacy_id": "SCENE-016",
+      "layout": "layout_02_list",
+      "section_label": "3 / 5 すでに使っていた人は？",
+      "main_message": "アップデート後の確認",
+      "headline": "設定とデータは、引き継がれます",
+      "support_text": "再登録は不要。ただし一部の手続きはマイナアプリが必要です",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "slow_zoom 1.0→1.05",
+      "start_segment": 38,
+      "end_segment": 41,
+      "subtitle_ids": [
+        "SUB-044",
+        "SUB-045",
+        "SUB-046",
+        "SUB-047",
+        "SUB-048"
+      ],
+      "image_filename": "scene_016.png",
+      "visual_type": "generated_fullscreen",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "引き継ぎ・当面使える（尺20.7s）",
+      "timing": {
+        "start_sec": 206.319,
+        "end_sec": 227.042,
+        "duration_sec": 20.723
+      },
+      "items": [
+        "スマホのマイナンバーカード設定",
+        "これまでの機能・データ",
+        "再登録は不要",
+        "一部の手続きではマイナアプリが必要"
+      ],
+      "render_mode": "template"
+    },
+    {
+      "id": 17,
+      "legacy_id": "SCENE-017",
+      "layout": "layout_06_caution",
+      "section_label": "3 / 5 すでに使っていた人は？",
+      "main_message": "慌ててアプリを消す前に、案内を確認します。",
+      "headline": "削除・入れ直しは、まず待って",
+      "support_text": "分からないときは、公式FAQを確認",
+      "official_asset": [
+        {
+          "kind": "quote",
+          "text": "Q. アプリを入れ直したら、マイナアプリが開かなくなりました。",
+          "source": "https://support.mynaapp.digital.go.jp/hc/ja",
+          "label": "公式FAQ・質問"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "crossfade 0.5s",
+      "start_segment": 42,
+      "end_segment": 43,
+      "subtitle_ids": [
+        "SUB-049",
+        "SUB-050"
+      ],
+      "image_filename": "scene_017.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "公式FAQ引用（入れ直しQ・Codexレンダ）",
+      "legacy_notes": "注意：削除・入れ直しは待って",
+      "timing": {
+        "start_sec": 227.042,
+        "end_sec": 234.267,
+        "duration_sec": 7.225
+      },
+      "render_mode": "hybrid",
+      "text_render_mode": "codex"
+    },
+    {
+      "id": 18,
+      "legacy_id": "SCENE-018",
+      "layout": "layout_05_compare",
+      "section_label": "3 / 5 すでに使っていた人は？",
+      "main_message": "インストールの順番で、開くアプリが決まる場合があります。",
+      "headline": "後から入れたアプリが、優先されます",
+      "support_text": "入れ直しの前に、仕組みを確認",
+      "official_asset": [
+        {
+          "kind": "quote",
+          "text": "A. 後からインストールしたアプリが優先して開く仕組みになっています。マイナアプリを優先したい場合は、マイナアプリをデジタル認証アプリより後にインストールし直すか、デジタル認証アプリをアンインストールします。",
+          "source": "https://support.mynaapp.digital.go.jp/hc/ja",
+          "label": "公式FAQ・回答"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "slow_pan 左→右",
+      "start_segment": 44,
+      "end_segment": 45,
+      "subtitle_ids": [
+        "SUB-051",
+        "SUB-052",
+        "SUB-053",
+        "SUB-054"
+      ],
+      "image_filename": "scene_018.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "公式FAQ引用（入れ直しA・Codexレンダ）",
+      "legacy_notes": "後から入れたアプリが優先（尺20.6s）",
+      "timing": {
+        "start_sec": 234.267,
+        "end_sec": 254.889,
+        "duration_sec": 20.622
+      },
+      "render_mode": "hybrid",
+      "text_render_mode": "codex"
+    },
+    {
+      "id": 19,
+      "legacy_id": "SCENE-019",
+      "layout": "layout_06_caution",
+      "section_label": "3 / 5 すでに使っていた人は？",
+      "main_message": "削除ではなく、公式の案内を見ます。",
+      "headline": "困ったら、まず確認",
+      "support_text": "公式FAQと概要欄の公式ページ",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "crossfade 0.5s",
+      "start_segment": 46,
+      "end_segment": 46,
+      "subtitle_ids": [
+        "SUB-055",
+        "SUB-056"
+      ],
+      "image_filename": "scene_019.png",
+      "visual_type": "generated_fullscreen",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "困ったら公式FAQ・概要欄",
+      "timing": {
+        "start_sec": 254.889,
+        "end_sec": 263.95,
+        "duration_sec": 9.061
+      },
+      "render_mode": "template"
+    },
+    {
+      "id": 20,
+      "legacy_id": "SCENE-020",
+      "layout": "layout_08_section",
+      "section_label": "4 / 5 新しく使う人・開けない人",
+      "main_message": "端末の条件から確認します。",
+      "headline": "まず、動作環境を確認",
+      "support_text": "4 / 5 新しく使う人・開けない人",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "crossfade 0.5s",
+      "start_segment": 47,
+      "end_segment": 48,
+      "subtitle_ids": [
+        "SUB-057",
+        "SUB-058"
+      ],
+      "image_filename": "scene_020.png",
+      "visual_type": "generated_fullscreen",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "4/5章見出し",
+      "timing": {
+        "start_sec": 263.95,
+        "end_sec": 271.767,
+        "duration_sec": 7.817
+      },
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex"
+    },
+    {
+      "id": 21,
+      "legacy_id": "SCENE-021",
+      "layout": "layout_04_text_official",
+      "section_label": "4 / 5 新しく使う人・開けない人",
+      "main_message": "NFCはカードをかざして読み取る機能です。",
+      "headline": "対応OSとNFCを確認",
+      "support_text": "iPhoneはiOS 16.4以上／Androidは11以降＋NFC",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/browser/br_06_sysreq.png",
+          "label": "公式・動作環境"
+        }
+      ],
+      "official_asset_crop": [
+        {
+          "asset_index": 0,
+          "slot": "right",
+          "fit": "contain",
+          "box": [
+            0,
+            300,
+            1440,
+            1150
+          ]
+        }
+      ],
+      "animation": "none",
+      "start_segment": 49,
+      "end_segment": 50,
+      "subtitle_ids": [
+        "SUB-059",
+        "SUB-060"
+      ],
+      "image_filename": "scene_021.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "br_06_sysreq.png（右スロット幅600px）",
+      "legacy_notes": "動作環境（iOS16.4/Android11・NFC）",
+      "timing": {
+        "start_sec": 271.767,
+        "end_sec": 284.724,
+        "duration_sec": 12.957
+      },
+      "render_mode": "official"
+    },
+    {
+      "id": 22,
+      "legacy_id": "SCENE-022",
+      "layout": "layout_04_text_official",
+      "section_label": "4 / 5 新しく使う人・開けない人",
+      "main_message": "スマホ内のカードなら顔・指紋で認証できます。",
+      "headline": "初回だけ「利用登録」",
+      "support_text": "カードと数字4桁の暗証番号を用意",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/official_screen_register_card_auth.png",
+          "label": "公式・カード認証"
+        },
+        {
+          "kind": "image",
+          "path": "assets/official/official_screen_register_biometric.png",
+          "label": "公式・顔・指紋認証"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "none",
+      "start_segment": 51,
+      "end_segment": 53,
+      "subtitle_ids": [
+        "SUB-061",
+        "SUB-062",
+        "SUB-063",
+        "SUB-064"
+      ],
+      "image_filename": "scene_022.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "official_screen_register_card_auth.png＋official_screen_register_biometric.png（右2スロット縦）",
+      "legacy_notes": "初回利用登録（尺20.6s）",
+      "timing": {
+        "start_sec": 284.724,
+        "end_sec": 305.275,
+        "duration_sec": 20.551
+      },
+      "render_mode": "official"
+    },
+    {
+      "id": 23,
+      "legacy_id": "SCENE-023",
+      "layout": "layout_06_caution",
+      "section_label": "4 / 5 新しく使う人・開けない人",
+      "main_message": "ロック未設定ではマイナアプリを使えません。",
+      "headline": "端末のロック設定が必須",
+      "support_text": "PIN・顔認証・指紋認証",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/official_screen_register_device_lock.png",
+          "label": "公式・端末ロック"
+        },
+        {
+          "kind": "image",
+          "path": "assets/official/browser/br_06_sysreq.png",
+          "label": "公式・端末ロック案内"
+        }
+      ],
+      "official_asset_crop": [
+        {
+          "asset_index": 1,
+          "slot": "right",
+          "fit": "contain",
+          "box": [
+            0,
+            1500,
+            1440,
+            2350
+          ]
+        }
+      ],
+      "animation": "slow_zoom 1.0→1.05",
+      "start_segment": 54,
+      "end_segment": 55,
+      "subtitle_ids": [
+        "SUB-065",
+        "SUB-066",
+        "SUB-067"
+      ],
+      "image_filename": "scene_023.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "official_screen_register_device_lock.png＋br_06ロック節",
+      "legacy_notes": "端末ロック必須",
+      "timing": {
+        "start_sec": 305.275,
+        "end_sec": 319.397,
+        "duration_sec": 14.122
+      },
+      "render_mode": "hybrid",
+      "text_render_mode": "codex"
+    },
+    {
+      "id": 24,
+      "legacy_id": "SCENE-024",
+      "layout": "layout_02_list",
+      "section_label": "4 / 5 新しく使う人・開けない人",
+      "main_message": "公式FAQにある確認手順",
+      "headline": "ログインできないとき",
+      "support_text": "まず通常モードに戻して、再起動して再確認",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "none",
+      "start_segment": 56,
+      "end_segment": 58,
+      "subtitle_ids": [
+        "SUB-068",
+        "SUB-069",
+        "SUB-070",
+        "SUB-071"
+      ],
+      "image_filename": "scene_024.png",
+      "visual_type": "generated_fullscreen",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "ログインできない場合の対処（尺20.1s）",
+      "timing": {
+        "start_sec": 319.397,
+        "end_sec": 339.455,
+        "duration_sec": 20.058
+      },
+      "items": [
+        "プライベートブラウズをやめる",
+        "シークレットモードをやめる",
+        "通常モードで端末を再起動",
+        "もう一度試す"
+      ],
+      "render_mode": "template"
+    },
+    {
+      "id": 25,
+      "legacy_id": "SCENE-025",
+      "layout": "layout_06_caution",
+      "section_label": "4 / 5 新しく使う人・開けない人",
+      "main_message": "画面の案内に沿って、落ち着いて進めてください。",
+      "headline": "個人情報の操作は、ご自身のスマホで",
+      "support_text": "カード読み取り・暗証番号入力は実演しません",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "crossfade 0.5s",
+      "start_segment": 59,
+      "end_segment": 60,
+      "subtitle_ids": [
+        "SUB-072",
+        "SUB-073"
+      ],
+      "image_filename": "scene_025.png",
+      "visual_type": "generated_fullscreen",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "実演しない・ご自身のスマホで",
+      "timing": {
+        "start_sec": 339.455,
+        "end_sec": 352.639,
+        "duration_sec": 13.184
+      },
+      "render_mode": "template"
+    },
+    {
+      "id": 26,
+      "legacy_id": "SCENE-026",
+      "layout": "layout_08_section",
+      "section_label": "5 / 5 本物の確認ポイント",
+      "main_message": "5 / 5 本物の確認ポイント",
+      "headline": "本物は、2つのストアから",
+      "support_text": "App StoreまたはGoogle Play",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "crossfade 0.5s",
+      "start_segment": 61,
+      "end_segment": 62,
+      "subtitle_ids": [
+        "SUB-074",
+        "SUB-075"
+      ],
+      "image_filename": "scene_026.png",
+      "visual_type": "generated_fullscreen",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "5/5章・公式は2ストアのみ",
+      "timing": {
+        "start_sec": 352.639,
+        "end_sec": 366.392,
+        "duration_sec": 13.753
+      },
+      "render_mode": "template"
+    },
+    {
+      "id": 27,
+      "legacy_id": "SCENE-027",
+      "layout": "layout_05_compare",
+      "section_label": "5 / 5 本物の確認ポイント",
+      "main_message": "ストアの掲載情報を公式画面で確認します。",
+      "headline": "提供元を確認",
+      "support_text": "Digital Agency of Japan ／ デジタル庁",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/browser/br_08_appstore.png",
+          "label": "App Store公式掲載"
+        },
+        {
+          "kind": "image",
+          "path": "assets/official/browser/br_09_gplay.png",
+          "label": "Google Play公式掲載"
+        }
+      ],
+      "official_asset_crop": [
+        {
+          "asset_index": 0,
+          "slot": "left",
+          "fit": "contain",
+          "box": [
+            250,
+            60,
+            1440,
+            620
+          ]
+        },
+        {
+          "asset_index": 1,
+          "slot": "right",
+          "fit": "contain",
+          "box": [
+            80,
+            100,
+            1240,
+            560
+          ]
+        }
+      ],
+      "animation": "none",
+      "start_segment": 63,
+      "end_segment": 64,
+      "subtitle_ids": [
+        "SUB-076",
+        "SUB-077",
+        "SUB-078",
+        "SUB-079"
+      ],
+      "image_filename": "scene_027.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "br_08_appstore.png＋br_09_gplay.png（2カラム各幅820px）",
+      "legacy_notes": "提供元の確認（2カラム）",
+      "timing": {
+        "start_sec": 366.392,
+        "end_sec": 384.568,
+        "duration_sec": 18.176
+      },
+      "render_mode": "official"
+    },
+    {
+      "id": 28,
+      "legacy_id": "SCENE-028",
+      "layout": "layout_03_visual_text",
+      "section_label": "5 / 5 本物の確認ポイント",
+      "main_message": "実際の公式素材を表示します。",
+      "headline": "アイコンのデザインを確認",
+      "support_text": "ピンクのグラデーション・「マイナ」・桜",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/official_icon_rounded_3x.png",
+          "label": "公式アイコン"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "crossfade 0.5s",
+      "start_segment": 65,
+      "end_segment": 65,
+      "subtitle_ids": [
+        "SUB-080"
+      ],
+      "image_filename": "scene_028.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "official_icon_rounded_3x.png（中央スロット450px）",
+      "legacy_notes": "アイコンのデザイン",
+      "timing": {
+        "start_sec": 384.568,
+        "end_sec": 391.034,
+        "duration_sec": 6.466
+      },
+      "render_mode": "hybrid",
+      "text_render_mode": "codex"
+    },
+    {
+      "id": 29,
+      "legacy_id": "SCENE-029",
+      "layout": "layout_06_caution",
+      "section_label": "5 / 5 本物の確認ポイント",
+      "main_message": "公式ストア以外からインストールしないようにします。",
+      "headline": "偽サイト・偽アプリに注意",
+      "support_text": "メールや電話の案内は、まず疑う",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/browser/br_10_notice_fakeapp.png",
+          "label": "デジタル庁・偽アプリ注意"
+        }
+      ],
+      "official_asset_crop": [
+        {
+          "asset_index": 0,
+          "slot": "right",
+          "fit": "contain",
+          "box": [
+            0,
+            380,
+            1440,
+            1000
+          ]
+        }
+      ],
+      "animation": "none",
+      "start_segment": 66,
+      "end_segment": 67,
+      "subtitle_ids": [
+        "SUB-081",
+        "SUB-082"
+      ],
+      "image_filename": "scene_029.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "br_10_notice_fakeapp.png（右スロット幅600px）",
+      "legacy_notes": "偽サイト・偽アプリの注意喚起",
+      "timing": {
+        "start_sec": 391.034,
+        "end_sec": 406.288,
+        "duration_sec": 15.254
+      },
+      "render_mode": "hybrid",
+      "text_render_mode": "codex"
+    },
+    {
+      "id": 30,
+      "legacy_id": "SCENE-030",
+      "layout": "layout_06_caution",
+      "section_label": "5 / 5 本物の確認ポイント",
+      "main_message": "デジタル庁の注意喚起を確認します。",
+      "headline": "暗証番号を入力・回答しない",
+      "support_text": "不審な連絡から操作しない",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/browser/br_11_notice_phishing.png",
+          "label": "デジタル庁・フィッシング注意"
+        }
+      ],
+      "official_asset_crop": [
+        {
+          "asset_index": 0,
+          "slot": "right",
+          "fit": "contain",
+          "box": [
+            0,
+            400,
+            1440,
+            1150
+          ]
+        }
+      ],
+      "animation": "crossfade 0.5s",
+      "start_segment": 68,
+      "end_segment": 68,
+      "subtitle_ids": [
+        "SUB-083"
+      ],
+      "image_filename": "scene_030.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "br_11_notice_phishing.png（右スロット幅560px）",
+      "legacy_notes": "暗証番号を入力・回答しない",
+      "timing": {
+        "start_sec": 406.288,
+        "end_sec": 414.073,
+        "duration_sec": 7.785
+      },
+      "render_mode": "hybrid",
+      "text_render_mode": "codex"
+    },
+    {
+      "id": 31,
+      "legacy_id": "SCENE-031",
+      "layout": "layout_06_caution",
+      "section_label": "5 / 5 本物の確認ポイント",
+      "main_message": "一人で判断せず、確認する方法もあります。",
+      "headline": "心配なときの相談窓口",
+      "support_text": "マイナンバー総合フリーダイヤル 0120-95-0178",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/browser/br_10_notice_fakeapp.png",
+          "label": "公式・相談窓口"
+        }
+      ],
+      "official_asset_crop": [
+        {
+          "asset_index": 0,
+          "slot": "right",
+          "fit": "contain",
+          "box": [
+            0,
+            1000,
+            1440,
+            1600
+          ]
+        }
+      ],
+      "animation": "none",
+      "start_segment": 69,
+      "end_segment": 70,
+      "subtitle_ids": [
+        "SUB-084",
+        "SUB-085"
+      ],
+      "image_filename": "scene_031.png",
+      "visual_type": "generated_plus_official",
+      "legacy_official_asset": "br_10_notice_fakeapp.png下部（相談窓口・幅560px）",
+      "legacy_notes": "相談窓口 0120-95-0178",
+      "timing": {
+        "start_sec": 414.073,
+        "end_sec": 428.771,
+        "duration_sec": 14.698
+      },
+      "render_mode": "hybrid",
+      "text_render_mode": "codex"
+    },
+    {
+      "id": 32,
+      "legacy_id": "SCENE-032",
+      "layout": "layout_07_summary",
+      "section_label": "まとめ",
+      "main_message": "まとめの1つ目",
+      "headline": "今やることは、3つ",
+      "support_text": "まずは名前・提供元・アイコン",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "crossfade 0.5s",
+      "start_segment": 71,
+      "end_segment": 73,
+      "subtitle_ids": [
+        "SUB-086",
+        "SUB-087",
+        "SUB-088",
+        "SUB-089"
+      ],
+      "image_filename": "scene_032.png",
+      "visual_type": "summary_card",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "まとめ：今やること3つ（提示・1つ目強調）",
+      "timing": {
+        "start_sec": 428.771,
+        "end_sec": 440.838,
+        "duration_sec": 12.067
+      },
+      "items": [
+        "本物かどうかを確認する",
+        "名前・提供元・アイコンを見る",
+        "公式ストアの掲載情報を確認"
+      ],
+      "render_mode": "template"
+    },
+    {
+      "id": 33,
+      "legacy_id": "SCENE-033",
+      "layout": "layout_07_summary",
+      "section_label": "まとめ",
+      "main_message": "まとめの2つ目と3つ目",
+      "headline": "アップデートと利用登録を確認",
+      "support_text": "削除せず更新／カード・暗証番号・端末ロック",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "crossfade（強調バリアント切替）＋slow_zoom",
+      "start_segment": 74,
+      "end_segment": 75,
+      "subtitle_ids": [
+        "SUB-090",
+        "SUB-091",
+        "SUB-092"
+      ],
+      "image_filename": "scene_033.png",
+      "visual_type": "summary_card",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "3項目カード（2→3強調）",
+      "timing": {
+        "start_sec": 440.838,
+        "end_sec": 456.421,
+        "duration_sec": 15.583
+      },
+      "items": [
+        "マイナポータルアプリなら削除せずアップデート",
+        "利用登録ならカードと数字4桁を用意",
+        "端末のロック設定を確認"
+      ],
+      "render_mode": "template"
+    },
+    {
+      "id": 34,
+      "legacy_id": "SCENE-034",
+      "layout": "layout_01_hero",
+      "section_label": "まとめ",
+      "main_message": "怖がらせる前に、確認する。",
+      "headline": "慌てて消す前に、まず確認",
+      "support_text": "役に立ったらチャンネル登録を",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "crossfade 0.5s",
+      "start_segment": 76,
+      "end_segment": 78,
+      "subtitle_ids": [
+        "SUB-093",
+        "SUB-094",
+        "SUB-095"
+      ],
+      "image_filename": "scene_034.png",
+      "visual_type": "generated_fullscreen",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "ブランドライン＋チャンネル登録CTA",
+      "timing": {
+        "start_sec": 456.421,
+        "end_sec": 466.467,
+        "duration_sec": 10.046
+      },
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex"
+    },
+    {
+      "id": 35,
+      "legacy_id": "SCENE-035",
+      "layout": "layout_01_hero",
+      "section_label": "まとめ",
+      "main_message": "今回確認した公式情報を概要欄に載せています。",
+      "headline": "概要欄の公式ページを確認",
+      "support_text": "分からないことはコメントで教えてください",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "none（フェードアウト0.5s）",
+      "start_segment": 79,
+      "end_segment": 80,
+      "subtitle_ids": [
+        "SUB-096",
+        "SUB-097"
+      ],
+      "image_filename": "scene_035.png",
+      "visual_type": "generated_fullscreen",
+      "legacy_official_asset": "なし",
+      "legacy_notes": "エンド：概要欄・コメント",
+      "timing": {
+        "start_sec": 466.467,
+        "end_sec": 475.142,
+        "duration_sec": 8.675
+      },
+      "render_mode": "template"
+    }
+  ],
+  "publish": {
+    "title": "【マイナアプリ】マイナポータルアプリはどう変わった？今やること3つ",
+    "description": "マイナポータルアプリの名前やアイコンが変わり、何が変わったのか、入れ直したほうがよいのかと戸惑っている方へ。\n\nこの動画では、2026年8月30日時点のデジタル庁・公式ストア・公式FAQの情報をもとに、新しいマイナアプリ、既存利用者のアップデート、新規利用登録、端末ロック、公式ストアの提供元確認、偽物やフィッシングへの注意を確認します。\n\nマイナンバーカードの読み取りや暗証番号の入力は実演していません。個人情報にかかわる手続きは、ご自身のスマートフォンで公式画面の案内に沿って行ってください。\n\n【公式情報】\nデジタル庁「マイナアプリ」 https://services.digital.go.jp/mynaapp/\n提供開始のお知らせ https://services.digital.go.jp/mynaapp/news/20260825-01/\n動作環境 https://services.digital.go.jp/mynaapp/system-requirements/\n利用登録 https://services.digital.go.jp/mynaapp/register/\n公式FAQ https://support.mynaapp.digital.go.jp/hc/ja\nApp Store https://apps.apple.com/jp/app/マイナアプリ-旧マイナポータルアプリ/id1476359069\nGoogle Play https://play.google.com/store/apps/details?id=jp.go.cas.mpa\n偽サイト・偽アプリ注意喚起 https://www.digital.go.jp/news/b32e5c16-8272-4cc3-9171-b4c583325feb\nフィッシング注意喚起 https://www.digital.go.jp/news/4750a8f5-1061-4ae6-903b-cfb327a50465\n\n相談窓口：マイナンバー総合フリーダイヤル 0120-95-0178\n\nナレーション：VOICEVOX:剣崎雌雄",
+    "chapters": [
+      "0:00 はじめに",
+      "0:25 マイナアプリとは",
+      "1:10 何が変わったのか",
+      "2:46 すでに使っていた人は？",
+      "4:14 削除・入れ直しに注意",
+      "4:31 動作環境と利用登録",
+      "5:52 本物の確認ポイント",
+      "6:06 ストアの提供元を確認",
+      "6:31 偽物・フィッシングに注意",
+      "7:09 今やること3つ",
+      "7:36 まとめ"
+    ],
+    "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
+    "title_candidates": [
+      "【マイナアプリ】マイナポータルアプリはどう変わった？今やること3つ",
+      "新「マイナアプリ」って何？マイナポータルアプリから変わったこと・今やること｜やさしく解説",
+      "マイナポータルアプリが「マイナアプリ」に変わります｜アップデートだけで大丈夫？",
+      "アプリの名前とアイコンが変わった？「マイナアプリ」を確認する3つのポイント",
+      "偽物にだまされない「マイナアプリ」の見分け方｜今やること3つ"
+    ],
+    "tags": [
+      "マイナアプリ",
+      "マイナポータル",
+      "デジタル庁",
+      "スマホ",
+      "シニア向け"
+    ],
+    "source_urls": [
+      "https://services.digital.go.jp/mynaapp/",
+      "https://services.digital.go.jp/mynaapp/news/20260825-01/",
+      "https://services.digital.go.jp/mynaapp/system-requirements/",
+      "https://services.digital.go.jp/mynaapp/register/",
+      "https://support.mynaapp.digital.go.jp/hc/ja",
+      "https://apps.apple.com/jp/app/マイナアプリ-旧マイナポータルアプリ/id1476359069",
+      "https://play.google.com/store/apps/details?id=jp.go.cas.mpa",
+      "https://www.digital.go.jp/news/b32e5c16-8272-4cc3-9171-b4c583325feb",
+      "https://www.digital.go.jp/news/4750a8f5-1061-4ae6-903b-cfb327a50465"
+    ],
+    "visibility": "private"
+  },
+  "timeline": {
+    "fps": 30,
+    "total_duration_sec": 475.407,
+    "source_file": "timeline_plan.csv",
+    "audio_manifest": "audio/voicevox_kenzaki/segments_manifest.csv",
+    "scene_count": 35,
+    "narration_segment_count": 80,
+    "subtitle_count": 97
+  },
+  "migration": {
+    "source_files": [
+      "script.md",
+      "scene_plan.md",
+      "subtitle_plan.md",
+      "timeline_plan.csv",
+      "audio/voicevox_kenzaki/segments_manifest.csv",
+      "publish.json"
+    ],
+    "note": "Episode 002の既存動画・音声・完成画像は再生成していない。"
+  }
+}

@@ -1,0 +1,8 @@
+﻿path,kind,source,status,note
+assets/imagegen_native_v2/normalized/scene_01_hook.png,imagegen_native_reused,reused_from_v2 / built-in image_gen,used_in_draft_v4,ImageGen-native完成画。後乗せ大見出しなし。
+assets/renderer_v4/usage_cue_portal.png,renderer_native_explanation_visual,自作renderer_native（公式UI・企業名・URL・QR・ロゴなし）,used_in_draft_v4,Shortsの説明用に必要な一般化ビジュアル。Short002は該当PII領域だけ■■■■でマスク。
+assets/renderer_v4/usage_cue_certificate.png,renderer_native_explanation_visual,自作renderer_native（公式UI・企業名・URL・QR・ロゴなし）,used_in_draft_v4,Shortsの説明用に必要な一般化ビジュアル。Short002は該当PII領域だけ■■■■でマスク。
+assets/imagegen_native_v2/normalized/scene_03_health.png,imagegen_native_reused,reused_from_v2 / built-in image_gen,used_in_draft_v4,ImageGen-native完成画。後乗せ大見出しなし。
+assets/imagegen_native_v2/normalized/scene_05_conclusion.png,imagegen_native_reused,reused_from_v2 / built-in image_gen,used_in_draft_v4,ImageGen-native完成画。後乗せ大見出しなし。
+assets/official_v4/channel_icon.png,canonical_channel_icon,local/channel/icon.png,used_in_draft_v4_cta,承認済み実チャンネルアイコン。チャンネル名：大人のデジタル安心室。登録ボタン・疑似subscribe UIなし。
+assets/thumbnail_candidate/first_frame_thumbnail_candidate.png,first_frame_thumbnail_candidate,assets/imagegen_native_v2/normalized/scene_01_hook.png,reused_from_v3_not_confirmed,v4冒頭hookと同じ候補。サムネイル確定は未実施。

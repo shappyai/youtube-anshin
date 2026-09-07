@@ -1,0 +1,205 @@
+{
+  "video": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\output\\draft_v1.mp4",
+  "frames": [
+    {
+      "name": "scene_001",
+      "scene_id": 1,
+      "target_sec": 6.909,
+      "captured_sec": 6.909,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_001.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_002",
+      "scene_id": 2,
+      "target_sec": 16.639,
+      "captured_sec": 16.639,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_002.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_004",
+      "scene_id": 4,
+      "target_sec": 22.473,
+      "captured_sec": 22.473,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_004.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_003",
+      "scene_id": 3,
+      "target_sec": 36.101,
+      "captured_sec": 36.101,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_003.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_005",
+      "scene_id": 5,
+      "target_sec": 48.977,
+      "captured_sec": 48.977,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_005.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_006",
+      "scene_id": 6,
+      "target_sec": 53.733,
+      "captured_sec": 53.733,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_006.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_007",
+      "scene_id": 7,
+      "target_sec": 62.526,
+      "captured_sec": 62.526,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_007.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_019",
+      "scene_id": 19,
+      "target_sec": 72.17,
+      "captured_sec": 72.17,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_019.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_008",
+      "scene_id": 8,
+      "target_sec": 77.677,
+      "captured_sec": 77.677,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_008.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_009",
+      "scene_id": 9,
+      "target_sec": 84.346,
+      "captured_sec": 84.346,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_009.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_010",
+      "scene_id": 10,
+      "target_sec": 98.674,
+      "captured_sec": 98.674,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_010.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_011",
+      "scene_id": 11,
+      "target_sec": 110.745,
+      "captured_sec": 110.745,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_011.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_012",
+      "scene_id": 12,
+      "target_sec": 126.27,
+      "captured_sec": 126.27,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_012.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_013",
+      "scene_id": 13,
+      "target_sec": 152.322,
+      "captured_sec": 152.322,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_013.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_014",
+      "scene_id": 14,
+      "target_sec": 170.653,
+      "captured_sec": 170.653,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_014.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_015",
+      "scene_id": 15,
+      "target_sec": 180.915,
+      "captured_sec": 180.915,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_015.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_016",
+      "scene_id": 16,
+      "target_sec": 200.685,
+      "captured_sec": 200.685,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_016.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_017",
+      "scene_id": 17,
+      "target_sec": 221.6,
+      "captured_sec": 221.6,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_017.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "scene_018",
+      "scene_id": 18,
+      "target_sec": 233.535,
+      "captured_sec": 233.535,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\scene_018.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    },
+    {
+      "name": "cta",
+      "scene_id": null,
+      "target_sec": 247.111,
+      "captured_sec": 247.111,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\qa_frames_draft_v1\\cta.png",
+      "width": 1920,
+      "height": 1080,
+      "method": "ffmpeg_seek_single_frame"
+    }
+  ]
+}

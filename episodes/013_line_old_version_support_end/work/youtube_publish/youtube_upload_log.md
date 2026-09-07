@@ -1,0 +1,12 @@
+
+## 2026-09-06T16:11:27Z
+- timestamp: 2026-09-06T16:11:27Z
+- mode: scheduled
+- final_sha256: C9EFCABCD1888337E0E1707F045D14176097121B1CDA07C1B4BB78846D3E60F5
+- title: 【LINE】11月に使えなくなる？今のスマホで確認したい3つ
+- video_id: F5TMUaHrGDo
+- privacy: private
+- publish_at_local: 2026-09-13 19:00:00 JST
+- publish_at_api: 2026-09-13T10:00:00Z
+- thumbnail_status: success
+- verification: PASS

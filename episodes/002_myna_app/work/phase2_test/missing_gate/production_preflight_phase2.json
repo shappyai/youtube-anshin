@@ -1,0 +1,67 @@
+{
+  "episode": "002_myna_app",
+  "overall": "FAIL",
+  "checks": [
+    {
+      "name": "episode schema",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "sources",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "subtitles",
+      "status": "FAIL",
+      "details": [
+        "fail=1 warn=2"
+      ]
+    },
+    {
+      "name": "pronunciation",
+      "status": "REVIEW",
+      "details": [
+        "remaining review=5"
+      ]
+    },
+    {
+      "name": "scenes",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "scene modes",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "official assets",
+      "status": "PASS",
+      "details": [
+        "declared=22"
+      ]
+    },
+    {
+      "name": "GPT image assets",
+      "status": "MISSING",
+      "details": [
+        "scene_001.png",
+        "scene_002.png",
+        "scene_004.png",
+        "scene_010.png",
+        "scene_011.png",
+        "scene_017.png",
+        "scene_018.png",
+        "scene_020.png",
+        "scene_023.png",
+        "scene_028.png",
+        "scene_029.png",
+        "scene_030.png",
+        "scene_031.png",
+        "scene_034.png"
+      ]
+    }
+  ]
+}

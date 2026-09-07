@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "qa": "cta_full_text_visible",
+  "canonical_text": "次に困ったときのために。チャンネル登録しておいてください。",
+  "description": "次に困ったときのために。",
+  "cta": "チャンネル登録しておいてください。",
+  "metrics": {
+    "description": {
+      "text": "次に困ったときのために。",
+      "box": [
+        138,
+        560,
+        1042,
+        695
+      ],
+      "font_size": 60,
+      "min_size": 56,
+      "max_lines": 3,
+      "lines": [
+        "次に困ったときのために。"
+      ],
+      "line_height": 68,
+      "complete": true
+    },
+    "cta": {
+      "text": "チャンネル登録しておいてください。",
+      "box": [
+        158,
+        736,
+        1012,
+        872
+      ],
+      "font_size": 60,
+      "min_size": 56,
+      "max_lines": 2,
+      "lines": [
+        "チャンネル登録しておいてくだ",
+        "さい。"
+      ],
+      "line_height": 68,
+      "complete": true
+    }
+  },
+  "image": {
+    "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\work\\cta_registration_conversion_v1.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "mode": "RGB"
+  },
+  "end_screen_reserved_start_x": 1090,
+  "failures": []
+}

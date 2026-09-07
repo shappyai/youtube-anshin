@@ -1,0 +1,13 @@
+﻿id,surface,example_text,voicevox_reading,accent_summary,wav_path,status
+01_sns,SNS,SNSの広告から投資話に誘導されました。,エスエヌエス,エスエヌエス(5),episodes\008_investment_scam\work\phase_b_review\pronunciation\01_sns.wav,human_review_pending
+02_line,LINE,LINEに誘導されたら、一度止まりましょう。,ライン,ライン(3),episodes\008_investment_scam\work\phase_b_review\pronunciation\02_line.wav,human_review_pending
+03_fx,FX,株やFX、暗号資産の取引です。,エフエックス,エフ(1)｜エックス(1),episodes\008_investment_scam\work\phase_b_review\pronunciation\03_fx.wav,human_review_pending
+04_9110,#9110,不安なときは、#9110に相談してください。,キュウセンヒャクジュウ,キュウセンヒャクジュウ(3),episodes\008_investment_scam\work\phase_b_review\pronunciation\04_9110.wav,human_review_pending
+05_188,188,消費者ホットラインは、188です。,ヒャクハチジュウハチ,ヒャク(2)｜ハチジュウ(4)｜ハチ(2),episodes\008_investment_scam\work\phase_b_review\pronunciation\05_188.wav,human_review_pending
+06_0570050588,0570-050588,金融庁の相談ダイヤルは、0570-050588です。,ゼロゴオナナゼロゼロゴオゼロゴオハチハチ,ゼロゴオ(3)｜ナナゼロ(3)｜ゼロゴオ(3)｜ゼロゴオ(3)｜ハチハチ(3),episodes\008_investment_scam\work\phase_b_review\pronunciation\06_0570050588.wav,human_review_pending
+07_6566,"6,566件","認知件数は、6,566件です。",ロクセンゴヒャクロクジュウロッケン,ロクセン(3)｜ゴヒャク(3)｜ロクジュウ(4)｜ロッケン(2),episodes\008_investment_scam\work\phase_b_review\pronunciation\07_6566.wav,human_review_pending
+08_881,881億円,被害額は、およそ881億円です。,ハッピャクハチジュウイチオクエン,ハッピャク(4)｜ハチジュウ(4)｜イチオクエン(4),episodes\008_investment_scam\work\phase_b_review\pronunciation\08_881.wav,human_review_pending
+09_44,"4億4,000万円","一日あたり、およそ4億4,000万円です。",ヨンオクヨンセンマンエン,ヨンオク(1)｜ヨンセン(3)｜マンエン(2),episodes\008_investment_scam\work\phase_b_review\pronunciation\09_44.wav,human_review_pending
+10_ue,上,今年の上半期だけでも、被害がありました。,ウエ,ウエ(2),episodes\008_investment_scam\work\phase_b_review\pronunciation\10_ue.wav,human_review_pending
+11_kyo,今日,ここからが、今日の本題です。,キョオ,キョオ(1),episodes\008_investment_scam\work\phase_b_review\pronunciation\11_kyo.wav,human_review_pending
+12_okonau,行う,日本で行う会社は、国の登録が必要です。,オコナウ,オコナウ(4),episodes\008_investment_scam\work\phase_b_review\pronunciation\12_okonau.wav,human_review_pending

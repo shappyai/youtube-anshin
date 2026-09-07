@@ -1,0 +1,195 @@
+{
+  "summary": {
+    "total": 5,
+    "auto_fail": 0,
+    "vision_review_required": 5,
+    "renderer_only_after": 2
+  },
+  "scenes": [
+    {
+      "scene_id": "SCENE-001",
+      "text_render_mode": "imagegen_native",
+      "headline": "11月に使えなくなる？",
+      "support_text": "全員ではありません。まず3つ確認",
+      "auto_passed": [
+        "文言仕様がsceneに定義されている",
+        "promptにheadline文言が含まれている",
+        "promptにsupport_text文言が含まれている",
+        "生成画像が配置されている",
+        "アスペクト比がおおよそ16:9",
+        "画像サイズが1280x720以上",
+        "SHA-256: 251a28531ef38210..."
+      ],
+      "auto_fail": [],
+      "vision_checklist": [
+        "指定文言と一致している",
+        "誤字なし",
+        "脱字なし",
+        "余計な文字なし",
+        "文字化けなし",
+        "不自然な漢字置換なし",
+        "行順が指定どおり",
+        "文字切れなし",
+        "画像端にはみ出していない",
+        "人物・重要オブジェクトと重なっていない",
+        "背景とのコントラスト十分",
+        "スマホ縮小時でも主見出しが読める"
+      ],
+      "vision_status": "pending",
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "image_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\assets\\generated_ai_v2\\scene_001.png"
+    },
+    {
+      "scene_id": "SCENE-004",
+      "text_render_mode": "imagegen_native",
+      "headline": "LINEのバージョンを確認",
+      "support_text": "まずアプリの数字を見る",
+      "auto_passed": [
+        "文言仕様がsceneに定義されている",
+        "promptにheadline文言が含まれている",
+        "promptにsupport_text文言が含まれている",
+        "生成画像が配置されている",
+        "アスペクト比がおおよそ16:9",
+        "画像サイズが1280x720以上",
+        "SHA-256: 74686a661f8521fc..."
+      ],
+      "auto_fail": [],
+      "vision_checklist": [
+        "指定文言と一致している",
+        "誤字なし",
+        "脱字なし",
+        "余計な文字なし",
+        "文字化けなし",
+        "不自然な漢字置換なし",
+        "行順が指定どおり",
+        "文字切れなし",
+        "画像端にはみ出していない",
+        "人物・重要オブジェクトと重なっていない",
+        "背景とのコントラスト十分",
+        "スマホ縮小時でも主見出しが読める"
+      ],
+      "vision_status": "pending",
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "image_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\assets\\generated_ai_v2\\scene_004.png"
+    },
+    {
+      "scene_id": "SCENE-008",
+      "text_render_mode": "imagegen_native",
+      "headline": "スマホのOSを確認",
+      "support_text": "LINEとは別に見る",
+      "auto_passed": [
+        "文言仕様がsceneに定義されている",
+        "promptにheadline文言が含まれている",
+        "promptにsupport_text文言が含まれている",
+        "生成画像が配置されている",
+        "アスペクト比がおおよそ16:9",
+        "画像サイズが1280x720以上",
+        "SHA-256: 95a0ade0aed347ae..."
+      ],
+      "auto_fail": [],
+      "vision_checklist": [
+        "指定文言と一致している",
+        "誤字なし",
+        "脱字なし",
+        "余計な文字なし",
+        "文字化けなし",
+        "不自然な漢字置換なし",
+        "行順が指定どおり",
+        "文字切れなし",
+        "画像端にはみ出していない",
+        "人物・重要オブジェクトと重なっていない",
+        "背景とのコントラスト十分",
+        "スマホ縮小時でも主見出しが読める"
+      ],
+      "vision_status": "pending",
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "image_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\assets\\generated_ai_v2\\scene_008.png"
+    },
+    {
+      "scene_id": "SCENE-012",
+      "text_render_mode": "imagegen_native",
+      "headline": "更新できるか確認",
+      "support_text": "3つ目は更新の可否",
+      "auto_passed": [
+        "文言仕様がsceneに定義されている",
+        "promptにheadline文言が含まれている",
+        "promptにsupport_text文言が含まれている",
+        "生成画像が配置されている",
+        "アスペクト比がおおよそ16:9",
+        "画像サイズが1280x720以上",
+        "SHA-256: 0284102e484f56e7..."
+      ],
+      "auto_fail": [],
+      "vision_checklist": [
+        "指定文言と一致している",
+        "誤字なし",
+        "脱字なし",
+        "余計な文字なし",
+        "文字化けなし",
+        "不自然な漢字置換なし",
+        "行順が指定どおり",
+        "文字切れなし",
+        "画像端にはみ出していない",
+        "人物・重要オブジェクトと重なっていない",
+        "背景とのコントラスト十分",
+        "スマホ縮小時でも主見出しが読める"
+      ],
+      "vision_status": "pending",
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "image_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\assets\\generated_ai_v2\\scene_012.png"
+    },
+    {
+      "scene_id": "SCENE-022",
+      "text_render_mode": "imagegen_native",
+      "headline": "買い替え前に確認",
+      "support_text": "LINE → OS → 次の手順",
+      "auto_passed": [
+        "文言仕様がsceneに定義されている",
+        "promptにheadline文言が含まれている",
+        "promptにsupport_text文言が含まれている",
+        "生成画像が配置されている",
+        "アスペクト比がおおよそ16:9",
+        "画像サイズが1280x720以上",
+        "SHA-256: dd4516ae7d660786..."
+      ],
+      "auto_fail": [],
+      "vision_checklist": [
+        "指定文言と一致している",
+        "誤字なし",
+        "脱字なし",
+        "余計な文字なし",
+        "文字化けなし",
+        "不自然な漢字置換なし",
+        "行順が指定どおり",
+        "文字切れなし",
+        "画像端にはみ出していない",
+        "人物・重要オブジェクトと重なっていない",
+        "背景とのコントラスト十分",
+        "スマホ縮小時でも主見出しが読める"
+      ],
+      "vision_status": "pending",
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "image_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\assets\\generated_ai_v2\\scene_022.png"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "version": "2.0",
+  "prompt_contract": "one_scene_full_frame_text_v2",
+  "image_count": 3,
+  "scenes": [
+    {
+      "scene_id": "SCENE-001",
+      "filename": "scene_001.png",
+      "narration": "Windows 11を使っている方、2026年10月13日に、一部のWindows 11で更新の提供が終わります。ただし、Windows 11全部が、その日に使えなくなるわけではありません。今日は、自分のパソコンで確認したい3つを、順番に見ていきます。",
+      "main_message": "結論：まず、バージョンを確認します。",
+      "headline": "Windows 11\nこのままで大丈夫？",
+      "support_text": "10月13日までに、確認すること",
+      "duration": 24.2,
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "text_spec": {
+        "headline": "Windows 11\nこのままで大丈夫？",
+        "support_text": "10月13日までに、確認すること",
+        "placement": "calm low-detail area, upper-left preferred",
+        "style": "white Japanese type with dark blue outline, high contrast",
+        "aspect_ratio": "16:9"
+      },
+      "text_qa": {
+        "status": "passed",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "static",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Calm educational illustration for older Japanese viewers, one adult at home looking at a generic laptop with a mild concern turning into reassurance, soft blue and warm amber palette, abstract four-pane window-like shape without any trademark or logo, full-frame 16:9, clean composition with the bottom 180px left quiet for subtitles. Render exactly these two Japanese headline lines and no other readable text: Windows 11 / このままで大丈夫？. No real Windows UI, no Microsoft logo, no watermark, no extra symbols, no collage. Generation contract: render the declared Japanese text inside the image exactly as written (imagegen_native).",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-015",
+      "filename": "scene_015.png",
+      "narration": "サポート終了とは、10月13日を過ぎた瞬間にパソコンが使えなくなる、という意味ではありません。ただし、HomeやProの24H2では、その後、通常のセキュリティ更新などを受けられなくなります。対応するバージョンへ更新することが大切です。10月13日までに、慌ててパソコンを買い替えましょう、という話ではありません。",
+      "main_message": "まず確認。慌てて買い替えなくて大丈夫です。",
+      "headline": "慌てて買い替えなくて大丈夫",
+      "support_text": "10月13日までに、まずバージョンと更新を確認",
+      "duration": 30.2,
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "text_spec": {
+        "headline": "慌てて買い替えなくて大丈夫",
+        "support_text": "10月13日までに、まずバージョンと更新を確認",
+        "placement": "calm low-detail area, upper-left preferred",
+        "style": "white Japanese type with dark blue outline, high contrast",
+        "aspect_ratio": "16:9"
+      },
+      "text_qa": {
+        "status": "passed",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "very_slow_zoom",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Calm reassuring educational illustration for older Japanese viewers, an adult at home calmly checking a generic laptop beside a simple written checklist, hands relaxed, no shopping bags, no retail urgency, soft blue and pale amber palette, full-frame 16:9, bottom 180px quiet for subtitles. Render exactly one Japanese headline: 慌てて買い替えなくて大丈夫. No other readable text, no real Windows UI, no logo, no watermark, no collage, no fake warning badge. Generation contract: render the declared Japanese text inside the image exactly as written (imagegen_native).",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-019",
+      "filename": "scene_019.png",
+      "narration": "不安なときは、公式サポートや詳しい人に相談してください。",
+      "main_message": "困ったら、公式サポートや詳しい人に相談",
+      "headline": "まずバージョンを確認",
+      "support_text": "役に立ったら、チャンネル登録して、次回も一緒に確認しましょう。",
+      "duration": 5.4,
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "text_spec": {
+        "headline": "まずバージョンを確認",
+        "support_text": "役に立ったら、チャンネル登録して、次回も一緒に確認しましょう。",
+        "placement": "calm low-detail area, upper-left preferred",
+        "style": "white Japanese type with dark blue outline, high contrast",
+        "aspect_ratio": "16:9"
+      },
+      "text_qa": {
+        "status": "passed",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "very_slow_zoom",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Warm reassuring educational illustration for older Japanese viewers, a calm adult checking a generic laptop settings page with a magnifying glass motif and a small support conversation cue, full-frame 16:9, soft blue and pale green palette, bottom 180px quiet for subtitles. Render exactly one Japanese headline: まずバージョンを確認. No other readable text, no real Windows UI, no Microsoft logo, no watermark, no collage. Generation contract: render the declared Japanese text inside the image exactly as written (imagegen_native).",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    }
+  ]
+}

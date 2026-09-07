@@ -1,0 +1,68 @@
+{
+  "short_id": "Short001",
+  "prompt_file": "work/imagegen_prompts_v3.md",
+  "reuse_policy": "v2 ImageGen-native assetを再利用。不足sceneなし。新規ImageGen callなし。",
+  "assets": [
+    {
+      "major_visual": "A",
+      "role": "冒頭",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "headline_lines": [
+        "ChatGPT",
+        "話すだけで使える？"
+      ],
+      "text_render_mode": "imagegen_native",
+      "source": "reused_from_v2 / built-in image_gen",
+      "regeneration_count": 0,
+      "exact_text_qa": "PASS",
+      "vision_qa": "PASS_REVALIDATED",
+      "official_ui_generated": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "3ea6c9f12d65c9669f4e5cf4125cc2f168a5f6b041f6679f519f26a301884f62"
+    },
+    {
+      "major_visual": "B",
+      "role": "行動",
+      "asset": "assets/imagegen_native_v2/normalized/scene_04_life.png",
+      "headline_lines": [
+        "今日のごはん、",
+        "何を作れる？"
+      ],
+      "text_render_mode": "imagegen_native",
+      "source": "reused_from_v2 / built-in image_gen",
+      "regeneration_count": 0,
+      "exact_text_qa": "PASS",
+      "vision_qa": "PASS_REVALIDATED",
+      "official_ui_generated": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "f2547bb0b9dd4674a7ac2e77f87c8db071f2ff374b80ec86a979ff0e1d03f50b"
+    },
+    {
+      "major_visual": "C",
+      "role": "結論",
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png",
+      "headline_lines": [
+        "まずは",
+        "話しかけるだけ"
+      ],
+      "text_render_mode": "imagegen_native",
+      "source": "reused_from_v2 / built-in image_gen",
+      "regeneration_count": 0,
+      "exact_text_qa": "PASS",
+      "vision_qa": "PASS_REVALIDATED",
+      "official_ui_generated": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "a7caa300f1f2fdca47785bfeb03eb1bd60112924c58b109397b22aa89767b0a4"
+    }
+  ],
+  "metrics": {
+    "major_visual_count": 3,
+    "imagegen_native_scene_count": 3,
+    "imagegen_native_reuse_count": 3,
+    "imagegen_call_count": 0,
+    "regeneration_count": 0,
+    "exact_text_pass_count": 3,
+    "exact_text_fail_count": 0,
+    "hybrid_generated_image_large_text": 0
+  }
+}

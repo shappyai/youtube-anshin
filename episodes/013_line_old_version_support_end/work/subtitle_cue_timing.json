@@ -1,0 +1,682 @@
+{
+  "version": 1,
+  "method": "VOICEVOX audio_query mora duration; segment boundaries remain measured WAV timing",
+  "engine_url": "http://127.0.0.1:50021",
+  "speaker": "剣崎雌雄",
+  "style": "ノーマル",
+  "style_id": 21,
+  "generated_at": "2026-09-06T10:53:26.548640+00:00",
+  "cue_count": 74,
+  "cues": {
+    "SUB-001": {
+      "cue_id": "SUB-001",
+      "segment_id": 1,
+      "display_text": "「11月からLINEが使えなくなる」という話を見た人もいるかもしれません。",
+      "effective_text": "「11月からLINEが使えなくなる」という話を見た人もいるかもしれません。",
+      "duration_sec": 5.180109,
+      "kana": "ジュウイチガツ'カラ/ラインガ'/_ツカエ'ナク/ナ'ル、ト'/イウ'/ハナシ'オ/ミ'タ/_ヒトモ'/イルカモ'/シレマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-002": {
+      "cue_id": "SUB-002",
+      "segment_id": 2,
+      "display_text": "でも、全員ではありません。",
+      "effective_text": "でも、全員ではありません。",
+      "duration_sec": 2.140162,
+      "kana": "デ'モ、ゼンインデワアリマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-003": {
+      "cue_id": "SUB-003",
+      "segment_id": 3,
+      "display_text": "対象になるのは、古いLINEアプリや、古いOSを使っている場合です。",
+      "effective_text": "対象になるのは、古いLINEアプリや、古いOSを使っている場合です。",
+      "duration_sec": 5.43397,
+      "kana": "タイショオニ'/ナ'ル/ノワ'、フル'イ/ラインア'プリヤ、フル'イ/オオエスオ'/_ツカッテ'/イル'/バアイデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-004": {
+      "cue_id": "SUB-004",
+      "segment_id": 4,
+      "display_text": "今日は、今のスマホで確認したい3つを、順番に見ていきます。",
+      "effective_text": "きょうは、今のスマホで確認したい3つを、順番に見ていきます。",
+      "duration_sec": 4.830183,
+      "kana": "キョ'オワ、イ'マノ/スマホデ'/カクニン'/_シタ'イ/ミッツ'オ、ジュンバンニ'/ミ'テ/イキマ'_ス",
+      "reading_overrides": [
+        "今日 → きょう（reading_overrides）"
+      ]
+    },
+    "SUB-005": {
+      "cue_id": "SUB-005",
+      "segment_id": 5,
+      "display_text": "最初にLINEのバージョン、次にスマホのOS、最後に更新できるかを確認します。",
+      "effective_text": "最初にLINEのバージョン、次にスマホのOS、最後に更新できるかを確認します。",
+      "duration_sec": 6.226244,
+      "kana": "サイショニ'/ラインノ'/バ'アジョン、ツギ'ニ/スマホノ'/オオエス'、サ'イゴニ/コオシン'/デキ'ルカオ/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-006": {
+      "cue_id": "SUB-006",
+      "segment_id": 6,
+      "display_text": "まずはLINEを開いて、アプリのバージョンを見るところから始めます。",
+      "effective_text": "まずはLINEを開いて、アプリのバージョンを見るところから始めます。",
+      "duration_sec": 4.387414,
+      "kana": "マ'ズワ/ラインオ'/ヒラ'イテ、ア'プリノ/バ'アジョンオ/ミ'ル/トコロカラ'/ハジメマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-007": {
+      "cue_id": "SUB-007",
+      "segment_id": 7,
+      "display_text": "LINE公式は、2026年11月上旬に、古いバージョンのサポートを終了する予定です。",
+      "effective_text": "LINE公式は、2026年11月上旬に、古いバージョンのサポートを終了する予定です。",
+      "duration_sec": 7.304301,
+      "kana": "ライン'/コオ_シキワ'、ニセ'ン/ニ'ジュウ/ロク'ネン/ジュウイチガツ'/ジョオジュンニ'、フル'イ/バ'アジョンノ/サポ'オトオ/シュウリョオ'/スル'/ヨテエデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-008": {
+      "cue_id": "SUB-008",
+      "segment_id": 8,
+      "display_text": "iPhoneとiPadは14.6.3未満、Androidは14.4.6未満が対象です。",
+      "effective_text": "iPhoneとiPadは14.6.3未満、Androidは14.4.6未満が対象です。",
+      "duration_sec": 7.40375,
+      "kana": "ア'イフォオント/アイパ'ッドワ/ジュウ'/ヨ'ンテン/ロク'、サンミ'マン、アンドロ'イドワ/ジュウ'/ヨ'ンテン/ヨ'ン、ロクミ'マンガ/タイショオデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-009": {
+      "cue_id": "SUB-009",
+      "segment_id": 9,
+      "display_text": "これはLINE全体が止まるという意味ではなく、対象となる古いアプリがあるという案内です。",
+      "effective_text": "これはLINE全体が止まるという意味ではなく、対象となる古いアプリがあるという案内です。",
+      "duration_sec": 6.036294,
+      "kana": "コレワ'/ライン'/ゼンタイガ'/トマルト'/イウ'/イ'ミデワナク、タイショオト'/ナ'ル/フル'イ/ア'プリガ/ア'ルト/イウ'/アンナ'イデ_ス",
+      "reading_overrides": []
+    },
+    "SUB-010": {
+      "cue_id": "SUB-010",
+      "segment_id": 10,
+      "display_text": "1つ目は、LINEアプリのバージョンです。",
+      "effective_text": "1つ目は、LINEアプリのバージョンです。",
+      "duration_sec": 2.828005,
+      "kana": "_ヒトツ'メワ、ラインア'プリノ/バ'アジョンデ_ス",
+      "reading_overrides": []
+    },
+    "SUB-011": {
+      "cue_id": "SUB-011",
+      "segment_id": 11,
+      "display_text": "今のLINEの数字を確認できれば、今回の対象かを最初に判断できます。",
+      "effective_text": "今のLINEの数字を確認できれば、今回の対象かを最初に判断できます。",
+      "duration_sec": 5.431191,
+      "kana": "イ'マノ/ラインノ'/スウジオ'/カクニン'/デキ'レバ、コ'ンカイノ/タイショオカオ'/サイショニ'/ハ'ンダン/デキマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-012": {
+      "cue_id": "SUB-012",
+      "segment_id": 12,
+      "display_text": "iPhoneでもAndroidでも、LINEの中からバージョンを確認します。",
+      "effective_text": "iPhoneでもAndroidでも、LINEの中からバージョンを確認します。",
+      "duration_sec": 4.62097,
+      "kana": "アイフォ'オンデモ/アンドロ'イドデモ、ラインノ'/ナ'カカラ/バ'アジョンオ/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-013": {
+      "cue_id": "SUB-013",
+      "segment_id": 13,
+      "display_text": "LINEを開き、ホーム画面の設定をタップします。",
+      "effective_text": "LINEを開き、ホーム画面の設定をタップします。",
+      "duration_sec": 3.565939,
+      "kana": "ラインオ'/ヒラキ'、ホオムガ'メンノ/セッテエオ'/タ'ッ_プ/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-014": {
+      "cue_id": "SUB-014",
+      "segment_id": 14,
+      "display_text": "LINEについてを開き、現在のバージョンを探します。",
+      "effective_text": "LINEについてを開き、現在のバージョンを探します。",
+      "duration_sec": 3.751945,
+      "kana": "ラインニ'/ツ'イテオ/ヒラキ'、ゲ'ンザイノ/バ'アジョンオ/サガシマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-015": {
+      "cue_id": "SUB-015",
+      "segment_id": 15,
+      "display_text": "画面に表示された三つの数字を、そのままメモしておきます。",
+      "effective_text": "画面に表示された三つの数字を、そのままメモしておきます。",
+      "duration_sec": 4.293465,
+      "kana": "ガメンニ'/ヒョオジ'/サレタ'/ミッツ'ノ/スウジオ'、ソノ'/ママ'メモ/_シテ'/オキマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-016": {
+      "cue_id": "SUB-016",
+      "segment_id": 16,
+      "display_text": "Androidも、ホームから設定、LINEについて、現在のバージョンの順です。",
+      "effective_text": "Androidも、ホームから設定、LINEについて、現在のバージョンの順です。",
+      "duration_sec": 5.777004,
+      "kana": "アンドロ'イドモ、ホ'オムカラ/セッテエ'、ラインニ'/ツ'イテ、ゲ'ンザイノ/バ'アジョンノ/ジュンデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-017": {
+      "cue_id": "SUB-017",
+      "segment_id": 17,
+      "display_text": "iPhoneとAndroidで入口の見た目は違っても、見る場所は同じです。",
+      "effective_text": "iPhoneとAndroidで入口の見た目は違っても、見る場所は同じです。",
+      "duration_sec": 4.854933,
+      "kana": "ア'イフォオント/アンドロ'イドデ/イリグチノ'/ミタメワ'/チガッテモ'、ミ'ル/バショワ'/オナジデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-018": {
+      "cue_id": "SUB-018",
+      "segment_id": 18,
+      "display_text": "iPhone・iPadは14.6.3以上なら、今回の終了対象となる古いバージョンではありません。",
+      "effective_text": "iPhone・iPadは14.6.3以上なら、今回の終了対象となる古いバージョンではありません。",
+      "duration_sec": 7.832316,
+      "kana": "アイフォ'オン、アイパ'ッドワ/ジュウ'/ヨ'ンテン/ロク'、サンイ'ジョオナラ、コ'ンカイノ/シュウリョオタ'イショオト/ナ'ル/フル'イ/バアジョンデワアリマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-019": {
+      "cue_id": "SUB-019",
+      "segment_id": 19,
+      "display_text": "Androidは14.4.6以上なら、今回の終了対象となる古いバージョンではありません。",
+      "effective_text": "Androidは14.4.6以上なら、今回の終了対象となる古いバージョンではありません。",
+      "duration_sec": 6.921583,
+      "kana": "アンドロ'イドワ/ジュウ'/ヨ'ンテン/ヨ'ン、ロクイ'ジョオナラ、コ'ンカイノ/シュウリョオタ'イショオト/ナ'ル/フル'イ/バアジョンデワアリマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-020": {
+      "cue_id": "SUB-020",
+      "segment_id": 20,
+      "display_text": "ただし、アプリが新しくても、OSが古い場合がありますので、次はOSを確認します。",
+      "effective_text": "ただし、アプリが新しくても、OSが古い場合がありますので、次はOSを確認します。",
+      "duration_sec": 7.030566,
+      "kana": "タ'ダシ、ア'プリガ/アタラシ'_クテモ、オオエスガ'/フル'イ/バアイガ'/アリマ'_スノデ、ツギ'ワ/オオエスオ'/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-021": {
+      "cue_id": "SUB-021",
+      "segment_id": 21,
+      "display_text": "2つ目は、スマホ本体のOSです。",
+      "effective_text": "2つ目は、スマホ本体のOSです。",
+      "duration_sec": 2.932464,
+      "kana": "_フタツ'メワ、スマホホ'ンタイノ/オオエスデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-022": {
+      "cue_id": "SUB-022",
+      "segment_id": 22,
+      "display_text": "OSとは、iPhoneやAndroidを動かす基本ソフトのことです。",
+      "effective_text": "OSとは、iPhoneやAndroidを動かす基本ソフトのことです。",
+      "duration_sec": 4.481682,
+      "kana": "オオエ_ストワ'、アイフォ'オンヤ/アンドロ'イドオ/ウゴカ'_ス/キホンソ'_フトノ/コト'デ_ス",
+      "reading_overrides": []
+    },
+    "SUB-023": {
+      "cue_id": "SUB-023",
+      "segment_id": 23,
+      "display_text": "iPhoneでは、設定、一般、情報の順に開くと、iOSのバージョンを確認できます。",
+      "effective_text": "iPhoneでは、設定、一般、情報の順に開くと、iOSのバージョンを確認できます。",
+      "duration_sec": 7.536126,
+      "kana": "アイフォ'オンデワ、セッテエ'、イッパン'、ジョオホオノ'/ジュンニ'/ヒラ'_クト、アイオ'オエスノ/バ'アジョンオ/カクニン'/デキマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-024": {
+      "cue_id": "SUB-024",
+      "segment_id": 24,
+      "display_text": "設定を開き、一般、情報を順にタップします。",
+      "effective_text": "設定を開き、一般、情報を順にタップします。",
+      "duration_sec": 4.157609,
+      "kana": "セッテエオ'/ヒラキ'、イッパン'、ジョオホオオ'/ジュンニ'/タ'ッ_プ/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-025": {
+      "cue_id": "SUB-025",
+      "segment_id": 25,
+      "display_text": "ここで見るのは、LINEの数字ではなく、iOSの数字です。",
+      "effective_text": "ここで見るのは、LINEの数字ではなく、iOSの数字です。",
+      "duration_sec": 4.665494,
+      "kana": "ココデ'/ミ'ル/ノワ'、ラインノ'/スウジデワナク'、アイオ'オエスノ/スウジデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-026": {
+      "cue_id": "SUB-026",
+      "segment_id": 26,
+      "display_text": "Androidでは、デバイス情報を開き、Androidバージョンを確認します。",
+      "effective_text": "Androidでは、デバイス情報を開き、Androidバージョンを確認します。",
+      "duration_sec": 5.337635,
+      "kana": "アンドロ'イドデワ、デバイスジョ'オホオオ/ヒラキ'、アンドロイドバ'アジョンオ/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-027": {
+      "cue_id": "SUB-027",
+      "segment_id": 27,
+      "display_text": "機種によってメニュー名や場所が違うため、似た名前の項目を探します。",
+      "effective_text": "機種によってメニュー名や場所が違うため、似た名前の項目を探します。",
+      "duration_sec": 4.986305,
+      "kana": "キ'シュニ/ヨッテ'/メニュウ'メエヤ/バショガ'/チガウ'/タメ'、ニタ'/ナマエノ'/コオモクオ'/サガシマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-028": {
+      "cue_id": "SUB-028",
+      "segment_id": 28,
+      "display_text": "見つからない場合は、端末メーカーの公式案内を確認してください。",
+      "effective_text": "見つからない場合は、端末メーカーの公式案内を確認してください。",
+      "duration_sec": 4.950856,
+      "kana": "ミ_ツカラナイ'/バアイワ'、タンマツメ'エカアノ/コオ_シキ'/アンナ'イオ/カクニン'/_シテ'/クダサ'イ",
+      "reading_overrides": []
+    },
+    "SUB-029": {
+      "cue_id": "SUB-029",
+      "segment_id": 29,
+      "display_text": "今回の公式案内では、iOSとiPadOSは15.0以上、Androidは8.0以上が基準です。",
+      "effective_text": "今回の公式案内では、iOSとiPadOSは15.0以上、Androidは8.0以上が基準です。",
+      "duration_sec": 8.505309,
+      "kana": "コ'ンカイノ/コオ_シキ'/アンナ'イデワ、アイオ'オエ_スト/ア'イパッドオオエスワ/ジュウ'/ゴ'オテン/ゼロイ'ジョオ、アンドロ'イドワ/ハ'ッテン/ゼロイ'ジョオガ/キジュンデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-030": {
+      "cue_id": "SUB-030",
+      "segment_id": 30,
+      "display_text": "iOS14.8.1以下、またはAndroid7.1.2以下なら、OSを上げてからLINEを更新します。",
+      "effective_text": "iOS14.8.1以下、またはAndroid7.1.2以下なら、OSを上げてからLINEを更新します。",
+      "duration_sec": 9.080805,
+      "kana": "アイオ'オエスジュウ/ヨ'ンテン/ハチ'、イチイ'カ、マタ'ワ/アンドロ'イド/ナ'ナテン/イチ'、ニイ'カナラ、オオエスオ'/アゲテカラ'/ラインオ'/コオシン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-031": {
+      "cue_id": "SUB-031",
+      "segment_id": 31,
+      "display_text": "ここで大切なのは、最新版推奨の条件と、今回の11月対応の下限を混ぜないことです。",
+      "effective_text": "ここで大切なのは、最新版推奨の条件と、今回の11月対応の下限を混ぜないことです。",
+      "duration_sec": 7.280176,
+      "kana": "ココデ'/タイセツナ'/ノワ'、サイシンバンス'イショオノ/ジョオケ'ント、コ'ンカイノ/ジュウイチガツ'/タイオオノ'/カゲンオ'/マゼ'ナイ/コト'デ_ス",
+      "reading_overrides": []
+    },
+    "SUB-032": {
+      "cue_id": "SUB-032",
+      "segment_id": 32,
+      "display_text": "LINE最新版の推奨環境は、iOS18.0以上、Android11.0以上です。今回見る下限とは別です。",
+      "effective_text": "LINE最新版の推奨環境は、iOS18.0以上、Android11.0以上です。今回見る下限とは別です。",
+      "duration_sec": 9.651967,
+      "kana": "ラインサイシンバンノ'/スイショオカ'ンキョオワ、アイオ'オエスジュウ/ハ'ッテン/ゼロイ'ジョオ、アンドロ'イドジュウ/イ'ッテン/ゼロイ'ジョオデ_ス、コ'ンカイ/ミ'ル/カゲントワ'/ベツデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-033": {
+      "cue_id": "SUB-033",
+      "segment_id": 33,
+      "display_text": "3つ目は、実際に更新できるかです。",
+      "effective_text": "3つ目は、実際に更新できるかです。",
+      "duration_sec": 2.992156,
+      "kana": "ミッツ'メワ、ジッサイニ'/コオシン'/デキ'ルカデ_ス",
+      "reading_overrides": []
+    },
+    "SUB-034": {
+      "cue_id": "SUB-034",
+      "segment_id": 34,
+      "display_text": "バージョンとOSが古くても、更新できれば対応できる場合があります。",
+      "effective_text": "バージョンとOSが古くても、更新できれば対応できる場合があります。",
+      "duration_sec": 4.925618,
+      "kana": "バ'アジョント/オオエスガ'/フ'ル_クテモ、コオシン'/デキ'レバ/タイオオ'/デキ'ル/バアイガ'/アリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-035": {
+      "cue_id": "SUB-035",
+      "segment_id": 35,
+      "display_text": "iPhoneの画面で、App StoreでLINEの更新を確認します。",
+      "effective_text": "iPhoneの画面で、App StoreでLINEの更新を確認します。",
+      "duration_sec": 4.394262,
+      "kana": "アイフォ'オンノ/ガメンデ'、ア'ップ/_スト'アデ/ラインノ'/コオシンオ'/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-036": {
+      "cue_id": "SUB-036",
+      "segment_id": 36,
+      "display_text": "LINEの横にアップデートがあればタップし、終わったらバージョンをもう一度確認します。",
+      "effective_text": "LINEの横にアップデートがあればタップし、終わったらバージョンをもう一度確認します。",
+      "duration_sec": 5.667371,
+      "kana": "ラインノ'/ヨコニ'/アップデ'エトガ/アレ'バ/タ'ッ_プ/シ'、オワッタ'ラ/バ'アジョンオ/モオイチド'/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-037": {
+      "cue_id": "SUB-037",
+      "segment_id": 37,
+      "display_text": "LINEのアップデートが表示されない場合は、OSの更新が先に必要なことがあります。",
+      "effective_text": "LINEのアップデートが表示されない場合は、OSの更新が先に必要なことがあります。",
+      "duration_sec": 6.160659,
+      "kana": "ラインノ'/アップデ'エトガ/ヒョオジ'/サレナイ'/バアイワ'、オオエスノ'/コオシンガ'/サキニ'/_ヒツヨオナ'/コト'ガ/アリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-038": {
+      "cue_id": "SUB-038",
+      "segment_id": 38,
+      "display_text": "Androidでは、Google PlayでLINEの更新を確認します。",
+      "effective_text": "Androidでは、Google PlayでLINEの更新を確認します。",
+      "duration_sec": 4.312431,
+      "kana": "アンドロ'イドデワ、グウグル'/プレ'エデ/ラインノ'/コオシンオ'/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-039": {
+      "cue_id": "SUB-039",
+      "segment_id": 39,
+      "display_text": "LINEの横に更新があればタップし、完了後にLINEのバージョンを確認します。",
+      "effective_text": "LINEの横に更新があればタップし、完了後にLINEのバージョンを確認します。",
+      "duration_sec": 5.429254,
+      "kana": "ラインノ'/ヨコニ'/コオシンガ'/アレ'バ/タ'ッ_プ/シ'、カンリョオ'ゴニ/ラインノ'/バ'アジョンオ/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-040": {
+      "cue_id": "SUB-040",
+      "segment_id": 40,
+      "display_text": "店舗名やメニュー名は、機種によって少し違う場合があります。",
+      "effective_text": "店舗名やメニュー名は、機種によって少し違う場合があります。",
+      "duration_sec": 4.367524,
+      "kana": "テンポ'メエヤ/メニュウ'メエワ、キ'シュニ/ヨッテ'/_スコ'_シ/チガウ'/バアイガ'/アリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-041": {
+      "cue_id": "SUB-041",
+      "segment_id": 41,
+      "display_text": "LINEの更新にOSの更新が必要と表示されたら、先にOSを更新します。",
+      "effective_text": "LINEの更新にOSの更新が必要と表示されたら、先にOSを更新します。",
+      "duration_sec": 6.141383,
+      "kana": "ラインノ'/コオシンニ'/オオエスノ'/コオシンガ'/_ヒツヨオト'/ヒョオジ'/サレタ'ラ、サキニ'/オオエスオ'/コオシン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-042": {
+      "cue_id": "SUB-042",
+      "segment_id": 42,
+      "display_text": "iPhoneは、設定、一般、ソフトウェアアップデートを開きます。",
+      "effective_text": "iPhoneは、設定、一般、ソフトウェアアップデートを開きます。",
+      "duration_sec": 5.384241,
+      "kana": "アイフォ'オンワ、セッテエ'、イッパン'、ソ_フトウェアアップデ'エトオ/ヒラキマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-043": {
+      "cue_id": "SUB-043",
+      "segment_id": 43,
+      "display_text": "更新があるかを確認し、画面の案内に沿って進めます。",
+      "effective_text": "更新があるかを確認し、画面の案内に沿って進めます。",
+      "duration_sec": 4.333402,
+      "kana": "コオシンガ'/ア'ルカオ/カクニン'/シ'、ガメンノ'/アンナ'イニ/ソ'ッテ/ススメマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-044": {
+      "cue_id": "SUB-044",
+      "segment_id": 44,
+      "display_text": "Androidは、設定、システム、ソフトウェアアップデートを開きます。",
+      "effective_text": "Androidは、設定、システム、ソフトウェアアップデートを開きます。",
+      "duration_sec": 5.396616,
+      "kana": "アンドロ'イドワ、セッテエ'、シ'_ステム、ソ_フトウェアアップデ'エトオ/ヒラキマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-045": {
+      "cue_id": "SUB-045",
+      "segment_id": 45,
+      "display_text": "更新があるかを確認し、画面の案内に沿って進めます。",
+      "effective_text": "更新があるかを確認し、画面の案内に沿って進めます。",
+      "duration_sec": 4.333402,
+      "kana": "コオシンガ'/ア'ルカオ/カクニン'/シ'、ガメンノ'/アンナ'イニ/ソ'ッテ/ススメマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-046": {
+      "cue_id": "SUB-046",
+      "segment_id": 46,
+      "display_text": "OSの更新が終わったら、App StoreやGoogle Playに戻り、LINEを更新します。",
+      "effective_text": "OSの更新が終わったら、App StoreやGoogle Playに戻り、LINEを更新します。",
+      "duration_sec": 6.346055,
+      "kana": "オオエスノ'/コオシンガ'/オワッタ'ラ、ア'ップ/_スト'アヤ/グウグル'/プレ'エニ/モドリ'、ラインオ'/コオシン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-047": {
+      "cue_id": "SUB-047",
+      "segment_id": 47,
+      "display_text": "つまり、順番はLINE、OS、LINEの三段階です。",
+      "effective_text": "つまり、順番はLINE、OS、LINEの三段階です。",
+      "duration_sec": 4.87328,
+      "kana": "ツ'マリ、ジュンバンワ'/ライン'、オオエス'、ラインノ'/サンダ'ンカイデ_ス",
+      "reading_overrides": []
+    },
+    "SUB-048": {
+      "cue_id": "SUB-048",
+      "segment_id": 48,
+      "display_text": "更新前に、画面に出る注意を確認し、時間に余裕を持って進めます。",
+      "effective_text": "更新前に、画面に出る注意を確認し、時間に余裕を持って進めます。",
+      "duration_sec": 5.629928,
+      "kana": "コオシン'/マ'エニ、ガメンニ'/デ'ル/チュ'ウイオ/カクニン'/シ'、ジカンニ'/ヨユウオ'/モ'ッテ/ススメマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-049": {
+      "cue_id": "SUB-049",
+      "segment_id": 49,
+      "display_text": "ここからは、確認結果を4つのケースに分けます。",
+      "effective_text": "ここからは、確認結果を4つのケースに分けます。",
+      "duration_sec": 3.616918,
+      "kana": "ココカラワ'、カクニン'/ケッカオ'/ヨッツ'ノ/ケ'エスニ/ワケマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-050": {
+      "cue_id": "SUB-050",
+      "segment_id": 50,
+      "display_text": "ケースA、LINEとOSが基準以上で、必要な更新もできている場合です。",
+      "effective_text": "ケースA、LINEとOSが基準以上で、必要な更新もできている場合です。",
+      "duration_sec": 5.915224,
+      "kana": "ケ'エス/エ'イ、ライント'/オオエスガ'/キジュンイ'ジョオデ、_ヒツヨオナ'/コオシンモ'/デキ'テ/イル'/バアイデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-051": {
+      "cue_id": "SUB-051",
+      "segment_id": 51,
+      "display_text": "今回の11月対応のために、急いでスマホを買い替える必要はありません。",
+      "effective_text": "今回の11月対応のために、急いでスマホを買い替える必要はありません。",
+      "duration_sec": 5.372165,
+      "kana": "コ'ンカイノ/ジュウイチガツ'/タイオオノ'/タメ'ニ、イソ'イデ/スマホオ'/カイカエ'ル/_ヒツヨオワアリマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-052": {
+      "cue_id": "SUB-052",
+      "segment_id": 52,
+      "display_text": "普段どおり、更新通知を確認して使います。",
+      "effective_text": "普段どおり、更新通知を確認して使います。",
+      "duration_sec": 3.525547,
+      "kana": "フダン'ドオリ、コオシンツ'ウチオ/カクニン'/_シテ'/_ツカイマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-053": {
+      "cue_id": "SUB-053",
+      "segment_id": 53,
+      "display_text": "ケースB、LINEだけが古い場合です。App StoreやGoogle Playで更新できます。",
+      "effective_text": "ケースB、LINEだけが古い場合です。App StoreやGoogle Playで更新できます。",
+      "duration_sec": 5.986241,
+      "kana": "ケ'エス/ビ'イ、ラインダケガ'/フル'イ/バアイデ'_ス、ア'ップ/_スト'アヤ/グウグル'/プレ'エデ/コオシン'/デキマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-054": {
+      "cue_id": "SUB-054",
+      "segment_id": 54,
+      "display_text": "LINEを更新し、もう一度バージョンを見ます。",
+      "effective_text": "LINEを更新し、もう一度バージョンを見ます。",
+      "duration_sec": 3.308217,
+      "kana": "ラインオ'/コオシン'/シ'、モオイチド'/バ'アジョンオ/ミマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-055": {
+      "cue_id": "SUB-055",
+      "segment_id": 55,
+      "display_text": "それで基準を満たせば、今回の対応は完了です。",
+      "effective_text": "それで基準を満たせば、今回の対応は完了です。",
+      "duration_sec": 3.858933,
+      "kana": "ソレデ'/キジュンオ'/ミタ'セバ、コ'ンカイノ/タイオオワ'/カンリョオデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-056": {
+      "cue_id": "SUB-056",
+      "segment_id": 56,
+      "display_text": "ケースC、LINEの更新にOS更新が必要な場合です。",
+      "effective_text": "ケースC、LINEの更新にOS更新が必要な場合です。",
+      "duration_sec": 4.474491,
+      "kana": "ケ'エス/シ'イ、ラインノ'/コオシンニ'/オオエ_スコ'オシンガ/_ヒツヨオナ'/バアイデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-057": {
+      "cue_id": "SUB-057",
+      "segment_id": 57,
+      "display_text": "OSを先に更新し、そのあとLINEを更新します。",
+      "effective_text": "OSを先に更新し、そのあとLINEを更新します。",
+      "duration_sec": 4.13479,
+      "kana": "オオエスオ'/サキニ'/コオシン'/シ'、ソノ'/ア'トラインオ/コオシン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-058": {
+      "cue_id": "SUB-058",
+      "segment_id": 58,
+      "display_text": "iPhoneはiOS15.0以上、Androidは8.0以上を確認します。",
+      "effective_text": "iPhoneはiOS15.0以上、Androidは8.0以上を確認します。",
+      "duration_sec": 5.978642,
+      "kana": "アイフォ'オンワ/アイオ'オエスジュウ/ゴ'オテン/ゼロイ'ジョオ、アンドロ'イドワ/ハ'ッテン/ゼロイ'ジョオオ/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-059": {
+      "cue_id": "SUB-059",
+      "segment_id": 59,
+      "display_text": "ケースD、OSもLINEも更新できない場合です。",
+      "effective_text": "ケースD、OSもLINEも更新できない場合です。",
+      "duration_sec": 3.649859,
+      "kana": "ケ'エス/ディ'イ、オオエスモ'/ラインモ'/コオシン'/デキ'ナイ/バアイデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-060": {
+      "cue_id": "SUB-060",
+      "segment_id": 60,
+      "display_text": "LINE公式は、対応環境を満たす別の端末での利用を検討するよう案内しています。",
+      "effective_text": "LINE公式は、対応環境を満たす別の端末での利用を検討するよう案内しています。",
+      "duration_sec": 6.312403,
+      "kana": "ライン'/コオ_シキワ'、タイオオカ'ンキョオオ/ミタ'ス/ベツノ'/タンマツデノ'/リヨオオ'/ケントオ'/スル'/ヨオアンナ'イ/_シテ'/イマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-061": {
+      "cue_id": "SUB-061",
+      "segment_id": 61,
+      "display_text": "ただし、「古いスマホは全員買い替え」と一律に決まったわけではありません。",
+      "effective_text": "ただし、「古いスマホは全員買い替え」と一律に決まったわけではありません。",
+      "duration_sec": 5.436743,
+      "kana": "タ'ダシ、フル'イ/スマホワ'/ゼンイン'/カイカエ'、ト'/イチリツニ'/キマッタ'/ワケデワアリマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-062": {
+      "cue_id": "SUB-062",
+      "segment_id": 62,
+      "display_text": "まず、更新ボタンが出ない理由を確認し、メーカーや携帯会社の公式窓口へ相談します。",
+      "effective_text": "まず、更新ボタンが出ない理由を確認し、メーカーや携帯会社の公式窓口へ相談します。",
+      "duration_sec": 7.129203,
+      "kana": "マ'ズ、コオシンボ'タンガ/デナイ'/リユウオ'/カクニン'/シ'、メ'エカアヤ/ケエタイガイシャノ'/コオ_シキ'/マド'グチエ/ソオダン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-063": {
+      "cue_id": "SUB-063",
+      "segment_id": 63,
+      "display_text": "買い替えが必要かは、順番に確認します。",
+      "effective_text": "買い替えが必要かは、順番に確認します。",
+      "duration_sec": 3.347454,
+      "kana": "カイカエガ'/_ヒツヨオカワ'、ジュンバンニ'/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-064": {
+      "cue_id": "SUB-064",
+      "segment_id": 64,
+      "display_text": "LINEが更新できるか、OSが更新できるか、それでも対応できないかを見ます。",
+      "effective_text": "LINEが更新できるか、OSが更新できるか、それでも対応できないかを見ます。",
+      "duration_sec": 5.971483,
+      "kana": "ラインガ'/コオシン'/デキ'ルカ、オオエスガ'/コオシン'/デキ'ルカ、ソレデ'モ/タイオオ'/デキ'ナイカオ/ミマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-065": {
+      "cue_id": "SUB-065",
+      "segment_id": 65,
+      "display_text": "最初から買い替えを決めず、順番に確認します。",
+      "effective_text": "最初から買い替えを決めず、順番に確認します。",
+      "duration_sec": 3.667548,
+      "kana": "サイショカラ'/カイカエオ'/キメ'ズ、ジュンバンニ'/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-066": {
+      "cue_id": "SUB-066",
+      "segment_id": 66,
+      "display_text": "機種変更の場合は、LINEの引き継ぎを先に確認します。",
+      "effective_text": "機種変更の場合は、LINEの引き継ぎを先に確認します。",
+      "duration_sec": 4.216284,
+      "kana": "_キシュヘ'ンコオノ/バアイワ'、ラインノ'/_ヒキツギオ'/サキニ'/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-067": {
+      "cue_id": "SUB-067",
+      "segment_id": 67,
+      "display_text": "バックアップと引き継ぎは別の準備で、写真や動画の扱いにも条件があります。",
+      "effective_text": "バックアップと引き継ぎは別の準備で、写真や動画の扱いにも条件があります。",
+      "duration_sec": 5.608924,
+      "kana": "バックア'ッ_プト/_ヒキツギワ'/ベツノ'/ジュ'ンビデ、シャシンヤ'/ドオガノ'/ア_ツカイニモ'/ジョオケ'ンガ/アリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-068": {
+      "cue_id": "SUB-068",
+      "segment_id": 68,
+      "display_text": "詳しい手順は、概要欄の関連動画とLINE公式ヘルプで確認します。",
+      "effective_text": "詳しい手順は、概要欄の関連動画とLINE公式ヘルプで確認します。",
+      "duration_sec": 5.399786,
+      "kana": "クワシ'イ/テジュンワ'、ガイヨオ'ランノ/カンレンド'オガト/ライン'/コオ_シキ'/ヘ'ルプデ/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-069": {
+      "cue_id": "SUB-069",
+      "segment_id": 69,
+      "display_text": "今日の3つをまとめます。",
+      "effective_text": "きょうの3つをまとめます。",
+      "duration_sec": 1.661516,
+      "kana": "キョ'オノ/ミッツ'オ/マトメマ'_ス",
+      "reading_overrides": [
+        "今日 → きょう（reading_overrides）"
+      ]
+    },
+    "SUB-070": {
+      "cue_id": "SUB-070",
+      "segment_id": 70,
+      "display_text": "一つ目、LINEのバージョン。iOS/iPadOS 14.6.3以上、Android 14.4.6以上。",
+      "effective_text": "一つ目、LINEのバージョン。iOS/iPadOS 14.6.3以上、Android 14.4.6以上。",
+      "duration_sec": 10.546754,
+      "kana": "_ヒトツ'メ、ラインノ'/バ'アジョン、アイオ'オエス、ア'イパッドオオエス、ジュウ'/ヨ'ンテン/ロク'、サンイ'ジョオ、アンドロ'イド、ジュウ'/ヨ'ンテン/ヨ'ン、ロクイ'ジョオ",
+      "reading_overrides": []
+    },
+    "SUB-071": {
+      "cue_id": "SUB-071",
+      "segment_id": 71,
+      "display_text": "二つ目、OSのバージョン。iOS・iPadOSは15.0以上、Androidは8.0以上かを確認します。",
+      "effective_text": "二つ目、OSのバージョン。iOS・iPadOSは15.0以上、Androidは8.0以上かを確認します。",
+      "duration_sec": 9.46011,
+      "kana": "_フタツ'メ、オオエスノ'/バ'アジョン、アイオ'オエス、ア'イパッドオオエスワ/ジュウ'/ゴ'オテン/ゼロイ'ジョオ、アンドロ'イドワ/ハ'ッテン/ゼロイ'ジョオカオ/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-072": {
+      "cue_id": "SUB-072",
+      "segment_id": 72,
+      "display_text": "三つ目、更新できるか。LINE、OS、LINEの順に、更新画面を確認します。",
+      "effective_text": "三つ目、更新できるか。LINE、OS、LINEの順に、更新画面を確認します。",
+      "duration_sec": 7.405923,
+      "kana": "ミッツ'メ、コオシン'/デキ'ルカ、ライン'、オオエス'、ラインノ'/ジュンニ'、コオシンガ'メンオ/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-073": {
+      "cue_id": "SUB-073",
+      "segment_id": 73,
+      "display_text": "11月上旬の予定を見て不安になったら、全員ではないことを思い出してください。",
+      "effective_text": "11月上旬の予定を見て不安になったら、全員ではないことを思い出してください。",
+      "duration_sec": 5.836349,
+      "kana": "ジュウイチガツ'/ジョオジュンノ'/ヨテエオ'/ミ'テ/フアンニ'/ナ'ッタラ、ゼンインデワ'/ナ'イ/コト'オ/オモイダ'_シテ/クダサ'イ",
+      "reading_overrides": []
+    },
+    "SUB-074": {
+      "cue_id": "SUB-074",
+      "segment_id": 74,
+      "display_text": "自分の画面を一つずつ確認すれば、必要な対応が見えてきます。",
+      "effective_text": "自分の画面を一つずつ確認すれば、必要な対応が見えてきます。",
+      "duration_sec": 4.769539,
+      "kana": "ジブンノ'/ガメンオ'/_ヒトツズ'_ツ/カクニン'/スレ'バ、_ヒツヨオナ'/タイオオガ'/ミエ'テ/キマ'_ス",
+      "reading_overrides": []
+    }
+  }
+}

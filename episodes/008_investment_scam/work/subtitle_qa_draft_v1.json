@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "cue_count": 122,
+  "narration_segment_count": 63,
+  "split_segment_count": 46,
+  "additional_cue_count": 59,
+  "min_font_px": 72.0,
+  "font_below_56": 0,
+  "max_lines": 2,
+  "three_line_cue_count": 0,
+  "overflow_count": 0,
+  "subtitle_protected_term_split_count": 0,
+  "subtitle_inflection_split_count": 0,
+  "scene_linebreak_issue_count": 0,
+  "intra_segment_overlap_count": 0,
+  "intra_segment_gap_count": 0,
+  "measurement_method": "VOICEVOX audio_query mora durations for split cues; measured narration WAV for segment boundaries",
+  "warnings_from_preflight": 27,
+  "examples": {
+    "first_cues": [
+      {
+        "id": "SUB-001-1",
+        "start_sec": 0.0,
+        "end_sec": 3.391,
+        "text": "有名人が、/投資をすすめる広告を見て、"
+      },
+      {
+        "id": "SUB-001-2",
+        "start_sec": 3.391,
+        "end_sec": 5.024,
+        "text": "LINEに案内されたら。"
+      },
+      {
+        "id": "SUB-002",
+        "start_sec": 5.324,
+        "end_sec": 7.18,
+        "text": "これ、/本物でしょうか。"
+      },
+      {
+        "id": "SUB-003-1",
+        "start_sec": 7.48,
+        "end_sec": 9.867,
+        "text": "最近は、/こうした流れから、"
+      },
+      {
+        "id": "SUB-003-2",
+        "start_sec": 9.867,
+        "end_sec": 13.187,
+        "text": "高額な投資詐欺の被害が、/増えています。"
+      },
+      {
+        "id": "SUB-004-1",
+        "start_sec": 13.487,
+        "end_sec": 16.122,
+        "text": "今回は、/お金を振り込む前に、"
+      },
+      {
+        "id": "SUB-004-2",
+        "start_sec": 16.122,
+        "end_sec": 19.385,
+        "text": "確認したい3つだけ、/やさしく見ていきます。"
+      },
+      {
+        "id": "SUB-005",
+        "start_sec": 19.685,
+        "end_sec": 22.16,
+        "text": "確認するのは、/この3つです。"
+      }
+    ],
+    "protected": [],
+    "inflection": [],
+    "scene_linebreaks": []
+  }
+}

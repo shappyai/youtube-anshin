@@ -1,0 +1,91 @@
+{
+  "short_id": "Short001",
+  "version": "v8",
+  "narration": "audio/narration_v8.wav",
+  "narration_sha256": "65f629418e3852e2daa3f25eaac5883b1f0e9571cac38dbd6601526d9163ff79",
+  "full_audio_regeneration": 0,
+  "script_changed_segment_count": 1,
+  "audio_regenerated_segment_count": 1,
+  "reused_existing_segment_count": 5,
+  "capture_audio_used": true,
+  "machine_response_audio_used": false,
+  "segments": [
+    {
+      "segment_id": 1,
+      "source": "reused_v7",
+      "path": "audio/segments/001_v7.wav",
+      "narration": "ChatGPT、文字を打つのが大変ですか。",
+      "start_sec": "0.000",
+      "end_sec": "3.317",
+      "duration_sec": "3.317",
+      "gap_after_sec": "0.070",
+      "status": "reused_existing_v7_segment"
+    },
+    {
+      "segment_id": 2,
+      "source": "reused_v7",
+      "path": "audio/segments/002_v7.wav",
+      "narration": "音声入力なら、話した内容を文字にして送れます。",
+      "start_sec": "3.387",
+      "end_sec": "7.451",
+      "duration_sec": "4.064",
+      "gap_after_sec": "0.070",
+      "status": "reused_existing_v7_segment"
+    },
+    {
+      "segment_id": 3,
+      "source": "user_capture",
+      "path": "work/capture_v8/capture_audio_v8_processed.wav",
+      "narration": "冷蔵庫にキャベツがあります。簡単な料理を教えてください。",
+      "start_sec": "7.521",
+      "end_sec": "16.521",
+      "duration_sec": "9.000",
+      "gap_after_sec": "0.070",
+      "status": "user_capture_audio"
+    },
+    {
+      "segment_id": 4,
+      "source": "reused_v7",
+      "path": "audio/segments/004_v7.wav",
+      "narration": "文字になったら、内容を確認して送信します。",
+      "start_sec": "16.591",
+      "end_sec": "20.186",
+      "duration_sec": "3.595",
+      "gap_after_sec": "0.070",
+      "status": "reused_existing_v7_segment"
+    },
+    {
+      "segment_id": 5,
+      "source": "voicevox",
+      "path": "audio/segments/005_answer_v8.wav",
+      "narration": "料理の答えが返ってきました。",
+      "start_sec": "20.256",
+      "end_sec": "22.806",
+      "duration_sec": "2.550",
+      "gap_after_sec": "0.070",
+      "status": "regenerated_v8_answer_segment"
+    },
+    {
+      "segment_id": 6,
+      "source": "reused_v7",
+      "path": "audio/segments/005_v7.wav",
+      "narration": "文字を打たずに、質問できました。",
+      "start_sec": "22.876",
+      "end_sec": "25.404",
+      "duration_sec": "2.528",
+      "gap_after_sec": "0.070",
+      "status": "reused_existing_v7_segment"
+    },
+    {
+      "segment_id": 7,
+      "source": "reused_v4_cta",
+      "path": "audio/segments/008_v4.wav",
+      "narration": "次に困ったときのために、このチャンネルを登録しておいてください。",
+      "start_sec": "25.474",
+      "end_sec": "29.965",
+      "duration_sec": "4.491",
+      "gap_after_sec": "0.000",
+      "status": "reused_existing_cta_segment_v4"
+    }
+  ]
+}

@@ -1,0 +1,653 @@
+{
+  "duration": 391.804,
+  "segments": [
+    {
+      "segment_id": 1,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\001.wav",
+      "hash": "81213414f2664eeda3b651f5d50c3398a62590fd0d9b0c93a2ece5b3ca0bfdad",
+      "start_sec": 0.0,
+      "end_sec": 3.819,
+      "duration_sec": 3.819,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 2,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\002.wav",
+      "hash": "00c993584bd1cf96ac1366936e075864330b94617d83d1b826ff03ad46780f0a",
+      "start_sec": 4.119,
+      "end_sec": 9.164,
+      "duration_sec": 5.045,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 3,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\003.wav",
+      "hash": "dfd451d8db77b4ceb05f3c2786fbfbd0e3d1535a273997a844cae28194a3d37a",
+      "start_sec": 9.464,
+      "end_sec": 11.992,
+      "duration_sec": 2.528,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 4,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\004.wav",
+      "hash": "5a3f07e70f69d25c330760041586db1bce979e2482d8c4b9450c968494b50fbc",
+      "start_sec": 12.292,
+      "end_sec": 18.276,
+      "duration_sec": 5.984,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 5,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\005.wav",
+      "hash": "54a5405f124f64be9cc024613495597085c11ba0404b1278e08769f243f6cdb8",
+      "start_sec": 18.576,
+      "end_sec": 21.531,
+      "duration_sec": 2.955,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 6,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\006.wav",
+      "hash": "567c6d95a8b5a12b344204478f4b36dd678a9c9b03d8b053fdb13100cab6e046",
+      "start_sec": 22.031,
+      "end_sec": 24.687,
+      "duration_sec": 2.656,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 7,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\007.wav",
+      "hash": "b62a04e7733ff2c1d6e050d03ff4bc4b3271ce8e599c4c9e4279c8a35acceccc",
+      "start_sec": 24.987,
+      "end_sec": 28.421,
+      "duration_sec": 3.435,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 8,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\008.wav",
+      "hash": "86ad7014140e01ce333e43ac54ba85dae653a3d5219a476253deb62c83b025f3",
+      "start_sec": 28.721,
+      "end_sec": 32.54,
+      "duration_sec": 3.819,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 9,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\009.wav",
+      "hash": "51d074d23acfe35efc38002d073abfeb23fc9cb648eeb99c4e1b6f2532176cdf",
+      "start_sec": 32.84,
+      "end_sec": 36.381,
+      "duration_sec": 3.541,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 10,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\010.wav",
+      "hash": "356c2e5245d1f50cf29821692aa5a23ab000989f7c3be654276d88d22ef49489",
+      "start_sec": 36.681,
+      "end_sec": 39.305,
+      "duration_sec": 2.624,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 11,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\011.wav",
+      "hash": "36b3e9f5359a278d6d1e9ecfe9addc9ddc6a1731f1e9f90d1ef509132f3fd7eb",
+      "start_sec": 39.805,
+      "end_sec": 43.389,
+      "duration_sec": 3.584,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 12,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\012.wav",
+      "hash": "31d3988fe5971741e80af5188a4730b416844ebad9ae3944280661110d91514a",
+      "start_sec": 43.889,
+      "end_sec": 50.908,
+      "duration_sec": 7.019,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 13,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\013.wav",
+      "hash": "788136f9646d8b1532e4ce51fe9024f6a6938683d6775eba72975bf74b120230",
+      "start_sec": 51.208,
+      "end_sec": 56.605,
+      "duration_sec": 5.397,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 14,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\014.wav",
+      "hash": "057af2e0aca2909806721fe4dfcfbdf4d5635c68f0aa74a76d287e5680a71f2d",
+      "start_sec": 56.905,
+      "end_sec": 59.86,
+      "duration_sec": 2.955,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 15,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\015.wav",
+      "hash": "1a6ce35644bc97592337c8386a63e31bd5d7680d9ab60a5a0f0a76f5193bd340",
+      "start_sec": 60.16,
+      "end_sec": 67.883,
+      "duration_sec": 7.723,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 16,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\016.wav",
+      "hash": "9fa4c6d969d1a0523e0f158af1b7078364319ed12d551e20e22cf53adf079049",
+      "start_sec": 68.183,
+      "end_sec": 76.012,
+      "duration_sec": 7.829,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 17,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\017.wav",
+      "hash": "7e2f4844f2cc3b4dfb9e724a32c00987138ddc0bc8c69a12c8ba63864c87890c",
+      "start_sec": 76.312,
+      "end_sec": 82.456,
+      "duration_sec": 6.144,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 18,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\018.wav",
+      "hash": "fd0f439894a79e14fc069441c97108c163543eb85b660421e9a939fdc6fe93cb",
+      "start_sec": 82.756,
+      "end_sec": 88.185,
+      "duration_sec": 5.429,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 19,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\019.wav",
+      "hash": "90499ecc2679456645155dfeb1cb3f9aa8a7cea42b0c6739a08780e2c58ddda6",
+      "start_sec": 88.485,
+      "end_sec": 91.6,
+      "duration_sec": 3.115,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 20,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\020.wav",
+      "hash": "87e8395c765deccd78a8cf487fa797a63c1c9e39d66231aac53339c922e925fc",
+      "start_sec": 92.1,
+      "end_sec": 94.148,
+      "duration_sec": 2.048,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 21,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\021.wav",
+      "hash": "cd9f41e3b8091a76cd399e0ead7f8b0a81c963aa558de0fae8850ed59cc37db3",
+      "start_sec": 94.448,
+      "end_sec": 100.069,
+      "duration_sec": 5.621,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 22,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\022.wav",
+      "hash": "067db1af1098d281c6f68bce22c94778f1e0c37dd37b4fd09eea5330a86a5fad",
+      "start_sec": 100.369,
+      "end_sec": 105.991,
+      "duration_sec": 5.621,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 23,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\023.wav",
+      "hash": "7eb456806ac9761d40adf622265f129ad7730536bd711d96613b38ec6a555f3b",
+      "start_sec": 106.291,
+      "end_sec": 111.144,
+      "duration_sec": 4.853,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 24,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\024.wav",
+      "hash": "00f9f43d6c791e2f318680f4e801e01067db66ae3ae6194307125efda8a2f038",
+      "start_sec": 111.444,
+      "end_sec": 115.081,
+      "duration_sec": 3.637,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 25,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\025.wav",
+      "hash": "ffcbbde0f4ec2fc85c1b44dc3e764714f8c1b80940faf60e9e0db9cf459c558c",
+      "start_sec": 115.581,
+      "end_sec": 120.733,
+      "duration_sec": 5.152,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 26,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\026.wav",
+      "hash": "6fdc32defff424bbb2eea7530b5f3e63d208dae8b2c51c2908a9a8992be35fb0",
+      "start_sec": 121.233,
+      "end_sec": 127.463,
+      "duration_sec": 6.229,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 27,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\027.wav",
+      "hash": "4d0159a68a7fc1b6841f92e37954ecad9ee4a1745c0975ab3e831fcbad86ef69",
+      "start_sec": 127.763,
+      "end_sec": 131.24,
+      "duration_sec": 3.477,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 28,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\028.wav",
+      "hash": "24ba90e154294a2bb28a0f0a37ebd52a4ae8727049179e2c2c3b1dbe9ee8b5e8",
+      "start_sec": 131.54,
+      "end_sec": 139.135,
+      "duration_sec": 7.595,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 29,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\029.wav",
+      "hash": "174b4dd94961d8894f042374261b38c5bf700a79855896caeaab101df6cf3cda",
+      "start_sec": 139.435,
+      "end_sec": 148.693,
+      "duration_sec": 9.259,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 30,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\030.wav",
+      "hash": "5d04e740c342bf19bb16008895bc7b9aac13d6ec8f7e5219a0b96862004e5006",
+      "start_sec": 149.193,
+      "end_sec": 158.964,
+      "duration_sec": 9.771,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 31,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\031.wav",
+      "hash": "9e8ce35afb841e93e342457a79d3df9294731dce5ca72cdc25f8a153de2570a6",
+      "start_sec": 159.264,
+      "end_sec": 165.909,
+      "duration_sec": 6.645,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 32,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\032.wav",
+      "hash": "6489824af2b0f1c60cb72096c5613cd35f5a74d5d299aa247e924767ec0161cc",
+      "start_sec": 166.409,
+      "end_sec": 171.081,
+      "duration_sec": 4.672,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 33,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\033.wav",
+      "hash": "598185de4e133c2cdf10e0fe225bda2842f4ea978fd92c6f615f56eee6032c37",
+      "start_sec": 171.381,
+      "end_sec": 177.547,
+      "duration_sec": 6.165,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 34,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\034.wav",
+      "hash": "ee15db2570195cde87f491ade80ac7062574009451d87ad702f15e9f9abfc1ce",
+      "start_sec": 178.047,
+      "end_sec": 183.316,
+      "duration_sec": 5.269,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 35,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\035.wav",
+      "hash": "8dfd082d405c761f38d671cb88e02e41cad2c842a1010960ef993aabb9006d63",
+      "start_sec": 183.616,
+      "end_sec": 188.299,
+      "duration_sec": 4.683,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 36,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\036.wav",
+      "hash": "ceb0358334232f200ca98e632f77b8115a7ef603291bec6575652609183f1e9f",
+      "start_sec": 188.599,
+      "end_sec": 192.908,
+      "duration_sec": 4.309,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 37,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\037.wav",
+      "hash": "328f5d6be9e42f513a02f22c315c35255fee11aa8dcd51c2eb130ed73314546e",
+      "start_sec": 193.208,
+      "end_sec": 198.477,
+      "duration_sec": 5.269,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 38,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\038.wav",
+      "hash": "21a9fa664d61113554f99ec41667185d1130d9c7d040ab7d775dcc91484f3043",
+      "start_sec": 198.777,
+      "end_sec": 202.703,
+      "duration_sec": 3.925,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 39,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\039.wav",
+      "hash": "911b87933a6fba3804a79132f79109bc581ec167227e6b41b49de93ee394f7b0",
+      "start_sec": 203.203,
+      "end_sec": 212.248,
+      "duration_sec": 9.045,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 40,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\040.wav",
+      "hash": "9fc776f4305da595d04d8bbdc90fc29e68e20ebbf2e1001fc128c8eca68d213e",
+      "start_sec": 212.548,
+      "end_sec": 221.956,
+      "duration_sec": 9.408,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 41,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\041.wav",
+      "hash": "577b07cec57e4d5dc947cbca7ee8de40adfb1e3c2ab9fde7dc50956153f3b00a",
+      "start_sec": 222.256,
+      "end_sec": 226.725,
+      "duration_sec": 4.469,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 42,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\042.wav",
+      "hash": "be378b19cb4d434872bf9262bea633ceeb6a5783098a5eaca1bf40cc1405b665",
+      "start_sec": 227.225,
+      "end_sec": 231.247,
+      "duration_sec": 4.021,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 43,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\043.wav",
+      "hash": "d1b6b57def59a0190d1902290e4d8e89d25006a53666bcd10b8900a9e73762fd",
+      "start_sec": 231.547,
+      "end_sec": 234.949,
+      "duration_sec": 3.403,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 44,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\044.wav",
+      "hash": "a33625087e0559665ba8216c5e96a41d0bf882e93d4deeed43020d22a36db82a",
+      "start_sec": 235.449,
+      "end_sec": 240.569,
+      "duration_sec": 5.12,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 45,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\045.wav",
+      "hash": "ba9f8c1853a679518674adbf051b12e20fa768008582dc6bef24e35b043fdd9b",
+      "start_sec": 240.869,
+      "end_sec": 246.533,
+      "duration_sec": 5.664,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 46,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\046.wav",
+      "hash": "9969f6a74fd0b7075c67bce5a2efd8b6802327076008003aba9a4e090c73e38c",
+      "start_sec": 246.833,
+      "end_sec": 250.151,
+      "duration_sec": 3.317,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 47,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\047.wav",
+      "hash": "679486294e88376680a12b86b5e5a8f852dfffee2a1336040e54d82acec30200",
+      "start_sec": 250.451,
+      "end_sec": 256.125,
+      "duration_sec": 5.675,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 48,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\048.wav",
+      "hash": "18ae34d37f94c5785371ee3be9f846d698a65a86ff43d7d3c9aa8fee4052b2f4",
+      "start_sec": 256.425,
+      "end_sec": 260.223,
+      "duration_sec": 3.797,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 49,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\049.wav",
+      "hash": "4c9e2aa11098951ae5ea5147e9f2967aff8578d125b256b9985706edfcd59238",
+      "start_sec": 260.723,
+      "end_sec": 263.571,
+      "duration_sec": 2.848,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 50,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\050.wav",
+      "hash": "1c48ed68b555e0dcf8c6fd89b9c095509d68ffe1bef67257b89d85bf1d8fe77c",
+      "start_sec": 263.871,
+      "end_sec": 266.153,
+      "duration_sec": 2.283,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 51,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\051.wav",
+      "hash": "0679c00b4fbeee3daae71bef8eaec8d53e374b7be469860aa7a63deb8441b8c3",
+      "start_sec": 266.453,
+      "end_sec": 269.173,
+      "duration_sec": 2.72,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 52,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\052.wav",
+      "hash": "bf253cc55802a1692d6827a17240f9f30d8ff0e451d7cb099012a67c53861c1a",
+      "start_sec": 269.473,
+      "end_sec": 273.292,
+      "duration_sec": 3.819,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 53,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\053.wav",
+      "hash": "71e3f3643cdef86957e86f7af57df18a3a562004909787381feb9fd23fe826d8",
+      "start_sec": 273.592,
+      "end_sec": 277.741,
+      "duration_sec": 4.149,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 54,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\054.wav",
+      "hash": "b425d1ba52665a220c857af059ba50cdbecd02702ed2513e03b9058befe69484",
+      "start_sec": 278.041,
+      "end_sec": 283.193,
+      "duration_sec": 5.152,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 55,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\055.wav",
+      "hash": "8467cd308a634bc77626b82bdef54b63b3d5b876172e291a687a22fc8c428fe5",
+      "start_sec": 283.493,
+      "end_sec": 288.997,
+      "duration_sec": 5.504,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 56,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\056.wav",
+      "hash": "ae1dd96c69b5010b15e27583892e48665c9bb46861cf1ffa0bed9d0d5f14c644",
+      "start_sec": 289.497,
+      "end_sec": 293.561,
+      "duration_sec": 4.064,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 57,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\057.wav",
+      "hash": "0b5dfa456ac74e83cf951052e63d5d60ed99ff46306e0414952e3b4d3d9b2f1d",
+      "start_sec": 294.061,
+      "end_sec": 300.099,
+      "duration_sec": 6.037,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 58,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\058.wav",
+      "hash": "cbe1c2f9a8dd5024ebcd2fdacc96eb7b48d4083d189476b650076994000d718f",
+      "start_sec": 300.399,
+      "end_sec": 309.839,
+      "duration_sec": 9.44,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 59,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\059.wav",
+      "hash": "5d02e1dadb3a648d103f0288985d6543ffb6f0a89cd57504890afdb94dc245f3",
+      "start_sec": 310.139,
+      "end_sec": 314.672,
+      "duration_sec": 4.533,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 60,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\060.wav",
+      "hash": "c963fe1eac15dc33f638be45d6644d2faca4afadc1fd6f44aca691558521b730",
+      "start_sec": 314.972,
+      "end_sec": 320.7,
+      "duration_sec": 5.728,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 61,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\061.wav",
+      "hash": "4c5279fc3dc03278f187524a9ce902e0ceb1d804a17baf24af9a8453cd823cf8",
+      "start_sec": 321.2,
+      "end_sec": 325.659,
+      "duration_sec": 4.459,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 62,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\062.wav",
+      "hash": "bd360c8761feefaf60c06cb9097852743a5dcd80882cfae4c22f1b6487c86a35",
+      "start_sec": 325.959,
+      "end_sec": 331.975,
+      "duration_sec": 6.016,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 63,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\063.wav",
+      "hash": "1ae0950cefae627e30d2c69594583ec1cfe25b2e6852a2f3c3d907faa05c921c",
+      "start_sec": 332.275,
+      "end_sec": 338.536,
+      "duration_sec": 6.261,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 64,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\064.wav",
+      "hash": "68e57be1c34461c34065cf5bbb7e0f2d4b67efa56b652155cef926ea914e6d9d",
+      "start_sec": 338.836,
+      "end_sec": 344.703,
+      "duration_sec": 5.867,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 65,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\065.wav",
+      "hash": "18f981a4f432145278df92636873ebd999a4887ddd1a99f648aad1a3b28578a8",
+      "start_sec": 345.003,
+      "end_sec": 350.923,
+      "duration_sec": 5.92,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 66,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\066.wav",
+      "hash": "36a2437c6c13b9a1ff41b71b87d4cf12804510ce37bc3da88062157e06c9e0b0",
+      "start_sec": 351.423,
+      "end_sec": 352.617,
+      "duration_sec": 1.195,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 67,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\067.wav",
+      "hash": "7896e3f458f5f2878bc72a995a4e811e10dfc45c3bec46228517dc384ecfa584",
+      "start_sec": 352.917,
+      "end_sec": 358.933,
+      "duration_sec": 6.016,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 68,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\068.wav",
+      "hash": "9ae6f66476279dcecc61596a2199e4b96a778bddd4277d0acb2ae022e15c2924",
+      "start_sec": 359.233,
+      "end_sec": 363.873,
+      "duration_sec": 4.64,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 69,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\069.wav",
+      "hash": "6c7f8d3e7af167e9ba2da292ed1b7fbc87e87c1ad79464909905dac0c08a4d9b",
+      "start_sec": 364.173,
+      "end_sec": 370.819,
+      "duration_sec": 6.645,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 70,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\070.wav",
+      "hash": "3b077b62ae1cda7af347628a9c61d8e1df6e7c61fe45d4b0799af955aa82aa38",
+      "start_sec": 371.119,
+      "end_sec": 373.391,
+      "duration_sec": 2.272,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 71,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\071.wav",
+      "hash": "6f9208ef52c3736e3e614df5e3988bb50dbb0113868b825733a7b801c90b6161",
+      "start_sec": 373.691,
+      "end_sec": 385.872,
+      "duration_sec": 12.181,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 72,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\004_nise_keisatsu\\audio\\voicevox_kenzaki\\segments\\072.wav",
+      "hash": "500d0407bd036642b06e5660c4e28fec83e3048cb53940e59acd45a11290e40b",
+      "start_sec": 386.172,
+      "end_sec": 391.004,
+      "duration_sec": 4.832,
+      "pause_after": 0.8
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "video": {
+    "draft_v3.mp4": "approved"
+  },
+  "reviewed_at": "2026-09-05T00:00:00+09:00",
+  "reviewer": "user",
+  "scope": [
+    "Visual Gate v5",
+    "draft_v3",
+    "final.mp4 copy-only",
+    "thumbnail",
+    "信用 pronunciation",
+    "今だけ pronunciation",
+    "188 pronunciation",
+    "0570-050588 audio and numeric subtitle",
+    "CTA full text"
+  ],
+  "note": "ユーザー指示によりEpisode008 draft_v3・final.mp4・確定thumbnailを人間承認済みとして扱い、2026-09-08 19:00 JSTの予約公開まで進める。"
+}

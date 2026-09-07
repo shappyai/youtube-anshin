@@ -1,0 +1,62 @@
+{
+  "short_id": "Short001",
+  "version": "v4",
+  "requested_nucleus": "ト",
+  "dictionary_entry": {
+    "surface": "ChatGPT",
+    "reading": "チャット",
+    "accent": 3,
+    "human_approved": true,
+    "global": true
+  },
+  "observations": [
+    {
+      "phrase_index": 0,
+      "moras": [
+        {
+          "text": "チャ",
+          "pitch": 4.887
+        },
+        {
+          "text": "ッ",
+          "pitch": 0.0
+        },
+        {
+          "text": "ト",
+          "pitch": 5.0219
+        }
+      ],
+      "accent": 3,
+      "to_mora_index": 2,
+      "to_pitch": 5.0219,
+      "segment_id": 1,
+      "narration": "チャットジーピーティー、文字入力は大変ですか。",
+      "status": "PASS"
+    },
+    {
+      "phrase_index": 0,
+      "moras": [
+        {
+          "text": "チャ",
+          "pitch": 4.8886
+        },
+        {
+          "text": "ッ",
+          "pitch": 0.0
+        },
+        {
+          "text": "ト",
+          "pitch": 5.0285
+        }
+      ],
+      "accent": 3,
+      "to_mora_index": 2,
+      "to_pitch": 5.0285,
+      "segment_id": 5,
+      "narration": "チャットジーピーティーが、質問に合わせて答え始めます。",
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS_QUERY_OBSERVATION",
+  "human_listening_gate": "REVIEW"
+}

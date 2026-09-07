@@ -1,0 +1,554 @@
+{
+  "short_id": "Short003",
+  "version": "v4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "audio_path": "audio/narration_v4.wav",
+  "audio_reused_except_targets": true,
+  "audio_target_segments": [
+    6
+  ],
+  "core_scene_count": 3,
+  "visual_beats": [
+    {
+      "id": "A1",
+      "index": 1,
+      "core_scene": "A",
+      "start_sec": 0.0,
+      "end_sec": 4.024,
+      "duration_sec": 4.024,
+      "kind": "imagegen",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "purpose": "person_hook",
+      "headline_lines": [
+        "カードを",
+        "スマホに？"
+      ],
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "id": "A2",
+      "index": 2,
+      "core_scene": "A",
+      "start_sec": 4.024,
+      "end_sec": 8.049,
+      "duration_sec": 4.024,
+      "kind": "imagegen",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "purpose": "phone_card_crop",
+      "headline_lines": [
+        "カードを",
+        "スマホに？"
+      ],
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "id": "B1",
+      "index": 3,
+      "core_scene": "B",
+      "start_sec": 8.049,
+      "end_sec": 10.684,
+      "duration_sec": 2.635,
+      "kind": "renderer",
+      "asset": "assets/renderer_v4/usage_cue_portal.png",
+      "purpose": "mynaportal_usage_cue",
+      "headline_lines": [],
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "id": "B2",
+      "index": 4,
+      "core_scene": "B",
+      "start_sec": 10.684,
+      "end_sec": 13.319,
+      "duration_sec": 2.635,
+      "kind": "renderer",
+      "asset": "assets/renderer_v4/usage_cue_certificate.png",
+      "purpose": "certificate_etax_usage_cue",
+      "headline_lines": [],
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "id": "B3",
+      "index": 5,
+      "core_scene": "B",
+      "start_sec": 13.319,
+      "end_sec": 15.954,
+      "duration_sec": 2.635,
+      "kind": "imagegen",
+      "asset": "assets/imagegen_native_v2/normalized/scene_03_health.png",
+      "purpose": "healthcare_usage",
+      "headline_lines": [
+        "保険証として",
+        "使える場合も"
+      ],
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "id": "B4",
+      "index": 6,
+      "core_scene": "B",
+      "start_sec": 15.954,
+      "end_sec": 18.589,
+      "duration_sec": 2.635,
+      "kind": "imagegen",
+      "asset": "assets/imagegen_native_v2/normalized/scene_03_health.png",
+      "purpose": "healthcare_usage_close",
+      "headline_lines": [
+        "保険証として",
+        "使える場合も"
+      ],
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "id": "C1",
+      "index": 7,
+      "core_scene": "C",
+      "start_sec": 18.589,
+      "end_sec": 25.367,
+      "duration_sec": 6.779,
+      "kind": "imagegen",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_conclusion.png",
+      "purpose": "card_required_conclusion",
+      "headline_lines": [
+        "スマホだけで",
+        "全部ではない"
+      ],
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "id": "C2",
+      "index": 8,
+      "core_scene": "C",
+      "start_sec": 25.367,
+      "end_sec": 28.595,
+      "duration_sec": 3.228,
+      "kind": "imagegen",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_conclusion.png",
+      "purpose": "conclusion_cta",
+      "headline_lines": [
+        "スマホだけで",
+        "全部ではない"
+      ],
+      "motion": "slow_crop_push_in",
+      "cta_lockup": true
+    }
+  ],
+  "frame_rows": [
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0001.png",
+      "start_sec": 0.0,
+      "end_sec": 2.890667,
+      "duration_sec": 2.890667,
+      "beat_id": "A1",
+      "beat_index": 1,
+      "core_scene": "A",
+      "purpose": "person_hook",
+      "segment_id": 1,
+      "cue_number": 1,
+      "subtitle": [
+        "スマホに入れると",
+        "何ができる？"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0002.png",
+      "start_sec": 2.890667,
+      "end_sec": 2.960667,
+      "duration_sec": 0.07,
+      "beat_id": "A1",
+      "beat_index": 1,
+      "core_scene": "A",
+      "purpose": "person_hook",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0003.png",
+      "start_sec": 2.960667,
+      "end_sec": 4.024333,
+      "duration_sec": 1.063666,
+      "beat_id": "A1",
+      "beat_index": 1,
+      "core_scene": "A",
+      "purpose": "person_hook",
+      "segment_id": 2,
+      "cue_number": 2,
+      "subtitle": [
+        "マイナポータル"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0004.png",
+      "start_sec": 4.024333,
+      "end_sec": 4.487067,
+      "duration_sec": 0.462734,
+      "beat_id": "A2",
+      "beat_index": 2,
+      "core_scene": "A",
+      "purpose": "phone_card_crop",
+      "segment_id": 2,
+      "cue_number": 2,
+      "subtitle": [
+        "マイナポータル"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0005.png",
+      "start_sec": 4.487067,
+      "end_sec": 6.013467,
+      "duration_sec": 1.5264,
+      "beat_id": "A2",
+      "beat_index": 2,
+      "core_scene": "A",
+      "purpose": "phone_card_crop",
+      "segment_id": 2,
+      "cue_number": 3,
+      "subtitle": [
+        "コンビニの証明書"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0006.png",
+      "start_sec": 6.013467,
+      "end_sec": 8.048667,
+      "duration_sec": 2.0352,
+      "beat_id": "A2",
+      "beat_index": 2,
+      "core_scene": "A",
+      "purpose": "phone_card_crop",
+      "segment_id": 2,
+      "cue_number": 4,
+      "subtitle": [
+        "e-Taxなど"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0007.png",
+      "start_sec": 8.048667,
+      "end_sec": 8.118667,
+      "duration_sec": 0.07,
+      "beat_id": "B1",
+      "beat_index": 3,
+      "core_scene": "B",
+      "purpose": "mynaportal_usage_cue",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "renderer_native",
+      "asset": "assets/renderer_v4/usage_cue_portal.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0008.png",
+      "start_sec": 8.118667,
+      "end_sec": 10.683667,
+      "duration_sec": 2.565,
+      "beat_id": "B1",
+      "beat_index": 3,
+      "core_scene": "B",
+      "purpose": "mynaportal_usage_cue",
+      "segment_id": 3,
+      "cue_number": 5,
+      "subtitle": [
+        "医療機関や薬局で",
+        "使えることも"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": "assets/renderer_v4/usage_cue_portal.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0009.png",
+      "start_sec": 10.683667,
+      "end_sec": 13.318667,
+      "duration_sec": 2.635,
+      "beat_id": "B2",
+      "beat_index": 4,
+      "core_scene": "B",
+      "purpose": "certificate_etax_usage_cue",
+      "segment_id": 3,
+      "cue_number": 5,
+      "subtitle": [
+        "医療機関や薬局で",
+        "使えることも"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": "assets/renderer_v4/usage_cue_certificate.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0010.png",
+      "start_sec": 13.318667,
+      "end_sec": 13.633333,
+      "duration_sec": 0.314666,
+      "beat_id": "B3",
+      "beat_index": 5,
+      "core_scene": "B",
+      "purpose": "healthcare_usage",
+      "segment_id": 3,
+      "cue_number": 5,
+      "subtitle": [
+        "医療機関や薬局で",
+        "使えることも"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_03_health.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0011.png",
+      "start_sec": 13.633333,
+      "end_sec": 13.703333,
+      "duration_sec": 0.07,
+      "beat_id": "B3",
+      "beat_index": 5,
+      "core_scene": "B",
+      "purpose": "healthcare_usage",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_03_health.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0012.png",
+      "start_sec": 13.703333,
+      "end_sec": 15.953667,
+      "duration_sec": 2.250334,
+      "beat_id": "B3",
+      "beat_index": 5,
+      "core_scene": "B",
+      "purpose": "healthcare_usage",
+      "segment_id": 4,
+      "cue_number": 6,
+      "subtitle": [
+        "端末で違いあり"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_03_health.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0013.png",
+      "start_sec": 15.953667,
+      "end_sec": 18.588667,
+      "duration_sec": 2.635,
+      "beat_id": "B4",
+      "beat_index": 6,
+      "core_scene": "B",
+      "purpose": "healthcare_usage_close",
+      "segment_id": 4,
+      "cue_number": 6,
+      "subtitle": [
+        "端末で違いあり"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_03_health.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0014.png",
+      "start_sec": 18.588667,
+      "end_sec": 18.658667,
+      "duration_sec": 0.07,
+      "beat_id": "C1",
+      "beat_index": 7,
+      "core_scene": "C",
+      "purpose": "card_required_conclusion",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_conclusion.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0015.png",
+      "start_sec": 18.658667,
+      "end_sec": 24.034667,
+      "duration_sec": 5.376,
+      "beat_id": "C1",
+      "beat_index": 7,
+      "core_scene": "C",
+      "purpose": "card_required_conclusion",
+      "segment_id": 5,
+      "cue_number": 7,
+      "subtitle": [
+        "実物カードが",
+        "必要な場面も"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_conclusion.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0016.png",
+      "start_sec": 24.034667,
+      "end_sec": 24.104667,
+      "duration_sec": 0.07,
+      "beat_id": "C1",
+      "beat_index": 7,
+      "core_scene": "C",
+      "purpose": "card_required_conclusion",
+      "segment_id": null,
+      "cue_number": null,
+      "subtitle": [],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_conclusion.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0017.png",
+      "start_sec": 24.104667,
+      "end_sec": 25.367376,
+      "duration_sec": 1.262709,
+      "beat_id": "C1",
+      "beat_index": 7,
+      "core_scene": "C",
+      "purpose": "card_required_conclusion",
+      "segment_id": 6,
+      "cue_number": 8,
+      "subtitle": [
+        "次に困ったときのために",
+        "このチャンネルを登録"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_conclusion.png",
+      "motion": "slow_crop",
+      "cta_lockup": false
+    },
+    {
+      "kind": "visual_beat_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v4\\frame_0018.png",
+      "start_sec": 25.367376,
+      "end_sec": 28.595333,
+      "duration_sec": 3.227957,
+      "beat_id": "C2",
+      "beat_index": 8,
+      "core_scene": "C",
+      "purpose": "conclusion_cta",
+      "segment_id": 6,
+      "cue_number": 8,
+      "subtitle": [
+        "次に困ったときのために",
+        "このチャンネルを登録"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_conclusion.png",
+      "motion": "slow_crop_push_in",
+      "cta_lockup": true
+    }
+  ],
+  "mode_counts": {
+    "imagegen_native": 15,
+    "official_capture": 0,
+    "official_capture_reference": 0,
+    "renderer_native": 3
+  },
+  "cta": {
+    "dedicated_scene": 0,
+    "spoken_text": "次に困ったときのために、このチャンネルを登録しておいてください。",
+    "display_lines": [
+      "次に困ったときのために",
+      "このチャンネルを登録"
+    ],
+    "channel_icon": "local/channel/icon.png",
+    "channel_name": "大人のデジタル安心室",
+    "pseudo_subscribe_ui": 0
+  },
+  "no_image_text_hybrid": true,
+  "viewer_facing_short_id": 0,
+  "fake_ui": 0,
+  "official_ui_ai_reconstruction": 0,
+  "privacy_fail": 0,
+  "pitch_qa": [],
+  "qa_metrics": {
+    "visual_beat_count": 8,
+    "visual_change_interval_target_sec": [
+      2,
+      4
+    ],
+    "mean_meaningful_visual_change_interval_sec": 3.57,
+    "max_visual_beat_duration_sec": 6.78,
+    "static_hold_over_5sec": 1,
+    "static_hold_over_7sec": 0,
+    "shorts_slideshow_feel": "1/5_REVIEW",
+    "shorts_native_feel": "4/5_REVIEW",
+    "visual_beat_durations_sec": [
+      4.02,
+      4.02,
+      2.64,
+      2.64,
+      2.64,
+      2.63,
+      6.78,
+      3.23
+    ],
+    "timeline_coverage_sec": 28.6,
+    "audio_duration_sec": 28.6
+  }
+}

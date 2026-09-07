@@ -1,0 +1,57 @@
+{
+  "episode_id": "012",
+  "video": {
+    "draft_v4": "approved"
+  },
+  "pronunciation": {
+    "status": "approved_for_phase_b",
+    "reviewed_at": "2026-09-06",
+    "approved_segments": [4, 5, 11, 51, 58, 63],
+    "notes": "VOICEVOXの文脈依存レビュー6件を台本と照合。開いて／開く、今日は／今日中の読みは採用音声の文脈で問題なし。共通辞書は変更しない。"
+  },
+  "visual": {
+    "status": "APPROVED_FOR_PHASE_B",
+    "reviewed_at": "2026-09-06",
+    "notes": "Visual Gate v2 人間承認済み。対象7sceneの中立browser/phone frameは公式公開資料クロップまたは意味図解へ置換済み。Phase B visual gateはPASS。"
+  },
+  "draft": {
+    "status": "APPROVED_HUMAN_FULL_WATCH_WITH_AUDIO_OVERRIDE",
+    "path": "output/draft_v4.mp4",
+    "human_full_watch_source": "output/draft_v3.mp4",
+    "approved_v4_delta": "segment030のユーザー修正版WAVのみ。映像・字幕・その他音声はdraft_v3から維持。",
+    "duration_sec": 585.4,
+    "qa": "PASS",
+    "review_points": "work/human_review_points_v3.md",
+    "senior_readability": "PASS",
+    "changes": "draft_v3の全編確認を承認済み。ユーザー修正版『これ、本物？』の030.wavをhuman_audio_overrideとして採用し、draft_v4へ反映。e-Taxはイータックス（イ・イ・タ・ッ・ク・ス、アクセント3、語中ポーズ0）を維持。SCENE-031とsegment080を本編タイムラインから除外し、Episode011実使用CTAを本編直後のpostrollへ1回だけ直接連結。"
+  },
+  "thumbnail": {
+    "status": "APPROVED_HUMAN_PROVIDED",
+    "source_path": "assets/thumbnail/thumbnail_source.png",
+    "path": "assets/thumbnail/thumbnail.png",
+    "qa": "PASS",
+    "content_change": false
+  },
+  "final": {
+    "status": "FINALIZED_COPY_ONLY_UPLOADED_SCHEDULED",
+    "path": "output/final.mp4",
+    "duration_sec": 585.4,
+    "sha256": "32933ED599E072DDF27FA7AF99756F4F78B15A3498DA0EA2071F44EC04660DD8",
+    "byte_identical_to_draft_v4": true,
+    "finalization": "copy-only",
+    "thumbnail_blocker": null
+  },
+  "upload": {
+    "status": "UPLOADED_SCHEDULED",
+    "video_id": "CzTNLyAn1lY",
+    "youtube_url": "https://youtu.be/CzTNLyAn1lY",
+    "channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+    "privacyStatus": "private",
+    "publishAt": "2026-09-12T10:00:00Z",
+    "madeForKids": false,
+    "containsSyntheticMedia": true,
+    "thumbnail_uploaded": true,
+    "verification": "PASS",
+    "reupload": false
+  }
+}

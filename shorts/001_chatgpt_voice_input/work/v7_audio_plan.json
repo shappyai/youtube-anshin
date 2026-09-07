@@ -1,0 +1,78 @@
+{
+  "short_id": "Short001",
+  "version": "v7",
+  "narration": "audio/narration_v7.wav",
+  "narration_sha256": "ff48e7a5a95e023ff8dc5a4839d441ee494b1024b3d9bbbab3de0cd35d88d784",
+  "full_audio_regeneration": 0,
+  "script_changed_segment_count": 4,
+  "audio_regenerated_segment_count": 4,
+  "capture_audio_used": true,
+  "segments": [
+    {
+      "segment_id": 1,
+      "source": "voicevox",
+      "path": "audio/segments/001_v7.wav",
+      "narration": "ChatGPT、文字を打つのが大変ですか。",
+      "start_sec": "0.000",
+      "end_sec": "3.317",
+      "duration_sec": "3.317",
+      "gap_after_sec": "0.070",
+      "status": "regenerated_v7_target_segment"
+    },
+    {
+      "segment_id": 2,
+      "source": "voicevox",
+      "path": "audio/segments/002_v7.wav",
+      "narration": "音声入力なら、話した内容を文字にして送れます。",
+      "start_sec": "3.387",
+      "end_sec": "7.451",
+      "duration_sec": "4.064",
+      "gap_after_sec": "0.070",
+      "status": "regenerated_v7_target_segment"
+    },
+    {
+      "segment_id": 3,
+      "source": "user_capture",
+      "path": "work/capture_v7/capture_audio_v7_processed.wav",
+      "narration": "冷蔵庫にキャベツがあります。簡単な料理を教えてください。",
+      "start_sec": "7.521",
+      "end_sec": "16.521",
+      "duration_sec": "9.000",
+      "gap_after_sec": "0.070",
+      "status": "user_capture_audio"
+    },
+    {
+      "segment_id": 4,
+      "source": "voicevox",
+      "path": "audio/segments/004_v7.wav",
+      "narration": "文字になったら、内容を確認して送信します。",
+      "start_sec": "16.591",
+      "end_sec": "20.186",
+      "duration_sec": "3.595",
+      "gap_after_sec": "0.070",
+      "status": "regenerated_v7_target_segment"
+    },
+    {
+      "segment_id": 5,
+      "source": "voicevox",
+      "path": "audio/segments/005_v7.wav",
+      "narration": "文字を打たずに、質問できました。",
+      "start_sec": "20.256",
+      "end_sec": "22.784",
+      "duration_sec": "2.528",
+      "gap_after_sec": "0.070",
+      "status": "regenerated_v7_target_segment"
+    },
+    {
+      "segment_id": 6,
+      "source": "voicevox_reused_cta",
+      "path": "audio/segments/008_v4.wav",
+      "narration": "次に困ったときのために、このチャンネルを登録しておいてください。",
+      "start_sec": "22.854",
+      "end_sec": "27.345",
+      "duration_sec": "4.491",
+      "gap_after_sec": "0.000",
+      "status": "reused_existing_cta_segment_v4"
+    }
+  ]
+}

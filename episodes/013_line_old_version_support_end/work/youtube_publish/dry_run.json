@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "api_called": false,
+  "oauth_called": false,
+  "episode": "013_line_old_version_support_end",
+  "final_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\output\\final.mp4",
+  "thumbnail_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\assets\\thumbnail\\thumbnail.png",
+  "title": "【LINE】11月に使えなくなる？今のスマホで確認したい3つ",
+  "description_bytes": 1665,
+  "tag_count": 8,
+  "tag_total_length": 51,
+  "privacy": "scheduled",
+  "ai_disclosure": false,
+  "schedule_local": "2026-09-13 19:00:00 JST",
+  "schedule_api": "2026-09-13T10:00:00Z",
+  "video_sha256": "C9EFCABCD1888337E0E1707F045D14176097121B1CDA07C1B4BB78846D3E60F5",
+  "existing_video_id": null,
+  "expected_api_requests": [
+    "videos.insert part=snippet,status resumable=True notifySubscribers=False status.containsSyntheticMedia",
+    "videos.update part=status private+publishAt",
+    "thumbnails.set",
+    "videos.list part=snippet,status"
+  ],
+  "errors": []
+}

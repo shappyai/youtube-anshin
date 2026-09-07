@@ -1,0 +1,27 @@
+scene_id,asset_path,use,source_or_prompt,status,notes
+SCENE-001,assets/generated_ai/scene_001.png,opening concept,ImageGen non-photorealistic one-scene prompt,READY_FOR_HUMAN_REVIEW,exact text QA PASS; human review remains
+SCENE-002,template,fictional call text,renderer template,READY_FOR_HUMAN_REVIEW,reproduction image label; no real audio or phone number
+SCENE-003,assets/official/mhlw_warning_core_v1.png,official quote,https://www.mhlw.go.jp/stf/newpage_44734.html,READY_FOR_HUMAN_REVIEW,核心1メッセージを大きく表示。公式本文の意味を変えない短縮表示、公式UI redrawなし
+SCENE-004,template,three actions,renderer template,READY_FOR_HUMAN_REVIEW,large list
+SCENE-005,template,section 1 / 3,renderer template,READY_FOR_HUMAN_REVIEW,block semantic icon
+SCENE-006,template,do not press,renderer template,READY_FOR_HUMAN_REVIEW,amber caution only
+SCENE-007,template,end the call,renderer template,READY_FOR_HUMAN_REVIEW,calm caution
+SCENE-019,template,midroll subscribe reason,renderer template,READY_FOR_HUMAN_REVIEW,static reason-to-return text; no fake subscribe UI
+SCENE-008,template,section 2 / 3,renderer template,READY_FOR_HUMAN_REVIEW,lock semantic icon
+SCENE-009,template,information list,renderer template,READY_FOR_HUMAN_REVIEW,5 items; 44px minimum
+SCENE-010,template,do not share,renderer template,READY_FOR_HUMAN_REVIEW,registration boundary
+SCENE-011,template,section 3 / 3,renderer template,READY_FOR_HUMAN_REVIEW,verified user icon
+SCENE-012,template,official route,https://www.digital.go.jp/policies/mynumber/insurance-card,READY_FOR_HUMAN_REVIEW,do not use caller number or SMS link
+SCENE-013,template,0120-95-0178,https://www.digital.go.jp/policies/mynumber_contact,READY_FOR_HUMAN_REVIEW,digit and hours QA
+SCENE-014,template,#9110,https://www.npa.go.jp/bureau/soumu/soudan/soudanmadoguti.pdf,READY_FOR_HUMAN_REVIEW,ordinary police consultation
+SCENE-015,template,110 versus #9110,https://www.npa.go.jp/goiken_index.html,READY_FOR_HUMAN_REVIEW,emergency distinction
+SCENE-016,template,already answered,editorial safety split,READY_FOR_HUMAN_REVIEW,press-only versus data-shared branches
+SCENE-017,template,summary,renderer template,READY_FOR_HUMAN_REVIEW,three actions only
+SCENE-018,assets/generated_ai/scene_018.png,closing concept with native text,ImageGen-native single generation,READY_FOR_HUMAN_REVIEW,exact text PASS; main 「迷ったら、その場で決めない」＋補助「いったん止まって、公式から確認」; post text overlay 0; retry 1
+AUDIO-NARRATION-011,audio/voicevox_kenzaki/narration_kenzaki_auto.wav,narration,VOICEVOX:剣崎雌雄 / ノーマル,READY_FOR_HUMAN_REVIEW,39 segments; 236.795s; segment 039 regenerated, other 38 reused; per-segment audio_query→synthesis
+AUDIO-CTA-011,audio/voicevox_kenzaki/cta_registration_conversion_v1.wav,postroll CTA,Episode010 draft_v1 actual registration_conversion_v1 reuse,READY_FOR_HUMAN_REVIEW,11.456s audio; 15.0s CTA; 3.544s trailing
+CTA-011,work/cta_registration_conversion_v1.png,postroll CTA screen,Episode010 draft_v1 actual registration_conversion_v1 reuse,READY_FOR_HUMAN_REVIEW,exact asset reuse; CTA preflight PASS; fake subscribe UI 0
+CAPTIONS-011,captions.srt,subtitle track,VOICEVOX measured segment timing,READY_FOR_HUMAN_REVIEW,39 cues; segment 039 story resolution updated; TTS leakage PASS; min font 72px
+CAPTIONS-ASS-011,captions.ass,subtitle render track,VOICEVOX measured segment timing,READY_FOR_HUMAN_REVIEW,ASS burned into draft
+DRAFT-011,output/draft_v2.mp4,full draft,H.264/AAC 1920x1080 30fps / 48kHz mono,READY_FOR_HUMAN_REVIEW,expected 251.795s; probe 251.800s; SHA256 45AB01EC1FF4F807FFF4ED7F42436FAFD2D00A24FD087BAA7436AF371C78AAB4; phase2 QA PASS; full human viewing pending
+QA-FRAMES-011,work/visual_review/draft_v2_contact_sheet.png,draft representative frame contact sheet,FFmpeg representative frames,READY_FOR_HUMAN_REVIEW,20 frames: SCENE001/002/003/005-007/019/phone/#9110/110/ending/CTA included; SCENE018 native text visually checked

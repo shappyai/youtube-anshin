@@ -1,0 +1,442 @@
+{
+  "schema_version": "1.0.0",
+  "metadata": {
+    "research_date": "2026-09-06",
+    "visual_theme": "adult_digital_soft_image_bg",
+    "production_phase": "TREND_FAST_TRACK_V2 / final private upload verification",
+    "channel": "大人のデジタル安心室",
+    "brand_promise": "怖がらせる前に、確認する。",
+    "target_audience_detail": "50〜70代を中心に、視力が弱い人とTV視聴を想定。headline 88〜120px、main 64〜80px、secondary 52px以上、source 44px以上を守る。",
+    "media_decision": "速報の事実はくら寿司公式発表を大きく表示。フリマの購入前確認はテンプレート図解と国民生活センター公式資料を併用する。個別アプリの実在UI、出品者名、商品ID、個人情報は表示しない。",
+    "protagonist_policy": "架空の購入者を1場面だけ使う。人物名・実在アカウント・実在出品とは結び付けない。",
+    "fact_boundary": "くら寿司公式発表、報道、SNS上の推測を分ける。公式発表で確認できない出品者の身元・商品の同一性は断定しない。ちいかわ商品全般が危険、転売品の購入が犯罪、フリマ出品が一律に不適切という表現は使わない。",
+    "news_window_seconds": "65〜90秒を目標",
+    "fast_track_stop": "人間承認済みdraft_v2をfinal化し、指定thumbnailを添えて非公開uploadとAPI検証完了後に停止。schedule/public/End Screenは未実施。",
+    "imagegen_policy": "ImageGenはSCENE-001とSCENE-005の2枚だけ。1scene=1image、キャラクター・公式UI・ロゴを生成しない。サムネイル画像は生成しない。",
+    "official_visual_policy": "公式PDFをレンダリングした実資料のcropのみ。UIや公式発表の再現画像は作らない。",
+    "human_gates": [
+      "テーマ・台本：速報事実と5つの確認を人間確認",
+      "scene contact sheet：ImageGen画像と公式資料の配置、キャラクター混入0を確認",
+      "pronunciation：VOICEVOXの数字・固有名詞を人間確認",
+      "draft_v2全編：事実・字幕・音声・映像・プライバシーを人間確認"
+    ],
+    "do_not_create_in_fast_track": [
+      "thumbnail画像の新規生成",
+      "scheduled upload",
+      "公開用API操作（public / unlisted / publishAt / schedule）"
+    ]
+  },
+  "episode": {
+    "episode_id": "014",
+    "slug": "chiikawa_fleamarket_safety",
+    "title": "【ちいかわ転売問題】フリマで限定品を買う前に確認したい5つ",
+    "target_duration": 360,
+    "status": "publish_ready",
+    "publication_status": "READY_FOR_PRIVATE_UPLOAD",
+    "topic": "くら寿司公式発表を起点に、フリマで限定品を買う前に確認したい5つの手順を説明する。",
+    "target_audience": "50〜70代。限定品をフリマで見つけたとき、急いで買う前に安全な確認手順を知りたい人。",
+    "topic_scores": {
+      "search_fit": 5,
+      "home_ctr": 5,
+      "senior_clarity": 5,
+      "factual_accuracy": 5,
+      "trend_relevance": 5,
+      "total": 25,
+      "selected_title_reason": "発生中の話題名と、購入前にする行動を同時に示し、断定や恐怖の上乗せを避けた。"
+    },
+    "title_candidates": [
+      {"id":"A","title":"【ちいかわ転売問題】フリマで限定品を買う前に確認したい5つ","status":"selected","reason":"速報性と実用性の両方が伝わる。"},
+      {"id":"B","title":"【くら寿司×ちいかわ】フリマで買う前に確認したい5つ","status":"candidate","reason":"公式発表の起点が伝わるが、転売問題の検索語を弱める。"},
+      {"id":"C","title":"限定品を急いで買う前に。フリマで確認する5つ","status":"candidate","reason":"煽りが弱く分かりやすいが、速報テーマが伝わりにくい。"}
+    ]
+  },
+  "experiment": {
+    "name": "trend_fast_track_v1",
+    "status": "draft_v1_stop_after_render",
+    "goal": "速報の事実境界を守りながら、購入前の確認行動へ短時間でつなげる。",
+    "news_section_max_seconds": 60,
+    "check_sections": 5,
+    "midroll_subscribe_cta": false,
+    "end_cta_count": 1,
+    "thumbnail_owner": "ChatGPT",
+    "human_full_watch_required": true,
+    "trend_queries": ["ちいかわ 転売", "くら寿司 ちいかわ", "ちいかわ フリマ", "ちいかわ コラボ 中止"],
+    "trend_data_note": "2026-09-06にWeb検索結果を定性的に確認。YouTube Studio Trendsの一次指標はこの制作環境では未取得。検索ボリュームを推測しない。"
+  },
+  "narration": {
+    "speaker": "VOICEVOX",
+    "voice": "剣崎雌雄",
+    "style": "ノーマル",
+    "speedScale": 1,
+    "intonationScale": 1,
+    "pitchScale": 0,
+    "segment_policy": "通常segmentは1文ずつaudio_query→synthesis。終了CTAは本編ナレーションに含めず、承認済みpostrollを1回だけ連結する。",
+    "pronunciation_review_terms": ["ちいかわ", "フリマ", "くら寿司", "SNS", "LINE", "188", "受取評価", "国民生活センター"]
+  },
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "tier": "A",
+      "url": "https://www.kurasushi.co.jp/upload/260905release.pdf",
+      "title": "「ちいかわ」コラボキャンペーンの中止について",
+      "organization": "くら寿司株式会社",
+      "verified_at": "2026-09-06",
+      "claim": "2026年9月5日付の公式発表。調査の結果、当社の従業員による不正行為が判明したため、2026年9月6日の営業開始時からキャンペーンを中止すると確認。"
+    },
+    {
+      "source_id": "SRC-002",
+      "tier": "A",
+      "url": "https://www.kurasushi.co.jp/upload/260902release.pdf",
+      "title": "「ちいかわ」コラボ施策に関する一部SNS投稿について",
+      "organization": "くら寿司株式会社",
+      "verified_at": "2026-09-06",
+      "claim": "2026年9月2日付の公式発表。ビッくらポン！コラボグッズの不適切な取り扱いに関するSNS投稿を受け、事実関係を速やかに調査していると確認。"
+    },
+    {
+      "source_id": "SRC-003",
+      "tier": "B",
+      "url": "https://www.itmedia.co.jp/news/article/2609/05/2000001201/",
+      "title": "くら寿司、「ちいかわ」コラボキャンペーン中止　従業員の不正行為判明",
+      "organization": "ITmedia NEWS",
+      "verified_at": "2026-09-06",
+      "claim": "報道として、配布開始前とみられるグッズのフリマアプリ出品がSNSで問題視されたと確認。出品者や商品の同一性は公式発表の確認事項と分けて扱う。"
+    },
+    {
+      "source_id": "SRC-004",
+      "tier": "A",
+      "url": "https://www.kokusen.go.jp/news/data/n-20250902_2.html",
+      "title": "ネットで購入・出品した商品が偽物？！フリマサービスのトラブルに注意！",
+      "organization": "国民生活センター",
+      "verified_at": "2026-09-06",
+      "claim": "フリマサービスの偽物トラブルについて、利用規約を理解し、購入前に疑問点を出品者へ質問し、困ったら運営へ相談し、解決しない場合は188へ相談する案内を確認。"
+    },
+    {
+      "source_id": "SRC-005",
+      "tier": "A",
+      "url": "https://www.kokusen.go.jp/mimamori/mj_mailmag/mj-shinsen536.html",
+      "title": "フリマサービスのトラブルに注意!",
+      "organization": "国民生活センター",
+      "verified_at": "2026-09-06",
+      "claim": "2026年3月5日公表。商品到着前に受取評価をして、後から問題に気付いた事例と、商品を確認してから評価する注意を確認。"
+    },
+    {
+      "source_id": "SRC-006",
+      "tier": "A",
+      "url": "https://www.kokusen.go.jp/t_box/data/t_box-faq_qa2019_08.html",
+      "title": "フリマサービスに関する相談",
+      "organization": "国民生活センター",
+      "verified_at": "2026-09-06",
+      "claim": "商品到着前の受取評価、サービス外の銀行振込などを避け、トラブル時は相手、運営、188の順に相談する案内を確認。"
+    },
+    {
+      "source_id": "SRC-007",
+      "tier": "A",
+      "url": "https://www.caa.go.jp/about_us/about/contact/",
+      "title": "消費者庁へのご意見・お問い合わせ",
+      "organization": "消費者庁",
+      "verified_at": "2026-09-06",
+      "claim": "消費者ホットライン188は、近くの消費生活センターなどを案内する全国共通の3桁番号と確認。相談窓口につながるまでの通話料はかかる案内も確認。"
+    },
+    {
+      "source_id": "SRC-008",
+      "tier": "A",
+      "url": "https://www.kokusen.go.jp/news/data/n-20260617_1.html",
+      "title": "悪質通販サイトにご注意ください",
+      "organization": "国民生活センター",
+      "verified_at": "2026-09-06",
+      "claim": "フリマサービスの商品画像などが悪質通販サイトに流用される場合があると確認。フリマアプリ内の取引とは別問題として一文だけ扱う。"
+    }
+  ],
+  "narration_segments": [
+    {"id":1,"section":"はじめに","narration":"今回話題になっているのは、くら寿司と「ちいかわ」のコラボです。限定グッズが関係する企画でした。","display_text":"今回話題になっているのは、くら寿司と「ちいかわ」のコラボです。限定グッズが関係する企画でした。","reading_overrides":{},"pause_after":0.12,"scene_id":1,"subtitle_ids":["SUB-001","SUB-040"]},
+    {"id":2,"section":"はじめに","narration":"くら寿司は9月2日、コラボグッズについて不適切な取り扱いを指摘するSNS投稿を受け、事実関係を調査していると発表しました。公式発表は、個別の出品者や商品の同一性を説明したものではありません。","display_text":"くら寿司は9月2日、コラボグッズについて不適切な取り扱いを指摘するSNS投稿を受け、事実関係を調査していると発表しました。公式発表は、個別の出品者や商品の同一性を説明したものではありません。","reading_overrides":{},"pause_after":0.12,"scene_id":2,"subtitle_ids":["SUB-002","SUB-041","SUB-042"]},
+    {"id":3,"section":"はじめに","narration":"9月2日の時点では、公式が確認していたのは、SNS投稿を受け、調査しているということまでです。出品者や商品の同一性を示す発表ではありません。","display_text":"9月2日の時点では、公式が確認していたのは、SNS投稿を受け、調査しているということまでです。出品者や商品の同一性を示す発表ではありません。","reading_overrides":{},"pause_after":0.14,"scene_id":2,"subtitle_ids":["SUB-003","SUB-043","SUB-044"]},
+    {"id":4,"section":"はじめに","narration":"その後、くら寿司は9月5日、「ちいかわ」コラボキャンペーンを中止すると発表しました。","display_text":"その後、くら寿司は9月5日、「ちいかわ」コラボキャンペーンを中止すると発表しました。","reading_overrides":{},"pause_after":0.14,"scene_id":3,"subtitle_ids":["SUB-004","SUB-045"]},
+    {"id":5,"section":"はじめに","narration":"9月5日の公式発表では、従業員による不正行為が判明したため、9月6日の営業開始時から中止するとしています。","display_text":"9月5日の公式発表では、従業員による不正行為が判明したため、9月6日の営業開始時から中止するとしています。","reading_overrides":{},"pause_after":0.14,"scene_id":3,"subtitle_ids":["SUB-005","SUB-046"]},
+    {"id":6,"section":"はじめに","narration":"報道では、配布開始前とみられる限定グッズのフリマ出品が、SNSで問題視されたとされています。これが今回の話題の背景です。ここでは、報道で伝えられた範囲として整理します。","display_text":"報道では、配布開始前とみられる限定グッズのフリマ出品が、SNSで問題視されたとされています。これが今回の話題の背景です。ここでは、報道で伝えられた範囲として整理します。","reading_overrides":{},"pause_after":0.14,"scene_id":4,"subtitle_ids":["SUB-006","SUB-047","SUB-048"]},
+    {"id":7,"section":"はじめに","narration":"ただし、フリマの出品者がその従業員だったのか、その商品が不正行為と同じものかは、公式発表では確認できません。ですから、報道やSNSの投稿だけで出品者や商品を特定しません。ちいかわ商品全般が危険だとも決めつけません。買う前の確認に移ります。","display_text":"ただし、フリマの出品者がその従業員だったのか、その商品が不正行為と同じものかは、公式発表では確認できません。ですから、報道やSNSの投稿だけで出品者や商品を特定しません。ちいかわ商品全般が危険だとも決めつけません。買う前の確認に移ります。","reading_overrides":{},"pause_after":0.14,"scene_id":4,"subtitle_ids":["SUB-007","SUB-049","SUB-050","SUB-051","SUB-052"]},
+    {"id":8,"section":"はじめに","narration":"ここからは架空の例です。孫へのプレゼントとして、残り1個の限定品を見つけたとします。","display_text":"ここからは架空の例です。孫へのプレゼントとして、残り1個の限定品を見つけたとします。","reading_overrides":{},"pause_after":0.14,"scene_id":5,"subtitle_ids":["SUB-008"]},
+    {"id":9,"section":"はじめに","narration":"急いで買う前に、5つだけ確認します。","display_text":"急いで買う前に、5つだけ確認します。","reading_overrides":{},"pause_after":0.18,"scene_id":6,"subtitle_ids":["SUB-009"]},
+    {"id":10,"section":"1 / 5","narration":"1つ目は、販売や配布の時期です。","display_text":"1つ目は、販売や配布の時期です。","reading_overrides":{},"pause_after":0.16,"scene_id":7,"subtitle_ids":["SUB-010"]},
+    {"id":11,"section":"1 / 5","narration":"まず、公式の案内で、いつから買える、または配られる商品かを確認します。","display_text":"まず、公式の案内で、いつから買える、または配られる商品かを確認します。","reading_overrides":{},"pause_after":0.14,"scene_id":8,"subtitle_ids":["SUB-011"]},
+    {"id":12,"section":"1 / 5","narration":"まだ配布前なら、違法や盗品と断定せず、なぜ今あるのかを追加確認するサインにします。","display_text":"まだ配布前なら、違法や盗品と断定せず、なぜ今あるのかを追加確認するサインにします。","reading_overrides":{},"pause_after":0.14,"scene_id":8,"subtitle_ids":["SUB-012"]},
+    {"id":13,"section":"1 / 5","narration":"販売時期と合わない出品は、買う理由ではなく、確認する理由です。","display_text":"販売時期と合わない出品は、買う理由ではなく、確認する理由です。","reading_overrides":{},"pause_after":0.14,"scene_id":8,"subtitle_ids":["SUB-013"]},
+    {"id":14,"section":"1 / 5","narration":"公式情報と出品の説明が合わないままなら、今回は見送る判断をします。","display_text":"公式情報と出品の説明が合わないままなら、今回は見送る判断をします。","reading_overrides":{},"pause_after":0.18,"scene_id":8,"subtitle_ids":["SUB-014"]},
+    {"id":15,"section":"2 / 5","narration":"2つ目は、商品写真と説明だけで決めず、実物の状態を確認することです。","display_text":"2つ目は、商品写真と説明だけで決めず、実物の状態を確認することです。","reading_overrides":{},"pause_after":0.16,"scene_id":9,"subtitle_ids":["SUB-015"]},
+    {"id":16,"section":"2 / 5","narration":"国民生活センターにも、フリマで偽物かもしれない商品が届いた相談例があります。","display_text":"国民生活センターにも、フリマで偽物かもしれない商品が届いた相談例があります。","reading_overrides":{},"pause_after":0.14,"scene_id":10,"subtitle_ids":["SUB-016"]},
+    {"id":17,"section":"2 / 5","narration":"実物の写真か、傷や汚れ、付属品、入手経路まで、出品者に確認します。","display_text":"実物の写真か、傷や汚れ、付属品、入手経路まで、出品者に確認します。","reading_overrides":{},"pause_after":0.14,"scene_id":11,"subtitle_ids":["SUB-017"]},
+    {"id":18,"section":"2 / 5","narration":"説明だけでは分からない点があれば、購入前に質問し、納得できるまで進みません。","display_text":"説明だけでは分からない点があれば、購入前に質問し、納得できるまで進みません。","reading_overrides":{},"pause_after":0.14,"scene_id":11,"subtitle_ids":["SUB-018"]},
+    {"id":19,"section":"2 / 5","narration":"ちいかわ商品が危険だという意味ではなく、どの商品でも確認が大切という一般的な注意です。","display_text":"ちいかわ商品が危険だという意味ではなく、どの商品でも確認が大切という一般的な注意です。","reading_overrides":{},"pause_after":0.18,"scene_id":11,"subtitle_ids":["SUB-019"]},
+    {"id":20,"section":"3 / 5","narration":"3つ目は、決済も連絡もフリマアプリの中で行うことです。","display_text":"3つ目は、決済も連絡もフリマアプリの中で行うことです。","reading_overrides":{},"pause_after":0.16,"scene_id":12,"subtitle_ids":["SUB-020"]},
+    {"id":21,"section":"3 / 5","narration":"「LINEで連絡しましょう」「銀行振込なら安くします」「別サイトで払ってください」と言われても、取引を続けません。","display_text":"「LINEで連絡しましょう」「銀行振込なら安くします」「別サイトで払ってください」と言われても、取引を続けません。","reading_overrides":{},"pause_after":0.14,"scene_id":13,"subtitle_ids":["SUB-021","SUB-022"]},
+    {"id":22,"section":"3 / 5","narration":"決済と連絡は、フリマサービス内の機能を使います。","display_text":"決済と連絡は、フリマサービス内の機能を使います。","reading_overrides":{},"pause_after":0.14,"scene_id":13,"subtitle_ids":["SUB-023"]},
+    {"id":23,"section":"3 / 5","narration":"外の連絡先や個人宛の振込を求められたら、いったん中止して運営に相談します。","display_text":"外の連絡先や個人宛の振込を求められたら、いったん中止して運営に相談します。","reading_overrides":{},"pause_after":0.14,"scene_id":13,"subtitle_ids":["SUB-024"]},
+    {"id":24,"section":"3 / 5","narration":"アプリの外へ誘導された時点で、取引を止めるサインです。","display_text":"アプリの外へ誘導された時点で、取引を止めるサインです。","reading_overrides":{},"pause_after":0.18,"scene_id":13,"subtitle_ids":["SUB-025"]},
+    {"id":25,"section":"4 / 5","narration":"4つ目は、商品が届く前に受取評価をしないことです。","display_text":"4つ目は、商品が届く前に受取評価をしないことです。","reading_overrides":{},"pause_after":0.16,"scene_id":14,"subtitle_ids":["SUB-026"]},
+    {"id":26,"section":"4 / 5","narration":"届いたら、まず中身と状態を確認し、問題がなければ受取評価をします。","display_text":"届いたら、まず中身と状態を確認し、問題がなければ受取評価をします。","reading_overrides":{},"pause_after":0.14,"scene_id":15,"subtitle_ids":["SUB-027"]},
+    {"id":27,"section":"4 / 5","narration":"「先に評価してください」と言われても、受け取る前には応じません。","display_text":"「先に評価してください」と言われても、受け取る前には応じません。","reading_overrides":{},"pause_after":0.14,"scene_id":15,"subtitle_ids":["SUB-028"]},
+    {"id":28,"section":"4 / 5","narration":"国民生活センターも、受取前の評価は運営の対処が難しくなることがあると案内しています。","display_text":"国民生活センターも、受取前の評価は運営の対処が難しくなることがあると案内しています。","reading_overrides":{},"pause_after":0.18,"scene_id":15,"subtitle_ids":["SUB-029"]},
+    {"id":29,"section":"5 / 5","narration":"5つ目は、困ったときの相談先を先に知っておくことです。","display_text":"5つ目は、困ったときの相談先を先に知っておくことです。","reading_overrides":{},"pause_after":0.16,"scene_id":16,"subtitle_ids":["SUB-030"]},
+    {"id":30,"section":"5 / 5","narration":"まず、取引相手とフリマサービスの運営に、取引画面を残して相談します。","display_text":"まず、取引相手とフリマサービスの運営に、取引画面を残して相談します。","reading_overrides":{},"pause_after":0.14,"scene_id":17,"subtitle_ids":["SUB-031"]},
+    {"id":31,"section":"5 / 5","narration":"話し合いや運営への相談で進まないときは、消費者ホットライン188へ相談できます。","spoken_text":"話し合いや運営への相談で進まないときは、消費者ホットライン188へ相談できます。","display_text":"話し合いや運営への相談で進まないときは、消費者ホットライン188へ相談できます。","reading_overrides":{},"pause_after":0.14,"scene_id":17,"subtitle_ids":["SUB-032"]},
+    {"id":32,"section":"5 / 5","narration":"188は、近くの消費生活センターなどを案内する、全国共通の3桁番号です。","spoken_text":"188は、近くの消費生活センターなどを案内する、全国共通の3桁番号です。","display_text":"188は、近くの消費生活センターなどを案内する、全国共通の3桁番号です。","reading_overrides":{},"pause_after":0.14,"scene_id":17,"subtitle_ids":["SUB-033"]},
+    {"id":33,"section":"5 / 5","narration":"相談するときは、出品ページや取引メッセージ、支払い記録を残しておきます。","display_text":"相談するときは、出品ページや取引メッセージ、支払い記録を残しておきます。","reading_overrides":{},"pause_after":0.18,"scene_id":17,"subtitle_ids":["SUB-034"]},
+    {"id":34,"section":"まとめ","narration":"まとめです。販売や配布の時期、商品写真と説明、アプリ内の決済と連絡を確認します。","display_text":"まとめです。販売や配布の時期、商品写真と説明、アプリ内の決済と連絡を確認します。","reading_overrides":{},"pause_after":0.14,"scene_id":18,"subtitle_ids":["SUB-035"]},
+    {"id":35,"section":"まとめ","narration":"商品が届いてから中身を確認し、問題がなければ受取評価をします。","display_text":"商品が届いてから中身を確認し、問題がなければ受取評価をします。","reading_overrides":{},"pause_after":0.14,"scene_id":18,"subtitle_ids":["SUB-036"]},
+    {"id":36,"section":"まとめ","narration":"困ったら取引画面を残して運営に相談し、解決しなければ188へ相談します。","spoken_text":"困ったら取引画面を残して運営に相談し、解決しなければ188へ相談します。","display_text":"困ったら取引画面を残して運営に相談し、解決しなければ188へ相談します。","reading_overrides":{},"pause_after":0.14,"scene_id":18,"subtitle_ids":["SUB-037"]},
+    {"id":37,"section":"まとめ","narration":"残り1個や高い値段だけで急いで決めず、確認できない点が残るなら、買わない選択も安全です。","display_text":"残り1個や高い値段だけで急いで決めず、確認できない点が残るなら、買わない選択も安全です。","reading_overrides":{},"pause_after":0.14,"scene_id":18,"subtitle_ids":["SUB-038"]},
+    {"id":38,"section":"まとめ","narration":"公式発表と報道、SNSの推測は分けて見て、公式情報と取引画面を確認してください。","display_text":"公式発表と報道、SNSの推測は分けて見て、公式情報と取引画面を確認してください。","reading_overrides":{},"pause_after":0.20,"scene_id":18,"subtitle_ids":["SUB-039"]}
+  ],
+  "subtitles": [
+    {"id":"SUB-001","segment_id":1,"text_lines":["今回話題になっているのは、","くら寿司と「ちいかわ」のコラボです。"],"font_px":72},
+    {"id":"SUB-002","segment_id":2,"text_lines":["くら寿司は9月2日、コラボグッズについて","不適切な取り扱いを指摘するSNS投稿を"],"font_px":72},
+    {"id":"SUB-003","segment_id":3,"text_lines":["9月2日の時点では、","公式が確認していたのは、"],"font_px":72},
+    {"id":"SUB-004","segment_id":4,"text_lines":["その後、くら寿司は9月5日、","「ちいかわ」コラボキャンペーンを"],"font_px":72},
+    {"id":"SUB-005","segment_id":5,"text_lines":["9月5日の公式発表では、","従業員による不正行為が判明した"],"font_px":72},
+    {"id":"SUB-006","segment_id":6,"text_lines":["報道では、配布開始前とみられる","限定グッズのフリマ出品が、"],"font_px":72},
+    {"id":"SUB-007","segment_id":7,"text_lines":["ただし、フリマの出品者が","その従業員だったのか、"],"font_px":72},
+    {"id":"SUB-008","segment_id":8,"text_lines":["ここからは架空の例です。孫へのプレゼントとして、","残り1個の限定品を見つけたとします。"],"font_px":72},
+    {"id":"SUB-009","segment_id":9,"text_lines":["急いで買う前に、5つだけ確認します。"],"font_px":72},
+    {"id":"SUB-010","segment_id":10,"text_lines":["1つ目は、販売や配布の時期です。"],"font_px":72},
+    {"id":"SUB-011","segment_id":11,"text_lines":["まず、公式の案内で、いつから買える、","または配られる商品かを確認します。"],"font_px":72},
+    {"id":"SUB-012","segment_id":12,"text_lines":["まだ配布前なら、違法や盗品と断定せず、","なぜ今あるのかを追加確認するサインにします。"],"font_px":72},
+    {"id":"SUB-013","segment_id":13,"text_lines":["販売時期と合わない出品は、","買う理由ではなく、確認する理由です。"],"font_px":72},
+    {"id":"SUB-014","segment_id":14,"text_lines":["公式情報と出品の説明が合わないままなら、","今回は見送る判断をします。"],"font_px":72},
+    {"id":"SUB-015","segment_id":15,"text_lines":["2つ目は、商品写真と説明だけで決めず、","実物の状態を確認することです。"],"font_px":72},
+    {"id":"SUB-016","segment_id":16,"text_lines":["国民生活センターにも、フリマで","偽物かもしれない商品が届いた相談例があります。"],"font_px":72},
+    {"id":"SUB-017","segment_id":17,"text_lines":["実物の写真か、傷や汚れ、付属品、","入手経路まで、出品者に確認します。"],"font_px":72},
+    {"id":"SUB-018","segment_id":18,"text_lines":["説明だけでは分からない点があれば、","購入前に質問し、納得できるまで進みません。"],"font_px":72},
+    {"id":"SUB-019","segment_id":19,"text_lines":["ちいかわ商品が危険だという意味ではなく、","どの商品でも確認が大切という一般的な注意です。"],"font_px":72},
+    {"id":"SUB-020","segment_id":20,"text_lines":["3つ目は、決済も連絡も","フリマアプリの中で行うことです。"],"font_px":72},
+    {"id":"SUB-021","segment_id":21,"text_lines":["「LINEで連絡しましょう」","「銀行振込なら安くします」"],"font_px":72},
+    {"id":"SUB-022","segment_id":21,"text_lines":["「別サイトで払ってください」と言われても、","取引を続けません。"],"font_px":72},
+    {"id":"SUB-023","segment_id":22,"text_lines":["決済と連絡は、","フリマサービス内の機能を使います。"],"font_px":72},
+    {"id":"SUB-024","segment_id":23,"text_lines":["外の連絡先や個人宛の振込を求められたら、","いったん中止して運営に相談します。"],"font_px":72},
+    {"id":"SUB-025","segment_id":24,"text_lines":["アプリの外へ誘導された時点で、","取引を止めるサインです。"],"font_px":72},
+    {"id":"SUB-026","segment_id":25,"text_lines":["4つ目は、商品が届く前に","受取評価をしないことです。"],"font_px":72},
+    {"id":"SUB-027","segment_id":26,"text_lines":["届いたら、まず中身と状態を確認し、","問題がなければ受取評価をします。"],"font_px":72},
+    {"id":"SUB-028","segment_id":27,"text_lines":["「先に評価してください」と言われても、","受け取る前には応じません。"],"font_px":72},
+    {"id":"SUB-029","segment_id":28,"text_lines":["国民生活センターも、受取前の評価は","運営の対処が難しくなることがあると案内しています。"],"font_px":72},
+    {"id":"SUB-030","segment_id":29,"text_lines":["5つ目は、困ったときの相談先を","先に知っておくことです。"],"font_px":72},
+    {"id":"SUB-031","segment_id":30,"text_lines":["まず、取引相手とフリマサービスの運営に、","取引画面を残して相談します。"],"font_px":72},
+    {"id":"SUB-032","segment_id":31,"text_lines":["話し合いや運営への相談で進まないときは、","消費者ホットライン188へ相談できます。"],"font_px":72},
+    {"id":"SUB-033","segment_id":32,"text_lines":["188は、近くの消費生活センターなどを案内する、","全国共通の3桁番号です。"],"font_px":72},
+    {"id":"SUB-034","segment_id":33,"text_lines":["相談するときは、出品ページや取引メッセージ、","支払い記録を残しておきます。"],"font_px":72},
+    {"id":"SUB-035","segment_id":34,"text_lines":["まとめです。販売や配布の時期、","商品写真と説明、アプリ内の決済と連絡を確認します。"],"font_px":72},
+    {"id":"SUB-036","segment_id":35,"text_lines":["商品が届いてから中身を確認し、","問題がなければ受取評価をします。"],"font_px":72},
+    {"id":"SUB-037","segment_id":36,"text_lines":["困ったら取引画面を残して運営に相談し、","解決しなければ188へ相談します。"],"font_px":72},
+    {"id":"SUB-038","segment_id":37,"text_lines":["残り1個や高い値段だけで急いで決めず、","確認できない点が残るなら、買わない選択も安全です。"],"font_px":72},
+    {"id":"SUB-039","segment_id":38,"text_lines":["公式発表と報道、SNSの推測は分けて見て、","公式情報と取引画面を確認してください。"],"font_px":72},
+    {"id":"SUB-040","segment_id":1,"text_lines":["限定グッズが関係する","企画でした。"],"font_px":72},
+    {"id":"SUB-041","segment_id":2,"text_lines":["受け、事実関係を調査していると","発表しました。"],"font_px":72},
+    {"id":"SUB-042","segment_id":2,"text_lines":["公式発表は、個別の出品者や商品の同一性を","説明したものではありません。"],"font_px":72},
+    {"id":"SUB-043","segment_id":3,"text_lines":["SNS投稿を受け、","調査しているということまでです。"],"font_px":72},
+    {"id":"SUB-044","segment_id":3,"text_lines":["出品者や商品の同一性を示す","発表ではありません。"],"font_px":72},
+    {"id":"SUB-045","segment_id":4,"text_lines":["中止すると発表しました。"],"font_px":72},
+    {"id":"SUB-046","segment_id":5,"text_lines":["ため、9月6日の営業開始時から","中止するとしています。"],"font_px":72},
+    {"id":"SUB-047","segment_id":6,"text_lines":["SNSで問題視されたとされています。","これが今回の話題の背景です。"],"font_px":72},
+    {"id":"SUB-048","segment_id":6,"text_lines":["ここでは、報道で伝えられた","範囲として整理します。"],"font_px":72},
+      {"id":"SUB-049","segment_id":7,"text_lines":["その商品が不正行為と","同じものかは、公式発表では確認できません。"],"font_px":72},
+    {"id":"SUB-050","segment_id":7,"text_lines":["ですから、報道やSNSの投稿だけで","出品者や商品を特定しません。"],"font_px":72},
+    {"id":"SUB-051","segment_id":7,"text_lines":["ちいかわ商品全般が危険だとも","決めつけません。"],"font_px":72},
+    {"id":"SUB-052","segment_id":7,"text_lines":["買う前の確認に移ります。"],"font_px":72}
+  ],
+  "scenes": [
+    {
+      "id":1,"layout":"layout_01_hero","render_mode":"gpt_image","text_render_mode":"imagegen_native","headline":"限定品を買う前に確認","support_text":"フリマで見つけたときの5つ","main_message":"ニュースの先を、購入者の確認へ","official_asset":[],"official_asset_crop":[],"start_segment":1,"end_segment":1,"section_label":"はじめに","ai_asset":"assets/generated_ai/scene_001.png","image_text_placement":"upper-left quiet area, away from the person and merchandise","image_text_style":"large dark-blue Japanese type with a soft white outline, exact text, calm educational style","image_prompt":"A calm, trustworthy editorial illustration for older Japanese viewers: a generic Japanese older adult at home carefully looking at a smartphone beside a plain unbranded gift box and a small generic acrylic merchandise item. No recognizable characters, no Chiikawa, no Hachiware, no Usagi, no mascots, no logos, no app UI, no readable labels. Soft blue and warm cream interior, realistic but clearly generic, subject on the right and a painted background on the left for exact Japanese headline text. Full-frame 16:9, no collage, no split panel, reserve the bottom 180 pixels for subtitles.","animation":"very_slow_zoom","fit_mode":"full_bleed" 
+    },
+    {
+      "id":2,"layout":"layout_04_text_official","render_mode":"template","text_render_mode":"pil_overlay","headline":"9月2日の公式発表","support_text":"SNS投稿を受け調査","main_message":"出品者や商品の同一性は示していない","official_asset":[{"kind":"image","path":"assets/official/crop/official_kurasushi_sns_20260902.png","label":"くら寿司公式・9月2日","source":"出典：くら寿司公式","capture_status":"official_verified"}],"official_asset_crop":[],"official_asset_slot":{"type":"official_capture","status":"captured","label":"公式PDFの該当箇所"},"official_source_ids":["SRC-002"],"official_asset_source_url":"https://www.kurasushi.co.jp/upload/260902release.pdf","official_text_readability":"PASS","official_visual_status":"captured_official_crop","visual_points":["9月2日付の公式発表","SNS投稿を受けて事実関係を調査"],"start_segment":2,"end_segment":3,"section_label":"はじめに","animation":"static" 
+    },
+    {
+      "id":3,"layout":"layout_04_text_official","render_mode":"template","text_render_mode":"pil_overlay","headline":"9月5日の公式発表","support_text":"9月6日 営業開始時から中止","main_message":"従業員による不正行為が判明","official_asset":[{"kind":"image","path":"assets/official/crop/official_kurasushi_cancel_20260905_v2.png","label":"くら寿司公式・9月5日","source":"出典：くら寿司公式","capture_status":"official_verified"}],"official_asset_crop":[],"official_asset_slot":{"type":"official_capture","status":"captured","label":"公式PDFの該当箇所"},"official_source_ids":["SRC-001"],"official_asset_source_url":"https://www.kurasushi.co.jp/upload/260905release.pdf","official_text_readability":"PASS","official_visual_status":"captured_official_crop","visual_points":["9月5日付の公式発表","9月6日からキャンペーン中止"],"start_segment":4,"end_segment":5,"section_label":"はじめに","animation":"static" 
+    },
+    {
+      "id":4,"layout":"layout_03_visual_text","render_mode":"template","text_render_mode":"pil_overlay","headline":"公式・報道・推測を分ける","support_text":"確認できた事実だけを、落ち着いて見る","main_message":"出品者と商品の同一性は断定しない","official_asset":[],"official_asset_crop":[],"start_segment":6,"end_segment":7,"section_label":"はじめに","icon_name":"verified_user","icon_tone":"green","animation":"static" 
+    },
+    {
+      "id":5,"layout":"layout_01_hero","render_mode":"gpt_image","text_render_mode":"imagegen_native","headline":"残り1個\nどうする？","support_text":"架空の例","main_message":"欲しかった限定品を見つけた","official_asset":[],"official_asset_crop":[],"start_segment":8,"end_segment":8,"section_label":"はじめに","ai_asset":"assets/generated_ai/scene_005.png","image_text_placement":"upper-left painted background, integrated into the finished scene","image_text_style":"large dark-navy Japanese type; exact two-line headline with one short supporting line, high contrast and smartphone-readable","image_prompt":"One finished standalone 16:9 image for a clearly fictional example in a calm Japanese YouTube educational video for viewers aged 50 to 70. A generic older Japanese adult on the right thoughtfully holds a blank smartphone at home beside one plain unbranded gift box and one generic small abstract acrylic-style merchandise item. The background continues naturally to every edge; do not make a collage, storyboard, split panel, grid, screenshot, blank white half, or large white card. Integrate the following exact Japanese text into the upper-left painted background as part of the finished image, with no later renderer text overlay: headline on two lines exactly \"残り1個\" then \"どうする？\"; one small supporting line exactly \"架空の例\". Render only those exact words and no other readable text. Use large dark-navy type, strong contrast, full visibility, safe margins, and reserve the bottom 180 pixels for subtitles. No Chiikawa, Hachiware, Usagi, mascots, character-like merchandise, human silhouette printed on merchandise, logos, watermark, official UI, marketplace UI, price, seller name, QR code, sign, label, or caption.","animation":"very_slow_zoom","fit_mode":"full_bleed" 
+    },
+    {
+      "id":6,"layout":"layout_02_list","render_mode":"template","text_render_mode":"pil_overlay","headline":"今日は5つだけ確認","support_text":"買う前に、順番に見るポイント","main_message":"5つの確認手順","official_asset":[],"official_asset_crop":[],"start_segment":9,"end_segment":9,"section_label":"はじめに","items":["販売・配布の時期","商品写真と説明","アプリ内の決済・連絡","受取評価のタイミング","運営・188への相談"],"animation":"static" 
+    },
+    {
+      "id":7,"layout":"layout_08_section","render_mode":"template","text_render_mode":"pil_overlay","headline":"1 / 5\n販売・配布の時期","support_text":"公式の案内と、出品の時期を照らし合わせる","main_message":"時期が合わなければ、立ち止まる","official_asset":[],"official_asset_crop":[],"start_segment":10,"end_segment":10,"section_label":"1 / 5","icon_name":"campaign","icon_tone":"navy","animation":"static" 
+    },
+    {
+      "id":8,"layout":"layout_03_visual_text","render_mode":"template","text_render_mode":"pil_overlay","headline":"時期が合わない出品は、確認する","support_text":"違法・盗品と決めつけず、理由を追加で見る","main_message":"買う理由ではなく、確認する理由","official_asset":[],"official_asset_crop":[],"start_segment":11,"end_segment":14,"section_label":"1 / 5","icon_name":"campaign","icon_tone":"navy","animation":"static" 
+    },
+    {
+      "id":9,"layout":"layout_08_section","render_mode":"template","text_render_mode":"pil_overlay","headline":"2 / 5\n商品をよく確認","support_text":"写真と説明だけで、急いで決めない","main_message":"実物・状態・付属品を見る","official_asset":[],"official_asset_crop":[],"start_segment":15,"end_segment":15,"section_label":"2 / 5","icon_name":"verified_user","icon_tone":"green","animation":"static" 
+    },
+    {
+      "id":10,"layout":"layout_04_text_official","render_mode":"template","text_render_mode":"pil_overlay","headline":"偽物の相談例もある","support_text":"写真と説明だけで決めず、購入前に質問","main_message":"ちいかわ商品が多いという意味ではない","official_asset":[{"kind":"image","path":"assets/official/crop/official_kokusen_fake_20250902.png","label":"国民生活センター・注意喚起","source":"出典：国民生活センター","capture_status":"official_verified"}],"official_asset_crop":[],"official_asset_slot":{"type":"official_capture","status":"captured","label":"公式資料の該当箇所"},"official_source_ids":["SRC-004"],"official_asset_source_url":"https://www.kokusen.go.jp/news/data/n-20250902_2.html","official_text_readability":"PASS","official_visual_status":"captured_official_crop","visual_points":["購入前に疑問点を質問","偽物かもしれない相談例を一般的な注意として確認","商品写真と説明だけで決めない"],"start_segment":16,"end_segment":16,"section_label":"2 / 5","animation":"static" 
+    },
+    {
+      "id":11,"layout":"layout_03_visual_text","render_mode":"template","text_render_mode":"pil_overlay","headline":"購入前に質問する","support_text":"実物・状態・付属品・入手経路","main_message":"納得できないなら、進まない","official_asset":[],"official_asset_crop":[],"start_segment":17,"end_segment":19,"section_label":"2 / 5","icon_name":"verified_user","icon_tone":"green","animation":"static" 
+    },
+    {
+      "id":12,"layout":"layout_08_section","render_mode":"template","text_render_mode":"pil_overlay","headline":"3 / 5\nアプリの外へ出ない","support_text":"決済も連絡も、使っているサービスの中で","main_message":"外へ誘導されたら、いったん止まる","official_asset":[],"official_asset_crop":[],"start_segment":20,"end_segment":20,"section_label":"3 / 5","icon_name":"forum","icon_tone":"blue","animation":"static" 
+    },
+    {
+      "id":13,"layout":"layout_05_compare","render_mode":"template","text_render_mode":"pil_overlay","headline":"「外で払う」は止まる","support_text":"サービスの中の機能を使う","main_message":"連絡先・振込先を外へ移さない","official_asset":[],"official_asset_crop":[],"start_segment":21,"end_segment":24,"section_label":"3 / 5","items":["アプリ内の決済・連絡","LINE・銀行振込・別サイト"],"icon_name":"payments","icon_tone":"amber","animation":"static" 
+    },
+    {
+      "id":14,"layout":"layout_08_section","render_mode":"template","text_render_mode":"pil_overlay","headline":"4 / 5\n届く前に評価しない","support_text":"受け取る → 確認する → 評価する","main_message":"順番を飛ばさない","official_asset":[],"official_asset_crop":[],"start_segment":25,"end_segment":25,"section_label":"4 / 5","icon_name":"verified_user","icon_tone":"green","animation":"static" 
+    },
+    {
+      "id":15,"layout":"layout_04_text_official","render_mode":"template","text_render_mode":"pil_overlay","headline":"商品を確認してから評価","support_text":"国民生活センターの事例","main_message":"受け取る → 確認 → 評価","official_asset":[{"kind":"image","path":"assets/official/crop/official_kokusen_receipt_20260305.png","label":"国民生活センター・事例","source":"出典：国民生活センター","capture_status":"official_verified"}],"official_asset_crop":[],"official_asset_slot":{"type":"official_capture","status":"captured","label":"公式資料の該当箇所"},"official_source_ids":["SRC-005","SRC-006"],"official_asset_source_url":"https://www.kokusen.go.jp/mimamori/mj_mailmag/mj-shinsen536.html","official_text_readability":"PASS","official_visual_status":"captured_official_crop","visual_points":["商品が届く前に評価しない","中身と状態を確認してから評価"],"start_segment":26,"end_segment":28,"section_label":"4 / 5","animation":"static" 
+    },
+    {
+      "id":16,"layout":"layout_08_section","render_mode":"template","text_render_mode":"pil_overlay","headline":"5 / 5\n困ったら運営・188","support_text":"取引画面を残して、順番に相談","main_message":"一人で抱え込まない","official_asset":[],"official_asset_crop":[],"start_segment":29,"end_segment":29,"section_label":"5 / 5","icon_name":"support_agent","icon_tone":"green","animation":"static" 
+    },
+    {
+      "id":17,"layout":"layout_06_caution","render_mode":"template","text_render_mode":"pil_overlay","headline":"困ったら、順番に相談","support_text":"取引相手 → 運営 → 解決しなければ188","main_message":"出品ページと取引画面を残す","official_asset":[],"official_asset_crop":[],"start_segment":30,"end_segment":33,"section_label":"困ったとき","icon_name":"support_agent","icon_tone":"green","animation":"static" 
+    },
+    {
+      "id":18,"layout":"layout_02_list","render_mode":"template","text_render_mode":"pil_overlay","headline":"5つを確認してから買う","support_text":"時期・商品・アプリ内・評価・相談","main_message":"確認できないなら、見送る","official_asset":[],"official_asset_crop":[],"start_segment":34,"end_segment":38,"section_label":"まとめ","items":["時期と商品の説明を確認","決済・連絡はアプリ内","届いてから評価。困れば運営・188"],"animation":"static" 
+    }
+  ],
+  "postroll": {
+    "kind": "channel_cta",
+    "cta_profile": "channel_common_cta",
+    "cta_variant": "registration_conversion_v1_reuse",
+    "reuse_from_episode": "012",
+    "reuse_source_status": "Episode012で使用済みの承認済みCTA画面・音声・canonical textをcopy-onlyで再利用。新規生成しない。",
+    "cta_content_hash": "e20707f4cdf3a79dbd4bd4dc27be0d7c8159ed8693783881293c069be47cc08f",
+    "canonical_text": "スマホやパソコンの「これ、どうすればいい？」を、公式情報で分かりやすく確認しています。次に困ったときのために、チャンネル登録しておいてください。",
+    "display_text": "次に困ったときのために。\nチャンネル登録しておいてください。",
+    "duration_sec": 15.0,
+    "animation": "static",
+    "status": "reused_approved_copy_only",
+    "cta_config": "work/cta_registration_conversion_v1.json",
+    "asset": "work/cta_registration_conversion_v1.png",
+    "cta_audio": "audio/voicevox_kenzaki/cta_registration_conversion_v1.wav",
+    "audio_actual_seconds": 11.456,
+    "trailing_seconds": 3.544,
+    "audio_required": true,
+    "duration_mode": "audio_based",
+    "fake_subscribe_ui": false,
+    "reserved_end_screen_right_percent": "40〜45%"
+  },
+  "publish": {
+    "title": "【ちいかわ転売問題】フリマで限定品を買う前に確認したい5つ",
+    "description": "くら寿司公式発表を起点に、フリマで限定品を買う前に確認したい5つを説明します。\n\nこの動画では、公式発表・報道・SNS上の推測を分けています。出品者の身元や、出品された商品が公式発表の不正行為と同じものかは、公式発表で確認できないため断定していません。\n\n確認する5つ\n1. 販売・配布の時期\n2. 商品写真と説明\n3. アプリ内の決済・連絡\n4. 商品が届いてから受取評価\n5. 困ったときの運営・188への相談\n\n主な公式情報\nくら寿司 9月5日：https://www.kurasushi.co.jp/upload/260905release.pdf\nくら寿司 9月2日：https://www.kurasushi.co.jp/upload/260902release.pdf\n国民生活センター：https://www.kokusen.go.jp/news/data/n-20250902_2.html\n国民生活センター：https://www.kokusen.go.jp/mimamori/mj_mailmag/mj-shinsen536.html\n消費者庁188：https://www.caa.go.jp/about_us/about/contact/\n\n報道（補助）：ITmedia NEWS：https://www.itmedia.co.jp/news/article/2609/05/2000001201/\n\nナレーション：VOICEVOX:剣崎雌雄",
+    "chapters": ["00:00 速報の確認", "01:36 1 / 5 販売・配布の時期", "02:04 2 / 5 商品をよく確認", "02:37 3 / 5 アプリの外へ出ない", "03:06 4 / 5 届く前に評価しない", "03:28 5 / 5 困ったら運営・188", "03:59 まとめ"],
+    "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
+    "tags": ["ちいかわ", "フリマ", "転売", "くら寿司", "国民生活センター", "188", "限定品"],
+    "contains_synthetic_media": true,
+    "ai_disclosure_status": "HUMAN_REVIEWED_TRUE_FOR_UPLOAD",
+    "thumbnail": "thumbnail/thumbnail.png",
+    "thumbnail_status": "USER_PROVIDED_SELECTED_SET",
+    "thumbnail_source": "USER_PROVIDED_CURRENT_FILE",
+    "thumbnail_sha256": "FDF0C3268221B1DAA4DE9C58CFD1192C9E4DCFEF82CF41DB5A92E9AB92CB03F3",
+    "thumbnail_dimensions": "1672x941",
+    "thumbnail_bytes": 1815430,
+    "category_id": "22",
+    "default_language": "ja",
+    "made_for_kids": false,
+    "privacy": "private",
+    "upload_status": "UPLOADED_PRIVATE_VERIFIED",
+    "privacy_status": "private",
+    "youtube_video_id": "2l0SI8VIh8A",
+    "publish_at": null,
+    "youtube_url": "https://youtu.be/2l0SI8VIh8A",
+    "youtube_upload": "uploaded_private_verified",
+    "youtube_privacy": "private",
+    "youtube_scheduled_at": null,
+    "youtube_scheduled_at_api": null,
+    "thumbnail_uploaded": true,
+    "uploaded_at": "2026-09-06T12:37:14Z",
+    "youtube_channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+    "youtube_ai_disclosure_verified": true,
+    "youtube_ai_disclosure_verification": "videos.update response; videos.list omitted containsSyntheticMedia",
+    "youtube_metadata_verification": "PASS",
+    "youtube_thumbnail_verification": "PASS",
+    "youtube_reupload": false,
+    "youtube_api_verification": {
+      "channels_list": "PASS",
+      "channel_guard": "PASS",
+      "video_id": "2l0SI8VIh8A",
+      "video_channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+      "title_match": true,
+      "description_match": true,
+      "chapters_present": true,
+      "source_urls_present": true,
+      "internal_episode_id_in_description": false,
+      "privacyStatus": "private",
+      "publishAt": null,
+      "madeForKids": false,
+      "categoryId": "22",
+      "defaultLanguage": "ja",
+      "containsSyntheticMedia": true,
+      "containsSyntheticMedia_verification_source": "videos.update response; videos.list omitted containsSyntheticMedia",
+      "thumbnail_set": true,
+      "metadata_qa": "PASS",
+      "status_qa": "PASS",
+      "reupload": false,
+      "verified_at": "2026-09-06T12:40:01Z"
+    }
+  },
+  "production_metrics": {
+    "subagent_count": 0,
+    "parallel_task_groups": 0,
+    "image_generation_agents": 0,
+    "image_generation_parallel_batches": 0,
+    "image_generation_calls": 3,
+    "image_regeneration_calls": 1,
+    "image_generation_elapsed_seconds": null,
+    "human_gate_count": 4,
+    "human_correction_rounds": 1,
+    "phase_a_minutes": null,
+    "phase_b_minutes": null,
+    "finalization_minutes": null,
+    "scene_count": 18,
+    "narration_segment_count": 38,
+    "subtitle_cue_count": 52,
+    "imagegen_scene_count": 2,
+    "official_visual_scene_count": 4,
+    "chiikawa_character_art_count": 0,
+    "midroll_cta_count": 0,
+    "end_cta_count": 1,
+    "audio_main_duration_sec": 274.597,
+    "audio_cta_duration_sec": 11.456,
+    "draft_duration_sec": 289.597,
+    "draft_output": "output/draft_v2.mp4",
+    "draft_sha256": "379d265e899549b34d9ae69cd290e2fc9d948a11b204c4eb37729c7046fcf3bd",
+    "draft_qa_status": "PASS",
+    "draft_version": "v2",
+    "news_section_duration_sec": 86.593,
+    "hybrid_generated_image_large_text": 0,
+    "imagegen_native_text_scene_count": 2,
+    "imagegen_native_text_regeneration_count": 1,
+    "imagegen_native_text_fallback_count": 0,
+    "exact_text_pass_count": 2,
+    "exact_text_fail_count": 0,
+    "human_draft_approved": true,
+    "senior_readability": "PASS",
+    "pronunciation_review": "PASS（seg 020 行うは人間全編確認で自然。音声再生成なし・共通辞書登録なし）",
+    "final_output": "output/final.mp4",
+    "finalized_from": "output/draft_v2.mp4",
+    "final_byte_identical_to_draft": true,
+    "final_sha256": "379d265e899549b34d9ae69cd290e2fc9d948a11b204c4eb37729c7046fcf3bd",
+    "final_duration_sec": 289.597,
+    "final_qa_status": "PASS",
+    "thumbnail_input": "thumbnail/thumbnail.png",
+    "thumbnail_input_status": "USER_PROVIDED_SELECTED",
+    "upload_target": "output/final.mp4",
+    "upload_status": "UPLOADED_PRIVATE_VERIFIED",
+    "youtube_video_id": "2l0SI8VIh8A",
+    "upload_timestamp": "2026-09-06T12:37:14Z",
+    "channel_guard": "PASS",
+    "double_upload": 0,
+    "thumbnail_set": true,
+    "privacy_status": "private",
+    "publish_at": null,
+    "contains_synthetic_media_verified": true,
+    "metadata_verification": "PASS",
+    "thumbnail_verification": "PASS",
+    "schedule_status": "NOT_SET",
+    "end_screen_status": "NOT_SET"
+  }
+}

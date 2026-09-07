@@ -1,0 +1,340 @@
+{
+  "short_id": "Short001",
+  "version": "v3",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "audio_path": "audio/narration_v3.wav",
+  "audio_reused": true,
+  "audio_gap_sec": 0.07,
+  "major_visual_count": 3,
+  "major_visuals": [
+    {
+      "id": "A",
+      "role": "冒頭",
+      "segments": [
+        1,
+        2
+      ],
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "headline_lines": [
+        "ChatGPT",
+        "話すだけで使える？"
+      ],
+      "purpose": "問いと音声で使える入口",
+      "range_sec": [
+        0.0,
+        6.363333333333333
+      ]
+    },
+    {
+      "id": "B",
+      "role": "行動",
+      "segments": [
+        3,
+        4,
+        5
+      ],
+      "asset": "assets/imagegen_native_v2/normalized/scene_04_life.png",
+      "headline_lines": [
+        "今日のごはん、",
+        "何を作れる？"
+      ],
+      "purpose": "スマホへ話しかける生活例",
+      "range_sec": [
+        6.433333333333334,
+        18.050666666666668
+      ]
+    },
+    {
+      "id": "C",
+      "role": "結論",
+      "segments": [
+        6,
+        7,
+        8
+      ],
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png",
+      "headline_lines": [
+        "まずは",
+        "話しかけるだけ"
+      ],
+      "purpose": "結論を保ったままCTAを重ねる",
+      "range_sec": [
+        18.12066666666667,
+        26.954
+      ]
+    }
+  ],
+  "frame_rows": [
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v3\\major_A_seg_01_cue_01.png",
+      "duration_sec": 3.3066666666666666,
+      "start_sec": 0.0,
+      "end_sec": 3.3066666666666666,
+      "major_visual": "A",
+      "role": "冒頭",
+      "segment_id": 1,
+      "cue_number": 1,
+      "subtitle": [
+        "文字入力は",
+        "大変ですか？"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v3\\major_A_seg_01_cue_01.png",
+      "duration_sec": 0.06999999999999984,
+      "start_sec": 3.3066666666666666,
+      "end_sec": 3.3766666666666665,
+      "major_visual": "A",
+      "role": "冒頭",
+      "segment_id": 1,
+      "cue_number": 1,
+      "subtitle": [
+        "文字入力は",
+        "大変ですか？"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v3\\major_A_seg_02_cue_02.png",
+      "duration_sec": 2.986666666666667,
+      "start_sec": 3.3766666666666665,
+      "end_sec": 6.363333333333333,
+      "major_visual": "A",
+      "role": "冒頭",
+      "segment_id": 2,
+      "cue_number": 2,
+      "subtitle": [
+        "音声モードなら",
+        "話しかけて使える"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v3\\major_A_seg_02_cue_02.png",
+      "duration_sec": 0.07000000000000028,
+      "start_sec": 6.363333333333333,
+      "end_sec": 6.433333333333334,
+      "major_visual": "A",
+      "role": "冒頭",
+      "segment_id": 2,
+      "cue_number": 2,
+      "subtitle": [
+        "音声モードなら",
+        "話しかけて使える"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v3\\major_B_seg_03_cue_03.png",
+      "duration_sec": 3.626666666666667,
+      "start_sec": 6.433333333333334,
+      "end_sec": 10.06,
+      "major_visual": "B",
+      "role": "行動",
+      "segment_id": 3,
+      "cue_number": 3,
+      "subtitle": [
+        "スマホに向かって",
+        "短い質問を話す"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_04_life.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v3\\major_B_seg_03_cue_03.png",
+      "duration_sec": 0.07000000000000028,
+      "start_sec": 10.06,
+      "end_sec": 10.13,
+      "major_visual": "B",
+      "role": "行動",
+      "segment_id": 3,
+      "cue_number": 3,
+      "subtitle": [
+        "スマホに向かって",
+        "短い質問を話す"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_04_life.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v3\\major_B_seg_04_cue_04.png",
+      "duration_sec": 3.968,
+      "start_sec": 10.13,
+      "end_sec": 14.098,
+      "major_visual": "B",
+      "role": "行動",
+      "segment_id": 4,
+      "cue_number": 4,
+      "subtitle": [
+        "卵とキャベツで",
+        "聞いてみる"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_04_life.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v3\\major_B_seg_04_cue_04.png",
+      "duration_sec": 0.07000000000000028,
+      "start_sec": 14.098,
+      "end_sec": 14.168000000000001,
+      "major_visual": "B",
+      "role": "行動",
+      "segment_id": 4,
+      "cue_number": 4,
+      "subtitle": [
+        "卵とキャベツで",
+        "聞いてみる"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_04_life.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v3\\major_B_seg_05_cue_05.png",
+      "duration_sec": 3.882666666666667,
+      "start_sec": 14.168000000000001,
+      "end_sec": 18.050666666666668,
+      "major_visual": "B",
+      "role": "行動",
+      "segment_id": 5,
+      "cue_number": 5,
+      "subtitle": [
+        "答え始める"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_04_life.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v3\\major_B_seg_05_cue_05.png",
+      "duration_sec": 0.07000000000000028,
+      "start_sec": 18.050666666666668,
+      "end_sec": 18.12066666666667,
+      "major_visual": "B",
+      "role": "行動",
+      "segment_id": 5,
+      "cue_number": 5,
+      "subtitle": [
+        "答え始める"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_04_life.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v3\\major_C_seg_06_cue_06.png",
+      "duration_sec": 2.2719999999999985,
+      "start_sec": 18.12066666666667,
+      "end_sec": 20.392666666666667,
+      "major_visual": "C",
+      "role": "結論",
+      "segment_id": 6,
+      "cue_number": 6,
+      "subtitle": [
+        "まずは短い質問から"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v3\\major_C_seg_06_cue_06.png",
+      "duration_sec": 0.07000000000000028,
+      "start_sec": 20.392666666666667,
+      "end_sec": 20.462666666666667,
+      "major_visual": "C",
+      "role": "結論",
+      "segment_id": 6,
+      "cue_number": 6,
+      "subtitle": [
+        "まずは短い質問から"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v3\\major_C_seg_07_cue_07.png",
+      "duration_sec": 3.189333333333334,
+      "start_sec": 20.462666666666667,
+      "end_sec": 23.652,
+      "major_visual": "C",
+      "role": "結論",
+      "segment_id": 7,
+      "cue_number": 7,
+      "subtitle": [
+        "次は写真で聞く"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v3\\major_C_seg_07_cue_07.png",
+      "duration_sec": 0.07000000000000028,
+      "start_sec": 23.652,
+      "end_sec": 23.722,
+      "major_visual": "C",
+      "role": "結論",
+      "segment_id": 7,
+      "cue_number": 7,
+      "subtitle": [
+        "次は写真で聞く"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\work\\rendered_frames_v3\\major_C_seg_08_cue_08.png",
+      "duration_sec": 3.2319999999999993,
+      "start_sec": 23.722,
+      "end_sec": 26.954,
+      "major_visual": "C",
+      "role": "結論",
+      "segment_id": 8,
+      "cue_number": 8,
+      "subtitle": [
+        "困ったときのために",
+        "登録しておいてください"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png"
+    }
+  ],
+  "cue_frame_count": 8,
+  "mode_counts": {
+    "imagegen_native": 8,
+    "renderer_native": 0
+  },
+  "motion": {
+    "type": "slow_zoom",
+    "from": 1.05,
+    "to": 1.12,
+    "pan": "gentle_centered"
+  },
+  "dedicated_cta_scene": 0,
+  "cta_visual": "final_major_visual_C",
+  "headline_subtitle_duplicate_count": 0,
+  "no_image_text_hybrid": true,
+  "viewer_facing_short_id": 0,
+  "fake_ui": 0,
+  "official_ui_ai_reconstruction": 0
+}

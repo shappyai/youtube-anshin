@@ -1,0 +1,109 @@
+{
+  "short_id": "Short003",
+  "version": "v5",
+  "prompt_file": "work/imagegen_prompts_v5.md",
+  "reuse_policy": "v2完成画は再利用。新規ImageGenはShort003の具体的な生活scene 2枚だけ。画像へ大見出しを後乗せしない。",
+  "assets": [
+    {
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "source": "reused_from_v2 / built-in image_gen",
+      "prompt": null,
+      "text_render_mode": "imagegen_native",
+      "headline_lines": [
+        "カードを",
+        "スマホに？"
+      ],
+      "text_content": "ImageGen-native approved text retained",
+      "exact_text_qa": "PASS_REVALIDATED",
+      "vision_qa": "PASS_REUSED",
+      "meaningful_crop": false,
+      "official_ui_ai_reconstruction": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "a4f879d31ea0987a28dabcdd0cae30eb02ac56f4e3eb3b4926262969164f47d1"
+    },
+    {
+      "asset": "assets/imagegen_native_v5/normalized/convenience_certificate.png",
+      "source": "built-in image_gen",
+      "prompt": "Create one photorealistic, natural full-frame vertical 9:16 lifestyle image for a Japanese explainer video. An older Japanese woman is standing at a generic convenience store multifunction copier, calmly handling a blank certificate-like sheet of paper. Show the woman, copier, and paper clearly with a warm, trustworthy everyday atmosphere. The paper must remain blank and unreadable. No words, no letters, no numerals, no logos, no brand marks, no QR codes, no barcodes, no government symbols, no real app interface, no fake official screen, no watermark. Single scene only, no collage, no split panel, no storyboard, no contact sheet. Text (verbatim): none.",
+      "text_render_mode": "imagegen_native",
+      "headline_lines": [],
+      "text_content": "none",
+      "exact_text_qa": "PASS_NO_TEXT",
+      "vision_qa": "PASS_REVIEWED",
+      "meaningful_crop": false,
+      "official_ui_ai_reconstruction": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "8d22bacf4f18a7f96cc8050d1a92472e08709e598464828a4aeebb688bde9436"
+    },
+    {
+      "asset": "assets/imagegen_native_v5/normalized/etax_home.png",
+      "source": "built-in image_gen",
+      "prompt": "Create one photorealistic, natural full-frame vertical 9:16 lifestyle image for a Japanese explainer video. An older Japanese man is at home using a laptop with blank papers and a smartphone nearby, calmly preparing an online tax-related task. Make the everyday action immediately understandable without showing any readable interface. Laptop and papers must contain no readable text. No words, no letters, no numerals, no logos, no brand marks, no QR codes, no barcodes, no government symbols, no real app interface, no fake official screen, no watermark. Single scene only, no collage, no split panel, no storyboard, no contact sheet. Text (verbatim): none.",
+      "text_render_mode": "imagegen_native",
+      "headline_lines": [],
+      "text_content": "none",
+      "exact_text_qa": "PASS_NO_TEXT",
+      "vision_qa": "PASS_REVIEWED",
+      "meaningful_crop": false,
+      "official_ui_ai_reconstruction": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "9cc1adfc3de3f75a0bb175a6fc44ffb9b89ac1438147553898ec8e2fc1192850"
+    },
+    {
+      "asset": "assets/imagegen_native_v2/normalized/scene_03_health.png",
+      "source": "reused_from_v2 / built-in image_gen",
+      "prompt": null,
+      "text_render_mode": "imagegen_native",
+      "headline_lines": [
+        "保険証として",
+        "使える場合も"
+      ],
+      "text_content": "ImageGen-native approved text retained",
+      "exact_text_qa": "PASS_REVALIDATED",
+      "vision_qa": "PASS_REUSED",
+      "meaningful_crop": false,
+      "official_ui_ai_reconstruction": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "01f73abdef6215514dc608ce6d19835ac2d1ea9da7772b64a0aeeb947332db7d"
+    },
+    {
+      "asset": "assets/imagegen_native_v5/normalized/scene_03_health_focus.png",
+      "source": "reused_from_v2 / built-in image_gen",
+      "prompt": null,
+      "text_render_mode": "imagegen_native",
+      "headline_lines": [],
+      "text_content": "ImageGen-native approved text retained",
+      "exact_text_qa": "PASS_REVALIDATED",
+      "vision_qa": "PASS_REUSED",
+      "meaningful_crop": true,
+      "official_ui_ai_reconstruction": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "8915e254b7263ae1d6614c237b7d0d0a4ee3cbdb206a5e0888f80b9d58107258"
+    },
+    {
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_conclusion.png",
+      "source": "reused_from_v2 / built-in image_gen",
+      "prompt": null,
+      "text_render_mode": "imagegen_native",
+      "headline_lines": [
+        "スマホだけで",
+        "全部ではない"
+      ],
+      "text_content": "ImageGen-native approved text retained",
+      "exact_text_qa": "PASS_REVALIDATED",
+      "vision_qa": "PASS_REUSED",
+      "meaningful_crop": false,
+      "official_ui_ai_reconstruction": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "9e0a40e707bdbf0ea01e567cb795017d398041475630efb5f3f49f1d1a0fb465"
+    }
+  ],
+  "metrics": {
+    "unique_imagegen_native_asset_count": 6,
+    "imagegen_call_count": 2,
+    "regeneration_count": 0,
+    "exact_text_fail_count": 0,
+    "no_text_generated_asset_count": 2,
+    "hybrid_generated_image_large_text": 0
+  }
+}

@@ -1,0 +1,9 @@
+﻿path,kind,source,status,note
+assets/imagegen_native_v2/normalized/scene_01_hook.png,imagegen_native_reused,reused_from_v2 / built-in image_gen,used_in_draft_v5,ImageGen-native完成画。文字なしまたは既存native文字。後乗せ大見出しなし。
+assets/renderer_v4/privacy_mask_stage_0.png,renderer_native_privacy_state,自作renderer_native（実在サービス・人物・ロゴなし）,used_in_draft_v5,個人情報の該当欄だけを段階的に■■■■でマスク。Short002のprivacy説明専用。
+assets/renderer_v4/privacy_mask_stage_1.png,renderer_native_privacy_state,自作renderer_native（実在サービス・人物・ロゴなし）,used_in_draft_v5,個人情報の該当欄だけを段階的に■■■■でマスク。Short002のprivacy説明専用。
+assets/renderer_v4/privacy_mask_stage_2.png,renderer_native_privacy_state,自作renderer_native（実在サービス・人物・ロゴなし）,used_in_draft_v5,個人情報の該当欄だけを段階的に■■■■でマスク。Short002のprivacy説明専用。
+assets/imagegen_native_v2/normalized/scene_05_official.png,imagegen_native_reused,reused_from_v2 / built-in image_gen,used_in_draft_v5,ImageGen-native完成画。文字なしまたは既存native文字。後乗せ大見出しなし。
+assets/renderer_v5/scene_05_official_focus.png,imagegen_native_meaningful_crop,scene_05_official.png の明示的な人物・スマホfocus crop,used_in_draft_v5,微小zoomではなく、別assetとして生成した意味のあるcrop state。
+assets/official_v5/channel_icon.png,canonical_channel_icon,local/channel/icon.png,used_in_draft_v5_cta,人間承認済み実チャンネルアイコン。180px。チャンネル名：大人のデジタル安心室。疑似subscribe UIなし。
+assets/thumbnail_candidate/first_frame_thumbnail_candidate.png,first_frame_thumbnail_candidate,assets/imagegen_native_v2/normalized/scene_01_hook.png,reused_not_confirmed,サムネイル候補。サムネイル確定は未実施。

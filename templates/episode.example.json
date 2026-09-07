@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0.0",
+  "episode": {
+    "episode_id": "000",
+    "slug": "example_episode",
+    "title": "例：まず公式情報を確認する",
+    "target_duration": 480,
+    "status": "draft",
+    "topic": "スマホの設定を公式情報と一緒に確認する例",
+    "target_audience": "スマホ操作に不安のある50〜70代"
+  },
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "url": "https://example.invalid/official",
+      "title": "公式案内の例",
+      "organization": "公式機関の例",
+      "verified_at": "2026-08-30",
+      "claim": "このURLで確認した事実を一文で記録する"
+    }
+  ],
+  "narration_segments": [
+    {
+      "id": 1,
+      "section": "はじめに",
+      "narration": "まず、公式の案内を一緒に確認しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-001"
+      ]
+    },
+    {
+      "id": 2,
+      "section": "まとめ",
+      "narration": "分からないときは、慌てずに確認します。",
+      "reading_overrides": {},
+      "pause_after": 0,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-002"
+      ]
+    }
+  ],
+  "subtitles": [
+    {
+      "id": "SUB-001",
+      "text_lines": [
+        "まず、公式の案内を",
+        "一緒に確認しましょう。"
+      ],
+      "segment_id": 1
+    },
+    {
+      "id": "SUB-002",
+      "text_lines": [
+        "分からないときは、慌てずに確認します。"
+      ],
+      "segment_id": 2
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "layout": "layout_01_hero",
+      "main_message": "公式情報を一緒に確認する",
+      "headline": "まず、公式を確認",
+      "support_text": "怖がらせる前に、確認する。",
+      "text_render_mode": "imagegen_native",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 1,
+      "end_segment": 1,
+      "subtitle_ids": [
+        "SUB-001"
+      ]
+    },
+    {
+      "id": 2,
+      "layout": "layout_07_summary",
+      "main_message": "分からないときは慌てずに確認する",
+      "headline": "今日のまとめ",
+      "support_text": "分からないときは、公式案内へ。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 2,
+      "end_segment": 2,
+      "subtitle_ids": [
+        "SUB-002"
+      ]
+    }
+  ],
+  "postroll": {
+    "kind": "channel_cta",
+    "cta_profile": "channel_common_cta",
+    "asset": "work/channel_cta.png",
+    "duration_sec": 10.0,
+    "animation": "static"
+  },
+  "publish": {
+    "title": "例：まず公式情報を確認する",
+    "description": "これはepisode.jsonの記入例です。",
+    "chapters": [
+      "0:00 はじめに",
+      "0:30 まとめ"
+    ],
+    "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
+    "contains_synthetic_media": false
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "method": "VOICEVOX audio_query mora duration; segment boundaries remain measured WAV timing",
+  "engine_url": "http://127.0.0.1:50021",
+  "speaker": "剣崎雌雄",
+  "style": "ノーマル",
+  "style_id": 21,
+  "generated_at": "2026-09-05T22:14:08.807709+00:00",
+  "cue_count": 39,
+  "cues": {
+    "SUB-001": {
+      "cue_id": "SUB-001",
+      "segment_id": 1,
+      "display_text": "「マイナ保険証の確認です。1番を押してください」",
+      "effective_text": "「マイナ保険証の確認です。1番を押してください」",
+      "duration_sec": 3.937995,
+      "kana": "マイナホケンショオノ'/カクニンデ'_ス、イチ'バンオ/オ_シテ'/クダサ'イ",
+      "reading_overrides": []
+    },
+    "SUB-002": {
+      "cue_id": "SUB-002",
+      "segment_id": 2,
+      "display_text": "本物でしょうか。1番は押さずに止まる",
+      "effective_text": "本物でしょうか。1番は押さずに止まる",
+      "duration_sec": 2.980422,
+      "kana": "ホンモノデショオ'カ、イチ'バンワ/オサズニ'/トマル'",
+      "reading_overrides": []
+    },
+    "SUB-003": {
+      "cue_id": "SUB-003",
+      "segment_id": 3,
+      "display_text": "厚労省は、電話やSMSで直接、利用登録を求めません",
+      "effective_text": "厚労省は、電話やSMSで直接、利用登録を求めません",
+      "duration_sec": 5.280607,
+      "kana": "コオロ'オショオワ、デンワヤ'/エスエムエ'スデ/チョ_クセツ'、リヨオト'オロクオ/モトメマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-004": {
+      "cue_id": "SUB-004",
+      "segment_id": 4,
+      "display_text": "再現イメージ。確認することを3つだけ",
+      "effective_text": "再現イメージ。確認することを3つだけ",
+      "duration_sec": 3.372263,
+      "kana": "サイゲンイメ'エジ、カクニン'/スル'/コト'オ/ミッツダケ'",
+      "reading_overrides": []
+    },
+    "SUB-005": {
+      "cue_id": "SUB-005",
+      "segment_id": 5,
+      "display_text": "番号を押さない／情報を伝えない／公式から確認",
+      "effective_text": "番号を押さない／情報を伝えない／公式から確認",
+      "duration_sec": 4.207968,
+      "kana": "バンゴ'オオ/オサナイ'、ジョオホオオ'/_ツタエナイ'、コオ_シキカラ'/カクニン'",
+      "reading_overrides": []
+    },
+    "SUB-006": {
+      "cue_id": "SUB-006",
+      "segment_id": 6,
+      "display_text": "職員を装い、健康保険証利用登録を促す電話",
+      "effective_text": "職員を装い、健康保険証利用登録を促す電話",
+      "duration_sec": 4.581562,
+      "kana": "ショク'インオ/ヨソオイ'、ケンコオ'/ホケンショオ'/リヨオト'オロクオ/ウナガ'ス/デンワ'",
+      "reading_overrides": []
+    },
+    "SUB-007": {
+      "cue_id": "SUB-007",
+      "segment_id": 7,
+      "display_text": "マイナ保険証の話だけで、すべてが詐欺とは限らない",
+      "effective_text": "マイナ保険証の話だけで、すべてが詐欺とは限らない",
+      "duration_sec": 4.023,
+      "kana": "マイナホケンショオノ'/ハナシダケデ'、ス'ベテガ/サ'ギトワ/カギラ'ナイ",
+      "reading_overrides": []
+    },
+    "SUB-008": {
+      "cue_id": "SUB-008",
+      "segment_id": 8,
+      "display_text": "電話やSMSで、直接利用登録を要求しない",
+      "effective_text": "電話やSMSで、直接利用登録を要求しない",
+      "duration_sec": 4.197778,
+      "kana": "デンワヤ'/エスエムエ'スデ、チョ_クセツ'/リヨオト'オロクオ/ヨオキュウ'/シナイ'",
+      "reading_overrides": []
+    },
+    "SUB-009": {
+      "cue_id": "SUB-009",
+      "segment_id": 9,
+      "display_text": "1つ目：番号を押さず、いったん電話を切る",
+      "effective_text": "1つ目：番号を押さず、いったん電話を切る",
+      "duration_sec": 3.614872,
+      "kana": "_ヒトツ'メ、バンゴ'オオ/オサ'ズ、イッタン'/デンワオ'/キ'ル",
+      "reading_overrides": []
+    },
+    "SUB-010": {
+      "cue_id": "SUB-010",
+      "segment_id": 10,
+      "display_text": "「1番を押して」と言われても、操作しない",
+      "effective_text": "「1番を押して」と言われても、操作しない",
+      "duration_sec": 3.338601,
+      "kana": "イチ'バンオ/オ_シテ'、ト'/イワレテモ'、ソ'オサ/シナイ'",
+      "reading_overrides": []
+    },
+    "SUB-011": {
+      "cue_id": "SUB-011",
+      "segment_id": 11,
+      "display_text": "押しただけで、被害が出ると決まったわけではない",
+      "effective_text": "押しただけで、被害が出ると決まったわけではない",
+      "duration_sec": 3.218431,
+      "kana": "オ_シタ'ダケデ、ヒ'ガイガ/デ'ルト/キマッタ'/ワ'ケデワ/ナ'イ",
+      "reading_overrides": []
+    },
+    "SUB-012": {
+      "cue_id": "SUB-012",
+      "segment_id": 12,
+      "display_text": "相手が伝えた番号へ、そのまま折り返さない",
+      "effective_text": "相手が伝えた番号へ、そのまま折り返さない",
+      "duration_sec": 3.51495,
+      "kana": "アイテ'ガ/_ツタエタ'/バンゴ'オエ、ソノ'/ママ'/オリカエサ'ナイ",
+      "reading_overrides": []
+    },
+    "SUB-013": {
+      "cue_id": "SUB-013",
+      "segment_id": 13,
+      "display_text": "「これ、本物？」は公式情報で確認します。必要なら登録しておいてください。",
+      "effective_text": "「これ、本物？」は公式情報で確認します。必要なら登録しておいてください。",
+      "duration_sec": 6.351793,
+      "kana": "コレ'、ホンモノ'？、ワ'/コオ_シキ'/ジョオホオデ'/カクニン'/シマ'_ス、_ヒツヨオナラ'/トオロク'/_シテ'/オ'イテ/クダサ'イ",
+      "reading_overrides": []
+    },
+    "SUB-014": {
+      "cue_id": "SUB-014",
+      "segment_id": 14,
+      "display_text": "2つ目：個人情報や暗証番号を伝えない",
+      "effective_text": "2つ目：個人情報や暗証番号を伝えない",
+      "duration_sec": 3.552067,
+      "kana": "_フタツ'メ、コジンジョ'オホオヤ/アンショオバンゴ'オオ/_ツタエナイ'",
+      "reading_overrides": []
+    },
+    "SUB-015": {
+      "cue_id": "SUB-015",
+      "segment_id": 15,
+      "display_text": "伝えない情報：マイナンバー・暗証番号・カード・口座情報・SMS認証コード",
+      "effective_text": "伝えない情報：マイナンバー・暗証番号・カード・口座情報・SMS認証コード",
+      "duration_sec": 7.895587,
+      "kana": "_ツタエナイ'/ジョオホオ'、マイナ'ンバア、アンショオバンゴ'オ、カ'アド、コオザジョ'オホオ、エスエムエスニンショオコ'オド",
+      "reading_overrides": []
+    },
+    "SUB-016": {
+      "cue_id": "SUB-016",
+      "segment_id": 16,
+      "display_text": "電話でもSMSでも、求められた情報を渡さない",
+      "effective_text": "電話でもSMSでも、求められた情報を渡さない",
+      "duration_sec": 4.002761,
+      "kana": "デンワデモ'/エスエムエ'スデモ、モトメ'ラレタ/ジョオホオオ'/ワタサナイ'",
+      "reading_overrides": []
+    },
+    "SUB-017": {
+      "cue_id": "SUB-017",
+      "segment_id": 17,
+      "display_text": "健康保険証利用登録と、マイナアプリ利用登録は別",
+      "effective_text": "健康保険証利用登録と、マイナアプリ利用登録は別",
+      "duration_sec": 4.502012,
+      "kana": "ケンコオ'/ホケンショオ'/リヨオト'オロ_クト、マイナアプリリヨオト'オロクワ/ベツ'",
+      "reading_overrides": []
+    },
+    "SUB-018": {
+      "cue_id": "SUB-018",
+      "segment_id": 18,
+      "display_text": "マイナポータル／スマホへのカード追加／病院受付も別の手続き",
+      "effective_text": "マイナポータル／スマホへのカード追加／病院受付も別の手続き",
+      "duration_sec": 5.171142,
+      "kana": "マイナポ'オタル、スマホエノ'/カアドツ'イカ、ビョオインウ'ケ_ツケモ/ベツノ'/テツ'ズキ",
+      "reading_overrides": []
+    },
+    "SUB-019": {
+      "cue_id": "SUB-019",
+      "segment_id": 19,
+      "display_text": "3つ目：公式窓口から、自分で確認",
+      "effective_text": "3つ目：公式窓口から、自分で確認",
+      "duration_sec": 3.502845,
+      "kana": "ミッツ'メ、コオ_シキ'/マド'グ_チカラ、ジブンデ'/カクニン'",
+      "reading_overrides": []
+    },
+    "SUB-020": {
+      "cue_id": "SUB-020",
+      "segment_id": 20,
+      "display_text": "電話を切ったあと、公式サイトを自分で開く",
+      "effective_text": "電話を切ったあと、公式サイトを自分で開く",
+      "duration_sec": 3.299652,
+      "kana": "デンワオ'/キ'ッタ/ア'ト、コオ_シキ'/サイトオ'/ジブンデ'/ヒラ'ク",
+      "reading_overrides": []
+    },
+    "SUB-021": {
+      "cue_id": "SUB-021",
+      "segment_id": 21,
+      "display_text": "相手が伝えた番号やSMSリンクを使わない",
+      "effective_text": "相手が伝えた番号やSMSリンクを使わない",
+      "duration_sec": 3.375804,
+      "kana": "アイテ'ガ/_ツタエタ'/バンゴ'オヤ/エスエムエスリ'ンクオ/_ツカワナイ'",
+      "reading_overrides": []
+    },
+    "SUB-022": {
+      "cue_id": "SUB-022",
+      "segment_id": 22,
+      "display_text": "正式な登録手順：医療機関・薬局／マイナポータル／セブン銀行ATM",
+      "effective_text": "正式な登録手順：医療機関・薬局／マイナポータル／セブン銀行ATM",
+      "duration_sec": 6.884918,
+      "kana": "セエ_シキナ'/トオロ_クテ'ジュン、イリョオキ'カン、ヤッキョク'、マイナポ'オタル、セブンギンコオエイティイエ'ム",
+      "reading_overrides": []
+    },
+    "SUB-023": {
+      "cue_id": "SUB-023",
+      "segment_id": 23,
+      "display_text": "登録状況も、公式の案内を自分で開いて確認",
+      "effective_text": "登録状況も、公式の案内を自分で開いて確認",
+      "duration_sec": 3.940754,
+      "kana": "トオロクジョ'オキョオモ、コオ_シキノ'/アンナ'イオ/ジブンデ'/ヒラ'イテ/カクニン'",
+      "reading_overrides": []
+    },
+    "SUB-024": {
+      "cue_id": "SUB-024",
+      "segment_id": 24,
+      "display_text": "マイナンバー総合フリーダイヤル0120-95-0178",
+      "effective_text": "マイナンバー総合フリーダイヤル0120-95-0178",
+      "duration_sec": 5.455441,
+      "kana": "マイナンバアソオゴオフリイダ'イヤル/ゼロイ'チ/ニイゼ'ロ、キュウゴ'オ、ゼロイ'チ/ナナハ'チ",
+      "reading_overrides": []
+    },
+    "SUB-025": {
+      "cue_id": "SUB-025",
+      "segment_id": 25,
+      "display_text": "健康保険証利用の問い合わせ：音声案内 5番",
+      "effective_text": "健康保険証利用の問い合わせ：音声案内 5番",
+      "duration_sec": 4.454275,
+      "kana": "ケンコオ'/ホケンショオ'/リヨオノ'/トイアワセ'、オンセエア'ンナイ、ゴ'バン",
+      "reading_overrides": []
+    },
+    "SUB-026": {
+      "cue_id": "SUB-026",
+      "segment_id": 26,
+      "display_text": "受付時間は公式ページで再確認平日9:30〜20:00／土日祝9:30〜17:30",
+      "effective_text": "受付時間は公式ページで再確認平日9:30〜20:00／土日祝9:30〜17:30",
+      "duration_sec": 10.329247,
+      "kana": "ウケ_ツケ'/ジカンワ'/コオ_シキ'/ペエジデ'/サイカ'クニン/ヘエジ_ツ'/キュ'ウ、サ'ンジュウ、ニ'ジュウ、ゼロゼ'ロ、ドニ_チシュク'キュウ、サ'ンジュウ、ジュウ'/ナ'ナ、サ'ンジュウ",
+      "reading_overrides": []
+    },
+    "SUB-027": {
+      "cue_id": "SUB-027",
+      "segment_id": 27,
+      "display_text": "不審な電話の相談#9110",
+      "effective_text": "不審な電話の相談#9110",
+      "duration_sec": 2.956644,
+      "kana": "_フシンナ'/デンワノ'/ソオダン'、キュウセ'ンヒャクジュウ",
+      "reading_overrides": []
+    },
+    "SUB-028": {
+      "cue_id": "SUB-028",
+      "segment_id": 28,
+      "display_text": "#9110：緊急ではない警察への相談",
+      "effective_text": "#9110：緊急ではない警察への相談",
+      "duration_sec": 3.595177,
+      "kana": "キュウセ'ンヒャクジュウ、キンキュウデ'ワ/ナ'イ/ケエサツエノ'/ソオダン'",
+      "reading_overrides": []
+    },
+    "SUB-029": {
+      "cue_id": "SUB-029",
+      "segment_id": 29,
+      "display_text": "110番：事件や事故などの緊急時",
+      "effective_text": "110番：事件や事故などの緊急時",
+      "duration_sec": 3.130487,
+      "kana": "ヒャ_クト'オバン、ジ'ケンヤ/ジ'コナドノ/キンキュウ'/トキ'",
+      "reading_overrides": []
+    },
+    "SUB-030": {
+      "cue_id": "SUB-030",
+      "segment_id": 30,
+      "display_text": "110と#9110は、用途を分ける",
+      "effective_text": "110と#9110は、用途を分ける",
+      "duration_sec": 3.63105,
+      "kana": "ヒャ'クジュウト、キュウセ'ンヒャクジュウワ、ヨ'オトオ/ワケ'ル",
+      "reading_overrides": []
+    },
+    "SUB-031": {
+      "cue_id": "SUB-031",
+      "segment_id": 31,
+      "display_text": "1番を押しただけなら、まず電話を終える",
+      "effective_text": "1番を押しただけなら、まず電話を終える",
+      "duration_sec": 3.082372,
+      "kana": "イチ'バンオ/オ_シタ'ダケナラ、マ'ズ/デンワオ'/オエル'",
+      "reading_overrides": []
+    },
+    "SUB-032": {
+      "cue_id": "SUB-032",
+      "segment_id": 32,
+      "display_text": "公式窓口から確認し、慌てて折り返さない",
+      "effective_text": "公式窓口から確認し、慌てて折り返さない",
+      "duration_sec": 3.607912,
+      "kana": "コオ_シキ'/マド'グ_チカラ/カクニン'/シ'、アワテテ'/オリカエサ'ナイ",
+      "reading_overrides": []
+    },
+    "SUB-033": {
+      "cue_id": "SUB-033",
+      "segment_id": 33,
+      "display_text": "マイナンバーや暗証番号を伝えたら0120-95-0178へ相談",
+      "effective_text": "マイナンバーや暗証番号を伝えたら0120-95-0178へ相談",
+      "duration_sec": 6.317461,
+      "kana": "マイナ'ンバアヤ/アンショオバンゴ'オオ/_ツタエタ'ラ/ゼロイ'チ/ニイゼ'ロ、キュウゴ'オ、ゼロイ'チ/ナナハ'チエ/ソオダン'",
+      "reading_overrides": []
+    },
+    "SUB-034": {
+      "cue_id": "SUB-034",
+      "segment_id": 34,
+      "display_text": "口座・カード情報を伝えたら、取引先の公式連絡先へ相談",
+      "effective_text": "口座・カード情報を伝えたら、取引先の公式連絡先へ相談",
+      "duration_sec": 5.343296,
+      "kana": "コオザ'、カアドジョ'オホオオ/_ツタエタ'ラ、トリ_ヒキサキノ'/コオ_シキ'/レンラ_クサキエ'/ソオダン'",
+      "reading_overrides": []
+    },
+    "SUB-035": {
+      "cue_id": "SUB-035",
+      "segment_id": 35,
+      "display_text": "不審な相談は #9110／緊急なら 110",
+      "effective_text": "不審な相談は #9110／緊急なら 110",
+      "duration_sec": 4.736517,
+      "kana": "_フシンナ'/ソオダンワ'、キュウセ'ンヒャクジュウ、キンキュウナラ'、ヒャ'クジュウ",
+      "reading_overrides": []
+    },
+    "SUB-036": {
+      "cue_id": "SUB-036",
+      "segment_id": 36,
+      "display_text": "番号を押さない／情報を伝えない／公式から確認",
+      "effective_text": "番号を押さない／情報を伝えない／公式から確認",
+      "duration_sec": 4.207968,
+      "kana": "バンゴ'オオ/オサナイ'、ジョオホオオ'/_ツタエナイ'、コオ_シキカラ'/カクニン'",
+      "reading_overrides": []
+    },
+    "SUB-037": {
+      "cue_id": "SUB-037",
+      "segment_id": 37,
+      "display_text": "名前が出ても、その場で決めず、いったん止まる",
+      "effective_text": "名前が出ても、その場で決めず、いったん止まる",
+      "duration_sec": 3.614334,
+      "kana": "ナマエガ'/デテモ'、ソノ'/バデ'/キメ'ズ、イッタン'/トマル'",
+      "reading_overrides": []
+    },
+    "SUB-038": {
+      "cue_id": "SUB-038",
+      "segment_id": 38,
+      "display_text": "迷ったときは、その場で決めず、いったん止まって公式から確認",
+      "effective_text": "迷ったときは、その場で決めず、いったん止まって公式から確認",
+      "duration_sec": 4.719535,
+      "kana": "マヨ'ッタ/ト'キワ、ソノ'/バデ'/キメ'ズ、イッタン'/トマッテ'/コオ_シキカラ'/カクニン'",
+      "reading_overrides": []
+    },
+    "SUB-039": {
+      "cue_id": "SUB-039",
+      "segment_id": 39,
+      "display_text": "確認してから、必要な手続きを進める",
+      "effective_text": "確認してから、必要な手続きを進める",
+      "duration_sec": 3.168382,
+      "kana": "カクニン'/_シテカラ'、_ヒツヨオナ'/テツ'ズキオ/ススメル'",
+      "reading_overrides": []
+    }
+  }
+}

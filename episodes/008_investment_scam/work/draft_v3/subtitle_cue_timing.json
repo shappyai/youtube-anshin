@@ -1,0 +1,1107 @@
+{
+  "version": 1,
+  "method": "VOICEVOX audio_query mora duration; segment boundaries remain measured WAV timing",
+  "engine_url": "http://127.0.0.1:50021",
+  "speaker": "剣崎雌雄",
+  "style": "ノーマル",
+  "style_id": 21,
+  "generated_at": "2026-09-05T01:39:23.861511+00:00",
+  "cue_count": 121,
+  "cues": {
+    "SUB-001-1": {
+      "cue_id": "SUB-001-1",
+      "segment_id": 1,
+      "display_text": "有名人が、投資をすすめる広告を見て、",
+      "effective_text": "有名人が、投資をすすめる広告を見て、",
+      "duration_sec": 3.292435,
+      "kana": "ユウメ'エジンガ、トオシオ'/ススメル'/コオコクオ'/ミ'テ",
+      "reading_overrides": []
+    },
+    "SUB-001-2": {
+      "cue_id": "SUB-001-2",
+      "segment_id": 1,
+      "display_text": "LINEに案内されたら。",
+      "effective_text": "LINEに案内されたら。",
+      "duration_sec": 1.586208,
+      "kana": "ラインニ'/アンナ'イ/サレタ'ラ",
+      "reading_overrides": []
+    },
+    "SUB-002": {
+      "cue_id": "SUB-002",
+      "segment_id": 2,
+      "display_text": "これ、本物でしょうか。",
+      "effective_text": "これ、本物でしょうか。",
+      "duration_sec": 1.880446,
+      "kana": "コレ'、ホンモノデショオ'カ",
+      "reading_overrides": []
+    },
+    "SUB-003-1": {
+      "cue_id": "SUB-003-1",
+      "segment_id": 3,
+      "display_text": "最近は、こうした流れから、",
+      "effective_text": "最近は、こうした流れから、",
+      "duration_sec": 2.305555,
+      "kana": "サイキンワ'、コオ_シタ'/ナガレ'カラ",
+      "reading_overrides": []
+    },
+    "SUB-003-2": {
+      "cue_id": "SUB-003-2",
+      "segment_id": 3,
+      "display_text": "高額な投資詐欺の被害が、増えています。",
+      "effective_text": "高額な投資詐欺の被害が、増えています。",
+      "duration_sec": 3.206529,
+      "kana": "コオガクナ'/トオシ'サギノ/ヒ'ガイガ、フエ'テ/イマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-004-1": {
+      "cue_id": "SUB-004-1",
+      "segment_id": 4,
+      "display_text": "今回は、お金を振り込む前に、",
+      "effective_text": "今回は、お金を振り込む前に、",
+      "duration_sec": 2.581683,
+      "kana": "コ'ンカイワ、オカネオ'/フリコ'ム/マ'エニ",
+      "reading_overrides": []
+    },
+    "SUB-004-2": {
+      "cue_id": "SUB-004-2",
+      "segment_id": 4,
+      "display_text": "確認したい3つだけ、やさしく見ていきます。",
+      "effective_text": "確認したい3つだけ、やさしく見ていきます。",
+      "duration_sec": 3.1964,
+      "kana": "カクニン'/_シタ'イ/ミッツダケ'、ヤサ_シクミテ'/イキマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-005": {
+      "cue_id": "SUB-005",
+      "segment_id": 5,
+      "display_text": "確認するのは、この3つです。",
+      "effective_text": "確認するのは、この3つです。",
+      "duration_sec": 2.465289,
+      "kana": "カクニン'/スル'/ノワ'、コノ'/ミッツ'デ_ス",
+      "reading_overrides": []
+    },
+    "SUB-006-1": {
+      "cue_id": "SUB-006-1",
+      "segment_id": 6,
+      "display_text": "一つ、広告の有名人を、",
+      "effective_text": "一つ、広告の有名人を、",
+      "duration_sec": 2.419319,
+      "kana": "_ヒト'ツ、コオコクノ'/ユウメ'エジンオ",
+      "reading_overrides": []
+    },
+    "SUB-006-2": {
+      "cue_id": "SUB-006-2",
+      "segment_id": 6,
+      "display_text": "そのまま信用しない。",
+      "effective_text": "そのまま信用しない。",
+      "duration_sec": 1.575179,
+      "kana": "ソノ'/ママシ'ンヨオ/シナイ'",
+      "reading_overrides": []
+    },
+    "SUB-007-1": {
+      "cue_id": "SUB-007-1",
+      "segment_id": 7,
+      "display_text": "二つ、LINEなどに誘導されたら、",
+      "effective_text": "二つ、LINEなどに誘導されたら、",
+      "duration_sec": 2.650988,
+      "kana": "_フタツ'、ラインナ'ドニ/ユウドオ'/サレタ'ラ",
+      "reading_overrides": []
+    },
+    "SUB-007-2": {
+      "cue_id": "SUB-007-2",
+      "segment_id": 7,
+      "display_text": "一度、止まる。",
+      "effective_text": "一度、止まる。",
+      "duration_sec": 1.440131,
+      "kana": "イチド'、トマル'",
+      "reading_overrides": []
+    },
+    "SUB-008-1": {
+      "cue_id": "SUB-008-1",
+      "segment_id": 8,
+      "display_text": "三つ、送金する前に、",
+      "effective_text": "三つ、送金する前に、",
+      "duration_sec": 2.184044,
+      "kana": "ミッツ'、ソオキン'/スル'/マ'エニ",
+      "reading_overrides": []
+    },
+    "SUB-008-2": {
+      "cue_id": "SUB-008-2",
+      "segment_id": 8,
+      "display_text": "登録と振込先を、確認する。",
+      "effective_text": "登録と振込先を、確認する。",
+      "duration_sec": 2.636124,
+      "kana": "トオロ_クト'/フリコミサキオ'、カクニン'/スル'",
+      "reading_overrides": []
+    },
+    "SUB-009-1": {
+      "cue_id": "SUB-009-1",
+      "segment_id": 9,
+      "display_text": "では、順番に、",
+      "effective_text": "では、順番に、",
+      "duration_sec": 1.553655,
+      "kana": "デ'ワ、ジュンバンニ'",
+      "reading_overrides": []
+    },
+    "SUB-009-2": {
+      "cue_id": "SUB-009-2",
+      "segment_id": 9,
+      "display_text": "見ていきましょう。",
+      "effective_text": "見ていきましょう。",
+      "duration_sec": 1.063461,
+      "kana": "ミ'テ/イキマショ'オ",
+      "reading_overrides": []
+    },
+    "SUB-010": {
+      "cue_id": "SUB-010",
+      "segment_id": 10,
+      "display_text": "一つ目です。",
+      "effective_text": "一つ目です。",
+      "duration_sec": 1.007569,
+      "kana": "_ヒトツ'メデ_ス",
+      "reading_overrides": []
+    },
+    "SUB-011-1": {
+      "cue_id": "SUB-011-1",
+      "segment_id": 11,
+      "display_text": "広告の有名人を、そのまま信用しない、",
+      "effective_text": "広告の有名人を、そのまま信用しない、",
+      "duration_sec": 3.329899,
+      "kana": "コオコクノ'/ユウメ'エジンオ、ソノ'/ママシ'ンヨオ/シナイ'",
+      "reading_overrides": []
+    },
+    "SUB-011-2": {
+      "cue_id": "SUB-011-2",
+      "segment_id": 11,
+      "display_text": "です。",
+      "effective_text": "です。",
+      "duration_sec": 0.653008,
+      "kana": "デ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-012-1": {
+      "cue_id": "SUB-012-1",
+      "segment_id": 12,
+      "display_text": "まずは、どれだけ被害が出ているか、",
+      "effective_text": "まずは、どれだけ被害が出ているか、",
+      "duration_sec": 2.601227,
+      "kana": "マ'ズワ、ドレダケ'/ヒ'ガイガ/デテ'/イル'カ",
+      "reading_overrides": []
+    },
+    "SUB-012-2": {
+      "cue_id": "SUB-012-2",
+      "segment_id": 12,
+      "display_text": "見てみましょう。",
+      "effective_text": "見てみましょう。",
+      "duration_sec": 0.993218,
+      "kana": "ミ'テ/ミマショ'オ",
+      "reading_overrides": []
+    },
+    "SUB-013-1": {
+      "cue_id": "SUB-013-1",
+      "segment_id": 13,
+      "display_text": "警察庁のまとめでは、SNS型投資詐欺、",
+      "effective_text": "警察庁のまとめでは、SNS型投資詐欺、",
+      "duration_sec": 3.690352,
+      "kana": "ケエサツ'チョオノ/マトメデワ'、エスエヌエスガタ'/トオシ'サギ",
+      "reading_overrides": []
+    },
+    "SUB-013-2": {
+      "cue_id": "SUB-013-2",
+      "segment_id": 13,
+      "display_text": "つまりSNSの広告などを入口にした投資詐欺は、",
+      "effective_text": "つまりSNSの広告などを入口にした投資詐欺は、",
+      "duration_sec": 3.76202,
+      "kana": "ツ'マリ/エスエヌエ'スノ/コオコクナ'ドオ/イリグチニ'/_シタ'/トオシ'サギワ",
+      "reading_overrides": []
+    },
+    "SUB-013-3": {
+      "cue_id": "SUB-013-3",
+      "segment_id": 13,
+      "display_text": "今年7月末までの暫定値で、6,566件です。",
+      "effective_text": "今年7月末までの暫定値で、6,566件です。",
+      "duration_sec": 4.759701,
+      "kana": "コト_シ'/シチガツマツマ'デノ/ザンテエチ'デ、ロ_クセ'ン/ゴヒャク'/ロクジュウ'/ロッ'ケンデ_ス",
+      "reading_overrides": []
+    },
+    "SUB-014-1": {
+      "cue_id": "SUB-014-1",
+      "segment_id": 14,
+      "display_text": "被害額は、およそ881億円に、",
+      "effective_text": "被害額は、およそ881億円に、",
+      "duration_sec": 3.606741,
+      "kana": "ヒガイガ'クワ、オヨソ'/ハッピャク'/ハチジュウ'/イチオク'エンニ",
+      "reading_overrides": []
+    },
+    "SUB-014-2": {
+      "cue_id": "SUB-014-2",
+      "segment_id": 14,
+      "display_text": "のぼります。",
+      "effective_text": "のぼります。",
+      "duration_sec": 0.854518,
+      "kana": "ノボリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-015-1": {
+      "cue_id": "SUB-015-1",
+      "segment_id": 15,
+      "display_text": "前の年の同じ時期より、7割以上、",
+      "effective_text": "前の年の同じ時期より、7割以上、",
+      "duration_sec": 3.183644,
+      "kana": "マ'エノ/トシ'ノ/オナジ'/ジ'キヨリ、ナナ'ワリ/イ'ジョオ",
+      "reading_overrides": []
+    },
+    "SUB-015-2": {
+      "cue_id": "SUB-015-2",
+      "segment_id": 15,
+      "display_text": "増えています。",
+      "effective_text": "増えています。",
+      "duration_sec": 0.994683,
+      "kana": "フエ'テ/イマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-016-1": {
+      "cue_id": "SUB-016-1",
+      "segment_id": 16,
+      "display_text": "今年の上半期だけでも、1日あたり、",
+      "effective_text": "今年の上半期だけでも、1日あたり、",
+      "duration_sec": 3.077791,
+      "kana": "コトシノ'/カミハンキダケデモ'、イチニチア'タリ",
+      "reading_overrides": []
+    },
+    "SUB-016-2": {
+      "cue_id": "SUB-016-2",
+      "segment_id": 16,
+      "display_text": "およそ4億4,000万円の被害がありました。",
+      "effective_text": "およそ4億4,000万円の被害がありました。",
+      "duration_sec": 3.078195,
+      "kana": "オヨソ'/ヨ'ンオク/ヨンセ'ン/マン'エンノ/ヒ'ガイガ/アリマ'_シタ",
+      "reading_overrides": []
+    },
+    "SUB-017-1": {
+      "cue_id": "SUB-017-1",
+      "segment_id": 17,
+      "display_text": "今年の上半期では、被害額は、",
+      "effective_text": "今年の上半期では、被害額は、",
+      "duration_sec": 2.718746,
+      "kana": "コトシノ'/カミハ'ンキデワ、ヒガイガ'クワ",
+      "reading_overrides": []
+    },
+    "SUB-017-2": {
+      "cue_id": "SUB-017-2",
+      "segment_id": 17,
+      "display_text": "60代が、最も多いという、",
+      "effective_text": "60代が、最も多いという、",
+      "duration_sec": 2.63353,
+      "kana": "ロクジュウ'ダイガ、モット'モ/オ'オイト/イウ'",
+      "reading_overrides": []
+    },
+    "SUB-017-3": {
+      "cue_id": "SUB-017-3",
+      "segment_id": 17,
+      "display_text": "報告もあります。",
+      "effective_text": "報告もあります。",
+      "duration_sec": 1.29605,
+      "kana": "ホオコクモ'/アリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-018": {
+      "cue_id": "SUB-018",
+      "segment_id": 18,
+      "display_text": "ここからが、今日の本題です。",
+      "effective_text": "ここからが、今日の本題です。",
+      "duration_sec": 2.323959,
+      "kana": "ココカラガ'、キョ'オノ/ホンダイデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-019": {
+      "cue_id": "SUB-019",
+      "segment_id": 19,
+      "display_text": "入口となる、広告の話です。",
+      "effective_text": "入口となる、広告の話です。",
+      "duration_sec": 2.637774,
+      "kana": "イリグ_チト'/ナ'ル、コオコクノ'/ハナシ'デ_ス",
+      "reading_overrides": []
+    },
+    "SUB-020-1": {
+      "cue_id": "SUB-020-1",
+      "segment_id": 20,
+      "display_text": "警察庁によると、有名人の写真や動画を、",
+      "effective_text": "警察庁によると、有名人の写真や動画を、",
+      "duration_sec": 3.572471,
+      "kana": "ケエサツ'チョオニ/ヨルト'、ユウメ'エジンノ/シャシンヤ'/ドオガオ'",
+      "reading_overrides": []
+    },
+    "SUB-020-2": {
+      "cue_id": "SUB-020-2",
+      "segment_id": 20,
+      "display_text": "無断で使った広告が、去年の夏ごろから、",
+      "effective_text": "無断で使った広告が、去年の夏ごろから、",
+      "duration_sec": 3.306486,
+      "kana": "ムダンデ'/_ツカッタ'/コオコクガ'、キョ'ネンノ/ナツ'ゴロカラ",
+      "reading_overrides": []
+    },
+    "SUB-020-3": {
+      "cue_id": "SUB-020-3",
+      "segment_id": 20,
+      "display_text": "特に増えています。",
+      "effective_text": "特に増えています。",
+      "duration_sec": 1.311175,
+      "kana": "ト'クニ/フエ'テ/イマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-021-1": {
+      "cue_id": "SUB-021-1",
+      "segment_id": 21,
+      "display_text": "写真や動画が本物でも、",
+      "effective_text": "写真や動画が本物でも、",
+      "duration_sec": 1.953861,
+      "kana": "シャシンヤ'/ドオガガ'/ホンモノデモ'",
+      "reading_overrides": []
+    },
+    "SUB-021-2": {
+      "cue_id": "SUB-021-2",
+      "segment_id": 21,
+      "display_text": "本人が「すすめている」とは、限りません。",
+      "effective_text": "本人が「すすめている」とは、限りません。",
+      "duration_sec": 3.841466,
+      "kana": "ホ'ンニンガ、ススメテ'/イル'、トワ'、カギリマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-022-1": {
+      "cue_id": "SUB-022-1",
+      "segment_id": 22,
+      "display_text": "「必ずもうかる」「あなただけ」といった言葉が、",
+      "effective_text": "「必ずもうかる」「あなただけ」といった言葉が、",
+      "duration_sec": 3.48026,
+      "kana": "カナラズ'/モオカ'ル、アナタダケ'、ト'/イッタ'/コトバ'ガ",
+      "reading_overrides": []
+    },
+    "SUB-022-2": {
+      "cue_id": "SUB-022-2",
+      "segment_id": 22,
+      "display_text": "広告にあったら、まず、",
+      "effective_text": "広告にあったら、まず、",
+      "duration_sec": 2.040053,
+      "kana": "コオコクニ'/ア'ッタラ、マ'ズ",
+      "reading_overrides": []
+    },
+    "SUB-022-3": {
+      "cue_id": "SUB-022-3",
+      "segment_id": 22,
+      "display_text": "疑いましょう。",
+      "effective_text": "疑いましょう。",
+      "duration_sec": 1.043949,
+      "kana": "ウタガイマショ'オ",
+      "reading_overrides": []
+    },
+    "SUB-023-1": {
+      "cue_id": "SUB-023-1",
+      "segment_id": 23,
+      "display_text": "有名人が、無料で、",
+      "effective_text": "有名人が、無料で、",
+      "duration_sec": 2.017776,
+      "kana": "ユウメ'エジンガ、ムリョオデ'",
+      "reading_overrides": []
+    },
+    "SUB-023-2": {
+      "cue_id": "SUB-023-2",
+      "segment_id": 23,
+      "display_text": "確実に儲かる投資話を、教えることは、",
+      "effective_text": "確実に儲かる投資話を、教えることは、",
+      "duration_sec": 3.47488,
+      "kana": "カクジツニ'/モオカ'ル/トオシバ'ナシオ、オシエル'/コト'ワ",
+      "reading_overrides": []
+    },
+    "SUB-023-3": {
+      "cue_id": "SUB-023-3",
+      "segment_id": 23,
+      "display_text": "基本的にありません。",
+      "effective_text": "基本的にありません。",
+      "duration_sec": 1.452298,
+      "kana": "_キホン'テキニ/アリマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-024-1": {
+      "cue_id": "SUB-024-1",
+      "segment_id": 24,
+      "display_text": "気になったら、本人の公式アカウントで、",
+      "effective_text": "気になったら、本人の公式アカウントで、",
+      "duration_sec": 3.093427,
+      "kana": "キニ'/ナ'ッタラ、ホ'ンニンノ/コオ_シキ'/アカ'ウントデ",
+      "reading_overrides": []
+    },
+    "SUB-024-2": {
+      "cue_id": "SUB-024-2",
+      "segment_id": 24,
+      "display_text": "本当に発信しているか、確認してみましょう。",
+      "effective_text": "本当に発信しているか、確認してみましょう。",
+      "duration_sec": 3.414124,
+      "kana": "ホントオニ'/ハッシン'/_シテ'/イル'カ、カクニン'/_シテ'/ミマショ'オ",
+      "reading_overrides": []
+    },
+    "SUB-025": {
+      "cue_id": "SUB-025",
+      "segment_id": 25,
+      "display_text": "二つ目です。",
+      "effective_text": "二つ目です。",
+      "duration_sec": 1.009212,
+      "kana": "_フタツ'メデ_ス",
+      "reading_overrides": []
+    },
+    "SUB-026-1": {
+      "cue_id": "SUB-026-1",
+      "segment_id": 26,
+      "display_text": "LINEなどに誘導されたら、一度、",
+      "effective_text": "LINEなどに誘導されたら、一度、",
+      "duration_sec": 2.685986,
+      "kana": "ラインナ'ドニ/ユウドオ'/サレタ'ラ、イチド'",
+      "reading_overrides": []
+    },
+    "SUB-026-2": {
+      "cue_id": "SUB-026-2",
+      "segment_id": 26,
+      "display_text": "止まる、です。",
+      "effective_text": "止まる、です。",
+      "duration_sec": 1.452936,
+      "kana": "トマル'、デ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-027-1": {
+      "cue_id": "SUB-027-1",
+      "segment_id": 27,
+      "display_text": "警察庁は、SNSで知り合ったあと、",
+      "effective_text": "警察庁は、SNSで知り合ったあと、",
+      "duration_sec": 3.15116,
+      "kana": "ケエサツ'チョオワ、エスエヌエ'スデ/シリア'ッタ/ア'ト",
+      "reading_overrides": []
+    },
+    "SUB-027-2": {
+      "cue_id": "SUB-027-2",
+      "segment_id": 27,
+      "display_text": "LINEに誘導するのが、典型的な手口だと、",
+      "effective_text": "LINEに誘導するのが、典型的な手口だと、",
+      "duration_sec": 3.342612,
+      "kana": "ラインニ'/ユウドオ'/スル'/ノガ'、テンケエ'テキナ/テ'グチダト",
+      "reading_overrides": []
+    },
+    "SUB-027-3": {
+      "cue_id": "SUB-027-3",
+      "segment_id": 27,
+      "display_text": "注意を呼びかけています。",
+      "effective_text": "注意を呼びかけています。",
+      "duration_sec": 1.680078,
+      "kana": "チュ'ウイオ/ヨビカケ'テ/イマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-028-1": {
+      "cue_id": "SUB-028-1",
+      "segment_id": 28,
+      "display_text": "警察庁の去年のまとめでは、",
+      "effective_text": "警察庁の去年のまとめでは、",
+      "duration_sec": 2.082863,
+      "kana": "ケエサツ'チョオノ/キョ'ネンノ/マトメデワ'",
+      "reading_overrides": []
+    },
+    "SUB-028-2": {
+      "cue_id": "SUB-028-2",
+      "segment_id": 28,
+      "display_text": "広告やメッセージでの接触後、およそ9割が、",
+      "effective_text": "広告やメッセージでの接触後、およそ9割が、",
+      "duration_sec": 3.574344,
+      "kana": "コオコクヤ'/メ'ッセエジデノ/セッショク'ゴ、オヨソ'/キュウ'ワリガ",
+      "reading_overrides": []
+    },
+    "SUB-028-3": {
+      "cue_id": "SUB-028-3",
+      "segment_id": 28,
+      "display_text": "LINEに、誘導されています。",
+      "effective_text": "LINEに、誘導されています。",
+      "duration_sec": 2.2737,
+      "kana": "ラインニ'、ユウドオ'/サレテ'/イマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-029-1": {
+      "cue_id": "SUB-029-1",
+      "segment_id": 29,
+      "display_text": "グループに招待されたら、まずは、",
+      "effective_text": "グループに招待されたら、まずは、",
+      "duration_sec": 2.660969,
+      "kana": "グル'ウプニ/ショ'オタイ/サレタ'ラ、マ'ズワ",
+      "reading_overrides": []
+    },
+    "SUB-029-2": {
+      "cue_id": "SUB-029-2",
+      "segment_id": 29,
+      "display_text": "中の様子を、よく見てください。",
+      "effective_text": "中の様子を、よく見てください。",
+      "duration_sec": 2.350295,
+      "kana": "ナ'カノ/ヨオスオ'、ヨ'ク/ミ'テ/クダサ'イ",
+      "reading_overrides": []
+    },
+    "SUB-030-1": {
+      "cue_id": "SUB-030-1",
+      "segment_id": 30,
+      "display_text": "グループには、もうかったふりをする、",
+      "effective_text": "グループには、もうかったふりをする、",
+      "duration_sec": 2.486128,
+      "kana": "グル'ウプニワ、モオカ'ッタ/フリオ'/スル'",
+      "reading_overrides": []
+    },
+    "SUB-030-2": {
+      "cue_id": "SUB-030-2",
+      "segment_id": 30,
+      "display_text": "サクラが、入っていることがあります。",
+      "effective_text": "サクラが、入っていることがあります。",
+      "duration_sec": 2.772205,
+      "kana": "サクラガ'、ハ'イッテ/イル'/コト'ガ/アリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-031-1": {
+      "cue_id": "SUB-031-1",
+      "segment_id": 31,
+      "display_text": "「今だけ」「あなただけ」と、",
+      "effective_text": "「今だけ」「あなただけ」と、",
+      "duration_sec": 2.307024,
+      "kana": "イマダケ'、アナタダケ'、ト'",
+      "reading_overrides": [
+        "今だけ → イマダケ / accent=1（segment accent_overrides）"
+      ]
+    },
+    "SUB-031-2": {
+      "cue_id": "SUB-031-2",
+      "segment_id": 31,
+      "display_text": "あせらせる言葉が来たら、いったん、",
+      "effective_text": "あせらせる言葉が来たら、いったん、",
+      "duration_sec": 2.504494,
+      "kana": "アセラセ'ル/コトバ'ガ/キ'タラ、イッタン'",
+      "reading_overrides": []
+    },
+    "SUB-031-3": {
+      "cue_id": "SUB-031-3",
+      "segment_id": 31,
+      "display_text": "止まりましょう。",
+      "effective_text": "止まりましょう。",
+      "duration_sec": 0.934232,
+      "kana": "トマリマショ'オ",
+      "reading_overrides": []
+    },
+    "SUB-032-1": {
+      "cue_id": "SUB-032-1",
+      "segment_id": 32,
+      "display_text": "「家族や銀行には、",
+      "effective_text": "「家族や銀行には、",
+      "duration_sec": 1.456925,
+      "kana": "カ'ゾクヤ/ギンコオニワ'",
+      "reading_overrides": []
+    },
+    "SUB-032-2": {
+      "cue_id": "SUB-032-2",
+      "segment_id": 32,
+      "display_text": "相談しないで」と言われたら、それは、",
+      "effective_text": "相談しないで」と言われたら、それは、",
+      "duration_sec": 3.203789,
+      "kana": "ソオダン'/シナ'イデ、ト'/イワレタ'ラ、ソレワ'",
+      "reading_overrides": []
+    },
+    "SUB-032-3": {
+      "cue_id": "SUB-032-3",
+      "segment_id": 32,
+      "display_text": "詐欺のサインです。",
+      "effective_text": "詐欺のサインです。",
+      "duration_sec": 1.30948,
+      "kana": "サ'ギノ/サ'インデ_ス",
+      "reading_overrides": []
+    },
+    "SUB-033-1": {
+      "cue_id": "SUB-033-1",
+      "segment_id": 33,
+      "display_text": "LINEそのものが、",
+      "effective_text": "LINEそのものが、",
+      "duration_sec": 1.179755,
+      "kana": "ラインソ'ノモノガ",
+      "reading_overrides": []
+    },
+    "SUB-033-2": {
+      "cue_id": "SUB-033-2",
+      "segment_id": 33,
+      "display_text": "危険なわけではありません。",
+      "effective_text": "危険なわけではありません。",
+      "duration_sec": 1.682646,
+      "kana": "_キケンナ'/ワケデワアリマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-034-1": {
+      "cue_id": "SUB-034-1",
+      "segment_id": 34,
+      "display_text": "知らない人と、お金の話でつながるのが、",
+      "effective_text": "知らない人と、お金の話でつながるのが、",
+      "duration_sec": 3.132534,
+      "kana": "シラナイ'/_ヒトト'、オカネノ'/ハナシ'デ/ツナガル'/ノガ'",
+      "reading_overrides": []
+    },
+    "SUB-034-2": {
+      "cue_id": "SUB-034-2",
+      "segment_id": 34,
+      "display_text": "危険です。",
+      "effective_text": "危険です。",
+      "duration_sec": 0.845563,
+      "kana": "_キケンデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-035-1": {
+      "cue_id": "SUB-035-1",
+      "segment_id": 35,
+      "display_text": "あやしいと思ったら、友人や家族に、",
+      "effective_text": "あやしいと思ったら、友人や家族に、",
+      "duration_sec": 2.869748,
+      "kana": "アヤシイト'/オモ'ッタラ、ユウジンヤ'/カ'ゾクニ",
+      "reading_overrides": []
+    },
+    "SUB-035-2": {
+      "cue_id": "SUB-035-2",
+      "segment_id": 35,
+      "display_text": "話してみましょう。",
+      "effective_text": "話してみましょう。",
+      "duration_sec": 1.18229,
+      "kana": "ハナ'_シテ/ミマショ'オ",
+      "reading_overrides": []
+    },
+    "SUB-036": {
+      "cue_id": "SUB-036",
+      "segment_id": 36,
+      "display_text": "1人で、抱え込まないでください。",
+      "effective_text": "1人で、抱え込まないでください。",
+      "duration_sec": 2.50685,
+      "kana": "_ヒト'リデ、カカエコ'マナイデ/クダサ'イ",
+      "reading_overrides": []
+    },
+    "SUB-037": {
+      "cue_id": "SUB-037",
+      "segment_id": 37,
+      "display_text": "三つ目です。",
+      "effective_text": "三つ目です。",
+      "duration_sec": 1.002001,
+      "kana": "ミッツ'メデ_ス",
+      "reading_overrides": []
+    },
+    "SUB-038-1": {
+      "cue_id": "SUB-038-1",
+      "segment_id": 38,
+      "display_text": "お金を送る前に、2つのことを、",
+      "effective_text": "お金を送る前に、2つのことを、",
+      "duration_sec": 2.665318,
+      "kana": "オカネオ'/オクル'/マ'エニ、_フタツ'ノ/コト'オ",
+      "reading_overrides": []
+    },
+    "SUB-038-2": {
+      "cue_id": "SUB-038-2",
+      "segment_id": 38,
+      "display_text": "確認します。",
+      "effective_text": "確認します。",
+      "duration_sec": 1.094908,
+      "kana": "カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-039": {
+      "cue_id": "SUB-039",
+      "segment_id": 39,
+      "display_text": "1つ目は、会社の登録です。",
+      "effective_text": "1つ目は、会社の登録です。",
+      "duration_sec": 2.490843,
+      "kana": "_ヒトツ'メワ、カイシャノ'/トオロクデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-040-1": {
+      "cue_id": "SUB-040-1",
+      "segment_id": 40,
+      "display_text": "株やFX、暗号資産、",
+      "effective_text": "株やFX、暗号資産、",
+      "duration_sec": 2.485599,
+      "kana": "カブヤ'/エフエ'ッ_クス、アンゴオシ'サン",
+      "reading_overrides": []
+    },
+    "SUB-040-2": {
+      "cue_id": "SUB-040-2",
+      "segment_id": 40,
+      "display_text": "いわゆる仮想通貨の取引を、日本で行う会社は、",
+      "effective_text": "いわゆる仮想通貨の取引を、日本で行う会社は、",
+      "duration_sec": 3.94746,
+      "kana": "イワユ'ル/カソオツ'ウカノ/トリ'_ヒキオ、ニッポ'ンデ/オコナウ'/カイシャワ'",
+      "reading_overrides": []
+    },
+    "SUB-040-3": {
+      "cue_id": "SUB-040-3",
+      "segment_id": 40,
+      "display_text": "国の登録が、必要です。",
+      "effective_text": "国の登録が、必要です。",
+      "duration_sec": 2.312834,
+      "kana": "クニノ'/トオロクガ'、_ヒツヨオデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-041-1": {
+      "cue_id": "SUB-041-1",
+      "segment_id": 41,
+      "display_text": "金融庁のホームページで、",
+      "effective_text": "金融庁のホームページで、",
+      "duration_sec": 1.924652,
+      "kana": "キンユウ'チョオノ/ホオムペ'エジデ",
+      "reading_overrides": []
+    },
+    "SUB-041-2": {
+      "cue_id": "SUB-041-2",
+      "segment_id": 41,
+      "display_text": "会社の名前を検索すると、登録があるか、",
+      "effective_text": "会社の名前を検索すると、登録があるか、",
+      "duration_sec": 3.265351,
+      "kana": "カイシャノ'/ナマエオ'/ケンサ_ク'/スルト'、トオロクガ'/ア'ルカ",
+      "reading_overrides": []
+    },
+    "SUB-041-3": {
+      "cue_id": "SUB-041-3",
+      "segment_id": 41,
+      "display_text": "確認できます。",
+      "effective_text": "確認できます。",
+      "duration_sec": 1.153886,
+      "kana": "カクニン'/デキマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-042-1": {
+      "cue_id": "SUB-042-1",
+      "segment_id": 42,
+      "display_text": "登録がない会社には、お金を、",
+      "effective_text": "登録がない会社には、お金を、",
+      "duration_sec": 2.561784,
+      "kana": "トオロクガ'/ナ'イ/カイシャニワ'、オカネオ'",
+      "reading_overrides": []
+    },
+    "SUB-042-2": {
+      "cue_id": "SUB-042-2",
+      "segment_id": 42,
+      "display_text": "振り込まないでください。",
+      "effective_text": "振り込まないでください。",
+      "duration_sec": 1.473296,
+      "kana": "フリコ'マナイデ/クダサ'イ",
+      "reading_overrides": []
+    },
+    "SUB-043": {
+      "cue_id": "SUB-043",
+      "segment_id": 43,
+      "display_text": "2つ目は、振込先です。",
+      "effective_text": "2つ目は、振込先です。",
+      "duration_sec": 2.317695,
+      "kana": "_フタツ'メワ、フリコミサキデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-044-1": {
+      "cue_id": "SUB-044-1",
+      "segment_id": 44,
+      "display_text": "個人名義の口座を指定されたら、まず、",
+      "effective_text": "個人名義の口座を指定されたら、まず、",
+      "duration_sec": 3.158519,
+      "kana": "コジンメエギ'ノ/コオザオ'/_シテエ'/サレタ'ラ、マ'ズ",
+      "reading_overrides": []
+    },
+    "SUB-044-2": {
+      "cue_id": "SUB-044-2",
+      "segment_id": 44,
+      "display_text": "詐欺を疑ってください。",
+      "effective_text": "詐欺を疑ってください。",
+      "duration_sec": 1.660689,
+      "kana": "サ'ギオ/ウタガッテ'/クダサ'イ",
+      "reading_overrides": []
+    },
+    "SUB-045-1": {
+      "cue_id": "SUB-045-1",
+      "segment_id": 45,
+      "display_text": "国民生活センターと消費者庁も、",
+      "effective_text": "国民生活センターと消費者庁も、",
+      "duration_sec": 2.571304,
+      "kana": "コクミンセエカ_ツセ'ンタアト/ショオ_ヒシャ'チョオモ",
+      "reading_overrides": []
+    },
+    "SUB-045-2": {
+      "cue_id": "SUB-045-2",
+      "segment_id": 45,
+      "display_text": "「個人名義の口座なら、",
+      "effective_text": "「個人名義の口座なら、",
+      "duration_sec": 1.668889,
+      "kana": "コジンメエギ'ノ/コオザナラ'",
+      "reading_overrides": []
+    },
+    "SUB-045-3": {
+      "cue_id": "SUB-045-3",
+      "segment_id": 45,
+      "display_text": "振り込まないでください」と、",
+      "effective_text": "振り込まないでください」と、",
+      "duration_sec": 2.113904,
+      "kana": "フリコ'マナイデ/クダサ'イ、ト'",
+      "reading_overrides": []
+    },
+    "SUB-045-4": {
+      "cue_id": "SUB-045-4",
+      "segment_id": 45,
+      "display_text": "呼びかけています。",
+      "effective_text": "呼びかけています。",
+      "duration_sec": 1.19713,
+      "kana": "ヨビカケ'テ/イマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-046-1": {
+      "cue_id": "SUB-046-1",
+      "segment_id": 46,
+      "display_text": "振込のたびに、口座が変わるのも、",
+      "effective_text": "振込のたびに、口座が変わるのも、",
+      "duration_sec": 2.682044,
+      "kana": "フリコミノ'/タビ'ニ、コオザガ'/カワル'/ノモ'",
+      "reading_overrides": []
+    },
+    "SUB-046-2": {
+      "cue_id": "SUB-046-2",
+      "segment_id": 46,
+      "display_text": "詐欺のサインです。",
+      "effective_text": "詐欺のサインです。",
+      "duration_sec": 1.30948,
+      "kana": "サ'ギノ/サ'インデ_ス",
+      "reading_overrides": []
+    },
+    "SUB-047-1": {
+      "cue_id": "SUB-047-1",
+      "segment_id": 47,
+      "display_text": "本当の投資の話なら、個人の名前の口座に、",
+      "effective_text": "本当の投資の話なら、個人の名前の口座に、",
+      "duration_sec": 3.745347,
+      "kana": "ホントオノ'/トオシノ'/ハナシ'ナラ、コ'ジンノ/ナマエノ'/コオザニ'",
+      "reading_overrides": []
+    },
+    "SUB-047-2": {
+      "cue_id": "SUB-047-2",
+      "segment_id": 47,
+      "display_text": "振り込ませることは、まずありません。",
+      "effective_text": "振り込ませることは、まずありません。",
+      "duration_sec": 2.57515,
+      "kana": "フリコマセ'ル/コト'ワ、マ'ズ/アリマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-048-1": {
+      "cue_id": "SUB-048-1",
+      "segment_id": 48,
+      "display_text": "もし「詐欺かも」と思ったら、まず、",
+      "effective_text": "もし「詐欺かも」と思ったら、まず、",
+      "duration_sec": 3.500335,
+      "kana": "モ'シ、サ'ギカモ、ト'/オモ'ッタラ、マ'ズ",
+      "reading_overrides": []
+    },
+    "SUB-048-2": {
+      "cue_id": "SUB-048-2",
+      "segment_id": 48,
+      "display_text": "これ以上、送金しないことです。",
+      "effective_text": "これ以上、送金しないことです。",
+      "duration_sec": 2.526632,
+      "kana": "コレイ'ジョオ、ソオキン'/シナイ'/コト'デ_ス",
+      "reading_overrides": []
+    },
+    "SUB-049-1": {
+      "cue_id": "SUB-049-1",
+      "segment_id": 49,
+      "display_text": "やり取りの画面は、消さずに、",
+      "effective_text": "やり取りの画面は、消さずに、",
+      "duration_sec": 2.27216,
+      "kana": "ヤリ'トリノ/ガメンワ'、ケサズニ'",
+      "reading_overrides": []
+    },
+    "SUB-049-2": {
+      "cue_id": "SUB-049-2",
+      "segment_id": 49,
+      "display_text": "そのまま、残しておきましょう。",
+      "effective_text": "そのまま、残しておきましょう。",
+      "duration_sec": 2.254242,
+      "kana": "ソノ'/ママ'、ノコ'_シテ/オキマショ'オ",
+      "reading_overrides": []
+    },
+    "SUB-050": {
+      "cue_id": "SUB-050",
+      "segment_id": 50,
+      "display_text": "相談先は、こちらです。",
+      "effective_text": "相談先は、こちらです。",
+      "duration_sec": 2.206791,
+      "kana": "ソオダンサキワ'、コチラデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-051": {
+      "cue_id": "SUB-051",
+      "segment_id": 51,
+      "display_text": "警察相談専用電話は、シャープの9110。",
+      "effective_text": "警察相談専用電話は、シャープのきゅう いち いち まる。",
+      "duration_sec": 5.8157,
+      "kana": "ケエサ_ツソオダンセンヨオデ'ンワワ、シャ'アプノ/キュウ'、イ'チ、イ'チ、マル'",
+      "reading_overrides": [
+        "9110 → きゅう いち いち まる（reading_overrides）"
+      ]
+    },
+    "SUB-052": {
+      "cue_id": "SUB-052",
+      "segment_id": 52,
+      "display_text": "消費者ホットラインは、188。",
+      "effective_text": "消費者ホットラインは、イチ、ハチ、ハチ。",
+      "duration_sec": 4.163074,
+      "kana": "ショオ_ヒシャ'/ホットラ'インワ、イチ'、ハチ'、ハチ'",
+      "reading_overrides": [
+        "188 → イチ、ハチ、ハチ（reading_overrides）"
+      ]
+    },
+    "SUB-053": {
+      "cue_id": "SUB-053",
+      "segment_id": 53,
+      "display_text": "お住まいの消費生活センターに、つながります。",
+      "effective_text": "お住まいの消費生活センターに、つながります。",
+      "duration_sec": 3.348824,
+      "kana": "オス'マイノ/ショオ_ヒセエカ_ツセ'ンタアニ、ツナガリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-054-1": {
+      "cue_id": "SUB-054-1",
+      "segment_id": 54,
+      "display_text": "金融庁には、投資詐欺に特化した、",
+      "effective_text": "金融庁には、投資詐欺に特化した、",
+      "duration_sec": 2.873326,
+      "kana": "キンユウ'チョオニワ、トオシ'サギニ/ト_クカ'/_シタ'",
+      "reading_overrides": []
+    },
+    "SUB-054-2": {
+      "cue_id": "SUB-054-2",
+      "segment_id": 54,
+      "display_text": "相談ダイヤルがあります。",
+      "effective_text": "相談ダイヤルがあります。",
+      "duration_sec": 1.74554,
+      "kana": "ソオダンダ'イヤルガ/アリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-055": {
+      "cue_id": "SUB-055",
+      "segment_id": 55,
+      "display_text": "0570-050588",
+      "effective_text": "0570-050588",
+      "duration_sec": 3.063676,
+      "kana": "ゼロゴ'オ/ナナゼ'ロ、ゼロゴ'オ/ゼロゴ'オ/ハ_チハ'チ",
+      "reading_overrides": []
+    },
+    "SUB-056": {
+      "cue_id": "SUB-056",
+      "segment_id": 56,
+      "display_text": "受付時間は、平日の10時から17時までです。",
+      "effective_text": "受付時間は、平日の10時から17時までです。",
+      "duration_sec": 3.91023,
+      "kana": "ウケ_ツケ'/ジカンワ'、ヘエジツノ'/ジュウ'ジカラ/ジュウ'/_シチ'ジマデデ_ス",
+      "reading_overrides": []
+    },
+    "SUB-057": {
+      "cue_id": "SUB-057",
+      "segment_id": 57,
+      "display_text": "詳しくは、説明欄をご覧ください。",
+      "effective_text": "詳しくは、説明欄をご覧ください。",
+      "duration_sec": 2.890152,
+      "kana": "クワシ'クワ、セツメエ'ランオ/ゴラン'/クダサ'イ",
+      "reading_overrides": []
+    },
+    "SUB-058": {
+      "cue_id": "SUB-058",
+      "segment_id": 58,
+      "display_text": "最後に、まとめです。",
+      "effective_text": "最後に、まとめです。",
+      "duration_sec": 1.900338,
+      "kana": "サ'イゴニ、マトメデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-059-1": {
+      "cue_id": "SUB-059-1",
+      "segment_id": 59,
+      "display_text": "一つ、広告の有名人を、",
+      "effective_text": "一つ、広告の有名人を、",
+      "duration_sec": 2.419319,
+      "kana": "_ヒト'ツ、コオコクノ'/ユウメ'エジンオ",
+      "reading_overrides": []
+    },
+    "SUB-059-2": {
+      "cue_id": "SUB-059-2",
+      "segment_id": 59,
+      "display_text": "そのまま信用しない。",
+      "effective_text": "そのまま信用しない。",
+      "duration_sec": 1.575179,
+      "kana": "ソノ'/ママシ'ンヨオ/シナイ'",
+      "reading_overrides": []
+    },
+    "SUB-060-1": {
+      "cue_id": "SUB-060-1",
+      "segment_id": 60,
+      "display_text": "二つ、LINEなどに誘導されたら、",
+      "effective_text": "二つ、LINEなどに誘導されたら、",
+      "duration_sec": 2.650988,
+      "kana": "_フタツ'、ラインナ'ドニ/ユウドオ'/サレタ'ラ",
+      "reading_overrides": []
+    },
+    "SUB-060-2": {
+      "cue_id": "SUB-060-2",
+      "segment_id": 60,
+      "display_text": "一度、止まる。",
+      "effective_text": "一度、止まる。",
+      "duration_sec": 1.440131,
+      "kana": "イチド'、トマル'",
+      "reading_overrides": []
+    },
+    "SUB-061-1": {
+      "cue_id": "SUB-061-1",
+      "segment_id": 61,
+      "display_text": "三つ、送金する前に、",
+      "effective_text": "三つ、送金する前に、",
+      "duration_sec": 2.184044,
+      "kana": "ミッツ'、ソオキン'/スル'/マ'エニ",
+      "reading_overrides": []
+    },
+    "SUB-061-2": {
+      "cue_id": "SUB-061-2",
+      "segment_id": 61,
+      "display_text": "登録と振込先を、確認する。",
+      "effective_text": "登録と振込先を、確認する。",
+      "duration_sec": 2.636124,
+      "kana": "トオロ_クト'/フリコミサキオ'、カクニン'/スル'",
+      "reading_overrides": []
+    },
+    "SUB-062-1": {
+      "cue_id": "SUB-062-1",
+      "segment_id": 62,
+      "display_text": "お金を送る前に、この3つを、",
+      "effective_text": "お金を送る前に、この3つを、",
+      "duration_sec": 2.633953,
+      "kana": "オカネオ'/オクル'/マ'エニ、コノ'/ミッツ'オ",
+      "reading_overrides": []
+    },
+    "SUB-062-2": {
+      "cue_id": "SUB-062-2",
+      "segment_id": 62,
+      "display_text": "思い出してください。",
+      "effective_text": "思い出してください。",
+      "duration_sec": 1.324121,
+      "kana": "オモイダ'_シテ/クダサ'イ",
+      "reading_overrides": []
+    },
+    "SUB-063-1": {
+      "cue_id": "SUB-063-1",
+      "segment_id": 63,
+      "display_text": "不安なときは、1人で悩まず、",
+      "effective_text": "不安なときは、1人で悩まず、",
+      "duration_sec": 2.516993,
+      "kana": "フアンナ'/ト'キワ、_ヒト'リデ/ナヤマ'ズ",
+      "reading_overrides": []
+    },
+    "SUB-063-2": {
+      "cue_id": "SUB-063-2",
+      "segment_id": 63,
+      "display_text": "相談してください。",
+      "effective_text": "相談してください。",
+      "duration_sec": 1.357563,
+      "kana": "ソオダン'/_シテ'/クダサ'イ",
+      "reading_overrides": []
+    }
+  }
+}

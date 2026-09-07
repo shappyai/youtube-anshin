@@ -1,0 +1,355 @@
+{
+  "信用しない。": {
+    "pitch_shape": [
+      {
+        "surface": "信用",
+        "reading": "シンヨオ",
+        "phrase_index": 0,
+        "mora_count": 4,
+        "low_pitch": 4.8084900856018065,
+        "high_pitch": 5.258490085601807,
+        "pattern": [
+          "low",
+          "high",
+          "high",
+          "high"
+        ],
+        "following_same_mora_count": 0,
+        "following_same_mora_pitch_delta": null
+      }
+    ],
+    "query": {
+      "accent_phrases": [
+        {
+          "moras": [
+            {
+              "text": "シ",
+              "consonant": "sh",
+              "consonant_length": 0.15301910042762756,
+              "vowel": "i",
+              "vowel_length": 0.08893727511167526,
+              "pitch": 4.8084900856018065
+            },
+            {
+              "text": "ン",
+              "consonant": null,
+              "consonant_length": null,
+              "vowel": "N",
+              "vowel_length": 0.07352519035339355,
+              "pitch": 5.258490085601807
+            },
+            {
+              "text": "ヨ",
+              "consonant": "y",
+              "consonant_length": 0.046065106987953186,
+              "vowel": "o",
+              "vowel_length": 0.06941603869199753,
+              "pitch": 5.258490085601807
+            },
+            {
+              "text": "オ",
+              "consonant": null,
+              "consonant_length": null,
+              "vowel": "o",
+              "vowel_length": 0.08217834681272507,
+              "pitch": 5.258490085601807
+            }
+          ],
+          "accent": 2,
+          "pause_mora": null,
+          "is_interrogative": false
+        },
+        {
+          "moras": [
+            {
+              "text": "シ",
+              "consonant": "sh",
+              "consonant_length": 0.1049366220831871,
+              "vowel": "i",
+              "vowel_length": 0.03266134858131409,
+              "pitch": 4.721949100494385
+            },
+            {
+              "text": "ナ",
+              "consonant": "n",
+              "consonant_length": 0.03355526179075241,
+              "vowel": "a",
+              "vowel_length": 0.09322964400053024,
+              "pitch": 4.656264781951904
+            },
+            {
+              "text": "イ",
+              "consonant": null,
+              "consonant_length": null,
+              "vowel": "i",
+              "vowel_length": 0.11137587577104568,
+              "pitch": 4.60479211807251
+            }
+          ],
+          "accent": 3,
+          "pause_mora": null,
+          "is_interrogative": false
+        }
+      ],
+      "speedScale": 1.0,
+      "pitchScale": 0.0,
+      "intonationScale": 1.0,
+      "volumeScale": 1.0,
+      "prePhonemeLength": 0.1,
+      "postPhonemeLength": 0.1,
+      "pauseLength": null,
+      "pauseLengthScale": 1.0,
+      "outputSamplingRate": 24000,
+      "outputStereo": false,
+      "kana": "シンヨオ'/シナイ'"
+    }
+  },
+  "信用する。": {
+    "pitch_shape": [
+      {
+        "surface": "信用",
+        "reading": "シンヨオ",
+        "phrase_index": 0,
+        "mora_count": 4,
+        "low_pitch": 4.776789951324463,
+        "high_pitch": 5.226789951324463,
+        "pattern": [
+          "low",
+          "high",
+          "high",
+          "high"
+        ],
+        "following_same_mora_count": 0,
+        "following_same_mora_pitch_delta": null
+      }
+    ],
+    "query": {
+      "accent_phrases": [
+        {
+          "moras": [
+            {
+              "text": "シ",
+              "consonant": "sh",
+              "consonant_length": 0.1529211401939392,
+              "vowel": "i",
+              "vowel_length": 0.0892166718840599,
+              "pitch": 4.776789951324463
+            },
+            {
+              "text": "ン",
+              "consonant": null,
+              "consonant_length": null,
+              "vowel": "N",
+              "vowel_length": 0.07615969330072403,
+              "pitch": 5.226789951324463
+            },
+            {
+              "text": "ヨ",
+              "consonant": "y",
+              "consonant_length": 0.04531412571668625,
+              "vowel": "o",
+              "vowel_length": 0.07094459980726242,
+              "pitch": 5.226789951324463
+            },
+            {
+              "text": "オ",
+              "consonant": null,
+              "consonant_length": null,
+              "vowel": "o",
+              "vowel_length": 0.0840330496430397,
+              "pitch": 5.226789951324463
+            }
+          ],
+          "accent": 2,
+          "pause_mora": null,
+          "is_interrogative": false
+        },
+        {
+          "moras": [
+            {
+              "text": "ス",
+              "consonant": "s",
+              "consonant_length": 0.10302809625864029,
+              "vowel": "u",
+              "vowel_length": 0.04407230764627457,
+              "pitch": 4.670045852661133
+            },
+            {
+              "text": "ル",
+              "consonant": "r",
+              "consonant_length": 0.025866739451885223,
+              "vowel": "u",
+              "vowel_length": 0.10704564303159714,
+              "pitch": 4.6063432693481445
+            }
+          ],
+          "accent": 2,
+          "pause_mora": null,
+          "is_interrogative": false
+        }
+      ],
+      "speedScale": 1.0,
+      "pitchScale": 0.0,
+      "intonationScale": 1.0,
+      "volumeScale": 1.0,
+      "prePhonemeLength": 0.1,
+      "postPhonemeLength": 0.1,
+      "pauseLength": null,
+      "pauseLengthScale": 1.0,
+      "outputSamplingRate": 24000,
+      "outputStereo": false,
+      "kana": "シンヨオ'/スル'"
+    }
+  },
+  "信用を確認する。": {
+    "pitch_shape": [
+      {
+        "surface": "信用",
+        "reading": "シンヨオ",
+        "phrase_index": 0,
+        "mora_count": 4,
+        "low_pitch": 4.842628765106201,
+        "high_pitch": 5.292628765106201,
+        "pattern": [
+          "low",
+          "high",
+          "high",
+          "high"
+        ],
+        "following_same_mora_count": 1,
+        "following_same_mora_pitch_delta": 0.0
+      }
+    ],
+    "query": {
+      "accent_phrases": [
+        {
+          "moras": [
+            {
+              "text": "シ",
+              "consonant": "sh",
+              "consonant_length": 0.1542663872241974,
+              "vowel": "i",
+              "vowel_length": 0.09175952523946762,
+              "pitch": 4.842628765106201
+            },
+            {
+              "text": "ン",
+              "consonant": null,
+              "consonant_length": null,
+              "vowel": "N",
+              "vowel_length": 0.07509059458971024,
+              "pitch": 5.292628765106201
+            },
+            {
+              "text": "ヨ",
+              "consonant": "y",
+              "consonant_length": 0.05075279623270035,
+              "vowel": "o",
+              "vowel_length": 0.08267778903245926,
+              "pitch": 5.292628765106201
+            },
+            {
+              "text": "オ",
+              "consonant": null,
+              "consonant_length": null,
+              "vowel": "o",
+              "vowel_length": 0.07756953686475754,
+              "pitch": 5.292628765106201
+            }
+          ],
+          "accent": 2,
+          "pause_mora": null,
+          "is_interrogative": false
+        },
+        {
+          "moras": [
+            {
+              "text": "オ",
+              "consonant": null,
+              "consonant_length": null,
+              "vowel": "o",
+              "vowel_length": 0.0775255337357521,
+              "pitch": 5.292628765106201
+            }
+          ],
+          "accent": 1,
+          "pause_mora": null,
+          "is_interrogative": false
+        },
+        {
+          "moras": [
+            {
+              "text": "カ",
+              "consonant": "k",
+              "consonant_length": 0.07258834689855576,
+              "vowel": "a",
+              "vowel_length": 0.06400097161531448,
+              "pitch": 4.772789001464844
+            },
+            {
+              "text": "ク",
+              "consonant": "k",
+              "consonant_length": 0.07104554772377014,
+              "vowel": "u",
+              "vowel_length": 0.044482238590717316,
+              "pitch": 4.81598424911499
+            },
+            {
+              "text": "ニ",
+              "consonant": "n",
+              "consonant_length": 0.03995290398597717,
+              "vowel": "i",
+              "vowel_length": 0.1011020764708519,
+              "pitch": 4.74215030670166
+            },
+            {
+              "text": "ン",
+              "consonant": null,
+              "consonant_length": null,
+              "vowel": "N",
+              "vowel_length": 0.060298047959804535,
+              "pitch": 4.672548770904541
+            }
+          ],
+          "accent": 4,
+          "pause_mora": null,
+          "is_interrogative": false
+        },
+        {
+          "moras": [
+            {
+              "text": "ス",
+              "consonant": "s",
+              "consonant_length": 0.10277616232633591,
+              "vowel": "u",
+              "vowel_length": 0.04352371394634247,
+              "pitch": 4.646151542663574
+            },
+            {
+              "text": "ル",
+              "consonant": "r",
+              "consonant_length": 0.022313043475151062,
+              "vowel": "u",
+              "vowel_length": 0.10853981226682663,
+              "pitch": 4.5818915367126465
+            }
+          ],
+          "accent": 2,
+          "pause_mora": null,
+          "is_interrogative": false
+        }
+      ],
+      "speedScale": 1.0,
+      "pitchScale": 0.0,
+      "intonationScale": 1.0,
+      "volumeScale": 1.0,
+      "prePhonemeLength": 0.1,
+      "postPhonemeLength": 0.1,
+      "pauseLength": null,
+      "pauseLengthScale": 1.0,
+      "outputSamplingRate": 24000,
+      "outputStereo": false,
+      "kana": "シンヨオオ'/カクニン'/スル'"
+    }
+  }
+}

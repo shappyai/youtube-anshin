@@ -1,0 +1,11 @@
+{
+  "episode_id": "006",
+  "approved_at": "2026-09-03T12:00:00+09:00",
+  "video": {
+    "draft_v2.mp4": "approved"
+  },
+  "thumbnail": {
+    "assets/thumbnail/thumbnail.png": "approved"
+  },
+  "notes": "draft_v2を全編確認し問題なし（人間）。readability 7scene・PIN発音・字幕同期OK。finalizeはbyte copyで実施（SHA一致確認済み）。タイトル・概要欄・チャプター・サムネイル・AI開示候補は公開準備工程で承認。"
+}

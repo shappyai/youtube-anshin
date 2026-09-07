@@ -1,0 +1,201 @@
+{
+  "short_id": "Short003",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "frame_rows": [
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames\\scene_01_seg_01_cue_01.png",
+      "duration_sec": 2.8906666666666667,
+      "start_sec": 0.0,
+      "end_sec": 2.8906666666666667,
+      "scene": 1,
+      "segment_id": 1,
+      "subtitle": [
+        "カードをスマホに？"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames\\scene_02_seg_02_cue_01.png",
+      "duration_sec": 1.5263999999999998,
+      "start_sec": 2.9606666666666666,
+      "end_sec": 4.487066666666666,
+      "scene": 2,
+      "segment_id": 2,
+      "subtitle": [
+        "マイナポータル"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames\\scene_02_seg_02_cue_02.png",
+      "duration_sec": 1.5263999999999998,
+      "start_sec": 4.487066666666666,
+      "end_sec": 6.013466666666666,
+      "scene": 2,
+      "segment_id": 2,
+      "subtitle": [
+        "コンビニの証明書"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames\\scene_02_seg_02_cue_03.png",
+      "duration_sec": 2.0351999999999997,
+      "start_sec": 6.013466666666666,
+      "end_sec": 8.048666666666666,
+      "scene": 2,
+      "segment_id": 2,
+      "subtitle": [
+        "e-Taxなど"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames\\scene_03_seg_03_cue_01.png",
+      "duration_sec": 5.514666666666667,
+      "start_sec": 8.118666666666666,
+      "end_sec": 13.633333333333333,
+      "scene": 3,
+      "segment_id": 3,
+      "subtitle": [
+        "対応する医療機関・薬局",
+        "対応時はマイナ保険証も"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames\\scene_04_seg_04_cue_01.png",
+      "duration_sec": 4.885333333333335,
+      "start_sec": 13.703333333333333,
+      "end_sec": 18.58866666666667,
+      "scene": 4,
+      "segment_id": 4,
+      "subtitle": [
+        "iPhone / Androidで違いあり"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames\\scene_05_seg_05_cue_01.png",
+      "duration_sec": 2.150400000000001,
+      "start_sec": 18.65866666666667,
+      "end_sec": 20.80906666666667,
+      "scene": 5,
+      "segment_id": 5,
+      "subtitle": [
+        "実物カードが必要な場面も"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames\\scene_05_seg_05_cue_02.png",
+      "duration_sec": 3.2256,
+      "start_sec": 20.80906666666667,
+      "end_sec": 24.03466666666667,
+      "scene": 5,
+      "segment_id": 5,
+      "subtitle": [
+        "スマホだけで全部、",
+        "ではありません"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames\\scene_06_seg_06_cue_01.png",
+      "duration_sec": 3.2319999999999993,
+      "start_sec": 24.10466666666667,
+      "end_sec": 27.33666666666667,
+      "scene": 6,
+      "segment_id": 6,
+      "subtitle": [
+        "困ったときのために",
+        "登録しておいてください"
+      ]
+    }
+  ],
+  "subtitle_cues": [
+    {
+      "number": 1,
+      "segment_id": 1,
+      "start_sec": 0.0,
+      "end_sec": 2.8906666666666667,
+      "text_lines": [
+        "カードをスマホに？"
+      ]
+    },
+    {
+      "number": 2,
+      "segment_id": 2,
+      "start_sec": 2.9606666666666666,
+      "end_sec": 4.487066666666666,
+      "text_lines": [
+        "マイナポータル"
+      ]
+    },
+    {
+      "number": 3,
+      "segment_id": 2,
+      "start_sec": 4.487066666666666,
+      "end_sec": 6.013466666666666,
+      "text_lines": [
+        "コンビニの証明書"
+      ]
+    },
+    {
+      "number": 4,
+      "segment_id": 2,
+      "start_sec": 6.013466666666666,
+      "end_sec": 8.048666666666666,
+      "text_lines": [
+        "e-Taxなど"
+      ]
+    },
+    {
+      "number": 5,
+      "segment_id": 3,
+      "start_sec": 8.118666666666666,
+      "end_sec": 13.633333333333333,
+      "text_lines": [
+        "対応する医療機関・薬局",
+        "対応時はマイナ保険証も"
+      ]
+    },
+    {
+      "number": 6,
+      "segment_id": 4,
+      "start_sec": 13.703333333333333,
+      "end_sec": 18.58866666666667,
+      "text_lines": [
+        "iPhone / Androidで違いあり"
+      ]
+    },
+    {
+      "number": 7,
+      "segment_id": 5,
+      "start_sec": 18.65866666666667,
+      "end_sec": 20.80906666666667,
+      "text_lines": [
+        "実物カードが必要な場面も"
+      ]
+    },
+    {
+      "number": 8,
+      "segment_id": 5,
+      "start_sec": 20.80906666666667,
+      "end_sec": 24.03466666666667,
+      "text_lines": [
+        "スマホだけで全部、",
+        "ではありません"
+      ]
+    },
+    {
+      "number": 9,
+      "segment_id": 6,
+      "start_sec": 24.10466666666667,
+      "end_sec": 27.33666666666667,
+      "text_lines": [
+        "困ったときのために",
+        "登録しておいてください"
+      ]
+    }
+  ],
+  "render_mode": "renderer_native",
+  "real_ui_count": 0,
+  "subtitle_rule": "実音声のsegment時間を基礎に、意味単位の固定weightでcueを割り当てた。文字数按分ではない。"
+}

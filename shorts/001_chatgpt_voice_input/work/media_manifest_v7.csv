@@ -1,0 +1,7 @@
+﻿path,kind,source,status,note
+assets/imagegen_native_v7/normalized/short001_dictation_hook.png,imagegen_native_new,built-in image_gen,used_in_draft_v7,hook。exact text：ChatGPT、文字を打たなくても使える？。
+assets/official_v7/chatgpt_dictation_capture.mp4,real_user_dictation_capture,shorts/work/ChatGPT Voice画面録画.MP4,used_in_draft_v7_9sec,ユーザー提供実録画。source interval=3.800–12.800s。fake UIなし。
+assets/official_v7/normalized/dictation_intro_focus.png,real_capture_focus_crop,shorts/work/ChatGPT Voice画面録画.MP4,used_in_draft_v7,マイク入力中の実画面crop。
+assets/official_v7/normalized/dictation_text_focus.png,real_capture_focus_crop,shorts/work/ChatGPT Voice画面録画.MP4,used_in_draft_v7,文字化後の実画面crop。質問文：冷蔵庫にキャベツがあります。簡単な料理を教えてください。
+assets/imagegen_native_v7/normalized/short001_dictation_conclusion.png,imagegen_native_new,built-in image_gen,used_in_draft_v7,結論。exact text：文字を打たずに質問。
+assets/official_v7/channel_icon.png,canonical_channel_icon,local/channel/icon.png,used_in_draft_v7_cta,実チャンネルアイコン180px＋大人のデジタル安心室。疑似subscribeなし。

@@ -1,0 +1,28 @@
+{
+  "schema_version": "human-review-v1",
+  "reviewed_on": "2026-09-07",
+  "reviewer": "human",
+  "scope": "Short001 draft_v8",
+  "video": {
+    "draft_v8": "approved"
+  },
+  "thumbnail": {
+    "path": "assets/thumbnail_candidate/first_frame_thumbnail_candidate.png",
+    "status": "approved"
+  },
+  "checks": {
+    "real_dictation_ui": "PASS",
+    "real_chatgpt_answer": "PASS",
+    "fake_ui": 0,
+    "official_ui_ai_reconstruction": 0,
+    "voice_dictation_confusion": 0,
+    "privacy_fail": 0,
+    "chatgpt_pronunciation": "PASS",
+    "subtitle_overflow": 0,
+    "shorts_ui_overlap": 0,
+    "cta": "PASS",
+    "fact_fail": 0
+  },
+  "decision": "approved_for_finalize_and_private_upload",
+  "notes": "ok /codex 公開。Short002 / Short003は変更禁止。即時publicではなく、規約に従いprivateで登録する。"
+}

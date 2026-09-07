@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "segment_id": 1,
+      "status": "PASS",
+      "moras": [
+        {
+          "text": "チャ",
+          "pitch": 4.85564661026001,
+          "accent": 3
+        },
+        {
+          "text": "ッ",
+          "pitch": 0.0,
+          "accent": 3
+        },
+        {
+          "text": "ト",
+          "pitch": 5.194767951965332,
+          "accent": 3
+        }
+      ],
+      "expected": "チャ・ッ・ト / トを3モーラ目のアクセントピーク"
+    },
+    {
+      "segment_id": 2,
+      "status": "PASS",
+      "moras": null,
+      "applicable": false,
+      "expected": "ChatGPTを含まないため対象外"
+    },
+    {
+      "segment_id": 4,
+      "status": "PASS",
+      "moras": null,
+      "applicable": false,
+      "expected": "ChatGPTを含まないため対象外"
+    },
+    {
+      "segment_id": 5,
+      "status": "PASS",
+      "moras": null,
+      "applicable": false,
+      "expected": "ChatGPTを含まないため対象外"
+    }
+  ]
+}

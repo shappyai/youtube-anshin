@@ -1,0 +1,304 @@
+{
+  "short_id": "Short003",
+  "version": "v3",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "audio_path": "audio/narration_v3.wav",
+  "audio_reused": true,
+  "audio_gap_sec": 0.07,
+  "major_visual_count": 3,
+  "major_visuals": [
+    {
+      "id": "A",
+      "role": "冒頭",
+      "segments": [
+        1,
+        2
+      ],
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "headline_lines": [
+        "カードを",
+        "スマホに？"
+      ],
+      "purpose": "できることへの入口",
+      "range_sec": [
+        0.0,
+        8.048666666666666
+      ]
+    },
+    {
+      "id": "B",
+      "role": "行動",
+      "segments": [
+        3,
+        4
+      ],
+      "asset": "assets/imagegen_native_v2/normalized/scene_03_health.png",
+      "headline_lines": [
+        "保険証として",
+        "使える場合も"
+      ],
+      "purpose": "生活利用と条件を一続きで示す",
+      "range_sec": [
+        8.118666666666666,
+        18.58866666666667
+      ]
+    },
+    {
+      "id": "C",
+      "role": "結論",
+      "segments": [
+        5,
+        6
+      ],
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_conclusion.png",
+      "headline_lines": [
+        "スマホだけで",
+        "全部ではない"
+      ],
+      "purpose": "条件付きの結論を保ったままCTAを重ねる",
+      "range_sec": [
+        18.65866666666667,
+        27.33666666666667
+      ]
+    }
+  ],
+  "frame_rows": [
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v3\\major_A_seg_01_cue_01.png",
+      "duration_sec": 2.8906666666666667,
+      "start_sec": 0.0,
+      "end_sec": 2.8906666666666667,
+      "major_visual": "A",
+      "role": "冒頭",
+      "segment_id": 1,
+      "cue_number": 1,
+      "subtitle": [
+        "スマホに入れると",
+        "何ができる？"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v3\\major_A_seg_01_cue_01.png",
+      "duration_sec": 0.06999999999999984,
+      "start_sec": 2.8906666666666667,
+      "end_sec": 2.9606666666666666,
+      "major_visual": "A",
+      "role": "冒頭",
+      "segment_id": 1,
+      "cue_number": 1,
+      "subtitle": [
+        "スマホに入れると",
+        "何ができる？"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v3\\major_A_seg_02_cue_02.png",
+      "duration_sec": 1.5263999999999998,
+      "start_sec": 2.9606666666666666,
+      "end_sec": 4.487066666666666,
+      "major_visual": "A",
+      "role": "冒頭",
+      "segment_id": 2,
+      "cue_number": 2,
+      "subtitle": [
+        "マイナポータル"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v3\\major_A_seg_02_cue_03.png",
+      "duration_sec": 1.5263999999999998,
+      "start_sec": 4.487066666666666,
+      "end_sec": 6.013466666666666,
+      "major_visual": "A",
+      "role": "冒頭",
+      "segment_id": 2,
+      "cue_number": 3,
+      "subtitle": [
+        "コンビニの証明書"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v3\\major_A_seg_02_cue_04.png",
+      "duration_sec": 2.0351999999999997,
+      "start_sec": 6.013466666666666,
+      "end_sec": 8.048666666666666,
+      "major_visual": "A",
+      "role": "冒頭",
+      "segment_id": 2,
+      "cue_number": 4,
+      "subtitle": [
+        "e-Taxなど"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v3\\major_A_seg_02_cue_04.png",
+      "duration_sec": 0.07000000000000028,
+      "start_sec": 8.048666666666666,
+      "end_sec": 8.118666666666666,
+      "major_visual": "A",
+      "role": "冒頭",
+      "segment_id": 2,
+      "cue_number": 4,
+      "subtitle": [
+        "e-Taxなど"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v3\\major_B_seg_03_cue_05.png",
+      "duration_sec": 5.514666666666667,
+      "start_sec": 8.118666666666666,
+      "end_sec": 13.633333333333333,
+      "major_visual": "B",
+      "role": "行動",
+      "segment_id": 3,
+      "cue_number": 5,
+      "subtitle": [
+        "医療機関や薬局で",
+        "使えることも"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_03_health.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v3\\major_B_seg_03_cue_05.png",
+      "duration_sec": 0.07000000000000028,
+      "start_sec": 13.633333333333333,
+      "end_sec": 13.703333333333333,
+      "major_visual": "B",
+      "role": "行動",
+      "segment_id": 3,
+      "cue_number": 5,
+      "subtitle": [
+        "医療機関や薬局で",
+        "使えることも"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_03_health.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v3\\major_B_seg_04_cue_06.png",
+      "duration_sec": 4.885333333333335,
+      "start_sec": 13.703333333333333,
+      "end_sec": 18.58866666666667,
+      "major_visual": "B",
+      "role": "行動",
+      "segment_id": 4,
+      "cue_number": 6,
+      "subtitle": [
+        "端末で違いあり"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_03_health.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v3\\major_B_seg_04_cue_06.png",
+      "duration_sec": 0.07000000000000028,
+      "start_sec": 18.58866666666667,
+      "end_sec": 18.65866666666667,
+      "major_visual": "B",
+      "role": "行動",
+      "segment_id": 4,
+      "cue_number": 6,
+      "subtitle": [
+        "端末で違いあり"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_03_health.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v3\\major_C_seg_05_cue_07.png",
+      "duration_sec": 5.376000000000001,
+      "start_sec": 18.65866666666667,
+      "end_sec": 24.03466666666667,
+      "major_visual": "C",
+      "role": "結論",
+      "segment_id": 5,
+      "cue_number": 7,
+      "subtitle": [
+        "実物カードが",
+        "必要な場面も"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_conclusion.png"
+    },
+    {
+      "kind": "audio_gap_hold",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v3\\major_C_seg_05_cue_07.png",
+      "duration_sec": 0.07000000000000028,
+      "start_sec": 24.03466666666667,
+      "end_sec": 24.10466666666667,
+      "major_visual": "C",
+      "role": "結論",
+      "segment_id": 5,
+      "cue_number": 7,
+      "subtitle": [
+        "実物カードが",
+        "必要な場面も"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_conclusion.png"
+    },
+    {
+      "kind": "subtitle_frame",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\003_mynumber_smartphone\\work\\rendered_frames_v3\\major_C_seg_06_cue_08.png",
+      "duration_sec": 3.2319999999999993,
+      "start_sec": 24.10466666666667,
+      "end_sec": 27.33666666666667,
+      "major_visual": "C",
+      "role": "結論",
+      "segment_id": 6,
+      "cue_number": 8,
+      "subtitle": [
+        "困ったときのために",
+        "登録しておいてください"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_conclusion.png"
+    }
+  ],
+  "cue_frame_count": 8,
+  "mode_counts": {
+    "imagegen_native": 8,
+    "renderer_native": 0
+  },
+  "motion": {
+    "type": "slow_zoom",
+    "from": 1.05,
+    "to": 1.12,
+    "pan": "gentle_centered"
+  },
+  "dedicated_cta_scene": 0,
+  "cta_visual": "final_major_visual_C",
+  "headline_subtitle_duplicate_count": 0,
+  "no_image_text_hybrid": true,
+  "viewer_facing_short_id": 0,
+  "fake_ui": 0,
+  "official_ui_ai_reconstruction": 0
+}

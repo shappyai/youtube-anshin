@@ -1,0 +1,203 @@
+{
+  "short_id": "Short002",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "frame_rows": [
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames\\scene_01_seg_01_cue_01.png",
+      "duration_sec": 3.328,
+      "start_sec": 0.0,
+      "end_sec": 3.328,
+      "scene": 1,
+      "segment_id": 1,
+      "subtitle": [
+        "このメール、本物？"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames\\scene_02_seg_02_cue_01.png",
+      "duration_sec": 5.973333333333333,
+      "start_sec": 3.3979999999999997,
+      "end_sec": 9.371333333333332,
+      "scene": 2,
+      "segment_id": 2,
+      "subtitle": [
+        "名前・住所・電話番号を隠す",
+        "番号類も隠す"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames\\scene_03_seg_03_cue_01.png",
+      "duration_sec": 5.002666666666666,
+      "start_sec": 9.441333333333333,
+      "end_sec": 14.443999999999999,
+      "scene": 3,
+      "segment_id": 3,
+      "subtitle": [
+        "AIは整理の補助",
+        "怪しい点を洗い出す"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames\\scene_04_seg_04_cue_01.png",
+      "duration_sec": 3.6479999999999997,
+      "start_sec": 14.514,
+      "end_sec": 18.162,
+      "scene": 4,
+      "segment_id": 4,
+      "subtitle": [
+        "AIだけで決めない"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames\\scene_05_seg_05_cue_01.png",
+      "duration_sec": 2.0622222222222213,
+      "start_sec": 18.232,
+      "end_sec": 20.29422222222222,
+      "scene": 5,
+      "segment_id": 5,
+      "subtitle": [
+        "メールのリンクは開かない"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames\\scene_05_seg_05_cue_02.png",
+      "duration_sec": 2.0622222222222213,
+      "start_sec": 20.29422222222222,
+      "end_sec": 22.356444444444442,
+      "scene": 5,
+      "segment_id": 5,
+      "subtitle": [
+        "公式アプリから"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames\\scene_05_seg_05_cue_03.png",
+      "duration_sec": 2.0622222222222213,
+      "start_sec": 22.356444444444442,
+      "end_sec": 24.418666666666663,
+      "scene": 5,
+      "segment_id": 5,
+      "subtitle": [
+        "ブックマークから確認"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames\\scene_06_seg_06_cue_01.png",
+      "duration_sec": 3.189333333333334,
+      "start_sec": 24.488666666666667,
+      "end_sec": 27.678,
+      "scene": 6,
+      "segment_id": 6,
+      "subtitle": [
+        "AIは補助",
+        "最後は公式から確認"
+      ]
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames\\scene_06_seg_07_cue_01.png",
+      "duration_sec": 3.2319999999999993,
+      "start_sec": 27.748,
+      "end_sec": 30.98,
+      "scene": 6,
+      "segment_id": 7,
+      "subtitle": [
+        "困ったときのために",
+        "登録しておいてください"
+      ]
+    }
+  ],
+  "subtitle_cues": [
+    {
+      "number": 1,
+      "segment_id": 1,
+      "start_sec": 0.0,
+      "end_sec": 3.328,
+      "text_lines": [
+        "このメール、本物？"
+      ]
+    },
+    {
+      "number": 2,
+      "segment_id": 2,
+      "start_sec": 3.3979999999999997,
+      "end_sec": 9.371333333333332,
+      "text_lines": [
+        "名前・住所・電話番号を隠す",
+        "番号類も隠す"
+      ]
+    },
+    {
+      "number": 3,
+      "segment_id": 3,
+      "start_sec": 9.441333333333333,
+      "end_sec": 14.443999999999999,
+      "text_lines": [
+        "AIは整理の補助",
+        "怪しい点を洗い出す"
+      ]
+    },
+    {
+      "number": 4,
+      "segment_id": 4,
+      "start_sec": 14.514,
+      "end_sec": 18.162,
+      "text_lines": [
+        "AIだけで決めない"
+      ]
+    },
+    {
+      "number": 5,
+      "segment_id": 5,
+      "start_sec": 18.232,
+      "end_sec": 20.29422222222222,
+      "text_lines": [
+        "メールのリンクは開かない"
+      ]
+    },
+    {
+      "number": 6,
+      "segment_id": 5,
+      "start_sec": 20.29422222222222,
+      "end_sec": 22.356444444444442,
+      "text_lines": [
+        "公式アプリから"
+      ]
+    },
+    {
+      "number": 7,
+      "segment_id": 5,
+      "start_sec": 22.356444444444442,
+      "end_sec": 24.418666666666663,
+      "text_lines": [
+        "ブックマークから確認"
+      ]
+    },
+    {
+      "number": 8,
+      "segment_id": 6,
+      "start_sec": 24.488666666666667,
+      "end_sec": 27.678,
+      "text_lines": [
+        "AIは補助",
+        "最後は公式から確認"
+      ]
+    },
+    {
+      "number": 9,
+      "segment_id": 7,
+      "start_sec": 27.748,
+      "end_sec": 30.98,
+      "text_lines": [
+        "困ったときのために",
+        "登録しておいてください"
+      ]
+    }
+  ],
+  "render_mode": "renderer_native",
+  "real_ui_count": 0,
+  "subtitle_rule": "実音声のsegment時間を基礎に、意味単位の固定weightでcueを割り当てた。文字数按分ではない。"
+}

@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "reviewed_at": "2026-09-06",
+  "source": {
+    "path": "assets/thumbnail/thumbnail_source.png",
+    "bytes": 1836450,
+    "sha256": "3856F3FF36EBEF575B712E5DD5B5648773B77BDE215052E6F4E910A3F9739F96",
+    "dimensions": "1672x941",
+    "format": "PNG"
+  },
+  "selected": {
+    "path": "assets/thumbnail/thumbnail.png",
+    "bytes": 1129358,
+    "sha256": "A918228AFCCCB45EF3DE51832CC94781302B83C38B811083586A6B842C642830",
+    "dimensions": "1280x720",
+    "format": "PNG",
+    "mode": "RGB",
+    "metadata_keys": [],
+    "max_bytes": 2097152
+  },
+  "normalization": {
+    "operation": "resize_only",
+    "resampling": "LANCZOS",
+    "content_modification": false,
+    "new_thumbnail_generated": false,
+    "original_preserved": true
+  },
+  "visual_checks": {
+    "clipping": 0,
+    "text_render_error": 0,
+    "face_obstruction": 0,
+    "watermark": 0,
+    "viewer_facing_internal_episode_id": 0,
+    "readability_at_25_percent": "PASS",
+    "human_visual_check": "PASS"
+  },
+  "review_image": "work/thumbnail_review/thumbnail_25.png"
+}

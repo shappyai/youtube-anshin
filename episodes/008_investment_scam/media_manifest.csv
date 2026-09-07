@@ -1,0 +1,64 @@
+shot_id,filename,use,notes,status,source_url,organization,captured_at,intended_scene,crop_note
+IMG-001,assets/generated_ai/scene_001.png,オープニング（その投資広告、本物？）,imagegen_native・実在人物を描かない・exact text QA必須。,pending,imagegen_native,--,2026-09-05,SCENE-001,full_bleed 1920x1080
+IMG-002,assets/generated_ai/scene_004.png,1/3セクション扉（広告の有名人を、そのまま信用しない）,imagegen_native・1/3 pillはCodex overlay。,pending,imagegen_native,--,2026-09-05,SCENE-004,full_bleed 1920x1080
+IMG-003,assets/generated_ai/scene_006.png,なりすまし広告の概念（本人がすすめているとは限らない）,imagegen_native・顔はシルエット・実在人物を想起させない。,pending,imagegen_native,--,2026-09-05,SCENE-006,full_bleed 1920x1080
+IMG-004,assets/generated_ai/scene_008.png,2/3セクション扉（LINEに誘導されたら、一度止まる）,imagegen_native・2/3 pillはCodex overlay。,pending,imagegen_native,--,2026-09-05,SCENE-008,full_bleed 1920x1080
+IMG-005,assets/generated_ai/scene_013.png,3/3セクション扉（送金する前に、登録と振込先を確認）,imagegen_native・3/3 pillはCodex overlay。,pending,imagegen_native,--,2026-09-05,SCENE-013,full_bleed 1920x1080
+OFF-001,assets/official/search_fsa_capture.png,金融庁 金融事業者一括検索（登録確認画面）,draftではcaptureを追加せずテンプレートSCENE-014を採用。URLは説明欄へ。,deferred,https://search.fsa.go.jp/,金融庁,2026-09-05,SCENE-014,可読性優先・未取得
+RENDER-002,work/rendered_final_scenes/scene_002.png,SCENE-002 テンプレート描画,,ready,--,--,2026-09-05,SCENE-002,1920x1080
+RENDER-003,work/rendered_final_scenes/scene_003.png,SCENE-003 テンプレート描画,,ready,--,--,2026-09-05,SCENE-003,1920x1080
+RENDER-005,work/rendered_final_scenes/scene_005.png,SCENE-005 テンプレート描画,,ready,--,--,2026-09-05,SCENE-005,1920x1080
+RENDER-007,work/rendered_final_scenes/scene_007.png,SCENE-007 テンプレート描画,,ready,--,--,2026-09-05,SCENE-007,1920x1080
+RENDER-009,work/rendered_final_scenes/scene_009.png,SCENE-009 テンプレート描画,,ready,--,--,2026-09-05,SCENE-009,1920x1080
+RENDER-010,work/rendered_final_scenes/scene_010.png,SCENE-010 テンプレート描画,,ready,--,--,2026-09-05,SCENE-010,1920x1080
+RENDER-011,work/rendered_final_scenes/scene_011.png,SCENE-011 テンプレート描画,,ready,--,--,2026-09-05,SCENE-011,1920x1080
+RENDER-012,work/rendered_final_scenes/scene_012.png,SCENE-012 テンプレート描画,,ready,--,--,2026-09-05,SCENE-012,1920x1080
+RENDER-014,work/rendered_final_scenes/scene_014.png,SCENE-014 テンプレート描画（出典: 金融庁）,,ready,--,--,2026-09-05,SCENE-014,1920x1080
+RENDER-015,work/rendered_final_scenes/scene_015.png,SCENE-015 テンプレート描画（比較）,,ready,--,--,2026-09-05,SCENE-015,1920x1080
+RENDER-016,work/rendered_final_scenes/scene_016.png,SCENE-016 テンプレート描画,,ready,--,--,2026-09-05,SCENE-016,1920x1080
+RENDER-017,work/rendered_final_scenes/scene_017.png,SCENE-017 テンプレート描画,,ready,--,--,2026-09-05,SCENE-017,1920x1080
+RENDER-018,work/rendered_final_scenes/scene_018.png,SCENE-018 テンプレート描画,,ready,--,--,2026-09-05,SCENE-018,1920x1080
+BG-008-SRC,assets/background.png,ユーザー提供の共通背景（原本）,元画像は変更せず保存。v3のnormalized copyの入力。,ready,user-provided,--,2026-09-05,SCENE-002;003;005;007;009;010;011;012;014;015;016;017;018,1672x941 RGB
+BG-008-NORM,../../assets/backgrounds/adult_digital_soft_v2.png,ユーザー提供背景（normalized）,cover＋LANCZOSで1920x1080。overlay decorationsなし。,ready,--,--,2026-09-05,SCENE-002;003;005;007;009;010;011;012;014;015;016;017;018,1920x1080 RGB
+REVIEW-V3,work/visual_review/scene_contact_sheet_v3.png,Episode 008 Visual Gate v3 contact sheet,ユーザー提供背景版。native 5sceneは再生成なし。,review,--,--,2026-09-05,SCENE-ALL,1920x1080 thumbnails
+REVIEW-BG-COMPARE,work/visual_review/background_before_after.png,Visual Gate v2/v3 背景比較,左=v2、右=ユーザー提供背景版。,review,--,--,2026-09-05,SCENE-002;005;007;009;012;015;017;018,background review
+RENDER-V4,work/rendered_final_scenes_v4/,Episode 008 Visual Gate v4 template render,背景不変・section pill左上・中央軸x=960・常設チャンネル名削除。,ready,--,--,2026-09-05,SCENE-002;003;005;007;009;010;011;012;014;015;016;017;018,1920x1080 PNGs
+RENDER-V5,work/rendered_final_scenes_v5/,Episode 008 Visual Gate v5 template render,上部semantic iconを可視グリフ中心で正規化・背景/section pill/既存レイアウト不変。,ready,--,--,2026-09-05,SCENE-002;003;005;007;009;010;011;012;014;015;016;017;018,1920x1080 PNGs
+REVIEW-V4,work/visual_review/scene_contact_sheet_v4.png,Episode 008 Visual Gate v4 contact sheet,18scene・template13/native5・背景不変・人間Gate 2待ち。,review,--,--,2026-09-05,SCENE-ALL,1920x1080 thumbnails
+REVIEW-ALIGNMENT-V4,work/visual_review/alignment_before_after.png,Visual Gate v3/v4 整列比較,左=v3・右=v4。SCENE-002;005;007;009;012;015;017。,review,--,--,2026-09-05,SCENE-002;005;007;009;012;015;017,v3-v4 alignment review
+QA-V4,work/visual_review/visual_gate_v4_qa.md,Episode 008 Visual Gate v4 QA,visual_axis_alignment・stacked_panel_alignment・section_pill_anchor・repeated_channel_nameを含む。,ready,--,--,2026-09-05,SCENE-ALL,18 OK 0 WARN 0 FAIL
+AUDIO-008,audio/voicevox_kenzaki/narration_kenzaki_auto.wav,VOICEVOX本編ナレーション,剣崎雌雄・ノーマル・speed 1.00・実測321.804秒,ready,--,VOICEVOX,2026-09-05,ALL,24000Hz mono WAV
+CTA-AUDIO-008,audio/voicevox_kenzaki/cta_channel_common.wav,channel_common_cta音声,剣崎雌雄・canonical hash一致・11.563秒,ready,--,VOICEVOX,2026-09-05,CTA,24000Hz mono WAV
+CTA-IMAGE-008,work/channel_cta.png,channel_common_cta画面,右40〜45% reserved・疑似subscribe iconなし・15秒画面,ready,--,--,2026-09-05,CTA,1920x1080 PNG
+SUBTITLE-TIMING-008,work/subtitle_cue_timing.json,split cue実時間補助,VOICEVOX audio_query mora duration・文字数按分なし,ready,--,VOICEVOX,2026-09-05,ALL,122 cue measurements
+CAPTIONS-008,captions.srt,字幕本体,SRT・ASSを実測audio_timingから生成・最小72px,ready,--,--,2026-09-05,ALL,122 cues
+PRON-REVIEW-008,work/phase_b_review/pronunciation/approval.md,発音review,preview12語・context4件PASS・global辞書変更なし,ready,--,VOICEVOX,2026-09-05,ALL,review report
+DRAFT-V1,output/draft_v1.mp4,Phase B draft_v1,Visual Gate v5固定・H.264 1920x1080 30fps・AAC 48kHz,ready,--,--,2026-09-05,ALL,336.803秒
+QA-FRAMES-V1,work/qa_frames_draft_v1/,draft代表フレーム,18scene＋CTA・contact sheet付き・全編人間視聴待ち,review,--,--,2026-09-05,SCENE-ALL,19 PNGs
+AUDIO-008-V2,work/draft_v2/audio/voicevox_kenzaki/narration_kenzaki_auto.wav,Phase B draft_v2本編ナレーション,剣崎雌雄・ノーマル・5segment再生成・58segmentはdraft_v1 WAVを再利用・321.868秒,ready,--,VOICEVOX,2026-09-05,ALL,24000Hz mono WAV
+PRON-FIX-V2,work/phase_b_review/pronunciation_fix_v2/pronunciation_fix_v2.json,draft_v1人間レビュー発音修正,信用006/011/059・今だけ031・188052を再生成。0570-050588055はv1音声再利用。,review,--,VOICEVOX,2026-09-05,006;011;031;052;055;059,preview WAV＋audio_query
+SUBTITLE-TIMING-008-V2,work/draft_v2/subtitle_cue_timing.json,draft_v2字幕実測タイミング,実測WAV＋audio_query mora duration。0570-050588は公式数字表示。,ready,--,VOICEVOX,2026-09-05,ALL,121 cue measurements
+CAPTIONS-008-V2,work/draft_v2/captions.srt,draft_v2字幕本体,SRT・ASSをdraft_v2 timingから生成。0570-050588表示・tts_reading_leakage 0。,ready,--,--,2026-09-05,ALL,121 cues・最小72px
+CTA-IMAGE-008-V2,work/channel_cta_v2.png,draft_v2 CTA画面,説明文を56px・3行で全文表示。お届けします。まで表示・右40〜45% reserved・疑似subscribeなし。,ready,--,--,2026-09-05,CTA,1920x1080 PNG
+CTA-QA-008-V2,work/draft_v2/cta_full_text_visible_v2.json,draft_v2 CTA QA,cta_full_text_visible PASS・description 56px/3行・CTA 60px/2行・clipping 0。,ready,--,--,2026-09-05,CTA,canonical text complete
+DRAFT-V2,output/draft_v2.mp4,Phase B draft_v2,Visual Gate v5固定・H.264 1920x1080 30fps・AAC 48kHz mono・336.870秒,review,--,--,2026-09-05,ALL,draft_v1 human review local fixes
+QA-V2,work/draft_v2/phase2_qa.md,draft_v2 Phase 2 QA,FAIL 0・WARN 0・decode/black/silence blocking指摘0・Visual Gate v5 regression 0。,ready,--,--,2026-09-05,ALL,mechanical QA PASS
+QA-FRAMES-V2,work/qa_frames_draft_v2/,draft_v2代表フレーム,0:26・2:45・4:32・4:44・CTA 5:27付近・CTA終盤とcontact sheetを保存。人間再確認待ち。,review,--,--,2026-09-05,SCENE-ALL;CTA,6 PNGs＋contact sheet
+AUDIO-008-V3,work/draft_v3/audio/voicevox_kenzaki/narration_kenzaki_auto.wav,Phase B draft_v3本編ナレーション,剣崎雌雄・ノーマル・信用3segmentのみ再生成・60segmentはdraft_v2 WAVを再利用・321.868秒,ready,--,VOICEVOX,2026-09-05,ALL,24000Hz mono WAV
+PRON-FIX-V3,work/phase_b_review/pronunciation_fix_v3/pronunciation_fix_v3.md,draft_v2人間レビュー信用再修正,seg006/011/059をLOW-HIGH-HIGH-HIGH plateauへ修正。辞書は1 approved entryへ更新。,review,--,VOICEVOX,2026-09-05,006;011;059,manual tuning provenance
+AUDIO-QUERY-CREDIT-V3,work/phase_b_review/pronunciation_fix_v3/credit_audio_queries.json,信用3segment audio_query,seg006/011/059のVOICEVOX audio_query抜粋。mora pitchと読みを保存。,ready,--,VOICEVOX,2026-09-05,006;011;059,JSON
+PITCH-QA-008-V3,work/phase_b_review/pronunciation_fix_v3/approved_pitch_shape_match.json,信用 pitch shape QA,approved_pitch_shape_match PASS・first low・second rise・later plateau・tolerance 1e-6。,ready,--,VOICEVOX,2026-09-05,006;011;059,3/3 PASS
+PITCH-CONTEXT-008-V3,work/phase_b_review/pronunciation_fix_v3/context_queries.json,信用 context query,信用しない・信用する・信用をを確認。信用をのO-O pitch delta 0.0。,ready,--,VOICEVOX,2026-09-05,CONTEXT,3 queries
+CAPTIONS-008-V3,work/draft_v3/captions.srt,draft_v3字幕本体,draft_v2のSRT・ASS・timingを完全再利用。subtitle regression 0・0570-050588数字表示維持。,ready,--,--,2026-09-05,ALL,v2 hash equal
+CTA-QA-008-V3,work/draft_v3/cta_full_text_visible.json,draft_v3 CTA QA,draft_v2承認済みCTAを再利用。cta_full_text_visible PASS・お届けします。まで表示。,ready,--,--,2026-09-05,CTA,canonical text complete
+DRAFT-V3,output/draft_v3.mp4,Phase B draft_v3,Visual Gate v5固定・H.264 1920x1080 30fps・AAC 48kHz mono・336.870秒・人間承認済み,ready,--,--,2026-09-05,ALL,信用 prosody local fix
+QA-V3,work/draft_v3/phase2_qa.md,draft_v3 Phase 2 QA,FAIL 0・WARN 0・decode/black/silence blocking指摘0・Visual Gate v5/subtitle regression 0。,ready,--,--,2026-09-05,ALL,mechanical QA PASS
+QA-FRAMES-V3,work/qa_frames_draft_v3/,draft_v3代表フレーム,信用約0:26・0:41・4:58・既存修正2:45/4:32/4:44・CTA 5:27付近を保存。人間再確認待ち。,review,--,--,2026-09-05,SCENE-ALL;CTA,6 PNGs＋contact sheet
+THUMBNAIL-SOURCE-008,assets/thumbnail/thumbnail_source.png,ユーザー提供thumbnail原本,ChatGPT生成画像・原本保持・SHAはthumbnail QA参照,ready,--,--,2026-09-05,THUMBNAIL,1672x941 RGB
+THUMBNAIL-008,assets/thumbnail/thumbnail.png,Episode 008正式thumbnail,人間選択・内容不変更・1280x720へLANCZOS正規化・A/B/Cなし,ready,--,--,2026-09-05,THUMBNAIL,1280x720 RGB
+THUMBNAIL-25-008,work/thumbnail_review/thumbnail_25.png,thumbnail 25%確認版,320x180・大見出しと下部メッセージのreadability PASS,ready,--,--,2026-09-05,THUMBNAIL,320x180 RGB
+THUMBNAIL-QA-008,work/thumbnail_review/thumbnail_qa.json,Episode 008 thumbnail QA,decode・文字・edge clipping・25%可読性・privacy・QR・実在著名人なしを確認,ready,--,--,2026-09-05,THUMBNAIL,PASS
+FINAL-008,output/final.mp4,Episode 008 final, draft_v3からbyte-identical copy・再encodeなし・SHA一致,ready,--,--,2026-09-05,ALL,336.870秒 H.264 1920x1080 AAC48k
+FINAL-QA-008,work/final_qa.json,Episode 008 final QA,copy-only・decode error 0・black frame 0・unexpected silence 0・Visual/subtitle regression 0,ready,--,--,2026-09-05,ALL,PASS
+PUBLISH-CHECKLIST-008,publish/pre_publish_checklist.md,Episode 008公開前checklist,thumbnail・final・metadata・統計watch・End Screen予定を記録・upload未実施,review,--,--,2026-09-05,ALL,human publish check
+METADATA-QA-008,work/metadata_final_check.json,Episode 008 metadata final check,selected title・description source URL・VOICEVOX credit・AI disclosure・privacy・統計watch・End Screen plan,review,--,--,2026-09-05,ALL,PASS with human AI disclosure review

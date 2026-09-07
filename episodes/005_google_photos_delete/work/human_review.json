@@ -1,0 +1,11 @@
+{
+  "episode_id": "005",
+  "approved_at": "2026-09-02T07:40:00+09:00",
+  "video": {
+    "draft_v3.mp4": "approved"
+  },
+  "thumbnail": {
+    "assets/thumbnail/thumbnail.png": "approved"
+  },
+  "notes": "draft_v3を全編確認し問題なし（人間）。finalizeはbyte copyで実施。"
+}

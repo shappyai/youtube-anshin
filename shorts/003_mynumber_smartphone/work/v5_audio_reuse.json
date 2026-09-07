@@ -1,0 +1,60 @@
+{
+  "short_id": "Short003",
+  "version": "v5",
+  "narration": "audio/narration_v4.wav",
+  "narration_sha256": "741ec824a168ca1efa895719234925504c8018b813f248f339946179fd17c1a6",
+  "segments_manifest": "audio/segments_manifest_v4.csv",
+  "full_audio_regeneration": 0,
+  "script_changed_segment_count": 0,
+  "audio_regenerated_segment_count": 0,
+  "segments": [
+    {
+      "segment_id": 1,
+      "wav": "audio/segments/001.wav",
+      "start_sec": 0.0,
+      "end_sec": 2.891,
+      "duration_sec": 2.891,
+      "status": "reused_v4_segment_wav"
+    },
+    {
+      "segment_id": 2,
+      "wav": "audio/segments/002.wav",
+      "start_sec": 2.961,
+      "end_sec": 8.049,
+      "duration_sec": 5.088,
+      "status": "reused_v4_segment_wav"
+    },
+    {
+      "segment_id": 3,
+      "wav": "audio/segments/003.wav",
+      "start_sec": 8.119,
+      "end_sec": 13.633,
+      "duration_sec": 5.515,
+      "status": "reused_v4_segment_wav"
+    },
+    {
+      "segment_id": 4,
+      "wav": "audio/segments/004.wav",
+      "start_sec": 13.703,
+      "end_sec": 18.589,
+      "duration_sec": 4.885,
+      "status": "reused_v4_segment_wav"
+    },
+    {
+      "segment_id": 5,
+      "wav": "audio/segments/005.wav",
+      "start_sec": 18.659,
+      "end_sec": 24.035,
+      "duration_sec": 5.376,
+      "status": "reused_v4_segment_wav"
+    },
+    {
+      "segment_id": 6,
+      "wav": "audio/segments/006_v4.wav",
+      "start_sec": 24.105,
+      "end_sec": 28.595,
+      "duration_sec": 4.491,
+      "status": "reused_v4_segment_wav"
+    }
+  ]
+}

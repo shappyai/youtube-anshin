@@ -1,0 +1,30 @@
+{
+  "1": {
+    "text": "ChatGPT、文字を打つのが大変ですか。",
+    "wav": "audio/segments/001_v7.wav",
+    "voicevox_kana": "チャットジイピイティイモジオウツノガタイヘンデスカ",
+    "status": "regenerated_v7_target_segment",
+    "query": "work/audio_queries_v7/segment_001.json"
+  },
+  "2": {
+    "text": "音声入力なら、話した内容を文字にして送れます。",
+    "wav": "audio/segments/002_v7.wav",
+    "voicevox_kana": "オンセエニュウリョクナラハナシタナイヨオオモジニシテオクレマス",
+    "status": "regenerated_v7_target_segment",
+    "query": "work/audio_queries_v7/segment_002.json"
+  },
+  "4": {
+    "text": "文字になったら、内容を確認して送信します。",
+    "wav": "audio/segments/004_v7.wav",
+    "voicevox_kana": "モジニナッタラナイヨオオカクニンシテソオシンシマス",
+    "status": "regenerated_v7_target_segment",
+    "query": "work/audio_queries_v7/segment_004.json"
+  },
+  "5": {
+    "text": "文字を打たずに、質問できました。",
+    "wav": "audio/segments/005_v7.wav",
+    "voicevox_kana": "モジオウタズニシツモンデキマシタ",
+    "status": "regenerated_v7_target_segment",
+    "query": "work/audio_queries_v7/segment_005.json"
+  }
+}

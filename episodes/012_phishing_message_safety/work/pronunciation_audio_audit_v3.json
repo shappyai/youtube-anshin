@@ -1,0 +1,1140 @@
+{
+  "episode": "012",
+  "checked_at": "2026-09-06",
+  "engine": "http://127.0.0.1:50021",
+  "speaker": "剣崎雌雄",
+  "style": "ノーマル",
+  "dictionary_reading_alone_is_not_pass": true,
+  "targets": {
+    "honmono": {
+      "segments": [
+        {
+          "segment_id": 2,
+          "spoken_text": "会社名もロゴも見覚えがあります。これ、本物でしょうか。",
+          "effective_tts_text": "会社名もロゴも見覚えがあります。これ、ほんものでしょうか。",
+          "audio_gate": {
+            "segment_id": 2,
+            "target": "ホンモノ",
+            "found": true,
+            "phrase_index": 5,
+            "start_mora": 0,
+            "end_mora": 3,
+            "mora_texts": [
+              "ホ",
+              "ン",
+              "モ",
+              "ノ"
+            ],
+            "mora_count": 4,
+            "moras": [
+              {
+                "text": "ホ",
+                "vowel_length": 0.087109,
+                "consonant_length": 0.079667,
+                "pitch": 5.073071
+              },
+              {
+                "text": "ン",
+                "vowel_length": 0.055396,
+                "consonant_length": 0.0,
+                "pitch": 5.148397
+              },
+              {
+                "text": "モ",
+                "vowel_length": 0.072387,
+                "consonant_length": 0.055163,
+                "pitch": 5.135715
+              },
+              {
+                "text": "ノ",
+                "vowel_length": 0.065106,
+                "consonant_length": 0.034363,
+                "pitch": 5.083042
+              }
+            ],
+            "phrase_accent": 7,
+            "is_interrogative": false,
+            "phrase_pause_mora": false,
+            "following_same_phrase_mora": "デ",
+            "extra_vowel_after_honmono": 0,
+            "exact_four_mora": true,
+            "status": "PASS"
+          },
+          "wav_sha256": "6132AE415647B0E257C5DCB13C5CC0DCF5B128E8D29B70710BF2AF8824DF8C8A"
+        },
+        {
+          "segment_id": 3,
+          "spoken_text": "実は、本物かどうかをメールだけで見分けなくて大丈夫です。",
+          "effective_tts_text": "実は、ほんものかどうかをメールだけで見分けなくて大丈夫です。",
+          "audio_gate": {
+            "segment_id": 3,
+            "target": "ホンモノ",
+            "found": true,
+            "phrase_index": 1,
+            "start_mora": 0,
+            "end_mora": 3,
+            "mora_texts": [
+              "ホ",
+              "ン",
+              "モ",
+              "ノ"
+            ],
+            "mora_count": 4,
+            "moras": [
+              {
+                "text": "ホ",
+                "vowel_length": 0.087109,
+                "consonant_length": 0.075901,
+                "pitch": 5.056296
+              },
+              {
+                "text": "ン",
+                "vowel_length": 0.056648,
+                "consonant_length": 0.0,
+                "pitch": 5.140412
+              },
+              {
+                "text": "モ",
+                "vowel_length": 0.07131,
+                "consonant_length": 0.052985,
+                "pitch": 5.141849
+              },
+              {
+                "text": "ノ",
+                "vowel_length": 0.074091,
+                "consonant_length": 0.036619,
+                "pitch": 5.099985
+              }
+            ],
+            "phrase_accent": 5,
+            "is_interrogative": false,
+            "phrase_pause_mora": false,
+            "following_same_phrase_mora": "カ",
+            "extra_vowel_after_honmono": 0,
+            "exact_four_mora": true,
+            "status": "PASS"
+          },
+          "wav_sha256": "D279A30E6A8701A97FA145D9DF52C4830FC4FEBD94ECA2300C2EDB1DEB3BB3E5"
+        },
+        {
+          "segment_id": 8,
+          "spoken_text": "名前やロゴが本物らしくても、メールの中だけで安全と決めないことが、最初の一歩です。",
+          "effective_tts_text": "名前やロゴがほんものらしくても、メールの中だけで安全と決めないことが、最初の一歩です。",
+          "audio_gate": {
+            "segment_id": 8,
+            "target": "ホンモノ",
+            "found": true,
+            "phrase_index": 2,
+            "start_mora": 0,
+            "end_mora": 3,
+            "mora_texts": [
+              "ホ",
+              "ン",
+              "モ",
+              "ノ"
+            ],
+            "mora_count": 4,
+            "moras": [
+              {
+                "text": "ホ",
+                "vowel_length": 0.083946,
+                "consonant_length": 0.09573,
+                "pitch": 4.903306
+              },
+              {
+                "text": "ン",
+                "vowel_length": 0.050866,
+                "consonant_length": 0.0,
+                "pitch": 4.988837
+              },
+              {
+                "text": "モ",
+                "vowel_length": 0.070363,
+                "consonant_length": 0.051863,
+                "pitch": 5.018519
+              },
+              {
+                "text": "ノ",
+                "vowel_length": 0.06473,
+                "consonant_length": 0.035487,
+                "pitch": 5.019883
+              }
+            ],
+            "phrase_accent": 6,
+            "is_interrogative": false,
+            "phrase_pause_mora": true,
+            "following_same_phrase_mora": "ラ",
+            "extra_vowel_after_honmono": 0,
+            "exact_four_mora": true,
+            "status": "PASS"
+          },
+          "wav_sha256": "A8DF00E5293767E4784AAAC82F0205FCB6DDC409365352776108A460E1FC1422"
+        },
+        {
+          "segment_id": 14,
+          "spoken_text": "ここで大切なのは、ロゴが本物らしいかではなく、メールのリンクから支払い情報を更新しないことです。",
+          "effective_tts_text": "ここで大切なのは、ロゴがほんものらしいかではなく、メールのリンクから支払い情報を更新しないことです。",
+          "audio_gate": {
+            "segment_id": 14,
+            "target": "ホンモノ",
+            "found": true,
+            "phrase_index": 4,
+            "start_mora": 0,
+            "end_mora": 3,
+            "mora_texts": [
+              "ホ",
+              "ン",
+              "モ",
+              "ノ"
+            ],
+            "mora_count": 4,
+            "moras": [
+              {
+                "text": "ホ",
+                "vowel_length": 0.083946,
+                "consonant_length": 0.09573,
+                "pitch": 4.952094
+              },
+              {
+                "text": "ン",
+                "vowel_length": 0.050866,
+                "consonant_length": 0.0,
+                "pitch": 5.066556
+              },
+              {
+                "text": "モ",
+                "vowel_length": 0.070363,
+                "consonant_length": 0.051863,
+                "pitch": 5.123785
+              },
+              {
+                "text": "ノ",
+                "vowel_length": 0.064824,
+                "consonant_length": 0.035868,
+                "pitch": 5.147668
+              }
+            ],
+            "phrase_accent": 6,
+            "is_interrogative": false,
+            "phrase_pause_mora": true,
+            "following_same_phrase_mora": "ラ",
+            "extra_vowel_after_honmono": 0,
+            "exact_four_mora": true,
+            "status": "PASS"
+          },
+          "wav_sha256": "96B8B8276A2FF2A3DA9B9F78B55C94654970C4D22C001C457A38B3145B04A3B3"
+        },
+        {
+          "segment_id": 30,
+          "spoken_text": "「これ、本物？」は公式情報で確認します。必要なら登録しておいてください。",
+          "effective_tts_text": "「これ、ほんもの？」は公式情報で確認します。必要なら登録しておいてください。",
+          "audio_gate": {
+            "segment_id": 30,
+            "target": "ホンモノ",
+            "found": true,
+            "phrase_index": 1,
+            "start_mora": 0,
+            "end_mora": 3,
+            "mora_texts": [
+              "ホ",
+              "ン",
+              "モ",
+              "ノ"
+            ],
+            "mora_count": 4,
+            "moras": [
+              {
+                "text": "ホ",
+                "vowel_length": 0.087275,
+                "consonant_length": 0.079667,
+                "pitch": 5.002798
+              },
+              {
+                "text": "ン",
+                "vowel_length": 0.061464,
+                "consonant_length": 0.0,
+                "pitch": 5.025921
+              },
+              {
+                "text": "モ",
+                "vowel_length": 0.07011,
+                "consonant_length": 0.058271,
+                "pitch": 4.941218
+              },
+              {
+                "text": "ノ",
+                "vowel_length": 0.187347,
+                "consonant_length": 0.032568,
+                "pitch": 4.826418
+              }
+            ],
+            "phrase_accent": 4,
+            "is_interrogative": true,
+            "phrase_pause_mora": true,
+            "following_same_phrase_mora": "",
+            "extra_vowel_after_honmono": 0,
+            "exact_four_mora": true,
+            "status": "PASS",
+            "question_intonation_via_pitch": true,
+            "final_mora_vowel_length": 0.187347,
+            "final_vowel_length_max_sec": 0.22,
+            "no_unnatural_final_vowel_elongation": true
+          },
+          "wav_sha256": "CC06F734C6857E5FD91561131B40D8428E4248641AF0FED3AF6BAA604D5144BB"
+        },
+        {
+          "segment_id": 66,
+          "spoken_text": "本物そっくりに見えるものがあるからこそ、見分ける負担を減らし、入口を変えて確認します。",
+          "effective_tts_text": "ほんものそっくりに見えるものがあるからこそ、見分ける負担を減らし、入口を変えて確認します。",
+          "audio_gate": {
+            "segment_id": 66,
+            "target": "ホンモノ",
+            "found": true,
+            "phrase_index": 0,
+            "start_mora": 0,
+            "end_mora": 3,
+            "mora_texts": [
+              "ホ",
+              "ン",
+              "モ",
+              "ノ"
+            ],
+            "mora_count": 4,
+            "moras": [
+              {
+                "text": "ホ",
+                "vowel_length": 0.09053,
+                "consonant_length": 0.074526,
+                "pitch": 5.091289
+              },
+              {
+                "text": "ン",
+                "vowel_length": 0.057073,
+                "consonant_length": 0.0,
+                "pitch": 5.169226
+              },
+              {
+                "text": "モ",
+                "vowel_length": 0.069478,
+                "consonant_length": 0.053653,
+                "pitch": 5.196549
+              },
+              {
+                "text": "ノ",
+                "vowel_length": 0.070264,
+                "consonant_length": 0.030972,
+                "pitch": 5.161336
+              }
+            ],
+            "phrase_accent": 4,
+            "is_interrogative": false,
+            "phrase_pause_mora": false,
+            "following_same_phrase_mora": "",
+            "extra_vowel_after_honmono": 0,
+            "exact_four_mora": true,
+            "status": "PASS"
+          },
+          "wav_sha256": "0FB0630E387FEC32FE919E6D045C84B4D2713DBD0E0658FD1AC2C4B0217674D6"
+        },
+        {
+          "segment_id": 79,
+          "spoken_text": "本物かどうかを、その場で当てなくて大丈夫です。確認の入口を、自分で選び直してください。",
+          "effective_tts_text": "ほんものかどうかを、その場で当てなくて大丈夫です。確認の入口を、自分で選び直してください。",
+          "audio_gate": {
+            "segment_id": 79,
+            "target": "ホンモノ",
+            "found": true,
+            "phrase_index": 0,
+            "start_mora": 0,
+            "end_mora": 3,
+            "mora_texts": [
+              "ホ",
+              "ン",
+              "モ",
+              "ノ"
+            ],
+            "mora_count": 4,
+            "moras": [
+              {
+                "text": "ホ",
+                "vowel_length": 0.090894,
+                "consonant_length": 0.074526,
+                "pitch": 5.069565
+              },
+              {
+                "text": "ン",
+                "vowel_length": 0.057747,
+                "consonant_length": 0.0,
+                "pitch": 5.138886
+              },
+              {
+                "text": "モ",
+                "vowel_length": 0.071434,
+                "consonant_length": 0.053031,
+                "pitch": 5.146108
+              },
+              {
+                "text": "ノ",
+                "vowel_length": 0.074091,
+                "consonant_length": 0.036619,
+                "pitch": 5.10178
+              }
+            ],
+            "phrase_accent": 5,
+            "is_interrogative": false,
+            "phrase_pause_mora": false,
+            "following_same_phrase_mora": "カ",
+            "extra_vowel_after_honmono": 0,
+            "exact_four_mora": true,
+            "status": "PASS"
+          },
+          "wav_sha256": "F91DD6D8A18AC2535C085E606B2952852877B72F06B5E642320D60B55D7931D2"
+        }
+      ],
+      "expected_reading": "ホンモノ",
+      "segment_ids": [
+        2,
+        3,
+        8,
+        14,
+        30,
+        66,
+        79
+      ],
+      "direct_query": {
+        "text": "これ、本物？",
+        "query_method": "direct /audio_query",
+        "summary": {
+          "target": "ホンモノ",
+          "found": true,
+          "phrase_index": 1,
+          "start_mora": 0,
+          "end_mora": 3,
+          "mora_texts": [
+            "ホ",
+            "ン",
+            "モ",
+            "ノ"
+          ],
+          "mora_count": 4,
+          "moras": [
+            {
+              "text": "ホ",
+              "vowel_length": 0.087275,
+              "consonant_length": 0.079667,
+              "pitch": 4.9907
+            },
+            {
+              "text": "ン",
+              "vowel_length": 0.061365,
+              "consonant_length": 0.0,
+              "pitch": 5.00809
+            },
+            {
+              "text": "モ",
+              "vowel_length": 0.070502,
+              "consonant_length": 0.059374,
+              "pitch": 4.910026
+            },
+            {
+              "text": "ノ",
+              "vowel_length": 0.154618,
+              "consonant_length": 0.039009,
+              "pitch": 4.759793
+            }
+          ],
+          "phrase_accent": 4,
+          "is_interrogative": true,
+          "phrase_pause_mora": false
+        },
+        "following_same_phrase_mora": "",
+        "extra_vowel_after_honmono": 0,
+        "exact_four_mora": true,
+        "is_interrogative": true,
+        "final_mora_vowel_length": 0.154618,
+        "no_unnatural_final_vowel_elongation": true
+      }
+    },
+    "e-Tax": {
+      "segment": {
+        "segment_id": 56,
+        "target": "イイタックス",
+        "found": true,
+        "phrase_index": 0,
+        "start_mora": 0,
+        "end_mora": 5,
+        "mora_texts": [
+          "イ",
+          "イ",
+          "タ",
+          "ッ",
+          "ク",
+          "ス"
+        ],
+        "mora_count": 6,
+        "moras": [
+          {
+            "text": "イ",
+            "vowel_length": 0.116491,
+            "consonant_length": 0.0,
+            "pitch": 5.119581
+          },
+          {
+            "text": "イ",
+            "vowel_length": 0.066817,
+            "consonant_length": 0.0,
+            "pitch": 5.235511
+          },
+          {
+            "text": "タ",
+            "vowel_length": 0.072572,
+            "consonant_length": 0.064018,
+            "pitch": 5.282634
+          },
+          {
+            "text": "ッ",
+            "vowel_length": 0.120397,
+            "consonant_length": 0.0,
+            "pitch": 0.0
+          },
+          {
+            "text": "ク",
+            "vowel_length": 0.048672,
+            "consonant_length": 0.037623,
+            "pitch": 5.06672
+          },
+          {
+            "text": "ス",
+            "vowel_length": 0.032084,
+            "consonant_length": 0.094528,
+            "pitch": 4.864655
+          }
+        ],
+        "phrase_accent": 3,
+        "is_interrogative": false,
+        "phrase_pause_mora": false,
+        "accent_is_3": true,
+        "accent_peak_mora": "タ",
+        "accent_peak_is_ta": true,
+        "internal_pause": 0,
+        "su_vowel_length": 0.032084,
+        "su_vowel_length_max_sec": 0.1,
+        "su_not_unnaturally_long": true,
+        "status": "PASS",
+        "spoken_text": "e-Taxのメールも、登録した人に決まったパターンで届くお知らせで、原則として本文にURLはなく、ファイルも添付しないと説明されています。",
+        "effective_tts_text": "イータックスのメールも、登録した人に決まったパターンで届くお知らせで、原則として本文にURLはなく、ファイルも添付しないと説明されています。",
+        "wav_sha256": "7BB320F8996B889F1F8B2756B98FA1C62905ED83BE20AE8B893CA7EE129B5924"
+      },
+      "direct_query": {
+        "text": "e-Taxのメールも、",
+        "effective_text": "イータックスのメールも、",
+        "query_method": "direct /audio_query (original and dictionary-effective input)",
+        "original_summary": {
+          "target": "イイタックス",
+          "found": false,
+          "mora_texts": [],
+          "mora_count": 0
+        },
+        "effective_summary": {
+          "target": "イイタックス",
+          "found": true,
+          "phrase_index": 0,
+          "start_mora": 0,
+          "end_mora": 5,
+          "mora_texts": [
+            "イ",
+            "イ",
+            "タ",
+            "ッ",
+            "ク",
+            "ス"
+          ],
+          "mora_count": 6,
+          "moras": [
+            {
+              "text": "イ",
+              "vowel_length": 0.116491,
+              "consonant_length": 0.0,
+              "pitch": 5.11446
+            },
+            {
+              "text": "イ",
+              "vowel_length": 0.066817,
+              "consonant_length": 0.0,
+              "pitch": 5.217584
+            },
+            {
+              "text": "タ",
+              "vowel_length": 0.072572,
+              "consonant_length": 0.064018,
+              "pitch": 5.254941
+            },
+            {
+              "text": "ッ",
+              "vowel_length": 0.120397,
+              "consonant_length": 0.0,
+              "pitch": 0.0
+            },
+            {
+              "text": "ク",
+              "vowel_length": 0.048672,
+              "consonant_length": 0.037623,
+              "pitch": 5.026892
+            },
+            {
+              "text": "ス",
+              "vowel_length": 0.032084,
+              "consonant_length": 0.094528,
+              "pitch": 4.812619
+            }
+          ],
+          "phrase_accent": 3,
+          "is_interrogative": false,
+          "phrase_pause_mora": false
+        },
+        "status": "PASS"
+      },
+      "expected_reading": "イータックス",
+      "query_mora_reading": "イイタックス"
+    }
+  },
+  "contextual_pronunciation_audio_gate": {
+    "rule": "contextual_pronunciation_audio_gate",
+    "dictionary_reading_alone_is_not_pass": true,
+    "status": "PASS",
+    "honmono": {
+      "2": {
+        "segment_id": 2,
+        "target": "ホンモノ",
+        "found": true,
+        "phrase_index": 5,
+        "start_mora": 0,
+        "end_mora": 3,
+        "mora_texts": [
+          "ホ",
+          "ン",
+          "モ",
+          "ノ"
+        ],
+        "mora_count": 4,
+        "moras": [
+          {
+            "text": "ホ",
+            "vowel_length": 0.087109,
+            "consonant_length": 0.079667,
+            "pitch": 5.073071
+          },
+          {
+            "text": "ン",
+            "vowel_length": 0.055396,
+            "consonant_length": 0.0,
+            "pitch": 5.148397
+          },
+          {
+            "text": "モ",
+            "vowel_length": 0.072387,
+            "consonant_length": 0.055163,
+            "pitch": 5.135715
+          },
+          {
+            "text": "ノ",
+            "vowel_length": 0.065106,
+            "consonant_length": 0.034363,
+            "pitch": 5.083042
+          }
+        ],
+        "phrase_accent": 7,
+        "is_interrogative": false,
+        "phrase_pause_mora": false,
+        "following_same_phrase_mora": "デ",
+        "extra_vowel_after_honmono": 0,
+        "exact_four_mora": true,
+        "status": "PASS"
+      },
+      "3": {
+        "segment_id": 3,
+        "target": "ホンモノ",
+        "found": true,
+        "phrase_index": 1,
+        "start_mora": 0,
+        "end_mora": 3,
+        "mora_texts": [
+          "ホ",
+          "ン",
+          "モ",
+          "ノ"
+        ],
+        "mora_count": 4,
+        "moras": [
+          {
+            "text": "ホ",
+            "vowel_length": 0.087109,
+            "consonant_length": 0.075901,
+            "pitch": 5.056296
+          },
+          {
+            "text": "ン",
+            "vowel_length": 0.056648,
+            "consonant_length": 0.0,
+            "pitch": 5.140412
+          },
+          {
+            "text": "モ",
+            "vowel_length": 0.07131,
+            "consonant_length": 0.052985,
+            "pitch": 5.141849
+          },
+          {
+            "text": "ノ",
+            "vowel_length": 0.074091,
+            "consonant_length": 0.036619,
+            "pitch": 5.099985
+          }
+        ],
+        "phrase_accent": 5,
+        "is_interrogative": false,
+        "phrase_pause_mora": false,
+        "following_same_phrase_mora": "カ",
+        "extra_vowel_after_honmono": 0,
+        "exact_four_mora": true,
+        "status": "PASS"
+      },
+      "8": {
+        "segment_id": 8,
+        "target": "ホンモノ",
+        "found": true,
+        "phrase_index": 2,
+        "start_mora": 0,
+        "end_mora": 3,
+        "mora_texts": [
+          "ホ",
+          "ン",
+          "モ",
+          "ノ"
+        ],
+        "mora_count": 4,
+        "moras": [
+          {
+            "text": "ホ",
+            "vowel_length": 0.083946,
+            "consonant_length": 0.09573,
+            "pitch": 4.903306
+          },
+          {
+            "text": "ン",
+            "vowel_length": 0.050866,
+            "consonant_length": 0.0,
+            "pitch": 4.988837
+          },
+          {
+            "text": "モ",
+            "vowel_length": 0.070363,
+            "consonant_length": 0.051863,
+            "pitch": 5.018519
+          },
+          {
+            "text": "ノ",
+            "vowel_length": 0.06473,
+            "consonant_length": 0.035487,
+            "pitch": 5.019883
+          }
+        ],
+        "phrase_accent": 6,
+        "is_interrogative": false,
+        "phrase_pause_mora": true,
+        "following_same_phrase_mora": "ラ",
+        "extra_vowel_after_honmono": 0,
+        "exact_four_mora": true,
+        "status": "PASS"
+      },
+      "14": {
+        "segment_id": 14,
+        "target": "ホンモノ",
+        "found": true,
+        "phrase_index": 4,
+        "start_mora": 0,
+        "end_mora": 3,
+        "mora_texts": [
+          "ホ",
+          "ン",
+          "モ",
+          "ノ"
+        ],
+        "mora_count": 4,
+        "moras": [
+          {
+            "text": "ホ",
+            "vowel_length": 0.083946,
+            "consonant_length": 0.09573,
+            "pitch": 4.952094
+          },
+          {
+            "text": "ン",
+            "vowel_length": 0.050866,
+            "consonant_length": 0.0,
+            "pitch": 5.066556
+          },
+          {
+            "text": "モ",
+            "vowel_length": 0.070363,
+            "consonant_length": 0.051863,
+            "pitch": 5.123785
+          },
+          {
+            "text": "ノ",
+            "vowel_length": 0.064824,
+            "consonant_length": 0.035868,
+            "pitch": 5.147668
+          }
+        ],
+        "phrase_accent": 6,
+        "is_interrogative": false,
+        "phrase_pause_mora": true,
+        "following_same_phrase_mora": "ラ",
+        "extra_vowel_after_honmono": 0,
+        "exact_four_mora": true,
+        "status": "PASS"
+      },
+      "30": {
+        "segment_id": 30,
+        "target": "ホンモノ",
+        "found": true,
+        "phrase_index": 1,
+        "start_mora": 0,
+        "end_mora": 3,
+        "mora_texts": [
+          "ホ",
+          "ン",
+          "モ",
+          "ノ"
+        ],
+        "mora_count": 4,
+        "moras": [
+          {
+            "text": "ホ",
+            "vowel_length": 0.087275,
+            "consonant_length": 0.079667,
+            "pitch": 5.002798
+          },
+          {
+            "text": "ン",
+            "vowel_length": 0.061464,
+            "consonant_length": 0.0,
+            "pitch": 5.025921
+          },
+          {
+            "text": "モ",
+            "vowel_length": 0.07011,
+            "consonant_length": 0.058271,
+            "pitch": 4.941218
+          },
+          {
+            "text": "ノ",
+            "vowel_length": 0.187347,
+            "consonant_length": 0.032568,
+            "pitch": 4.826418
+          }
+        ],
+        "phrase_accent": 4,
+        "is_interrogative": true,
+        "phrase_pause_mora": true,
+        "following_same_phrase_mora": "",
+        "extra_vowel_after_honmono": 0,
+        "exact_four_mora": true,
+        "status": "PASS",
+        "question_intonation_via_pitch": true,
+        "final_mora_vowel_length": 0.187347,
+        "final_vowel_length_max_sec": 0.22,
+        "no_unnatural_final_vowel_elongation": true
+      },
+      "66": {
+        "segment_id": 66,
+        "target": "ホンモノ",
+        "found": true,
+        "phrase_index": 0,
+        "start_mora": 0,
+        "end_mora": 3,
+        "mora_texts": [
+          "ホ",
+          "ン",
+          "モ",
+          "ノ"
+        ],
+        "mora_count": 4,
+        "moras": [
+          {
+            "text": "ホ",
+            "vowel_length": 0.09053,
+            "consonant_length": 0.074526,
+            "pitch": 5.091289
+          },
+          {
+            "text": "ン",
+            "vowel_length": 0.057073,
+            "consonant_length": 0.0,
+            "pitch": 5.169226
+          },
+          {
+            "text": "モ",
+            "vowel_length": 0.069478,
+            "consonant_length": 0.053653,
+            "pitch": 5.196549
+          },
+          {
+            "text": "ノ",
+            "vowel_length": 0.070264,
+            "consonant_length": 0.030972,
+            "pitch": 5.161336
+          }
+        ],
+        "phrase_accent": 4,
+        "is_interrogative": false,
+        "phrase_pause_mora": false,
+        "following_same_phrase_mora": "",
+        "extra_vowel_after_honmono": 0,
+        "exact_four_mora": true,
+        "status": "PASS"
+      },
+      "79": {
+        "segment_id": 79,
+        "target": "ホンモノ",
+        "found": true,
+        "phrase_index": 0,
+        "start_mora": 0,
+        "end_mora": 3,
+        "mora_texts": [
+          "ホ",
+          "ン",
+          "モ",
+          "ノ"
+        ],
+        "mora_count": 4,
+        "moras": [
+          {
+            "text": "ホ",
+            "vowel_length": 0.090894,
+            "consonant_length": 0.074526,
+            "pitch": 5.069565
+          },
+          {
+            "text": "ン",
+            "vowel_length": 0.057747,
+            "consonant_length": 0.0,
+            "pitch": 5.138886
+          },
+          {
+            "text": "モ",
+            "vowel_length": 0.071434,
+            "consonant_length": 0.053031,
+            "pitch": 5.146108
+          },
+          {
+            "text": "ノ",
+            "vowel_length": 0.074091,
+            "consonant_length": 0.036619,
+            "pitch": 5.10178
+          }
+        ],
+        "phrase_accent": 5,
+        "is_interrogative": false,
+        "phrase_pause_mora": false,
+        "following_same_phrase_mora": "カ",
+        "extra_vowel_after_honmono": 0,
+        "exact_four_mora": true,
+        "status": "PASS"
+      }
+    },
+    "question_direct_query": {
+      "text": "これ、本物？",
+      "query_method": "direct /audio_query",
+      "summary": {
+        "target": "ホンモノ",
+        "found": true,
+        "phrase_index": 1,
+        "start_mora": 0,
+        "end_mora": 3,
+        "mora_texts": [
+          "ホ",
+          "ン",
+          "モ",
+          "ノ"
+        ],
+        "mora_count": 4,
+        "moras": [
+          {
+            "text": "ホ",
+            "vowel_length": 0.087275,
+            "consonant_length": 0.079667,
+            "pitch": 4.9907
+          },
+          {
+            "text": "ン",
+            "vowel_length": 0.061365,
+            "consonant_length": 0.0,
+            "pitch": 5.00809
+          },
+          {
+            "text": "モ",
+            "vowel_length": 0.070502,
+            "consonant_length": 0.059374,
+            "pitch": 4.910026
+          },
+          {
+            "text": "ノ",
+            "vowel_length": 0.154618,
+            "consonant_length": 0.039009,
+            "pitch": 4.759793
+          }
+        ],
+        "phrase_accent": 4,
+        "is_interrogative": true,
+        "phrase_pause_mora": false
+      },
+      "following_same_phrase_mora": "",
+      "extra_vowel_after_honmono": 0,
+      "exact_four_mora": true,
+      "is_interrogative": true,
+      "final_mora_vowel_length": 0.154618,
+      "no_unnatural_final_vowel_elongation": true
+    },
+    "etax": {
+      "prepared_query": {
+        "segment_id": 56,
+        "target": "イイタックス",
+        "found": true,
+        "phrase_index": 0,
+        "start_mora": 0,
+        "end_mora": 5,
+        "mora_texts": [
+          "イ",
+          "イ",
+          "タ",
+          "ッ",
+          "ク",
+          "ス"
+        ],
+        "mora_count": 6,
+        "moras": [
+          {
+            "text": "イ",
+            "vowel_length": 0.116491,
+            "consonant_length": 0.0,
+            "pitch": 5.119581
+          },
+          {
+            "text": "イ",
+            "vowel_length": 0.066817,
+            "consonant_length": 0.0,
+            "pitch": 5.235511
+          },
+          {
+            "text": "タ",
+            "vowel_length": 0.072572,
+            "consonant_length": 0.064018,
+            "pitch": 5.282634
+          },
+          {
+            "text": "ッ",
+            "vowel_length": 0.120397,
+            "consonant_length": 0.0,
+            "pitch": 0.0
+          },
+          {
+            "text": "ク",
+            "vowel_length": 0.048672,
+            "consonant_length": 0.037623,
+            "pitch": 5.06672
+          },
+          {
+            "text": "ス",
+            "vowel_length": 0.032084,
+            "consonant_length": 0.094528,
+            "pitch": 4.864655
+          }
+        ],
+        "phrase_accent": 3,
+        "is_interrogative": false,
+        "phrase_pause_mora": false,
+        "accent_is_3": true,
+        "accent_peak_mora": "タ",
+        "accent_peak_is_ta": true,
+        "internal_pause": 0,
+        "su_vowel_length": 0.032084,
+        "su_vowel_length_max_sec": 0.1,
+        "su_not_unnaturally_long": true,
+        "status": "PASS"
+      },
+      "direct_query": {
+        "text": "e-Taxのメールも、",
+        "effective_text": "イータックスのメールも、",
+        "query_method": "direct /audio_query (original and dictionary-effective input)",
+        "original_summary": {
+          "target": "イイタックス",
+          "found": false,
+          "mora_texts": [],
+          "mora_count": 0
+        },
+        "effective_summary": {
+          "target": "イイタックス",
+          "found": true,
+          "phrase_index": 0,
+          "start_mora": 0,
+          "end_mora": 5,
+          "mora_texts": [
+            "イ",
+            "イ",
+            "タ",
+            "ッ",
+            "ク",
+            "ス"
+          ],
+          "mora_count": 6,
+          "moras": [
+            {
+              "text": "イ",
+              "vowel_length": 0.116491,
+              "consonant_length": 0.0,
+              "pitch": 5.11446
+            },
+            {
+              "text": "イ",
+              "vowel_length": 0.066817,
+              "consonant_length": 0.0,
+              "pitch": 5.217584
+            },
+            {
+              "text": "タ",
+              "vowel_length": 0.072572,
+              "consonant_length": 0.064018,
+              "pitch": 5.254941
+            },
+            {
+              "text": "ッ",
+              "vowel_length": 0.120397,
+              "consonant_length": 0.0,
+              "pitch": 0.0
+            },
+            {
+              "text": "ク",
+              "vowel_length": 0.048672,
+              "consonant_length": 0.037623,
+              "pitch": 5.026892
+            },
+            {
+              "text": "ス",
+              "vowel_length": 0.032084,
+              "consonant_length": 0.094528,
+              "pitch": 4.812619
+            }
+          ],
+          "phrase_accent": 3,
+          "is_interrogative": false,
+          "phrase_pause_mora": false
+        },
+        "status": "PASS"
+      }
+    },
+    "failures": []
+  },
+  "overall": "PASS"
+}

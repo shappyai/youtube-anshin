@@ -1,0 +1,37 @@
+{
+  "episode": "011_myna_insurance_scam_call",
+  "status": "verified",
+  "operation": "videos.update(part=status)",
+  "video_id": "kSln-2eJ6CU",
+  "source": "STATE.md",
+  "target_containsSyntheticMedia": false,
+  "status_before": {
+    "privacyStatus": "private",
+    "publishAt": "2026-09-11T10:00:00Z",
+    "license": "youtube",
+    "embeddable": false,
+    "publicStatsViewable": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "reupload": false,
+  "started_at": "2026-09-05T23:05:47Z",
+  "update_response_status": {
+    "privacyStatus": "private",
+    "publishAt": "2026-09-11T10:00:00Z",
+    "license": "youtube",
+    "embeddable": false,
+    "publicStatsViewable": false,
+    "selfDeclaredMadeForKids": false,
+    "containsSyntheticMedia": false
+  },
+  "status_after": {
+    "privacyStatus": "private",
+    "publishAt": "2026-09-11T10:00:00Z",
+    "license": "youtube",
+    "embeddable": false,
+    "publicStatsViewable": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "verification_source": "videos.update response; videos.list omitted containsSyntheticMedia",
+  "verified_at": "2026-09-05T23:05:48Z"
+}

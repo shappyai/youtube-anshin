@@ -1,0 +1,13 @@
+# Production preflight — 012_phishing_message_safety
+
+- episode.json: PASS
+- sources: PASS
+- scenes: PASS
+- official assets: PASS
+  - declared asset count: 5
+- subtitles: PASS
+  - fail=0 warn=0
+- pronunciation: REVIEW
+  - review=7 queries=0/79
+
+REVIEW / FAIL がある場合は build を停止する。

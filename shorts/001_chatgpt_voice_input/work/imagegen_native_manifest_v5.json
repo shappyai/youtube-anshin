@@ -1,0 +1,67 @@
+{
+  "short_id": "Short001",
+  "version": "v5",
+  "prompt_file": "work/imagegen_prompts_v5.md",
+  "reuse_policy": "v2完成画は再利用。新規ImageGenはShort003の具体的な生活scene 2枚だけ。画像へ大見出しを後乗せしない。",
+  "assets": [
+    {
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "source": "reused_from_v2 / built-in image_gen",
+      "prompt": null,
+      "text_render_mode": "imagegen_native",
+      "headline_lines": [
+        "ChatGPT",
+        "話すだけで使える？"
+      ],
+      "text_content": "ImageGen-native approved text retained",
+      "exact_text_qa": "PASS_REVALIDATED",
+      "vision_qa": "PASS_REUSED",
+      "meaningful_crop": false,
+      "official_ui_ai_reconstruction": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "3ea6c9f12d65c9669f4e5cf4125cc2f168a5f6b041f6679f519f26a301884f62"
+    },
+    {
+      "asset": "assets/imagegen_native_v2/normalized/scene_04_life.png",
+      "source": "reused_from_v2 / built-in image_gen",
+      "prompt": null,
+      "text_render_mode": "imagegen_native",
+      "headline_lines": [
+        "今日のごはん、",
+        "何を作れる？"
+      ],
+      "text_content": "ImageGen-native approved text retained",
+      "exact_text_qa": "PASS_REVALIDATED",
+      "vision_qa": "PASS_REUSED",
+      "meaningful_crop": false,
+      "official_ui_ai_reconstruction": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "f2547bb0b9dd4674a7ac2e77f87c8db071f2ff374b80ec86a979ff0e1d03f50b"
+    },
+    {
+      "asset": "assets/imagegen_native_v2/normalized/scene_06_summary.png",
+      "source": "reused_from_v2 / built-in image_gen",
+      "prompt": null,
+      "text_render_mode": "imagegen_native",
+      "headline_lines": [
+        "まずは",
+        "話しかけるだけ"
+      ],
+      "text_content": "ImageGen-native approved text retained",
+      "exact_text_qa": "PASS_REVALIDATED",
+      "vision_qa": "PASS_REUSED",
+      "meaningful_crop": false,
+      "official_ui_ai_reconstruction": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "a7caa300f1f2fdca47785bfeb03eb1bd60112924c58b109397b22aa89767b0a4"
+    }
+  ],
+  "metrics": {
+    "unique_imagegen_native_asset_count": 3,
+    "imagegen_call_count": 0,
+    "regeneration_count": 0,
+    "exact_text_fail_count": 0,
+    "no_text_generated_asset_count": 0,
+    "hybrid_generated_image_large_text": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "episode_id": "012",
+  "status": "PASS",
+  "approved_at": "2026-09-06",
+  "segment_id": 30,
+  "target_text": "これ、本物？",
+  "canonical_path": "audio/human_approved/030.wav",
+  "source_path": "audio/voicevox_kenzaki/segments/030.wav",
+  "source": "human_audio_override",
+  "override_priority": [
+    "human_audio_override",
+    "pronunciation_dictionary",
+    "automatic_voicevox_generation"
+  ],
+  "sha256": "7B534892A4AC893CC7F1D0D483B67A8A94E690353DB652EA16B0077C3F4C7106",
+  "narration_sha256": "BF3FC7F9C9CA775F2AA5D26E1D2C343EC4AB1DE1E26D53F82D281918799C138B",
+  "audio": {
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "frames": 152320,
+    "duration_seconds": 6.346667,
+    "timeline_duration_seconds": 6.347
+  },
+  "timeline": {
+    "start_seconds": 213.189,
+    "end_seconds": 219.536,
+    "pause_after_seconds": 0.12,
+    "reused_in": ["output/draft_v4.mp4", "output/final.mp4"]
+  },
+  "automatic_regeneration": false,
+  "dictionary_source_used": false,
+  "retain_during_cleanup": true,
+  "human_approval_note": "ユーザーが修正した音声をsource of truthとし、VOICEVOXの再生成は行わない。"
+}

@@ -1,0 +1,356 @@
+{
+  "duration": 236.795,
+  "segments": [
+    {
+      "segment_id": 1,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\001.wav",
+      "hash": "764b8d2f773ca98f4c442b1c1fcf4d496a933dd1fbbf553a6f4ccf4cb0002d98",
+      "start_sec": 0.0,
+      "end_sec": 4.885,
+      "duration_sec": 4.885,
+      "pause_after": 0.12
+    },
+    {
+      "segment_id": 2,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\002.wav",
+      "hash": "a0ebab8cdbad5f8c8de5aa2218d228fdf215cdbba1d68b5cd516004acb3d08a0",
+      "start_sec": 5.005,
+      "end_sec": 8.269,
+      "duration_sec": 3.264,
+      "pause_after": 0.12
+    },
+    {
+      "segment_id": 3,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\003.wav",
+      "hash": "f9d904712a0d974cbe4ad0cef7f0dee5c802d4d24d1772d187d085a59dc15c7a",
+      "start_sec": 8.389,
+      "end_sec": 13.637,
+      "duration_sec": 5.248,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 4,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\004.wav",
+      "hash": "b5f3dcf2eb39de3a06b4f3deee0fef0fb001ccc262f10fc5c53bf79e5cacf6b6",
+      "start_sec": 13.817,
+      "end_sec": 19.311,
+      "duration_sec": 5.493,
+      "pause_after": 0.15
+    },
+    {
+      "segment_id": 5,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\005.wav",
+      "hash": "8e4f37d98ba56d8173776f4e800256f5f34613b2cb7fa4cac8eef05175cba499",
+      "start_sec": 19.461,
+      "end_sec": 25.285,
+      "duration_sec": 5.824,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 6,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\006.wav",
+      "hash": "c39d9cce4ddb00e5dc1932fdb7ead0c33e28a189b5e04f30bee3af2ba1c69111",
+      "start_sec": 25.485,
+      "end_sec": 33.303,
+      "duration_sec": 7.819,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 7,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\007.wav",
+      "hash": "66dfaa6ea77780ff74ab55d360a8e78cdf6315afcaf464635aaa5fc7aab51a75",
+      "start_sec": 33.483,
+      "end_sec": 39.019,
+      "duration_sec": 5.536,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 8,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\008.wav",
+      "hash": "ecdfec3faaca975c7e27d6911fcb0b66f04e76b987bb1f34afbe16545d330493",
+      "start_sec": 39.199,
+      "end_sec": 46.517,
+      "duration_sec": 7.317,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 9,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\009.wav",
+      "hash": "2919f41d4a42c008d1fdd6b2306ed47ab40de91b9e13306f9f6a180f9068dd55",
+      "start_sec": 46.717,
+      "end_sec": 51.037,
+      "duration_sec": 4.32,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 10,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\010.wav",
+      "hash": "1845f13eab553561d2f9d09d3ec73872934ee865dd88ccc2f52a6a08b35024a8",
+      "start_sec": 51.237,
+      "end_sec": 56.069,
+      "duration_sec": 4.832,
+      "pause_after": 0.16
+    },
+    {
+      "segment_id": 11,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\011.wav",
+      "hash": "ef5db999cb27cd56c1482c71ed167ecb90f4f69bb568d8536d1a65afbd54a2fd",
+      "start_sec": 56.229,
+      "end_sec": 62.853,
+      "duration_sec": 6.624,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 12,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\012.wav",
+      "hash": "f3cb0397b30584fd5a65e35c7dd8f48c2cbfba224b97924ab2e013394d31fd52",
+      "start_sec": 63.053,
+      "end_sec": 68.642,
+      "duration_sec": 5.589,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 13,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\013.wav",
+      "hash": "a1b5dc22249ae21e0a8494b91f3417cec421bce08814f6bdb2c9af96328ad4e2",
+      "start_sec": 68.822,
+      "end_sec": 75.318,
+      "duration_sec": 6.496,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 14,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\014.wav",
+      "hash": "e63d1a795c7ef47160bd9d98405bd786e9a923699075ea61cb506f4e282516fb",
+      "start_sec": 75.518,
+      "end_sec": 79.635,
+      "duration_sec": 4.117,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 15,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\015.wav",
+      "hash": "2ae4d04a4439a82fb7940a3a3e68b818676e9a293d8dec0e50966279b67dc953",
+      "start_sec": 79.835,
+      "end_sec": 88.678,
+      "duration_sec": 8.843,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 16,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\016.wav",
+      "hash": "fc950838a60aaffbfa044b843f954d6f238c1dc3e548e53847586acab5c414bf",
+      "start_sec": 88.858,
+      "end_sec": 95.013,
+      "duration_sec": 6.155,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 17,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\017.wav",
+      "hash": "d429aabd091e616fa67d9d943a98046a35bfc20386e896bf0532a3b817f92686",
+      "start_sec": 95.193,
+      "end_sec": 100.697,
+      "duration_sec": 5.504,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 18,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\018.wav",
+      "hash": "f8b0f4d1245cea8de3a689ecfdc2335cc3851fb70227e1eb39c70eaa400cd33f",
+      "start_sec": 100.877,
+      "end_sec": 108.29,
+      "duration_sec": 7.413,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 19,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\019.wav",
+      "hash": "2475ce31fbc84d88f6e065124374899ec7c01b95b4c0c344f67df28e9fe4a647",
+      "start_sec": 108.49,
+      "end_sec": 112.799,
+      "duration_sec": 4.309,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 20,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\020.wav",
+      "hash": "6374db7e0e57fc58c4b81042caddf4c792848c1754d192c2e9ad70d50997296a",
+      "start_sec": 112.999,
+      "end_sec": 118.514,
+      "duration_sec": 5.515,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 21,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\021.wav",
+      "hash": "0be41e1c76cae49a0c70c47d257ac2d20271bb6fbd5f1cfa8a99293a95e58cc8",
+      "start_sec": 118.694,
+      "end_sec": 123.718,
+      "duration_sec": 5.024,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 22,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\022.wav",
+      "hash": "c92364e8ec68093cb973c1bd639f9f761ba2f64b5919b1cdde812b890b3a0b5d",
+      "start_sec": 123.898,
+      "end_sec": 133.69,
+      "duration_sec": 9.792,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 23,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\023.wav",
+      "hash": "a03923e4f32fe9e0320bffe29d652fff4328a4c909e5c8159f2afdf2427b84f2",
+      "start_sec": 133.89,
+      "end_sec": 139.362,
+      "duration_sec": 5.472,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 24,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\024.wav",
+      "hash": "0f08af5880f046fdd6f5f05fa74d8ee8933ca8756fb9f43b118319cb83f8f470",
+      "start_sec": 139.542,
+      "end_sec": 145.803,
+      "duration_sec": 6.261,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 25,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\025.wav",
+      "hash": "2d6a8a02934b9939e612e9f8cd084f5c4e976b5551e8ebb7f3a94ec67bc5b0a5",
+      "start_sec": 146.003,
+      "end_sec": 152.307,
+      "duration_sec": 6.304,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 26,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\026.wav",
+      "hash": "89c484ad58d846ff9fac0d50cebfa906f8ec81033e863d027e450363e62ef123",
+      "start_sec": 152.487,
+      "end_sec": 164.903,
+      "duration_sec": 12.416,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 27,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\027.wav",
+      "hash": "ed3a50b4ab956aef425ffabe2f48680124af57ab2fa1c7054fd2599b2997951f",
+      "start_sec": 165.103,
+      "end_sec": 170.671,
+      "duration_sec": 5.568,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 28,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\028.wav",
+      "hash": "4abff0fa2802e7886f92f27c77add76cfd4229b049fdb3370642caa51224eb1e",
+      "start_sec": 170.871,
+      "end_sec": 176.023,
+      "duration_sec": 5.152,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 29,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\029.wav",
+      "hash": "5c65e3bd23aef97d85477eb718f57e8be29e0bb0990fdf283dfbc8b85151fabf",
+      "start_sec": 176.203,
+      "end_sec": 181.003,
+      "duration_sec": 4.8,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 30,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\030.wav",
+      "hash": "23037b51b5d1f20cadf2882d6fafe5a1d2385fdfa9f90e33f70516df7218f36f",
+      "start_sec": 181.203,
+      "end_sec": 185.427,
+      "duration_sec": 4.224,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 31,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\031.wav",
+      "hash": "8d177a6bb65d88a57045786084c4e84458ff0f6a45c4410845320ae548582636",
+      "start_sec": 185.627,
+      "end_sec": 190.161,
+      "duration_sec": 4.533,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 32,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\032.wav",
+      "hash": "44d48b47b45320528e561206d816b8070f694dc7476a467502535a31bd20b1b6",
+      "start_sec": 190.341,
+      "end_sec": 195.823,
+      "duration_sec": 5.483,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 33,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\033.wav",
+      "hash": "a393c1b7af574d5aa976b8e3571a32de4ecea0fd585e2abf52e5ad202f4ff90b",
+      "start_sec": 196.003,
+      "end_sec": 204.163,
+      "duration_sec": 8.16,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 34,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\034.wav",
+      "hash": "620a707dd5278456aa562bcb2d054c918ba3c77e5e115e2954afe24b0ff9593c",
+      "start_sec": 204.343,
+      "end_sec": 210.167,
+      "duration_sec": 5.824,
+      "pause_after": 0.18
+    },
+    {
+      "segment_id": 35,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\035.wav",
+      "hash": "1a8c1db2706d75834ad1d9a1d90eec5a58995b5cf8553a6571dad215f899da18",
+      "start_sec": 210.347,
+      "end_sec": 215.542,
+      "duration_sec": 5.195,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 36,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\036.wav",
+      "hash": "50c3f3a70b392b2783436a648cc694c33bac8a1b8f951e0808fd2aa8723c624a",
+      "start_sec": 215.742,
+      "end_sec": 221.459,
+      "duration_sec": 5.717,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 37,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\037.wav",
+      "hash": "8144caf09990a301a1c6d98a1c70eb77e0b5edab4aa572acdb3ffedc3e0b3a48",
+      "start_sec": 221.659,
+      "end_sec": 227.259,
+      "duration_sec": 5.6,
+      "pause_after": 0.2
+    },
+    {
+      "segment_id": 38,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\038.wav",
+      "hash": "baf43ef7cf97baa351ee99a6b746afab728700ed27c363e4d4b0fe2986f17b35",
+      "start_sec": 227.459,
+      "end_sec": 232.835,
+      "duration_sec": 5.376,
+      "pause_after": 0.25
+    },
+    {
+      "segment_id": 39,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\audio\\voicevox_kenzaki\\segments\\039.wav",
+      "hash": "dce614a3dfef3daa56999e496e30aa51e589b13b5d2557ddc2f53e94cc90003e",
+      "start_sec": 233.085,
+      "end_sec": 236.445,
+      "duration_sec": 3.36,
+      "pause_after": 0.35
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "version": "1.0",
+  "image_count": 14,
+  "scenes": [
+    {
+      "scene_id": "SCENE-001",
+      "filename": "scene_001.png",
+      "narration": "アプリの名前やアイコンが、急に変わって驚いた方はいませんか。マイナポータルアプリは、8月25日から「マイナアプリ」になりました。",
+      "main_message": "マイナポータルアプリは、マイナアプリになりました。",
+      "headline": "8月25日から「マイナアプリ」",
+      "support_text": "名前とアイコンが変わります",
+      "duration": 12.3,
+      "render_mode": "hybrid",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a visual-first background for the message '8月25日から「マイナアプリ」'. Use the supporting idea '名前とアイコンが変わります'. Place the main focal object in the left or center 45% and preserve a clean high-contrast area for a later Codex headline layer. Leave a clearly empty framed slot occupying 35 to 50 percent for a real official asset added later by Codex. ",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/official_icon_rounded_3x.png",
+          "label": "公式アイコン"
+        }
+      ],
+      "official_asset_slot": "right 35-50%",
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-002",
+      "filename": "scene_002.png",
+      "narration": "お伝えしますが、マイナポータルというサービス自体は、なくなりません。アプリを消して、入れ直す必要もありません。",
+      "main_message": "サービスそのものは、引き続き使えます。",
+      "headline": "マイナポータルは、なくなりません",
+      "support_text": "アプリを消して、入れ直す必要はありません",
+      "duration": 10.6,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a visual-first background for the message 'マイナポータルは、なくなりません'. Use the supporting idea 'アプリを消して、入れ直す必要はありません'. Place the main focal object in the left or center 45% and preserve a clean high-contrast area for a later Codex headline layer. ",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-004",
+      "filename": "scene_004.png",
+      "narration": "マイナアプリは、これまで使われてきたマイナポータルアプリの、新しい名前です。同じアプリのアップデート版で、いわば「名前を変えた」ものです。",
+      "main_message": "名前を変えたアプリです。",
+      "headline": "同じアプリの、新しい名前",
+      "support_text": "マイナポータルアプリのアップデート版です",
+      "duration": 13.3,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a visual-first background for the message '同じアプリの、新しい名前'. Use the supporting idea 'マイナポータルアプリのアップデート版です'. Place the main focal object in the left or center 45% and preserve a clean high-contrast area for a later Codex headline layer. ",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-010",
+      "filename": "scene_010.png",
+      "narration": "開くと、マイナアプリの利用を案内する画面が表示される、と公式のよくある質問にあります。使っていた人も、同じ機能をマイナアプリで引き続き使えます。ここで、いちばん大事なことをお伝えします。マイナポータルというサービス自体が、なくなったわけではありません。",
+      "main_message": "サービスとアプリを分けて考えると安心です。",
+      "headline": "マイナポータルは、なくなりません",
+      "support_text": "変わるのは、スマホアプリの名前とログイン方法",
+      "duration": 24.2,
+      "render_mode": "hybrid",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a visual-first background for the message 'マイナポータルは、なくなりません'. Use the supporting idea '変わるのは、スマホアプリの名前とログイン方法'. Place the main focal object in the left or center 45% and preserve a clean high-contrast area for a later Codex headline layer. Leave a clearly empty framed slot occupying 35 to 50 percent for a real official asset added later by Codex. ",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/browser/br_02_svc_top_faq.png",
+          "label": "公式サービスサイトFAQ"
+        }
+      ],
+      "official_asset_slot": "right 35-50%",
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-011",
+      "filename": "scene_011.png",
+      "narration": "マイナポータルは、行政サービスのオンライン窓口です。ウェブサイトは、引き続き使えます。医療費などの自己情報の確認や、引越し・パスポートなどの申請も、今までどおりです。",
+      "main_message": "医療費の確認や各種申請も対象です。",
+      "headline": "マイナポータルは、行政の窓口",
+      "support_text": "ウェブサイトは、今までどおり使えます",
+      "duration": 16.0,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a visual-first background for the message 'マイナポータルは、行政の窓口'. Use the supporting idea 'ウェブサイトは、今までどおり使えます'. Place the main focal object in the left or center 45% and preserve a clean high-contrast area for a later Codex headline layer. ",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-017",
+      "filename": "scene_017.png",
+      "narration": "ここで注意です。分からなくなったからといって、アプリを削除して入れ直すのは、まず待ってください。",
+      "main_message": "慌ててアプリを消す前に、案内を確認します。",
+      "headline": "削除・入れ直しは、まず待って",
+      "support_text": "分からないときは、公式FAQを確認",
+      "duration": 9.2,
+      "render_mode": "hybrid",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a visual-first background for the message '削除・入れ直しは、まず待って'. Use the supporting idea '分からないときは、公式FAQを確認'. Place the main focal object in the left or center 45% and preserve a clean high-contrast area for a later Codex headline layer. Leave a clearly empty framed slot occupying 35 to 50 percent for a real official asset added later by Codex. ",
+      "official_asset": [
+        {
+          "kind": "quote",
+          "text": "Q. アプリを入れ直したら、マイナアプリが開かなくなりました。",
+          "source": "https://support.mynaapp.digital.go.jp/hc/ja",
+          "label": "公式FAQ・質問"
+        }
+      ],
+      "official_asset_slot": "right 35-50%",
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-018",
+      "filename": "scene_018.png",
+      "narration": "公式のよくある質問には、アプリを入れ直したあと、マイナアプリが開かなくなった、という質問への案内があります。スマホには「後からインストールしたアプリが優先して開く」という仕組みがあり、デジタル認証アプリを後から入れ直すと、マイナアプリの代わりに開いてしまうことがあるそうです。",
+      "main_message": "インストールの順番で、開くアプリが決まる場合があります。",
+      "headline": "後から入れたアプリが、優先されます",
+      "support_text": "入れ直しの前に、仕組みを確認",
+      "duration": 26.5,
+      "render_mode": "hybrid",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a visual-first background for the message '後から入れたアプリが、優先されます'. Use the supporting idea '入れ直しの前に、仕組みを確認'. Place the main focal object in the left or center 45% and preserve a clean high-contrast area for a later Codex headline layer. Leave a clearly empty framed slot occupying 35 to 50 percent for a real official asset added later by Codex. ",
+      "official_asset": [
+        {
+          "kind": "quote",
+          "text": "A. 後からインストールしたアプリが優先して開く仕組みになっています。マイナアプリを優先したい場合は、マイナアプリをデジタル認証アプリより後にインストールし直すか、デジタル認証アプリをアンインストールします。",
+          "source": "https://support.mynaapp.digital.go.jp/hc/ja",
+          "label": "公式FAQ・回答"
+        }
+      ],
+      "official_asset_slot": "right 35-50%",
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-020",
+      "filename": "scene_020.png",
+      "narration": "次に、新しく使う人や、アップデート後に開けない人向けの確認です。まず、動作環境です。",
+      "main_message": "端末の条件から確認します。",
+      "headline": "まず、動作環境を確認",
+      "support_text": "4 / 5 新しく使う人・開けない人",
+      "duration": 8.1,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a visual-first background for the message 'まず、動作環境を確認'. Use the supporting idea '4 / 5 新しく使う人・開けない人'. Place the main focal object in the left or center 45% and preserve a clean high-contrast area for a later Codex headline layer. ",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-023",
+      "filename": "scene_023.png",
+      "narration": "また、端末のロック設定が必須です。PIN、顔認証、指紋認証など、スマホ本体のロックが設定されていないと、マイナアプリは使えません、と公式に案内されています。",
+      "main_message": "ロック未設定ではマイナアプリを使えません。",
+      "headline": "端末のロック設定が必須",
+      "support_text": "PIN・顔認証・指紋認証",
+      "duration": 15.0,
+      "render_mode": "hybrid",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a visual-first background for the message '端末のロック設定が必須'. Use the supporting idea 'PIN・顔認証・指紋認証'. Place the main focal object in the left or center 45% and preserve a clean high-contrast area for a later Codex headline layer. Leave a clearly empty framed slot occupying 35 to 50 percent for a real official asset added later by Codex. ",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/official_screen_register_device_lock.png",
+          "label": "公式・端末ロック"
+        },
+        {
+          "kind": "image",
+          "path": "assets/official/browser/br_06_sysreq.png",
+          "label": "公式・端末ロック案内"
+        }
+      ],
+      "official_asset_slot": "right 35-50%",
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-028",
+      "filename": "scene_028.png",
+      "narration": "アイコンのデザインは、ピンクのグラデーションに「マイナ」の文字と、桜のマークです。",
+      "main_message": "実際の公式素材を表示します。",
+      "headline": "アイコンのデザインを確認",
+      "support_text": "ピンクのグラデーション・「マイナ」・桜",
+      "duration": 7.9,
+      "render_mode": "hybrid",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a visual-first background for the message 'アイコンのデザインを確認'. Use the supporting idea 'ピンクのグラデーション・「マイナ」・桜'. Place the main focal object in the left or center 45% and preserve a clean high-contrast area for a later Codex headline layer. Leave a clearly empty framed slot occupying 35 to 50 percent for a real official asset added later by Codex. ",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/official_icon_rounded_3x.png",
+          "label": "公式アイコン"
+        }
+      ],
+      "official_asset_slot": "right 35-50%",
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-029",
+      "filename": "scene_029.png",
+      "narration": "デジタル庁は、マイナポータルをかたる偽サイトや、偽アプリの事案について、注意喚起を出しています。メールや電話で、アプリのダウンロードや、暗証番号の入力を求められたら、まず疑ってください。",
+      "main_message": "公式ストア以外からインストールしないようにします。",
+      "headline": "偽サイト・偽アプリに注意",
+      "support_text": "メールや電話の案内は、まず疑う",
+      "duration": 17.9,
+      "render_mode": "hybrid",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a visual-first background for the message '偽サイト・偽アプリに注意'. Use the supporting idea 'メールや電話の案内は、まず疑う'. Place the main focal object in the left or center 45% and preserve a clean high-contrast area for a later Codex headline layer. Leave a clearly empty framed slot occupying 35 to 50 percent for a real official asset added later by Codex. ",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/browser/br_10_notice_fakeapp.png",
+          "label": "デジタル庁・偽アプリ注意"
+        }
+      ],
+      "official_asset_slot": "right 35-50%",
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-030",
+      "filename": "scene_030.png",
+      "narration": "暗証番号などをメールや電話で聞かれても、入力・回答しないよう、デジタル庁は案内しています。",
+      "main_message": "デジタル庁の注意喚起を確認します。",
+      "headline": "暗証番号を入力・回答しない",
+      "support_text": "不審な連絡から操作しない",
+      "duration": 8.7,
+      "render_mode": "hybrid",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a visual-first background for the message '暗証番号を入力・回答しない'. Use the supporting idea '不審な連絡から操作しない'. Place the main focal object in the left or center 45% and preserve a clean high-contrast area for a later Codex headline layer. Leave a clearly empty framed slot occupying 35 to 50 percent for a real official asset added later by Codex. ",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/browser/br_11_notice_phishing.png",
+          "label": "デジタル庁・フィッシング注意"
+        }
+      ],
+      "official_asset_slot": "right 35-50%",
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-031",
+      "filename": "scene_031.png",
+      "narration": "公式の相談窓口は、マイナンバー総合フリーダイヤル、0120-95-0178です。心配なことがあれば、一人で判断せず、確認するのもひとつの方法です。",
+      "main_message": "一人で判断せず、確認する方法もあります。",
+      "headline": "心配なときの相談窓口",
+      "support_text": "マイナンバー総合フリーダイヤル 0120-95-0178",
+      "duration": 14.0,
+      "render_mode": "hybrid",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a visual-first background for the message '心配なときの相談窓口'. Use the supporting idea 'マイナンバー総合フリーダイヤル 0120-95-0178'. Place the main focal object in the left or center 45% and preserve a clean high-contrast area for a later Codex headline layer. Leave a clearly empty framed slot occupying 35 to 50 percent for a real official asset added later by Codex. ",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/browser/br_10_notice_fakeapp.png",
+          "label": "公式・相談窓口"
+        }
+      ],
+      "official_asset_slot": "right 35-50%",
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-034",
+      "filename": "scene_034.png",
+      "narration": "慌てて消す前に、まず確認する。それが一番の近道です。役に立ったら、チャンネル登録して、次回も一緒に確認しましょう。",
+      "main_message": "怖がらせる前に、確認する。",
+      "headline": "慌てて消す前に、まず確認",
+      "support_text": "役に立ったらチャンネル登録を",
+      "duration": 11.0,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a visual-first background for the message '慌てて消す前に、まず確認'. Use the supporting idea '役に立ったらチャンネル登録を'. Place the main focal object in the left or center 45% and preserve a clean high-contrast area for a later Codex headline layer. ",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    }
+  ]
+}

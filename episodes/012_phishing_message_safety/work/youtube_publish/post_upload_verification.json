@@ -1,0 +1,60 @@
+{
+  "verified_on": "2026-09-06",
+  "status": "PASS",
+  "auth": {
+    "credential_path": "local/youtube/token.json",
+    "token_exists": true,
+    "refresh_token_present": true,
+    "expired_after_actual_run": false,
+    "valid_after_actual_run": true,
+    "refresh_result": "PASS",
+    "browser_oauth_started": false,
+    "channel_guard": "PASS"
+  },
+  "channel": {
+    "id": "UCgVRceTJYO5KOrPX4w2jXZw",
+    "title": "大人のデジタル安心室",
+    "channels_list": "PASS"
+  },
+  "video": {
+    "id": "CzTNLyAn1lY",
+    "url": "https://youtu.be/CzTNLyAn1lY",
+    "final_path": "output/final.mp4",
+    "final_sha256": "32933ED599E072DDF27FA7AF99756F4F78B15A3498DA0EA2071F44EC04660DD8",
+    "duration_seconds_local": 585.4,
+    "title_match": true,
+    "description_match": true,
+    "chapters_present": true,
+    "source_urls_present": true,
+    "internal_episode_id_in_description": false,
+    "privacy_status": "private",
+    "publish_at_api": "2026-09-12T10:00:00Z",
+    "publish_at_local": "2026-09-12 19:00:00 JST",
+    "made_for_kids": false,
+    "category_id": "22",
+    "default_language": "ja",
+    "contains_synthetic_media": true,
+    "contains_synthetic_media_verification_source": "videos.update response; videos.list omitted containsSyntheticMedia",
+    "reupload": false
+  },
+  "thumbnail": {
+    "source_path": "assets/thumbnail/thumbnail_source.png",
+    "source_sha256": "E611BA47451BA537C37E5FB4FBE1C6486EF8A52511AD1532C0870FFE7391229E",
+    "public_path": "assets/thumbnail/thumbnail.png",
+    "public_sha256": "AB169B2F8185D7B7497A1450C0028CDDA614C4A1F0ECF0A8C6E39FDFD060F10B",
+    "dimensions": "1280x720",
+    "content_change": false,
+    "youtube_thumbnail_set": true
+  },
+  "audio": {
+    "human_override_segment": 30,
+    "human_override_path": "audio/human_approved/030.wav",
+    "human_override_sha256": "7B534892A4AC893CC7F1D0D483B67A8A94E690353DB652EA16B0077C3F4C7106",
+    "regenerated": false
+  },
+  "end_screen": {
+    "status": "NOT_CONFIGURED_HUMAN_ACTION_REQUIRED",
+    "related_video_title": "【ニセ警察詐欺】「警察です」と電話が来たら？まず切って確認｜LINE誘導・国際電話",
+    "reserved_area": "右側40〜45%"
+  }
+}

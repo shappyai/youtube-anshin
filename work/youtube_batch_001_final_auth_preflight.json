@@ -1,0 +1,17 @@
+{
+  "auth_timestamp": "2026-09-07T05:16:16Z",
+  "oauth_client_type": "installed",
+  "oauth_client_id_sha256_prefix": "a0e5d6a09ed6",
+  "oauth_client_id_suffix": "nt.com",
+  "has_refresh_token": true,
+  "access_token_expiry": "2026-09-07T06:00:29Z",
+  "refresh_attempted": false,
+  "refresh_success": null,
+  "error_class": null,
+  "channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+  "channel_guard": "PASS",
+  "youtube_api_auth": "PASS",
+  "token_exists": true,
+  "token_saved": false,
+  "token_backup_created": false
+}

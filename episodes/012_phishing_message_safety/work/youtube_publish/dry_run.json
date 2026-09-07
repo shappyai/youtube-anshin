@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "api_called": false,
+  "oauth_called": false,
+  "episode": "012_phishing_message_safety",
+  "final_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\output\\final.mp4",
+  "thumbnail_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\012_phishing_message_safety\\assets\\thumbnail\\thumbnail.png",
+  "title": "【詐欺メール】本物そっくりでも見分けなくていい？安全に確認する5つの場面",
+  "description_bytes": 2553,
+  "tag_count": 10,
+  "tag_total_length": 63,
+  "privacy": "scheduled",
+  "ai_disclosure": true,
+  "schedule_local": "2026-09-12 19:00:00 JST",
+  "schedule_api": "2026-09-12T10:00:00Z",
+  "video_sha256": "32933ED599E072DDF27FA7AF99756F4F78B15A3498DA0EA2071F44EC04660DD8",
+  "existing_video_id": null,
+  "expected_api_requests": [
+    "videos.insert part=snippet,status resumable=True notifySubscribers=False status.containsSyntheticMedia",
+    "videos.update part=status private+publishAt",
+    "thumbnails.set",
+    "videos.list part=snippet,status"
+  ],
+  "errors": []
+}

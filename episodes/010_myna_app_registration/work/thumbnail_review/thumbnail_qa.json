@@ -1,0 +1,51 @@
+{
+  "episode_id": "010",
+  "checked_at": "2026-09-06",
+  "source": {
+    "path": "assets/thumbnail/thumbnail_source.png",
+    "origin": "ユーザー指定のChatGPT生成画像",
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "filesize_bytes": 1868566,
+    "sha256": "68a4f32a8fb27fd6bece43dd31cb229a91410cfd17742dbba2de0b38d3c19977"
+  },
+  "published": {
+    "path": "assets/thumbnail/thumbnail.png",
+    "format": "PNG",
+    "width": 1280,
+    "height": 720,
+    "filesize_bytes": 1147245,
+    "sha256": "ffa2a968e3acf41b22220b17a2bfcaf2d4c1e5ab0539c3936884881b348b6860"
+  },
+  "normalization": {
+    "operation": "原本の上下1px相当の比率調整と1280x720へのLANCZOS縮小",
+    "content_edit": false,
+    "text_edit": false,
+    "person_edit": false,
+    "ui_edit": false
+  },
+  "qa": {
+    "dimensions_1280x720": "PASS",
+    "format_png_or_jpeg": "PASS",
+    "size_lte_2mb": "PASS",
+    "decode": "PASS",
+    "copy_text_match": "PASS",
+    "text_clipping": 0,
+    "text_omission": 0,
+    "face_clipping": 0,
+    "readable_at_25_percent": "PASS",
+    "watermark_count": 0,
+    "viewer_facing_internal_episode_id_count": 0,
+    "official_confusion_check": "PASS（公式UI・公式サムネイルではなく説明用ビジュアル）"
+  },
+  "visible_copy": [
+    "マイナアプリ",
+    "最初に",
+    "何する？",
+    "初めて使う人向け",
+    "やさしく解説"
+  ],
+  "visual_review": "PASS（全体および25%縮小表示を目視確認。65歳以上のTV視聴を想定して文字・人物・構図を確認）",
+  "status": "PASS"
+}

@@ -1,0 +1,7 @@
+﻿shot_id,filename,use,notes
+SHOT-01,shot_01_security_checkup.mp4,yes,撮影済み 2026-08-29（capture_android.py・37秒・日本語UI・テストアカウント）
+SHOT-02,shot_02_recovery.mp4,yes,撮影済み 2026-08-29（capture_android.py・44秒・テストアカウント）
+SHOT-02B,shot_02b_recovery_email.mp4,yes,撮影済み 2026-08-29（再設定用メールアドレス・40秒・追加/変更なし・テストアカウント）
+SHOT-03,shot_03_2step.mp4,yes,撮影済み 2026-08-29（2段階認証ページ・24秒・設定変更なし・テストアカウント）
+SHOT-04,shot_04_devices.mp4,yes,撮影済み 2026-08-29（お使いのデバイス・27秒・ログアウト/削除なし・テストアカウント）
+SHOT-05,shot_05_connections.mp4,yes,撮影済み 2026-08-29（capture_android.py・82秒・テストアカウント）

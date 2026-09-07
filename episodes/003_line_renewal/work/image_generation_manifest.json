@@ -1,0 +1,294 @@
+{
+  "version": "1.0",
+  "image_count": 8,
+  "scenes": [
+    {
+      "scene_id": "SCENE-001",
+      "filename": "scene_001.png",
+      "narration": "LINEを開いたら、いつもの場所に「友だち」が見当たらない。画面の配置が変わって、驚いた方もいると思います。今回の変化は、LINEの故障ではなく、LINE公式のリニューアルです。友だちやトーク履歴が急に消えた、という説明ではありません。",
+      "main_message": "故障ではありません",
+      "headline": "変わった？まず安心",
+      "support_text": "落ち着いて、順番に確認",
+      "duration": 22.7,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a calm visual of an older Japanese adult looking at a smartphone while a few large abstract interface cards gently shift position. Keep the person and phone prominent on the right half, leave the left half clean and bright for later Codex Japanese text. Use no recognizable app screen, no LINE logo, no brand marks, and no readable text. The emotional tone is relief and curiosity, not fear.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-003",
+      "filename": "scene_003.png",
+      "narration": "まずは、トーク画面から友だちを探す方法です。",
+      "main_message": "入口を見つける",
+      "headline": "「友だち」はどこ？",
+      "support_text": "まずはトークから確認",
+      "duration": 4.2,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a simple, friendly visual metaphor for finding a familiar contact: a large magnifying glass and two oversized abstract doorway shapes, with a warm smartphone silhouette on the right. Leave the left half clean for a later Codex headline layer. No app UI, no LINE logo, no brand marks, no readable text, no tiny details.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-007",
+      "filename": "scene_007.png",
+      "narration": "次は、トークタブで変わった部分を、もう少しだけ見ていきます。",
+      "main_message": "見つけ方を整理",
+      "headline": "変わったところを確認",
+      "support_text": "タブとプラスを見てみる",
+      "duration": 5.8,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a clean visual metaphor for switching between two familiar paths: two large rounded signposts connected by a simple arrow, with a smartphone silhouette on the right. Use white, blue, and green with a calm educational feeling. Leave the left half clear for later Codex Japanese text. No app screen, no LINE logo, no brand marks, no readable text.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-010",
+      "filename": "scene_010.png",
+      "narration": "ここからは、ホーム画面で、何をどこで見るかを確認します。",
+      "main_message": "ホームの見方",
+      "headline": "ホームはどこを見る？",
+      "support_text": "アクティビティとコンテンツ",
+      "duration": 5.4,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a welcoming visual metaphor for a home entrance with two clearly separated areas: one area for familiar daily items and one area for new topics. Use a large abstract house doorway and a smartphone silhouette on the right, with blue and green accents. Leave the left half uncluttered for later Codex Japanese text. No app UI, no LINE logo, no brand marks, no readable text.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-013",
+      "filename": "scene_013.png",
+      "narration": "では、自分だけ画面が違うように見えるときは、どう考えればよいでしょうか。",
+      "main_message": "人によって違う可能性",
+      "headline": "自分だけ違う？",
+      "support_text": "順次公開・順次提供です",
+      "duration": 6.9,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a calm visual metaphor for a gradual rollout: three large abstract stepping stones or stages leading toward a smartphone silhouette on the right, with different gentle blue and green states. Leave the left half clean for later Codex Japanese text. No app UI, no LINE logo, no brand marks, no readable text.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-014",
+      "filename": "scene_014.png",
+      "narration": "トークタブは、LINE 15.16.0以上で順次公開中です。ホームタブも対応バージョンで順次提供され、全員の画面が同じ時期にそろうとは限りません。自分のLINEが古いから壊れた、とすぐに決めつける必要はありません。家族と同じLINEを使っていても、表示される画面が違う可能性があります。",
+      "main_message": "同じ時期にそろうとは限りません",
+      "headline": "人によって違っても大丈夫",
+      "support_text": "トークもホームも順次公開・順次提供",
+      "duration": 27.5,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a reassuring illustration of two older adults and one family member looking at two smartphones that show gently different abstract color states, connected by a soft dotted rollout path. Put the people and phones on the right half and keep the left half clean for later Codex Japanese text. The visual should communicate 'different timing can be normal', not a technical error. No app UI, no LINE logo, no brand marks, no readable text.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-016",
+      "filename": "scene_016.png",
+      "narration": "最後に、今やることを三つに絞ります。",
+      "main_message": "あわてず、順番に確認",
+      "headline": "今やること",
+      "support_text": "3つだけ確認します",
+      "duration": 3.5,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a simple, calming checklist metaphor with three large blank check cards and a hand confirming one item, plus a smartphone silhouette on the right. Leave the left half clean for later Codex Japanese text. Use white, blue, and green. No readable text, no app UI, no LINE logo, no brand marks, and no tiny decoration.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-018",
+      "filename": "scene_018.png",
+      "narration": "画面が変わったときは、友だちが消えたのか、入口が変わっただけなのかを確認しましょう。今回のリニューアルは、LINE公式が進めている変更です。表示が違っていても、順次公開の途中なら不自然とは限りません。役に立ったら、チャンネル登録して、次回も一緒に確認しましょう。",
+      "main_message": "気になったら、まず確認",
+      "headline": "変わったのは、入口です",
+      "support_text": "安心して、まず確認",
+      "duration": 25.2,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "image_prompt": "16:9 landscape composition intended for 1920x1080. Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Reserve the bottom 180 pixels as an empty subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a warm, trustworthy closing illustration of an older Japanese adult calmly checking a smartphone with a large abstract green confirmation mark and a soft blue path leading to it. Keep the person and phone prominent on the right half and leave the left half clean for later Codex Japanese text. The feeling is relief, patience, and confidence. No app UI, no LINE logo, no brand marks, no readable text.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "must_not_generate": [
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    }
+  ]
+}

@@ -1,0 +1,2044 @@
+{
+  "schema_version": "1.0.0",
+  "metadata": {
+    "research_date": "2026-09-02",
+    "production_phase": "Phase B前半（人間レビュー待ち）",
+    "media_decision": "LINEアプリの基本操作（バックアップ画面の確認・自動バックアップ・PIN設定）=Android Emulatorまたは安全なテスト端末を優先し、LINE未インストールのためLINE公式保存HTML由来の手順引用カードへfallback、iPhone差分（iCloud Drive確認）=LINE公式保存HTML由来の引用カード、概念・安心画面=GPT画像（LINEの実際のUIはAIで再現しない）、一覧・比較・注意・まとめ=Codexテンプレート、仕様の出典=LINE公式ヘルプ。LINE実画面のAI生成は行わない。",
+    "primary_sources": [
+      "LINEヘルプセンター（トーク履歴の標準バックアップ・バックアップ用PINコード・プレミアムバックアップ・復元方法・引き継ぎ）",
+      "LINEみんなの使い方ガイド（トーク履歴のバックアップ方法）",
+      "LINEヘルプセンター（あんぜん引き継ぎガイド・引き継ぎで移行可能なデータ）"
+    ],
+    "fact_boundary": "「バックアップすればトークが必ず全部残る」と一括断定しない。標準バックアップはテキストのみ・同一OSのみ・メイン端末限定。異なるOS間では直近14日間より前は引き継げない。「直近14日間」「10回」「6桁」「100GB」は2026-09-02時点の公式値（PINの10回失敗は公式factとして保持するが、本編では扱わない）。プレミアムバックアップは勧誘しない（存在・解約時の削除注意のみ）。アカウント引き継ぎの操作手順は実演しない。"
+  },
+  "episode": {
+    "episode_id": "006",
+    "slug": "line_talk_backup",
+    "title": "【LINE】トーク履歴、消えない？機種変更・故障の前に確認したい3つ",
+    "target_duration": 400.0,
+    "status": "draft",
+    "topic": "LINEのトーク履歴バックアップ。機種変更・故障の前に「今のスマホで今日確認しておく3つ」（バックアップ日時・自動バックアップ・バックアップ用PIN）と、アカウント引き継ぎとの違い・標準バックアップの制限（テキストのみ・同一OSのみ）を公式仕様で説明",
+    "target_audience": "機種変更や故障のときにLINEのトークが消えるのではと不安な50〜70代と、その家族。アカウント引き継ぎとトーク履歴バックアップを混同している方"
+  },
+  "narration": {
+    "speaker": "VOICEVOX",
+    "voice": "剣崎雌雄",
+    "style": "ノーマル",
+    "speedScale": 1.0,
+    "intonationScale": 1.0,
+    "pitchScale": 0.0,
+    "segment_policy": "1文ずつaudio_query→synthesis。Phase Aでは全文生成しない。"
+  },
+  "postroll": {
+    "kind": "channel_cta",
+    "profile": "channel_common_cta",
+    "cta_profile": "channel_common_cta",
+    "audio_required": true,
+    "cta_content_hash": "c0df4a036b397effa920436c4ba473186737ed6e5cc3df54b85afe8ba32b82eb",
+    "asset": "work/channel_cta.png",
+    "cta_audio": "audio/voicevox_kenzaki/cta_channel_common.wav",
+    "duration_mode": "audio_based",
+    "duration_sec": 12.56,
+    "animation": "static"
+  },
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "url": "https://help.line.me/line/smartphone/categoryId/200000213?contentId=20005911&lang=ja",
+      "title": "トーク履歴のバックアップ・復元（カテゴリ目次）",
+      "organization": "LINE（ヘルプセンター）",
+      "verified_at": "2026-09-02",
+      "claim": "ヘルプカテゴリ構成を確認（引き継ぎ・標準バックアップ・PIN・復元・問題発生時・プレミアム）。本文の仕様記述はなし（目次ページ）。"
+    },
+    {
+      "source_id": "SRC-002",
+      "url": "https://help.line.me/line/smartphone?contentId=20020032&lang=ja",
+      "title": "トーク履歴を引き継ぐには？",
+      "organization": "LINE（ヘルプセンター）",
+      "verified_at": "2026-09-02",
+      "claim": "旧端末の有無×同一/異なるOS×バックアップ/PINの有無による「引き継げるトーク履歴」の条件分岐。「異なるOSに引き継ぐ場合は、iCloud Drive／Google ドライブへバックアップした直近14日間より前のトーク履歴を引き継ぐことはできません」。旧端末なし・バックアップなし・PINなしは「トーク履歴を引き継ぐことはできません」。バックアップあり・同一OSは引き継ぎ中にトーク履歴の引き継ぎ可、PIN登録済みならPIN入力が必要。"
+    },
+    {
+      "source_id": "SRC-003",
+      "url": "https://help.line.me/line/smartphone?contentId=20023473&lang=ja",
+      "title": "トーク履歴を標準バックアップするには？",
+      "organization": "LINE（ヘルプセンター）",
+      "verified_at": "2026-09-02",
+      "claim": "「標準バックアップは、iCloud Drive(iOS)またはGoogle ドライブ(Android)にトーク履歴を保存する機能」。「保存できるのはテキストメッセージのみ」。「同じOS（iPhone→iPhone／Android→Android）に引き継ぐ場合にのみ利用できます」。メイン端末限定。トーク情報は端末内LINEアプリに保存され、機種変更・再インストールでは消える。手動・自動バックアップ手順、自動バックアップ条件（iOS5条件／Android2条件）、失敗時の公式アカウント通知、プレミアムとの比較表。"
+    },
+    {
+      "source_id": "SRC-004",
+      "url": "https://help.line.me/line/smartphone/categoryId/20007890/3/pc?contentId=20007389&lang=ja",
+      "title": "バックアップしたトークの復元方法",
+      "organization": "LINE（ヘルプセンター）",
+      "verified_at": "2026-09-02",
+      "claim": "iOSは「引き継ぎ前にiCloud Driveをオン」が先行条件、引き継ぎ済みならLINE再インストール。「ホーム＞設定からの復元はできません」。バックアップを行ったApple IDでiCloudにログイン。Androidは「ホーム＞設定＞バックアップ・引き継ぎ＞トークのバックアップ＞復元する」。"
+    },
+    {
+      "source_id": "SRC-005",
+      "url": "https://help.line.me/line/smartphone/pc?contentId=20020033&lang=ja",
+      "title": "[バックアップ用のPINコード]とは？",
+      "organization": "LINE（ヘルプセンター）",
+      "verified_at": "2026-09-02",
+      "claim": "PINは「LINEアカウント引き継ぎ時にトーク履歴を復元するための暗証番号」。「事前にメイン端末で登録しておくことで、トーク履歴をバックアップしなくても、直近14日間のトーク履歴をOSに関係なく引き継ぎできます」。6桁。設定・確認・再設定手順。推測されやすいPINの例（123456連続・111111繰り返し・誕生日）。「同じOS間で、トーク履歴を全て引き継ぎたい場合は、トーク履歴のバックアップと復元が必要」。"
+    },
+    {
+      "source_id": "SRC-006",
+      "url": "https://help.line.me/line/smartphone?contentId=20020034&lang=ja",
+      "title": "新しい端末でバックアップ用のPINコードの入力に失敗した",
+      "organization": "LINE（ヘルプセンター）",
+      "verified_at": "2026-09-02",
+      "claim": "「PINコードの入力を10回失敗した場合、PINコードによるトーク履歴の復元はできません」。バックアップなし・旧端末なしで10回失敗すると「トーク履歴の移行はされない状態で、新しい端末でLINEをご利用いただく」ことになる。"
+    },
+    {
+      "source_id": "SRC-007",
+      "url": "https://help.line.me/line/smartphone?contentId=200000425&lang=ja",
+      "title": "プレミアムバックアップとは？",
+      "organization": "LINE（ヘルプセンター）",
+      "verified_at": "2026-09-02",
+      "claim": "「『LINE』が提供する100GBのストレージに写真や動画などのトーク履歴をリアルタイムでバックアップできる機能で、LYPプレミアムの会員のみ利用できます」。対象はLYPプレミアム スタンダードプラン・with Netflix。異なるOS間でも15日以上前のテキストメッセージを含むトーク履歴を引き継げる。「LYPプレミアムを解約すると、保存されているデータは削除されます」。LINE 15.5.1未満の端末へは引き継げない。保存対象（テキスト・写真・動画・ファイル・ボイスメッセージ）、初回5GB以上必要／3GB以下で自動停止、100GB到達時はメディア中断・テキスト継続・7日ルール。"
+    },
+    {
+      "source_id": "SRC-008",
+      "url": "https://help.line.me/line/smartphone?contentId=20020173&lang=ja",
+      "title": "トーク履歴のバックアップ（保存）や復元で問題が発生している場合",
+      "organization": "LINE（ヘルプセンター）",
+      "verified_at": "2026-09-02",
+      "claim": "方法別の復元可否比較表（プレミアム／標準／PIN／QRコード。PIN・QRは「直近14日分のみ可能」）。「標準バックアップを利用した場合、トーク内の画像や動画はバックアップ・復元されません」。保存したい画像・動画は「LINEアカウントの引き継ぎ前に端末へ保存してください」。「バックアップしていても復元できなかったトーク履歴は、問い合わせいただいても復元できません」。iOSは「iCloud DriveとiCloudバックアップをオン」、AndroidはLINEアプリの連絡先権限許可。"
+    },
+    {
+      "source_id": "SRC-009",
+      "url": "https://help.line.me/line/smartphone?contentId=20023724&lang=ja",
+      "title": "【新しい端末に変える前に】LINEアカウント引き継ぎで必要な事前準備",
+      "organization": "LINE（ヘルプセンター）",
+      "verified_at": "2026-09-02",
+      "claim": "事前準備5項目（LINE最新版／OS最新版／電話番号・メールアドレス確認とパスワード変更／トーク履歴のバックアップ／引き継ぎ）。「大切な写真や動画は、LINEのアルバムまたは端末に保存することをおすすめします」。アルバムへの動画保存はLYPプレミアム会員のみ。プレミアムはLINE 15.5.1以降。"
+    },
+    {
+      "source_id": "SRC-010",
+      "url": "https://guide.line.me/ja/account-and-settings/talk-backup.html",
+      "title": "トーク履歴のバックアップ方法｜LINEみんなの使い方ガイド",
+      "organization": "LINE（公式ガイド）",
+      "verified_at": "2026-09-02",
+      "claim": "手動・自動バックアップの概念。確認項目（iOS: LINE 6.4以上・iOS 8.1以上、Android: LINE 7.5.0以上。自動はAndroid 10.10.0以上。PINはLINE 12.13.0以上）。「自動バックアップ」推奨。LYPプレミアム特典「プレミアムバックアップ」の紹介（UPDATE 2026.07.06）。"
+    },
+    {
+      "source_id": "SRC-011",
+      "url": "https://help.line.me/line/smartphone?contentId=20000100&lang=ja",
+      "title": "LINEアカウントの引き継ぎで移行が可能なデータとは？",
+      "organization": "LINE（ヘルプセンター）",
+      "verified_at": "2026-09-02",
+      "claim": "「引き継ぎに利用するバックアップ方法や引き継ぎ対象OSにより異なります」。プレミアム=全期間のテキストとメディア。異なるOS=直近14日間のトーク履歴（テキスト／写真／動画／ファイル／ボイスメッセージ）。「15日以上前のトーク履歴」は引き継げないデータとして明示。アルバム・ノートに保存中のデータはバックアップ不要で引き継げる。"
+    },
+    {
+      "source_id": "SRC-012",
+      "url": "https://help.line.me/line/smartphone?contentId=200002096&lang=ja",
+      "title": "あんぜん引き継ぎガイド",
+      "organization": "LINE（ヘルプセンター）",
+      "verified_at": "2026-09-02",
+      "claim": "引き継ぎの定義・流れ（事前準備→引き継ぎ手順）。事前準備を行わなかった場合の問題例「LINEアカウントの引き継ぎができない」「引き継ぎはできたが、トーク履歴が復元されない」。"
+    },
+    {
+      "source_id": "SRC-013",
+      "url": "https://help.line.me/line/smartphone?contentId=20000132&lang=ja",
+      "title": "複数端末（メイン端末とサブ端末）で同じアカウントを使うことはできますか？",
+      "organization": "LINE（ヘルプセンター）",
+      "verified_at": "2026-09-02",
+      "claim": "メイン端末＝LINEアカウント登録を行った端末（主にスマートフォン）。サブ端末では「トーク履歴のバックアップ」「LINEアカウントの引き継ぎ」ができない。"
+    }
+  ],
+  "narration_segments": [
+    {
+      "id": 1,
+      "section": "はじめに",
+      "narration": "スマホを買い替えたり、壊れてしまったりしたとき、LINEのトークは、そのまま残ると思っていませんか。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-001"
+      ]
+    },
+    {
+      "id": 2,
+      "section": "はじめに",
+      "narration": "実は、何も準備していないと、そのまま残るとは、限りません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-002"
+      ]
+    },
+    {
+      "id": 3,
+      "section": "はじめに",
+      "narration": "でも、今のスマホで、3つのことを確認しておけば、トークを残す準備ができます。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-003"
+      ]
+    },
+    {
+      "id": 4,
+      "section": "はじめに",
+      "narration": "確認するのは、この3つです。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-004"
+      ]
+    },
+    {
+      "id": 5,
+      "section": "はじめに",
+      "narration": "一つ、トーク履歴のバックアップが、できているか。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-005"
+      ]
+    },
+    {
+      "id": 6,
+      "section": "はじめに",
+      "narration": "二つ、自動バックアップの設定。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-006"
+      ]
+    },
+    {
+      "id": 7,
+      "section": "はじめに",
+      "narration": "三つ、バックアップ用の暗証番号、PINです。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-007"
+      ]
+    },
+    {
+      "id": 8,
+      "section": "1 / 5 まず知っておきたいこと",
+      "narration": "最初に、言葉の整理をしましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-008"
+      ]
+    },
+    {
+      "id": 9,
+      "section": "1 / 5 まず知っておきたいこと",
+      "narration": "機種変更のときに、理解しておきたいのは、二つの準備が、別のものだということです。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-009"
+      ]
+    },
+    {
+      "id": 10,
+      "section": "1 / 5 まず知っておきたいこと",
+      "narration": "一つ目は、新しいスマホで同じLINEアカウントを、使い続けるための、アカウントの引き継ぎです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-010"
+      ]
+    },
+    {
+      "id": 11,
+      "section": "1 / 5 まず知っておきたいこと",
+      "narration": "二つ目は、トークの記録のコピーを、スマホの外に取っておく、トーク履歴のバックアップです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-011"
+      ]
+    },
+    {
+      "id": 12,
+      "section": "1 / 5 まず知っておきたいこと",
+      "narration": "時系列で言うと、前にバックアップ、当日に引き継ぎ、そのあと復元、という順番です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-012"
+      ]
+    },
+    {
+      "id": 13,
+      "section": "1 / 5 まず知っておきたいこと",
+      "narration": "トークの記録は、端末の中のLINEアプリに、保存されています。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-013"
+      ]
+    },
+    {
+      "id": 14,
+      "section": "1 / 5 まず知っておきたいこと",
+      "narration": "だから、機種変更や、アプリの再インストールでは、そのまま消えてしまうことがあります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-014"
+      ]
+    },
+    {
+      "id": 15,
+      "section": "1 / 5 まず知っておきたいこと",
+      "narration": "LINE公式でも、トークを復元するには、事前にバックアップが必要、とされています。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-015"
+      ]
+    },
+    {
+      "id": 16,
+      "section": "1 / 5 まず知っておきたいこと",
+      "narration": "つまり、引き継ぎだけしても、バックアップがなければ、トークは戻りません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-016"
+      ]
+    },
+    {
+      "id": 17,
+      "section": "1 / 5 まず知っておきたいこと",
+      "narration": "逆に、バックアップだけでも、引き継ぎをしなければ、新しいスマホでは、使えません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-017"
+      ]
+    },
+    {
+      "id": 18,
+      "section": "1 / 5 まず知っておきたいこと",
+      "narration": "この動画では、今日できる、バックアップ側の、3つの確認に絞って、ご紹介します。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-018"
+      ]
+    },
+    {
+      "id": 19,
+      "section": "2 / 5 バックアップできているか確認",
+      "narration": "では、一つ目の確認、トーク履歴のバックアップが、できているか、見てみましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 6,
+      "subtitle_ids": [
+        "SUB-019"
+      ]
+    },
+    {
+      "id": 20,
+      "section": "2 / 5 バックアップできているか確認",
+      "narration": "LINEを開いて、設定から、「バックアップ・引き継ぎ」の画面を開きます。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 6,
+      "subtitle_ids": [
+        "SUB-020"
+      ]
+    },
+    {
+      "id": 21,
+      "section": "2 / 5 バックアップできているか確認",
+      "narration": "この画面に、「トークのバックアップ」という項目があります。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 6,
+      "subtitle_ids": [
+        "SUB-021"
+      ]
+    },
+    {
+      "id": 22,
+      "section": "2 / 5 バックアップできているか確認",
+      "narration": "最後にバックアップした日時が表示されていれば、バックアップは作られています。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-022"
+      ]
+    },
+    {
+      "id": 23,
+      "section": "2 / 5 バックアップできているか確認",
+      "narration": "日時が古い場合は、「今すぐバックアップ」を押して、最新にしておきましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-023"
+      ]
+    },
+    {
+      "id": 24,
+      "section": "2 / 5 バックアップできているか確認",
+      "narration": "すると、トークの記録のコピーが、スマホの外の保管場所に、作られます。",
+      "reading_overrides": {},
+      "pause_after": 0.4,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-024"
+      ]
+    },
+    {
+      "id": 25,
+      "section": "2 / 5 バックアップできているか確認",
+      "narration": "保存先は、iPhoneならiCloud Drive、AndroidならGoogle ドライブです。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 9,
+      "subtitle_ids": [
+        "SUB-025"
+      ]
+    },
+    {
+      "id": 26,
+      "section": "2 / 5 バックアップできているか確認",
+      "narration": "このバックアップは、アカウントを登録したメイン端末だけで、利用できます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-026"
+      ]
+    },
+    {
+      "id": 27,
+      "section": "2 / 5 バックアップできているか確認",
+      "narration": "そして、無料の標準バックアップがコピーするのは、文字のやり取りだけです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-027"
+      ]
+    },
+    {
+      "id": 28,
+      "section": "2 / 5 バックアップできているか確認",
+      "narration": "写真や動画のことは、後で、改めて確認します。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-028"
+      ]
+    },
+    {
+      "id": 29,
+      "section": "3 / 5 自動バックアップを確認",
+      "narration": "二つ目の確認、自動バックアップの設定を見てみましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-029"
+      ]
+    },
+    {
+      "id": 30,
+      "section": "3 / 5 自動バックアップを確認",
+      "narration": "さきほどの「トークのバックアップ」の画面に、自動バックアップという項目があります。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-030"
+      ]
+    },
+    {
+      "id": 31,
+      "section": "3 / 5 自動バックアップを確認",
+      "narration": "ここがオンなら、条件がそろったときに、自動でコピーが行われます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-031"
+      ]
+    },
+    {
+      "id": 32,
+      "section": "3 / 5 自動バックアップを確認",
+      "narration": "その条件は、iPhoneとAndroidで、少し違います。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-032"
+      ]
+    },
+    {
+      "id": 33,
+      "section": "3 / 5 自動バックアップを確認",
+      "narration": "iPhoneでは、充電中や、Wi-Fiに接続しているなど、5つの条件があります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-033"
+      ]
+    },
+    {
+      "id": 34,
+      "section": "3 / 5 自動バックアップを確認",
+      "narration": "Androidでは、充電中に、ネットワークに接続していることが、条件です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-034"
+      ]
+    },
+    {
+      "id": 35,
+      "section": "3 / 5 自動バックアップを確認",
+      "narration": "細かい条件は、覚えなくて大丈夫ですが、大事なのは、オフのままにしないことです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-035"
+      ]
+    },
+    {
+      "id": 36,
+      "section": "3 / 5 自動バックアップを確認",
+      "narration": "オフのままだと、手動で押したときのコピーしか、残りません。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-036"
+      ]
+    },
+    {
+      "id": 37,
+      "section": "3 / 5 自動バックアップを確認",
+      "narration": "iPhoneの方は、保存先のiCloud Driveが、オンになっているかも、確認しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-037"
+      ]
+    },
+    {
+      "id": 38,
+      "section": "3 / 5 自動バックアップを確認",
+      "narration": "自動バックアップに失敗したときは、公式アカウントから、通知が届きます。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-038"
+      ]
+    },
+    {
+      "id": 39,
+      "section": "4 / 5 バックアップ用の暗証番号（PIN）",
+      "narration": "三つ目の確認は、バックアップ用の暗証番号、PINコードです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 15,
+      "subtitle_ids": [
+        "SUB-039"
+      ]
+    },
+    {
+      "id": 40,
+      "section": "4 / 5 バックアップ用の暗証番号（PIN）",
+      "narration": "PINコードは、引き継ぎのときに、トーク履歴を復元するための、6桁の暗証番号です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-040"
+      ]
+    },
+    {
+      "id": 41,
+      "section": "4 / 5 バックアップ用の暗証番号（PIN）",
+      "narration": "事前に登録しておくと、バックアップしなくても、直近14日間のトーク履歴を、引き継げます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-041"
+      ]
+    },
+    {
+      "id": 42,
+      "section": "4 / 5 バックアップ用の暗証番号（PIN）",
+      "narration": "しかも、OSに関係なく、iPhoneとAndroidでも、14日間は引き継げます。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-042"
+      ]
+    },
+    {
+      "id": 43,
+      "section": "4 / 5 バックアップ用の暗証番号（PIN）",
+      "narration": "この14日間という仕様は、2026年9月時点で、公式に案内されています。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-043"
+      ]
+    },
+    {
+      "id": 44,
+      "section": "4 / 5 バックアップ用の暗証番号（PIN）",
+      "narration": "まるで、スマホが急に使えなくなったときの、セーフティネットのようなものです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-044"
+      ]
+    },
+    {
+      "id": 45,
+      "section": "4 / 5 バックアップ用の暗証番号（PIN）",
+      "narration": "PINの設定は、「トークのバックアップ」の画面から、できます。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-045"
+      ]
+    },
+    {
+      "id": 46,
+      "section": "4 / 5 バックアップ用の暗証番号（PIN）",
+      "narration": "注意したいのは、1つです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-046"
+      ]
+    },
+    {
+      "id": 47,
+      "section": "4 / 5 バックアップ用の暗証番号（PIN）",
+      "narration": "誕生日など、推測されやすい番号は、避けましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-047"
+      ]
+    },
+    {
+      "id": 48,
+      "section": "4 / 5 バックアップ用の暗証番号（PIN）",
+      "narration": "分からないときは、あわてずに、公式の案内を、確認しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-048"
+      ]
+    },
+    {
+      "id": 49,
+      "section": "5 / 5 機種変更の前に、知っておきたい注意",
+      "narration": "最後に、機種変更の前に、知っておいてほしい、2つの注意です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 19,
+      "subtitle_ids": [
+        "SUB-049"
+      ]
+    },
+    {
+      "id": 50,
+      "section": "5 / 5 機種変更の前に、知っておきたい注意",
+      "narration": "一つ目は、OSが変わる場合。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 19,
+      "subtitle_ids": [
+        "SUB-050"
+      ]
+    },
+    {
+      "id": 51,
+      "section": "5 / 5 機種変更の前に、知っておきたい注意",
+      "narration": "AndroidからiPhoneへ、あるいは、iPhoneからAndroidへ、移るときです。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 19,
+      "subtitle_ids": [
+        "SUB-051"
+      ]
+    },
+    {
+      "id": 52,
+      "section": "5 / 5 機種変更の前に、知っておきたい注意",
+      "narration": "さきほどの標準バックアップは、同じOSどうしで、引き継ぐ場合のみ、利用できます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 20,
+      "subtitle_ids": [
+        "SUB-052"
+      ]
+    },
+    {
+      "id": 53,
+      "section": "5 / 5 機種変更の前に、知っておきたい注意",
+      "narration": "LINEの公式ヘルプでも、同じOSだけ、と案内されています。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 20,
+      "subtitle_ids": [
+        "SUB-053"
+      ]
+    },
+    {
+      "id": 54,
+      "section": "5 / 5 機種変更の前に、知っておきたい注意",
+      "narration": "異なるOSでは、直近14日間より前の、トーク履歴は、引き継げません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 21,
+      "subtitle_ids": [
+        "SUB-054"
+      ]
+    },
+    {
+      "id": 55,
+      "section": "5 / 5 機種変更の前に、知っておきたい注意",
+      "narration": "つまり、無料の標準バックアップでは、OSをまたぐ場合、すべてを移すことはできません。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 21,
+      "subtitle_ids": [
+        "SUB-055"
+      ]
+    },
+    {
+      "id": 56,
+      "section": "5 / 5 機種変更の前に、知っておきたい注意",
+      "narration": "二つ目は、写真と動画の扱いです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 21,
+      "subtitle_ids": [
+        "SUB-056"
+      ]
+    },
+    {
+      "id": 57,
+      "section": "5 / 5 機種変更の前に、知っておきたい注意",
+      "narration": "無料の標準バックアップでは、写真や動画は、コピーされません。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 22,
+      "subtitle_ids": [
+        "SUB-057"
+      ]
+    },
+    {
+      "id": 58,
+      "section": "5 / 5 機種変更の前に、知っておきたい注意",
+      "narration": "LINE公式でも、写真や動画は、引き継ぎの前に、スマホに保存、と案内されています。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 22,
+      "subtitle_ids": [
+        "SUB-058"
+      ]
+    },
+    {
+      "id": 59,
+      "section": "5 / 5 機種変更の前に、知っておきたい注意",
+      "narration": "ちなみに、有料のプレミアムバックアップという機能もあります。解約すると、保存データは削除されます。",
+      "reading_overrides": {},
+      "pause_after": 0.4,
+      "scene_id": 23,
+      "subtitle_ids": [
+        "SUB-059"
+      ]
+    },
+    {
+      "id": 60,
+      "section": "5 / 5 機種変更の前に、知っておきたい注意",
+      "narration": "機種変更当日には、このバックアップの確認に加えて、アカウントの引き継ぎの準備も、必要です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 23,
+      "subtitle_ids": [
+        "SUB-060"
+      ]
+    },
+    {
+      "id": 61,
+      "section": "5 / 5 機種変更の前に、知っておきたい注意",
+      "narration": "詳しくは、LINE公式の引き継ぎガイドで、確認しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 23,
+      "subtitle_ids": [
+        "SUB-061"
+      ]
+    },
+    {
+      "id": 62,
+      "section": "まとめ",
+      "narration": "今日は、確認する3つを、おさらいします。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 24,
+      "subtitle_ids": [
+        "SUB-062"
+      ]
+    },
+    {
+      "id": 63,
+      "section": "まとめ",
+      "narration": "一つ、最後にバックアップした日時を確認し、古ければ「今すぐバックアップ」で最新にしましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 24,
+      "subtitle_ids": [
+        "SUB-063"
+      ]
+    },
+    {
+      "id": 64,
+      "section": "まとめ",
+      "narration": "二つ、自動バックアップをオンにしておきましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 24,
+      "subtitle_ids": [
+        "SUB-064"
+      ]
+    },
+    {
+      "id": 65,
+      "section": "まとめ",
+      "narration": "保存先は、iPhoneならiCloud Drive、AndroidならGoogle ドライブです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 24,
+      "subtitle_ids": [
+        "SUB-065"
+      ]
+    },
+    {
+      "id": 66,
+      "section": "まとめ",
+      "narration": "三つ、バックアップ用の暗証番号、PIN。直近14日間の、セーフティネットです。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 24,
+      "subtitle_ids": [
+        "SUB-066"
+      ]
+    },
+    {
+      "id": 67,
+      "section": "まとめ",
+      "narration": "どれも、今のスマホで、すぐに確認できます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 25,
+      "subtitle_ids": [
+        "SUB-067"
+      ]
+    },
+    {
+      "id": 68,
+      "section": "まとめ",
+      "narration": "あわてずに、確認しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 25,
+      "subtitle_ids": [
+        "SUB-068"
+      ]
+    }
+  ],
+  "subtitles": [
+    {
+      "id": "SUB-001",
+      "segment_id": 1,
+      "text_lines": [
+        "スマホを買い替えたり、壊れてしまったりしたとき、",
+        "LINEのトークは、そのまま残ると思っていませんか。"
+      ]
+    },
+    {
+      "id": "SUB-002",
+      "segment_id": 2,
+      "text_lines": [
+        "実は、何も準備していないと、",
+        "そのまま残るとは、限りません。"
+      ]
+    },
+    {
+      "id": "SUB-003",
+      "segment_id": 3,
+      "text_lines": [
+        "でも、今のスマホで、3つのことを確認しておけば、",
+        "トークを残す準備ができます。"
+      ]
+    },
+    {
+      "id": "SUB-004",
+      "segment_id": 4,
+      "text_lines": [
+        "確認するのは、この3つです。"
+      ]
+    },
+    {
+      "id": "SUB-005",
+      "segment_id": 5,
+      "text_lines": [
+        "一つ、トーク履歴のバックアップが、できているか。"
+      ]
+    },
+    {
+      "id": "SUB-006",
+      "segment_id": 6,
+      "text_lines": [
+        "二つ、自動バックアップの設定。"
+      ]
+    },
+    {
+      "id": "SUB-007",
+      "segment_id": 7,
+      "text_lines": [
+        "三つ、バックアップ用の暗証番号、PINです。"
+      ]
+    },
+    {
+      "id": "SUB-008",
+      "segment_id": 8,
+      "text_lines": [
+        "最初に、言葉の整理をしましょう。"
+      ]
+    },
+    {
+      "id": "SUB-009",
+      "segment_id": 9,
+      "text_lines": [
+        "機種変更のときに、理解しておきたいのは、",
+        "二つの準備が、別のものだということです。"
+      ]
+    },
+    {
+      "id": "SUB-010",
+      "segment_id": 10,
+      "text_lines": [
+        "一つ目は、新しいスマホで同じLINEアカウントを、",
+        "使い続けるための、アカウントの引き継ぎです。"
+      ]
+    },
+    {
+      "id": "SUB-011",
+      "segment_id": 11,
+      "text_lines": [
+        "二つ目は、トークの記録のコピーを、スマホの外に",
+        "取っておく、トーク履歴のバックアップです。"
+      ]
+    },
+    {
+      "id": "SUB-012",
+      "segment_id": 12,
+      "text_lines": [
+        "時系列で言うと、前にバックアップ、",
+        "当日に引き継ぎ、そのあと復元、という順番です。"
+      ]
+    },
+    {
+      "id": "SUB-013",
+      "segment_id": 13,
+      "text_lines": [
+        "トークの記録は、端末の中のLINEアプリに、",
+        "保存されています。"
+      ]
+    },
+    {
+      "id": "SUB-014",
+      "segment_id": 14,
+      "text_lines": [
+        "だから、機種変更や、アプリの再インストールでは、",
+        "そのまま消えてしまうことがあります。"
+      ]
+    },
+    {
+      "id": "SUB-015",
+      "segment_id": 15,
+      "text_lines": [
+        "LINE公式でも、トークを復元するには、",
+        "事前にバックアップが必要、とされています。"
+      ]
+    },
+    {
+      "id": "SUB-016",
+      "segment_id": 16,
+      "text_lines": [
+        "つまり、引き継ぎだけしても、",
+        "バックアップがなければ、トークは戻りません。"
+      ]
+    },
+    {
+      "id": "SUB-017",
+      "segment_id": 17,
+      "text_lines": [
+        "逆に、バックアップだけでも、引き継ぎをしなければ、",
+        "新しいスマホでは、使えません。"
+      ]
+    },
+    {
+      "id": "SUB-018",
+      "segment_id": 18,
+      "text_lines": [
+        "この動画では、今日できる、バックアップ側の、",
+        "3つの確認に絞って、ご紹介します。"
+      ]
+    },
+    {
+      "id": "SUB-019",
+      "segment_id": 19,
+      "text_lines": [
+        "では、一つ目の確認、トーク履歴のバックアップが、",
+        "できているか、見てみましょう。"
+      ]
+    },
+    {
+      "id": "SUB-020",
+      "segment_id": 20,
+      "text_lines": [
+        "LINEを開いて、設定から、",
+        "「バックアップ・引き継ぎ」の画面を開きます。"
+      ]
+    },
+    {
+      "id": "SUB-021",
+      "segment_id": 21,
+      "text_lines": [
+        "この画面に、「トークのバックアップ」という",
+        "項目があります。"
+      ]
+    },
+    {
+      "id": "SUB-022",
+      "segment_id": 22,
+      "text_lines": [
+        "最後にバックアップした日時が表示されていれば、",
+        "バックアップは作られています。"
+      ]
+    },
+    {
+      "id": "SUB-023",
+      "segment_id": 23,
+      "text_lines": [
+        "日時が古い場合は、「今すぐバックアップ」を押して、",
+        "最新にしておきましょう。"
+      ]
+    },
+    {
+      "id": "SUB-024",
+      "segment_id": 24,
+      "text_lines": [
+        "すると、トークの記録のコピーが、",
+        "スマホの外の保管場所に、作られます。"
+      ]
+    },
+    {
+      "id": "SUB-025",
+      "segment_id": 25,
+      "text_lines": [
+        "保存先は、iPhoneならiCloud Drive、",
+        "AndroidならGoogle ドライブです。"
+      ]
+    },
+    {
+      "id": "SUB-026",
+      "segment_id": 26,
+      "text_lines": [
+        "このバックアップは、アカウントを登録した",
+        "メイン端末だけで、利用できます。"
+      ]
+    },
+    {
+      "id": "SUB-027",
+      "segment_id": 27,
+      "text_lines": [
+        "そして、無料の標準バックアップがコピーするのは、",
+        "文字のやり取りだけです。"
+      ]
+    },
+    {
+      "id": "SUB-028",
+      "segment_id": 28,
+      "text_lines": [
+        "写真や動画のことは、後で、改めて確認します。"
+      ]
+    },
+    {
+      "id": "SUB-029",
+      "segment_id": 29,
+      "text_lines": [
+        "二つ目の確認、自動バックアップの",
+        "設定を見てみましょう。"
+      ]
+    },
+    {
+      "id": "SUB-030",
+      "segment_id": 30,
+      "text_lines": [
+        "さきほどの「トークのバックアップ」の画面に、",
+        "自動バックアップという項目があります。"
+      ]
+    },
+    {
+      "id": "SUB-031",
+      "segment_id": 31,
+      "text_lines": [
+        "ここがオンなら、条件がそろったときに、",
+        "自動でコピーが行われます。"
+      ]
+    },
+    {
+      "id": "SUB-032",
+      "segment_id": 32,
+      "text_lines": [
+        "その条件は、iPhoneとAndroidで、少し違います。"
+      ]
+    },
+    {
+      "id": "SUB-033",
+      "segment_id": 33,
+      "text_lines": [
+        "iPhoneでは、充電中や、",
+        "Wi-Fiに接続しているなど、5つの条件があります。"
+      ]
+    },
+    {
+      "id": "SUB-034",
+      "segment_id": 34,
+      "text_lines": [
+        "Androidでは、充電中に、",
+        "ネットワークに接続していることが、条件です。"
+      ]
+    },
+    {
+      "id": "SUB-035",
+      "segment_id": 35,
+      "text_lines": [
+        "細かい条件は、覚えなくて大丈夫ですが、",
+        "大事なのは、オフのままにしないことです。"
+      ]
+    },
+    {
+      "id": "SUB-036",
+      "segment_id": 36,
+      "text_lines": [
+        "オフのままだと、手動で押したときの",
+        "コピーしか、残りません。"
+      ]
+    },
+    {
+      "id": "SUB-037",
+      "segment_id": 37,
+      "text_lines": [
+        "iPhoneの方は、保存先のiCloud Driveが、",
+        "オンになっているかも、確認しましょう。"
+      ]
+    },
+    {
+      "id": "SUB-038",
+      "segment_id": 38,
+      "text_lines": [
+        "自動バックアップに失敗したときは、",
+        "公式アカウントから、通知が届きます。"
+      ]
+    },
+    {
+      "id": "SUB-039",
+      "segment_id": 39,
+      "text_lines": [
+        "三つ目の確認は、バックアップ用の暗証番号、",
+        "PINコードです。"
+      ]
+    },
+    {
+      "id": "SUB-040",
+      "segment_id": 40,
+      "text_lines": [
+        "PINコードは、引き継ぎのときに、",
+        "トーク履歴を復元するための、6桁の暗証番号です。"
+      ]
+    },
+    {
+      "id": "SUB-041",
+      "segment_id": 41,
+      "text_lines": [
+        "事前に登録しておくと、バックアップしなくても、",
+        "直近14日間のトーク履歴を、引き継げます。"
+      ]
+    },
+    {
+      "id": "SUB-042",
+      "segment_id": 42,
+      "text_lines": [
+        "しかも、OSに関係なく、",
+        "iPhoneとAndroidでも、14日間は引き継げます。"
+      ]
+    },
+    {
+      "id": "SUB-043",
+      "segment_id": 43,
+      "text_lines": [
+        "この14日間という仕様は、",
+        "2026年9月時点で、公式に案内されています。"
+      ]
+    },
+    {
+      "id": "SUB-044",
+      "segment_id": 44,
+      "text_lines": [
+        "まるで、スマホが急に使えなくなったときの、",
+        "セーフティネットのようなものです。"
+      ]
+    },
+    {
+      "id": "SUB-045",
+      "segment_id": 45,
+      "text_lines": [
+        "PINの設定は、「トークのバックアップ」の",
+        "画面から、できます。"
+      ]
+    },
+    {
+      "id": "SUB-046",
+      "segment_id": 46,
+      "text_lines": [
+        "注意したいのは、1つです。"
+      ]
+    },
+    {
+      "id": "SUB-047",
+      "segment_id": 47,
+      "text_lines": [
+        "誕生日など、推測されやすい番号は、",
+        "避けましょう。"
+      ]
+    },
+    {
+      "id": "SUB-048",
+      "segment_id": 48,
+      "text_lines": [
+        "分からないときは、あわてずに、",
+        "公式の案内を、確認しましょう。"
+      ]
+    },
+    {
+      "id": "SUB-049",
+      "segment_id": 49,
+      "text_lines": [
+        "最後に、機種変更の前に、",
+        "知っておいてほしい、2つの注意です。"
+      ]
+    },
+    {
+      "id": "SUB-050",
+      "segment_id": 50,
+      "text_lines": [
+        "一つ目は、OSが変わる場合。"
+      ]
+    },
+    {
+      "id": "SUB-051",
+      "segment_id": 51,
+      "text_lines": [
+        "AndroidからiPhoneへ、あるいは、",
+        "iPhoneからAndroidへ、移るときです。"
+      ]
+    },
+    {
+      "id": "SUB-052",
+      "segment_id": 52,
+      "text_lines": [
+        "さきほどの標準バックアップは、",
+        "同じOSどうしで、引き継ぐ場合のみ、利用できます。"
+      ]
+    },
+    {
+      "id": "SUB-053",
+      "segment_id": 53,
+      "text_lines": [
+        "LINEの公式ヘルプでも、",
+        "同じOSだけ、と案内されています。"
+      ]
+    },
+    {
+      "id": "SUB-054",
+      "segment_id": 54,
+      "text_lines": [
+        "異なるOSでは、直近14日間より前の、",
+        "トーク履歴は、引き継げません。"
+      ]
+    },
+    {
+      "id": "SUB-055",
+      "segment_id": 55,
+      "text_lines": [
+        "つまり、無料の標準バックアップでは、",
+        "OSをまたぐ場合、すべてを移すことはできません。"
+      ]
+    },
+    {
+      "id": "SUB-056",
+      "segment_id": 56,
+      "text_lines": [
+        "二つ目は、写真と動画の扱いです。"
+      ]
+    },
+    {
+      "id": "SUB-057",
+      "segment_id": 57,
+      "text_lines": [
+        "無料の標準バックアップでは、",
+        "写真や動画は、コピーされません。"
+      ]
+    },
+    {
+      "id": "SUB-058",
+      "segment_id": 58,
+      "text_lines": [
+        "LINE公式でも、写真や動画は、",
+        "引き継ぎの前に、スマホに保存、と案内されています。"
+      ]
+    },
+    {
+      "id": "SUB-059",
+      "segment_id": 59,
+      "text_lines": [
+        "ちなみに、有料のプレミアムバックアップという機能も",
+        "あります。解約すると、保存データは削除されます。"
+      ]
+    },
+    {
+      "id": "SUB-060",
+      "segment_id": 60,
+      "text_lines": [
+        "機種変更当日には、このバックアップの確認に加えて、",
+        "アカウントの引き継ぎの準備も、必要です。"
+      ]
+    },
+    {
+      "id": "SUB-061",
+      "segment_id": 61,
+      "text_lines": [
+        "詳しくは、LINE公式の",
+        "引き継ぎガイドで、確認しましょう。"
+      ]
+    },
+    {
+      "id": "SUB-062",
+      "segment_id": 62,
+      "text_lines": [
+        "今日は、確認する3つを、おさらいします。"
+      ]
+    },
+    {
+      "id": "SUB-063",
+      "segment_id": 63,
+      "text_lines": [
+        "一つ、最後にバックアップした日時を確認し、",
+        "古ければ「今すぐバックアップ」で最新にしましょう。"
+      ]
+    },
+    {
+      "id": "SUB-064",
+      "segment_id": 64,
+      "text_lines": [
+        "二つ、自動バックアップをオンにしておきましょう。"
+      ]
+    },
+    {
+      "id": "SUB-065",
+      "segment_id": 65,
+      "text_lines": [
+        "保存先は、iPhoneならiCloud Drive、",
+        "AndroidならGoogle ドライブです。"
+      ]
+    },
+    {
+      "id": "SUB-066",
+      "segment_id": 66,
+      "text_lines": [
+        "三つ、バックアップ用の暗証番号、PIN。",
+        "直近14日間の、セーフティネットです。"
+      ]
+    },
+    {
+      "id": "SUB-067",
+      "segment_id": 67,
+      "text_lines": [
+        "どれも、今のスマホで、すぐに確認できます。"
+      ]
+    },
+    {
+      "id": "SUB-068",
+      "segment_id": 68,
+      "text_lines": [
+        "あわてずに、確認しましょう。"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "section_label": "はじめに",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "main_message": "導入",
+      "headline": "機種変更しても、\nトークは残る？",
+      "support_text": "今のスマホで、3つのことを確認すれば、準備ができます。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "very_slow_zoom",
+      "start_segment": 1,
+      "end_segment": 3,
+      "subtitle_ids": [
+        "SUB-001",
+        "SUB-002",
+        "SUB-003"
+      ],
+      "fit_mode": "full_bleed"
+    },
+    {
+      "id": 2,
+      "section_label": "はじめに",
+      "layout": "layout_02_list",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "今日確認する3つ",
+      "headline": "今日、確認する3つ",
+      "support_text": "どれも、今のスマホで、すぐに確認できます。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 4,
+      "end_segment": 7,
+      "subtitle_ids": [
+        "SUB-004",
+        "SUB-005",
+        "SUB-006",
+        "SUB-007"
+      ],
+      "items": [
+        "最後にバックアップした日時を確認し、\n古ければ「今すぐバックアップ」で最新にする",
+        "自動バックアップの設定（保存先：iPhone=iCloud Drive／\nAndroid=Google ドライブ）",
+        "バックアップ用の暗証番号（PIN）"
+      ]
+    },
+    {
+      "id": 3,
+      "section_label": "1 / 5 まず知っておきたいこと",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "main_message": "セクション扉",
+      "headline": "二つの準備は、\n別のもの",
+      "support_text": "引き継ぎ＝手続き。バックアップ＝コピー。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "very_slow_zoom",
+      "start_segment": 8,
+      "end_segment": 9,
+      "subtitle_ids": [
+        "SUB-008",
+        "SUB-009"
+      ],
+      "fit_mode": "full_bleed"
+    },
+    {
+      "id": 4,
+      "section_label": "1 / 5 まず知っておきたいこと",
+      "layout": "layout_03_visual_text",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "時系列で整理",
+      "headline": "前・当日・後の\n3ステップ",
+      "support_text": "前＝バックアップ／当日＝引き継ぎ／後＝復元",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 10,
+      "end_segment": 12,
+      "subtitle_ids": [
+        "SUB-010",
+        "SUB-011",
+        "SUB-012"
+      ],
+      "items": [
+        "前: トークをバックアップ（コピー）",
+        "当日: アカウントを引き継ぎ",
+        "後: コピーを復元"
+      ]
+    },
+    {
+      "id": 5,
+      "section_label": "1 / 5 まず知っておきたいこと",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "両方の準備が必要",
+      "headline": "引き継ぎだけでは、トークは戻らない",
+      "support_text": "トークの記録は端末の中だけ。公式も「事前にバックアップが必要」と案内しています。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 13,
+      "end_segment": 18,
+      "subtitle_ids": [
+        "SUB-013",
+        "SUB-014",
+        "SUB-015",
+        "SUB-016",
+        "SUB-017",
+        "SUB-018"
+      ],
+      "compare_cards": [
+        {
+          "title": "引き継ぎだけ",
+          "body": "トークは戻らない"
+        },
+        {
+          "title": "バックアップだけ",
+          "body": "新しいスマホで\nアカウントが使えない"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "section_label": "2 / 5 バックアップできているか確認",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "full_bleed_asset": true,
+      "text_render_mode": "codex",
+      "main_message": "実演",
+      "headline": "設定 → 「バックアップ・引き継ぎ」",
+      "support_text": "「トークのバックアップ」の画面を開きます。機種やバージョンで表示が違う場合があります。",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "work/phase_b_review/readability_fix/scene_006_readability.png",
+          "label": "可読性拡大版（公式手順引用カード）:「バックアップ・引き継ぎ」メニュー",
+          "source": "https://help.line.me/line/smartphone?contentId=20023473&lang=ja"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 19,
+      "end_segment": 21,
+      "subtitle_ids": [
+        "SUB-019",
+        "SUB-020",
+        "SUB-021"
+      ]
+    },
+    {
+      "id": 7,
+      "section_label": "2 / 5 バックアップできているか確認",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "full_bleed_asset": true,
+      "text_render_mode": "codex",
+      "main_message": "実演",
+      "headline": "最後にバックアップした日時を確認",
+      "support_text": "日時が表示されていれば、作成済みです。\n古ければ「今すぐバックアップ」で更新。",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "work/phase_b_review/readability_fix/scene_007_readability.png",
+          "label": "可読性拡大版（公式手順引用カード）:「今すぐバックアップ」手順",
+          "source": "https://help.line.me/line/smartphone?contentId=20023473&lang=ja"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 22,
+      "end_segment": 23,
+      "subtitle_ids": [
+        "SUB-022",
+        "SUB-023"
+      ]
+    },
+    {
+      "id": 8,
+      "section_label": "2 / 5 バックアップできているか確認",
+      "layout": "layout_03_visual_text",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "概念",
+      "headline": "コピーが、\nスマホの外に作られる",
+      "support_text": "「今すぐバックアップ」で、いつでもコピーできます。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 24,
+      "end_segment": 24,
+      "subtitle_ids": [
+        "SUB-024"
+      ]
+    },
+    {
+      "id": 9,
+      "section_label": "2 / 5 バックアップできているか確認",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "比較",
+      "headline": "保存先はOSで違います",
+      "support_text": "公式の保存先表記をそのまま使います（iCloud Drive／Google ドライブ）。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 25,
+      "end_segment": 25,
+      "subtitle_ids": [
+        "SUB-025"
+      ],
+      "compare_cards": [
+        {
+          "title": "iPhone",
+          "body": "iCloud Drive"
+        },
+        {
+          "title": "Android",
+          "body": "Google ドライブ"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "section_label": "2 / 5 バックアップできているか確認",
+      "layout": "layout_06_caution",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "注意",
+      "headline": "メイン端末だけ・文字だけ",
+      "support_text": "標準バックアップがコピーするのは、文字のやり取りのみ。写真・動画については後で確認します。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 26,
+      "end_segment": 28,
+      "subtitle_ids": [
+        "SUB-026",
+        "SUB-027",
+        "SUB-028"
+      ]
+    },
+    {
+      "id": 11,
+      "section_label": "3 / 5 自動バックアップを確認",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "full_bleed_asset": true,
+      "text_render_mode": "codex",
+      "main_message": "実演",
+      "headline": "自動バックアップのスイッチ",
+      "support_text": "オンなら、条件がそろったときに自動でコピーされます。",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "work/phase_b_review/readability_fix/scene_011_readability.png",
+          "label": "可読性拡大版（公式手順引用カード）:「自動バックアップ」設定",
+          "source": "https://help.line.me/line/smartphone?contentId=20023473&lang=ja"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 29,
+      "end_segment": 30,
+      "subtitle_ids": [
+        "SUB-029",
+        "SUB-030"
+      ]
+    },
+    {
+      "id": 12,
+      "section_label": "3 / 5 自動バックアップを確認",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "比較",
+      "headline": "自動でコピーされる条件",
+      "support_text": "公式の条件表記（2026年9月2日時点）。細かくは覚えなくて大丈夫です。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 31,
+      "end_segment": 34,
+      "subtitle_ids": [
+        "SUB-031",
+        "SUB-032",
+        "SUB-033",
+        "SUB-034"
+      ],
+      "compare_cards": [
+        {
+          "title": "iPhone（5条件）",
+          "body": "ロック中・充電中・Wi-Fi接続・バックグラウンド更新・LINE実行"
+        },
+        {
+          "title": "Android（2条件）",
+          "body": "充電中・ネットワーク接続中"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "section_label": "3 / 5 自動バックアップを確認",
+      "layout": "layout_06_caution",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "注意",
+      "headline": "オフのままにしない",
+      "support_text": "オフのままだと、手動で押したときのコピーしか残りません。失敗時は公式アカウントから通知が届きます。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 35,
+      "end_segment": 36,
+      "subtitle_ids": [
+        "SUB-035",
+        "SUB-036"
+      ]
+    },
+    {
+      "id": 14,
+      "section_label": "3 / 5 自動バックアップを確認",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "full_bleed_asset": true,
+      "text_render_mode": "codex",
+      "main_message": "iPhone差分",
+      "headline": "iPhoneは、iCloud Driveのオンも確認",
+      "support_text": "端末の設定で、iCloud Drive（とiCloudバックアップ）がオンになっているか確認します。",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "work/phase_b_review/readability_fix/scene_014_readability.png",
+          "label": "可読性拡大版（公式手順引用カード）: iCloud Drive確認",
+          "source": "https://help.line.me/line/smartphone/categoryId/20007890/3/pc?contentId=20007389&lang=ja"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 37,
+      "end_segment": 38,
+      "subtitle_ids": [
+        "SUB-037",
+        "SUB-038"
+      ]
+    },
+    {
+      "id": 15,
+      "section_label": "4 / 5 バックアップ用の暗証番号（PIN）",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "main_message": "セクション扉",
+      "headline": "コピーを守る、\n鍵のようなもの",
+      "support_text": "三つ目の確認は、バックアップ用の暗証番号、PINコードです。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "very_slow_zoom",
+      "start_segment": 39,
+      "end_segment": 39,
+      "subtitle_ids": [
+        "SUB-039"
+      ],
+      "fit_mode": "full_bleed"
+    },
+    {
+      "id": 16,
+      "section_label": "4 / 5 バックアップ用の暗証番号（PIN）",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "full_bleed_asset": true,
+      "text_render_mode": "codex",
+      "main_message": "実演",
+      "headline": "バックアップ用のPINコード",
+      "support_text": "6桁の暗証番号。直近14日間のトークを、OSに関係なく引き継げます（2026年9月時点の公式仕様）。",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "work/phase_b_review/readability_fix/scene_016_readability.png",
+          "label": "可読性拡大版（公式手順引用カード）: バックアップ用PINコード",
+          "source": "https://help.line.me/line/smartphone/pc?contentId=20020033&lang=ja"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 40,
+      "end_segment": 42,
+      "subtitle_ids": [
+        "SUB-040",
+        "SUB-041",
+        "SUB-042"
+      ]
+    },
+    {
+      "id": 17,
+      "section_label": "4 / 5 バックアップ用の暗証番号（PIN）",
+      "layout": "layout_03_visual_text",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "推測されやすい番号は避ける",
+      "headline": "直近14日間の\nセーフティネット",
+      "support_text": "スマホが急に使えなくなっても、直近14日間は引き継げます。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 43,
+      "end_segment": 48,
+      "subtitle_ids": [
+        "SUB-043",
+        "SUB-044",
+        "SUB-045",
+        "SUB-046",
+        "SUB-047",
+        "SUB-048"
+      ]
+    },
+    {
+      "id": 19,
+      "section_label": "5 / 5 機種変更の前に、知っておきたい注意",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "main_message": "セクション扉",
+      "headline": "OSをまたぐ\n機種変更に注意",
+      "support_text": "AndroidとiPhoneでは、引き継げる範囲が変わります。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "very_slow_zoom",
+      "start_segment": 49,
+      "end_segment": 51,
+      "subtitle_ids": [
+        "SUB-049",
+        "SUB-050",
+        "SUB-051"
+      ],
+      "fit_mode": "full_bleed"
+    },
+    {
+      "id": 20,
+      "section_label": "5 / 5 機種変更の前に、知っておきたい注意",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "full_bleed_asset": true,
+      "text_render_mode": "codex",
+      "main_message": "実演（公式ヘルプ）",
+      "headline": "標準バックアップは、同じOSだけ",
+      "support_text": "LINE公式の案内（2026年9月2日確認）。異なるOSでは使えません。",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "work/phase_b_review/readability_fix/scene_020_readability.png",
+          "label": "可読性拡大版（公式手順引用カード）:「標準バックアップは同じOSに引き継ぐ場合にのみ利用できます」",
+          "source": "https://help.line.me/line/smartphone?contentId=20023473&lang=ja"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 52,
+      "end_segment": 53,
+      "subtitle_ids": [
+        "SUB-052",
+        "SUB-053"
+      ]
+    },
+    {
+      "id": 21,
+      "section_label": "5 / 5 機種変更の前に、知っておきたい注意",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "比較",
+      "headline": "同じOSと、異なるOS",
+      "support_text": "異なるOSでは、直近14日間より前のトークは引き継げません（2026年9月2日確認）。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 54,
+      "end_segment": 56,
+      "subtitle_ids": [
+        "SUB-054",
+        "SUB-055",
+        "SUB-056"
+      ],
+      "compare_cards": [
+        {
+          "title": "同じOS（iPhone→iPhone など）",
+          "body": "標準バックアップ＋復元で、テキストを引き継げる"
+        },
+        {
+          "title": "異なるOS（iPhone↔Android）",
+          "body": "直近14日分まで。それより前は引き継げない"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "section_label": "5 / 5 機種変更の前に、知っておきたい注意",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "full_bleed_asset": true,
+      "text_render_mode": "codex",
+      "main_message": "実演（公式ヘルプ）",
+      "headline": "写真・動画はバックアップされない",
+      "support_text": "LINE公式の案内（2026年9月2日確認）。残したい写真や動画は、引き継ぎ前に端末へ保存します。",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "work/phase_b_review/readability_fix/scene_022_readability.png",
+          "label": "可読性拡大版（公式手順引用カード）:「標準バックアップを利用した場合、トーク内の画像や動画はバックアップ・復元されません」",
+          "source": "https://help.line.me/line/smartphone?contentId=20020173&lang=ja"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 57,
+      "end_segment": 58,
+      "subtitle_ids": [
+        "SUB-057",
+        "SUB-058"
+      ]
+    },
+    {
+      "id": 23,
+      "section_label": "5 / 5 機種変更の前に、知っておきたい注意",
+      "layout": "layout_03_visual_text",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "参考",
+      "headline": "参考：プレミアムバックアップ",
+      "support_text": "有料のLYPプレミアム向け。写真や動画も対象。解約すると保存データは削除される注意があります。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 59,
+      "end_segment": 61,
+      "subtitle_ids": [
+        "SUB-059",
+        "SUB-060",
+        "SUB-061"
+      ]
+    },
+    {
+      "id": 24,
+      "section_label": "まとめ",
+      "layout": "layout_07_summary",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "まとめ",
+      "headline": "今日のまとめ",
+      "support_text": "今日確認する3つ",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 62,
+      "end_segment": 66,
+      "subtitle_ids": [
+        "SUB-062",
+        "SUB-063",
+        "SUB-064",
+        "SUB-065",
+        "SUB-066"
+      ],
+      "items": [
+        "最後にバックアップした日時を確認し、\n古ければ「今すぐバックアップ」で最新にする",
+        "自動バックアップの設定（保存先：iPhone=iCloud Drive／\nAndroid=Google ドライブ）",
+        "バックアップ用の暗証番号（PIN）"
+      ]
+    },
+    {
+      "id": 25,
+      "section_label": "まとめ（クロージング）",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "main_message": "クロージング",
+      "headline": "あわてずに、\n確認しましょう",
+      "support_text": "今のスマホで、すぐに確認できます。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "very_slow_zoom",
+      "start_segment": 67,
+      "end_segment": 68,
+      "subtitle_ids": [
+        "SUB-067",
+        "SUB-068"
+      ],
+      "fit_mode": "full_bleed"
+    }
+  ],
+  "publish": {
+    "title": "【LINE】機種変更の前に確認！トーク履歴を残すバックアップとPIN",
+    "description": "「スマホを買い替えたり、壊れてしまったりしたとき、LINEのトークは消えないの？」という不安を、LINE公式ヘルプ（2026年9月2日確認）に沿って解消します。この動画では「今のスマホで今日確認したい3つ」——①トーク履歴のバックアップの日時 ②自動バックアップの設定 ③バックアップ用の暗証番号（PIN）——を、公式手順の進め方に沿って説明します。あわせて、アカウントの引き継ぎとトーク履歴のバックアップが別物であること、無料の標準バックアップは「文字のトークだけ・同じOSどうしだけ」であること、写真や動画はバックアップされないこと（残したいものは引き継ぎ前に端末へ保存）、OSをまたぐ機種変更では直近14日間より前のトークを引き継げないこと（2026年9月時点の公式仕様）も確認します。\n\n主な根拠（確認日: 2026年9月2日）:\nLINE トーク履歴を標準バックアップするには？ https://help.line.me/line/smartphone?contentId=20023473&lang=ja\nLINE [バックアップ用のPINコード]とは？ https://help.line.me/line/smartphone/pc?contentId=20020033&lang=ja\nLINE バックアップしたトークの復元方法 https://help.line.me/line/smartphone/categoryId/20007890/3/pc?contentId=20007389&lang=ja\nLINE プレミアムバックアップとは？ https://help.line.me/line/smartphone?contentId=200000425&lang=ja\nLINE バックアップ・復元で問題が発生している場合 https://help.line.me/line/smartphone?contentId=20020173&lang=ja\nLINE 新しい端末に変える前の事前準備 https://help.line.me/line/smartphone?contentId=20023724&lang=ja\nLINE あんぜん引き継ぎガイド https://help.line.me/line/smartphone?contentId=200002096&lang=ja\nLINEみんなの使い方ガイド トーク履歴のバックアップ方法 https://guide.line.me/ja/account-and-settings/talk-backup.html\n\n※LINEアプリのバージョンによって、画面やメニューの場所が異なる場合があります。\nこの動画の人物・イラストの一部はAIで生成した画像を使用しています。\n\n大人のデジタル安心室では、スマホやパソコンを、もっと安全・快適に使うための情報をお届けします。チャンネル登録・高評価もよろしくお願いします。\n\nナレーション：VOICEVOX:剣崎雌雄",
+    "chapters": [
+      "00:00 はじめに・今日確認する3つ",
+      "00:34 引き継ぎとバックアップは別もの",
+      "01:45 ① バックアップの日時を確認",
+      "02:44 ② 自動バックアップを確認",
+      "03:42 ③ バックアップ用のPINコード",
+      "04:40 OSをまたぐ機種変更に注意",
+      "05:24 写真・動画はバックアップされない",
+      "05:58 まとめ・次の一歩"
+    ],
+    "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
+    "contains_synthetic_media": true,
+    "ai_disclosure_review": "REVIEW_REQUIRED",
+    "made_for_kids": false
+  }
+}

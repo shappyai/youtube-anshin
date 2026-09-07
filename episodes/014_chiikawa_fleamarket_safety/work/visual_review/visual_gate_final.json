@@ -1,0 +1,27 @@
+{
+  "episode_id": "014",
+  "status": "PASS",
+  "source_report": "work/visual_review/visual_gate_v2.md",
+  "scene_quality_report": "work/visual_review/scene_quality_report_v2.md",
+  "human_full_watch": "APPROVED",
+  "checks": {
+    "scene_count": 18,
+    "scene_quality_ok": 17,
+    "scene_quality_warn": 1,
+    "scene_quality_fail": 0,
+    "hybrid_generated_image_large_text": 0,
+    "no_image_text_hybrid": 0,
+    "character_artwork": 0,
+    "oversized_checkmark": 0,
+    "meaningless_filler_icon": 0,
+    "left_bias_fail": 0,
+    "tiny_text": 0,
+    "overflow": 0,
+    "privacy": "PASS",
+    "official_visual_source_integrity": "PASS",
+    "official_ui_ai_reconstruction": 0,
+    "long_viewer_facing_urls": 0,
+    "third_party_news_image_reuse": 0
+  },
+  "note": "Episode014の18 sceneについて、v2のscene quality／visual gate、contact sheet、公式素材のsource integrity、および人間full-watch承認を最終QAの根拠とする。SCENE-003の小文字proxyはWARN 1件だが、人間確認で可読性を承認済み。"
+}

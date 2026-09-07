@@ -1,0 +1,5 @@
+﻿path,kind,source,status,note
+assets/imagegen_native_v2/normalized/scene_01_hook.png,imagegen_native_major_visual,reused_from_v2 / built-in image_gen,used_in_draft_v3,人物・生活状況・スマホ・大見出しを一体生成済み。後乗せ大見出しなし。
+assets/imagegen_native_v2/normalized/scene_03_health.png,imagegen_native_major_visual,reused_from_v2 / built-in image_gen,used_in_draft_v3,人物・生活状況・スマホ・大見出しを一体生成済み。後乗せ大見出しなし。
+assets/imagegen_native_v2/normalized/scene_05_conclusion.png,imagegen_native_major_visual,reused_from_v2 / built-in image_gen,used_in_draft_v3,人物・生活状況・スマホ・大見出しを一体生成済み。後乗せ大見出しなし。
+assets/thumbnail_candidate/first_frame_thumbnail_candidate.png,first_frame_thumbnail_candidate,assets/imagegen_native_v2/normalized/scene_01_hook.png,reused_from_v2_not_confirmed,動画冒頭と同じhook画像。サムネイル確定は未実施。

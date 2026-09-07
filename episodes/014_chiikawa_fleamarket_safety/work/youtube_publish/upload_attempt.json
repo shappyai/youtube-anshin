@@ -1,0 +1,15 @@
+{
+  "episode": "014_chiikawa_fleamarket_safety",
+  "status": "uploaded_private_verification_failed",
+  "mode": "private",
+  "final_sha256": "379D265E899549B34D9AE69CD290E2FC9D948A11B204C4EB37729C7046FCF3BD",
+  "title": "【ちいかわ転売問題】フリマで限定品を買う前に確認したい5つ",
+  "requested_privacy": "private",
+  "publish_at_local": null,
+  "publish_at_api": null,
+  "started_at": "2026-09-06T12:37:10Z",
+  "video_id": "2l0SI8VIh8A",
+  "uploaded_at": "2026-09-06T12:37:14Z",
+  "error": "PublishError",
+  "thumbnail_uploaded": true
+}

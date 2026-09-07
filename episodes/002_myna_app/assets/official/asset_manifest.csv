@@ -1,0 +1,40 @@
+filename,source_url,source_title,organization,captured_or_downloaded_at,intended_use,copyright_or_usage_note,status
+presskit_20260818.zip,https://services.digital.go.jp/mynaapp/communication-guidelines/,マイナアプリ 広報素材およびガイドライン（素材一式ZIP・2026-08-18更新）,デジタル庁,2026-08-30,master source（素材の原本・抽出元）,_source/ に展開済み。本ファイル自体は動画素材にしない,ok
+official_icon_rounded_3x.png,https://services.digital.go.jp/mynaapp/communication-guidelines/,マイナアプリ 広報素材およびガイドライン（App-Icon 3x Rounded Filled）,デジタル庁,2026-08-30,SHOT-01・SHOT-03・SHOT-09（新アイコンの表示）＋サムネ候補,公式広報素材。ガイドライン（保護エリア・角丸・呼称表記）に従い出典表記して使用,ok
+official_icon_limited_3x.png,https://services.digital.go.jp/mynaapp/communication-guidelines/,マイナアプリ 広報素材およびガイドライン（期間限定アイコン 3x Rounded Filled）,デジタル庁,2026-08-30,SHOT-03（期間限定アイコンの説明）,公式広報素材。上に同じ,ok
+myna_app_icon_apple.png,https://apps.apple.com/jp/app/マイナアプリ-旧マイナポータルアプリ/id1476359069,App Store「マイナアプリ（旧マイナポータルアプリ）」（iTunes Search API artwork）,Apple / Digital Agency of Japan,2026-08-30,SHOT-09（ストア掲載アイコンの確認）※参考,App Store掲載画像。商用動画での利用はAppleガイドライン要確認。本編採用前に人間確認,needs_review
+myna_app_icon_gplay.png,https://play.google.com/store/apps/details?id=jp.go.cas.mpa,Google Play「マイナアプリ（旧マイナポータルアプリ）」（og:image）,Google / デジタル庁,2026-08-30,SHOT-09（ストア掲載アイコンの確認）※参考,Google Play掲載画像。利用条件を人間確認するまで本編に使わない,needs_review
+digital_auth_app_icon_apple.png,https://apps.apple.com/jp/app/デジタル認証アプリ/id6454900894,App Store「デジタル認証アプリ」（iTunes Search API artwork）,Apple / Digital Agency of Japan,2026-08-30,SHOT-03（統合前アプリの説明）※参考,提供終了済みアプリのアイコン。説明用途としてデジタル庁公式情報の範囲。採用前に人間確認,needs_review
+old_myna_portal_app_icon_crop.png,https://services.digital.go.jp/mynaapp/communication-guidelines/,マイナアプリ 広報素材およびガイドライン（移行案内バナー画像からの切り出し）,デジタル庁（加工: 弊局）,2026-08-30,SHOT-03（旧マイナポータルアプリアイコンの比較表示）,公式バナーから切り出した加工品。マイナちゃんロゴの利用はデジタル庁の定めに従う（https://www.digital.go.jp/policies/mynumber_logo）。切り出し品質・利用可否を人間確認,needs_review
+banner_icon_transition.png,https://services.digital.go.jp/mynaapp/communication-guidelines/,マイナアプリ 広報素材およびガイドライン（「マイナポータルアプリはマイナアプリになりました」バナーのアイコン行）,デジタル庁（加工: 弊局）,2026-08-30,SHOT-03（新旧アイコン比較・2カラム代替）※メイン候補,公式広報バナーからの切り出し。ガイドラインに従い出典表記。加工／使用を人間確認,needs_review
+new_myna_app_icon_from_banner.png,https://services.digital.go.jp/mynaapp/communication-guidelines/,マイナアプリ 広報素材およびガイドライン（バナー画像の切り出し）,デジタル庁（加工: 弊局）,2026-08-30,不使用（切り出し試行の旧版。official_icon_limited_3x.png を使用）,上に同じ,deprecated
+official_guide_banner_old_to_new.png,https://services.digital.go.jp/mynaapp/communication-guidelines/,マイナアプリ 広報素材およびガイドライン（移行案内バナー画像）,デジタル庁,2026-08-30,SHOT-03（元画像・全体表示2〜4秒、または画面収録時の参考）,公式広報素材。ガイドライン遵守・出典表記,ok
+official_icon_spec.png,https://services.digital.go.jp/mynaapp/communication-guidelines/,マイナアプリ 広報素材およびガイドライン（アイコン仕様図）,デジタル庁,2026-08-30,参考（アイコン説明時の仕様確認・編集での色味確認）,公式広報素材,ok
+official_icon_ng_examples.png,https://services.digital.go.jp/mynaapp/communication-guidelines/,マイナアプリ 広報素材およびガイドライン（アイコンNG例） ,デジタル庁,2026-08-30,参考（本編使用は想定しない）,公式広報素材,ok
+official_screen_home.png,https://services.digital.go.jp/mynaapp/communication-guidelines/,マイナアプリ プレスキット（Screenshot Home）,デジタル庁,2026-08-30,SHOT-01（アプリ画面の紹介・起動画面相当の代替）・SHOT-02,公式広報素材。スクリーンショット素材の使用はガイドラインに従う,ok
+official_screen_card.png,https://services.digital.go.jp/mynaapp/communication-guidelines/,マイナアプリ プレスキット（Screenshot Card）,デジタル庁,2026-08-30,SHOT-02（マイナンバーカード機能画面）※必要に応じ,公式広報素材,ok
+official_screen_menu.png,https://services.digital.go.jp/mynaapp/communication-guidelines/,マイナアプリ プレスキット（Screenshot Menu）,デジタル庁,2026-08-30,SHOT-02（メニュー画面）※必要に応じ,公式広報素材,ok
+official_screen_collage.png,https://services.digital.go.jp/mynaapp/communication-guidelines/,マイナアプリ プレスキット（Screenshot Collage WithBG）,デジタル庁,2026-08-30,まとめ・エンドカード等の背景（ボカシて使用）※任意,公式広報素材,ok
+official_screen_register_agreement.png,https://services.digital.go.jp/mynaapp/register/,マイナアプリの利用登録の方法（通知設定画面イメージ）,デジタル庁,2026-08-30,SHOT-08（利用登録フロー①〜②の説明）,公式ページ掲載の公式画面イメージ。出典URLを概要欄に記載,ok
+official_screen_register_device_lock.png,https://services.digital.go.jp/mynaapp/register/,マイナアプリの利用登録の方法（端末ロックの利用許可画面イメージ）,デジタル庁,2026-08-30,SHOT-08（端末ロック必須の説明）,公式ページ掲載の公式画面イメージ,ok
+official_screen_register_card_auth.png,https://services.digital.go.jp/mynaapp/register/,マイナアプリの利用登録の方法（実物カード認証・暗証番号入力画面イメージ）,デジタル庁,2026-08-30,SHOT-08（利用登録＝カード＋数字4桁の説明）※カード・暗証番号はイメージのみ,公式ページ掲載の公式画面イメージ（実データなし）,ok
+official_screen_register_biometric.png,https://services.digital.go.jp/mynaapp/register/,マイナアプリの利用登録の方法（顔・指紋認証画面イメージ）,デジタル庁,2026-08-30,SHOT-08（スマホ内カードでの認証の説明）,公式ページ掲載の公式画面イメージ,ok
+official_screen_register_start.png,https://services.digital.go.jp/mynaapp/register/,マイナアプリの利用登録の方法（利用登録開始画面イメージ）,デジタル庁,2026-08-30,SHOT-08（登録開始の説明）,公式ページ掲載の公式画面イメージ,ok
+official_services_grid.png,https://services.digital.go.jp/mynaapp/,マイナアプリ（本人確認できるサービスのロゴ一覧図）,デジタル庁,2026-08-30,SHOT-02（マイナアプリでできることの説明）※任意,公式ページ掲載の公式画像,ok
+official_topo_iphone_card.png,https://services.digital.go.jp/mynaapp/,マイナアプリ（スマホのマイナンバーカードのイラスト）,デジタル庁,2026-08-30,参考（スマホのマイナンバーカード説明用）※任意,公式ページ掲載の公式画像,ok
+official_topo_notification.png,https://services.digital.go.jp/mynaapp/,マイナアプリ（プッシュ通知のイラスト）,デジタル庁,2026-08-30,参考（通知機能の説明）※任意,公式ページ掲載の公式画像,ok
+official_topo_store_imagery.png,https://services.digital.go.jp/mynaapp/,マイナアプリ（アプリストア表示イメージ）,デジタル庁,2026-08-30,参考（ストアからの入手説明）※任意,公式ページ掲載の公式画像,ok
+presskit_keyvisual_01.png,https://services.digital.go.jp/mynaapp/communication-guidelines/,マイナアプリ プレスキット（KeyVisual 01）,デジタル庁,2026-08-30,冒頭・セクション間のつなぎ・エンドカード背景（ボカシ使用）※任意,公式広報素材。ガイドライン遵守,ok
+presskit_keyvisual_02.png,https://services.digital.go.jp/mynaapp/communication-guidelines/,マイナアプリ プレスキット（KeyVisual 02）,デジタル庁,2026-08-30,上に同じ,公式広報素材,ok
+presskit_banner_1920x1080.png,https://services.digital.go.jp/mynaapp/communication-guidelines/,マイナアプリ プレスキット（Banner 1920x1080）,デジタル庁,2026-08-30,エンドカード・chapterカード背景（トリミング）※任意,公式広報素材,ok
+br_01_svc_top_hero.png,https://services.digital.go.jp/mynaapp/,マイナアプリ（公式サービスサイト・ヒーロー部）,デジタル庁,2026-08-30,SHOT-02（場所の理解・2〜4秒全体表示→拡大）,弊局がブラウザでキャプチャ。出典URLを画面内・概要欄に表示,ok
+br_02_svc_top_faq.png,https://services.digital.go.jp/mynaapp/,マイナアプリ（公式サービスサイト・FAQ「別のアプリですか→いいえ」を含む縦長キャプチャ）,デジタル庁,2026-08-30,SHOT-02（「マイナポータルアプリから呼称を変え、2026年8月25日より提供を開始」）・SHOT-04（「マイナポータル（ウェブサイト）は、変わらずご利用いただけます」FAQ回答）,弊局キャプチャ。編集で対象文言を大きくクロップ,ok
+br_03_news_20260825.png,https://services.digital.go.jp/mynaapp/news/20260825-01/,マイナアプリの提供を開始しました（公式お知らせ）,デジタル庁,2026-08-30,SHOT-02（提供開始日・統合の公式告知）,弊局キャプチャ。出典URL表示,ok
+br_04_faq_auto_update.png,https://support.mynaapp.digital.go.jp/hc/ja/articles/61067610915737,マイナアプリ よくある質問「マイナポータルアプリは自動的にマイナアプリにアップデートされますか？」,デジタル庁,2026-08-30,本編未使用（Cloudflare認証ページ 2026-08-30取得。自動更新の説明は公式FAQ引用カードで代替）,キャプチャ失敗（セキュリティ検証画面）。人間がブラウザで再取得すれば置き換え可能,blocked_cloudflare
+br_05_faq_reinstall.png,https://support.mynaapp.digital.go.jp/hc/ja/articles/60333701393049,マイナアプリ よくある質問「アプリを入れ直したら、マイナアプリが開かなくなりました。」,デジタル庁,2026-08-30,本編未使用（Cloudflare認証ページ 2026-08-30取得。入れ直し注意の説明は公式FAQ引用カードで代替）,キャプチャ失敗（セキュリティ検証画面）。人間がブラウザで再取得すれば置き換え可能,blocked_cloudflare
+br_06_sysreq.png,https://services.digital.go.jp/mynaapp/system-requirements/,マイナアプリの動作環境（対応OS・端末ロック）,デジタル庁,2026-08-30,SHOT-07（iOS 16.4以上／Android 11以降・NFC／ロック設定必須）,弊局キャプチャ。現行条件（2026-08-30）を拡大表示,ok
+br_07_register.png,https://services.digital.go.jp/mynaapp/register/,マイナアプリの利用登録の方法（Web説明ページ）,デジタル庁,2026-08-30,SHOT-08（手順の場所理解・公式スクショと併用）,弊局キャプチャ,ok
+br_08_appstore.png,https://apps.apple.com/jp/app/マイナアプリ-旧マイナポータルアプリ/id1476359069,App Store「マイナアプリ（旧マイナポータルアプリ）」,Apple / Digital Agency of Japan,2026-08-30,SHOT-09（ストア掲載名・提供元「Digital Agency of Japan」）※2カラム左,弊局キャプチャ。Appleの画面使用ガイドラインを人間確認,needs_review
+br_09_gplay.png,https://play.google.com/store/apps/details?id=jp.go.cas.mpa,Google Play「マイナアプリ（旧マイナポータルアプリ）」,Google / デジタル庁,2026-08-30,SHOT-09（掲載名「マイナアプリ（旧マイナポータルアプリ）」・開発元「デジタル庁」）※2カラム右,弊局キャプチャ。Googleの画面使用ガイドラインを人間確認,needs_review
+br_10_notice_fakeapp.png,https://www.digital.go.jp/news/b32e5c16-8272-4cc3-9171-b4c583325feb,【注意喚起】年金事務所を騙り、マイナポータルの偽サイト・偽アプリへ誘導される事案について,デジタル庁,2026-08-30,SHOT-10（偽サイト・偽アプリへの注意喚起・相談窓口）,弊局キャプチャ。注意喚起本文を拡大表示,ok
+br_11_notice_phishing.png,https://www.digital.go.jp/news/4750a8f5-1061-4ae6-903b-cfb327a50465,マイナポータルを騙った詐欺メール及び偽サイト（フィッシング詐欺）に関する注意喚起,デジタル庁,2026-08-30,SHOT-10（フィッシング・暗証番号を入力しない案内）※任意,弊局キャプチャ,ok

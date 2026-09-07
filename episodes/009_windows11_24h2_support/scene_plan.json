@@ -1,0 +1,28 @@
+{
+  "episode_id": "009",
+  "visual_theme": "adult_digital_soft_image_bg",
+  "canvas": {"width": 1920, "height": 1080, "format": "PNG"},
+  "subtitle_safe_area": {"top": 900, "height": 180, "policy": "renderer-owned; no scene content"},
+  "icon_policy": "Material Symbols Roundedのsemantic iconをconfig/icon_catalog.jsonから選び、可視グリフ中心を画面中央軸へ正規化する。",
+  "scenes": [
+    {"id": 1, "name": "opening_reassurance", "purpose": "結論と問いを20秒以内に提示", "render_mode": "gpt_image", "text_render_mode": "imagegen_native", "focal": "落ち着いてPCを確認する人物", "text_safe_area": "左〜中央、下部180pxを空ける", "animation": "static", "asset_status": "AI生成後にexact text QA"},
+    {"id": 2, "name": "three_checks", "purpose": "確認項目3つを一覧化", "render_mode": "template", "text_render_mode": "pil_overlay", "focal": "3つの淡いrounded card", "text_safe_area": "headlineとlist card", "animation": "static", "asset_status": "local template"},
+    {"id": 3, "name": "scope_and_date", "purpose": "24H2対象と2026-10-13を正確に限定", "render_mode": "template", "text_render_mode": "pil_overlay", "focal": "日付panelとverified_user", "text_safe_area": "中央panel", "animation": "static", "asset_status": "local template"},
+    {"id": 4, "name": "about_path", "purpose": "バージョン情報までの道順を理解", "render_mode": "template", "text_render_mode": "pil_overlay", "focal": "3段の手順カード", "text_safe_area": "右側テキスト", "animation": "static", "asset_status": "local template"},
+    {"id": 5, "name": "edition_version", "purpose": "エディションとバージョンを区別", "render_mode": "template", "text_render_mode": "pil_overlay", "focal": "2カラム比較", "text_safe_area": "中央比較カード", "animation": "static", "asset_status": "local template"},
+    {"id": 6, "name": "official_about_focus_v2", "purpose": "設定→システム→バージョン情報を開く場所を確認", "render_mode": "official", "text_render_mode": "pil_overlay", "focal": "左の3段stepと右のバージョン情報focus crop", "text_safe_area": "UIとstepを上部900pxへ収め、下部字幕帯を分離", "animation": "very_slow_zoom", "asset_status": "assets/official/about_version_focus_official.png"},
+    {"id": 7, "name": "official_version_field_v2", "purpose": "Windowsの仕様でバージョンを見る場所を確認", "render_mode": "official", "text_render_mode": "pil_overlay", "focal": "公式デバイス仕様cropと説明用のバージョン例欄", "text_safe_area": "公式UIと説明欄を上部900pxへ収め、下部字幕帯を分離", "animation": "very_slow_zoom", "asset_status": "assets/official/about_specs_focus_official.png"},
+    {"id": 8, "name": "update_section", "purpose": "Windows Update確認へ切り替え", "render_mode": "template", "text_render_mode": "pil_overlay", "focal": "verified_user semantic icon", "text_safe_area": "中央見出し", "animation": "static", "asset_status": "local template"},
+    {"id": 9, "name": "official_windows_update_focus_v2", "purpose": "設定→Windows Update→更新プログラムの確認を追う", "render_mode": "official", "text_render_mode": "pil_overlay", "focal": "左の2段step、右の日本語補助ラベルと公式Check for updates crop", "text_safe_area": "UIとstepを上部900pxへ収め、下部字幕帯を分離", "animation": "very_slow_zoom", "asset_status": "assets/official/windows_update_check_button_official.png"},
+    {"id": 10, "name": "update_prompt", "purpose": "25H2表示後の安全な順番", "render_mode": "template", "text_render_mode": "pil_overlay", "focal": "保存・インストール・再起動のlist card", "text_safe_area": "list card", "animation": "static", "asset_status": "local template"},
+    {"id": 11, "name": "safeguard_hold", "purpose": "未表示を故障と誤解しない", "render_mode": "template", "text_render_mode": "pil_overlay", "focal": "block semantic iconと淡amber", "text_safe_area": "中央見出し", "animation": "static", "asset_status": "local template"},
+    {"id": 12, "name": "26h1_scope", "purpose": "26H1は別のリリースだと整理", "render_mode": "template", "text_render_mode": "pil_overlay", "focal": "device_lock semantic icon", "text_safe_area": "中央見出し", "animation": "static", "asset_status": "local template"},
+    {"id": 13, "name": "retry_later", "purpose": "まず更新、再起動、時間を置いて再確認", "render_mode": "template", "text_render_mode": "pil_overlay", "focal": "2ステップcompare", "text_safe_area": "比較カード", "animation": "static", "asset_status": "local template"},
+    {"id": 14, "name": "ask_support", "purpose": "公式サポート・メーカー・管理者へ相談", "render_mode": "template", "text_render_mode": "pil_overlay", "focal": "support_agent semantic icon", "text_safe_area": "右側アイコン、左側説明", "animation": "static", "asset_status": "local template"},
+    {"id": 15, "name": "no_rush_replacement", "purpose": "買い替えを急がせず安心に着地", "render_mode": "gpt_image", "text_render_mode": "imagegen_native", "focal": "落ち着いて確認する家庭の人物", "text_safe_area": "headlineを中央〜左、下部180pxを空ける", "animation": "very_slow_zoom", "asset_status": "AI生成後にexact text QA"},
+    {"id": 16, "name": "check_order", "purpose": "いま行う順番を固定", "render_mode": "template", "text_render_mode": "pil_overlay", "focal": "1→2のcompare", "text_safe_area": "比較カード", "animation": "static", "asset_status": "local template"},
+    {"id": 17, "name": "summary_one", "purpose": "まとめ1つ目を再掲", "render_mode": "template", "text_render_mode": "pil_overlay", "focal": "summary list", "text_safe_area": "summary rows", "animation": "static", "asset_status": "local template"},
+    {"id": 18, "name": "summary_two_three", "purpose": "まとめ2つ目・3つ目と相談導線", "render_mode": "template", "text_render_mode": "pil_overlay", "focal": "summary listとsupport_agent", "text_safe_area": "summary rows", "animation": "static", "asset_status": "local template"},
+    {"id": 19, "name": "closing_check", "purpose": "まずバージョンを確認して相談へ", "render_mode": "gpt_image", "text_render_mode": "imagegen_native", "focal": "拡大鏡とPCの安心イラスト", "text_safe_area": "headlineを中央〜左、下部180pxを空ける", "animation": "very_slow_zoom", "asset_status": "AI生成後にexact text QA"}
+  ]
+}

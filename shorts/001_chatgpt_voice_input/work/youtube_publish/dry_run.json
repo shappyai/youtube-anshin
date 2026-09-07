@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "api_called": false,
+  "oauth_called": false,
+  "short_id": "Short001",
+  "final_path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\output\\final.mp4",
+  "thumbnail_path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\assets\\thumbnail\\thumbnail.jpg",
+  "title": "ChatGPT、文字を打たなくても使える？",
+  "privacy": "private",
+  "ai_disclosure": true,
+  "video_sha256": "88329E9246656546A92C1A702E87036177EB3FD1972C64A24111903F85CBC77C",
+  "existing_video_id": null,
+  "expected_api_requests": [
+    "channels.list part=id,snippet mine=true",
+    "videos.insert part=snippet,status resumable=True notifySubscribers=False",
+    "thumbnails.set",
+    "videos.list part=snippet,status"
+  ],
+  "errors": []
+}

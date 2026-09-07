@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "warnings": [],
+  "probe": {
+    "duration": 304.3,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30.0
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "sample_rate": "48000"
+      }
+    ],
+    "probe_returncode": 0
+  },
+  "decode_returncode": 0,
+  "black_detection_returncode": 0,
+  "silence_detection_returncode": 0,
+  "black_frame_matches": 0,
+  "silence_matches": 0,
+  "expected_duration": 304.304,
+  "scene_count": 19,
+  "subtitle_count": 59,
+  "subtitle_minimum_font_px": 72,
+  "visual_gate_v2_regression": 0,
+  "official_ui_integrity": "PASS",
+  "privacy": "PASS",
+  "cta": "PASS",
+  "target_scene_hashes": {
+    "scene_006": {
+      "canonical": "c8e2892f69e59bc3ba13cc54e8fd58736fd2fff6400d96873e96315afa38a33a",
+      "v2_staging": "c8e2892f69e59bc3ba13cc54e8fd58736fd2fff6400d96873e96315afa38a33a"
+    },
+    "scene_007": {
+      "canonical": "bd46717749004792cfee0b34ce145a0a718194e193b920f86eecf2df9de9bfec",
+      "v2_staging": "bd46717749004792cfee0b34ce145a0a718194e193b920f86eecf2df9de9bfec"
+    },
+    "scene_009": {
+      "canonical": "ab5f5c3518caaec24a5ed4980619c310e2b25c7a8063a3b8c9f827ddfe9f9a8c",
+      "v2_staging": "ab5f5c3518caaec24a5ed4980619c310e2b25c7a8063a3b8c9f827ddfe9f9a8c"
+    }
+  }
+}

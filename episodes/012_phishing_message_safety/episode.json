@@ -1,0 +1,1316 @@
+{
+  "schema_version": "1.0.0",
+  "metadata": {
+    "research_date": "2026-09-06",
+    "visual_theme": "adult_digital_soft_image_bg",
+    "production_phase": "Phase B（draft_v4人間修正版反映済み・final copy-only確定・サムネイルQA済み・予約公開済み）",
+    "channel": "大人のデジタル安心室",
+    "brand_promise": "怖がらせる前に、確認する。",
+    "target_audience_detail": "50〜70代を中心に、視力が弱い人とTV視聴を想定。headline 88〜120px、main 64〜80px、secondary 52px以上、source 44px以上を守る。",
+    "media_decision": "SMS・メールの再現はテンプレート、公式情報は公式ページの引用または公式画面、概念・章扉は人間確認済みImageGenを使う。主媒体はスマホ、公式ページ確認はPCブラウザを優先する。",
+    "protagonist_policy": "Heroの日本人高齢男性を参照画像にし、5ケースの章扉で同一人物として統一する。名前は付けない。",
+    "fact_boundary": "メールやSMSのリンクを使わず、自分で公式アプリ・公式サイトを開いて確認する共通行動を、通販、宅配、カード、携帯料金、公的通知の5場面で説明する。Case 1は国民生活センターの掲載相談例、Case 2〜5は公式注意喚起をもとにした架空の場面。",
+    "source_of_truth": ["https://www.kokusen.go.jp/mimamori/mj_mailmag/mj-shinsen550.html", "https://www.npa.go.jp/bureau/cyber/countermeasures/phishing.html", "https://www.antiphishing.jp/report/guideline/consumer_guideline2026.html", "https://www.post.japanpost.jp/notification/notice/fraud-mail.html", "https://www.jcb.co.jp/security/phishing/", "https://www.softbank.jp/mobile/support/protect/spam/", "https://www.nta.go.jp/information/attention/attention.htm", "https://www.caa.go.jp/notice/statement/horii/044840.html"],
+    "human_gates": ["テーマ・台本：人間承認済み", "Visual Gate v2：APPROVED_FOR_PHASE_B", "draft_v3全編：APPROVED・senior_readability=PASS", "030.wav人間修正版：draft_v4へ組み込み済み・finalへcopy-only反映", "thumbnail：ユーザー提供画像を採用・QA PASS", "公開：予約公開・API検証済み"],
+    "do_not_create_in_phase_a": ["VOICEVOX音声", "captions.srt", "draft.mp4", "thumbnail画像", "final/final.mp4", "YouTube upload", "schedule"]
+  },
+  "episode": {
+    "episode_id": "012",
+    "slug": "phishing_message_safety",
+    "title": "【詐欺メール】本物そっくりでも見分けなくていい？安全に確認する5つの場面",
+    "target_duration": 600,
+    "status": "publish_ready",
+    "publication_status": "uploaded_scheduled",
+    "topic": "身近な会社や公的機関を名乗るSMS・メールを、見た目で判定せず、リンクを使わずに公式側から確認する手順を5つの生活場面で説明する。",
+    "target_audience": "50〜70代。SMSやメールの会社名・ロゴを見て本物か迷う人、急かされるとリンクを押しそうになる人。",
+    "topic_scores": {"search_fit": 5, "home_ctr": 5, "senior_clarity": 4, "factual_accuracy": 5, "long_form_promise": 5, "total": 24, "selected_title_reason": "見分ける負担を減らす核心行動と、5つの生活場面という長尺の約束が一目で伝わる。"},
+    "title_candidates": [
+      {"id":"A","title":"【詐欺メール】本物そっくりでも見分けなくていい？安全に確認する5つの場面","search_fit":5,"home_ctr":5,"senior_clarity":4,"accuracy":5,"long_form_promise":5,"total":24,"status":"selected"},
+      {"id":"B","title":"【SMS・メール】これ本物？リンクを押す前に確認したい5つ","search_fit":5,"home_ctr":4,"senior_clarity":5,"accuracy":5,"long_form_promise":4,"total":23},
+      {"id":"C","title":"【詐欺メール】いつもの会社から届いても？安全な確認方法","search_fit":4,"home_ctr":4,"senior_clarity":5,"accuracy":5,"long_form_promise":3,"total":21},
+      {"id":"D","title":"【SMS詐欺】本物か迷ったら？5つのケースで確認","search_fit":4,"home_ctr":4,"senior_clarity":4,"accuracy":5,"long_form_promise":5,"total":22},
+      {"id":"E","title":"迷ったらリンクを押さない。SMS・メールを安全に確認する3手順","search_fit":4,"home_ctr":3,"senior_clarity":5,"accuracy":5,"long_form_promise":3,"total":20}
+    ]
+  },
+  "experiment": {
+    "name": "long_form_watchtime_v1",
+    "status": "phase_b_uploaded_scheduled",
+    "publication_status": "uploaded_scheduled",
+    "goal": "8〜12分、理想9〜11分の実用長尺で、AVDと総再生時間を評価する。",
+    "story_intro": true,
+    "core_answer_within_seconds": 20,
+    "promise_within_seconds": 30,
+    "midroll_subscribe_cta": true,
+    "midroll_cta_max_seconds": 7,
+    "comparison_episode": "002 / 010 / 011",
+    "comparison_type": "テーマが異なる準実験。Episode 002の長さ7:56、Episode 010約3:39、Episode 011約4:15を基準に、AVDを最重要評価にする。",
+    "kpis": ["views", "unique_viewers", "watch_time_hours", "watch_time_per_1000_views", "average_view_duration", "average_percentage_viewed", "retention_at_30s_3m_5m_8m_end", "subscriber_conversion", "returning_viewers", "end_screen_ctr", "browse_vs_search", "audience_65_plus", "tv_viewing"],
+    "case_structure": "message_arrives → seems_real → confusion_point → do_not_do → safe_confirmation → conclusion",
+    "depth_gate": "work/long_form_depth_gate.md"
+  },
+  "human_audio_overrides": [
+    {
+      "segment_id": 30,
+      "path": "audio/human_approved/030.wav",
+      "source_path": "audio/voicevox_kenzaki/segments/030.wav",
+      "status": "approved",
+      "override_type": "human_recorded_contextual_pronunciation",
+      "sha256": "7B534892A4AC893CC7F1D0D483B67A8A94E690353DB652EA16B0077C3F4C7106",
+      "narration_sha256": "BF3FC7F9C9CA775F2AA5D26E1D2C343EC4AB1DE1E26D53F82D281918799C138B",
+      "approved_at": "2026-09-06",
+      "automatic_regeneration": false,
+      "retain_during_cleanup": true,
+      "note": "ユーザーが手動修正した『これ、本物？』を正本として、pronunciation dictionaryより優先してtimelineへreuseする。"
+    }
+  ],
+  "narration": {
+    "speaker": "VOICEVOX",
+    "voice": "剣崎雌雄",
+    "style": "ノーマル",
+    "speedScale": 1,
+    "intonationScale": 1,
+    "pitchScale": 0,
+    "segment_policy": "通常segmentは1文ずつaudio_query→synthesis。人間修正版のhuman_audio_overrideは自動再生成より優先し、VOICEVOX剣崎雌雄の79segmentへreuseする。終了CTAは本編ナレーションに含めず、postrollを1回だけ連結する。",
+    "pronunciation_review_terms": ["SMS", "ID", "URL", "e-Tax", "JCB", "Android", "iPhone", "188", "#9110", "約20万円"]
+  },
+  "sources": [
+    {"source_id":"SRC-001","url":"https://www.kokusen.go.jp/mimamori/mj_mailmag/mj-shinsen550.html","title":"普段使っているアプリを名乗るメールに注意","organization":"国民生活センター","verified_at":"2026-09-06","claim":"2026年9月3日公表。普段使うアプリ名のメールから支払い情報を更新し、後に約20万円の利用通知を受けた80歳代の相談例と、メール・SMSのリンクを使わず正規サイト・アプリから確認する助言を確認。"},
+    {"source_id":"SRC-002","url":"https://www.npa.go.jp/bureau/cyber/countermeasures/phishing.html","title":"フィッシング対策","organization":"警察庁","verified_at":"2026-09-06","claim":"実在サービス等をかたるメール・SMSから偽サイトへ誘導する手口、リンクは偽装可能で見た目の判定が難しいこと、ブックマークや公式アプリを使う案内を確認。"},
+    {"source_id":"SRC-003","url":"https://www.antiphishing.jp/report/report/phishing_report2026.html","title":"フィッシングレポート 2026","organization":"フィッシング対策協議会","verified_at":"2026-09-06","claim":"2026年6月1日公表。SMSで装う対象として宅配業者、クレジットカード会社、ECサイト等が上位で、官公庁を装う手口にも言及していることを確認。需要とケース選定の根拠に限定使用。"},
+    {"source_id":"SRC-004","url":"https://www.antiphishing.jp/report/guideline/consumer_guideline2026.html","title":"フィッシング対策ガイドライン 2026年度版 利用者向け","organization":"フィッシング対策協議会","verified_at":"2026-09-06","claim":"宅配便の不在連絡を装うSMSから、Androidは不正アプリ、iPhoneなどは偽ログイン画面へ誘導される例と、重要情報入力後の対応を確認。"},
+    {"source_id":"SRC-005","url":"https://www.post.japanpost.jp/notification/notice/fraud-mail.html","title":"日本郵便を装った不審なメール・SMS等にご注意ください","organization":"日本郵便","verified_at":"2026-09-06","claim":"日本郵便を装う不審メール・SMSが個人情報・カード情報の不正取得や不正アプリ等につながる可能性、リンクをクリックせず公式ページの問い合わせ先へ進む案内を確認。"},
+    {"source_id":"SRC-006","url":"https://www.jcb.co.jp/security/phishing/","title":"フィッシング詐欺にご注意ください","organization":"JCB","verified_at":"2026-09-06","claim":"JCBを名乗るメール・SMSから偽サイトへ誘導し、カード情報やMyJCB ID・パスワードを盗む事例、MyJCBアプリ・ブックマークした公式サイトを使う案内、暗証番号をメール・SMSで求めない案内を確認。"},
+    {"source_id":"SRC-007","url":"https://www.smbc-card.com/customer_voice/survey/sur0000047.jsp","title":"カード利用確認通知の受信方法","organization":"三井住友カード","verified_at":"2026-09-06","claim":"2026年4月8日公表。正規のカード利用確認通知が存在し、メール回答を廃止してアプリプッシュ通知等へ移行した運用を確認。正規通知もあり得るという補助根拠に使用。"},
+    {"source_id":"SRC-008","url":"https://www.softbank.jp/mobile/support/protect/spam/","title":"迷惑メール・迷惑電話対策","organization":"ソフトバンク","verified_at":"2026-09-06","claim":"料金未払い・利用停止予告を装うメール・SMSに対し、URLアクセス・返信をせず、ブックマーク・アプリ・検索経由で正規サイトを確認する案内、入力後の公式側でのパスワード変更・登録情報確認を確認。"},
+    {"source_id":"SRC-009","url":"https://www.nta.go.jp/information/attention/attention.htm","title":"不審なメールや電話にご注意ください","organization":"国税庁","verified_at":"2026-09-06","claim":"国税庁等はSMSにURLを記載した案内を送らず、国税の納付・差押えをSMS・メール・LINEで求めないこと、e-Taxは決まったパターンで原則URL・添付なしとする案内を確認。"},
+    {"source_id":"SRC-010","url":"https://www.caa.go.jp/notice/statement/horii/044840.html","title":"令和8年1月15日 消費者庁長官記者会見要旨","organization":"消費者庁","verified_at":"2026-09-06","claim":"消費者庁から電話・メール・はがき等で個人情報の提供や金銭の支払いを求めることはないとの説明を確認。"},
+    {"source_id":"SRC-011","url":"https://www.apple.com/jp/apple-events/","title":"Appleのイベント","organization":"Apple","verified_at":"2026-09-06","claim":"2026年9月10日午前2時（日本時間）の特別イベント掲載を確認。発表内容によって公開順を人間が見直す外部予定。"},
+    {"source_id":"SRC-012","url":"https://www.antiphishing.jp/report/guideline/antiphishing_guideline2026.html","title":"フィッシング対策ガイドライン 2026年度版 事業者向け","organization":"フィッシング対策協議会","verified_at":"2026-09-06","claim":"国内携帯番号等を使うSMS、宅配便不在通知、偽サイト・不正アプリの拡大例を確認。Case 2の補助根拠。"}
+  ],
+  "narration_segments": [
+    {"id":1,"section":"はじめに","narration":"いつも使っている会社から、「支払い情報を更新してください」というメールが届きました。","display_text":"いつも使っている会社から、「支払い情報を更新してください」というメールが届きました。","reading_overrides":{},"pause_after":0.12,"scene_id":1,"subtitle_ids":["SUB-001","SUB-002"]},
+    {"id":2,"section":"はじめに","narration":"会社名もロゴも見覚えがあります。これ、本物でしょうか。","display_text":"会社名もロゴも見覚えがあります。これ、本物でしょうか。","reading_overrides":{},"pause_after":0.12,"scene_id":1,"subtitle_ids":["SUB-003"]},
+    {"id":3,"section":"はじめに","narration":"実は、本物かどうかをメールだけで見分けなくて大丈夫です。","display_text":"実は、本物かどうかをメールだけで見分けなくて大丈夫です。","reading_overrides":{},"pause_after":0.14,"scene_id":1,"subtitle_ids":["SUB-004"]},
+    {"id":4,"section":"はじめに","narration":"メールやSMSのリンクから入らず、自分で公式アプリや公式サイトを開いて確認します。","display_text":"メールやSMSのリンクから入らず、自分で公式アプリや公式サイトを開いて確認します。","reading_overrides":{},"pause_after":0.14,"scene_id":2,"subtitle_ids":["SUB-005"]},
+    {"id":5,"section":"はじめに","narration":"今日は、通販、宅配、カード、携帯料金、公的なお知らせの5つの場面で、この確認手順を使います。","display_text":"今日は、通販、宅配、カード、携帯料金、公的なお知らせの5つの場面で、この確認手順を使います。","reading_overrides":{},"pause_after":0.14,"scene_id":2,"subtitle_ids":["SUB-006","SUB-007"]},
+    {"id":6,"section":"はじめに","narration":"見るポイントは毎回同じです。届いた内容、迷う理由、その場でしないこと、公式からの確認です。","display_text":"見るポイントは毎回同じです。届いた内容、迷う理由、その場でしないこと、公式からの確認です。","reading_overrides":{},"pause_after":0.14,"scene_id":3,"subtitle_ids":["SUB-008"]},
+    {"id":7,"section":"はじめに","narration":"フィッシングという言葉を聞くことがあります。これは、実在する会社などを名乗って、偽の画面へ誘導する手口です。","display_text":"フィッシングという言葉を聞くことがあります。これは、実在する会社などを名乗って、偽の画面へ誘導する手口です。","reading_overrides":{},"pause_after":0.14,"scene_id":4,"subtitle_ids":["SUB-009","SUB-010"]},
+    {"id":8,"section":"はじめに","narration":"名前やロゴが本物らしくても、メールの中だけで安全と決めないことが、最初の一歩です。","display_text":"名前やロゴが本物らしくても、メールの中だけで安全と決めないことが、最初の一歩です。","reading_overrides":{},"pause_after":0.16,"scene_id":4,"subtitle_ids":["SUB-011"]},
+    {"id":9,"section":"1 / 5","narration":"1つ目です。支払い情報の更新です。","display_text":"1つ目です。支払い情報の更新です。","reading_overrides":{},"pause_after":0.14,"scene_id":5,"subtitle_ids":["SUB-012"]},
+    {"id":10,"section":"1 / 5","narration":"普段使っている通販やアプリの名前で、「支払い情報を更新してください」と届いたとします。","display_text":"普段使っている通販やアプリの名前で、「支払い情報を更新してください」と届いたとします。","reading_overrides":{},"pause_after":0.14,"scene_id":6,"subtitle_ids":["SUB-013"]},
+    {"id":11,"section":"1 / 5","narration":"「このままでは購入できません」「今日中に確認してください」と書いてあれば、急いでしまいます。","display_text":"「このままでは購入できません」「今日中に確認してください」と書いてあれば、急いでしまいます。","reading_overrides":{},"pause_after":0.14,"scene_id":6,"subtitle_ids":["SUB-014","SUB-015"]},
+    {"id":12,"section":"1 / 5","narration":"国民生活センターには、普段利用しているアプリの名前で届いたメールから、支払い情報を更新した相談例が掲載されています。","display_text":"国民生活センターには、普段利用しているアプリの名前で届いたメールから、支払い情報を更新した相談例が掲載されています。","reading_overrides":{},"pause_after":0.14,"scene_id":7,"subtitle_ids":["SUB-016","SUB-017"]},
+    {"id":13,"section":"1 / 5","narration":"相談者は80歳代で、その後、ネット通販で約20万円の利用を知らせるメールが届いたとされています。","display_text":"相談者は80歳代で、その後、ネット通販で約20万円の利用を知らせるメールが届いたとされています。","reading_overrides":{},"pause_after":0.14,"scene_id":7,"subtitle_ids":["SUB-018","SUB-019"]},
+    {"id":14,"section":"1 / 5","narration":"ここで大切なのは、ロゴが本物らしいかではなく、メールのリンクから支払い情報を更新しないことです。","display_text":"ここで大切なのは、ロゴが本物らしいかではなく、メールのリンクから支払い情報を更新しないことです。","reading_overrides":{},"pause_after":0.14,"scene_id":7,"subtitle_ids":["SUB-020"]},
+    {"id":15,"section":"1 / 5","narration":"まずメールを閉じ、いつも使っている公式アプリを、自分で開きます。","display_text":"まずメールを閉じ、いつも使っている公式アプリを、自分で開きます。","reading_overrides":{},"pause_after":0.14,"scene_id":8,"subtitle_ids":["SUB-021"]},
+    {"id":16,"section":"1 / 5","narration":"アプリ内に本当に支払い情報の確認が出ているか、公式サイトの注文履歴やお知らせに同じ内容があるかを見ます。","display_text":"アプリ内に本当に支払い情報の確認が出ているか、公式サイトの注文履歴やお知らせに同じ内容があるかを見ます。","reading_overrides":{},"pause_after":0.14,"scene_id":8,"subtitle_ids":["SUB-022","SUB-023"]},
+    {"id":17,"section":"1 / 5","narration":"何も出ていなければ、メールは削除します。カード明細も、こまめに確認します。","display_text":"何も出ていなければ、メールは削除します。カード明細も、こまめに確認します。","reading_overrides":{},"pause_after":0.14,"scene_id":9,"subtitle_ids":["SUB-024"]},
+    {"id":18,"section":"1 / 5","narration":"通販の支払い更新は、メールで急がされても、公式側で確認する。これがこの場面の結論です。","display_text":"通販の支払い更新は、メールで急がされても、公式側で確認する。これがこの場面の結論です。","reading_overrides":{},"pause_after":0.16,"scene_id":9,"subtitle_ids":["SUB-025"]},
+    {"id":19,"section":"2 / 5","narration":"2つ目です。再配達のお願いです。","display_text":"2つ目です。再配達のお願いです。","reading_overrides":{},"pause_after":0.14,"scene_id":10,"subtitle_ids":["SUB-026"]},
+    {"id":20,"section":"2 / 5","narration":"ここからは、公式注意喚起をもとにした例です。例えば、宅配便のSMSで、「荷物を届けられませんでした。再配達はこちら」と届きました。","display_text":"ここからは、公式注意喚起をもとにした例です。例えば、宅配便のSMSで、「荷物を届けられませんでした。再配達はこちら」と届きました。","reading_overrides":{},"pause_after":0.14,"scene_id":11,"subtitle_ids":["SUB-027","SUB-028","SUB-029"]},
+    {"id":21,"section":"2 / 5","narration":"注文した覚えがあると、「早く手続きをしなければ」と思います。","display_text":"注文した覚えがあると、「早く手続きをしなければ」と思います。","reading_overrides":{},"pause_after":0.14,"scene_id":11,"subtitle_ids":["SUB-030"]},
+    {"id":22,"section":"2 / 5","narration":"日本郵便は、会社を装う不審なメールやSMSについて、個人情報やカード情報の不正取得、不正アプリのダウンロードにつながるおそれを案内しています。","display_text":"日本郵便は、会社を装う不審なメールやSMSについて、個人情報やカード情報の不正取得、不正アプリのダウンロードにつながるおそれを案内しています。","reading_overrides":{},"pause_after":0.14,"scene_id":12,"subtitle_ids":["SUB-031","SUB-032","SUB-033"]},
+    {"id":23,"section":"2 / 5","narration":"フィッシング対策協議会も、宅配便の不在連絡を装うSMSから、偽サイトや不正アプリへ誘導される手口を説明しています。","display_text":"フィッシング対策協議会も、宅配便の不在連絡を装うSMSから、偽サイトや不正アプリへ誘導される手口を説明しています。","reading_overrides":{},"pause_after":0.14,"scene_id":12,"subtitle_ids":["SUB-034","SUB-035"]},
+    {"id":24,"section":"2 / 5","narration":"Androidではアプリのインストールへ、iPhoneなどでは偽のログイン画面へ進む例があります。","display_text":"Androidではアプリのインストールへ、iPhoneなどでは偽のログイン画面へ進む例があります。","reading_overrides":{},"pause_after":0.14,"scene_id":12,"subtitle_ids":["SUB-036","SUB-037"]},
+    {"id":25,"section":"2 / 5","narration":"だから、SMSのリンクは押しません。再配達の確認は、公式アプリ、公式サイト、手元の不在票など、SMSとは別の入口から行います。","display_text":"だから、SMSのリンクは押しません。再配達の確認は、公式アプリ、公式サイト、手元の不在票など、SMSとは別の入口から行います。","reading_overrides":{},"pause_after":0.14,"scene_id":13,"subtitle_ids":["SUB-038","SUB-039"]},
+    {"id":26,"section":"2 / 5","narration":"SMSに書かれた電話番号へ、確認のために電話するのも避けます。","display_text":"SMSに書かれた電話番号へ、確認のために電話するのも避けます。","reading_overrides":{},"pause_after":0.14,"scene_id":13,"subtitle_ids":["SUB-040"]},
+    {"id":27,"section":"2 / 5","narration":"日本郵便の公式案内でも、不審な場合はリンクをクリックせず、迷う場合は公式の問い合わせ先へ連絡するよう案内しています。","display_text":"日本郵便の公式案内でも、不審な場合はリンクをクリックせず、迷う場合は公式の問い合わせ先へ連絡するよう案内しています。","reading_overrides":{},"pause_after":0.14,"scene_id":14,"subtitle_ids":["SUB-041","SUB-042"]},
+    {"id":28,"section":"2 / 5","narration":"荷物が本当にあるかは、SMSの見た目ではなく、公式側で確認します。","display_text":"荷物が本当にあるかは、SMSの見た目ではなく、公式側で確認します。","reading_overrides":{},"pause_after":0.14,"scene_id":14,"subtitle_ids":["SUB-043"]},
+    {"id":29,"section":"2 / 5","narration":"再配達の場面では、届け物を待っている気持ちを利用されても、入口を自分で選び直せます。","display_text":"再配達の場面では、届け物を待っている気持ちを利用されても、入口を自分で選び直せます。","reading_overrides":{},"pause_after":0.16,"scene_id":14,"subtitle_ids":["SUB-044"]},
+    {"id":30,"section":"中盤CTA","narration":"「これ、本物？」は公式情報で確認します。必要なら登録しておいてください。","display_text":"「これ、本物？」は公式情報で確認します。必要なら登録しておいてください。","reading_overrides":{},"accent_overrides":{"本物":{"reading":"ホンモノ","accent":4,"note":"疑問文はピッチで表現し、ホ/ン/モ/ノの4モーラ以外を追加しない。"}},"pause_after":0.12,"scene_id":15,"subtitle_ids":["SUB-045"]},
+    {"id":31,"section":"3 / 5","narration":"3つ目です。カードの利用確認です。","display_text":"3つ目です。カードの利用確認です。","reading_overrides":{},"pause_after":0.14,"scene_id":16,"subtitle_ids":["SUB-046"]},
+    {"id":32,"section":"3 / 5","narration":"例えば、「カードの利用を確認してください」「不正利用の可能性があります」というメールやSMSです。","display_text":"例えば、「カードの利用を確認してください」「不正利用の可能性があります」というメールやSMSです。","reading_overrides":{},"pause_after":0.14,"scene_id":17,"subtitle_ids":["SUB-047","SUB-048"]},
+    {"id":33,"section":"3 / 5","narration":"身に覚えのない買い物と言われると、不安になって、すぐ確かめたくなります。","display_text":"身に覚えのない買い物と言われると、不安になって、すぐ確かめたくなります。","reading_overrides":{},"pause_after":0.14,"scene_id":17,"subtitle_ids":["SUB-049"]},
+    {"id":34,"section":"3 / 5","narration":"カード会社から本当に利用確認が届く場合もあるので、届いた通知をすべて偽物とは決めません。","display_text":"カード会社から本当に利用確認が届く場合もあるので、届いた通知をすべて偽物とは決めません。","reading_overrides":{},"pause_after":0.14,"scene_id":17,"subtitle_ids":["SUB-050"]},
+    {"id":35,"section":"3 / 5","narration":"ただし、メッセージのリンクからログインしたり、カード番号や暗証番号を入力したりはしません。","display_text":"ただし、メッセージのリンクからログインしたり、カード番号や暗証番号を入力したりはしません。","reading_overrides":{},"pause_after":0.14,"scene_id":18,"subtitle_ids":["SUB-051"]},
+    {"id":36,"section":"3 / 5","narration":"JCBの公式案内では、JCBを名乗るメールやSMSから偽サイトへ誘導し、カード情報や会員サービスのIDとパスワードを盗む事例が説明されています。","display_text":"JCBの公式案内では、JCBを名乗るメールやSMSから偽サイトへ誘導し、カード情報や会員サービスのIDとパスワードを盗む事例が説明されています。","reading_overrides":{},"pause_after":0.14,"scene_id":18,"subtitle_ids":["SUB-052","SUB-053"]},
+    {"id":37,"section":"3 / 5","narration":"JCBは、MyJCBアプリやブックマークした公式サイトからログインするよう案内しています。","display_text":"JCBは、MyJCBアプリやブックマークした公式サイトからログインするよう案内しています。","reading_overrides":{},"pause_after":0.14,"scene_id":18,"subtitle_ids":["SUB-054"]},
+    {"id":38,"section":"3 / 5","narration":"カード会社によっては、公式アプリの通知や専用の確認ページを用意している場合があります。","display_text":"カード会社によっては、公式アプリの通知や専用の確認ページを用意している場合があります。","reading_overrides":{},"pause_after":0.14,"scene_id":18,"subtitle_ids":["SUB-055","SUB-056"]},
+    {"id":39,"section":"3 / 5","narration":"確認するときは、カードの裏や公式サイトにある案内から、カード会社の公式窓口を自分で開きます。","display_text":"確認するときは、カードの裏や公式サイトにある案内から、カード会社の公式窓口を自分で開きます。","reading_overrides":{},"pause_after":0.14,"scene_id":19,"subtitle_ids":["SUB-057","SUB-058"]},
+    {"id":40,"section":"3 / 5","narration":"身に覚えのない利用が本当にあるか、公式アプリの利用明細で確認します。","display_text":"身に覚えのない利用が本当にあるか、公式アプリの利用明細で確認します。","reading_overrides":{},"pause_after":0.14,"scene_id":19,"subtitle_ids":["SUB-059"]},
+    {"id":41,"section":"3 / 5","narration":"カードの利用確認でも、メールのリンクを信じるか当てるかではなく、公式側の明細を見る、が結論です。","display_text":"カードの利用確認でも、メールのリンクを信じるか当てるかではなく、公式側の明細を見る、が結論です。","reading_overrides":{},"pause_after":0.16,"scene_id":19,"subtitle_ids":["SUB-060"]},
+    {"id":42,"section":"4 / 5","narration":"4つ目です。料金が未払いです。","display_text":"4つ目です。料金が未払いです。","reading_overrides":{},"pause_after":0.14,"scene_id":20,"subtitle_ids":["SUB-061"]},
+    {"id":43,"section":"4 / 5","narration":"例えば、携帯会社から、「料金が未払いです」「まもなく利用停止です」とSMSやメールが届いた場面です。","display_text":"例えば、携帯会社から、「料金が未払いです」「まもなく利用停止です」とSMSやメールが届いた場面です。","reading_overrides":{},"pause_after":0.14,"scene_id":21,"subtitle_ids":["SUB-062","SUB-063"]},
+    {"id":44,"section":"4 / 5","narration":"電話が使えなくなると言われると、今すぐ支払わなければと思います。","display_text":"電話が使えなくなると言われると、今すぐ支払わなければと思います。","reading_overrides":{},"pause_after":0.14,"scene_id":21,"subtitle_ids":["SUB-064"]},
+    {"id":45,"section":"4 / 5","narration":"ソフトバンクの公式案内でも、料金の未払いや利用停止予告を装うメールやSMSが確認されています。","display_text":"ソフトバンクの公式案内でも、料金の未払いや利用停止予告を装うメールやSMSが確認されています。","reading_overrides":{},"pause_after":0.14,"scene_id":22,"subtitle_ids":["SUB-065","SUB-066"]},
+    {"id":46,"section":"4 / 5","narration":"その案内は、リンクへ進んだり返信したりせず、ブックマークやアプリ、検索を経由して正規サイトで真偽を確認するよう勧めています。","display_text":"その案内は、リンクへ進んだり返信したりせず、ブックマークやアプリ、検索を経由して正規サイトで真偽を確認するよう勧めています。","reading_overrides":{},"pause_after":0.14,"scene_id":22,"subtitle_ids":["SUB-067","SUB-068","SUB-069"]},
+    {"id":47,"section":"4 / 5","narration":"今の利用状況や請求金額は、携帯会社の公式サイトや公式アプリで確認します。","display_text":"今の利用状況や請求金額は、携帯会社の公式サイトや公式アプリで確認します。","reading_overrides":{},"pause_after":0.14,"scene_id":22,"subtitle_ids":["SUB-070"]},
+    {"id":48,"section":"4 / 5","narration":"契約している会社によって画面や通知のしくみは違うので、ここで一つの会社の手順を全員に当てはめません。","display_text":"契約している会社によって画面や通知のしくみは違うので、ここで一つの会社の手順を全員に当てはめません。","reading_overrides":{},"pause_after":0.14,"scene_id":22,"subtitle_ids":["SUB-071","SUB-072"]},
+    {"id":49,"section":"4 / 5","narration":"SMSに書かれた電話番号へ電話せず、請求書や契約時の案内、公式サイトから窓口を探します。","display_text":"SMSに書かれた電話番号へ電話せず、請求書や契約時の案内、公式サイトから窓口を探します。","reading_overrides":{},"pause_after":0.14,"scene_id":23,"subtitle_ids":["SUB-073","SUB-074"]},
+    {"id":50,"section":"4 / 5","narration":"もし公式ではない画面にIDやパスワードを入力した場合は、公式側からすぐにパスワードを変更し、登録情報に意図しない変更がないか確認します。","display_text":"もし公式ではない画面にIDやパスワードを入力した場合は、公式側からすぐにパスワードを変更し、登録情報に意図しない変更がないか確認します。","reading_overrides":{},"pause_after":0.14,"scene_id":23,"subtitle_ids":["SUB-075","SUB-076"]},
+    {"id":51,"section":"4 / 5","narration":"料金未払いの場面でも、急がされるほど、いったん閉じて公式を自分で開く。これで確認の入口を取り戻せます。","display_text":"料金未払いの場面でも、急がされるほど、いったん閉じて公式を自分で開く。これで確認の入口を取り戻せます。","reading_overrides":{},"pause_after":0.16,"scene_id":23,"subtitle_ids":["SUB-077","SUB-078"]},
+    {"id":52,"section":"5 / 5","narration":"5つ目です。公的なお知らせです。","display_text":"5つ目です。公的なお知らせです。","reading_overrides":{},"pause_after":0.14,"scene_id":24,"subtitle_ids":["SUB-079"]},
+    {"id":53,"section":"5 / 5","narration":"例えば、役所や公的機関を名乗る、「確認が必要です」「未納があります」というメッセージです。","display_text":"例えば、役所や公的機関を名乗る、「確認が必要です」「未納があります」というメッセージです。","reading_overrides":{},"pause_after":0.14,"scene_id":25,"subtitle_ids":["SUB-080"]},
+    {"id":54,"section":"5 / 5","narration":"公的な名前が出ると、放置してはいけないと思い、リンクを押したくなるかもしれません。","display_text":"公的な名前が出ると、放置してはいけないと思い、リンクを押したくなるかもしれません。","reading_overrides":{},"pause_after":0.14,"scene_id":25,"subtitle_ids":["SUB-081"]},
+    {"id":55,"section":"5 / 5","narration":"国税庁は、国税庁や税務署がSMSにURLを記載した案内を送ることはなく、国税の納付や差し押さえをSMSやメール、LINEで求めることはないと案内しています。","display_text":"国税庁は、国税庁や税務署がSMSにURLを記載した案内を送ることはなく、国税の納付や差し押さえをSMSやメール、LINEで求めることはないと案内しています。","reading_overrides":{},"pause_after":0.14,"scene_id":26,"subtitle_ids":["SUB-082","SUB-083"]},
+    {"id":56,"section":"5 / 5","narration":"e-Taxのメールも、登録した人に決まったパターンで届くお知らせで、原則として本文にURLはなく、ファイルも添付しないと説明されています。","display_text":"e-Taxのメールも、登録した人に決まったパターンで届くお知らせで、原則として本文にURLはなく、ファイルも添付しないと説明されています。","reading_overrides":{},"pause_after":0.14,"scene_id":26,"subtitle_ids":["SUB-084","SUB-085"]},
+    {"id":57,"section":"5 / 5","narration":"また、消費者庁は、消費者庁から個人情報の提供や金銭の支払いを求めることはないと案内しています。","display_text":"また、消費者庁は、消費者庁から個人情報の提供や金銭の支払いを求めることはないと案内しています。","reading_overrides":{},"pause_after":0.14,"scene_id":26,"subtitle_ids":["SUB-086","SUB-087"]},
+    {"id":58,"section":"5 / 5","narration":"ただし、すべての行政機関の連絡の手順が同じとは限りません。心当たりの手続きがある場合は、その自治体や機関の公式サイトを自分で開いて確認します。","display_text":"ただし、すべての行政機関の連絡の手順が同じとは限りません。心当たりの手続きがある場合は、その自治体や機関の公式サイトを自分で開いて確認します。","reading_overrides":{},"pause_after":0.14,"scene_id":26,"subtitle_ids":["SUB-088","SUB-089","SUB-090"]},
+    {"id":59,"section":"5 / 5","narration":"メッセージに書かれた支払い先や電話番号へ、そのまま進みません。","display_text":"メッセージに書かれた支払い先や電話番号へ、そのまま進みません。","reading_overrides":{},"pause_after":0.14,"scene_id":27,"subtitle_ids":["SUB-091"]},
+    {"id":60,"section":"5 / 5","narration":"公的なお知らせでも、名前の重さに急かされず、公式の入口を自分で選び直します。","display_text":"公的なお知らせでも、名前の重さに急かされず、公式の入口を自分で選び直します。","reading_overrides":{},"pause_after":0.16,"scene_id":27,"subtitle_ids":["SUB-092"]},
+    {"id":61,"section":"まとめ","narration":"5つの場面を見ましたが、覚えることは3つです。","display_text":"5つの場面を見ましたが、覚えることは3つです。","reading_overrides":{},"pause_after":0.14,"scene_id":28,"subtitle_ids":["SUB-093"]},
+    {"id":62,"section":"まとめ","narration":"1つ目、メッセージのリンクを使わない。","display_text":"1つ目、メッセージのリンクを使わない。","reading_overrides":{},"pause_after":0.14,"scene_id":28,"subtitle_ids":["SUB-094"]},
+    {"id":63,"section":"まとめ","narration":"2つ目、自分で公式アプリや公式サイトを開く。","display_text":"2つ目、自分で公式アプリや公式サイトを開く。","reading_overrides":{},"pause_after":0.14,"scene_id":28,"subtitle_ids":["SUB-095"]},
+    {"id":64,"section":"まとめ","narration":"3つ目、公式側で本当に通知や手続きがあるか確認する。","display_text":"3つ目、公式側で本当に通知や手続きがあるか確認する。","reading_overrides":{},"pause_after":0.14,"scene_id":28,"subtitle_ids":["SUB-096"]},
+    {"id":65,"section":"まとめ","narration":"会社名、ロゴ、自然な日本語、鍵のマーク、送信元の表示だけで、最終判断をしなくて大丈夫です。","display_text":"会社名、ロゴ、自然な日本語、鍵のマーク、送信元の表示だけで、最終判断をしなくて大丈夫です。","reading_overrides":{},"pause_after":0.14,"scene_id":28,"subtitle_ids":["SUB-097"]},
+    {"id":66,"section":"まとめ","narration":"本物そっくりに見えるものがあるからこそ、見分ける負担を減らし、入口を変えて確認します。","display_text":"本物そっくりに見えるものがあるからこそ、見分ける負担を減らし、入口を変えて確認します。","reading_overrides":{},"pause_after":0.16,"scene_id":28,"subtitle_ids":["SUB-098"]},
+    {"id":67,"section":"困ったとき","narration":"ここで、もしリンクを押してしまったら、すべてを同じ危険度として考えないでください。","display_text":"ここで、もしリンクを押してしまったら、すべてを同じ危険度として考えないでください。","reading_overrides":{},"pause_after":0.14,"scene_id":29,"subtitle_ids":["SUB-099"]},
+    {"id":68,"section":"困ったとき","narration":"開いただけなら、ページを閉じ、入力やアプリのダウンロードをしないことが先です。","display_text":"開いただけなら、ページを閉じ、入力やアプリのダウンロードをしないことが先です。","reading_overrides":{},"pause_after":0.14,"scene_id":29,"subtitle_ids":["SUB-100"]},
+    {"id":69,"section":"困ったとき","narration":"IDやパスワードを入力した場合は、公式サイトや公式アプリから、すぐにパスワードを変更します。","display_text":"IDやパスワードを入力した場合は、公式サイトや公式アプリから、すぐにパスワードを変更します。","reading_overrides":{},"pause_after":0.14,"scene_id":29,"subtitle_ids":["SUB-101","SUB-102"]},
+    {"id":70,"section":"困ったとき","narration":"同じパスワードを他のサービスでも使っていたら、そこも公式から変更します。","display_text":"同じパスワードを他のサービスでも使っていたら、そこも公式から変更します。","reading_overrides":{},"pause_after":0.14,"scene_id":29,"subtitle_ids":["SUB-103"]},
+    {"id":71,"section":"困ったとき","narration":"カード番号を入力した場合は、カード会社の公式窓口へ連絡し、利用停止や再発行の案内を受けます。","display_text":"カード番号を入力した場合は、カード会社の公式窓口へ連絡し、利用停止や再発行の案内を受けます。","reading_overrides":{},"pause_after":0.14,"scene_id":29,"subtitle_ids":["SUB-104","SUB-105"]},
+    {"id":72,"section":"困ったとき","narration":"口座情報や送金に関わる情報を伝えた場合は、取引先の金融機関の公式窓口へ早めに相談します。","display_text":"口座情報や送金に関わる情報を伝えた場合は、取引先の金融機関の公式窓口へ早めに相談します。","reading_overrides":{},"pause_after":0.14,"scene_id":29,"subtitle_ids":["SUB-106"]},
+    {"id":73,"section":"困ったとき","narration":"不正なアプリを入れたかもしれない場合は、携帯会社や端末の公式サポートの案内を受け、知らない連絡先からの電話やSMSには応じません。","display_text":"不正なアプリを入れたかもしれない場合は、携帯会社や端末の公式サポートの案内を受け、知らない連絡先からの電話やSMSには応じません。","reading_overrides":{},"pause_after":0.14,"scene_id":29,"subtitle_ids":["SUB-107","SUB-108"]},
+    {"id":74,"section":"困ったとき","narration":"利用明細やアカウントの登録情報に覚えのない変化があれば、サービスの公式窓口と警察へ相談します。","display_text":"利用明細やアカウントの登録情報に覚えのない変化があれば、サービスの公式窓口と警察へ相談します。","reading_overrides":{},"pause_after":0.14,"scene_id":29,"subtitle_ids":["SUB-109","SUB-110"]},
+    {"id":75,"section":"困ったとき","narration":"困ったときは、消費者ホットライン188や、警察相談専用電話#9110など、公式の相談先を自分で調べて連絡します。","display_text":"困ったときは、消費者ホットライン188や、警察相談専用電話#9110など、公式の相談先を自分で調べて連絡します。","reading_overrides":{},"pause_after":0.16,"scene_id":29,"subtitle_ids":["SUB-111","SUB-112"]},
+    {"id":76,"section":"まとめ","narration":"まとめです。メールやSMSの中のリンクから入らない。","display_text":"まとめです。メールやSMSの中のリンクから入らない。","reading_overrides":{},"pause_after":0.14,"scene_id":30,"subtitle_ids":["SUB-113","SUB-114"]},
+    {"id":77,"section":"まとめ","narration":"自分で公式アプリや公式サイトを開き、そこで通知や利用状況を確認する。","display_text":"自分で公式アプリや公式サイトを開き、そこで通知や利用状況を確認する。","reading_overrides":{},"pause_after":0.14,"scene_id":30,"subtitle_ids":["SUB-115"]},
+    {"id":78,"section":"まとめ","narration":"確認できないときは、公式の窓口や188などへ相談する。","display_text":"確認できないときは、公式の窓口や188などへ相談する。","reading_overrides":{},"pause_after":0.14,"scene_id":30,"subtitle_ids":["SUB-116"]},
+    {"id":79,"section":"まとめ","narration":"本物かどうかを、その場で当てなくて大丈夫です。確認の入口を、自分で選び直してください。","display_text":"本物かどうかを、その場で当てなくて大丈夫です。確認の入口を、自分で選び直してください。","reading_overrides":{},"pause_after":0.16,"scene_id":30,"subtitle_ids":["SUB-117"]}
+  ],
+  "subtitles": [
+    {
+      "id": "SUB-001",
+      "text_lines": [
+        "いつも使っている会社から、",
+        "「支払い情報を更新してください」"
+      ],
+      "segment_id": 1,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-002",
+      "text_lines": [
+        "というメールが届きました。"
+      ],
+      "segment_id": 1,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-003",
+      "text_lines": [
+        "会社名もロゴも見覚えがあります。",
+        "これ、本物でしょうか。"
+      ],
+      "segment_id": 2,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-004",
+      "text_lines": [
+        "実は、本物かどうかをメールだけで",
+        "見分けなくて大丈夫です。"
+      ],
+      "segment_id": 3,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-005",
+      "text_lines": [
+        "メールやSMSのリンクから入らず、",
+        "自分で公式アプリや公式サイトを開いて確認します。"
+      ],
+      "segment_id": 4,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-006",
+      "text_lines": [
+        "今日は、通販、宅配、カード、携帯料金、",
+        "公的なお知らせの5つの場面で、"
+      ],
+      "segment_id": 5,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-007",
+      "text_lines": [
+        "この確認手順を使います。"
+      ],
+      "segment_id": 5,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-008",
+      "text_lines": [
+        "見るポイントは毎回同じです。届いた内容、",
+        "迷う理由、その場でしないこと、公式からの確認です。"
+      ],
+      "segment_id": 6,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-009",
+      "text_lines": [
+        "フィッシングという言葉を聞くことがあります。"
+      ],
+      "segment_id": 7,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-010",
+      "text_lines": [
+        "これは、実在する会社などを名乗って、",
+        "偽の画面へ誘導する手口です。"
+      ],
+      "segment_id": 7,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-011",
+      "text_lines": [
+        "名前やロゴが本物らしくても、メールの中だけで",
+        "安全と決めないことが、最初の一歩です。"
+      ],
+      "segment_id": 8,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-012",
+      "text_lines": [
+        "1つ目です。支払い情報の更新です。"
+      ],
+      "segment_id": 9,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-013",
+      "text_lines": [
+        "普段使っている通販やアプリの名前で、",
+        "「支払い情報を更新してください」と届いたとします。"
+      ],
+      "segment_id": 10,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-014",
+      "text_lines": [
+        "「このままでは購入できません」",
+        "「今日中に確認してください」と書いてあれば、"
+      ],
+      "segment_id": 11,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-015",
+      "text_lines": [
+        "急いでしまいます。"
+      ],
+      "segment_id": 11,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-016",
+      "text_lines": [
+        "国民生活センターには、",
+        "普段利用しているアプリの名前で届いたメールから、"
+      ],
+      "segment_id": 12,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-017",
+      "text_lines": [
+        "支払い情報を更新した相談例が掲載されています。"
+      ],
+      "segment_id": 12,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-018",
+      "text_lines": [
+        "相談者は80歳代で、その後、"
+      ],
+      "segment_id": 13,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-019",
+      "text_lines": [
+        "ネット通販で約20万円の利用を知らせるメールが",
+        "届いたとされています。"
+      ],
+      "segment_id": 13,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-020",
+      "text_lines": [
+        "ここで大切なのは、ロゴが本物らしいかではなく、",
+        "メールのリンクから支払い情報を更新しないことです。"
+      ],
+      "segment_id": 14,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-021",
+      "text_lines": [
+        "まずメールを閉じ、",
+        "いつも使っている公式アプリを、自分で開きます。"
+      ],
+      "segment_id": 15,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-022",
+      "text_lines": [
+        "アプリ内に本当に支払い情報の確認が出ているか、"
+      ],
+      "segment_id": 16,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-023",
+      "text_lines": [
+        "公式サイトの注文履歴やお知らせに",
+        "同じ内容があるかを見ます。"
+      ],
+      "segment_id": 16,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-024",
+      "text_lines": [
+        "何も出ていなければ、メールは削除します。",
+        "カード明細も、こまめに確認します。"
+      ],
+      "segment_id": 17,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-025",
+      "text_lines": [
+        "通販の支払い更新は、メールで急がされても、",
+        "公式側で確認する。これがこの場面の結論です。"
+      ],
+      "segment_id": 18,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-026",
+      "text_lines": [
+        "2つ目です。再配達のお願いです。"
+      ],
+      "segment_id": 19,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-027",
+      "text_lines": [
+        "ここからは、公式注意喚起をもとにした例です。"
+      ],
+      "segment_id": 20,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-028",
+      "text_lines": [
+        "例えば、宅配便のSMSで、",
+        "「荷物を届けられませんでした。"
+      ],
+      "segment_id": 20,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-029",
+      "text_lines": [
+        "再配達はこちら」と届きました。"
+      ],
+      "segment_id": 20,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-030",
+      "text_lines": [
+        "注文した覚えがあると、",
+        "「早く手続きをしなければ」と思います。"
+      ],
+      "segment_id": 21,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-031",
+      "text_lines": [
+        "日本郵便は、会社を",
+        "装う不審なメールやSMSについて、"
+      ],
+      "segment_id": 22,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-032",
+      "text_lines": [
+        "個人情報やカード情報の不正取得、"
+      ],
+      "segment_id": 22,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-033",
+      "text_lines": [
+        "不正アプリのダウンロードに",
+        "つながるおそれを案内しています。"
+      ],
+      "segment_id": 22,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-034",
+      "text_lines": [
+        "フィッシング対策協議会も、",
+        "宅配便の不在連絡を装うSMSから、"
+      ],
+      "segment_id": 23,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-035",
+      "text_lines": [
+        "偽サイトや不正アプリへ誘導される手口を",
+        "説明しています。"
+      ],
+      "segment_id": 23,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-036",
+      "text_lines": [
+        "Androidではアプリのインストールへ、"
+      ],
+      "segment_id": 24,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-037",
+      "text_lines": [
+        "iPhoneなどでは",
+        "偽のログイン画面へ進む例があります。"
+      ],
+      "segment_id": 24,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-038",
+      "text_lines": [
+        "だから、SMSのリンクは押しません。"
+      ],
+      "segment_id": 25,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-039",
+      "text_lines": [
+        "再配達の確認は、公式アプリ、公式サイト、",
+        "手元の不在票など、SMSとは別の入口から行います。"
+      ],
+      "segment_id": 25,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-040",
+      "text_lines": [
+        "SMSに書かれた電話番号へ、",
+        "確認のために電話するのも避けます。"
+      ],
+      "segment_id": 26,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-041",
+      "text_lines": [
+        "日本郵便の公式案内でも、",
+        "不審な場合はリンクをクリックせず、"
+      ],
+      "segment_id": 27,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-042",
+      "text_lines": [
+        "迷う場合は公式の問い合わせ先へ連絡するよう",
+        "案内しています。"
+      ],
+      "segment_id": 27,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-043",
+      "text_lines": [
+        "荷物が本当にあるかは、",
+        "SMSの見た目ではなく、公式側で確認します。"
+      ],
+      "segment_id": 28,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-044",
+      "text_lines": [
+        "再配達の場面では、届け物を待っている気持ちを",
+        "利用されても、入口を自分で選び直せます。"
+      ],
+      "segment_id": 29,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-045",
+      "text_lines": [
+        "「これ、本物？」は公式情報で確認します。",
+        "必要なら登録しておいてください。"
+      ],
+      "segment_id": 30,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-046",
+      "text_lines": [
+        "3つ目です。カードの利用確認です。"
+      ],
+      "segment_id": 31,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-047",
+      "text_lines": [
+        "例えば、「カードの利用を確認してください」",
+        "「不正利用の可能性があります」"
+      ],
+      "segment_id": 32,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-048",
+      "text_lines": [
+        "というメールやSMSです。"
+      ],
+      "segment_id": 32,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-049",
+      "text_lines": [
+        "身に覚えのない買い物と言われると、",
+        "不安になって、すぐ確かめたくなります。"
+      ],
+      "segment_id": 33,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-050",
+      "text_lines": [
+        "カード会社から本当に利用確認が届く場合もあるので、",
+        "届いた通知をすべて偽物とは決めません。"
+      ],
+      "segment_id": 34,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-051",
+      "text_lines": [
+        "ただし、メッセージのリンクからログインしたり、",
+        "カード番号や暗証番号を入力したりはしません。"
+      ],
+      "segment_id": 35,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-052",
+      "text_lines": [
+        "JCBの公式案内では、",
+        "JCBを名乗るメールやSMSから偽サイトへ誘導し、"
+      ],
+      "segment_id": 36,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-053",
+      "text_lines": [
+        "カード情報や会員サービスのIDとパスワードを",
+        "盗む事例が説明されています。"
+      ],
+      "segment_id": 36,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-054",
+      "text_lines": [
+        "JCBは、MyJCBアプリやブックマークした",
+        "公式サイトからログインするよう案内しています。"
+      ],
+      "segment_id": 37,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-055",
+      "text_lines": [
+        "カード会社によっては、"
+      ],
+      "segment_id": 38,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-056",
+      "text_lines": [
+        "公式アプリの通知や専用の確認ページを",
+        "用意している場合があります。"
+      ],
+      "segment_id": 38,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-057",
+      "text_lines": [
+        "確認するときは、",
+        "カードの裏や公式サイトにある案内から、"
+      ],
+      "segment_id": 39,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-058",
+      "text_lines": [
+        "カード会社の公式窓口を自分で開きます。"
+      ],
+      "segment_id": 39,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-059",
+      "text_lines": [
+        "身に覚えのない利用が本当にあるか、",
+        "公式アプリの利用明細で確認します。"
+      ],
+      "segment_id": 40,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-060",
+      "text_lines": [
+        "カードの利用確認でも、メールのリンクを信じるか",
+        "当てるかではなく、公式側の明細を見る、が結論です。"
+      ],
+      "segment_id": 41,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-061",
+      "text_lines": [
+        "4つ目です。料金が未払いです。"
+      ],
+      "segment_id": 42,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-062",
+      "text_lines": [
+        "例えば、携帯会社から、「料金が未払いです」",
+        "「まもなく利用停止です」"
+      ],
+      "segment_id": 43,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-063",
+      "text_lines": [
+        "とSMSやメールが届いた場面です。"
+      ],
+      "segment_id": 43,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-064",
+      "text_lines": [
+        "電話が使えなくなると言われると、",
+        "今すぐ支払わなければと思います。"
+      ],
+      "segment_id": 44,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-065",
+      "text_lines": [
+        "ソフトバンクの公式案内でも、"
+      ],
+      "segment_id": 45,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-066",
+      "text_lines": [
+        "料金の未払いや利用停止予告を",
+        "装うメールやSMSが確認されています。"
+      ],
+      "segment_id": 45,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-067",
+      "text_lines": [
+        "その案内は、リンクへ進んだり返信したりせず、",
+        "ブックマークやアプリ、"
+      ],
+      "segment_id": 46,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-068",
+      "text_lines": [
+        "検索を経由して正規サイトで真偽を確認するよう"
+      ],
+      "segment_id": 46,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-069",
+      "text_lines": [
+        "勧めています。"
+      ],
+      "segment_id": 46,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-070",
+      "text_lines": [
+        "今の利用状況や請求金額は、",
+        "携帯会社の公式サイトや公式アプリで確認します。"
+      ],
+      "segment_id": 47,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-071",
+      "text_lines": [
+        "契約している会社によって",
+        "画面や通知のしくみは違うので、"
+      ],
+      "segment_id": 48,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-072",
+      "text_lines": [
+        "ここで一つの会社の手順を全員に当てはめません。"
+      ],
+      "segment_id": 48,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-073",
+      "text_lines": [
+        "SMSに書かれた電話番号へ電話せず、",
+        "請求書や契約時の案内、"
+      ],
+      "segment_id": 49,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-074",
+      "text_lines": [
+        "公式サイトから窓口を探します。"
+      ],
+      "segment_id": 49,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-075",
+      "text_lines": [
+        "もし公式ではない画面にIDやパスワードを",
+        "入力した場合は、"
+      ],
+      "segment_id": 50,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-076",
+      "text_lines": [
+        "公式側からすぐにパスワードを変更し、",
+        "登録情報に意図しない変更がないか確認します。"
+      ],
+      "segment_id": 50,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-077",
+      "text_lines": [
+        "料金未払いの場面でも、急がされるほど、",
+        "いったん閉じて公式を自分で開く。"
+      ],
+      "segment_id": 51,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-078",
+      "text_lines": [
+        "これで確認の入口を取り戻せます。"
+      ],
+      "segment_id": 51,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-079",
+      "text_lines": [
+        "5つ目です。公的なお知らせです。"
+      ],
+      "segment_id": 52,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-080",
+      "text_lines": [
+        "例えば、役所や公的機関を名乗る、「確認が必要です」",
+        "「未納があります」というメッセージです。"
+      ],
+      "segment_id": 53,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-081",
+      "text_lines": [
+        "公的な名前が出ると、放置してはいけないと思い、",
+        "リンクを押したくなるかもしれません。"
+      ],
+      "segment_id": 54,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-082",
+      "text_lines": [
+        "国税庁は、国税庁や税務署がSMSに",
+        "URLを記載した案内を送ることはなく、"
+      ],
+      "segment_id": 55,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-083",
+      "text_lines": [
+        "国税の納付や差し押さえをSMSやメール、",
+        "LINEで求めることはないと案内しています。"
+      ],
+      "segment_id": 55,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-084",
+      "text_lines": [
+        "e-Taxのメールも、",
+        "登録した人に決まったパターンで届くお知らせで、"
+      ],
+      "segment_id": 56,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-085",
+      "text_lines": [
+        "原則として本文にURLはなく、",
+        "ファイルも添付しないと説明されています。"
+      ],
+      "segment_id": 56,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-086",
+      "text_lines": [
+        "また、消費者庁は、"
+      ],
+      "segment_id": 57,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-087",
+      "text_lines": [
+        "消費者庁から個人情報の提供や金銭の支払いを",
+        "求めることはないと案内しています。"
+      ],
+      "segment_id": 57,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-088",
+      "text_lines": [
+        "ただし、すべての行政機関の連絡の手順が",
+        "同じとは限りません。"
+      ],
+      "segment_id": 58,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-089",
+      "text_lines": [
+        "心当たりの手続きがある場合は、"
+      ],
+      "segment_id": 58,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-090",
+      "text_lines": [
+        "その自治体や機関の公式サイトを",
+        "自分で開いて確認します。"
+      ],
+      "segment_id": 58,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-091",
+      "text_lines": [
+        "メッセージに書かれた支払い先や電話番号へ、",
+        "そのまま進みません。"
+      ],
+      "segment_id": 59,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-092",
+      "text_lines": [
+        "公的なお知らせでも、名前の重さに急かされず、",
+        "公式の入口を自分で選び直します。"
+      ],
+      "segment_id": 60,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-093",
+      "text_lines": [
+        "5つの場面を見ましたが、覚えることは3つです。"
+      ],
+      "segment_id": 61,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-094",
+      "text_lines": [
+        "1つ目、メッセージのリンクを使わない。"
+      ],
+      "segment_id": 62,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-095",
+      "text_lines": [
+        "2つ目、自分で公式アプリや公式サイトを開く。"
+      ],
+      "segment_id": 63,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-096",
+      "text_lines": [
+        "3つ目、公式側で本当に",
+        "通知や手続きがあるか確認する。"
+      ],
+      "segment_id": 64,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-097",
+      "text_lines": [
+        "会社名、ロゴ、自然な日本語、鍵のマーク、",
+        "送信元の表示だけで、最終判断をしなくて大丈夫です。"
+      ],
+      "segment_id": 65,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-098",
+      "text_lines": [
+        "本物そっくりに見えるものがあるからこそ、",
+        "見分ける負担を減らし、入口を変えて確認します。"
+      ],
+      "segment_id": 66,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-099",
+      "text_lines": [
+        "ここで、もしリンクを押してしまったら、",
+        "すべてを同じ危険度として考えないでください。"
+      ],
+      "segment_id": 67,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-100",
+      "text_lines": [
+        "開いただけなら、ページを閉じ、",
+        "入力やアプリのダウンロードをしないことが先です。"
+      ],
+      "segment_id": 68,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-101",
+      "text_lines": [
+        "IDやパスワードを入力した場合は、",
+        "公式サイトや公式アプリから、"
+      ],
+      "segment_id": 69,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-102",
+      "text_lines": [
+        "すぐにパスワードを変更します。"
+      ],
+      "segment_id": 69,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-103",
+      "text_lines": [
+        "同じパスワードを他のサービスでも使っていたら、",
+        "そこも公式から変更します。"
+      ],
+      "segment_id": 70,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-104",
+      "text_lines": [
+        "カード番号を入力した場合は、",
+        "カード会社の公式窓口へ連絡し、"
+      ],
+      "segment_id": 71,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-105",
+      "text_lines": [
+        "利用停止や再発行の案内を受けます。"
+      ],
+      "segment_id": 71,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-106",
+      "text_lines": [
+        "口座情報や送金に関わる情報を伝えた場合は、",
+        "取引先の金融機関の公式窓口へ早めに相談します。"
+      ],
+      "segment_id": 72,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-107",
+      "text_lines": [
+        "不正なアプリを入れたかもしれない場合は、",
+        "携帯会社や端末の公式サポートの案内を受け、"
+      ],
+      "segment_id": 73,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-108",
+      "text_lines": [
+        "知らない連絡先からの電話やSMSには応じません。"
+      ],
+      "segment_id": 73,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-109",
+      "text_lines": [
+        "利用明細やアカウントの登録情報に",
+        "覚えのない変化があれば、"
+      ],
+      "segment_id": 74,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-110",
+      "text_lines": [
+        "サービスの公式窓口と警察へ相談します。"
+      ],
+      "segment_id": 74,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-111",
+      "text_lines": [
+        "困ったときは、消費者ホットライン188や、",
+        "警察相談専用電話#9110など、"
+      ],
+      "segment_id": 75,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-112",
+      "text_lines": [
+        "公式の相談先を自分で調べて連絡します。"
+      ],
+      "segment_id": 75,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-113",
+      "text_lines": [
+        "まとめです。"
+      ],
+      "segment_id": 76,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-114",
+      "text_lines": [
+        "メールやSMSの中のリンクから入らない。"
+      ],
+      "segment_id": 76,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-115",
+      "text_lines": [
+        "自分で公式アプリや公式サイトを開き、",
+        "そこで通知や利用状況を確認する。"
+      ],
+      "segment_id": 77,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-116",
+      "text_lines": [
+        "確認できないときは、",
+        "公式の窓口や188などへ相談する。"
+      ],
+      "segment_id": 78,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-117",
+      "text_lines": [
+        "本物かどうかを、その場で当てなくて大丈夫です。",
+        "確認の入口を、自分で選び直してください。"
+      ],
+      "segment_id": 79,
+      "font_px": 72
+    }
+  ],
+  "scenes": [
+    {"id":1,"layout":"layout_01_hero","render_mode":"gpt_image","text_render_mode":"imagegen_native","headline":"リンクから入らない","support_text":"公式を自分で開く","main_message":"本物かどうかを、その場で当てなくていい","official_asset":[],"official_asset_crop":[],"start_segment":1,"end_segment":3,"section_label":"はじめに","ai_asset":"assets/generated_ai/scene_001.png","icon_name":"verified_user","icon_tone":"blue","animation":"very_slow_zoom","fit_mode":"full_bleed"},
+    {"id":2,"layout":"layout_01_hero","render_mode":"template","text_render_mode":"pil_overlay","headline":"リンクから入らない","support_text":"自分で公式アプリや公式サイトを開く","main_message":"今日の答え","official_asset":[],"official_asset_crop":[],"start_segment":4,"end_segment":5,"section_label":"はじめに","icon_name":"lock","icon_tone":"blue","animation":"static"},
+    {"id":3,"layout":"layout_02_list","render_mode":"template","text_render_mode":"pil_overlay","headline":"5つの場面で同じ確認","support_text":"届いた内容／迷う理由／しないこと／公式で確認","main_message":"5つの場面","official_asset":[],"official_asset_crop":[],"start_segment":6,"end_segment":6,"section_label":"はじめに","items":["通販の支払い更新","宅配の再配達","カードの利用確認","携帯料金の未払い","公的なお知らせ"],"icon_name":"forum","icon_tone":"blue","animation":"static"},
+    {"id":4,"layout":"layout_03_visual_text","render_mode":"template","text_render_mode":"pil_overlay","headline":"フィッシングとは？","support_text":"実在する会社などを名乗り、偽の画面へ誘導する手口","main_message":"名前やロゴだけで決めない","official_asset":[],"official_asset_crop":[],"start_segment":7,"end_segment":8,"section_label":"はじめに","icon_name":"lock","icon_tone":"blue","animation":"static"},
+    {"id":5,"layout":"layout_01_hero","render_mode":"gpt_image","text_render_mode":"imagegen_native","headline":"支払い方法の更新","support_text":"1 / 5　通販・普段使うアプリ","main_message":"急がされても、公式側で確認","official_asset":[],"official_asset_crop":[],"start_segment":9,"end_segment":9,"section_label":"1 / 5","ai_asset":"assets/generated_ai/scene_005.png","animation":"very_slow_zoom","fit_mode":"full_bleed"},
+    {"id":6,"layout":"layout_03_visual_text","render_mode":"template","text_render_mode":"pil_overlay","headline":"普段使う名前でも、急がない","support_text":"急がされても、メールの中だけで決めない","main_message":"「今日中に更新」でも、リンクから進まない","official_asset":[],"official_asset_crop":[],"start_segment":10,"end_segment":11,"section_label":"1 / 5","icon_name":"payments","icon_tone":"amber","animation":"static"},
+     {"id":7,"layout":"layout_04_text_official","render_mode":"template","text_render_mode":"pil_overlay","headline":"公式相談例に見る注意点","support_text":"国民生活センターの掲載相談例を紹介します","main_message":"メールのリンクから更新しない","official_asset":[{"kind":"quote","text":"記載されているURLにはアクセス\nせず、事前にブックマークした\n正規サイトのURLや、正規の\nアプリからアクセスしましょう。","label":"公式資料からの短い引用","source":"出典：国民生活センター"}],"official_asset_crop":[],"official_asset_slot":{"type":"official_quote","status":"exact_quote_verified","label":"国民生活センター公式資料の短い引用"},"official_source_ids":["SRC-001"],"official_asset_source_url":"https://www.kokusen.go.jp/mimamori/pdf/shinsen550.pdf","official_text_readability":"PASS","official_visual_status":"captured_official_quote","official_capture_provenance":"exact_quote_from_official_pdf","privacy":"公式公開資料の該当箇所のみ","start_segment":12,"end_segment":14,"section_label":"1 / 5","animation":"static","official_visual_variant":"browser","visual_points":["普段使う名前でも、急がない","メールのリンクから更新しない"]},
+     {"id":8,"layout":"layout_04_text_official","render_mode":"template","text_render_mode":"pil_overlay","headline":"公式アプリを自分で開く","support_text":"アプリ内のお知らせ・注文履歴を確認","main_message":"同じ内容が公式側にあるか見る","official_asset":[],"official_asset_crop":[],"official_asset_slot":{"type":"semantic_operation","status":"semantic_visual_selected","label":"公式アプリを自分で開く操作図解"},"official_source_ids":["SRC-001"],"official_text_readability":"PASS","official_visual_status":"semantic_operation","privacy":"個人情報なし","official_operation_steps":[{"label":"メールを閉じる","icon_name":"campaign","icon_tone":"navy"},{"label":"自分で公式アプリを開く","icon_name":"login","icon_tone":"navy"}],"start_segment":15,"end_segment":16,"section_label":"1 / 5","animation":"static","official_visual_variant":"semantic_operation","visual_points":["公式アプリを自分で開く","お知らせ・注文履歴を確認"]},
+    {"id":9,"layout":"layout_07_summary","render_mode":"template","text_render_mode":"pil_overlay","headline":"通販の結論","support_text":"見分けるより、入口を変える","main_message":"公式アプリ・公式サイトで確認","official_asset":[],"official_asset_crop":[],"start_segment":17,"end_segment":18,"section_label":"1 / 5","items":["メールは閉じる","公式側で通知を見る","カード明細も確認"],"icon_name":"verified_user","icon_tone":"green","animation":"static"},
+    {"id":10,"layout":"layout_01_hero","render_mode":"gpt_image","text_render_mode":"imagegen_native","headline":"再配達のお願い","support_text":"2 / 5　宅配・SMS","main_message":"SMSとは別の入口から確認","official_asset":[],"official_asset_crop":[],"start_segment":19,"end_segment":19,"section_label":"2 / 5","ai_asset":"assets/generated_ai/scene_010.png","animation":"very_slow_zoom","fit_mode":"full_bleed"},
+    {"id":11,"layout":"layout_03_visual_text","render_mode":"template","text_render_mode":"pil_overlay","headline":"荷物を待っているときほど、いったん止まる","support_text":"届いたSMSの見た目だけで決めない","main_message":"「再配達はこちら」をSMSから開かない","official_asset":[],"official_asset_crop":[],"start_segment":20,"end_segment":21,"section_label":"2 / 5","icon_name":"support_agent","icon_tone":"green","animation":"static"},
+     {"id":12,"layout":"layout_04_text_official","render_mode":"template","text_render_mode":"pil_overlay","headline":"公式注意喚起のポイント","support_text":"不審なメールやSMSから、偽サイトや不正アプリへ誘導される例","main_message":"リンクを押さず、公式の入口へ","official_asset":[{"kind":"image","path":"assets/official/scene_012_antiphishing_delivery_flow.png","label":"出典：対策協議会"}],"official_asset_crop":[],"official_asset_slot":{"type":"official_capture","status":"captured","label":"フィッシング対策協議会公式注意喚起クロップ"},"official_source_ids":["SRC-004","SRC-005"],"official_asset_source_url":"https://www.antiphishing.jp/report/guideline/consumer_guideline2026.html","official_text_readability":"PASS","official_visual_status":"captured_official_figure","privacy":"公式公開資料の該当箇所のみ","start_segment":22,"end_segment":24,"section_label":"2 / 5","animation":"static","official_visual_variant":"browser","visual_points":["日本郵便・協議会の注意を見る","偽サイト・不正アプリへの誘導に注意"]},
+     {"id":13,"layout":"layout_04_text_official","render_mode":"template","text_render_mode":"pil_overlay","headline":"SMSとは別の入口で確認","support_text":"公式アプリ／公式サイト／手元の不在票","main_message":"SMSの電話番号へも、そのまま連絡しない","official_asset":[],"official_asset_crop":[],"official_asset_slot":{"type":"semantic_operation","status":"semantic_visual_selected","label":"公式アプリ・公式サイト・手元の不在票を中央に再配置"},"official_source_ids":["SRC-004","SRC-005"],"official_text_readability":"PASS","official_visual_status":"semantic_centered_reconstruction","privacy":"個人情報なし","start_segment":25,"end_segment":26,"section_label":"2 / 5","animation":"static","official_visual_variant":"safe_entry_options_centered","visual_points":["公式アプリ","公式サイト","手元の不在票"],"official_entry_options":[{"label":"公式アプリ","icon_name":"login","icon_tone":"navy"},{"label":"公式サイト","icon_name":"account_balance","icon_tone":"blue"},{"label":"手元の不在票","icon_name":"badge","icon_tone":"blue"}]},
+    {"id":14,"layout":"layout_07_summary","render_mode":"template","text_render_mode":"pil_overlay","headline":"宅配の結論","support_text":"荷物があるかは、SMSの見た目で決めない","main_message":"公式側で確認する","official_asset":[],"official_asset_crop":[],"start_segment":27,"end_segment":29,"section_label":"2 / 5","items":["リンクを押さない","公式の問い合わせ先を自分で開く","手元の不在票も確認"],"icon_name":"support_agent","icon_tone":"green","animation":"static"},
+    {"id":15,"layout":"layout_06_caution","render_mode":"template","text_render_mode":"pil_overlay","headline":"「これ、本物？」は公式情報で確認","support_text":"必要なら、あとで見返せるよう登録しておいてください","main_message":"中盤CTA　次はカードの利用確認","official_asset":[],"official_asset_crop":[],"start_segment":30,"end_segment":30,"section_label":"中盤CTA","icon_name":"forum","icon_tone":"blue","animation":"static"},
+    {"id":16,"layout":"layout_01_hero","render_mode":"gpt_image","text_render_mode":"imagegen_native","headline":"カードの利用確認","support_text":"3 / 5　通知が本物でも、入口は自分で","main_message":"公式アプリや明細から確認","official_asset":[],"official_asset_crop":[],"start_segment":31,"end_segment":31,"section_label":"3 / 5","ai_asset":"assets/generated_ai/scene_016.png","animation":"very_slow_zoom","fit_mode":"full_bleed"},
+    {"id":17,"layout":"layout_03_visual_text","render_mode":"template","text_render_mode":"pil_overlay","headline":"カード会社を名乗る通知","support_text":"通知が本物でも、入口は自分で選ぶ","main_message":"不安でも、リンクからログインしない","official_asset":[],"official_asset_crop":[],"start_segment":32,"end_segment":34,"section_label":"3 / 5","icon_name":"payments","icon_tone":"amber","animation":"static"},
+     {"id":18,"layout":"layout_04_text_official","render_mode":"template","text_render_mode":"pil_overlay","headline":"カード会社の公式入口を使う","support_text":"JCBの公式案内を例に、アプリやブックマークから確認","main_message":"カード番号・暗証番号を入力しない","official_asset":[{"kind":"image","path":"assets/official/scene_018_jcb_warning.png","label":"出典：JCB公式案内"}],"official_asset_crop":[],"official_asset_slot":{"type":"official_capture","status":"captured","label":"JCB公式注意喚起の該当イラスト"},"official_source_ids":["SRC-006","SRC-007"],"official_asset_source_url":"https://www.jcb.co.jp/security/phishing/","official_text_readability":"PASS","official_visual_status":"captured_official_figure","privacy":"公式公開資料のみ（テスト個人情報なし）","start_segment":35,"end_segment":38,"section_label":"3 / 5","animation":"static","official_visual_variant":"browser","visual_points":["メッセージからログインしない","カード番号・暗証番号を入力しない"]},
+    {"id":19,"layout":"layout_07_summary","render_mode":"template","text_render_mode":"pil_overlay","headline":"カードの結論","support_text":"身に覚えのない利用は、公式明細で確認","main_message":"メールのリンクを信じるか当てない","official_asset":[],"official_asset_crop":[],"start_segment":39,"end_segment":41,"section_label":"3 / 5","items":["カード裏・公式サイトの窓口を使う","公式アプリの利用明細を見る","必要なら公式窓口へ相談"],"icon_name":"payments","icon_tone":"amber","animation":"static"},
+    {"id":20,"layout":"layout_01_hero","render_mode":"gpt_image","text_render_mode":"imagegen_native","headline":"料金が未払いです","support_text":"4 / 5　携帯会社・通信料金","main_message":"支払いも公式サイトで確認","official_asset":[],"official_asset_crop":[],"start_segment":42,"end_segment":42,"section_label":"4 / 5","ai_asset":"assets/generated_ai/scene_020.png","animation":"very_slow_zoom","fit_mode":"full_bleed"},
+    {"id":21,"layout":"layout_03_visual_text","render_mode":"template","text_render_mode":"pil_overlay","headline":"利用停止と言われても、まず閉じる","support_text":"利用停止と言われても、まず公式側で確認","main_message":"SMSの支払いリンクを急いで開かない","official_asset":[],"official_asset_crop":[],"start_segment":43,"end_segment":44,"section_label":"4 / 5","icon_name":"lock","icon_tone":"blue","animation":"static"},
+     {"id":22,"layout":"layout_04_text_official","render_mode":"template","text_render_mode":"pil_overlay","headline":"請求金額は公式側で確認","support_text":"ソフトバンク公式の注意喚起を例に、アプリ・ブックマーク・検索から開く","main_message":"SMSのリンクや返信を使わない","official_asset":[{"kind":"image","path":"assets/official/scene_022_softbank_warning.png","label":"出典：ソフトバンク公式"}],"official_asset_crop":[],"official_asset_slot":{"type":"official_capture","status":"captured","label":"ソフトバンク公式警告部分クロップ"},"official_source_ids":["SRC-008"],"official_asset_source_url":"https://www.softbank.jp/mobile/support/protect/spam/","official_text_readability":"PASS","official_visual_status":"captured_official_crop","privacy":"公式公開資料の警告部分のみ（宛先・金額・日付は非表示）","start_segment":45,"end_segment":48,"section_label":"4 / 5","animation":"static","official_visual_variant":"browser","visual_points":["SMSではなく公式側で確認","請求金額は公式アプリ・サイトで見る"]},
+    {"id":23,"layout":"layout_06_caution","render_mode":"template","text_render_mode":"pil_overlay","headline":"料金の\n確認も、入口を取り戻す","support_text":"契約会社の請求書・公式サイト・公式アプリから確認","main_message":"入力してしまったら、公式側でパスワード変更","official_asset":[],"official_asset_crop":[],"start_segment":49,"end_segment":51,"section_label":"4 / 5","icon_name":"support_agent","icon_tone":"green","animation":"static"},
+    {"id":24,"layout":"layout_01_hero","render_mode":"gpt_image","text_render_mode":"imagegen_native","headline":"公的なお知らせ","support_text":"5 / 5　役所・公的機関を装う連絡","main_message":"名前の重さに急かされない","official_asset":[],"official_asset_crop":[],"start_segment":52,"end_segment":52,"section_label":"5 / 5","ai_asset":"assets/generated_ai/scene_024.png","animation":"very_slow_zoom","fit_mode":"full_bleed"},
+    {"id":25,"layout":"layout_03_visual_text","render_mode":"template","text_render_mode":"pil_overlay","headline":"公的な名前でも、リンクから進まない","support_text":"公的な名前でも、メッセージの中だけで決めない","main_message":"「未納があります」にも、まず公式を開く","official_asset":[],"official_asset_crop":[],"start_segment":53,"end_segment":54,"section_label":"5 / 5","icon_name":"account_balance","icon_tone":"blue","animation":"static"},
+     {"id":26,"layout":"layout_04_text_official","render_mode":"template","text_render_mode":"pil_overlay","headline":"公的機関の公式案内を確認","support_text":"国税庁・消費者庁の注意喚起を例に、機関ごとの案内を見る","main_message":"公式側で確認する","official_asset":[{"kind":"image","path":"assets/official/scene_026_nta_warning.png","label":"出典：国税庁公式"}],"official_asset_crop":[],"official_asset_slot":{"type":"official_capture","status":"captured","label":"国税庁公式注意喚起クロップ"},"official_source_ids":["SRC-009","SRC-010"],"official_asset_source_url":"https://www.nta.go.jp/information/attention/attention.htm","official_text_readability":"PASS","official_visual_status":"captured_official_crop","privacy":"公式公開資料の該当箇所のみ","start_segment":55,"end_segment":58,"section_label":"5 / 5","animation":"static","official_visual_variant":"browser","visual_points":["国税庁・消費者庁の案内を見る","SMSの支払い先・電話番号へ進まない"]},
+    {"id":27,"layout":"layout_07_summary","render_mode":"template","text_render_mode":"pil_overlay","headline":"公的なお知らせの結論","support_text":"機関名ではなく、公式の入口で確認","main_message":"心当たりがあっても、入口を自分で選ぶ","official_asset":[],"official_asset_crop":[],"start_segment":59,"end_segment":60,"section_label":"5 / 5","items":["SMS・メールのリンクを使わない","公式サイトを自分で開く","迷えば公式窓口へ相談"],"icon_name":"account_balance","icon_tone":"blue","animation":"static"},
+    {"id":28,"layout":"layout_02_list","render_mode":"template","text_render_mode":"pil_overlay","headline":"5つに共通する3つの手順","support_text":"本物かどうかを、その場で当てない","main_message":"覚えることは3つ","official_asset":[],"official_asset_crop":[],"start_segment":61,"end_segment":66,"section_label":"まとめ","items":["リンクを使わない","自分で公式を開く","公式側で確認する"],"icon_name":"verified_user","icon_tone":"green","animation":"static"},
+    {"id":29,"layout":"layout_05_compare","render_mode":"template","text_render_mode":"pil_overlay","headline":"押してしまった後は、内容ごとに対応","support_text":"開いただけ／ID・パスワード／カード／口座・送金／不正アプリ","main_message":"入力内容に応じて、公式へ相談","official_asset":[],"official_asset_crop":[],"start_segment":67,"end_segment":75,"section_label":"困ったとき","items":["開いただけ：閉じる・入力しない","情報を入力：公式窓口から変更・相談"],"icon_name":"support_agent","icon_tone":"green","animation":"static"},
+    {"id":30,"layout":"layout_07_summary","render_mode":"template","text_render_mode":"pil_overlay","headline":"本物かどうかを、当てなくていい","support_text":"確認の入口を、自分で選び直す","main_message":"困ったら、公式窓口や188へ","official_asset":[],"official_asset_crop":[],"start_segment":76,"end_segment":79,"section_label":"まとめ","items":["リンクから入らない","公式アプリ・公式サイトを自分で開く","確認できなければ相談する"],"icon_name":"verified_user","icon_tone":"green","animation":"static"}
+  ],
+  "postroll": {
+    "kind": "channel_cta",
+    "cta_profile": "channel_common_cta",
+    "cta_variant": "registration_conversion_v1_reuse",
+    "reuse_from_episode": "011",
+    "reuse_source_status": "Episode011 output/final.mp4の実使用postrollをsource of truthとして、Episode010由来のregistration_conversion_v1を画面・音声・canonical textで再利用する。",
+    "cta_content_hash": "e20707f4cdf3a79dbd4bd4dc27be0d7c8159ed8693783881293c069be47cc08f",
+    "canonical_text": "スマホやパソコンの「これ、どうすればいい？」を、公式情報で分かりやすく確認しています。次に困ったときのために、チャンネル登録しておいてください。",
+    "display_text": "次に困ったときのために。\nチャンネル登録しておいてください。",
+    "duration_sec": 15.0,
+    "animation": "static",
+    "status": "finalized_copy_only_waiting_thumbnail",
+    "cta_config": "work/cta_registration_conversion_v1.json",
+    "asset": "work/cta_registration_conversion_v1.png",
+    "cta_audio": "audio/voicevox_kenzaki/cta_registration_conversion_v1.wav",
+    "audio_actual_seconds": 11.456,
+    "trailing_seconds": 3.544,
+    "audio_required": true,
+    "duration_mode": "audio_based",
+    "fake_subscribe_ui": false,
+    "reserved_end_screen_right_percent": "40〜45%"
+  },
+  "publish": {
+    "title":"【詐欺メール】本物そっくりでも見分けなくていい？安全に確認する5つの場面",
+    "description":"メールやSMSのリンクから入らず、自分で公式アプリや公式サイトを開いて確認する方法を、通販・宅配・カード・携帯料金・公的なお知らせの5場面で説明します。Case 1は国民生活センターの掲載相談例、Case 2〜5は公式注意喚起をもとにした意味図解です。\n\n情報は2026年9月6日に確認。公開前に公式ページと事業者の通知・相談手順を再確認します。\n\nナレーション：VOICEVOX:剣崎雌雄",
+    "chapters":["00:00 はじめに：いつもの会社から来たメール","00:54 1 / 5：通販・支払い情報の更新","02:04 2 / 5：宅配・再配達","03:33 中盤CTA","03:39 3 / 5：カードの利用確認","04:57 4 / 5：携帯料金の未払い","06:13 5 / 5：公的なお知らせ","07:25 5つに共通する確認方法","07:56 リンクを押してしまったとき","09:07 まとめ"],
+    "voice_credit":"ナレーション：VOICEVOX:剣崎雌雄",
+     "contains_synthetic_media":true,
+     "thumbnail":"assets/thumbnail/thumbnail.png",
+     "thumbnail_status":"HUMAN_PROVIDED_QA_PASS",
+     "upload_status":"UPLOADED_SCHEDULED",
+     "youtube_video_id":"CzTNLyAn1lY",
+     "youtube_channel_id":"UCgVRceTJYO5KOrPX4w2jXZw",
+     "youtube_privacy":"private",
+     "youtube_scheduled_at":"2026-09-12 19:00:00 JST",
+     "youtube_scheduled_at_api":"2026-09-12T10:00:00Z",
+     "thumbnail_uploaded":true,
+     "api_verification":"PASS"
+  },
+  "phase_a": {
+    "status":"PHASE_A_VISUAL_GATE_V2_APPROVED",
+    "scene_plan_path":"scene_plan.json",
+    "depth_gate_path":"work/long_form_depth_gate.md",
+    "visual_gate_path":"work/visual_review/phase_b_visual_gate_final.md",
+    "narration_char_count":3473,
+    "estimated_duration_sec":650,
+    "scene_count":30,
+    "imagegen_scene_count":6,
+    "image_generation_calls_total":12,
+    "image_generation_replacement_calls":5,
+    "planned_official_visual_scene_count":7,
+    "planned_official_source_group_count":5,
+    "rendered_official_visual_scene_count":5,
+    "rendered_semantic_visual_scene_count":2,
+    "fact_fail_count":0,
+    "fact_review_count":3,
+    "privacy_fail_count":0,
+    "human_review":"APPROVED_FOR_PHASE_B"
+  },
+  "phase_b": {
+    "status":"UPLOADED_SCHEDULED",
+    "visual_gate_path":"work/visual_review/phase_b_visual_gate_final.md",
+    "scene_quality_path":"work/visual_review/scene_quality_report_draft_v3.md",
+    "subtitle_preflight_path":"work/subtitle_preflight_v3.md",
+    "audio_segment_count":79,
+    "subtitle_cue_count":117,
+    "subtitle_font_px":72,
+    "draft_path":"output/draft_v4.mp4",
+    "draft_duration_sec":585.4,
+    "draft_sha256":"32933ED599E072DDF27FA7AF99756F4F78B15A3498DA0EA2071F44EC04660DD8",
+    "end_cta_count":1,
+    "pre_cta_duplicate_narration":0,
+    "scene_031_timeline_count":0,
+    "segment_080_timeline_count":0,
+    "contextual_pronunciation_audio_gate":"PASS",
+    "qa":"PASS",
+    "human_review":"draft_v3 human full-watch approved; v4 has only the user audio override; user-provided thumbnail QA and scheduled publication API verification are PASS",
+    "human_review_points":"work/human_review_points_v3.md",
+    "human_full_watch_approved":true,
+    "senior_readability":"PASS",
+    "human_audio_override_path":"work/human_audio_override_v4.json",
+    "final_path":"output/final.mp4",
+    "final_duration_sec":585.4,
+    "final_sha256":"32933ED599E072DDF27FA7AF99756F4F78B15A3498DA0EA2071F44EC04660DD8",
+    "finalization":"copy-only",
+    "draft_final_byte_identical":true,
+    "thumbnail_status":"HUMAN_PROVIDED_QA_PASS",
+    "thumbnail_path":"assets/thumbnail/thumbnail.png",
+    "thumbnail_source_path":"assets/thumbnail/thumbnail_source.png",
+    "upload_status":"UPLOADED_SCHEDULED",
+    "youtube_video_id":"CzTNLyAn1lY",
+    "youtube_channel_id":"UCgVRceTJYO5KOrPX4w2jXZw",
+    "youtube_privacy":"private",
+    "youtube_scheduled_at_api":"2026-09-12T10:00:00Z",
+    "youtube_contains_synthetic_media":true,
+    "youtube_api_verification":"PASS"
+  }
+}

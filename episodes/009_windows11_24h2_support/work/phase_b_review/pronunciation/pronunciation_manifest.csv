@@ -1,0 +1,12 @@
+﻿id,surface,example_text,voicevox_reading,accent_summary,wav_path,status
+term_01_windows11,Windows 11,Windows 11を使っている方は、まず確認しましょう。,ウィンドオズジュウイチ,ウィンドオズ(1)｜ジュウ(2)｜イチ(2),episodes\009_windows11_24h2_support\work\phase_b_review\pronunciation\term_01_windows11.wav,human_review_pending
+term_02_windows,Windows,自分のWindowsのバージョンを確認します。,ウィンドオズ,ウィンドオズ(1),episodes\009_windows11_24h2_support\work\phase_b_review\pronunciation\term_02_windows.wav,human_review_pending
+term_03_microsoft,Microsoft,Microsoftの公式情報を確認します。,マイクロソフト,マイクロソフト(5),episodes\009_windows11_24h2_support\work\phase_b_review\pronunciation\term_03_microsoft.wav,human_review_pending
+term_04_24h2,24H2,バージョン24H2かどうかを確認します。,ニジュウヨンエイチニ,ニジュウ(1)｜ヨン(1)｜エイチ(1)｜ニ(1),episodes\009_windows11_24h2_support\work\phase_b_review\pronunciation\term_04_24h2.wav,human_review_pending
+term_05_25h2,25H2,次の候補として25H2が表示されることがあります。,ニジュウゴエイチニ,ニジュウ(1)｜ゴ(1)｜エイチ(1)｜ニ(1),episodes\009_windows11_24h2_support\work\phase_b_review\pronunciation\term_05_25h2.wav,human_review_pending
+term_06_26h1,26H1,26H1は既存のパソコンの通常の更新先ではありません。,ニジュウロクエイチイチ,ニジュウ(1)｜ロク(2)｜エイチ(1)｜イチ(2),episodes\009_windows11_24h2_support\work\phase_b_review\pronunciation\term_06_26h1.wav,human_review_pending
+term_07_home,Home,HomeとProでは、確認する日付が共通する場合があります。,ホオム,ホオム(1),episodes\009_windows11_24h2_support\work\phase_b_review\pronunciation\term_07_home.wav,human_review_pending
+term_08_pro,Pro,家庭でよく使われるProの方も、バージョンを確認します。,プロ,プロ(1),episodes\009_windows11_24h2_support\work\phase_b_review\pronunciation\term_08_pro.wav,human_review_pending
+term_09_windows_update,Windows Update,Windows Updateを開いて、更新を確認します。,ウィンドオズアップデエト,ウィンドオズ(1)｜アップデエト(1),episodes\009_windows11_24h2_support\work\phase_b_review\pronunciation\term_09_windows_update.wav,human_review_pending
+term_10_date,10月13日,更新終了日は10月13日です。,ジュウガツジュウサンニチ,ジュウガツ(4)｜ジュウ(2)｜サンニチ(2),episodes\009_windows11_24h2_support\work\phase_b_review\pronunciation\term_10_date.wav,human_review_pending
+term_11_year,2026年,2026年の更新について確認します。,ニセンニジュウロクネン,ニセン(2)｜ニジュウ(1)｜ロクネン(2),episodes\009_windows11_24h2_support\work\phase_b_review\pronunciation\term_11_year.wav,human_review_pending

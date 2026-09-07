@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "template": 0,
+    "official": 0,
+    "gpt_image": 1,
+    "hybrid": 0
+  },
+  "text_render_mode_counts": {
+    "imagegen_native": 1
+  },
+  "scenes": [
+    {
+      "scene_id": "SCENE-001",
+      "recommended_mode": "gpt_image",
+      "current_mode": "gpt_image",
+      "reasons": [
+        "概念・注意・章扉を視覚中心で説明"
+      ],
+      "recommended_text_render_mode": "imagegen_native",
+      "concept_hits": [],
+      "official_hits": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "episode": "005_google_photos_delete",
+  "status": "verified",
+  "operation": "videos.update(part=status)",
+  "video_id": "T6XHnYt1XXc",
+  "source": "STATE.md",
+  "target_containsSyntheticMedia": true,
+  "status_before": {
+    "privacyStatus": "private",
+    "publishAt": "2026-09-08T10:00:00Z",
+    "license": "youtube",
+    "embeddable": false,
+    "publicStatsViewable": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "reupload": false,
+  "started_at": "2026-09-01T23:16:31Z",
+  "update_response_status": {
+    "privacyStatus": "private",
+    "publishAt": "2026-09-08T10:00:00Z",
+    "license": "youtube",
+    "embeddable": false,
+    "publicStatsViewable": false,
+    "selfDeclaredMadeForKids": false,
+    "containsSyntheticMedia": true
+  },
+  "status_after": {
+    "privacyStatus": "private",
+    "publishAt": "2026-09-08T10:00:00Z",
+    "license": "youtube",
+    "embeddable": false,
+    "publicStatsViewable": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "verification_source": "videos.update response; videos.list omitted containsSyntheticMedia",
+  "verified_at": "2026-09-01T23:16:32Z"
+}

@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "qa": "cta_full_text_visible",
+  "canonical_text": "大人のデジタル安心室では、スマホやパソコンを、もっと安全・快適に使うための情報をお届けします。チャンネル登録・高評価もよろしくお願いします。",
+  "description": "大人のデジタル安心室では、スマホやパソコンを、もっと安全・快適に使うための情報をお届けします。",
+  "cta": "チャンネル登録・\n高評価もよろしくお願いします",
+  "metrics": {
+    "description": {
+      "text": "大人のデジタル安心室では、スマホやパソコンを、もっと安全・快適に使うための情報をお届けします。",
+      "box": [
+        138,
+        450,
+        1042,
+        695
+      ],
+      "font_size": 56,
+      "min_size": 56,
+      "max_lines": 3,
+      "lines": [
+        "大人のデジタル安心室では、スマホ",
+        "やパソコンを、もっと安全・快適に",
+        "使うための情報をお届けします。"
+      ],
+      "line_height": 63,
+      "complete": true
+    },
+    "cta": {
+      "text": "チャンネル登録・\n高評価もよろしくお願いします",
+      "box": [
+        158,
+        736,
+        1012,
+        872
+      ],
+      "font_size": 60,
+      "min_size": 56,
+      "max_lines": 2,
+      "lines": [
+        "チャンネル登録・",
+        "高評価もよろしくお願いします"
+      ],
+      "line_height": 68,
+      "complete": true
+    }
+  },
+  "image": {
+    "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\014_chiikawa_fleamarket_safety\\work\\cta_registration_conversion_v1.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "mode": "RGB"
+  },
+  "end_screen_reserved_start_x": 1090,
+  "failures": []
+}

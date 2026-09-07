@@ -1,0 +1,43 @@
+{
+  "protocol_version": 2,
+  "image_calls_must_be_sequential": true,
+  "one_scene_per_call": true,
+  "n_per_call": 1,
+  "scenes": [
+    {
+      "scene_id": "SCENE-001",
+      "prompt_file": "scene_prompts/scene_001.md",
+      "output_filename": "scene_001.png"
+    },
+    {
+      "scene_id": "SCENE-003",
+      "prompt_file": "scene_prompts/scene_003.md",
+      "output_filename": "scene_003.png"
+    },
+    {
+      "scene_id": "SCENE-006",
+      "prompt_file": "scene_prompts/scene_006.md",
+      "output_filename": "scene_006.png"
+    },
+    {
+      "scene_id": "SCENE-009",
+      "prompt_file": "scene_prompts/scene_009.md",
+      "output_filename": "scene_009.png"
+    },
+    {
+      "scene_id": "SCENE-012",
+      "prompt_file": "scene_prompts/scene_012.md",
+      "output_filename": "scene_012.png"
+    },
+    {
+      "scene_id": "SCENE-015",
+      "prompt_file": "scene_prompts/scene_015.md",
+      "output_filename": "scene_015.png"
+    },
+    {
+      "scene_id": "SCENE-018",
+      "prompt_file": "scene_prompts/scene_018.md",
+      "output_filename": "scene_018.png"
+    }
+  ]
+}

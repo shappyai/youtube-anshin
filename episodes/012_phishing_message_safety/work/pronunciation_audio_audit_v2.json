@@ -1,0 +1,464 @@
+{
+  "episode": "012",
+  "checked_at": "2026-09-06",
+  "engine": "http://127.0.0.1:50021",
+  "speaker": "剣崎雌雄",
+  "style": "ノーマル",
+  "targets": {
+    "普段": {
+      "segments": [
+        {
+          "segment_id": 10,
+          "spoken_text": "普段使っている通販やアプリの名前で、「支払い情報を更新してください」と届いたとします。",
+          "effective_tts_text": "普段使っている通販やアプリの名前で、「支払い情報を更新してください」と届いたとします。",
+          "approvals": [
+            "普段 → フダン（pronunciation dictionary）"
+          ],
+          "locations": [
+            {
+              "phrase_index": 0,
+              "phrase_accent": 1,
+              "mora_text": [
+                "フ",
+                "ダ",
+                "ン"
+              ],
+              "joined_mora_text": "フダン",
+              "internal_pause": false
+            }
+          ],
+          "wav_sha256": "6F4D3CD7CEC1D8B0B65B4AC266517F50F5831611BF868F9D12A22E86480391FF"
+        },
+        {
+          "segment_id": 12,
+          "spoken_text": "国民生活センターには、普段利用しているアプリの名前で届いたメールから、支払い情報を更新した相談例が掲載されています。",
+          "effective_tts_text": "国民生活センターには、普段利用しているアプリの名前で届いたメールから、支払い情報を更新した相談例が掲載されています。",
+          "approvals": [
+            "普段 → フダン（pronunciation dictionary）"
+          ],
+          "locations": [
+            {
+              "phrase_index": 1,
+              "phrase_accent": 1,
+              "mora_text": [
+                "フ",
+                "ダ",
+                "ン"
+              ],
+              "joined_mora_text": "フダン",
+              "internal_pause": false
+            }
+          ],
+          "wav_sha256": "F5059407D2EE0C2C49CC9EC3E966D06E83FEA7DD285FF14E3B22FA1D05AFB3B2"
+        }
+      ],
+      "result": "PASS",
+      "expected_reading": "フダン",
+      "query_mora_reading": "フダン",
+      "occurrence_count": 2,
+      "segment_ids": [
+        10,
+        12
+      ]
+    },
+    "何も": {
+      "segments": [
+        {
+          "segment_id": 17,
+          "spoken_text": "何も出ていなければ、メールは削除します。カード明細も、こまめに確認します。",
+          "effective_tts_text": "何も出ていなければ、メールは削除します。カード明細も、こまめに確認します。",
+          "approvals": [
+            "何も → ナニモ（pronunciation dictionary）"
+          ],
+          "locations": [
+            {
+              "phrase_index": 0,
+              "phrase_accent": 2,
+              "mora_text": [
+                "ナ",
+                "ニ",
+                "モ"
+              ],
+              "joined_mora_text": "ナニモ",
+              "internal_pause": false
+            }
+          ],
+          "wav_sha256": "88CBD98B0350BEB7584C4BB6C597DCF66E81DACC59573BCBA065214E9D50A509"
+        }
+      ],
+      "result": "PASS",
+      "expected_reading": "ナニモ",
+      "query_mora_reading": "ナニモ",
+      "occurrence_count": 1,
+      "segment_ids": [
+        17
+      ]
+    },
+    "届け物": {
+      "segments": [
+        {
+          "segment_id": 29,
+          "spoken_text": "再配達の場面では、届け物を待っている気持ちを利用されても、入口を自分で選び直せます。",
+          "effective_tts_text": "再配達の場面では、とどけものを待っている気持ちを利用されても、入口を自分で選び直せます。",
+          "approvals": [
+            "届け物 → とどけもの（pronunciation dictionary）"
+          ],
+          "locations": [
+            {
+              "phrase_index": 2,
+              "phrase_accent": 6,
+              "mora_text": [
+                "ト",
+                "ド",
+                "ケ",
+                "モ",
+                "ノ"
+              ],
+              "joined_mora_text": "トドケモノ",
+              "internal_pause": false
+            }
+          ],
+          "wav_sha256": "3E1706DED2C9040649FD1E3DA2D172002F01E5B17C8CE5783DA59F95870963D8"
+        }
+      ],
+      "result": "PASS",
+      "expected_reading": "トドケモノ",
+      "query_mora_reading": "トドケモノ",
+      "occurrence_count": 1,
+      "segment_ids": [
+        29
+      ]
+    },
+    "本物": {
+      "segments": [
+        {
+          "segment_id": 2,
+          "spoken_text": "会社名もロゴも見覚えがあります。これ、本物でしょうか。",
+          "effective_tts_text": "会社名もロゴも見覚えがあります。これ、ほんものでしょうか。",
+          "approvals": [
+            "本物 → ほんもの（pronunciation dictionary）"
+          ],
+          "locations": [
+            {
+              "phrase_index": 5,
+              "phrase_accent": 7,
+              "mora_text": [
+                "ホ",
+                "ン",
+                "モ",
+                "ノ"
+              ],
+              "joined_mora_text": "ホンモノ",
+              "internal_pause": false
+            }
+          ],
+          "wav_sha256": "6132AE415647B0E257C5DCB13C5CC0DCF5B128E8D29B70710BF2AF8824DF8C8A"
+        },
+        {
+          "segment_id": 3,
+          "spoken_text": "実は、本物かどうかをメールだけで見分けなくて大丈夫です。",
+          "effective_tts_text": "実は、ほんものかどうかをメールだけで見分けなくて大丈夫です。",
+          "approvals": [
+            "本物 → ほんもの（pronunciation dictionary）"
+          ],
+          "locations": [
+            {
+              "phrase_index": 1,
+              "phrase_accent": 5,
+              "mora_text": [
+                "ホ",
+                "ン",
+                "モ",
+                "ノ"
+              ],
+              "joined_mora_text": "ホンモノ",
+              "internal_pause": false
+            }
+          ],
+          "wav_sha256": "D279A30E6A8701A97FA145D9DF52C4830FC4FEBD94ECA2300C2EDB1DEB3BB3E5"
+        },
+        {
+          "segment_id": 8,
+          "spoken_text": "名前やロゴが本物らしくても、メールの中だけで安全と決めないことが、最初の一歩です。",
+          "effective_tts_text": "名前やロゴがほんものらしくても、メールの中だけで安全と決めないことが、最初の一歩です。",
+          "approvals": [
+            "本物 → ほんもの（pronunciation dictionary）"
+          ],
+          "locations": [
+            {
+              "phrase_index": 2,
+              "phrase_accent": 6,
+              "mora_text": [
+                "ホ",
+                "ン",
+                "モ",
+                "ノ"
+              ],
+              "joined_mora_text": "ホンモノ",
+              "internal_pause": false
+            }
+          ],
+          "wav_sha256": "A8DF00E5293767E4784AAAC82F0205FCB6DDC409365352776108A460E1FC1422"
+        },
+        {
+          "segment_id": 14,
+          "spoken_text": "ここで大切なのは、ロゴが本物らしいかではなく、メールのリンクから支払い情報を更新しないことです。",
+          "effective_tts_text": "ここで大切なのは、ロゴがほんものらしいかではなく、メールのリンクから支払い情報を更新しないことです。",
+          "approvals": [
+            "本物 → ほんもの（pronunciation dictionary）"
+          ],
+          "locations": [
+            {
+              "phrase_index": 4,
+              "phrase_accent": 6,
+              "mora_text": [
+                "ホ",
+                "ン",
+                "モ",
+                "ノ"
+              ],
+              "joined_mora_text": "ホンモノ",
+              "internal_pause": false
+            }
+          ],
+          "wav_sha256": "96B8B8276A2FF2A3DA9B9F78B55C94654970C4D22C001C457A38B3145B04A3B3"
+        },
+        {
+          "segment_id": 30,
+          "spoken_text": "「これ、本物？」は公式情報で確認します。必要なら登録しておいてください。",
+          "effective_tts_text": "「これ、ほんもの？」は公式情報で確認します。必要なら登録しておいてください。",
+          "approvals": [
+            "本物 → ほんもの（pronunciation dictionary）"
+          ],
+          "locations": [
+            {
+              "phrase_index": 1,
+              "phrase_accent": 4,
+              "mora_text": [
+                "ホ",
+                "ン",
+                "モ",
+                "ノ"
+              ],
+              "joined_mora_text": "ホンモノ",
+              "internal_pause": false
+            }
+          ],
+          "wav_sha256": "CC06F734C6857E5FD91561131B40D8428E4248641AF0FED3AF6BAA604D5144BB"
+        },
+        {
+          "segment_id": 66,
+          "spoken_text": "本物そっくりに見えるものがあるからこそ、見分ける負担を減らし、入口を変えて確認します。",
+          "effective_tts_text": "ほんものそっくりに見えるものがあるからこそ、見分ける負担を減らし、入口を変えて確認します。",
+          "approvals": [
+            "本物 → ほんもの（pronunciation dictionary）"
+          ],
+          "locations": [
+            {
+              "phrase_index": 0,
+              "phrase_accent": 4,
+              "mora_text": [
+                "ホ",
+                "ン",
+                "モ",
+                "ノ"
+              ],
+              "joined_mora_text": "ホンモノ",
+              "internal_pause": false
+            }
+          ],
+          "wav_sha256": "0FB0630E387FEC32FE919E6D045C84B4D2713DBD0E0658FD1AC2C4B0217674D6"
+        },
+        {
+          "segment_id": 79,
+          "spoken_text": "本物かどうかを、その場で当てなくて大丈夫です。確認の入口を、自分で選び直してください。",
+          "effective_tts_text": "ほんものかどうかを、その場で当てなくて大丈夫です。確認の入口を、自分で選び直してください。",
+          "approvals": [
+            "本物 → ほんもの（pronunciation dictionary）"
+          ],
+          "locations": [
+            {
+              "phrase_index": 0,
+              "phrase_accent": 5,
+              "mora_text": [
+                "ホ",
+                "ン",
+                "モ",
+                "ノ"
+              ],
+              "joined_mora_text": "ホンモノ",
+              "internal_pause": false
+            }
+          ],
+          "wav_sha256": "F91DD6D8A18AC2535C085E606B2952852877B72F06B5E642320D60B55D7931D2"
+        }
+      ],
+      "result": "PASS",
+      "expected_reading": "ホンモノ",
+      "query_mora_reading": "ホンモノ",
+      "occurrence_count": 7,
+      "segment_ids": [
+        2,
+        3,
+        8,
+        14,
+        30,
+        66,
+        79
+      ]
+    },
+    "カード会社": {
+      "segments": [
+        {
+          "segment_id": 34,
+          "spoken_text": "カード会社から本当に利用確認が届く場合もあるので、届いた通知をすべて偽物とは決めません。",
+          "effective_tts_text": "カード会社から本当に利用確認が届く場合もあるので、届いた通知をすべて偽物とは決めません。",
+          "approvals": [
+            "カード会社 → カードがいしゃ（pronunciation dictionary）"
+          ],
+          "locations": [
+            {
+              "phrase_index": 0,
+              "phrase_accent": 3,
+              "mora_text": [
+                "カ",
+                "ア",
+                "ド",
+                "ガ",
+                "イ",
+                "シャ"
+              ],
+              "joined_mora_text": "カアドガイシャ",
+              "internal_pause": false
+            }
+          ],
+          "wav_sha256": "8F74CBCDFEC6A05BC208FA778244E44EDE7DD4DDF122ACE32C789FD4E0976F88"
+        },
+        {
+          "segment_id": 38,
+          "spoken_text": "カード会社によっては、公式アプリの通知や専用の確認ページを用意している場合があります。",
+          "effective_tts_text": "カード会社によっては、公式アプリの通知や専用の確認ページを用意している場合があります。",
+          "approvals": [
+            "カード会社 → カードがいしゃ（pronunciation dictionary）"
+          ],
+          "locations": [
+            {
+              "phrase_index": 0,
+              "phrase_accent": 3,
+              "mora_text": [
+                "カ",
+                "ア",
+                "ド",
+                "ガ",
+                "イ",
+                "シャ"
+              ],
+              "joined_mora_text": "カアドガイシャ",
+              "internal_pause": false
+            }
+          ],
+          "wav_sha256": "8FB77A3488BD0D69EE0DB3C0BFF9B350D6AB11D0A2000566D96E4AD32FCAD683"
+        },
+        {
+          "segment_id": 39,
+          "spoken_text": "確認するときは、カードの裏や公式サイトにある案内から、カード会社の公式窓口を自分で開きます。",
+          "effective_tts_text": "確認するときは、カードの裏や公式サイトにある案内から、カード会社の公式窓口を自分でひらきます。",
+          "approvals": [
+            "開きます → ひらきます（pronunciation dictionary）",
+            "カード会社 → カードがいしゃ（pronunciation dictionary）"
+          ],
+          "locations": [
+            {
+              "phrase_index": 9,
+              "phrase_accent": 3,
+              "mora_text": [
+                "カ",
+                "ア",
+                "ド",
+                "ガ",
+                "イ",
+                "シャ"
+              ],
+              "joined_mora_text": "カアドガイシャ",
+              "internal_pause": false
+            }
+          ],
+          "wav_sha256": "889A38D1F46D2D2F700C5E8451B0792DF51250133B9860361DB91F070DB232F6"
+        },
+        {
+          "segment_id": 71,
+          "spoken_text": "カード番号を入力した場合は、カード会社の公式窓口へ連絡し、利用停止や再発行の案内を受けます。",
+          "effective_tts_text": "カード番号を入力した場合は、カード会社の公式窓口へ連絡し、利用停止や再発行の案内を受けます。",
+          "approvals": [
+            "カード会社 → カードがいしゃ（pronunciation dictionary）"
+          ],
+          "locations": [
+            {
+              "phrase_index": 4,
+              "phrase_accent": 3,
+              "mora_text": [
+                "カ",
+                "ア",
+                "ド",
+                "ガ",
+                "イ",
+                "シャ"
+              ],
+              "joined_mora_text": "カアドガイシャ",
+              "internal_pause": false
+            }
+          ],
+          "wav_sha256": "02B64B4A87A5C12AB2AB18C7F8F63518770D506DEC0859A53ABD43444F39F483"
+        }
+      ],
+      "result": "PASS",
+      "expected_reading": "カードがいしゃ",
+      "query_mora_reading": "カアドガイシャ",
+      "occurrence_count": 4,
+      "segment_ids": [
+        34,
+        38,
+        39,
+        71
+      ]
+    },
+    "e-Tax": {
+      "segments": [
+        {
+          "segment_id": 56,
+          "spoken_text": "e-Taxのメールも、登録した人に決まったパターンで届くお知らせで、原則として本文にURLはなく、ファイルも添付しないと説明されています。",
+          "effective_tts_text": "イータックスのメールも、登録した人に決まったパターンで届くお知らせで、原則として本文にURLはなく、ファイルも添付しないと説明されています。",
+          "approvals": [
+            "e-Tax → イータックス（pronunciation dictionary）"
+          ],
+          "locations": [
+            {
+              "phrase_index": 0,
+              "phrase_accent": 1,
+              "mora_text": [
+                "イ",
+                "イ",
+                "タ",
+                "ッ",
+                "ク",
+                "ス"
+              ],
+              "joined_mora_text": "イイタックス",
+              "internal_pause": false
+            }
+          ],
+          "wav_sha256": "4CCE1CA4BD36AC5FFF8FFE8AEFC9B9F7FAC6C3784661763D6C88A17F2AFFCCC1"
+        }
+      ],
+      "result": "PASS",
+      "expected_reading": "イータックス",
+      "query_mora_reading": "イイタックス",
+      "occurrence_count": 1,
+      "segment_ids": [
+        56
+      ],
+      "note": "長音「ー」はVOICEVOXのmora列で「イ|イ」と表現されるが、1つのaccent phrase内でinternal_pause=false。"
+    }
+  },
+  "overall": "PASS"
+}

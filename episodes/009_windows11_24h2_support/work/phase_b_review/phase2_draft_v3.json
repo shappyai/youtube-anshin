@@ -1,0 +1,34 @@
+{
+  "status": "FAIL",
+  "failures": [
+    "CTA: 画面素材が存在しない: channel_cta.png",
+    "CTA: 音声素材が存在しない: cta_channel_common.wav",
+    "ffprobe: PyAV probe failed: No module named 'av'",
+    "draft video is not 1920x1080",
+    "draft audio stream is missing"
+  ],
+  "warnings": [
+    "unexpected frame rate: None",
+    "audio/video duration delta: 304.880s"
+  ],
+  "probe": {
+    "error": "PyAV probe failed: No module named 'av'"
+  },
+  "scene_count": 19,
+  "subtitle_count": 59,
+  "postroll": {
+    "kind": "channel_cta",
+    "cta_content_hash": "c0df4a036b397effa920436c4ba473186737ed6e5cc3df54b85afe8ba32b82eb",
+    "cta_profile": "channel_common_cta",
+    "duration_sec": 15,
+    "animation": "static",
+    "status": "phase_b_ready",
+    "profile": "channel_common_cta",
+    "audio_required": true,
+    "duration_mode": "audio_based",
+    "asset": "work/channel_cta.png",
+    "cta_audio": "audio/voicevox_kenzaki/cta_channel_common.wav"
+  },
+  "scene_visual_warnings": {},
+  "expected_duration": 304.88
+}

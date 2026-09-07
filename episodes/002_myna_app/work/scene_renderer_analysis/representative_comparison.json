@@ -1,0 +1,720 @@
+{
+  "method": {
+    "teacher": "assets/generated_scenes raster before final-video compositing",
+    "auto": "episodes\\002_myna_app\\work\\efficiency_test_v2 raster from the renderer under comparison",
+    "final": "output/review_frames_v4/frame_scene_###.png",
+    "changed_threshold": 14,
+    "active_height": 900,
+    "note": "Teacher composite reference boxes are the existing Phase 1 final-video compositor geometry; changed pixels include official overlays and any final-frame additions."
+  },
+  "rows": [
+    {
+      "scene_id": 1,
+      "layout": "layout_03_visual_text",
+      "teacher": {
+        "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_001.png",
+        "width": 1920,
+        "height": 1080,
+        "dark_area_ratio": 0.04822,
+        "color_area_ratio": 0.05141,
+        "active_nonwhite_ratio": 0.09554,
+        "active_bbox": [
+          0,
+          0,
+          1920,
+          691
+        ],
+        "active_bbox_area_ratio": 0.76778,
+        "headline_band_height_px": 74,
+        "headline_band_width_px": 1139,
+        "headline_width_ratio": 0.59323,
+        "headline_raster_height_px": 71,
+        "headline_raster_width_px": 846,
+        "headline_raster_top_px": 179,
+        "headline_band_count": 3,
+        "small_dark_band_count": 1,
+        "largest_color_component_area_ratio": 0.02222,
+        "largest_color_component_box": [
+          0,
+          0,
+          120,
+          2
+        ]
+      },
+      "auto": {
+        "path": "episodes\\002_myna_app\\work\\efficiency_test_v2\\scene_001.png",
+        "width": 1920,
+        "height": 1080,
+        "dark_area_ratio": 0.04812,
+        "color_area_ratio": 0.26389,
+        "active_nonwhite_ratio": 0.27203,
+        "active_bbox": [
+          0,
+          0,
+          1920,
+          900
+        ],
+        "active_bbox_area_ratio": 1.0,
+        "headline_band_height_px": 107,
+        "headline_band_width_px": 882,
+        "headline_width_ratio": 0.45937,
+        "headline_raster_height_px": 107,
+        "headline_raster_width_px": 882,
+        "headline_raster_top_px": 142,
+        "headline_band_count": 3,
+        "small_dark_band_count": 1,
+        "largest_color_component_area_ratio": 0.21444,
+        "largest_color_component_box": [
+          8,
+          16,
+          47,
+          78
+        ]
+      },
+      "final_vs_teacher_base": {
+        "threshold": 14,
+        "changed_ratio": 0.11799,
+        "changed_bbox": [
+          0,
+          14,
+          1920,
+          900
+        ],
+        "changed_bbox_area_ratio": 0.98444
+      },
+      "teacher_composite_reference": {
+        "boxes": [
+          [
+            95,
+            180,
+            515,
+            600
+          ]
+        ],
+        "area_px": 176400,
+        "area_ratio_full_frame": 0.08507,
+        "area_ratio_active_frame": 0.10208
+      }
+    },
+    {
+      "scene_id": 3,
+      "layout": "layout_02_list",
+      "teacher": {
+        "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_003.png",
+        "width": 1920,
+        "height": 1080,
+        "dark_area_ratio": 0.04895,
+        "color_area_ratio": 0.06123,
+        "active_nonwhite_ratio": 0.2171,
+        "active_bbox": [
+          0,
+          0,
+          1920,
+          795
+        ],
+        "active_bbox_area_ratio": 0.88333,
+        "headline_band_height_px": 71,
+        "headline_band_width_px": 999,
+        "headline_width_ratio": 0.52031,
+        "headline_raster_height_px": 71,
+        "headline_raster_width_px": 999,
+        "headline_raster_top_px": 102,
+        "headline_band_count": 5,
+        "small_dark_band_count": 1,
+        "largest_color_component_area_ratio": 0.02222,
+        "largest_color_component_box": [
+          0,
+          0,
+          120,
+          2
+        ]
+      },
+      "auto": {
+        "path": "episodes\\002_myna_app\\work\\efficiency_test_v2\\scene_003.png",
+        "width": 1920,
+        "height": 1080,
+        "dark_area_ratio": 0.05946,
+        "color_area_ratio": 0.06564,
+        "active_nonwhite_ratio": 0.09308,
+        "active_bbox": [
+          0,
+          0,
+          1920,
+          900
+        ],
+        "active_bbox_area_ratio": 1.0,
+        "headline_band_height_px": 103,
+        "headline_band_width_px": 1177,
+        "headline_width_ratio": 0.61302,
+        "headline_raster_height_px": 103,
+        "headline_raster_width_px": 1177,
+        "headline_raster_top_px": 93,
+        "headline_band_count": 5,
+        "small_dark_band_count": 1,
+        "largest_color_component_area_ratio": 0.02222,
+        "largest_color_component_box": [
+          0,
+          0,
+          120,
+          2
+        ]
+      },
+      "final_vs_teacher_base": {
+        "threshold": 14,
+        "changed_ratio": 0.0318,
+        "changed_bbox": [
+          0,
+          14,
+          1920,
+          900
+        ],
+        "changed_bbox_area_ratio": 0.98444
+      },
+      "teacher_composite_reference": {
+        "boxes": [],
+        "area_px": 0,
+        "area_ratio_full_frame": 0.0,
+        "area_ratio_active_frame": 0.0
+      }
+    },
+    {
+      "scene_id": 5,
+      "layout": "layout_04_text_official",
+      "teacher": {
+        "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_005.png",
+        "width": 1920,
+        "height": 1080,
+        "dark_area_ratio": 0.03088,
+        "color_area_ratio": 0.03948,
+        "active_nonwhite_ratio": 0.0998,
+        "active_bbox": [
+          0,
+          0,
+          1920,
+          816
+        ],
+        "active_bbox_area_ratio": 0.90667,
+        "headline_band_height_px": 371,
+        "headline_band_width_px": 461,
+        "headline_width_ratio": 0.2401,
+        "headline_raster_height_px": 70,
+        "headline_raster_width_px": 718,
+        "headline_raster_top_px": 98,
+        "headline_band_count": 2,
+        "small_dark_band_count": 1,
+        "largest_color_component_area_ratio": 0.02222,
+        "largest_color_component_box": [
+          0,
+          0,
+          120,
+          2
+        ]
+      },
+      "auto": {
+        "path": "episodes\\002_myna_app\\work\\efficiency_test_v2\\scene_005.png",
+        "width": 1920,
+        "height": 1080,
+        "dark_area_ratio": 0.04899,
+        "color_area_ratio": 0.05588,
+        "active_nonwhite_ratio": 0.14075,
+        "active_bbox": [
+          0,
+          0,
+          1920,
+          900
+        ],
+        "active_bbox_area_ratio": 1.0,
+        "headline_band_height_px": 537,
+        "headline_band_width_px": 1399,
+        "headline_width_ratio": 0.72865,
+        "headline_raster_height_px": 102,
+        "headline_raster_width_px": 887,
+        "headline_raster_top_px": 88,
+        "headline_band_count": 2,
+        "small_dark_band_count": 1,
+        "largest_color_component_area_ratio": 0.02222,
+        "largest_color_component_box": [
+          0,
+          0,
+          120,
+          2
+        ]
+      },
+      "final_vs_teacher_base": {
+        "threshold": 14,
+        "changed_ratio": 0.02786,
+        "changed_bbox": [
+          0,
+          14,
+          1920,
+          900
+        ],
+        "changed_bbox_area_ratio": 0.98444
+      },
+      "teacher_composite_reference": {
+        "boxes": [
+          [
+            1000,
+            220,
+            1720,
+            650
+          ]
+        ],
+        "area_px": 309600,
+        "area_ratio_full_frame": 0.14931,
+        "area_ratio_active_frame": 0.17917
+      }
+    },
+    {
+      "scene_id": 10,
+      "layout": "layout_05_compare",
+      "teacher": {
+        "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_010.png",
+        "width": 1920,
+        "height": 1080,
+        "dark_area_ratio": 0.03265,
+        "color_area_ratio": 0.03547,
+        "active_nonwhite_ratio": 0.06326,
+        "active_bbox": [
+          0,
+          0,
+          1920,
+          742
+        ],
+        "active_bbox_area_ratio": 0.82444,
+        "headline_band_height_px": 62,
+        "headline_band_width_px": 820,
+        "headline_width_ratio": 0.42708,
+        "headline_raster_height_px": 64,
+        "headline_raster_width_px": 480,
+        "headline_raster_top_px": 142,
+        "headline_band_count": 5,
+        "small_dark_band_count": 1,
+        "largest_color_component_area_ratio": 0.02222,
+        "largest_color_component_box": [
+          0,
+          0,
+          120,
+          2
+        ]
+      },
+      "auto": {
+        "path": "episodes\\002_myna_app\\work\\efficiency_test_v2\\scene_010.png",
+        "width": 1920,
+        "height": 1080,
+        "dark_area_ratio": 0.05735,
+        "color_area_ratio": 0.07019,
+        "active_nonwhite_ratio": 0.24685,
+        "active_bbox": [
+          0,
+          0,
+          1920,
+          900
+        ],
+        "active_bbox_area_ratio": 1.0,
+        "headline_band_height_px": 471,
+        "headline_band_width_px": 1566,
+        "headline_width_ratio": 0.81563,
+        "headline_raster_height_px": 97,
+        "headline_raster_width_px": 1678,
+        "headline_raster_top_px": 87,
+        "headline_band_count": 3,
+        "small_dark_band_count": 1,
+        "largest_color_component_area_ratio": 0.02222,
+        "largest_color_component_box": [
+          0,
+          0,
+          120,
+          2
+        ]
+      },
+      "final_vs_teacher_base": {
+        "threshold": 14,
+        "changed_ratio": 0.01932,
+        "changed_bbox": [
+          0,
+          14,
+          1920,
+          900
+        ],
+        "changed_bbox_area_ratio": 0.98444
+      },
+      "teacher_composite_reference": {
+        "boxes": [
+          [
+            1120,
+            160,
+            1710,
+            420
+          ],
+          [
+            1120,
+            480,
+            1710,
+            740
+          ]
+        ],
+        "area_px": 306800,
+        "area_ratio_full_frame": 0.14796,
+        "area_ratio_active_frame": 0.17755
+      }
+    },
+    {
+      "scene_id": 14,
+      "layout": "layout_04_text_official",
+      "teacher": {
+        "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_014.png",
+        "width": 1920,
+        "height": 1080,
+        "dark_area_ratio": 0.0443,
+        "color_area_ratio": 0.05331,
+        "active_nonwhite_ratio": 0.13805,
+        "active_bbox": [
+          0,
+          0,
+          1920,
+          791
+        ],
+        "active_bbox_area_ratio": 0.87889,
+        "headline_band_height_px": 542,
+        "headline_band_width_px": 864,
+        "headline_width_ratio": 0.45,
+        "headline_raster_height_px": 63,
+        "headline_raster_width_px": 528,
+        "headline_raster_top_px": 161,
+        "headline_band_count": 2,
+        "small_dark_band_count": 1,
+        "largest_color_component_area_ratio": 0.02222,
+        "largest_color_component_box": [
+          0,
+          0,
+          120,
+          2
+        ]
+      },
+      "auto": {
+        "path": "episodes\\002_myna_app\\work\\efficiency_test_v2\\scene_014.png",
+        "width": 1920,
+        "height": 1080,
+        "dark_area_ratio": 0.06946,
+        "color_area_ratio": 0.08567,
+        "active_nonwhite_ratio": 0.25364,
+        "active_bbox": [
+          0,
+          0,
+          1920,
+          900
+        ],
+        "active_bbox_area_ratio": 1.0,
+        "headline_band_height_px": 102,
+        "headline_band_width_px": 1382,
+        "headline_width_ratio": 0.71979,
+        "headline_raster_height_px": 102,
+        "headline_raster_width_px": 1382,
+        "headline_raster_top_px": 85,
+        "headline_band_count": 6,
+        "small_dark_band_count": 1,
+        "largest_color_component_area_ratio": 0.035,
+        "largest_color_component_box": [
+          64,
+          34,
+          109,
+          49
+        ]
+      },
+      "final_vs_teacher_base": {
+        "threshold": 14,
+        "changed_ratio": 0.02659,
+        "changed_bbox": [
+          0,
+          14,
+          1920,
+          900
+        ],
+        "changed_bbox_area_ratio": 0.98444
+      },
+      "teacher_composite_reference": {
+        "boxes": [
+          [
+            1160,
+            280,
+            1770,
+            660
+          ]
+        ],
+        "area_px": 231800,
+        "area_ratio_full_frame": 0.11179,
+        "area_ratio_active_frame": 0.13414
+      }
+    },
+    {
+      "scene_id": 22,
+      "layout": "layout_04_text_official",
+      "teacher": {
+        "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_022.png",
+        "width": 1920,
+        "height": 1080,
+        "dark_area_ratio": 0.03944,
+        "color_area_ratio": 0.04784,
+        "active_nonwhite_ratio": 0.21225,
+        "active_bbox": [
+          0,
+          0,
+          1920,
+          759
+        ],
+        "active_bbox_area_ratio": 0.84333,
+        "headline_band_height_px": 66,
+        "headline_band_width_px": 653,
+        "headline_width_ratio": 0.3401,
+        "headline_raster_height_px": 66,
+        "headline_raster_width_px": 653,
+        "headline_raster_top_px": 92,
+        "headline_band_count": 3,
+        "small_dark_band_count": 1,
+        "largest_color_component_area_ratio": 0.02222,
+        "largest_color_component_box": [
+          0,
+          0,
+          120,
+          2
+        ]
+      },
+      "auto": {
+        "path": "episodes\\002_myna_app\\work\\efficiency_test_v2\\scene_022.png",
+        "width": 1920,
+        "height": 1080,
+        "dark_area_ratio": 0.06823,
+        "color_area_ratio": 0.06889,
+        "active_nonwhite_ratio": 0.32185,
+        "active_bbox": [
+          0,
+          0,
+          1920,
+          900
+        ],
+        "active_bbox_area_ratio": 1.0,
+        "headline_band_height_px": 537,
+        "headline_band_width_px": 1605,
+        "headline_width_ratio": 0.83594,
+        "headline_raster_height_px": 107,
+        "headline_raster_width_px": 1044,
+        "headline_raster_top_px": 85,
+        "headline_band_count": 2,
+        "small_dark_band_count": 1,
+        "largest_color_component_area_ratio": 0.02269,
+        "largest_color_component_box": [
+          60,
+          8,
+          91,
+          20
+        ]
+      },
+      "final_vs_teacher_base": {
+        "threshold": 14,
+        "changed_ratio": 0.1,
+        "changed_bbox": [
+          0,
+          14,
+          1920,
+          900
+        ],
+        "changed_bbox_area_ratio": 0.98444
+      },
+      "teacher_composite_reference": {
+        "boxes": [
+          [
+            1030,
+            210,
+            1330,
+            720
+          ],
+          [
+            1440,
+            210,
+            1740,
+            720
+          ]
+        ],
+        "area_px": 306000,
+        "area_ratio_full_frame": 0.14757,
+        "area_ratio_active_frame": 0.17708
+      }
+    },
+    {
+      "scene_id": 27,
+      "layout": "layout_05_compare",
+      "teacher": {
+        "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_027.png",
+        "width": 1920,
+        "height": 1080,
+        "dark_area_ratio": 0.03753,
+        "color_area_ratio": 0.03981,
+        "active_nonwhite_ratio": 0.04959,
+        "active_bbox": [
+          0,
+          0,
+          1920,
+          744
+        ],
+        "active_bbox_area_ratio": 0.82667,
+        "headline_band_height_px": 64,
+        "headline_band_width_px": 1078,
+        "headline_width_ratio": 0.56146,
+        "headline_raster_height_px": 64,
+        "headline_raster_width_px": 1078,
+        "headline_raster_top_px": 91,
+        "headline_band_count": 1,
+        "small_dark_band_count": 1,
+        "largest_color_component_area_ratio": 0.02222,
+        "largest_color_component_box": [
+          0,
+          0,
+          120,
+          2
+        ]
+      },
+      "auto": {
+        "path": "episodes\\002_myna_app\\work\\efficiency_test_v2\\scene_027.png",
+        "width": 1920,
+        "height": 1080,
+        "dark_area_ratio": 0.05443,
+        "color_area_ratio": 0.10092,
+        "active_nonwhite_ratio": 0.30337,
+        "active_bbox": [
+          0,
+          0,
+          1920,
+          900
+        ],
+        "active_bbox_area_ratio": 1.0,
+        "headline_band_height_px": 471,
+        "headline_band_width_px": 1644,
+        "headline_width_ratio": 0.85625,
+        "headline_raster_height_px": 99,
+        "headline_raster_width_px": 641,
+        "headline_raster_top_px": 88,
+        "headline_band_count": 3,
+        "small_dark_band_count": 1,
+        "largest_color_component_area_ratio": 0.04176,
+        "largest_color_component_box": [
+          13,
+          50,
+          51,
+          62
+        ]
+      },
+      "final_vs_teacher_base": {
+        "threshold": 14,
+        "changed_ratio": 0.11402,
+        "changed_bbox": [
+          0,
+          14,
+          1920,
+          900
+        ],
+        "changed_bbox_area_ratio": 0.98444
+      },
+      "teacher_composite_reference": {
+        "boxes": [
+          [
+            120,
+            240,
+            900,
+            650
+          ],
+          [
+            1020,
+            240,
+            1800,
+            650
+          ]
+        ],
+        "area_px": 639600,
+        "area_ratio_full_frame": 0.30845,
+        "area_ratio_active_frame": 0.37014
+      }
+    },
+    {
+      "scene_id": 32,
+      "layout": "layout_07_summary",
+      "teacher": {
+        "path": "episodes\\002_myna_app\\assets\\generated_scenes\\scene_032.png",
+        "width": 1920,
+        "height": 1080,
+        "dark_area_ratio": 0.04416,
+        "color_area_ratio": 0.05248,
+        "active_nonwhite_ratio": 0.38884,
+        "active_bbox": [
+          0,
+          0,
+          1920,
+          741
+        ],
+        "active_bbox_area_ratio": 0.82333,
+        "headline_band_height_px": 151,
+        "headline_band_width_px": 1401,
+        "headline_width_ratio": 0.72969,
+        "headline_raster_height_px": 72,
+        "headline_raster_width_px": 506,
+        "headline_raster_top_px": 84,
+        "headline_band_count": 3,
+        "small_dark_band_count": 1,
+        "largest_color_component_area_ratio": 0.02222,
+        "largest_color_component_box": [
+          0,
+          0,
+          120,
+          2
+        ]
+      },
+      "auto": {
+        "path": "episodes\\002_myna_app\\work\\efficiency_test_v2\\scene_032.png",
+        "width": 1920,
+        "height": 1080,
+        "dark_area_ratio": 0.05355,
+        "color_area_ratio": 0.06992,
+        "active_nonwhite_ratio": 0.0807,
+        "active_bbox": [
+          0,
+          0,
+          1920,
+          900
+        ],
+        "active_bbox_area_ratio": 1.0,
+        "headline_band_height_px": 99,
+        "headline_band_width_px": 913,
+        "headline_width_ratio": 0.47552,
+        "headline_raster_height_px": 99,
+        "headline_raster_width_px": 913,
+        "headline_raster_top_px": 87,
+        "headline_band_count": 4,
+        "small_dark_band_count": 2,
+        "largest_color_component_area_ratio": 0.02222,
+        "largest_color_component_box": [
+          0,
+          0,
+          120,
+          2
+        ]
+      },
+      "final_vs_teacher_base": {
+        "threshold": 14,
+        "changed_ratio": 0.02489,
+        "changed_bbox": [
+          0,
+          14,
+          1920,
+          900
+        ],
+        "changed_bbox_area_ratio": 0.98444
+      },
+      "teacher_composite_reference": {
+        "boxes": [],
+        "area_px": 0,
+        "area_ratio_full_frame": 0.0,
+        "area_ratio_active_frame": 0.0
+      }
+    }
+  ]
+}

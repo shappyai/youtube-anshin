@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "api_called": false,
+  "oauth_called": false,
+  "episode": "003_line_renewal",
+  "video_id": "Y524WX3U4q4",
+  "target_containsSyntheticMedia": true,
+  "metadata_contains_synthetic_media": true,
+  "expected_api_requests": [
+    "videos.list part=status (before update)",
+    "videos.update part=status (preserve current mutable status values)",
+    "videos.list part=status (after update verification)"
+  ],
+  "videos_insert_called": false,
+  "snippet_changed": false,
+  "thumbnail_changed": false,
+  "errors": []
+}

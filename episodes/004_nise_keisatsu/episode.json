@@ -1,0 +1,1990 @@
+{
+  "schema_version": "1.0.0",
+  "metadata": {
+    "research_date": "2026-08-31",
+    "production_phase": "Phase 2 Phase A / GPT image gate",
+    "media_decision": "公式画面（警察庁・国民生活センター・LY Corporation）＋Codexテンプレート＋GPT画像。実機撮影なし。",
+    "primary_sources": [
+      "警察庁SOS47（統計・注意喚起）",
+      "国民生活センター",
+      "総務省",
+      "LY Corporation公式ストーリー"
+    ],
+    "fact_boundary": "LINEの注意喚起表示は「条件によっては表示される場合があります」とする。国際電話の着信が必ず詐欺とは言わない。固定電話の国際電話利用休止は固定電話・ひかり電話が対象。警察庁推奨アプリの機能はOSにより異なる。"
+  },
+  "episode": {
+    "episode_id": "004",
+    "slug": "nise_keisatsu",
+    "title": "【ニセ警察詐欺】「警察です」と電話が来たら？まず切って確認｜LINE誘導・国際電話",
+    "target_duration": 390.0,
+    "status": "publish_ready",
+    "topic": "ニセ警察詐欺・「＋」から始まる国際電話・LINEへの誘導への注意と確認方法",
+    "target_audience": "警察を名乗る電話やLINE誘導に不安がある50〜70代と、家族に注意を伝えたい方"
+  },
+  "narration": {
+    "speaker": "VOICEVOX",
+    "voice": "剣崎雌雄",
+    "style": "ノーマル",
+    "speedScale": 1.0,
+    "intonationScale": 1.0,
+    "pitchScale": 0.0,
+    "segment_policy": "1文ずつaudio_query→synthesis。Phase Aでは全文生成しない。"
+  },
+  "postroll": {
+    "kind": "channel_cta",
+    "profile": "channel_common_cta",
+    "duration_sec": 10.0,
+    "animation": "static",
+    "cta_profile": "channel_common_cta",
+    "asset": "work/channel_cta.png"
+  },
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "url": "https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/260605/01.html",
+      "title": "令和7年における特殊詐欺及びSNS型投資・ロマンス詐欺の認知・検挙状況等について（確定値）",
+      "organization": "警察庁SOS47",
+      "verified_at": "2026-08-31",
+      "claim": "2026年6月5日公表。特殊詐欺全体27,832件（＋32.3％）・約1,423.1億円（＋98.0％）。ニセ警察詐欺は認知件数11,014件・被害額1,005.0億円で総認知件数の39.6％、被害総額の70.6％。オレオレ詐欺に含まれるニセ警察詐欺10,859件（オレオレ詐欺14,489件の74.9％）。令和6年後半頃から被害増加が顕著。"
+    },
+    {
+      "source_id": "SRC-002",
+      "url": "https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/260703/01.html",
+      "title": "令和8年5月末における特殊詐欺の認知・検挙状況等について（暫定値）",
+      "organization": "警察庁SOS47",
+      "verified_at": "2026-08-31",
+      "claim": "2026年7月3日公表。特殊詐欺18,067件・1,514.7億円（前年同期比＋2,826件・＋547.3億円）。ニセ警察詐欺3,667件（−162件）・403.2億円（＋78.5億円）で被害継続。"
+    },
+    {
+      "source_id": "SRC-003",
+      "url": "https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/260731/01.html",
+      "title": "令和8年上半期における特殊詐欺の認知・検挙状況等について（暫定値）",
+      "organization": "警察庁SOS47",
+      "verified_at": "2026-08-31",
+      "claim": "2026年7月31日公表。特殊詐欺22,031件（＋18.3％）・1,816.2億円（＋51.7％）、1日当たり被害額10.0億円。ニセ警察詐欺4,466件（−296件）・507.9億円（＋108.9億円）。ニセ警察詐欺は被害額・認知件数とも70代が最多、当初接触ツールは電話が9割以上。特殊詐欺全体は60代が最多、被害額は50代以上が約8割。"
+    },
+    {
+      "source_id": "SRC-004",
+      "url": "https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/241218/02.html",
+      "title": "ニセ警察詐欺に注意！＃ニセ警察詐欺（特設サイト）",
+      "organization": "警察庁SOS47",
+      "verified_at": "2026-08-31",
+      "claim": "2025年11月17日公開。口座不正利用・携帯不正契約などの理由付け、偽の警察手帳・逮捕状画像、「＋」から始まる国際電話番号でも末尾「0110」を使い警察署からの架電を装う事例が目立つ。本物の警察官は電話で捜査対象と伝えない／メッセージアプリで連絡しない／手帳・逮捕状の画像を送らない／突然ビデオ電話しない。被害者年代は30代が最多だが既遂1件当たりの被害額は70代が最多、50代以上は固定電話が約6割。金地金被害はニセ警察詐欺が163件・58.2億円（約9割）。相談は＃9110、教示された番号への折り返し禁止。"
+    },
+    {
+      "source_id": "SRC-005",
+      "url": "https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/250325/01.html",
+      "title": "警察に偽装した電話番号に注意！",
+      "organization": "警察庁SOS47",
+      "verified_at": "2026-08-31",
+      "claim": "2025年3月25日公表。実在する警察署等の電話番号を偽装表示する手口を確認。相手方から教示された番号には折り返さない。対策として、固定電話は国際電話不取扱受付センター（0120-210-364）への申込で国際電話の発着信を無償で休止できる、携帯電話は国際電話の着信規制が可能なアプリを利用、と記載。愛知県警代表番号偽装・ビデオ通話・250万円振込の事例あり。"
+    },
+    {
+      "source_id": "SRC-006",
+      "url": "https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/241218/03.html",
+      "title": "国際電話番号による特殊詐欺が急増中！",
+      "organization": "警察庁SOS47",
+      "verified_at": "2026-08-31",
+      "claim": "2024年12月18日公表。令和5年7月以降、国際電話番号の犯行利用が急増。国際電話3社（KDDI、NTTコミュニケーションズ、ソフトバンク）が「国際電話不取扱受付センター」を設置し、利用休止の申込みで固定電話・ひかり電話を対象に国際電話番号からの発着信を無償で休止できる。警察は高齢者世帯への申込書・封筒配布などの支援を実施。"
+    },
+    {
+      "source_id": "SRC-007",
+      "url": "https://www.npa.go.jp/bureau/safetylife/sos47/case/international-phone/",
+      "title": "みんなでとめよう!!国際電話詐欺 ＃みんとめ",
+      "organization": "警察庁SOS47",
+      "verified_at": "2026-08-31",
+      "claim": "国際電話番号（＋1や＋44などから始まる番号）を利用した特殊詐欺被害が多発。令和7年中、特殊詐欺に利用された電話番号のうち約75.5％が国際電話番号。＋81は日本の国コード。「国際電話着信ブロック」を推進。国際電話不取扱受付センター0120-210-364（平日9時〜17時、自動音声案内24時間）、Web申込、最寄りの警察署でも手続き支援。携帯電話は着信設定の見直し（非通知拒否・登録外拒否・留守番電話活用）と国際電話着信規制アプリ（警察庁推奨アプリ等）の利用。"
+    },
+    {
+      "source_id": "SRC-008",
+      "url": "https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/250428/01.html",
+      "title": "ビデオ通話を悪用した“偽警察官・検察官”の詐欺に注意！！",
+      "organization": "警察庁SOS47",
+      "verified_at": "2026-08-31",
+      "claim": "2025年4月28日公表。警察官・検察官が突然スマートフォンにビデオ通話をすることはありません。制服姿や身分証の提示で本物の捜査員のように見せかける手口が全国で確認されている。"
+    },
+    {
+      "source_id": "SRC-009",
+      "url": "https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/260605/03.html",
+      "title": "ニセ警察詐欺の特異な手口",
+      "organization": "警察庁SOS47",
+      "verified_at": "2026-08-31",
+      "claim": "2026年6月5日公表。金地金をだまし取る手口（特殊詐欺全体173件・60.2億円のうち、ニセ警察詐欺が163件・58.2億円と約9割）。性的な被害を伴う手口も報告されており、動画では過激な説明を避け「警察官を名乗る相手の要求はすべてウソ」とだけ扱う。"
+    },
+    {
+      "source_id": "SRC-010",
+      "url": "https://www.npa.go.jp/bureau/safetylife/sos47/apps/index.html",
+      "title": "警察庁推奨アプリ",
+      "organization": "警察庁SOS47",
+      "verified_at": "2026-08-31",
+      "claim": "無料アプリ「詐欺対策byNTTタウンページ」「詐欺バスターLite」を紹介。国際電話番号の発着信一括ブロック・警告（Androidのみ）、特殊詐欺等に利用された番号のブロック・警告（Android・iPhone）、警察庁からの防犯情報のお知らせ。警察庁推奨制度に基づく認定。"
+    },
+    {
+      "source_id": "SRC-011",
+      "url": "https://www.kokusen.go.jp/news/data/n-20250423_2.html",
+      "title": "警察を名乗る電話に注意！－警察がLINEに誘導することはありません－",
+      "organization": "国民生活センター",
+      "verified_at": "2026-08-31",
+      "claim": "2025年4月23日公表。下4桁「0110」の番号表示手口、電話からLINEのビデオ通話に誘導して警察手帳を見せる手口。「警察がLINEのトークやビデオ通話で連絡を取ったり、金銭を個人名義の口座に振り込ませたりすることはありません」。いったん電話を切り、消費者ホットライン188・警察相談専用電話＃9110へ。知らない番号・非通知の電話に慎重に、個人情報を伝えない。相談事例（2025年1月受付・50歳代男性）あり。"
+    },
+    {
+      "source_id": "SRC-012",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01kiban18_01000251.html",
+      "title": "固定・携帯電話、SMS及びメールを悪用した特殊詐欺等に対する対応に関する要請の実施",
+      "organization": "総務省",
+      "verified_at": "2026-08-31",
+      "claim": "2025年4月23日。警察庁報道資料によると、特殊詐欺に利用された電話番号として国際電話が急増。電気通信事業者に対し、固定・携帯電話、SMS及びメールを悪用した特殊詐欺等への対応を文書で要請。"
+    },
+    {
+      "source_id": "SRC-013",
+      "url": "https://www.lycorp.co.jp/ja/story/20260202/csm2026_police.html",
+      "title": "その電話、本当に警察？ 専門家に聞く、「ニセ警察詐欺」の手口と対策",
+      "organization": "LY Corporation（公式ストーリー）",
+      "verified_at": "2026-08-31",
+      "claim": "2026年2月2日公開。警察庁警視（青田智子氏）への取材。「警察です」という電話は所属と担当者を聞いたらいったん切ってよい。かかってきた番号には折り返さない。電話で「逮捕状が出ている」等の言葉が出た時点で詐欺。LINE等のSNSに誘導された時点で切る。LINEでは条件によって注意喚起が表示される場合がある。誘導後は「ブロック・通報・警察への相談」の3つ。1人で対応しない。「誰にも言うな」は犯人側が使う言い方。固定電話は国際電話不取扱受付センター、スマホは警察庁推奨アプリ等で事前対策。"
+    }
+  ],
+  "narration_segments": [
+    {
+      "id": 1,
+      "section": "はじめに",
+      "narration": "「警察です」と名乗る電話が、いま増えています。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-001"
+      ]
+    },
+    {
+      "id": 2,
+      "section": "はじめに",
+      "narration": "相手は警察官のふりをして、お金や個人情報をだまし取ろうとします。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-002"
+      ]
+    },
+    {
+      "id": 3,
+      "section": "はじめに",
+      "narration": "でも、こわがる必要はありません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-003"
+      ]
+    },
+    {
+      "id": 4,
+      "section": "はじめに",
+      "narration": "今日は、まず「何を確認すればよいか」を、順番に説明します。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-004"
+      ]
+    },
+    {
+      "id": 5,
+      "section": "はじめに",
+      "narration": "確認する項目は、次の5つです。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-005"
+      ]
+    },
+    {
+      "id": 6,
+      "section": "はじめに",
+      "narration": "一つ、ニセ警察詐欺とは何か。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-006"
+      ]
+    },
+    {
+      "id": 7,
+      "section": "はじめに",
+      "narration": "二つ、「＋」から始まる国際電話。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-007"
+      ]
+    },
+    {
+      "id": 8,
+      "section": "はじめに",
+      "narration": "三つ、警察を名乗っても、まず疑うポイント。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-008"
+      ]
+    },
+    {
+      "id": 9,
+      "section": "はじめに",
+      "narration": "四つ、LINEに誘導されたら、どうするか。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-009"
+      ]
+    },
+    {
+      "id": 10,
+      "section": "はじめに",
+      "narration": "五つ、今すぐできる対策です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-010"
+      ]
+    },
+    {
+      "id": 11,
+      "section": "1 / 5 ニセ警察詐欺とは",
+      "narration": "まず、ニセ警察詐欺とは何かを確認します。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-011"
+      ]
+    },
+    {
+      "id": 12,
+      "section": "1 / 5 ニセ警察詐欺とは",
+      "narration": "警察庁によると、去年1年間のニセ警察詐欺は、認知件数1万1,014件でした。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-012"
+      ]
+    },
+    {
+      "id": 13,
+      "section": "1 / 5 ニセ警察詐欺とは",
+      "narration": "被害額は、およそ1,005億円で、特殊詐欺全体の7割にあたります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-013"
+      ]
+    },
+    {
+      "id": 14,
+      "section": "1 / 5 ニセ警察詐欺とは",
+      "narration": "そして、今年も被害は続いています。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-014"
+      ]
+    },
+    {
+      "id": 15,
+      "section": "1 / 5 ニセ警察詐欺とは",
+      "narration": "令和8年5月末までの暫定値でも、ニセ警察詐欺の被害額は、およそ403億円にのぼります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-015"
+      ]
+    },
+    {
+      "id": 16,
+      "section": "1 / 5 ニセ警察詐欺とは",
+      "narration": "特に、今年上半期の統計では、ニセ警察詐欺の被害は、70代の方が最も多くなっています。",
+      "reading_overrides": {
+        "方": "かた"
+      },
+      "pause_after": 0.3,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-016"
+      ]
+    },
+    {
+      "id": 17,
+      "section": "1 / 5 ニセ警察詐欺とは",
+      "narration": "特殊詐欺全体でも、被害額の8割近くを、50代以上の方が占めています。",
+      "reading_overrides": {
+        "方": "かた"
+      },
+      "pause_after": 0.3,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-017"
+      ]
+    },
+    {
+      "id": 18,
+      "section": "1 / 5 ニセ警察詐欺とは",
+      "narration": "つまり、この動画を見ているみなさんにとって、決して遠い話ではありません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-018"
+      ]
+    },
+    {
+      "id": 19,
+      "section": "1 / 5 ニセ警察詐欺とは",
+      "narration": "では、どんなふうに話が進むのでしょうか。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-019"
+      ]
+    },
+    {
+      "id": 20,
+      "section": "1 / 5 ニセ警察詐欺とは",
+      "narration": "よくある流れは、こうです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-020"
+      ]
+    },
+    {
+      "id": 21,
+      "section": "1 / 5 ニセ警察詐欺とは",
+      "narration": "「あなたの口座が、犯罪に使われています」などと、電話がかかってきます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-021"
+      ]
+    },
+    {
+      "id": 22,
+      "section": "1 / 5 ニセ警察詐欺とは",
+      "narration": "「あなたの携帯電話が、不正に契約されています」と言われることもあります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-022"
+      ]
+    },
+    {
+      "id": 23,
+      "section": "1 / 5 ニセ警察詐欺とは",
+      "narration": "なかには、偽の警察手帳や逮捕状の画像を見せるケースもあります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-023"
+      ]
+    },
+    {
+      "id": 24,
+      "section": "1 / 5 ニセ警察詐欺とは",
+      "narration": "これらはすべて、相手が用意した、ウソのものです。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-024"
+      ]
+    },
+    {
+      "id": 25,
+      "section": "2 / 5 「＋」から始まる番号とは",
+      "narration": "次に、「＋」から始まる国際電話の見分け方を確認します。",
+      "reading_overrides": {
+        "＋": "プラス"
+      },
+      "pause_after": 0.5,
+      "scene_id": 6,
+      "subtitle_ids": [
+        "SUB-025"
+      ]
+    },
+    {
+      "id": 26,
+      "section": "2 / 5 「＋」から始まる番号とは",
+      "narration": "電話番号の、先頭の「＋」のあとの数字は、国を表す番号です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-026"
+      ]
+    },
+    {
+      "id": 27,
+      "section": "2 / 5 「＋」から始まる番号とは",
+      "narration": "「＋81」は、日本の番号です。",
+      "reading_overrides": {
+        "＋81": "プラスはちいち"
+      },
+      "pause_after": 0.3,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-027"
+      ]
+    },
+    {
+      "id": 28,
+      "section": "2 / 5 「＋」から始まる番号とは",
+      "narration": "「＋1」や「＋44」など、ほかの国からかかってくる電話は、国際電話です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-028"
+      ]
+    },
+    {
+      "id": 29,
+      "section": "2 / 5 「＋」から始まる番号とは",
+      "narration": "警察庁によると、去年、特殊詐欺に使われた電話番号のうち、およそ75.5％が国際電話番号でした。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-029"
+      ]
+    },
+    {
+      "id": 30,
+      "section": "2 / 5 「＋」から始まる番号とは",
+      "narration": "さらに、実在の警察署の番号に似せて、下4桁が「0110」の国際電話番号を使う事例も、目立っています。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-030"
+      ]
+    },
+    {
+      "id": 31,
+      "section": "2 / 5 「＋」から始まる番号とは",
+      "narration": "つまり、電話番号の表示だけでは、警察からの電話かどうかを、見分けることはできません。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-031"
+      ]
+    },
+    {
+      "id": 32,
+      "section": "3 / 5 警察を名乗っても、まず疑うポイント",
+      "narration": "では、警察を名乗る電話を受けたら、どこを見ればよいのでしょうか。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 9,
+      "subtitle_ids": [
+        "SUB-032"
+      ]
+    },
+    {
+      "id": 33,
+      "section": "3 / 5 警察を名乗っても、まず疑うポイント",
+      "narration": "警察庁は、本物の警察官が「しないこと」を、こう説明しています。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 9,
+      "subtitle_ids": [
+        "SUB-033"
+      ]
+    },
+    {
+      "id": 34,
+      "section": "3 / 5 警察を名乗っても、まず疑うポイント",
+      "narration": "一つ、電話で、あなたが捜査の対象になっている、とは伝えません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-034"
+      ]
+    },
+    {
+      "id": 35,
+      "section": "3 / 5 警察を名乗っても、まず疑うポイント",
+      "narration": "二つ、LINEなどのメッセージアプリで、連絡することはありません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-035"
+      ]
+    },
+    {
+      "id": 36,
+      "section": "3 / 5 警察を名乗っても、まず疑うポイント",
+      "narration": "三つ、警察手帳や逮捕状の画像を送ることはありません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-036"
+      ]
+    },
+    {
+      "id": 37,
+      "section": "3 / 5 警察を名乗っても、まず疑うポイント",
+      "narration": "四つ、個人のスマートフォンに、突然ビデオ通話をかけることはありません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-037"
+      ]
+    },
+    {
+      "id": 38,
+      "section": "3 / 5 警察を名乗っても、まず疑うポイント",
+      "narration": "このうち、どれかに当てはまったら、それは詐欺です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-038"
+      ]
+    },
+    {
+      "id": 39,
+      "section": "3 / 5 警察を名乗っても、まず疑うポイント",
+      "narration": "さらに、実在する警察署の電話番号が表示されていたとしても、それは「電話番号の偽装」の可能性があります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-039"
+      ]
+    },
+    {
+      "id": 40,
+      "section": "3 / 5 警察を名乗っても、まず疑うポイント",
+      "narration": "表示された番号は信じず、自分で調べた番号か、警察相談専用電話「＃9110」で確認してください。",
+      "reading_overrides": {
+        "＃9110": "シャープきゅういちいちまる"
+      },
+      "pause_after": 0.3,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-040"
+      ]
+    },
+    {
+      "id": 41,
+      "section": "3 / 5 警察を名乗っても、まず疑うポイント",
+      "narration": "相手から教えられた番号には、絶対に折り返さないでください。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-041"
+      ]
+    },
+    {
+      "id": 42,
+      "section": "4 / 5 LINEに誘導されたらどうするか",
+      "narration": "では、LINEに誘導されたら、どうすればよいでしょうか。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-042"
+      ]
+    },
+    {
+      "id": 43,
+      "section": "4 / 5 LINEに誘導されたらどうするか",
+      "narration": "国民生活センターは、こう明言しています。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-043"
+      ]
+    },
+    {
+      "id": 44,
+      "section": "4 / 5 LINEに誘導されたらどうするか",
+      "narration": "「警察が、LINEのトークやビデオ通話で、連絡を取ることはありません。」",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-044"
+      ]
+    },
+    {
+      "id": 45,
+      "section": "4 / 5 LINEに誘導されたらどうするか",
+      "narration": "警察が、捜査や取り調べのために、LINEに誘導することは、ありません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-045"
+      ]
+    },
+    {
+      "id": 46,
+      "section": "4 / 5 LINEに誘導されたらどうするか",
+      "narration": "LINEに誘導された時点で、それは詐欺です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-046"
+      ]
+    },
+    {
+      "id": 47,
+      "section": "4 / 5 LINEに誘導されたらどうするか",
+      "narration": "LINEでは、不審な通話のときに、注意を呼びかける表示が出る場合もあります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-047"
+      ]
+    },
+    {
+      "id": 48,
+      "section": "4 / 5 LINEに誘導されたらどうするか",
+      "narration": "「あれ？」と感じたら、すぐに通話を切ってください。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-048"
+      ]
+    },
+    {
+      "id": 49,
+      "section": "4 / 5 LINEに誘導されたらどうするか",
+      "narration": "そのあとは、次の4つを行います。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-049"
+      ]
+    },
+    {
+      "id": 50,
+      "section": "4 / 5 LINEに誘導されたらどうするか",
+      "narration": "一つ、相手をブロックします。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-050"
+      ]
+    },
+    {
+      "id": 51,
+      "section": "4 / 5 LINEに誘導されたらどうするか",
+      "narration": "二つ、LINEの中で通報します。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-051"
+      ]
+    },
+    {
+      "id": 52,
+      "section": "4 / 5 LINEに誘導されたらどうするか",
+      "narration": "三つ、被害がなくても、警察に相談します。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-052"
+      ]
+    },
+    {
+      "id": 53,
+      "section": "4 / 5 LINEに誘導されたらどうするか",
+      "narration": "そして、1人で対応しないことが、とても大切です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-053"
+      ]
+    },
+    {
+      "id": 54,
+      "section": "4 / 5 LINEに誘導されたらどうするか",
+      "narration": "「誰にも言ってはいけない」と言われても、それは犯人側の常套句です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-054"
+      ]
+    },
+    {
+      "id": 55,
+      "section": "4 / 5 LINEに誘導されたらどうするか",
+      "narration": "本物の警察が、周りの人への相談を止めることは、絶対にありません。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-055"
+      ]
+    },
+    {
+      "id": 56,
+      "section": "5 / 5 今すぐできる対策",
+      "narration": "最後に、今すぐできる対策を、3つ紹介します。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 15,
+      "subtitle_ids": [
+        "SUB-056"
+      ]
+    },
+    {
+      "id": 57,
+      "section": "5 / 5 今すぐできる対策",
+      "narration": "一つ目、固定電話を使っている方は、国際電話の利用休止を申し込みましょう。",
+      "reading_overrides": {
+        "方": "かた"
+      },
+      "pause_after": 0.3,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-057"
+      ]
+    },
+    {
+      "id": 58,
+      "section": "5 / 5 今すぐできる対策",
+      "narration": "窓口は、国際電話不取扱受付センター、電話番号は「0120-210-364」です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-058"
+      ]
+    },
+    {
+      "id": 59,
+      "section": "5 / 5 今すぐできる対策",
+      "narration": "申し込むと、海外との発着信を、無料で休止できます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-059"
+      ]
+    },
+    {
+      "id": 60,
+      "section": "5 / 5 今すぐできる対策",
+      "narration": "手続きが難しい方は、最寄りの警察署で、申し込みを手伝ってもらえます。",
+      "reading_overrides": {
+        "方": "かた"
+      },
+      "pause_after": 0.5,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-060"
+      ]
+    },
+    {
+      "id": 61,
+      "section": "5 / 5 今すぐできる対策",
+      "narration": "二つ目、スマートフォンでは、着信の設定を見直しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-061"
+      ]
+    },
+    {
+      "id": 62,
+      "section": "5 / 5 今すぐできる対策",
+      "narration": "番号を表示しない電話の拒否や、電話帳に登録していない番号の拒否などができます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-062"
+      ]
+    },
+    {
+      "id": 63,
+      "section": "5 / 5 今すぐできる対策",
+      "narration": "また、警察庁推奨アプリのように、国際電話をブロックできる無料アプリもあります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-063"
+      ]
+    },
+    {
+      "id": 64,
+      "section": "5 / 5 今すぐできる対策",
+      "narration": "三つ目、家族と「警察と言われたら、まず相談」の約束をしましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-064"
+      ]
+    },
+    {
+      "id": 65,
+      "section": "5 / 5 今すぐできる対策",
+      "narration": "自分だけで判断せず、必ず誰かに話す。これが、一番の防犯です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-065"
+      ]
+    },
+    {
+      "id": 66,
+      "section": "まとめ",
+      "narration": "今日のまとめです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 18,
+      "subtitle_ids": [
+        "SUB-066"
+      ]
+    },
+    {
+      "id": 67,
+      "section": "まとめ",
+      "narration": "一つ、「警察です」と言われても、いったん電話を切って、確認しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 18,
+      "subtitle_ids": [
+        "SUB-067"
+      ]
+    },
+    {
+      "id": 68,
+      "section": "まとめ",
+      "narration": "二つ、LINEやビデオ通話に誘導されたら、それは詐欺です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 18,
+      "subtitle_ids": [
+        "SUB-068"
+      ]
+    },
+    {
+      "id": 69,
+      "section": "まとめ",
+      "narration": "三つ、国際電話を止める手続きか、ブロックの設定を、今日のうちに試してみましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 18,
+      "subtitle_ids": [
+        "SUB-069"
+      ]
+    },
+    {
+      "id": 70,
+      "section": "まとめ",
+      "narration": "あなたは、ひとりではありません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 18,
+      "subtitle_ids": [
+        "SUB-070"
+      ]
+    },
+    {
+      "id": 71,
+      "section": "まとめ",
+      "narration": "不安なときは、警察相談専用電話「＃9110」か、消費者ホットライン「188」に、相談してください。",
+      "reading_overrides": {
+        "＃9110": "シャープきゅういちいちまる",
+        "188": "イチ、ハチ、ハチ"
+      },
+      "pause_after": 0.3,
+      "scene_id": 18,
+      "subtitle_ids": [
+        "SUB-071"
+      ]
+    },
+    {
+      "id": 72,
+      "section": "まとめ",
+      "narration": "役に立ったら、チャンネル登録して、次回も一緒に確認しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.8,
+      "scene_id": 18,
+      "subtitle_ids": [
+        "SUB-072"
+      ]
+    }
+  ],
+  "subtitles": [
+    {
+      "id": "SUB-001",
+      "text_lines": [
+        "「警察です」と名乗る電話が、",
+        "いま増えています。"
+      ],
+      "segment_id": 1
+    },
+    {
+      "id": "SUB-002",
+      "text_lines": [
+        "相手は警察官のふりをして、",
+        "お金や個人情報をだまし取ろうとします。"
+      ],
+      "segment_id": 2
+    },
+    {
+      "id": "SUB-003",
+      "text_lines": [
+        "でも、こわがる必要はありません。"
+      ],
+      "segment_id": 3
+    },
+    {
+      "id": "SUB-004",
+      "text_lines": [
+        "今日は、まず「何を確認すればよいか」を、",
+        "順番に説明します。"
+      ],
+      "segment_id": 4
+    },
+    {
+      "id": "SUB-005",
+      "text_lines": [
+        "確認する項目は、次の5つです。"
+      ],
+      "segment_id": 5
+    },
+    {
+      "id": "SUB-006",
+      "text_lines": [
+        "一つ、ニセ警察詐欺とは何か。"
+      ],
+      "segment_id": 6
+    },
+    {
+      "id": "SUB-007",
+      "text_lines": [
+        "二つ、「＋」から始まる国際電話。"
+      ],
+      "segment_id": 7
+    },
+    {
+      "id": "SUB-008",
+      "text_lines": [
+        "三つ、警察を名乗っても、",
+        "まず疑うポイント。"
+      ],
+      "segment_id": 8
+    },
+    {
+      "id": "SUB-009",
+      "text_lines": [
+        "四つ、LINEに誘導されたら、どうするか。"
+      ],
+      "segment_id": 9
+    },
+    {
+      "id": "SUB-010",
+      "text_lines": [
+        "五つ、今すぐできる対策です。"
+      ],
+      "segment_id": 10
+    },
+    {
+      "id": "SUB-011",
+      "text_lines": [
+        "まず、ニセ警察詐欺とは何かを、",
+        "確認します。"
+      ],
+      "segment_id": 11
+    },
+    {
+      "id": "SUB-012",
+      "text_lines": [
+        "警察庁によると、去年1年間のニセ警察詐欺は、",
+        "認知件数1万1,014件でした。"
+      ],
+      "segment_id": 12
+    },
+    {
+      "id": "SUB-013",
+      "text_lines": [
+        "被害額は、およそ1,005億円で、",
+        "特殊詐欺全体の7割にあたります。"
+      ],
+      "segment_id": 13
+    },
+    {
+      "id": "SUB-014",
+      "text_lines": [
+        "そして、今年も被害は続いています。"
+      ],
+      "segment_id": 14
+    },
+    {
+      "id": "SUB-015",
+      "text_lines": [
+        "令和8年5月末までの暫定値でも、",
+        "被害額はおよそ403億円にのぼります。"
+      ],
+      "segment_id": 15
+    },
+    {
+      "id": "SUB-016",
+      "text_lines": [
+        "特に、今年上半期の統計では、",
+        "70代の方が最も多くなっています。"
+      ],
+      "segment_id": 16
+    },
+    {
+      "id": "SUB-017",
+      "text_lines": [
+        "特殊詐欺全体でも、被害額の8割近くを、",
+        "50代以上の方が占めています。"
+      ],
+      "segment_id": 17
+    },
+    {
+      "id": "SUB-018",
+      "text_lines": [
+        "つまり、この動画を見ているみなさんにとって、",
+        "決して遠い話ではありません。"
+      ],
+      "segment_id": 18
+    },
+    {
+      "id": "SUB-019",
+      "text_lines": [
+        "では、どんなふうに話が進むのでしょうか。"
+      ],
+      "segment_id": 19
+    },
+    {
+      "id": "SUB-020",
+      "text_lines": [
+        "よくある流れは、こうです。"
+      ],
+      "segment_id": 20
+    },
+    {
+      "id": "SUB-021",
+      "text_lines": [
+        "「あなたの口座が、犯罪に使われています」などと、",
+        "電話がかかってきます。"
+      ],
+      "segment_id": 21
+    },
+    {
+      "id": "SUB-022",
+      "text_lines": [
+        "「あなたの携帯電話が、不正に契約されています」",
+        "と言われることもあります。"
+      ],
+      "segment_id": 22
+    },
+    {
+      "id": "SUB-023",
+      "text_lines": [
+        "なかには、偽の警察手帳や",
+        "逮捕状の画像を見せるケースもあります。"
+      ],
+      "segment_id": 23
+    },
+    {
+      "id": "SUB-024",
+      "text_lines": [
+        "これらはすべて、相手が用意した、",
+        "ウソのものです。"
+      ],
+      "segment_id": 24
+    },
+    {
+      "id": "SUB-025",
+      "text_lines": [
+        "次に、「＋」から始まる国際電話の",
+        "見分け方を確認します。"
+      ],
+      "segment_id": 25
+    },
+    {
+      "id": "SUB-026",
+      "text_lines": [
+        "電話番号の、先頭の「＋」のあとの数字は、",
+        "国を表す番号です。"
+      ],
+      "segment_id": 26
+    },
+    {
+      "id": "SUB-027",
+      "text_lines": [
+        "「＋81」は、日本の番号です。"
+      ],
+      "segment_id": 27
+    },
+    {
+      "id": "SUB-028",
+      "text_lines": [
+        "「＋1」や「＋44」など、ほかの国から",
+        "かかってくる電話は、国際電話です。"
+      ],
+      "segment_id": 28
+    },
+    {
+      "id": "SUB-029",
+      "text_lines": [
+        "警察庁によると、去年、特殊詐欺に使われた",
+        "電話番号のうち、およそ75.5％が国際電話番号でした。"
+      ],
+      "segment_id": 29
+    },
+    {
+      "id": "SUB-030",
+      "text_lines": [
+        "実在の警察署の番号に似せて、下4桁が「0110」の",
+        "国際電話番号を使う事例も、目立っています。"
+      ],
+      "segment_id": 30
+    },
+    {
+      "id": "SUB-031",
+      "text_lines": [
+        "電話番号の表示だけでは、警察からの電話かどうかを、",
+        "見分けることはできません。"
+      ],
+      "segment_id": 31
+    },
+    {
+      "id": "SUB-032",
+      "text_lines": [
+        "では、警察を名乗る電話を受けたら、",
+        "どこを見ればよいのでしょうか。"
+      ],
+      "segment_id": 32
+    },
+    {
+      "id": "SUB-033",
+      "text_lines": [
+        "警察庁は、本物の警察官が「しないこと」を、",
+        "こう説明しています。"
+      ],
+      "segment_id": 33
+    },
+    {
+      "id": "SUB-034",
+      "text_lines": [
+        "一つ、電話で、あなたが捜査の対象に",
+        "なっている、とは伝えません。"
+      ],
+      "segment_id": 34
+    },
+    {
+      "id": "SUB-035",
+      "text_lines": [
+        "二つ、LINEなどのメッセージアプリで、",
+        "連絡することはありません。"
+      ],
+      "segment_id": 35
+    },
+    {
+      "id": "SUB-036",
+      "text_lines": [
+        "三つ、警察手帳や逮捕状の画像を",
+        "送ることはありません。"
+      ],
+      "segment_id": 36
+    },
+    {
+      "id": "SUB-037",
+      "text_lines": [
+        "四つ、個人のスマートフォンに、突然",
+        "ビデオ通話をかけることはありません。"
+      ],
+      "segment_id": 37
+    },
+    {
+      "id": "SUB-038",
+      "text_lines": [
+        "このうち、どれかに当てはまったら、",
+        "それは詐欺です。"
+      ],
+      "segment_id": 38
+    },
+    {
+      "id": "SUB-039",
+      "text_lines": [
+        "実在する警察署の電話番号が表示されていても、",
+        "それは「電話番号の偽装」の可能性があります。"
+      ],
+      "segment_id": 39
+    },
+    {
+      "id": "SUB-040",
+      "text_lines": [
+        "表示された番号は信じず、自分で調べた番号か、",
+        "警察相談専用電話「＃9110」で確認してください。"
+      ],
+      "segment_id": 40
+    },
+    {
+      "id": "SUB-041",
+      "text_lines": [
+        "相手から教えられた番号には、",
+        "絶対に折り返さないでください。"
+      ],
+      "segment_id": 41
+    },
+    {
+      "id": "SUB-042",
+      "text_lines": [
+        "では、LINEに誘導されたら、",
+        "どうすればよいでしょうか。"
+      ],
+      "segment_id": 42
+    },
+    {
+      "id": "SUB-043",
+      "text_lines": [
+        "国民生活センターは、こう明言しています。"
+      ],
+      "segment_id": 43
+    },
+    {
+      "id": "SUB-044",
+      "text_lines": [
+        "「警察が、LINEのトークやビデオ通話で、",
+        "連絡を取ることはありません。」"
+      ],
+      "segment_id": 44
+    },
+    {
+      "id": "SUB-045",
+      "text_lines": [
+        "警察が、捜査や取り調べのために、",
+        "LINEに誘導することは、ありません。"
+      ],
+      "segment_id": 45
+    },
+    {
+      "id": "SUB-046",
+      "text_lines": [
+        "LINEに誘導された時点で、それは詐欺です。"
+      ],
+      "segment_id": 46
+    },
+    {
+      "id": "SUB-047",
+      "text_lines": [
+        "LINEでは、不審な通話のときに、",
+        "注意を呼びかける表示が出る場合もあります。"
+      ],
+      "segment_id": 47
+    },
+    {
+      "id": "SUB-048",
+      "text_lines": [
+        "「あれ？」と感じたら、",
+        "すぐに通話を切ってください。"
+      ],
+      "segment_id": 48
+    },
+    {
+      "id": "SUB-049",
+      "text_lines": [
+        "そのあとは、次の4つを行います。"
+      ],
+      "segment_id": 49
+    },
+    {
+      "id": "SUB-050",
+      "text_lines": [
+        "一つ、相手をブロックします。"
+      ],
+      "segment_id": 50
+    },
+    {
+      "id": "SUB-051",
+      "text_lines": [
+        "二つ、LINEの中で通報します。"
+      ],
+      "segment_id": 51
+    },
+    {
+      "id": "SUB-052",
+      "text_lines": [
+        "三つ、被害がなくても、警察に相談します。"
+      ],
+      "segment_id": 52
+    },
+    {
+      "id": "SUB-053",
+      "text_lines": [
+        "そして、1人で対応しないことが、",
+        "とても大切です。"
+      ],
+      "segment_id": 53
+    },
+    {
+      "id": "SUB-054",
+      "text_lines": [
+        "「誰にも言ってはいけない」と言われても、",
+        "それは犯人側の常套句です。"
+      ],
+      "segment_id": 54
+    },
+    {
+      "id": "SUB-055",
+      "text_lines": [
+        "本物の警察が、周りの人への相談を",
+        "止めることは、絶対にありません。"
+      ],
+      "segment_id": 55
+    },
+    {
+      "id": "SUB-056",
+      "text_lines": [
+        "最後に、今すぐできる対策を、",
+        "3つ紹介します。"
+      ],
+      "segment_id": 56
+    },
+    {
+      "id": "SUB-057",
+      "text_lines": [
+        "一つ目、固定電話を使っている方は、",
+        "国際電話の利用休止を申し込みましょう。"
+      ],
+      "segment_id": 57
+    },
+    {
+      "id": "SUB-058",
+      "text_lines": [
+        "窓口は、国際電話不取扱受付センター、",
+        "電話番号は「0120-210-364」です。"
+      ],
+      "segment_id": 58
+    },
+    {
+      "id": "SUB-059",
+      "text_lines": [
+        "申し込むと、海外との発着信を、",
+        "無料で休止できます。"
+      ],
+      "segment_id": 59
+    },
+    {
+      "id": "SUB-060",
+      "text_lines": [
+        "手続きが難しい方は、最寄りの警察署で、",
+        "申し込みを手伝ってもらえます。"
+      ],
+      "segment_id": 60
+    },
+    {
+      "id": "SUB-061",
+      "text_lines": [
+        "二つ目、スマートフォンでは、",
+        "着信の設定を見直しましょう。"
+      ],
+      "segment_id": 61
+    },
+    {
+      "id": "SUB-062",
+      "text_lines": [
+        "番号を表示しない電話の拒否や、",
+        "電話帳に登録していない番号の拒否などができます。"
+      ],
+      "segment_id": 62
+    },
+    {
+      "id": "SUB-063",
+      "text_lines": [
+        "警察庁推奨アプリのように、国際電話を",
+        "ブロックできる無料アプリもあります。"
+      ],
+      "segment_id": 63
+    },
+    {
+      "id": "SUB-064",
+      "text_lines": [
+        "三つ目、家族と「警察と言われたら、まず相談」の",
+        "約束をしましょう。"
+      ],
+      "segment_id": 64
+    },
+    {
+      "id": "SUB-065",
+      "text_lines": [
+        "自分だけで判断せず、必ず誰かに話す。",
+        "これが、一番の防犯です。"
+      ],
+      "segment_id": 65
+    },
+    {
+      "id": "SUB-066",
+      "text_lines": [
+        "今日のまとめです。"
+      ],
+      "segment_id": 66
+    },
+    {
+      "id": "SUB-067",
+      "text_lines": [
+        "一つ、「警察です」と言われても、",
+        "いったん電話を切って、確認しましょう。"
+      ],
+      "segment_id": 67
+    },
+    {
+      "id": "SUB-068",
+      "text_lines": [
+        "二つ、LINEやビデオ通話に誘導されたら、",
+        "それは詐欺です。"
+      ],
+      "segment_id": 68
+    },
+    {
+      "id": "SUB-069",
+      "text_lines": [
+        "三つ、国際電話を止める手続きか、",
+        "ブロックの設定を、今日のうちに試してみましょう。"
+      ],
+      "segment_id": 69
+    },
+    {
+      "id": "SUB-070",
+      "text_lines": [
+        "あなたは、ひとりではありません。"
+      ],
+      "segment_id": 70
+    },
+    {
+      "id": "SUB-071",
+      "text_lines": [
+        "不安なときは、警察相談専用電話「＃9110」か、",
+        "消費者ホットライン「188」に、相談してください。"
+      ],
+      "segment_id": 71
+    },
+    {
+      "id": "SUB-072",
+      "text_lines": [
+        "役に立ったら、チャンネル登録して、",
+        "次回も一緒に確認しましょう。"
+      ],
+      "segment_id": 72
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "section_label": "導入",
+      "layout": "layout_01_hero",
+      "render_mode": "gpt_image",
+      "fit_mode": "full_bleed",
+      "text_render_mode": "codex",
+      "image_prompt": "Create a calm, reassuring visual of an older Japanese adult receiving a phone call while holding a landline handset, with a large abstract green confirmation check mark floating nearby and a soft blue arrow suggesting hang up and verify. Keep the person and phone prominent on the right half and leave the left half clean and bright for later Codex Japanese text. The emotional tone is calm confidence, not fear. No police badges, no arrest warrants, no phone numbers, no app UI, no readable text, no brand marks.",
+      "main_message": "まずは電話を切って、確認",
+      "headline": "「警察です」と言われたら",
+      "support_text": "こわがる前に、確認する",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "slow_push_in",
+      "start_segment": 1,
+      "end_segment": 5,
+      "subtitle_ids": [
+        "SUB-001",
+        "SUB-002",
+        "SUB-003",
+        "SUB-004",
+        "SUB-005"
+      ]
+    },
+    {
+      "id": 2,
+      "section_label": "この動画で確認すること",
+      "layout": "layout_02_list",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "確認する順番",
+      "headline": "この動画で確認すること",
+      "support_text": "5つの項目を順番に確認",
+      "items": [
+        "ニセ警察詐欺とは",
+        "「＋」から始まる国際電話",
+        "警察を名乗ってもまず疑う",
+        "LINEに誘導されたら",
+        "今すぐできる対策"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "gentle_fade",
+      "start_segment": 6,
+      "end_segment": 10,
+      "subtitle_ids": [
+        "SUB-006",
+        "SUB-007",
+        "SUB-008",
+        "SUB-009",
+        "SUB-010"
+      ]
+    },
+    {
+      "id": 3,
+      "section_label": "1 / 5",
+      "layout": "layout_08_section",
+      "render_mode": "gpt_image",
+      "fit_mode": "full_bleed",
+      "text_render_mode": "codex",
+      "image_prompt": "Create a simple, friendly visual metaphor for a fraudulent phone call: a large vintage-style telephone handset with big abstract blank cards floating behind it, in calm white, blue and green. Leave the left half clean for a later Codex headline layer. No police badges, no arrest warrants, no numbers, no readable text, no tiny details.",
+      "main_message": "数字で見る被害の実態",
+      "headline": "ニセ警察詐欺",
+      "support_text": "警察官のふりをして、お金をだましとる",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "section_fade",
+      "start_segment": 11,
+      "end_segment": 11,
+      "subtitle_ids": [
+        "SUB-011"
+      ]
+    },
+    {
+      "id": 4,
+      "section_label": "1 / 5 ニセ警察詐欺とは",
+      "layout": "layout_07_summary",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "令和7年確定値・令和8年5月末暫定値",
+      "headline": "被害は続いています",
+      "support_text": "警察庁SOS47の公表値",
+      "items": [
+        "令和7年: 認知11,014件・被害約1,005億円",
+        "特殊詐欺の被害額の約7割",
+        "令和8年5月末まで: 約403億円",
+        "上半期は70代の被害が最多"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "summary_stagger",
+      "start_segment": 12,
+      "end_segment": 19,
+      "subtitle_ids": [
+        "SUB-012",
+        "SUB-013",
+        "SUB-014",
+        "SUB-015",
+        "SUB-016",
+        "SUB-017",
+        "SUB-018",
+        "SUB-019"
+      ]
+    },
+    {
+      "id": 5,
+      "section_label": "1 / 5 ニセ警察詐欺とは",
+      "layout": "layout_03_visual_text",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "電話 → 理由づけ → 送金要求",
+      "headline": "よくある流れ",
+      "support_text": "口座不正利用・携帯不正契約などの理由で不安をあおる",
+      "items": [
+        "「口座が犯罪に使われている」",
+        "「資産を守る」「口座を調べる」",
+        "偽の警察手帳・逮捕状画像",
+        "すべてウソの資料"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "gentle_fade",
+      "start_segment": 20,
+      "end_segment": 24,
+      "subtitle_ids": [
+        "SUB-020",
+        "SUB-021",
+        "SUB-022",
+        "SUB-023",
+        "SUB-024"
+      ]
+    },
+    {
+      "id": 6,
+      "section_label": "2 / 5",
+      "layout": "layout_08_section",
+      "render_mode": "gpt_image",
+      "fit_mode": "full_bleed",
+      "text_render_mode": "codex",
+      "image_prompt": "Create a clean visual metaphor for international calls: a simplified abstract globe with a few dotted lines connecting to a telephone handset, in calm white, blue and green. Leave the left half clean for a later Codex headline layer. No country names, no phone numbers, no readable text, no app UI, no brand marks.",
+      "main_message": "海外からの着信の見分け方",
+      "headline": "＋から始まる番号",
+      "support_text": "＋81以外の国コードに注意",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "section_fade",
+      "start_segment": 25,
+      "end_segment": 25,
+      "subtitle_ids": [
+        "SUB-025"
+      ]
+    },
+    {
+      "id": 7,
+      "section_label": "2 / 5 「＋」から始まる番号とは",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "番号の先頭で見分ける",
+      "headline": "国コードで判断",
+      "support_text": "「＋81」は日本／それ以外は国際電話",
+      "items": [
+        "＋81は日本の国番号",
+        "＋81以外は国際電話の可能性。知らない番号は慎重に確認"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "gentle_fade",
+      "start_segment": 26,
+      "end_segment": 29,
+      "subtitle_ids": [
+        "SUB-026",
+        "SUB-027",
+        "SUB-028",
+        "SUB-029"
+      ],
+      "compare_cards": [
+        {
+          "title": "＋81",
+          "body": "日本の国番号",
+          "color": "blue-card"
+        },
+        {
+          "title": "＋81以外",
+          "body": "国際電話の可能性\n知らない番号は慎重に確認",
+          "color": "green-card"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "section_label": "2 / 5 「＋」から始まる番号とは",
+      "layout": "layout_06_caution",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "末尾「0110」で警察署を装う事例も目立つ",
+      "headline": "番号だけは信じない",
+      "headline_scale": 0.85,
+      "support_text": "警察庁の発表では、特殊詐欺の電話の約75.5％が国際電話",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 30,
+      "end_segment": 31,
+      "subtitle_ids": [
+        "SUB-030",
+        "SUB-031"
+      ]
+    },
+    {
+      "id": 9,
+      "section_label": "3 / 5",
+      "layout": "layout_08_section",
+      "render_mode": "gpt_image",
+      "fit_mode": "full_bleed",
+      "text_render_mode": "codex",
+      "image_prompt": "Create a calm visual metaphor for verifying who is calling: a large abstract green check mark and a magnifying glass over a simple telephone silhouette, blue and green palette. Leave the left half clean for a later Codex headline layer. No police badges, no badges, no readable text, no app UI.",
+      "main_message": "警察官が「しないこと」で見分ける",
+      "headline": "警察を名乗る",
+      "support_text": "4つのポイントを確認",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "section_fade",
+      "start_segment": 32,
+      "end_segment": 33,
+      "subtitle_ids": [
+        "SUB-032",
+        "SUB-033"
+      ]
+    },
+    {
+      "id": 10,
+      "section_label": "3 / 5 警察を名乗っても、まず疑うポイント",
+      "layout": "layout_07_summary",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "本物の警察官がしない4つのこと",
+      "headline": "これらはすべて詐欺のサイン",
+      "support_text": "警察庁SOS47「ニセ警察詐欺に注意！」",
+      "items": [
+        "電話で捜査対象と伝える",
+        "LINEなどで連絡する",
+        "手帳・逮捕状の画像を送る",
+        "突然ビデオ通話をかける"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "summary_stagger",
+      "start_segment": 34,
+      "end_segment": 38,
+      "subtitle_ids": [
+        "SUB-034",
+        "SUB-035",
+        "SUB-036",
+        "SUB-037",
+        "SUB-038"
+      ]
+    },
+    {
+      "id": 11,
+      "section_label": "3 / 5 警察を名乗っても、まず疑うポイント",
+      "layout": "layout_06_caution",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "警察署の実在番号でも、偽装の可能性があります",
+      "headline": "番号で判断しない",
+      "headline_scale": 0.85,
+      "support_text": "自分で調べた番号へ\n＃9110へ相談\n教えられた番号、かけない",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 39,
+      "end_segment": 41,
+      "subtitle_ids": [
+        "SUB-039",
+        "SUB-040",
+        "SUB-041"
+      ]
+    },
+    {
+      "id": 12,
+      "section_label": "4 / 5",
+      "layout": "layout_08_section",
+      "render_mode": "gpt_image",
+      "fit_mode": "full_bleed",
+      "text_render_mode": "codex",
+      "image_prompt": "Create a reassuring visual metaphor for ending a suspicious call: two simple smartphone and chat-bubble shapes with a soft separation arrow between them, calm blue and green. Leave the left half clean for a later Codex headline layer. No chat UI, no LINE logo, no readable text, no brand marks.",
+      "main_message": "誘導された時点で詐欺",
+      "headline": "LINE誘導は詐欺",
+      "support_text": "ブロック・通報・相談",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "section_fade",
+      "start_segment": 42,
+      "end_segment": 43,
+      "subtitle_ids": [
+        "SUB-042",
+        "SUB-043"
+      ]
+    },
+    {
+      "id": 13,
+      "section_label": "4 / 5 LINEに誘導されたらどうするか",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "codex",
+      "main_message": "警察がLINEのトークやビデオ通話で連絡を取ることはありません",
+      "headline": "国民生活センターの明言",
+      "support_text": "個人名義の口座への送金もありません",
+      "official_asset": [
+        {
+          "kind": "image",
+          "path": "assets/official/kokusen_line_police.png",
+          "label": "国民生活センター公式：警察を名乗る電話に注意！",
+          "source": "SRC-011"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "official_hold",
+      "start_segment": 44,
+      "end_segment": 48,
+      "subtitle_ids": [
+        "SUB-044",
+        "SUB-045",
+        "SUB-046",
+        "SUB-047",
+        "SUB-048"
+      ]
+    },
+    {
+      "id": 14,
+      "section_label": "4 / 5 LINEに誘導されたらどうするか",
+      "layout": "layout_07_summary",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "誘導されたら3つ＋1人で対応しない",
+      "headline": "とるべき行動",
+      "support_text": "「誰にも言うな」は犯人側の常套句",
+      "items": [
+        "相手をブロック",
+        "LINEの中で通報",
+        "被害がなくても警察に相談",
+        "家族や周りに必ず共有"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "summary_stagger",
+      "start_segment": 49,
+      "end_segment": 55,
+      "subtitle_ids": [
+        "SUB-049",
+        "SUB-050",
+        "SUB-051",
+        "SUB-052",
+        "SUB-053",
+        "SUB-054",
+        "SUB-055"
+      ]
+    },
+    {
+      "id": 15,
+      "section_label": "5 / 5",
+      "layout": "layout_08_section",
+      "render_mode": "gpt_image",
+      "fit_mode": "full_bleed",
+      "text_render_mode": "codex",
+      "image_prompt": "Create a simple, calming checklist metaphor with three large blank check cards and a hand confirming one item, plus a landline handset silhouette on the right. Leave the left half clean for later Codex Japanese text. Use white, blue and green. No readable text, no numbers, no app UI, no brand marks, no tiny decoration.",
+      "main_message": "3つの対策",
+      "headline": "今すぐできる対策",
+      "support_text": "固定電話・スマホ・家族の約束",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "section_fade",
+      "start_segment": 56,
+      "end_segment": 56,
+      "subtitle_ids": [
+        "SUB-056"
+      ]
+    },
+    {
+      "id": 16,
+      "section_label": "5 / 5 今すぐできる対策",
+      "layout": "layout_06_caution",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "固定電話: 国際電話の利用休止を申し込む",
+      "headline": "国際電話の利用休止",
+      "headline_scale": 0.85,
+      "support_text": "0120-210-364（無料・固定電話とひかり電話が対象）／最寄りの警察署でも手続きを支援",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "start_segment": 57,
+      "end_segment": 60,
+      "subtitle_ids": [
+        "SUB-057",
+        "SUB-058",
+        "SUB-059",
+        "SUB-060"
+      ]
+    },
+    {
+      "id": 17,
+      "section_label": "5 / 5 今すぐできる対策",
+      "layout": "layout_07_summary",
+      "render_mode": "template",
+      "text_render_mode": "codex",
+      "main_message": "スマホと家族の対策",
+      "headline": "今すぐ確認する設定と約束",
+      "support_text": "機種によって使える機能は違います",
+      "items": [
+        "番号非通知の着信を拒否",
+        "登録外番号の着信を拒否",
+        "警察庁推奨アプリ等で国際電話を警告・ブロック",
+        "家族と「警察と言われたらまず相談」の約束"
+      ],
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "summary_stagger",
+      "start_segment": 61,
+      "end_segment": 65,
+      "subtitle_ids": [
+        "SUB-061",
+        "SUB-062",
+        "SUB-063",
+        "SUB-064",
+        "SUB-065"
+      ]
+    },
+    {
+      "id": 18,
+      "section_label": "まとめ",
+      "layout": "layout_01_hero",
+      "render_mode": "gpt_image",
+      "fit_mode": "full_bleed",
+      "text_render_mode": "codex",
+      "image_prompt": "Create a warm, trustworthy closing illustration of two older adults and a family member talking together calmly beside a telephone, with a large abstract green confirmation mark and a soft blue path. Keep the people on the right half and leave the left half clean for later Codex Japanese text. The feeling is relief and shared safety, not fear. No police badges, no arrest warrants, no phone numbers, no readable text, no brand marks.",
+      "main_message": "あなたはひとりではありません",
+      "headline": "今日から3つ",
+      "support_text": "切る・相談・ブロック\n相談は＃9110・188",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "slow_push_in",
+      "start_segment": 66,
+      "end_segment": 72,
+      "subtitle_ids": [
+        "SUB-066",
+        "SUB-067",
+        "SUB-068",
+        "SUB-069",
+        "SUB-070",
+        "SUB-071",
+        "SUB-072"
+      ]
+    }
+  ],
+  "publish": {
+    "title": "【ニセ警察詐欺】「警察です」と電話が来たら？まず切って確認｜LINE誘導・国際電話",
+    "description": "「警察です」と名乗る電話（ニセ警察詐欺）が増えています。警察庁の令和7年確定値では認知件数11,014件・被害額約1,005億円、令和8年5月末の暫定値でも被害は続いています。この動画では、警察を名乗る電話の見分け方、「＋」から始まる国際電話の注意点、LINEへの誘導への対応、今すぐできる対策を、警察庁・国民生活センター・総務省の公表内容に沿ってやさしく説明します。\n\n主な根拠（確認日: 2026年8月31日）:\n警察庁SOS47 令和7年確定値 https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/260605/01.html\n警察庁SOS47 令和8年5月末暫定値 https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/260703/01.html\n警察庁SOS47 ニセ警察詐欺に注意！ https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/241218/02.html\n警察庁SOS47 国際電話詐欺「みんとめ」 https://www.npa.go.jp/bureau/safetylife/sos47/case/international-phone/\n国民生活センター 警察を名乗る電話に注意！ https://www.kokusen.go.jp/news/data/n-20250423_2.html\n総務省 特殊詐欺等への対応に関する要請 https://www.soumu.go.jp/menu_news/s-news/01kiban18_01000251.html\n\n相談窓口: 警察相談専用電話＃9110、消費者ホットライン188、国際電話不取扱受付センター0120-210-364（固定電話・ひかり電話）\n※機種や契約により使える機能は異なります。\n\nナレーション：VOICEVOX:剣崎雌雄",
+    "chapters": [
+      "00:00 「警察です」電話が増えています",
+      "00:50 ニセ警察詐欺とは",
+      "02:00 「＋」から始まる番号",
+      "02:50 警察を名乗ってもまず疑う",
+      "03:50 LINEに誘導されたら",
+      "05:00 今すぐできる対策",
+      "06:20 まとめ"
+    ],
+    "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
+    "contains_synthetic_media": true
+  }
+}

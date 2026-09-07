@@ -1,0 +1,15 @@
+{
+  "episode": "005_google_photos_delete",
+  "status": "uploaded_scheduled_verification_failed",
+  "mode": "scheduled",
+  "final_sha256": "F52D20E3E5DF014A681EAD5AE8A3CE33F7654E9C55A366FA8428373DD102E597",
+  "title": "【Googleフォト】写真を消して大丈夫？「削除」と「空き容量を増やす」の違い",
+  "requested_privacy": "private",
+  "publish_at_local": "2026-09-08 19:00:00 JST",
+  "publish_at_api": "2026-09-08T10:00:00Z",
+  "started_at": "2026-09-01T23:15:10Z",
+  "video_id": "T6XHnYt1XXc",
+  "uploaded_at": "2026-09-01T23:15:15Z",
+  "error": "PublishError",
+  "thumbnail_uploaded": true
+}

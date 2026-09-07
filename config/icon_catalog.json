@@ -1,0 +1,130 @@
+{
+  "library": "Material Symbols Rounded (Google)",
+  "license": "Apache License 2.0",
+  "source": "https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsrounded/ および https://github.com/google/material-design-icons/tree/master/symbols/web",
+  "download_note": "48px SVG（*_rounded_wght700_48px.svg）をGoogle公式配布元から取得・採番。tint PNG（512x512透明背景）はscripts属地処理（svglib+reportlab+pypdfium2）で生成。",
+  "catalog": {
+    "login_problem": "login",
+    "device_lock": "lock",
+    "biometric": "fingerprint",
+    "card_read": "contactless",
+    "do_not_retry": "block",
+    "official_support": "support_agent",
+    "ad_campaign": "campaign",
+    "warn_message": "warning",
+    "chat_redirect": "forum",
+    "group_sakura": "groups",
+    "group_isolate": "group_off",
+    "official_check": "verified_user",
+    "transfer_payment": "payments",
+    "account_balance_stat": "account_balance"
+  },
+  "tonal_stages": {
+    "navy": "#e9edf5",
+    "blue": "#eaf4ff",
+    "green": "#eaf7ee",
+    "amber": "#fdf3e0"
+  },
+  "icon_fill_colors": {
+    "navy": "#173A68",
+    "blue": "#2F74BB",
+    "green": "#3F8C58",
+    "amber": "#C07D1E"
+  },
+  "usage_episode_007": [
+    {
+      "scene_id": 1,
+      "meaning": "login_problem",
+      "icon_name": "login",
+      "icon_tone": "navy"
+    },
+    {
+      "scene_id": 6,
+      "meaning": "device_lock",
+      "icon_name": "lock",
+      "icon_tone": "blue"
+    },
+    {
+      "scene_id": 10,
+      "meaning": "card_read",
+      "icon_name": "contactless",
+      "icon_tone": "blue"
+    },
+    {
+      "scene_id": 13,
+      "meaning": "do_not_retry",
+      "icon_name": "block",
+      "icon_tone": "amber"
+    },
+    {
+      "scene_id": 20,
+      "meaning": "official_support",
+      "icon_name": "support_agent",
+      "icon_tone": "green"
+    }
+  ],
+  "usage_episode_008": [
+    {
+      "scene_id": 2,
+      "meaning": "ad_campaign",
+      "icon_name": "campaign",
+      "icon_tone": "navy"
+    },
+    {
+      "scene_id": 5,
+      "meaning": "account_balance_stat",
+      "icon_name": "account_balance",
+      "icon_tone": "blue"
+    },
+    {
+      "scene_id": 7,
+      "meaning": "warn_message",
+      "icon_name": "warning",
+      "icon_tone": "amber"
+    },
+    {
+      "scene_id": 9,
+      "meaning": "chat_redirect",
+      "icon_name": "forum",
+      "icon_tone": "blue"
+    },
+    {
+      "scene_id": 10,
+      "meaning": "group_sakura",
+      "icon_name": "groups",
+      "icon_tone": "amber"
+    },
+    {
+      "scene_id": 11,
+      "meaning": "group_isolate",
+      "icon_name": "group_off",
+      "icon_tone": "amber"
+    },
+    {
+      "scene_id": 12,
+      "meaning": "chat_redirect",
+      "icon_name": "forum",
+      "icon_tone": "green"
+    },
+    {
+      "scene_id": 14,
+      "meaning": "official_check",
+      "icon_name": "verified_user",
+      "icon_tone": "green"
+    },
+    {
+      "scene_id": 15,
+      "meaning": "transfer_payment",
+      "icon_name": "payments",
+      "icon_tone": "amber"
+    }
+  ],
+  "selection_policy": "sceneの意味から該当するsemantic icon（記号のみで済ませない）を選ぶ。単純な「!」「✓」「?」の自作バッジは使わない。",
+  "permanent_visual_rules": {
+    "no_oversized_decorative_checkmark": "チェックマークは完了・選択等の意味を明示する小さな補助記号としてのみ使用し、大きな装飾・空間埋め・公式素材placeholder・主ビジュアルには使わない。",
+    "no_meaningless_filler_icon": "lock/shield/question/success等のアイコンを、意味なしに空間埋めへ使わない。意味を持つ場合のみ小〜中サイズの補助として使う。",
+    "icon_size_policy": "template explanatory sceneのsemantic iconは主見出しより強くせず、単体で画面面積の20%以上を占有しない。official information sceneではさらに小さな補助に限定する。",
+    "official_asset_missing": "公式素材未配置のPhase Aはneutral visual frameを使い、viewer-facingのplaceholder/pending文字を描かない。",
+    "official_visual_centroid": "公式2カラムは左の要点と右の公式素材枠を両方占有し、visual_centroid_preflightで実画像の重心を確認する。"
+  }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "term_01_windows11",
+    "surface": "Windows 11",
+    "example_text": "Windows 11を使っている方は、まず確認しましょう。"
+  },
+  {
+    "id": "term_02_windows",
+    "surface": "Windows",
+    "example_text": "自分のWindowsのバージョンを確認します。"
+  },
+  {
+    "id": "term_03_microsoft",
+    "surface": "Microsoft",
+    "example_text": "Microsoftの公式情報を確認します。"
+  },
+  {
+    "id": "term_04_24h2",
+    "surface": "24H2",
+    "example_text": "バージョン24H2かどうかを確認します。"
+  },
+  {
+    "id": "term_05_25h2",
+    "surface": "25H2",
+    "example_text": "次の候補として25H2が表示されることがあります。"
+  },
+  {
+    "id": "term_06_26h1",
+    "surface": "26H1",
+    "example_text": "26H1は既存のパソコンの通常の更新先ではありません。"
+  },
+  {
+    "id": "term_07_home",
+    "surface": "Home",
+    "example_text": "HomeとProでは、確認する日付が共通する場合があります。"
+  },
+  {
+    "id": "term_08_pro",
+    "surface": "Pro",
+    "example_text": "家庭でよく使われるProの方も、バージョンを確認します。"
+  },
+  {
+    "id": "term_09_windows_update",
+    "surface": "Windows Update",
+    "example_text": "Windows Updateを開いて、更新を確認します。"
+  },
+  {
+    "id": "term_10_date",
+    "surface": "10月13日",
+    "example_text": "更新終了日は10月13日です。"
+  },
+  {
+    "id": "term_11_year",
+    "surface": "2026年",
+    "example_text": "2026年の更新について確認します。"
+  }
+]

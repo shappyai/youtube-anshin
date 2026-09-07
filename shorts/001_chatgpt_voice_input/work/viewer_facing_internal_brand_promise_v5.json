@@ -1,0 +1,25 @@
+{
+  "rule": "viewer_facing_internal_brand_promise",
+  "internal_brand_promise": "怖がらせる前に、確認する。",
+  "classification": "INTERNAL_ONLY",
+  "viewer_facing_expected_count": 0,
+  "viewer_facing_count": 0,
+  "status": "PASS",
+  "targets": [
+    {
+      "kind": "short",
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\001_chatgpt_voice_input\\short.json",
+      "rule": "viewer_facing_internal_brand_promise",
+      "internal_brand_promise": "怖がらせる前に、確認する。",
+      "classification": "INTERNAL_ONLY",
+      "viewer_facing_expected_count": 0,
+      "viewer_facing_count": 0,
+      "status": "PASS",
+      "coverage": [
+        "Shorts title/script/caption metadata",
+        "Shorts render/ImageGen manifests and overlay files"
+      ],
+      "hits": []
+    }
+  ]
+}

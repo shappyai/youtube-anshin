@@ -1,0 +1,19 @@
+shot_id,filename,use,notes,status
+SHOT-01,assets/generated_ai/scene_001.png,導入の安心画面,LINE UIを生成しない; GPT生成待ち,required
+SHOT-02,template/layout_02_list,確認項目一覧,Codexテンプレート,ready
+SHOT-03,assets/generated_ai/scene_003.png,1 / 5 セクション扉,抽象的な入口; GPT生成待ち,required
+SHOT-04,assets/official/chat_new_overview.png,新トークタブ全体,LINE公式ガイド素材,downloaded
+SHOT-05,assets/official/chat_new_tabs.png,トークと友だちの2タブ,上部クロップを使用,downloaded
+SHOT-06,assets/official/chat_tabs_switch_1.png;assets/official/chat_tabs_switch_2.png,タブ切り替え,公式の赤枠付き画面,downloaded
+SHOT-07,template/layout_08_section,2 / 5 セクション扉,Codexテンプレート,ready
+SHOT-08,assets/official/chat_plus_menu.png,プラスメニュー,公式のiOS/Android比較,downloaded
+SHOT-09,assets/official/chat_brown_historical.png,ブラウン案内の補足,リニューアル当時の画面としてのみ使用,downloaded
+SHOT-10,assets/generated_ai/scene_010.png,3 / 5 セクション扉,抽象的なホームの入口; GPT生成待ち,required
+SHOT-11,assets/official/home_new_overview.png,ホームタブ全体,LINE公式ガイド素材,downloaded
+SHOT-12,assets/official/home_activity_content.png;assets/official/home_activity_detail.jpeg,アクティビティとコンテンツ,公式素材を2画面で使用,downloaded
+SHOT-13,assets/generated_ai/scene_013.png,4 / 5 セクション扉,段階的公開の概念; GPT生成待ち,required
+SHOT-14,assets/generated_ai/scene_014.png,表示時期の違い,抽象スマホ2台; GPT生成待ち,required
+SHOT-15,template/layout_06_caution,旧画面への復帰について,断定を避けるテンプレート,ready
+SHOT-16,assets/generated_ai/scene_016.png,5 / 5 セクション扉,空のチェック項目; GPT生成待ち,required
+SHOT-17,template/layout_07_summary,今やること3つ,Codexテンプレート,ready
+SHOT-18,assets/generated_ai/scene_018.png,まとめとCTA,安心の抽象画; GPT生成待ち,required

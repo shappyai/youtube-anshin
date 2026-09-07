@@ -1,0 +1,61 @@
+{
+  "episode_id": "011",
+  "version": "v2",
+  "phase": "B",
+  "purpose": "マイナ保険証を口実にした自動音声・電話詐欺で、電話を受けたその場の3行動を先に示す。",
+  "global_visual_policy": {
+    "background": "adult_digital_soft_image_bg",
+    "background_asset": "assets/backgrounds/adult_digital_soft_v2.png",
+    "fit": "cover",
+    "subtitle_safe_bottom_px": 180,
+    "overlay_decorations": false,
+    "typography": "headline 88〜120px / main 64〜80px / secondary 52px以上 / source 44〜48px以上",
+    "semantic_icon": "Material Symbols Rounded。alpha bbox trimとvisual center normalizationをrendererで適用。",
+    "screen_policy": "全体画面は場所理解のため短く、読ませる文言・数字は大きく表示する。",
+    "privacy": "実音声・実在電話番号・個人情報・偽の政府ロゴ・公式UIのAI再現を使わない。"
+  },
+  "official_source_capture": {
+    "source_url": "https://www.mhlw.go.jp/stf/newpage_44734.html",
+    "method": "確認済み公式本文の核心1メッセージを正確に大きく組んだ全画面quote。実在UIや政府ロゴを描き直さない。",
+    "asset": "assets/official/mhlw_warning_core_v1.png",
+    "exact_text_qa": "PASS（公式本文の核心を短く表示。意味を変えない要約で、出典ラベルを併記）",
+    "legibility": "PASS候補。核心メッセージは64px以上、出典ラベルは48px以上。最終は元画像で人間確認。"
+  },
+  "scenes": [
+    {"id": "SCENE-001", "segment_range": "001-003", "purpose": "電話文言、停止、厚労省の結論を15秒以内に提示", "render_mode": "gpt_image", "text_render_mode": "imagegen_native", "asset": "assets/generated_ai/scene_001.png", "visual_focal_point": "スマホを前に一度止まる高齢者", "text_safe_area": "左上〜左中央。下部180pxは字幕帯として空ける", "animation_recommendation": "very_slow_zoom", "human_review": "指定日本語2行の完全一致、実在UI・ロゴ・番号なし"},
+    {"id": "SCENE-002", "segment_range": "004", "purpose": "架空の短い電話文言と再現イメージであることを示し、3つの確認へつなぐ", "render_mode": "template", "text_render_mode": "pil_overlay", "asset": "template", "visual_focal_point": "dialpad semantic iconと短い見出し", "text_safe_area": "中央軸。下部180pxを空ける", "animation_recommendation": "static", "human_review": "再現イメージの明示、実音声なし"},
+    {"id": "SCENE-004", "segment_range": "005", "purpose": "3つの行動を早い段階で一覧表示", "render_mode": "template", "text_render_mode": "pil_overlay", "asset": "template", "visual_focal_point": "3行の大きなrounded list", "text_safe_area": "中央軸。下部180pxを空ける", "animation_recommendation": "static", "human_review": "3本以外のチェック項目を追加しない"},
+    {"id": "SCENE-003", "segment_range": "006-008", "purpose": "厚労省公式の核心1メッセージを全画面で大きく読ませる", "render_mode": "official", "text_render_mode": "pil_overlay", "asset": "assets/official/mhlw_warning_core_v1.png", "visual_focal_point": "電話・SMSによる直接の利用登録要求ではないという核心文", "text_safe_area": "核心文と出典は下部字幕帯の上に配置", "animation_recommendation": "static", "human_review": "公式本文の意味を変えない核心表示、公式画面への誤認なし、本文の可読性"},
+    {"id": "SCENE-005", "segment_range": "009", "purpose": "1 / 3の区切り", "render_mode": "template", "text_render_mode": "pil_overlay", "asset": "template", "visual_focal_point": "block semantic iconと番号を押さない", "text_safe_area": "中央軸。section pillは左上", "animation_recommendation": "static", "human_review": "amberは注意の補助に限定"},
+    {"id": "SCENE-006", "segment_range": "010", "purpose": "その場で操作しない具体策", "render_mode": "template", "text_render_mode": "pil_overlay", "asset": "template", "visual_focal_point": "block semantic iconと停止メッセージ", "text_safe_area": "中央軸。下部180pxを空ける", "animation_recommendation": "static", "human_review": "1番を押した瞬間の被害と断定しない"},
+    {"id": "SCENE-007", "segment_range": "011-012", "purpose": "電話を終え、相手の番号へ折り返さない流れ", "render_mode": "template", "text_render_mode": "pil_overlay", "asset": "template", "visual_focal_point": "block semantic iconと安心できる注意表示", "text_safe_area": "中央軸。下部180pxを空ける", "animation_recommendation": "static", "human_review": "恐怖演出なし、落ち着いた行動へ着地"},
+    {"id": "SCENE-019", "segment_range": "013", "purpose": "中盤CTA。公式確認を次回も使える登録理由として短く伝える", "render_mode": "template", "text_render_mode": "pil_overlay", "asset": "template", "visual_focal_point": "verified_user semantic iconと静かな2行メッセージ", "text_safe_area": "中央軸。下部180pxを空ける", "animation_recommendation": "static", "human_review": "疑似subscribeボタン・赤い登録演出・恐怖語なし。5〜7秒で本編へ戻る"},
+    {"id": "SCENE-008", "segment_range": "014", "purpose": "2 / 3の区切り", "render_mode": "template", "text_render_mode": "pil_overlay", "asset": "template", "visual_focal_point": "lock semantic iconと情報を伝えない", "text_safe_area": "中央軸。section pillは左上", "animation_recommendation": "static", "human_review": "lockは意味補助としてheadlineより小さく"},
+    {"id": "SCENE-009", "segment_range": "015", "purpose": "伝えない情報を5項目に整理", "render_mode": "template", "text_render_mode": "pil_overlay", "asset": "template", "visual_focal_point": "5枚の淡色list card", "text_safe_area": "中央軸。各項目は44px未満にしない", "animation_recommendation": "static", "human_review": "電話・SMS一般論に広げない"},
+    {"id": "SCENE-010", "segment_range": "016-018", "purpose": "暗証番号とカード情報を渡さない。関連する手続きの混同を解く", "render_mode": "template", "text_render_mode": "pil_overlay", "asset": "template", "visual_focal_point": "lock semantic iconと短い注意", "text_safe_area": "中央軸。下部180pxを空ける", "animation_recommendation": "static", "human_review": "マイナアプリ利用登録・マイナポータル利用者登録・病院受付を同一視しない"},
+    {"id": "SCENE-011", "segment_range": "019", "purpose": "3 / 3の区切り", "render_mode": "template", "text_render_mode": "pil_overlay", "asset": "template", "visual_focal_point": "verified_user semantic iconと公式から確認", "text_safe_area": "中央軸。section pillは左上", "animation_recommendation": "static", "human_review": "公式確認の意味を明確にする"},
+    {"id": "SCENE-012", "segment_range": "020-023", "purpose": "相手の番号・リンクではなく、公式の登録方法を自分で開く", "render_mode": "template", "text_render_mode": "pil_overlay", "asset": "template", "visual_focal_point": "verified_user semantic iconと公式への導線", "text_safe_area": "中央軸。下部180pxを空ける", "animation_recommendation": "static", "human_review": "電話登録やSMSリンク登録が公式とは言わない"},
+    {"id": "SCENE-013", "segment_range": "024-026", "purpose": "公式のマイナンバー総合フリーダイヤルと問い合わせメニューを表示", "render_mode": "template", "text_render_mode": "pil_overlay", "asset": "template", "visual_focal_point": "0120-95-0178の大きな数字", "text_safe_area": "中央の数字panel。下部180pxを空ける", "animation_recommendation": "static", "human_review": "数字、5番、受付時間、出典表記を確認"},
+    {"id": "SCENE-014", "segment_range": "027-028", "purpose": "通常の不審電話相談先を表示", "render_mode": "template", "text_render_mode": "pil_overlay", "asset": "template", "visual_focal_point": "#9110の大きな数字とsupport_agent", "text_safe_area": "中央の数字panel。下部180pxを空ける", "animation_recommendation": "static", "human_review": "#9110を緊急番号として説明しない"},
+    {"id": "SCENE-015", "segment_range": "029-030", "purpose": "110と#9110の用途を分ける", "render_mode": "template", "text_render_mode": "pil_overlay", "asset": "template", "visual_focal_point": "warning semantic iconと緊急時の説明", "text_safe_area": "中央軸。下部180pxを空ける", "animation_recommendation": "static", "human_review": "緊急時110、通常相談#9110の使い分け"},
+    {"id": "SCENE-016", "segment_range": "031-035", "purpose": "押しただけと情報を伝えた場合を分け、相談先へつなぐ", "render_mode": "template", "text_render_mode": "pil_overlay", "asset": "template", "visual_focal_point": "2カラムの比較カード", "text_safe_area": "カード内の本文52px以上。下部180pxを空ける", "animation_recommendation": "static", "human_review": "被害を断定せず、情報を伝えた場合だけ相談先を明確にする"},
+    {"id": "SCENE-017", "segment_range": "036-037", "purpose": "3つを一枚で復習", "render_mode": "template", "text_render_mode": "pil_overlay", "asset": "template", "visual_focal_point": "3行summary list", "text_safe_area": "中央軸。下部180pxを空ける", "animation_recommendation": "static", "human_review": "3つの表現が本編と一致"},
+    {"id": "SCENE-018", "segment_range": "038-039", "purpose": "迷ったらその場で決めない、を安心して残す", "render_mode": "gpt_image", "text_render_mode": "imagegen_native", "asset": "assets/generated_ai/scene_018.png", "visual_focal_point": "スマホを伏せて確認を選ぶ穏やかな場面と、ImageGen内の大きな主文", "text_safe_area": "主文は左48%へ一体生成。右40〜45%はEnd Screen reserved。下部180pxを空ける", "animation_recommendation": "very_slow_zoom", "human_review": "ImageGen native exact text、余計な文字・文字欠けなし、CTA・疑似subscribe要素なし、reserved領域と字幕安全帯"}
+  ],
+  "counts": {
+    "scene_count": 19,
+    "official_source_scene_count": 4,
+    "imagegen_scene_count": 2,
+    "template_scene_count": 16,
+    "official_render_scene_count": 1
+  },
+  "phase_a_gate_result": "APPROVED_WITH_2_FIXES（SCENE-003可読性、Episode010実使用CTA照合）",
+  "phase_b_status": {
+    "voicevox": "PASS（39 segments; 239.611秒）",
+    "subtitles_srt": "PASS（39 cues; captions.srt / captions.ass）",
+    "draft": "PASS（output/draft_v2.mp4; 全編人間視聴待ち。SCENE-018はImageGen-native）",
+    "thumbnail_generation": "not started; brief only",
+    "cta_generation": "Episode010 draft_v1実使用のregistration_conversion_v1をpostrollへ完全再利用。midrollはSCENE-019、実測6.496秒",
+    "next_gate": "人間によるdraft_v2全編視聴。発音、字幕、SCENE-003、SCENE-018 native文字、電話番号、CTA、AI disclosure要否を最終確認"
+  }
+}

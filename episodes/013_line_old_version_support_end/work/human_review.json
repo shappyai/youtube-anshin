@@ -1,0 +1,21 @@
+{
+  "episode_id": "013",
+  "reviewed_at": "2026-09-07",
+  "status": "APPROVED_WITH_ONE_FIX",
+  "source_draft": "output/draft_v1.mp4",
+  "video": {
+    "draft_v2.mp4": "approved"
+  },
+  "approval_scope": "Human Draft Gate approval carries forward after the single specified viewer-facing text fix; no new Draft Gate requested.",
+  "approved_fix": {
+    "scene": "SCENE-024",
+    "field": "main_message",
+    "removed_viewer_facing_text": "怖がらせる前に、確認する。",
+    "replacement_viewer_facing_text": "今日の3つを確認",
+    "audio_changed": false,
+    "subtitles_changed": false,
+    "imagegen_assets_changed": false,
+    "real_captures_changed": false
+  },
+  "notes": "The internal brand promise remains INTERNAL_ONLY in internal metadata/docs and is forbidden in viewer-facing assets. Corrected draft_v2 is approved for copy-only finalization."
+}

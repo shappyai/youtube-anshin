@@ -1,0 +1,26 @@
+{
+  "source": "shorts/work/ChatGPT Voice画面録画.MP4",
+  "source_duration_sec": 19.28,
+  "selected_start_sec": 3.8,
+  "selected_end_sec": 12.8,
+  "selected_duration_sec": 9.0,
+  "visual_states": [
+    {
+      "source_start_sec": 3.8,
+      "source_end_sec": 10.9,
+      "state": "dictating"
+    },
+    {
+      "source_start_sec": 10.9,
+      "source_end_sec": 11.8,
+      "state": "transcription_progress"
+    },
+    {
+      "source_start_sec": 11.8,
+      "source_end_sec": 12.8,
+      "state": "transcribed_question_visible"
+    }
+  ],
+  "question": "冷蔵庫にキャベツがあります。簡単な料理を教えてください。",
+  "audio_used": true
+}

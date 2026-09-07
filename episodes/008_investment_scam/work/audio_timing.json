@@ -1,0 +1,572 @@
+{
+  "duration": 321.804,
+  "segments": [
+    {
+      "segment_id": 1,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\001.wav",
+      "hash": "d3b7515625a88411014302f4c55247d6b201c2358f56341ddadeec3334f9afd3",
+      "start_sec": 0.0,
+      "end_sec": 5.024,
+      "duration_sec": 5.024,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 2,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\002.wav",
+      "hash": "daf0072a0d144b40470f62ead33ca6ec06e8759aa2364d21fe36fd279d4c8d7f",
+      "start_sec": 5.324,
+      "end_sec": 7.18,
+      "duration_sec": 1.856,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 3,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\003.wav",
+      "hash": "64e0949025eb75e3ae5adbb5d22784473fb56f76d7154ffa7b01be5df90e6d34",
+      "start_sec": 7.48,
+      "end_sec": 13.187,
+      "duration_sec": 5.707,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 4,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\004.wav",
+      "hash": "23e2b9acd37dddb9a5218b5771687a3b65b7a462d024f28d99e697eff4d5f510",
+      "start_sec": 13.487,
+      "end_sec": 19.385,
+      "duration_sec": 5.899,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 5,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\005.wav",
+      "hash": "0c782926423d26591e5358b0b0d8472c3960c4bbb3d588a6ea2b32e84a10ca33",
+      "start_sec": 19.685,
+      "end_sec": 22.16,
+      "duration_sec": 2.475,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 6,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\006.wav",
+      "hash": "ae2aa75dfb5c33937733f1b1c501d083ae139a27f7800124505a3bc501966221",
+      "start_sec": 22.46,
+      "end_sec": 26.577,
+      "duration_sec": 4.117,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 7,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\007.wav",
+      "hash": "aa19b00672cc36295d03c3522043ea89b1bc1de6188e421679d098e0667e27e1",
+      "start_sec": 26.877,
+      "end_sec": 31.229,
+      "duration_sec": 4.352,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 8,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\008.wav",
+      "hash": "73d01664711295724779caab00d6cae79e8e29d66fd409599257cca808f3b43f",
+      "start_sec": 31.529,
+      "end_sec": 36.532,
+      "duration_sec": 5.003,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 9,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\009.wav",
+      "hash": "9d1cd4c7365461d367f2c9c3ebef40d05801cc3d50bbee197100f245ced3f066",
+      "start_sec": 36.832,
+      "end_sec": 39.584,
+      "duration_sec": 2.752,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 10,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\010.wav",
+      "hash": "747322deb907821e9d1f95225d58c568048d02ba603b8426e3ee549d13eec70b",
+      "start_sec": 39.884,
+      "end_sec": 40.887,
+      "duration_sec": 1.003,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 11,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\011.wav",
+      "hash": "2a583753331e7126d3c27e8b00f48f7a15e1282089d2bb8ba5d49125c3ea069b",
+      "start_sec": 41.187,
+      "end_sec": 45.325,
+      "duration_sec": 4.139,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 12,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\012.wav",
+      "hash": "1be5b205dbfb052574a51d077338109418e514110ac8105c8ae7e50a34491945",
+      "start_sec": 45.625,
+      "end_sec": 49.359,
+      "duration_sec": 3.733,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 13,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\013.wav",
+      "hash": "e6587d65d9a3c750573c8e955ee6f50c8c08b7ae6beeed8be0cad2c9c92778d1",
+      "start_sec": 49.659,
+      "end_sec": 62.235,
+      "duration_sec": 12.576,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 14,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\014.wav",
+      "hash": "14c75304824d7cfa1ab32c1b687d4c8bbb4e168eb8fa0cbd37e43b892c23fa69",
+      "start_sec": 62.535,
+      "end_sec": 67.207,
+      "duration_sec": 4.672,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 15,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\015.wav",
+      "hash": "0c239890a005651fe0b9bc1548ec9a374fe1ba0dfae319229987db88bd817d31",
+      "start_sec": 67.507,
+      "end_sec": 71.901,
+      "duration_sec": 4.395,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 16,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\016.wav",
+      "hash": "d06fc2459e2c5e328474de9f58f2b7ce1639a7152aa17bf714155e68a1a62784",
+      "start_sec": 72.201,
+      "end_sec": 78.601,
+      "duration_sec": 6.4,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 17,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\017.wav",
+      "hash": "8eaa6391067f0933e598cb3c4af017d74567f3ca17c5bfc0903c69511b9b6742",
+      "start_sec": 78.901,
+      "end_sec": 85.813,
+      "duration_sec": 6.912,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 18,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\018.wav",
+      "hash": "20d5769fe7f9ff184d743607e6b880ba3ca924f3ec6240435417bdd96b9a2d45",
+      "start_sec": 86.113,
+      "end_sec": 88.407,
+      "duration_sec": 2.293,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 19,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\019.wav",
+      "hash": "deb0fcaf90396a9feef63f195d00346ae36dfea5bc100fde25933535f4cec76b",
+      "start_sec": 88.707,
+      "end_sec": 91.352,
+      "duration_sec": 2.645,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 20,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\020.wav",
+      "hash": "131fbd85c4c88a1faed28ca7596201de845106ed0aee44f256c0c34a9f4dc86f",
+      "start_sec": 91.652,
+      "end_sec": 100.207,
+      "duration_sec": 8.555,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 21,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\021.wav",
+      "hash": "eac870d78d0b42bb3431b2d78f7a025bfdf1916d578e3dce45d725e3c54c8fb6",
+      "start_sec": 100.507,
+      "end_sec": 106.48,
+      "duration_sec": 5.973,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 22,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\022.wav",
+      "hash": "92c83943487b118200148dd6aa06ef56248ac4893a3ccb43c3f20e232bdeef59",
+      "start_sec": 106.78,
+      "end_sec": 113.799,
+      "duration_sec": 7.019,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 23,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\023.wav",
+      "hash": "8d2d0a0fb289668104bc148054056b57b90b33ba78b6b939360a67d3e384ebcb",
+      "start_sec": 114.099,
+      "end_sec": 121.363,
+      "duration_sec": 7.264,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 24,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\024.wav",
+      "hash": "fe8051e4861965dcfed2271c38d94e42bde17783a84ceaada73f800a480fe48f",
+      "start_sec": 121.663,
+      "end_sec": 128.308,
+      "duration_sec": 6.645,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 25,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\025.wav",
+      "hash": "e84ca51b51243dc99c8d6ef39ec8df7f2796e561ce28fee2d6e84b79852ebd9e",
+      "start_sec": 128.608,
+      "end_sec": 129.589,
+      "duration_sec": 0.981,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 26,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\026.wav",
+      "hash": "70230819a5272ac23e28a74299445d79642f97029482d9ad913d3da8b36476cd",
+      "start_sec": 129.889,
+      "end_sec": 134.252,
+      "duration_sec": 4.363,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 27,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\027.wav",
+      "hash": "cc9f5df36843b3f26621e7860175f1dc231b9202f3c8393cb2dea6d50ff5ac79",
+      "start_sec": 134.552,
+      "end_sec": 143.096,
+      "duration_sec": 8.544,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 28,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\028.wav",
+      "hash": "89d3dccf27db60d22c4186c473904bde0917ae73afb4e8f3ab323eed96c2fbb8",
+      "start_sec": 143.596,
+      "end_sec": 151.873,
+      "duration_sec": 8.277,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 29,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\029.wav",
+      "hash": "fb387fec586697fc757a813b5805f2ec7d2097a999d4136cb5fbb4428de0970f",
+      "start_sec": 152.373,
+      "end_sec": 157.483,
+      "duration_sec": 5.109,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 30,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\030.wav",
+      "hash": "bfb340a2e844b96cbc64c9f1cdc01cb2400d996242df8eaa7d3de32cd20d71a0",
+      "start_sec": 157.983,
+      "end_sec": 163.391,
+      "duration_sec": 5.408,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 31,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\031.wav",
+      "hash": "eab7354f7b2a7738761217d5eb199c564134555326371d038cd2f7252eeb36f2",
+      "start_sec": 163.891,
+      "end_sec": 170.099,
+      "duration_sec": 6.208,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 32,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\032.wav",
+      "hash": "22a7336dec33519864942aa80c92a75d73a30bfa14122fa3bd2c4370d172fd75",
+      "start_sec": 170.599,
+      "end_sec": 176.881,
+      "duration_sec": 6.283,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 33,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\033.wav",
+      "hash": "30c09a5b748356596b192c63daaf12b1f2fa3618ec3644f50bf984e32722bc0a",
+      "start_sec": 177.181,
+      "end_sec": 180.211,
+      "duration_sec": 3.029,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 34,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\034.wav",
+      "hash": "6c218e58e9f58852974e56ec84917825f6980c6c4425c479d9e98a118391c323",
+      "start_sec": 180.511,
+      "end_sec": 184.681,
+      "duration_sec": 4.171,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 35,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\035.wav",
+      "hash": "a8c19e182c4995dcaf64a436d3943582c45108b1e450ca964db89fcbc7802729",
+      "start_sec": 184.981,
+      "end_sec": 189.28,
+      "duration_sec": 4.299,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 36,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\036.wav",
+      "hash": "b021cab777882fc2e65982bf54194fbed932817c9d639d39e6993405fc1c36a4",
+      "start_sec": 189.58,
+      "end_sec": 192.076,
+      "duration_sec": 2.496,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 37,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\037.wav",
+      "hash": "a138edb538ce0c051ef360a99c78692af773c0e16d8326ad23e1411521674234",
+      "start_sec": 192.376,
+      "end_sec": 193.368,
+      "duration_sec": 0.992,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 38,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\038.wav",
+      "hash": "4529dca45893f347ef1b5bdd786cb4ec749dc85e0462f2f61abadc10042869df",
+      "start_sec": 193.668,
+      "end_sec": 197.572,
+      "duration_sec": 3.904,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 39,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\039.wav",
+      "hash": "344c33f0f29dce5519e41baaaad8d90722236f57fe151181dc51b85ffb0ceaaa",
+      "start_sec": 197.872,
+      "end_sec": 200.379,
+      "duration_sec": 2.507,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 40,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\040.wav",
+      "hash": "a1df9f992120b452c723010dd2cee00b2d94be7e4af4459e26096ccf7200b404",
+      "start_sec": 200.679,
+      "end_sec": 209.724,
+      "duration_sec": 9.045,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 41,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\041.wav",
+      "hash": "9ecb123a56d888af528699039237adca059afe7598dd749d95526d5e569f152a",
+      "start_sec": 210.024,
+      "end_sec": 216.733,
+      "duration_sec": 6.709,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 42,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\042.wav",
+      "hash": "2891a7bcb2a096bccceb7cf686b8cedf31359113d865535cfef2d70109c5b829",
+      "start_sec": 217.033,
+      "end_sec": 221.236,
+      "duration_sec": 4.203,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 43,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\043.wav",
+      "hash": "be972cfab79d68607be355234519eeac513d73e8f7bd106e76abafd1839ebf95",
+      "start_sec": 221.536,
+      "end_sec": 223.808,
+      "duration_sec": 2.272,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 44,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\044.wav",
+      "hash": "5a6745bd6891b75a43913dcc1b6102e54b8cc08c036ee42528f4c085c8071faf",
+      "start_sec": 224.108,
+      "end_sec": 229.111,
+      "duration_sec": 5.003,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 45,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\045.wav",
+      "hash": "19d0837554034dff8e298f6625abb3ddd2fe6c5c15135023cbabce9f399eca0f",
+      "start_sec": 229.411,
+      "end_sec": 237.496,
+      "duration_sec": 8.085,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 46,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\046.wav",
+      "hash": "499b05ee720919b9bb56132e63aea7750fd0768a2e170878bebad83214e8c3a0",
+      "start_sec": 237.796,
+      "end_sec": 241.903,
+      "duration_sec": 4.107,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 47,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\047.wav",
+      "hash": "1e1f03af64aea622d5407c454ef9c9a093d6af58d8e683f2783d55025f49275d",
+      "start_sec": 242.203,
+      "end_sec": 248.773,
+      "duration_sec": 6.571,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 48,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\048.wav",
+      "hash": "e54e686791634f4501e72bdeb73d1303eed1de2abe3ff4c8d6187766a1f45d78",
+      "start_sec": 249.073,
+      "end_sec": 255.356,
+      "duration_sec": 6.283,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 49,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\049.wav",
+      "hash": "5834ba7a1ba4c8f0dcb30afe118cc7fdf5118f4b102c32e17ba416eaaae00153",
+      "start_sec": 255.656,
+      "end_sec": 260.392,
+      "duration_sec": 4.736,
+      "pause_after": 0.3
+    },
+    {
+      "segment_id": 50,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\050.wav",
+      "hash": "e0c32112eff2855bb5afd54d45872bfce3c451dad0f537c46259655d1fc2ac2e",
+      "start_sec": 260.692,
+      "end_sec": 262.879,
+      "duration_sec": 2.187,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 51,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\051.wav",
+      "hash": "0bc80c9e61d14ea8bf51936090299e79dfdf1e668a3bcc1632d757bb13dcbd6d",
+      "start_sec": 263.379,
+      "end_sec": 269.171,
+      "duration_sec": 5.792,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 52,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\052.wav",
+      "hash": "5787f460b959baeb55570a17eaf676f367e72fec3a34963404d903e45a96f830",
+      "start_sec": 269.671,
+      "end_sec": 273.767,
+      "duration_sec": 4.096,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 53,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\053.wav",
+      "hash": "f7859de855736899073c3c5cbae657370f87f6fb0397c002bdfe006c467c3559",
+      "start_sec": 274.267,
+      "end_sec": 277.573,
+      "duration_sec": 3.307,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 54,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\054.wav",
+      "hash": "b030899b660614c891bf62924800db9b0c0fac2a69bf6b050762b8dcd570b690",
+      "start_sec": 278.073,
+      "end_sec": 282.777,
+      "duration_sec": 4.704,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 55,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\055.wav",
+      "hash": "a1a7686f99ed8785f63ec78e08ec55ee74b6523bad87b6ba75ab8ef3949f7eb6",
+      "start_sec": 283.277,
+      "end_sec": 286.957,
+      "duration_sec": 3.68,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 56,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\056.wav",
+      "hash": "a3e3a8609a6d9afc7c54affb9c23f1b3802db0517326b65e12f2387f6d99d4c6",
+      "start_sec": 287.457,
+      "end_sec": 291.393,
+      "duration_sec": 3.936,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 57,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\057.wav",
+      "hash": "3b4335d9ea1982b92cd1d32be46d8997749e14b9b937343f16871f3009885b2f",
+      "start_sec": 291.893,
+      "end_sec": 294.784,
+      "duration_sec": 2.891,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 58,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\058.wav",
+      "hash": "ce06d5f3d11db6708d71229c3c8be3fce0f085f609097d9f26a30ceaeae25df3",
+      "start_sec": 295.284,
+      "end_sec": 297.183,
+      "duration_sec": 1.899,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 59,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\059.wav",
+      "hash": "ae2aa75dfb5c33937733f1b1c501d083ae139a27f7800124505a3bc501966221",
+      "start_sec": 297.683,
+      "end_sec": 301.8,
+      "duration_sec": 4.117,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 60,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\060.wav",
+      "hash": "aa19b00672cc36295d03c3522043ea89b1bc1de6188e421679d098e0667e27e1",
+      "start_sec": 302.3,
+      "end_sec": 306.652,
+      "duration_sec": 4.352,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 61,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\061.wav",
+      "hash": "73d01664711295724779caab00d6cae79e8e29d66fd409599257cca808f3b43f",
+      "start_sec": 307.152,
+      "end_sec": 312.155,
+      "duration_sec": 5.003,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 62,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\062.wav",
+      "hash": "4b8efaf1c03575616ff152682e6a54f9d9515ed2bca6025dac10bcaac80583d9",
+      "start_sec": 312.655,
+      "end_sec": 316.783,
+      "duration_sec": 4.128,
+      "pause_after": 0.5
+    },
+    {
+      "segment_id": 63,
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\008_investment_scam\\audio\\voicevox_kenzaki\\segments\\063.wav",
+      "hash": "6f3670dd4559a65c7fdabda1953829ad10af6571835db454bf980ee7bb4155f9",
+      "start_sec": 317.283,
+      "end_sec": 321.304,
+      "duration_sec": 4.021,
+      "pause_after": 0.5
+    }
+  ]
+}

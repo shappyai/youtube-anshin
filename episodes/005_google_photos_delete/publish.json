@@ -1,0 +1,70 @@
+{
+  "title_candidates": [
+    "【Googleフォト】写真を消して大丈夫？「削除」と「空き容量を増やす」の違い",
+    "【Googleフォト】写真を消しても大丈夫？「削除」と「空き容量を増やす」の違い",
+    "【Googleフォト】写真を消す前に確認。「削除」と「空き容量を増やす」の違い",
+    "【Googleフォト】「削除」と「空き容量を増やす」、何が違う？"
+  ],
+  "selected_title": "【Googleフォト】写真を消して大丈夫？「削除」と「空き容量を増やす」の違い",
+  "description": "「スマホの容量がいっぱいだから写真を整理したい。でも、Googleフォトから写真が消えてしまわないか不安…」そんな方に向けて、Googleフォトの「削除」「デバイスから削除」「このデバイスの空き容量を増やす」の違いを、Google公式ヘルプ（2026年9月1日確認）に沿ってやさしく説明します。写真を消す前に確認したい「バックアップ済み」の見方、ゴミ箱に残る期間（バックアップ済みは60日・未バックアップは30日）、iPhoneの「最近削除した項目」（Apple公式では30日）との関係、そして「スマホ本体の容量」と「Googleアカウントの保存容量」の違いも確認します。\n\n主な根拠（確認日: 2026年9月1日）:\nGoogleフォト 写真や動画を削除する（Android/iOS/パソコン） https://support.google.com/photos/answer/6128858\nGoogleフォト デバイスの空き容量を増やす（Android/iOS） https://support.google.com/photos/answer/6128843\nGoogleフォト 写真や動画をバックアップする https://support.google.com/photos/answer/6193313\nGoogleフォト ストレージ使用量・ストレージを管理する https://support.google.com/photos/answer/10100180 / answer/9284827\nGoogleドライブ公式ヘルプ 保存容量を管理する https://support.google.com/drive/answer/6374270\nApple 削除された写真を復元する方法 https://support.apple.com/ja-jp/124460\nApple iPhoneで写真やビデオを削除する/非表示にする https://support.apple.com/ja-jp/guide/iphone/iphb4defbde9/ios\nGoogle公式ブログ ストレージポリシー変更 https://blog.google/intl/ja-jp/products/connect-communicate/2020_11_storage-policies-update/\n\n※OS・アプリのバージョンによって、画面やメニューの場所が異なる場合があります。\n\nナレーション：VOICEVOX:剣崎雌雄",
+  "chapters": [
+    "00:00 写真を消して大丈夫？の確認方法",
+    "00:46 まず、バックアップの確認",
+    "01:30 「削除」を押すと、何が起きる？",
+    "02:23 「デバイスから削除」とは？",
+    "03:00 「空き容量を増やす」とは？",
+    "04:13 iPhoneはここに注意",
+    "05:07 間違えて消したら、復元",
+    "05:41 まとめ"
+  ],
+  "tags": [
+    "Googleフォト",
+    "写真",
+    "削除",
+    "空き容量を増やす",
+    "バックアップ",
+    "ゴミ箱",
+    "スマホ",
+    "シニア"
+  ],
+  "credit": "ナレーション：VOICEVOX:剣崎雌雄",
+  "contains_synthetic_media": true,
+  "pinned_comment": "",
+  "source_urls": [
+    "https://support.google.com/photos/answer/6128858",
+    "https://support.google.com/photos/answer/6128843",
+    "https://support.google.com/photos/answer/6193313",
+    "https://support.google.com/photos/answer/10100180",
+    "https://support.google.com/photos/answer/9284827",
+    "https://support.google.com/drive/answer/6374270",
+    "https://support.apple.com/ja-jp/124460",
+    "https://support.apple.com/ja-jp/guide/iphone/iphb4defbde9/ios",
+    "https://blog.google/intl/ja-jp/products/connect-communicate/2020_11_storage-policies-update/"
+  ],
+  "thumbnail_candidates": [
+    "写真、消して大丈夫？ ＋ 「Googleフォト」（推奨）",
+    "「削除」と「空き容量」何が違う？",
+    "消す前に、確認 ＋ 「Googleフォト」"
+  ],
+  "thumbnail": "assets/thumbnail/thumbnail.png",
+  "category_id": "22",
+  "made_for_kids": false,
+  "default_language": "ja",
+  "privacy": "private",
+  "scheduled_at": null,
+  "visibility": "private",
+  "thumbnail_status": "approved",
+  "youtube_upload": "uploaded_scheduled_verification_failed",
+  "youtube_video_id": "T6XHnYt1XXc",
+  "youtube_url": "https://youtu.be/T6XHnYt1XXc",
+  "youtube_privacy": "private",
+  "youtube_scheduled_at": "2026-09-08 19:00:00 JST",
+  "youtube_scheduled_at_api": "2026-09-08T10:00:00Z",
+  "thumbnail_uploaded": true,
+  "uploaded_at": "2026-09-01T23:15:15Z",
+  "youtube_channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+  "youtube_publish_error": "PublishError",
+  "youtube_ai_disclosure_updated_at": "2026-09-01T23:16:32Z",
+  "youtube_ai_disclosure_verified": true,
+  "youtube_ai_disclosure_verification": "videos.update response; videos.list omitted containsSyntheticMedia"
+}

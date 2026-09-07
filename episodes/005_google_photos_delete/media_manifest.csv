@@ -1,0 +1,27 @@
+shot_id,filename,use,notes,status,source_url,organization,captured_at,intended_scene,crop_note
+SHOT-01,assets/official/google_photos_backup_android_crop.png,1/6 バックアップ確認の実演,Google公式ヘルプの「バックアップが完了しました」表示をcrop。Android実機の個別写真詳細ではなく公式手順fallback,pass（公式fallback）,https://support.google.com/photos/answer/6193313?co=GENIE.Platform%3DAndroid&hl=ja,Google,2026-09-01,SCENE-004,保存HTMLをcapture。見出しと完了表示・オフ表示の本文だけをcrop（ヘッダー・サイドバー・欠損アイコンを除去）
+SHOT-02,assets/captured/android/delete_photo_trash_crop.png,2/6 削除操作の実演,自作ダミー写真の選択画面から下部「ゴミ箱」操作を示す局所crop。sceneはタップ前の操作対象だけを扱い、削除後画面は断定しない,pass（局所crop）,https://support.google.com/photos/answer/6128858?co=GENIE.Platform%3DAndroid&hl=ja,Google,2026-09-01T07:45:05+09:00,SCENE-006,ゴミ箱アイコンを中央crop。個人情報なし。削除後の状態を素材で示さない
+SHOT-03,assets/captured/android/trash_days_crop.png,2/6 ゴミ箱画面,Googleフォト「ゴミ箱は空です」とバックアップ済み60日／未バックアップ30日の案内,pass,https://support.google.com/photos/answer/6128858?co=GENIE.Platform%3DAndroid&hl=ja,Google,2026-09-01T07:48:53+09:00,SCENE-008,保持期間の文章をcrop。アイテム表示は未取得
+SHOT-04,assets/captured/android/delete_from_device_crop.png,3/6 デバイスから削除のメニュー,Googleフォトの詳細メニューにある「デバイスから削除」,pass,https://support.google.com/photos/answer/6128858?co=GENIE.Platform%3DAndroid&hl=ja,Google,2026-09-01T07:37:43+09:00,SCENE-012,メニュー項目の文字をcrop。機種差の留保を字幕で明示
+SHOT-05,assets/captured/android/free_up_space_crop.png,4/6 空き容量を増やすの実演,「このデバイスの空き容量を増やす」とバックアップ済み説明。実行前で停止,pass,https://support.google.com/photos/answer/6128843?co=GENIE.Platform%3DAndroid&hl=ja,Google,2026-09-01T07:40:44+09:00,SCENE-014,見出しと対象確認をcrop。ボタンは押していない
+SHOT-06,assets/official/google_photos_delete_ios_crop.png;assets/official/apple_guide_delete_photos_crop.png,5/6 iPhone本体の写真とGoogleフォトのバックアップ,実機ではなく保存済みGoogle/Apple公式ページのcrop。2枚組で関係を説明,pass（公式fallback）,https://support.google.com/photos/answer/6128858?co=GENIE.Platform%3DiOS&hl=ja;https://support.apple.com/ja-jp/guide/iphone/iphb4defbde9/26/ios/26,Google / Apple,2026-09-01,SCENE-018,削除・最近削除した項目の本文をcrop。実機結果とは表現しない
+SHOT-07,assets/official/apple_recently_deleted_crop.png,5/6 最近削除した項目,Apple公式ページの「最近削除した項目」と30日保管・復元案内,pass（公式fallback）,https://support.apple.com/ja-jp/124460,Apple,2026-09-01,SCENE-019,タイトルと30日案内をcrop。viewport版のnull表示は不採用
+SHOT-08,assets/official/google_photos_restore_android_steps_crop.png,6/6 ゴミ箱から復元,Google公式ヘルプの現行復元手順を使用。Android実画面の再現ではない,pass（公式手順fallback）,https://support.google.com/photos/answer/9343482?co=GENIE.Platform%3DAndroid&hl=ja,Google,2026-09-01,SCENE-022,保存HTMLをcapture。見出し・ゴミ箱確認・長押し・「復元」・復元先を含む手順部分だけcrop。画面から期間を推測しない
+GPT-001,assets/generated_ai/scene_001.png,導入の安心画面,写真整理に困るシニア。人物右・文字領域は静かな左半分,generated_verified（原本1672x941／review正規化1920x1080）,,,2026-09-01,SCENE-001,full_bleed; 下180px字幕安全領域; SHA-256 C6CF8312C050EDBE452ACC3E3A49C6703FE78A0DAABB77AD2ACEE1DA410E2D8F
+GPT-002,assets/generated_ai/scene_003.png,1/6 セクション扉（バックアップ概念）,写真のコピーを雲の上の保管箱へ預けるイラスト,generated_verified（原本1672x941／review正規化1920x1080）,,,2026-09-01,SCENE-003,full_bleed; 下180px字幕安全領域; SHA-256 7AE0262F6258E081AF3D6783EB32AE83BE66EFD4A34065B9FAC3283806DE15D1
+GPT-003,assets/generated_ai/scene_013.png,4/6 セクション扉（容量が空く概念）,スマホの収納が整理されて空くイラスト,generated_verified（原本1672x941／review正規化1920x1080）,,,2026-09-01,SCENE-013,full_bleed; 下180px字幕安全領域; SHA-256 9308AC97C3F34E9A5BAB7D184E89E0518DF7E054A8797DB4BBF9A4D703988DFC
+GPT-004,assets/generated_ai/scene_017.png,5/6 セクション扉（本体写真とバックアップコピー）,写真カードからバックアップコピーへつながる抽象(Apple/Google UI・ロゴなし),generated_verified（原本1672x941／review正規化1920x1080）,,,2026-09-01,SCENE-017,full_bleed; 下180px字幕安全領域; SHA-256 D78872762D14BF7E2C82EEB9BB90BEBD38FA909BD6DE6E5A30F6746233DD288D
+GPT-005,assets/generated_ai/scene_025.png,クロージング,家族とスマホを一緒に確認する安心の光景,generated_verified（原本1672x941／review正規化1920x1080）,,,2026-09-01,SCENE-025,full_bleed; 下180px字幕安全領域; SHA-256 A873B13463B8EDE93F1E7517C49280A690166203D4C1304A9AFEFFE653F21697
+TMPL-002,templates/scenes/layout_02_list,今日確認すること3項目,Codexテンプレート,ready,,,2026-09-01,SCENE-002,
+TMPL-005,templates/scenes/layout_08_section,2/6セクション扉,Codexテンプレート,ready,,,2026-09-01,SCENE-005,
+TMPL-007,templates/scenes/layout_05_compare,何が消えるか比較表（初出し・削除行）,Codexテンプレート。SCENE-011/015と同一レイアウト,ready,,,2026-09-01,SCENE-007,
+TMPL-009,templates/scenes/layout_06_caution,削除前のひとこと確認,Codexテンプレート,ready,,,2026-09-01,SCENE-009,
+TMPL-010,templates/scenes/layout_08_section,3/6セクション扉,Codexテンプレート,ready,,,2026-09-01,SCENE-010,
+TMPL-011,templates/scenes/layout_05_compare,比較表（デバイスから削除行ハイライト）,Codexテンプレート,ready,,,2026-09-01,SCENE-011,
+TMPL-015,templates/scenes/layout_05_compare,比較表（空き容量を増やす行ハイライト）,Codexテンプレート,ready,,,2026-09-01,SCENE-015,
+TMPL-016,templates/scenes/layout_03_visual_text,スマホ容量とGoogle容量の2つの箱の図解,Codexテンプレート,ready,,,2026-09-01,SCENE-016,
+TMPL-020,templates/scenes/layout_05_compare,2つのゴミ箱の左右比較,Codexテンプレート,ready,,,2026-09-01,SCENE-020,
+TMPL-021,templates/scenes/layout_08_section,6/6セクション扉,Codexテンプレート,ready,,,2026-09-01,SCENE-021,
+TMPL-023,templates/scenes/layout_06_caution,早めにゴミ箱確認（安心カード）,Codexテンプレート,ready,,,2026-09-01,SCENE-023,
+TMPL-024,templates/scenes/layout_07_summary,まとめ4項目,Codexテンプレート。summary_staggerでseg61〜64に同期,ready,,,2026-09-01,SCENE-024,
+CTA,work/channel_cta.png,共通CTA,config/channel_cta.json準拠。Phase Bで作成,phase_b（未作成）,,,2026-09-01,CTA,

@@ -1,0 +1,13 @@
+{
+  "episode": "009",
+  "page": "update",
+  "checked_at": "2026-09-05T13:59:02",
+  "product_name": "Windows 10 Pro",
+  "display_version": "24H2",
+  "current_build": "26100",
+  "ubr": "9168",
+  "edition": "Professional",
+  "source": "local/capture_windows_settings.ps1",
+  "status": "blocked",
+  "reason": "このPCはWindows 11ではないため、Windows 11実機画面として使用しない。"
+}

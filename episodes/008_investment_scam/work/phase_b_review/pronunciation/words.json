@@ -1,0 +1,14 @@
+[
+  {"id":"01_sns","surface":"SNS","example_text":"SNSの広告から投資話に誘導されました。"},
+  {"id":"02_line","surface":"LINE","example_text":"LINEに誘導されたら、一度止まりましょう。"},
+  {"id":"03_fx","surface":"FX","example_text":"株やFX、暗号資産の取引です。"},
+  {"id":"04_9110","surface":"#9110","example_text":"不安なときは、#9110に相談してください。"},
+  {"id":"05_188","surface":"188","example_text":"消費者ホットラインは、188です。"},
+  {"id":"06_0570050588","surface":"0570-050588","example_text":"金融庁の相談ダイヤルは、0570-050588です。"},
+  {"id":"07_6566","surface":"6,566件","example_text":"認知件数は、6,566件です。"},
+  {"id":"08_881","surface":"881億円","example_text":"被害額は、およそ881億円です。"},
+  {"id":"09_44","surface":"4億4,000万円","example_text":"一日あたり、およそ4億4,000万円です。"},
+  {"id":"10_ue","surface":"上","example_text":"今年の上半期だけでも、被害がありました。"},
+  {"id":"11_kyo","surface":"今日","example_text":"ここからが、今日の本題です。"},
+  {"id":"12_okonau","surface":"行う","example_text":"日本で行う会社は、国の登録が必要です。"}
+]

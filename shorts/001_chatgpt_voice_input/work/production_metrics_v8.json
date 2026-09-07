@@ -1,0 +1,25 @@
+{
+  "short_id": "Short001",
+  "version": "v8",
+  "subagent_count": 0,
+  "parallel_task_groups": [],
+  "image_generation_agents": 0,
+  "image_generation_parallel_batches": 0,
+  "image_generation_calls": 0,
+  "image_regeneration_calls": 0,
+  "image_generation_elapsed_seconds": null,
+  "audio_regenerated_segments": 0,
+  "capture_audio_used": true,
+  "machine_response_audio_used": false,
+  "human_gate_count": 2,
+  "human_correction_rounds": 1,
+  "phase_a_minutes": null,
+  "phase_b_minutes": null,
+  "finalization_minutes": null,
+  "answer_capture_found": true,
+  "answer_source_interval_sec": [
+    14.2,
+    17.0
+  ],
+  "duration_sec": 29.965
+}

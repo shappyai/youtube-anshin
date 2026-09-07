@@ -1,0 +1,8 @@
+﻿path,kind,source,status,note
+assets/imagegen_native_v7/normalized/short001_dictation_hook.png,imagegen_native_reused,built-in image_gen / v7 asset,used_in_draft_v8,hook。exact text：ChatGPT、文字を打たなくても使える？。
+assets/official_v8/chatgpt_dictation_capture_source.mp4,real_user_capture_source,shorts/work/ChatGPT Voice画面録画.MP4,used_in_draft_v8_crop_resize,同一captureからDictation入力3.800–12.800sと実回答14.200–17.000sを使用。
+assets/official_v8/normalized/dictation_intro_focus.png,real_capture_focus_crop,shorts/work/ChatGPT Voice画面録画.MP4,used_in_draft_v8,マイク入力中の実画面crop。
+assets/official_v8/normalized/dictation_text_focus.png,real_capture_focus_crop,shorts/work/ChatGPT Voice画面録画.MP4,used_in_draft_v8,文字化後の質問文crop：冷蔵庫にキャベツがあります。簡単な料理を教えてください。
+assets/official_v8/normalized/chatgpt_answer_focus.png,real_chatgpt_answer_focus_crop,shorts/work/ChatGPT Voice画面録画.MP4,used_in_draft_v8,実際に表示された回答の冒頭・料理名・材料をcrop/resize。文字改変なし。
+assets/imagegen_native_v7/normalized/short001_dictation_conclusion.png,imagegen_native_reused,built-in image_gen / v7 asset,used_in_draft_v8_short_conclusion,結論ImageGenは短縮して使用。
+assets/official_v8/channel_icon.png,canonical_channel_icon,local/channel/icon.png,used_in_draft_v8_cta,実チャンネルアイコン180px＋大人のデジタル安心室。疑似subscribeなし。

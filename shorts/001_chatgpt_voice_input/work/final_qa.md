@@ -1,0 +1,29 @@
+# Short001 Final QA PASS
+
+- status: PASS
+- final_sha256: `88329E9246656546A92C1A702E87036177EB3FD1972C64A24111903F85CBC77C`
+- draft_v8_sha256: `88329E9246656546A92C1A702E87036177EB3FD1972C64A24111903F85CBC77C`
+- sha256_match: `true`
+- duration_sec: `29.965`
+- resolution: `1080x1920`
+- frame_rate: `30fps`
+- video_codec: `h264`
+- audio_codec: `aac`
+- audio_sample_rate: `24000Hz`
+- audio_channels: `mono`
+- decode_error_count: `0`
+- black_frame_count: `0`
+- unexpected_silence_count: `0`
+- audio_clipping_count: `0`
+- real_dictation_ui: `PASS`
+- real_chatgpt_answer: `PASS`
+- fake_ui: `0`
+- official_ui_ai_reconstruction: `0`
+- voice_dictation_confusion: `0`
+- privacy_fail: `0`
+- subtitle_overflow: `0`
+- shorts_ui_overlap: `0`
+- cta: `PASS`
+- fact_gate: `PASS`
+- human_review: `PASS`
+- finalization: `copy-only`

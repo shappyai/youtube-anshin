@@ -1,0 +1,23 @@
+{
+  "1": {
+    "segment_id": 1,
+    "narration": "チャットジーピーティー、文字入力は大変ですか。",
+    "voicevox_kana": "チャットジイピイティイモジニュウリョクワタイヘンデスカ",
+    "status": "regenerated_v4_target_segment",
+    "pronunciation_config_sha256": "0051f0c173dc92c8c9f3862f63c3301fcb71d0849b0768a0b327ad58d225d937"
+  },
+  "5": {
+    "segment_id": 5,
+    "narration": "チャットジーピーティーが、質問に合わせて答え始めます。",
+    "voicevox_kana": "チャットジイピイティイガシツモンニアワセテコタエハジメマス",
+    "status": "regenerated_v4_target_segment",
+    "pronunciation_config_sha256": "0051f0c173dc92c8c9f3862f63c3301fcb71d0849b0768a0b327ad58d225d937"
+  },
+  "8": {
+    "segment_id": 8,
+    "narration": "次に困ったときのために、このチャンネルを登録しておいてください。",
+    "voicevox_kana": "ツギニコマッタトキノタメニコノチャンネルオトオロクシテオイテクダサイ",
+    "status": "regenerated_v4_target_segment",
+    "pronunciation_config_sha256": "0051f0c173dc92c8c9f3862f63c3301fcb71d0849b0768a0b327ad58d225d937"
+  }
+}

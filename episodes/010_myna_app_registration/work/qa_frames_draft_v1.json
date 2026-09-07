@@ -1,0 +1,194 @@
+{
+  "video": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\output\\draft_v1.mp4",
+  "frames": [
+    {
+      "name": "scene_001",
+      "scene_id": 1,
+      "target_sec": 5.756,
+      "captured_sec": 5.756,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_001.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_002",
+      "scene_id": 2,
+      "target_sec": 13.906,
+      "captured_sec": 13.906,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_002.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_003",
+      "scene_id": 3,
+      "target_sec": 20.824,
+      "captured_sec": 20.824,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_003.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_004",
+      "scene_id": 4,
+      "target_sec": 26.931,
+      "captured_sec": 26.931,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_004.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_005",
+      "scene_id": 5,
+      "target_sec": 33.578,
+      "captured_sec": 33.578,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_005.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_006",
+      "scene_id": 6,
+      "target_sec": 40.449,
+      "captured_sec": 40.449,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_006.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_007",
+      "scene_id": 7,
+      "target_sec": 46.668,
+      "captured_sec": 46.668,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_007.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_008",
+      "scene_id": 8,
+      "target_sec": 52.441,
+      "captured_sec": 52.441,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_008.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_009",
+      "scene_id": 9,
+      "target_sec": 57.529,
+      "captured_sec": 57.529,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_009.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_010",
+      "scene_id": 10,
+      "target_sec": 63.072,
+      "captured_sec": 63.072,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_010.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_011",
+      "scene_id": 11,
+      "target_sec": 71.03,
+      "captured_sec": 71.03,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_011.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_012",
+      "scene_id": 12,
+      "target_sec": 85.213,
+      "captured_sec": 85.213,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_012.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_013",
+      "scene_id": 13,
+      "target_sec": 98.644,
+      "captured_sec": 98.644,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_013.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_014",
+      "scene_id": 14,
+      "target_sec": 106.282,
+      "captured_sec": 106.282,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_014.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_015",
+      "scene_id": 15,
+      "target_sec": 115.66,
+      "captured_sec": 115.66,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_015.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_016",
+      "scene_id": 16,
+      "target_sec": 127.261,
+      "captured_sec": 127.261,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_016.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_017",
+      "scene_id": 17,
+      "target_sec": 134.366,
+      "captured_sec": 134.366,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_017.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_018",
+      "scene_id": 18,
+      "target_sec": 142.581,
+      "captured_sec": 142.581,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_018.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_019",
+      "scene_id": 19,
+      "target_sec": 173.438,
+      "captured_sec": 173.438,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_019.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_020",
+      "scene_id": 20,
+      "target_sec": 201.446,
+      "captured_sec": 201.446,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\scene_020.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "cta",
+      "scene_id": null,
+      "target_sec": 211.677,
+      "captured_sec": 211.677,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\010_myna_app_registration\\work\\qa_frames_draft_v1\\cta.png",
+      "width": 1920,
+      "height": 1080
+    }
+  ]
+}

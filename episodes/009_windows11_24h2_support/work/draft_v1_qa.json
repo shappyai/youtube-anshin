@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "warnings": [],
+  "probe": {
+    "format": {
+      "duration": 304.36
+    },
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": null
+      }
+    ],
+    "decode_returncode": 0
+  },
+  "scene_count": 19,
+  "subtitle_count": 59,
+  "postroll": {
+    "kind": "channel_cta",
+    "cta_content_hash": "c0df4a036b397effa920436c4ba473186737ed6e5cc3df54b85afe8ba32b82eb",
+    "cta_profile": "channel_common_cta",
+    "duration_sec": 15,
+    "animation": "static",
+    "status": "phase_b_ready",
+    "profile": "channel_common_cta",
+    "audio_required": true,
+    "duration_mode": "audio_based",
+    "asset": "work/channel_cta.png",
+    "cta_audio": "audio/voicevox_kenzaki/cta_channel_common.wav"
+  },
+  "scene_visual_warnings": {},
+  "expected_duration": 304.357
+}

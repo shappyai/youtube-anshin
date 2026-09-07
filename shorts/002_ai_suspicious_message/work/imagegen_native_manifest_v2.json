@@ -1,0 +1,62 @@
+{
+  "short_id": "Short002",
+  "prompt_file": "shorts/002_ai_suspicious_message/work/imagegen_prompts_v2.md",
+  "assets": [
+    {
+      "segment": 1,
+      "cue": "all",
+      "asset": "shorts/002_ai_suspicious_message/assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "headline_lines": [
+        "このメール、",
+        "本物？"
+      ],
+      "text_render_mode": "imagegen_native",
+      "source": "built-in image_gen",
+      "regeneration_count": 0,
+      "exact_text_qa": "PASS",
+      "vision_qa": "PASS",
+      "official_ui_generated": 0,
+      "hybrid_generated_image_large_text": 0
+    },
+    {
+      "segment": 2,
+      "cue": "all",
+      "asset": "shorts/002_ai_suspicious_message/assets/imagegen_native_v2/normalized/scene_02_mask.png",
+      "headline_lines": [
+        "個人情報は",
+        "まず隠す"
+      ],
+      "text_render_mode": "imagegen_native",
+      "source": "built-in image_gen",
+      "regeneration_count": 0,
+      "exact_text_qa": "PASS",
+      "vision_qa": "PASS",
+      "official_ui_generated": 0,
+      "hybrid_generated_image_large_text": 0
+    },
+    {
+      "segment": 6,
+      "cue": "all",
+      "asset": "shorts/002_ai_suspicious_message/assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "headline_lines": [
+        "最後は",
+        "公式から確認"
+      ],
+      "text_render_mode": "imagegen_native",
+      "source": "built-in image_gen",
+      "regeneration_count": 0,
+      "exact_text_qa": "PASS",
+      "vision_qa": "PASS",
+      "official_ui_generated": 0,
+      "hybrid_generated_image_large_text": 0
+    }
+  ],
+  "metrics": {
+    "imagegen_native_text_scene_count": 3,
+    "imagegen_native_text_regeneration_count": 0,
+    "imagegen_native_text_fallback_count": 0,
+    "exact_text_pass_count": 3,
+    "exact_text_fail_count": 0,
+    "hybrid_generated_image_large_text": 0
+  }
+}

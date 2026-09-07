@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "qa": "approved_pitch_shape_match",
+  "surface": "信用",
+  "target_segment_ids": [
+    6,
+    11,
+    59
+  ],
+  "tolerance": 1e-06,
+  "rows": [
+    {
+      "segment_id": 6,
+      "narration": "一つ、広告の有名人を、そのまま信用しない。",
+      "start_sec": 22.46,
+      "end_sec": 26.577,
+      "checks": [
+        {
+          "surface": "信用",
+          "reading": "シンヨオ",
+          "mora_text": [
+            "シ",
+            "ン",
+            "ヨ",
+            "オ"
+          ],
+          "pitch": [
+            4.722650814056396,
+            5.1726508140563965,
+            5.1726508140563965,
+            5.1726508140563965
+          ],
+          "first_mora_low": true,
+          "second_mora_rise": true,
+          "later_mora_plateau": true,
+          "consecutive_same_mora_count": 0,
+          "consecutive_same_mora_pitch_delta": null,
+          "consecutive_same_mora_pass": true
+        }
+      ],
+      "approved_pitch_shape_match": true
+    },
+    {
+      "segment_id": 11,
+      "narration": "広告の有名人を、そのまま信用しない、です。",
+      "start_sec": 41.187,
+      "end_sec": 45.325,
+      "checks": [
+        {
+          "surface": "信用",
+          "reading": "シンヨオ",
+          "mora_text": [
+            "シ",
+            "ン",
+            "ヨ",
+            "オ"
+          ],
+          "pitch": [
+            4.717762279510498,
+            5.167762279510498,
+            5.167762279510498,
+            5.167762279510498
+          ],
+          "first_mora_low": true,
+          "second_mora_rise": true,
+          "later_mora_plateau": true,
+          "consecutive_same_mora_count": 0,
+          "consecutive_same_mora_pitch_delta": null,
+          "consecutive_same_mora_pass": true
+        }
+      ],
+      "approved_pitch_shape_match": true
+    },
+    {
+      "segment_id": 59,
+      "narration": "一つ、広告の有名人を、そのまま信用しない。",
+      "start_sec": 297.747,
+      "end_sec": 301.864,
+      "checks": [
+        {
+          "surface": "信用",
+          "reading": "シンヨオ",
+          "mora_text": [
+            "シ",
+            "ン",
+            "ヨ",
+            "オ"
+          ],
+          "pitch": [
+            4.722650814056396,
+            5.1726508140563965,
+            5.1726508140563965,
+            5.1726508140563965
+          ],
+          "first_mora_low": true,
+          "second_mora_rise": true,
+          "later_mora_plateau": true,
+          "consecutive_same_mora_count": 0,
+          "consecutive_same_mora_pitch_delta": null,
+          "consecutive_same_mora_pass": true
+        }
+      ],
+      "approved_pitch_shape_match": true
+    }
+  ],
+  "failures": []
+}

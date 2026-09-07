@@ -1,0 +1,19 @@
+{
+  "episode": "008_investment_scam",
+  "status": "uploaded_scheduled",
+  "mode": "scheduled",
+  "final_sha256": "92166D59C228BAFF67AD32280899066AD050FF6C715646D773427CCBA04F2854",
+  "title": "【投資詐欺】その有名人、本物？LINEに誘導されたら確認したい3つ",
+  "requested_privacy": "private",
+  "publish_at_local": "2026-09-08 19:00:00 JST",
+  "publish_at_api": "2026-09-08T10:00:00Z",
+  "started_at": "2026-09-05T03:57:26Z",
+  "video_id": "GryqJ70DCHs",
+  "uploaded_at": "2026-09-05T03:57:31Z",
+  "thumbnail_uploaded": true,
+  "verification": "PASS",
+  "verification_mode": "retry-schedule（再アップロードなし）",
+  "initial_verification_error": "初回videos.listがcontainsSyntheticMediaを省略したため停止。status-only update応答でtrueを確認後、予約設定を再検証。",
+  "verified_at": "2026-09-05T04:02:17Z",
+  "reupload": false
+}

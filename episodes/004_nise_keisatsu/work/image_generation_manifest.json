@@ -1,0 +1,350 @@
+{
+  "version": "1.1",
+  "prompt_contract": "one_scene_full_frame_v1",
+  "image_count": 7,
+  "scenes": [
+    {
+      "scene_id": "SCENE-001",
+      "filename": "scene_001.png",
+      "narration": "「警察です」と名乗る電話が、いま増えています。相手は警察官のふりをして、お金や個人情報をだまし取ろうとします。でも、こわがる必要はありません。今日は、まず「何を確認すればよいか」を、順番に説明します。確認する項目は、次の5つです。",
+      "main_message": "まずは電話を切って、確認",
+      "headline": "「警察です」と言われたら",
+      "support_text": "こわがる前に、確認する",
+      "duration": 22.1,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "slow_push_in",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a calm, reassuring visual of an older Japanese adult receiving a phone call while holding a landline handset, with a large abstract green confirmation check mark floating nearby and a soft blue arrow suggesting hang up and verify. Keep the person and phone prominent on the right half and leave the left half clean and bright for later Codex Japanese text. The emotional tone is calm confidence, not fear. No police badges, no arrest warrants, no phone numbers, no app UI, no readable text, no brand marks. Generation contract: this is one finished standalone scene background; keep the visual edge-to-edge and use a calm, non-white-empty background for any later Codex text.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-003",
+      "filename": "scene_003.png",
+      "narration": "まず、ニセ警察詐欺とは何かを確認します。",
+      "main_message": "数字で見る被害の実態",
+      "headline": "ニセ警察詐欺",
+      "support_text": "警察官のふりをして、お金をだましとる",
+      "duration": 3.8,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "section_fade",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a simple, friendly visual metaphor for a fraudulent phone call: a large vintage-style telephone handset with big abstract blank cards floating behind it, in calm white, blue and green. Leave the left half clean for a later Codex headline layer. No police badges, no arrest warrants, no numbers, no readable text, no tiny details. Generation contract: this is one finished standalone scene background; keep the visual edge-to-edge and use a calm, non-white-empty background for any later Codex text.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-006",
+      "filename": "scene_006.png",
+      "narration": "次に、「＋」から始まる国際電話の見分け方を確認します。",
+      "main_message": "海外からの着信の見分け方",
+      "headline": "＋から始まる番号",
+      "support_text": "＋81以外の国コードに注意",
+      "duration": 5.2,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "section_fade",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a clean visual metaphor for international calls: a simplified abstract globe with a few dotted lines connecting to a telephone handset, in calm white, blue and green. Leave the left half clean for a later Codex headline layer. No country names, no phone numbers, no readable text, no app UI, no brand marks. Generation contract: this is one finished standalone scene background; keep the visual edge-to-edge and use a calm, non-white-empty background for any later Codex text.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-009",
+      "filename": "scene_009.png",
+      "narration": "では、警察を名乗る電話を受けたら、どこを見ればよいのでしょうか。警察庁は、本物の警察官が「しないこと」を、こう説明しています。",
+      "main_message": "警察官が「しないこと」で見分ける",
+      "headline": "警察を名乗る",
+      "support_text": "4つのポイントを確認",
+      "duration": 12.1,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "section_fade",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a calm visual metaphor for verifying who is calling: a large abstract green check mark and a magnifying glass over a simple telephone silhouette, blue and green palette. Leave the left half clean for a later Codex headline layer. No police badges, no badges, no readable text, no app UI. Generation contract: this is one finished standalone scene background; keep the visual edge-to-edge and use a calm, non-white-empty background for any later Codex text.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-012",
+      "filename": "scene_012.png",
+      "narration": "では、LINEに誘導されたら、どうすればよいでしょうか。国民生活センターは、こう明言しています。",
+      "main_message": "誘導された時点で詐欺",
+      "headline": "LINE誘導は詐欺",
+      "support_text": "ブロック・通報・相談",
+      "duration": 9.2,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "section_fade",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a reassuring visual metaphor for ending a suspicious call: two simple smartphone and chat-bubble shapes with a soft separation arrow between them, calm blue and green. Leave the left half clean for a later Codex headline layer. No chat UI, no LINE logo, no readable text, no brand marks. Generation contract: this is one finished standalone scene background; keep the visual edge-to-edge and use a calm, non-white-empty background for any later Codex text.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-015",
+      "filename": "scene_015.png",
+      "narration": "最後に、今すぐできる対策を、3つ紹介します。",
+      "main_message": "3つの対策",
+      "headline": "今すぐできる対策",
+      "support_text": "固定電話・スマホ・家族の約束",
+      "duration": 4.2,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "section_fade",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a simple, calming checklist metaphor with three large blank check cards and a hand confirming one item, plus a landline handset silhouette on the right. Leave the left half clean for later Codex Japanese text. Use white, blue and green. No readable text, no numbers, no app UI, no brand marks, no tiny decoration. Generation contract: this is one finished standalone scene background; keep the visual edge-to-edge and use a calm, non-white-empty background for any later Codex text.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-018",
+      "filename": "scene_018.png",
+      "narration": "今日のまとめです。一つ、「警察です」と言われても、いったん電話を切って、確認しましょう。二つ、LINEやビデオ通話に誘導されたら、それは詐欺です。三つ、国際電話を止める手続きか、ブロックの設定を、今日のうちに試してみましょう。あなたは、ひとりではありません。不安なときは、警察相談専用電話「＃9110」か、消費者ホットライン「188」に、相談してください。役に立ったら、チャンネル登録して、次回も一緒に確認しましょう。",
+      "main_message": "あなたはひとりではありません",
+      "headline": "今日から3つ",
+      "support_text": "切る・相談・ブロック\n相談は＃9110・188",
+      "duration": 40.2,
+      "render_mode": "gpt_image",
+      "text_render_mode": "codex",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "slow_push_in",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Create a warm, trustworthy closing illustration of two older adults and a family member talking together calmly beside a telephone, with a large abstract green confirmation mark and a soft blue path. Keep the people on the right half and leave the left half clean for later Codex Japanese text. The feeling is relief and shared safety, not fear. No police badges, no arrest warrants, no phone numbers, no readable text, no brand marks. Generation contract: this is one finished standalone scene background; keep the visual edge-to-edge and use a calm, non-white-empty background for any later Codex text.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    }
+  ]
+}

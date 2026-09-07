@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "api_called": false,
+  "oauth_called": false,
+  "episode": "005_google_photos_delete",
+  "final_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\005_google_photos_delete\\output\\final.mp4",
+  "thumbnail_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\005_google_photos_delete\\assets\\thumbnail\\thumbnail.png",
+  "title": "【Googleフォト】写真を消して大丈夫？「削除」と「空き容量を増やす」の違い",
+  "description_bytes": 2795,
+  "tag_count": 8,
+  "tag_total_length": 36,
+  "privacy": "scheduled",
+  "ai_disclosure": true,
+  "schedule_local": "2026-09-08 19:00:00 JST",
+  "schedule_api": "2026-09-08T10:00:00Z",
+  "video_sha256": "F52D20E3E5DF014A681EAD5AE8A3CE33F7654E9C55A366FA8428373DD102E597",
+  "existing_video_id": null,
+  "expected_api_requests": [
+    "videos.insert part=snippet,status resumable=True notifySubscribers=False status.containsSyntheticMedia",
+    "videos.update part=status private+publishAt",
+    "thumbnails.set",
+    "videos.list part=snippet,status"
+  ],
+  "errors": []
+}

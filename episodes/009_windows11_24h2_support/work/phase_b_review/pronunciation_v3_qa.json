@@ -1,0 +1,345 @@
+{
+  "status": "PASS",
+  "qa": "pronunciation_preserved_and_regenerated",
+  "failures": [],
+  "targets": {
+    "Windows": [
+      {
+        "segment_id": 1,
+        "text": "Windows 11を使っている方、2026年10月13日に、一部のWindows 11で更新の提供が終わります。",
+        "expected_reading": "ウィンドオズ",
+        "query_kana": "ウィンドオズジュウイチオツカッテイルカタニセンニジュウロクネンジュウガツジュウサンニチニイチブノウィンドオズジュウイチデコオシンノテエキョオガオワリマス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 2,
+        "text": "ただし、Windows 11全部が、その日に使えなくなるわけではありません。",
+        "expected_reading": "ウィンドオズ",
+        "query_kana": "タダシウィンドオズジュウイチゼンブガソノヒニツカエナクナルワケデワアリマセン",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 4,
+        "text": "一つ目、自分のWindowsのバージョンです。",
+        "expected_reading": "ウィンドオズ",
+        "query_kana": "ヒトツメジブンノウィンドオズノバアジョンデス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 5,
+        "text": "二つ目、Windows Updateの画面です。",
+        "expected_reading": "ウィンドオズ",
+        "query_kana": "フタツメウィンドオズアップデエトノガメンデス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 8,
+        "text": "今回、2026年10月13日に更新の終了とされているのは、Windows 11のうち、バージョン24H2のHome、Pro、Pro Education、Pro for Workstationsです。",
+        "expected_reading": "ウィンドオズ",
+        "query_kana": "コンカイニセンニジュウロクネンジュウガツジュウサンニチニコオシンノシュウリョオトサレテイルノワウィンドオズジュウイチノウチバアジョンニジュウヨンエイチツウノホオムプロプロエデュケエションプロフォオワアクステエションズデス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 9,
+        "text": "これは、Windows 11全体が10月13日に終了する、という意味ではありません。",
+        "expected_reading": "ウィンドオズ",
+        "query_kana": "コレワウィンドオズジュウイチゼンタイガジュウガツジュウサンニチニシュウリョオスルトイウイミデワアリマセン",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 14,
+        "text": "下のほうにある、Windowsの仕様を見てください。",
+        "expected_reading": "ウィンドオズ",
+        "query_kana": "シタノホオニアルウィンドオズノシヨオオミテクダサイ",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 20,
+        "text": "デバイスの仕様という見出しの下で、Windowsの仕様を探します。",
+        "expected_reading": "ウィンドオズ",
+        "query_kana": "デバイスノシヨオトイウミダシノシタデウィンドオズノシヨオオサガシマス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 22,
+        "text": "二つ目は、Windows Updateです。",
+        "expected_reading": "ウィンドオズ",
+        "query_kana": "フタツメワウィンドオズアップデエトデス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 23,
+        "text": "設定から、Windows Updateを開きます。",
+        "expected_reading": "ウィンドオズ",
+        "query_kana": "セッテエカラウィンドオズアップデエトオヒラキマス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 25,
+        "text": "更新が準備できている場合は、Windows 11 version 25H2のダウンロードとインストールが表示されます。",
+        "expected_reading": "ウィンドオズ",
+        "query_kana": "コオシンガジュンビデキテイルバアイワウィンドオズジュウイチバアジョンニジュウゴエイチツウノダウンロオドトインストオルガヒョオジサレマス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 37,
+        "text": "Microsoftは、26H1を既存のパソコンへWindows Updateで提供しないと説明しています。",
+        "expected_reading": "ウィンドオズ",
+        "query_kana": "マイクロソフトワニジュウロクエイチワンオキソンノパソコンエウィンドオズアップデエトデテエキョオシナイトセツメエシテイマス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 39,
+        "text": "まずは、いまのWindows Updateを最新の状態にします。",
+        "expected_reading": "ウィンドオズ",
+        "query_kana": "マズワイマノウィンドオズアップデエトオサイシンノジョオタイニシマス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 47,
+        "text": "まず、バージョンを確認し、Windows Updateを確認する。これが、いま行う順番です。",
+        "expected_reading": "ウィンドオズ",
+        "query_kana": "マズバアジョンオカクニンシウィンドオズアップデエトオカクニンスルコレガイマオコナウジュンバンデス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 49,
+        "text": "一つ目、自分のWindowsのバージョンを確認する。",
+        "expected_reading": "ウィンドオズ",
+        "query_kana": "ヒトツメジブンノウィンドオズノバアジョンオカクニンスル",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 50,
+        "text": "二つ目、Windows Updateで更新プログラムを確認する。",
+        "expected_reading": "ウィンドオズ",
+        "query_kana": "フタツメウィンドオズアップデエトデコオシンプログラムオカクニンスル",
+        "match": true,
+        "source": "reused_v2_audit"
+      }
+    ],
+    "Update": [
+      {
+        "segment_id": 5,
+        "text": "二つ目、Windows Updateの画面です。",
+        "expected_reading": "アップデエト",
+        "query_kana": "フタツメウィンドオズアップデエトノガメンデス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 22,
+        "text": "二つ目は、Windows Updateです。",
+        "expected_reading": "アップデエト",
+        "query_kana": "フタツメワウィンドオズアップデエトデス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 23,
+        "text": "設定から、Windows Updateを開きます。",
+        "expected_reading": "アップデエト",
+        "query_kana": "セッテエカラウィンドオズアップデエトオヒラキマス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 37,
+        "text": "Microsoftは、26H1を既存のパソコンへWindows Updateで提供しないと説明しています。",
+        "expected_reading": "アップデエト",
+        "query_kana": "マイクロソフトワニジュウロクエイチワンオキソンノパソコンエウィンドオズアップデエトデテエキョオシナイトセツメエシテイマス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 39,
+        "text": "まずは、いまのWindows Updateを最新の状態にします。",
+        "expected_reading": "アップデエト",
+        "query_kana": "マズワイマノウィンドオズアップデエトオサイシンノジョオタイニシマス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 47,
+        "text": "まず、バージョンを確認し、Windows Updateを確認する。これが、いま行う順番です。",
+        "expected_reading": "アップデエト",
+        "query_kana": "マズバアジョンオカクニンシウィンドオズアップデエトオカクニンスルコレガイマオコナウジュンバンデス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 50,
+        "text": "二つ目、Windows Updateで更新プログラムを確認する。",
+        "expected_reading": "アップデエト",
+        "query_kana": "フタツメウィンドオズアップデエトデコオシンプログラムオカクニンスル",
+        "match": true,
+        "source": "reused_v2_audit"
+      }
+    ],
+    "ID": [
+      {
+        "segment_id": 19,
+        "text": "個人名やIDが見えている場合は、動画や人に見せる前に隠してください。",
+        "expected_reading": "アイディイ",
+        "query_kana": "コジンメエヤアイディイガミエテイルバアイワドオガヤヒトニミセルマエニカクシテクダサイ",
+        "match": true,
+        "source": "reused_v2_audit"
+      }
+    ],
+    "24H2": [
+      {
+        "segment_id": 8,
+        "text": "今回、2026年10月13日に更新の終了とされているのは、Windows 11のうち、バージョン24H2のHome、Pro、Pro Education、Pro for Workstationsです。",
+        "expected_reading": "ニジュウヨンエイチツー",
+        "query_kana": "コンカイニセンニジュウロクネンジュウガツジュウサンニチニコオシンノシュウリョオトサレテイルノワウィンドオズジュウイチノウチバアジョンニジュウヨンエイチツウノホオムプロプロエデュケエションプロフォオワアクステエションズデス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 16,
+        "text": "バージョンが24H2か、25H2かを確認します。",
+        "expected_reading": "ニジュウヨンエイチツー",
+        "query_kana": "バアジョンガニジュウヨンエイチツウカニジュウゴエイチツウカオカクニンシマス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 21,
+        "text": "この確認は、24H2かどうかを知るためのものです。",
+        "expected_reading": "ニジュウヨンエイチツー",
+        "query_kana": "コノカクニンワニジュウヨンエイチツウカドオカオシルタメノモノデス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 36,
+        "text": "いま使っている24H2のパソコンが、26H1へ更新されるわけではありません。",
+        "expected_reading": "ニジュウヨンエイチツー",
+        "query_kana": "イマツカッテイルニジュウヨンエイチツウノパソコンガニジュウロクエイチワンエコオシンサレルワケデワアリマセン",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 38,
+        "text": "24H2の場合は、まず25H2が表示されるかを確認してください。",
+        "expected_reading": "ニジュウヨンエイチツー",
+        "query_kana": "ニジュウヨンエイチツウノバアイワマズニジュウゴエイチツウガヒョオジサレルカオカクニンシテクダサイ",
+        "match": true,
+        "source": "regenerated"
+      },
+      {
+        "segment_id": 44,
+        "text": "ただし、HomeやProの24H2では、その後、通常のセキュリティ更新などを受けられなくなります。",
+        "expected_reading": "ニジュウヨンエイチツー",
+        "query_kana": "タダシホオムヤプロノニジュウヨンエイチツウデワソノゴツウジョオノセキュリティコオシンナドオウケラレナクナリマス",
+        "match": true,
+        "source": "reused_v2_audit"
+      }
+    ],
+    "25H2": [
+      {
+        "segment_id": 16,
+        "text": "バージョンが24H2か、25H2かを確認します。",
+        "expected_reading": "ニジュウゴエイチツー",
+        "query_kana": "バアジョンガニジュウヨンエイチツウカニジュウゴエイチツウカオカクニンシマス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 25,
+        "text": "更新が準備できている場合は、Windows 11 version 25H2のダウンロードとインストールが表示されます。",
+        "expected_reading": "ニジュウゴエイチツー",
+        "query_kana": "コオシンガジュンビデキテイルバアイワウィンドオズジュウイチバアジョンニジュウゴエイチツウノダウンロオドトインストオルガヒョオジサレマス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 29,
+        "text": "三つ目は、25H2が表示されないときです。",
+        "expected_reading": "ニジュウゴエイチツー",
+        "query_kana": "ミッツメワニジュウゴエイチツウガヒョオジサレナイトキデス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 38,
+        "text": "24H2の場合は、まず25H2が表示されるかを確認してください。",
+        "expected_reading": "ニジュウゴエイチツー",
+        "query_kana": "ニジュウヨンエイチツウノバアイワマズニジュウゴエイチツウガヒョオジサレルカオカクニンシテクダサイ",
+        "match": true,
+        "source": "regenerated"
+      }
+    ],
+    "26H1": [
+      {
+        "segment_id": 34,
+        "text": "ここで、検索すると出てくる26H1についても、短く説明します。",
+        "expected_reading": "ニジュウロクエイチワン",
+        "query_kana": "ココデケンサクスルトデテクルニジュウロクエイチワンニツイテモミジカクセツメエシマス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 35,
+        "text": "26H1は、2026年の新しい一部の機器向けに用意された、特別なリリースです。",
+        "expected_reading": "ニジュウロクエイチワン",
+        "query_kana": "ニジュウロクエイチワンワニセンニジュウロクネンノアタラシイイチブノキキムケニヨオイサレタトクベツナリリイスデス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 36,
+        "text": "いま使っている24H2のパソコンが、26H1へ更新されるわけではありません。",
+        "expected_reading": "ニジュウロクエイチワン",
+        "query_kana": "イマツカッテイルニジュウヨンエイチツウノパソコンガニジュウロクエイチワンエコオシンサレルワケデワアリマセン",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 37,
+        "text": "Microsoftは、26H1を既存のパソコンへWindows Updateで提供しないと説明しています。",
+        "expected_reading": "ニジュウロクエイチワン",
+        "query_kana": "マイクロソフトワニジュウロクエイチワンオキソンノパソコンエウィンドオズアップデエトデテエキョオシナイトセツメエシテイマス",
+        "match": true,
+        "source": "reused_v2_audit"
+      }
+    ],
+    "方": [
+      {
+        "segment_id": 1,
+        "expected_reading": "かた",
+        "query_kana": "ウィンドオズジュウイチオツカッテイルカタニセンニジュウロクネンジュウガツジュウサンニチニイチブノウィンドオズジュウイチデコオシンノテエキョオガオワリマス",
+        "match": true,
+        "source": "reused_v2_audit"
+      },
+      {
+        "segment_id": 11,
+        "expected_reading": "かた",
+        "query_kana": "カテエデヨクツカワレルホオムヤプロノカタワマズジブンノバアジョンオカクニンシマショオ",
+        "match": true,
+        "source": "reused_v2_audit"
+      }
+    ]
+  },
+  "regenerated_segments": [
+    6,
+    38
+  ],
+  "reused_segment_count": 50,
+  "global_方_dictionary_entry": false
+}

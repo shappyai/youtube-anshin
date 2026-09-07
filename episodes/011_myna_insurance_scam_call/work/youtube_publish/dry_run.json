@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "api_called": false,
+  "oauth_called": false,
+  "episode": "011_myna_insurance_scam_call",
+  "final_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\output\\final.mp4",
+  "thumbnail_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\assets\\thumbnail\\thumbnail.png",
+  "title": "【マイナ保険証】「1番を押して」の電話、本物？まず確認したい3つ",
+  "description_bytes": 1461,
+  "tag_count": 9,
+  "tag_total_length": 58,
+  "privacy": "scheduled",
+  "ai_disclosure": false,
+  "schedule_local": "2026-09-11 19:00:00 JST",
+  "schedule_api": "2026-09-11T10:00:00Z",
+  "video_sha256": "45AB01EC1FF4F807FFF4ED7F42436FAFD2D00A24FD087BAA7436AF371C78AAB4",
+  "existing_video_id": null,
+  "expected_api_requests": [
+    "videos.insert part=snippet,status resumable=True notifySubscribers=False status.containsSyntheticMedia",
+    "videos.update part=status private+publishAt",
+    "thumbnails.set",
+    "videos.list part=snippet,status"
+  ],
+  "errors": []
+}

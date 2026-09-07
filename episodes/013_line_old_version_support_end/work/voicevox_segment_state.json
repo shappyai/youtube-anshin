@@ -1,0 +1,301 @@
+{
+  "version": 1,
+  "segments": {
+    "1": {
+      "hash": "8b95f2c773d367742f68bd8274ac5fdc167cf182de1b51231b0b9c07e4de2800",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\001.wav"
+    },
+    "2": {
+      "hash": "97f1c5de1952c16bf5f064c03974b583fc002ba2fd432c24041bc67dd2d6bd70",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\002.wav"
+    },
+    "3": {
+      "hash": "407e27db981c7b1a566a4be61b4af444214a32ac159b48cf1b4b470ccb545f26",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\003.wav"
+    },
+    "4": {
+      "hash": "332744520a3cfb22de8ff03d7f4b36315ff0b258e4054a6fb8d4b762e532c078",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\004.wav"
+    },
+    "5": {
+      "hash": "57cd1079fde3cf120cdf1fc408b42ecabdd1290c77369c7f9947c719e09b39f4",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\005.wav"
+    },
+    "6": {
+      "hash": "548098017bb2f143b558cfb56f13c11ca79f6334378a49d9bedfea8845a84af6",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\006.wav"
+    },
+    "7": {
+      "hash": "9722bc1a091ad1ec538d11b1f03db34c7fd91e345137191480e4764440b9ffc0",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\007.wav"
+    },
+    "8": {
+      "hash": "f268a52dc8ac67fae29266426010f79d2323bee9fb3b19764ab8e3312c5d8d80",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\008.wav"
+    },
+    "9": {
+      "hash": "caed4a9649b960398720902d7c1070ebcc9dbf6876210e178e9c2aa57693a0dc",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\009.wav"
+    },
+    "10": {
+      "hash": "bed4f290c364ce7ebc699a16fe6a0a1840cf2c4b80f2907750cf4892ef12ebe1",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\010.wav"
+    },
+    "11": {
+      "hash": "2e12c9fb3c9a531ce8056e10b922bdc91568b9a402b6ca356cb776bd945cca31",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\011.wav"
+    },
+    "12": {
+      "hash": "32906587b8eb2738d770230ba3969c8d1b14ecd6287c1d73ba76b45af3ba457c",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\012.wav"
+    },
+    "13": {
+      "hash": "265e34e927c2fba336b78e56b85c8477d62f34be31ab1a443c1c2583c35d9146",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\013.wav"
+    },
+    "14": {
+      "hash": "a930daae40a70d20dd6e5c41ed8141cde03d49b5dfb97336a2c622123d6ec952",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\014.wav"
+    },
+    "15": {
+      "hash": "65f59c1ca4161eec61b8552dd5e0d2243a877448508ac8e687eacd9b4d1a4687",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\015.wav"
+    },
+    "16": {
+      "hash": "690a7880c61b8bbcaa8c6ee8c187409bf7fabf6c188c68f3a3c5cc226ae7f550",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\016.wav"
+    },
+    "17": {
+      "hash": "5c45e89bdf5886e7e26981f971ed917cb48f46c9ebe5b8bc500465dc58575b53",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\017.wav"
+    },
+    "18": {
+      "hash": "77c4a9bb4f0f9ef8b50415b8b47ebf1e2f0b823b6d48bc53b39ac2f107feb5da",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\018.wav"
+    },
+    "19": {
+      "hash": "91a4d63743d4bf7594d906cef5f55c989482e9ca476d860344e8b61d23e138cf",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\019.wav"
+    },
+    "20": {
+      "hash": "319ab04fbf3f915179c31c057671f176e5a673ca286e1a6fe80cc51b3c7017e6",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\020.wav"
+    },
+    "21": {
+      "hash": "7398dfe07878f2fa4ee95b30be120f450ee3a11c714a3e31d0580f1d12af5cea",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\021.wav"
+    },
+    "22": {
+      "hash": "2ec2cd761e9b2122c3fe7afaf8f1b208ac3ebda0d44f5a2d6143f07d9c8183ae",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\022.wav"
+    },
+    "23": {
+      "hash": "52c4891728671fed6cf0ac4b5a3276428012d12a7ff24d3888dd514ff9b282ea",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\023.wav"
+    },
+    "24": {
+      "hash": "72b08ca6259470329cca24e4e9704e3b6615715477fe258046e948e3740cfd32",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\024.wav"
+    },
+    "25": {
+      "hash": "c4809ba11dd33983fb2952c2923d8cc824ceac2591ec0bde1cababcbf36b8f06",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\025.wav"
+    },
+    "26": {
+      "hash": "1bc35a240e925bf354cd7b49d7bb8d7673a6cac124e4a1e4abfb3321938fc6e7",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\026.wav"
+    },
+    "27": {
+      "hash": "1c67fccf9ca4b5145efa5f6ba7fe7c651aa696a97f68da57c878760bbdb9688e",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\027.wav"
+    },
+    "28": {
+      "hash": "6e447d17d047588336fb2ada04b9d67b24331c70fe67d8b47475159d17153229",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\028.wav"
+    },
+    "29": {
+      "hash": "af1f3ef8ea224e9f7fd9e38661133c4f82bd20a00df2f6de72e8f44b2413662a",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\029.wav"
+    },
+    "30": {
+      "hash": "84002ca7154660af93b6a7a31cd5dc83c36c95a568d5c36de299fb0d4793a885",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\030.wav"
+    },
+    "31": {
+      "hash": "d3d2c22efeb329c5376eef2c389033c6165791325ab12d797feb76059b780578",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\031.wav"
+    },
+    "32": {
+      "hash": "4e6fc8c5316c857d9f8eda0b234f4822e9be49bad20e99099c13042b7eec4d9c",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\032.wav"
+    },
+    "33": {
+      "hash": "cef69a960a4a77658654ed492cf724ff757d66b61941ef8ab080ea0656599920",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\033.wav"
+    },
+    "34": {
+      "hash": "491a25f60e239b61752682df528e77fc0e268f3973fbb84bd56fb01495e92bd3",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\034.wav"
+    },
+    "35": {
+      "hash": "dd3c1285471eb86591a7769016030fbe4ffb4398599967e791132c881736db84",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\035.wav"
+    },
+    "36": {
+      "hash": "21f52a7e8e122c814cad28d2d0421798f3e2ba6627ad1878e8475df33f48857f",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\036.wav"
+    },
+    "37": {
+      "hash": "d9a66e47a51f65ae1c8c140d8996bd880555e2d156e0044ca35b7593e70d3ba4",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\037.wav"
+    },
+    "38": {
+      "hash": "c9ada98a31dd7f1740a99d516f501b5439018e70e725c83d0c91d3491b68c725",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\038.wav"
+    },
+    "39": {
+      "hash": "6f0fa39cb8b436ae905583fdb89092c4944e09db8f525bdb00fa5dded949f7cb",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\039.wav"
+    },
+    "40": {
+      "hash": "ffa0124481c546be9681cee22f30a6ad7273c50d86f5f45fb40188f76320791a",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\040.wav"
+    },
+    "41": {
+      "hash": "816cec9400d6f36b8f127a2c80f4c2199608958486953caac2535cdf94c5bad4",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\041.wav"
+    },
+    "42": {
+      "hash": "3168da372c92ebeb3b192aa9bd718cc4f5a095d26a9c1761111d6cbf1c9da492",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\042.wav"
+    },
+    "43": {
+      "hash": "ce108463a7b363b8d57ac2804042c62183e602e0b3f594ad94049a339a569638",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\043.wav"
+    },
+    "44": {
+      "hash": "9d8484900d62de23047571ebc10eed026bbf72a149126f6a14aeda46249607d5",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\044.wav"
+    },
+    "45": {
+      "hash": "ce108463a7b363b8d57ac2804042c62183e602e0b3f594ad94049a339a569638",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\045.wav"
+    },
+    "46": {
+      "hash": "301e3497c37466126addec9314a673db6c0e29db5c3cb1b3df19579fb1a9b05a",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\046.wav"
+    },
+    "47": {
+      "hash": "4e1b7df0e3e5d2809ff056371c51211387a697b4b26c07c0e0eb5eab7e15888d",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\047.wav"
+    },
+    "48": {
+      "hash": "df374087446e34c7cbf29a396b92353dd9e875e5ac1ff9e4225eaa60a9110871",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\048.wav"
+    },
+    "49": {
+      "hash": "1aa7eacaad9fc944702475606a40558bcfba31e9ec81ac4e6df54b695dd23677",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\049.wav"
+    },
+    "50": {
+      "hash": "4d7cdeb6424db8d13d3e65836dc726d3095e673621cee4fd1b5a6d54c9d2df37",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\050.wav"
+    },
+    "51": {
+      "hash": "ef977eab6c389129afee5dfac6d58e62d91f32a713318b7a1d400791982e0aab",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\051.wav"
+    },
+    "52": {
+      "hash": "9bb902a01486da878cdb19a0de5eae77e2f043dd1293270cd76cda9edef1b26f",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\052.wav"
+    },
+    "53": {
+      "hash": "c9bd8e9df754bce436f3af047317f66aba0cc31a53deb1fb8e3e6dbe7ea4202d",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\053.wav"
+    },
+    "54": {
+      "hash": "f3d663fdddf30f9916cb13a4721c8ef1f209c85f7aa5e1d4e3db3329bb3bffd5",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\054.wav"
+    },
+    "55": {
+      "hash": "48dc134e527e4d7f7e347dce9f586c2812238448ebc729e97934ce199a8752d7",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\055.wav"
+    },
+    "56": {
+      "hash": "8944656f376c03eca79058fca34d38519cab7657e90ab9fef75b9b93ed33d828",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\056.wav"
+    },
+    "57": {
+      "hash": "286b8eb7875eed1824d9151eb8a40085b8657ffb1ac65a11caba859f84435c78",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\057.wav"
+    },
+    "58": {
+      "hash": "ac68f83058ea58ca172616ec46d301a2833450eb6eea3d4503f58f23884f7472",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\058.wav"
+    },
+    "59": {
+      "hash": "c3aeda375a2ade568b4972041f427dfa01ffa9fdd53a10dc50bdb118ca530f48",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\059.wav"
+    },
+    "60": {
+      "hash": "41d3e6ac116e25dcb6bb89d57574df2657d79fc3a23e296b598ebf55b1471dae",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\060.wav"
+    },
+    "61": {
+      "hash": "c23f00595840ddbf3d8371ae12163d4fbbd2f53fb330493b24113a50292bb9d8",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\061.wav"
+    },
+    "62": {
+      "hash": "ed92dd178ca580af77099335aacdecc6fb2ec5c42e4de45c27fbf37f2479ef10",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\062.wav"
+    },
+    "63": {
+      "hash": "ec3231d4b191f22c6d1d4d9accf56b3eea82c14cc959c35e99b97b95a27b4b11",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\063.wav"
+    },
+    "64": {
+      "hash": "8ab43c91b8f2ce522ea6111a949cf55aca574110d1ae24f37a3765b4fc6c7c33",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\064.wav"
+    },
+    "65": {
+      "hash": "cef356fa0fe728f8b1099d26ea2ee31d525afc1aefefe43c787467b17f06000d",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\065.wav"
+    },
+    "66": {
+      "hash": "12b1280ee63ae0256237baf28f7ec276ba51e75c150cc1cb06aea5b18d374ed7",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\066.wav"
+    },
+    "67": {
+      "hash": "155c8862956f8d5b8091ea33963afe0e92adf14d9053560ebcab709bbea0a9c8",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\067.wav"
+    },
+    "68": {
+      "hash": "f0ed6b4385cbd27e33d841bbbdccc690b670ce1e540bcb7c240ef3d2c09b16bd",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\068.wav"
+    },
+    "69": {
+      "hash": "2d42ae7ffe834e13ab84c123f1b0e9484df07af978e7b8e1b82a2afe63f8e14b",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\069.wav"
+    },
+    "70": {
+      "hash": "d8bd33ec86393b4d7d7a368603c861e78eabe2bf4ced125e64ec0af6760b9e33",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\070.wav"
+    },
+    "71": {
+      "hash": "1c622f4ec5dfc8133aec42dcd1c6dcc3ba7869c532b3107d78012bf9cff3040a",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\071.wav"
+    },
+    "72": {
+      "hash": "c1d4045c6dbed34082d3bf1469939e1a68a253b74a85f01dda81f20fb4176594",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\072.wav"
+    },
+    "73": {
+      "hash": "13be19ef28105071dd265f54a34efd788a5bc2a90411ee1996f10d0511bb181a",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\073.wav"
+    },
+    "74": {
+      "hash": "29cf308897c35141f2f0549f768318403fe6d88a5516993454ccd99a65c67ff7",
+      "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\audio\\voicevox_kenzaki\\segments\\074.wav"
+    }
+  }
+}

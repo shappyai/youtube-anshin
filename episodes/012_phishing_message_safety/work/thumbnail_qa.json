@@ -1,0 +1,22 @@
+{
+  "episode_id": "012",
+  "status": "HUMAN_PROVIDED_QA_PASS",
+  "source_path": "assets/thumbnail/thumbnail_source.png",
+  "source_sha256": "E611BA47451BA537C37E5FB4FBE1C6486EF8A52511AD1532C0870FFE7391229E",
+  "source_dimensions": "1672x941",
+  "public_path": "assets/thumbnail/thumbnail.png",
+  "public_sha256": "AB169B2F8185D7B7497A1450C0028CDDA614C4A1F0ECF0A8C6E39FDFD060F10B",
+  "public_bytes": 1231383,
+  "public_dimensions": "1280x720",
+  "format": "PNG",
+  "normalization": "resize_only_lanczos_no_content_change",
+  "content_change": false,
+  "clipping": 0,
+  "face_crop": 0,
+  "headline_crop": 0,
+  "watermark": 0,
+  "internal_episode_id": 0,
+  "readability_25_percent": "PASS",
+  "qa": "PASS",
+  "reviewed_at": "2026-09-06"
+}

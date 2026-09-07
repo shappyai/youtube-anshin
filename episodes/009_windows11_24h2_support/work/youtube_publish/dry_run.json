@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "api_called": false,
+  "oauth_called": false,
+  "episode": "009_windows11_24h2_support",
+  "final_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\009_windows11_24h2_support\\output\\final.mp4",
+  "thumbnail_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\009_windows11_24h2_support\\assets\\thumbnail\\thumbnail.png",
+  "title": "【Windows 11】このままで大丈夫？10月13日までに確認したいこと",
+  "description_bytes": 2916,
+  "tag_count": 9,
+  "tag_total_length": 61,
+  "privacy": "scheduled",
+  "ai_disclosure": true,
+  "schedule_local": "2026-09-09 19:00:00 JST",
+  "schedule_api": "2026-09-09T10:00:00Z",
+  "video_sha256": "E4E181B9A264F00BAE04673352BF88676C47982508FCFE6DE4B73AD5C825FC70",
+  "existing_video_id": null,
+  "expected_api_requests": [
+    "videos.insert part=snippet,status resumable=True notifySubscribers=False status.containsSyntheticMedia",
+    "videos.update part=status private+publishAt",
+    "thumbnails.set",
+    "videos.list part=snippet,status"
+  ],
+  "errors": []
+}

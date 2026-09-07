@@ -1,0 +1,1970 @@
+{
+  "schema_version": "1.0.0",
+  "metadata": {
+    "research_date": "2026-09-03",
+    "production_phase": "Phase A（Episode 002 Analyticsパッチ反映済み・人間レビュー待ち）",
+    "media_decision": "マイナアプリの実画面（ログイン・読み取り・暗証番号）はAndroid Emulatorまたは安全なテスト端末・iPhone実機を優先。取得できない場合はデジタル庁等の公式素材・公式保存HTML由来の引用カードへfallback。対応OS・読み取り位置・有効期限・障害情報・再設定・窓口は公式ページのcrop（official）を主軸、概念・クロージングはGPT画像2枚、一覧・注意・比較・まとめはCodexテンプレート。マイナアプリ／マイナポータルの実UIはAIで再現しない。TV-first readability（テレビ視聴52.5%対応）を全template・official cropに適用。",
+    "primary_sources": [
+      "デジタル庁 マイナアプリ（サービスサイト・動作環境・利用登録・主な機能）",
+      "デジタル庁 マイナアプリFAQ（ログインできない記事・EDZ207）",
+      "デジタル庁 公式note（マイナアプリ提供開始）",
+      "公的個人認証サービス（jpki.go.jp）読み取り手順・暗証番号FAQ・JPKI暗証番号リセット",
+      "マイナポータル（myna.go.jp）障害・メンテナンス情報",
+      "デジタル庁（digital.go.jp）有効期限・更新",
+      "マイナンバーカード総合サイト（kojinbango-card.go.jp）暗証番号FAQ・問い合わせ案内",
+      "Apple App Store / Google Play（公式ストア・提供元確認）"
+    ],
+    "fact_boundary": "「ログインできない」を1原因で断定しない（端末・読み取り・暗証番号・期限・メンテナンスの順で確認）。ロック回数（数字4桁=3回連続）・有効期限（カード=10回目の誕生日、電子証明書=5回目の誕生日）・更新3か月前・フリーダイヤル受付時間は2026-09-03に公式サイト要約で確認（撮影時に人間が公式ページ本文を最終確認）。「何度試してもよい」と聞こえる表現は使わない。音声・画面ともGPT画像は概念のみ（正確なUI・政府マークを生成しない）。"
+  },
+  "episode": {
+    "episode_id": "007",
+    "slug": "myna_app_login",
+    "title": "【マイナアプリ】ログインできない？まず確認したい5つ",
+    "target_duration": 360,
+    "status": "draft",
+    "topic": "マイナアプリ（旧マイナポータルアプリ）でログインできないときの確認方法。端末・アプリの準備→カード読み取り→暗証番号→カード/電子証明書の期限→再設定・メンテナンス・公式窓口の5項目を困り方順に確認し、どこで止まっているかを自分で見つける。",
+    "target_audience": "マイナアプリでログインできず困っている50〜70代と、家族のスマホ設定を手伝う40〜50代。ホーム推薦で偶然出会うシニア視聴者（テレビ視聴約半数）。"
+  },
+  "narration": {
+    "speaker": "VOICEVOX",
+    "voice": "剣崎雌雄",
+    "style": "ノーマル",
+    "speedScale": 1,
+    "intonationScale": 1,
+    "pitchScale": 0,
+    "segment_policy": "1文ずつaudio_query→synthesis。Phase Aでは全文生成しない。"
+  },
+  "postroll": {
+    "kind": "channel_cta",
+    "profile": "channel_common_cta",
+    "cta_profile": "channel_common_cta",
+    "audio_required": true,
+    "cta_content_hash": "c0df4a036b397effa920436c4ba473186737ed6e5cc3df54b85afe8ba32b82eb",
+    "asset": "work/channel_cta.png",
+    "cta_audio": "audio/voicevox_kenzaki/cta_channel_common.wav",
+    "duration_mode": "audio_based",
+    "duration_sec": 15.0,
+    "animation": "static"
+  },
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "url": "https://services.digital.go.jp/mynaapp/",
+      "title": "マイナアプリ（サービスサイト・トップ）",
+      "organization": "デジタル庁",
+      "verified_at": "2026-09-03",
+      "claim": "マイナポータルアプリからの呼称変更・2026年8月25日提供開始。既存ユーザーはアップデートのみで利用可。マイナポータルWebは存続しログイン方法のみ変更。端末ロック設定必須。"
+    },
+    {
+      "source_id": "SRC-002",
+      "url": "https://services.digital.go.jp/mynaapp/system-requirements/",
+      "title": "マイナアプリの動作環境",
+      "organization": "デジタル庁",
+      "verified_at": "2026-09-03",
+      "claim": "対応OS: iOS 16.4以上／Android 11以降かつNFC機能。iPhoneのマイナンバーカード利用はiOS 18.5以上＋iPhone XS以降。端末ロック設定が必須。"
+    },
+    {
+      "source_id": "SRC-003",
+      "url": "https://services.digital.go.jp/mynaapp/register/",
+      "title": "マイナアプリの利用登録の方法",
+      "organization": "デジタル庁",
+      "verified_at": "2026-09-03",
+      "claim": "利用者証明用暗証番号（数字4桁）。「実物のマイナンバーカードの上にスマートフォン背面上部をぴったりと合わせて『読み取り開始』ボタンをタップ」。スマホにカード追加済みなら顔・指紋でも利用登録可。"
+    },
+    {
+      "source_id": "SRC-004",
+      "url": "https://services.digital.go.jp/mynaapp/features/",
+      "title": "マイナアプリの主な機能",
+      "organization": "デジタル庁",
+      "verified_at": "2026-09-03",
+      "claim": "マイナポータルWebへのログインはマイナバンバーカード（マイナアプリ経由）で可能。暗証番号・パスワード変更ページの存在。"
+    },
+    {
+      "source_id": "SRC-005",
+      "url": "https://support.mynaapp.digital.go.jp/hc/ja",
+      "title": "マイナアプリ よくある質問（ログインできない）",
+      "organization": "デジタル庁",
+      "verified_at": "2026-09-03",
+      "claim": "プライベートブラウズ/シークレットモードでストア転送ループ→通常モード。端末再起動・動作環境の確認。EDZ207は動作環境と通常モードの確認。"
+    },
+    {
+      "source_id": "SRC-006",
+      "url": "https://digital-gov.note.jp/n/n64bc51024681",
+      "title": "マイナポータルアプリが「マイナアプリ」になりました",
+      "organization": "デジタル庁（公式note）",
+      "verified_at": "2026-09-03",
+      "claim": "2026-08-25提供開始・デジタル認証アプリ統合。初回利用登録にマイナンバーカードと数字4桁の利用者証明用暗証番号。端末ロック必須。"
+    },
+    {
+      "source_id": "SRC-007",
+      "url": "https://www.jpki.go.jp/",
+      "title": "マイナンバーカードの読み取りかた（iPhone）",
+      "organization": "J-LIS（公的個人認証サービス）",
+      "verified_at": "2026-09-03",
+      "claim": "iPhoneは本体上部（上端・カメラ付近）をカード中央に密着。読み取り中は動かさない。手帳型ケース・スマホリング・厚いケースは外す。金属の机・充電ケーブルに注意。※web検索要約・人間最終確認必須。"
+    },
+    {
+      "source_id": "SRC-008",
+      "url": "https://www.jpki.go.jp/faq/",
+      "title": "暗証番号を間違えた場合（FAQ）",
+      "organization": "J-LIS（公的個人認証サービス）",
+      "verified_at": "2026-09-03",
+      "claim": "利用者証明用電子証明書の暗証番号（数字4桁）は連続3回でロック。署名用（英数字6〜16字）は連続5回。本編ではログインで使う4桁のみ言及。※web検索要約・人間最終確認必須。"
+    },
+    {
+      "source_id": "SRC-009",
+      "url": "https://www.jpki.go.jp/jpkiidreset/howto/kiosk.html",
+      "title": "コンビニで暗証番号を再設定する（JPKI暗証番号リセット）",
+      "organization": "J-LIS（公的個人認証サービス）",
+      "verified_at": "2026-09-03",
+      "claim": "コンビニのキオスク端末で再設定できる場合がある（もう一方の暗証番号が必須・条件あり）。※web検索要約・人間最終確認必須。"
+    },
+    {
+      "source_id": "SRC-010",
+      "url": "https://www.digital.go.jp/policies/mynumber/expiration-date/",
+      "title": "マイナンバーカードの有効期限・電子証明書の有効期限",
+      "organization": "デジタル庁",
+      "verified_at": "2026-09-03",
+      "claim": "カード=18歳以上は発行日から10回目の誕生日、18歳未満は5回目。電子証明書=5回目の誕生日。更新は有効期限の3か月前から可能。※web検索要約・人間最終確認必須。"
+    },
+    {
+      "source_id": "SRC-011",
+      "url": "https://myna.go.jp/html/info/index.html",
+      "title": "マイナポータル 障害・メンテナンス情報",
+      "organization": "マイナポータル（公式）",
+      "verified_at": "2026-09-03",
+      "claim": "障害・メンテナンス情報の公式ページが存在。メンテナンス等で一時的に利用できないことがある。※web検索要約・人間最終確認必須。"
+    },
+    {
+      "source_id": "SRC-012",
+      "url": "https://www.kojinbango-card.go.jp/contact/tel/",
+      "title": "マイナンバー総合フリーダイヤルのご案内",
+      "organization": "マイナンバーカード総合サイト",
+      "verified_at": "2026-09-03",
+      "claim": "0120-95-0178。平日9:30〜20:00・土日祝9:30〜17:30（紛失・盗難の一時利用停止は24時間）。※web検索要約・人間最終確認必須。"
+    },
+    {
+      "source_id": "SRC-013",
+      "url": "https://www.digital.go.jp/news/b32e5c16-8272-4cc3-9171-b4c583325feb",
+      "title": "偽サイト・偽アプリへの誘導事案の注意喚起",
+      "organization": "デジタル庁",
+      "verified_at": "2026-09-03",
+      "claim": "公式アプリはApp Store/Google Playのみ。相談窓口マイナンバー総合フリーダイヤル。メンテナンス・重要なお知らせページの存在。"
+    },
+    {
+      "source_id": "SRC-014",
+      "url": "https://apps.apple.com/jp/app/…（id1476359069）",
+      "title": "App Store／Google Play「マイナアプリ（旧マイナポータルアプリ）」",
+      "organization": "Apple／Google",
+      "verified_at": "2026-09-03",
+      "claim": "ストア掲載名・提供元はデジタル庁（2026-08-30時点）。09-03時点の表示は撮影時に実画面確認。"
+    }
+  ],
+  "narration_segments": [
+    {
+      "id": 1,
+      "section": "はじめに",
+      "narration": "マイナアプリにログインできない。カードが読み取れない。暗証番号で止まる。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-001"
+      ]
+    },
+    {
+      "id": 2,
+      "section": "はじめに",
+      "narration": "そんなときは、あわてずに、順番に確認していきましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-002"
+      ]
+    },
+    {
+      "id": 3,
+      "section": "はじめに",
+      "narration": "どこで止まっているかで、次に見る場所が、変わります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-003"
+      ]
+    },
+    {
+      "id": 4,
+      "section": "はじめに",
+      "narration": "確認するのは、この5つです。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-004"
+      ]
+    },
+    {
+      "id": 5,
+      "section": "はじめに",
+      "narration": "一つ、スマホが対応しているか。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-005"
+      ]
+    },
+    {
+      "id": 6,
+      "section": "はじめに",
+      "narration": "二つ、カードを読み取れない場合。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-006"
+      ]
+    },
+    {
+      "id": 7,
+      "section": "はじめに",
+      "narration": "三つ、暗証番号で止まる場合。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-007"
+      ]
+    },
+    {
+      "id": 8,
+      "section": "はじめに",
+      "narration": "四つ、カードや電子証明書の期限。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-008"
+      ]
+    },
+    {
+      "id": 9,
+      "section": "はじめに",
+      "narration": "五つ、それでもダメなら、再設定と、公式の窓口です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-009"
+      ]
+    },
+    {
+      "id": 10,
+      "section": "はじめに",
+      "narration": "では、一つずつ、見ていきましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-010"
+      ]
+    },
+    {
+      "id": 11,
+      "section": "1 / 5 スマホが対応しているか確認",
+      "narration": "一つ目です。まず、スマホがマイナアプリに対応しているか、確認します。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-011"
+      ]
+    },
+    {
+      "id": 12,
+      "section": "1 / 5 スマホが対応しているか確認",
+      "narration": "公式の案内では、iPhoneは「iOS 16.4以上」、Androidは「Android 11以降」で、カードを読み取る機能が付いていることが、条件です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-012"
+      ]
+    },
+    {
+      "id": 13,
+      "section": "1 / 5 スマホが対応しているか確認",
+      "narration": "カードを読み取る機能を「NFC」と呼びます。細かい対応機種は、説明欄の公式ページで確認できます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-013"
+      ]
+    },
+    {
+      "id": 14,
+      "section": "1 / 5 スマホが対応しているか確認",
+      "narration": "次に、アプリが最新版か、確認しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-014"
+      ]
+    },
+    {
+      "id": 15,
+      "section": "1 / 5 スマホが対応しているか確認",
+      "narration": "アプリを消して、入れ直す前に、まずアップデートがあるか、確認してください。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-015"
+      ]
+    },
+    {
+      "id": 16,
+      "section": "1 / 5 スマホが対応しているか確認",
+      "narration": "ブラウザで「プライベートブラウズ」や「シークレットモード」を使っていると、ログインの画面が進まないことがあります。通常モードで、開き直しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-016"
+      ]
+    },
+    {
+      "id": 17,
+      "section": "1 / 5 スマホが対応しているか確認",
+      "narration": "それから、スマホ本体のロック設定です。公式でも、PIN、顔認証、指紋認証などのロック設定が、必須と案内されています。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 6,
+      "subtitle_ids": [
+        "SUB-017"
+      ]
+    },
+    {
+      "id": 18,
+      "section": "1 / 5 スマホが対応しているか確認",
+      "narration": "スマホとアプリの準備は、ここまでで確認できました。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 6,
+      "subtitle_ids": [
+        "SUB-018"
+      ]
+    },
+    {
+      "id": 19,
+      "section": "2 / 5 カードを読み取れない場合",
+      "narration": "二つ目です。カードを読み取れない場合の、確認です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-019"
+      ]
+    },
+    {
+      "id": 20,
+      "section": "2 / 5 カードを読み取れない場合",
+      "narration": "まず、読み取る位置です。公式の案内では、マイナンバーカードの上に、スマートフォンの背面上部を、ぴったり合わせます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-020"
+      ]
+    },
+    {
+      "id": 21,
+      "section": "2 / 5 カードを読み取れない場合",
+      "narration": "iPhoneは、カードの上に、本体の背面上部、上端のあたりを、ぴったり合わせます。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-021"
+      ]
+    },
+    {
+      "id": 22,
+      "section": "2 / 5 カードを読み取れない場合",
+      "narration": "Androidは、本体の背面にある読み取り位置を、カードに合わせます。機種によって、場所は少し違います。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 9,
+      "subtitle_ids": [
+        "SUB-022"
+      ]
+    },
+    {
+      "id": 23,
+      "section": "2 / 5 カードを読み取れない場合",
+      "narration": "読み取り中は、カードを動かさないで、数秒、そのまま待ちます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-023"
+      ]
+    },
+    {
+      "id": 24,
+      "section": "2 / 5 カードを読み取れない場合",
+      "narration": "読み取れないときは、いったん離して、位置を変えて、もう一度、試してみましょう。それでもだめなら、ほかの確認に進みます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-024"
+      ]
+    },
+    {
+      "id": 25,
+      "section": "2 / 5 カードを読み取れない場合",
+      "narration": "厚いケースや、手帳型のケース、スマホリングを付けていると、読み取りにくくなることがあります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-025"
+      ]
+    },
+    {
+      "id": 26,
+      "section": "2 / 5 カードを読み取れない場合",
+      "narration": "金属の机の上や、充電ケーブルを差したままでは、読み取りにくいことがあります。",
+      "reading_overrides": {
+        "上": "うえ"
+      },
+      "pause_after": 0.3,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-026"
+      ]
+    },
+    {
+      "id": 27,
+      "section": "2 / 5 カードを読み取れない場合",
+      "narration": "読み取りの位置に「必ず」はありません。公式の読み取りの解説ページも、説明欄でご案内します。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-027"
+      ]
+    },
+    {
+      "id": 28,
+      "section": "2 / 5 カードを読み取れない場合",
+      "narration": "それでも読み取れないときは、四つ目で、カードや証明書の期限を確認します。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-028"
+      ]
+    },
+    {
+      "id": 29,
+      "section": "3 / 5 暗証番号で止まる場合",
+      "narration": "三つ目です。暗証番号で止まる場合です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-029"
+      ]
+    },
+    {
+      "id": 30,
+      "section": "3 / 5 暗証番号で止まる場合",
+      "narration": "ログインで使う暗証番号は、数字4桁です。6桁でも、英数字でも、ありません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-030"
+      ]
+    },
+    {
+      "id": 31,
+      "section": "3 / 5 暗証番号で止まる場合",
+      "narration": "公式の名前は「利用者証明用暗証番号」ですが、ここでは「数字4桁の暗証番号」と覚えてください。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-031"
+      ]
+    },
+    {
+      "id": 32,
+      "section": "3 / 5 暗証番号で止まる場合",
+      "narration": "スマホにマイナンバーカードを追加してある方は、暗証番号のかわりに、顔や指紋で認証できることもあります。",
+      "reading_overrides": {
+        "方": "かた"
+      },
+      "pause_after": 0.3,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-032"
+      ]
+    },
+    {
+      "id": 33,
+      "section": "3 / 5 暗証番号で止まる場合",
+      "narration": "ここからは、大切な注意です。暗証番号は、何度も試してはいけません。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-033"
+      ]
+    },
+    {
+      "id": 34,
+      "section": "3 / 5 暗証番号で止まる場合",
+      "narration": "公式の案内では、数字4桁の暗証番号は、3回続けて間違えると、ロックされます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-034"
+      ]
+    },
+    {
+      "id": 35,
+      "section": "3 / 5 暗証番号で止まる場合",
+      "narration": "分からない番号を、何度も試すのは、やめましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-035"
+      ]
+    },
+    {
+      "id": 36,
+      "section": "3 / 5 暗証番号で止まる場合",
+      "narration": "番号が分からないときは、五つ目で案内する「再設定」を、確認してください。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-036"
+      ]
+    },
+    {
+      "id": 37,
+      "section": "3 / 5 暗証番号で止まる場合",
+      "narration": "読み取りと暗証番号の確認は、ここまでです。この2つが、多くの止まる場所です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-037"
+      ]
+    },
+    {
+      "id": 38,
+      "section": "4 / 5 カードや電子証明書の期限",
+      "narration": "四つ目です。カードや電子証明書の、期限です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 14,
+      "subtitle_ids": [
+        "SUB-038"
+      ]
+    },
+    {
+      "id": 39,
+      "section": "4 / 5 カードや電子証明書の期限",
+      "narration": "まず、カード自体の期限。カードの表面に、印字されています。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 15,
+      "subtitle_ids": [
+        "SUB-039"
+      ]
+    },
+    {
+      "id": 40,
+      "section": "4 / 5 カードや電子証明書の期限",
+      "narration": "大人の方は、カードの発行日から、10回目の誕生日までです。",
+      "reading_overrides": {
+        "方": "かた"
+      },
+      "pause_after": 0.3,
+      "scene_id": 15,
+      "subtitle_ids": [
+        "SUB-040"
+      ]
+    },
+    {
+      "id": 41,
+      "section": "4 / 5 カードや電子証明書の期限",
+      "narration": "次に、電子証明書。カードの中に入っている、本人確認に使う証明書です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-041"
+      ]
+    },
+    {
+      "id": 42,
+      "section": "4 / 5 カードや電子証明書の期限",
+      "narration": "電子証明書には、カードとは別の期限があります。5回目の誕生日までです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-042"
+      ]
+    },
+    {
+      "id": 43,
+      "section": "4 / 5 カードや電子証明書の期限",
+      "narration": "証明書の期限が切れていると、ログインに失敗することがあります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-043"
+      ]
+    },
+    {
+      "id": 44,
+      "section": "4 / 5 カードや電子証明書の期限",
+      "narration": "カードの期限と、証明書の期限は、別もの。この2つを、混同しないことが、大切です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-044"
+      ]
+    },
+    {
+      "id": 45,
+      "section": "4 / 5 カードや電子証明書の期限",
+      "narration": "期限が近づいたら、市役所や区役所の窓口で、更新の手続きができます。3か月前から、手続きできます。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 16,
+      "subtitle_ids": [
+        "SUB-045"
+      ]
+    },
+    {
+      "id": 46,
+      "section": "5 / 5 それでもダメなら（再設定・メンテナンス・公式窓口）",
+      "narration": "五つ目です。それでもダメなときの、確認です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 17,
+      "subtitle_ids": [
+        "SUB-046"
+      ]
+    },
+    {
+      "id": 47,
+      "section": "5 / 5 それでもダメなら（再設定・メンテナンス・公式窓口）",
+      "narration": "まず、公式の「障害・メンテナンス」のページを、見てみましょう。マイナポータル側のメンテナンスで、一時的に使えないことがあります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 18,
+      "subtitle_ids": [
+        "SUB-047"
+      ]
+    },
+    {
+      "id": 48,
+      "section": "5 / 5 それでもダメなら（再設定・メンテナンス・公式窓口）",
+      "narration": "次に、暗証番号を忘れてしまった場合です。コンビニの端末で、再設定できることがあります。もう一つの暗証番号が必要です。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 19,
+      "subtitle_ids": [
+        "SUB-048"
+      ]
+    },
+    {
+      "id": 49,
+      "section": "5 / 5 それでもダメなら（再設定・メンテナンス・公式窓口）",
+      "narration": "どの暗証番号も分からないときは、市役所や区役所の窓口で、再設定できます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 19,
+      "subtitle_ids": [
+        "SUB-049"
+      ]
+    },
+    {
+      "id": 50,
+      "section": "5 / 5 それでもダメなら（再設定・メンテナンス・公式窓口）",
+      "narration": "ここまで確認しても、分からないときは、一人で続けず、公式の窓口に相談しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 20,
+      "subtitle_ids": [
+        "SUB-050"
+      ]
+    },
+    {
+      "id": 51,
+      "section": "5 / 5 それでもダメなら（再設定・メンテナンス・公式窓口）",
+      "narration": "マイナンバー総合フリーダイヤル、0120-95-0178です。平日は午前9時半から午後8時まで、土日祝は午後5時半までです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 20,
+      "subtitle_ids": [
+        "SUB-051"
+      ]
+    },
+    {
+      "id": 52,
+      "section": "5 / 5 それでもダメなら（再設定・メンテナンス・公式窓口）",
+      "narration": "番号が分からないまま、何度も試すのは、ここまでにしましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 20,
+      "subtitle_ids": [
+        "SUB-052"
+      ]
+    },
+    {
+      "id": 53,
+      "section": "5 / 5 それでもダメなら（再設定・メンテナンス・公式窓口）",
+      "narration": "マイナアプリの変更点については、以前の動画でも、紹介しています。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 20,
+      "subtitle_ids": [
+        "SUB-053"
+      ]
+    },
+    {
+      "id": 54,
+      "section": "まとめ",
+      "narration": "今日のまとめです。確認するのは、この5つでした。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 21,
+      "subtitle_ids": [
+        "SUB-054"
+      ]
+    },
+    {
+      "id": 55,
+      "section": "まとめ",
+      "narration": "一つ、スマホが対応しているか。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 21,
+      "subtitle_ids": [
+        "SUB-055"
+      ]
+    },
+    {
+      "id": 56,
+      "section": "まとめ",
+      "narration": "二つ、カードを読み取れない場合。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 21,
+      "subtitle_ids": [
+        "SUB-056"
+      ]
+    },
+    {
+      "id": 57,
+      "section": "まとめ",
+      "narration": "三つ、暗証番号で止まる場合。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 21,
+      "subtitle_ids": [
+        "SUB-057"
+      ]
+    },
+    {
+      "id": 58,
+      "section": "まとめ",
+      "narration": "四つ、カードや電子証明書の期限。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 21,
+      "subtitle_ids": [
+        "SUB-058"
+      ]
+    },
+    {
+      "id": 59,
+      "section": "まとめ",
+      "narration": "五つ、それでもダメなら、再設定と、公式の窓口です。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 21,
+      "subtitle_ids": [
+        "SUB-059"
+      ]
+    },
+    {
+      "id": 60,
+      "section": "まとめ",
+      "narration": "どこで止まっているかで、見る場所が違います。あわてずに、順番に、確認しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 21,
+      "subtitle_ids": [
+        "SUB-060"
+      ]
+    },
+    {
+      "id": 61,
+      "section": "まとめ",
+      "narration": "こうしたスマホの困りごとを、これからも、分かりやすく、確認していきます。",
+      "reading_overrides": {},
+      "pause_after": 0.5,
+      "scene_id": 22,
+      "subtitle_ids": [
+        "SUB-061"
+      ]
+    }
+  ],
+  "subtitles": [
+    {
+      "id": "SUB-001",
+      "text_lines": [
+        "マイナアプリにログインできない。",
+        "カードが読み取れない。暗証番号で止まる。"
+      ],
+      "segment_id": 1
+    },
+    {
+      "id": "SUB-002",
+      "text_lines": [
+        "そんなときは、あわてずに、",
+        "順番に確認していきましょう。"
+      ],
+      "segment_id": 2
+    },
+    {
+      "id": "SUB-003",
+      "text_lines": [
+        "どこで止まっているかで、次に見る場所が、",
+        "変わります。"
+      ],
+      "segment_id": 3
+    },
+    {
+      "id": "SUB-004",
+      "text_lines": [
+        "確認するのは、この5つです。"
+      ],
+      "segment_id": 4
+    },
+    {
+      "id": "SUB-005",
+      "text_lines": [
+        "一つ、スマホが対応しているか。"
+      ],
+      "segment_id": 5
+    },
+    {
+      "id": "SUB-006",
+      "text_lines": [
+        "二つ、カードを読み取れない場合。"
+      ],
+      "segment_id": 6
+    },
+    {
+      "id": "SUB-007",
+      "text_lines": [
+        "三つ、暗証番号で止まる場合。"
+      ],
+      "segment_id": 7
+    },
+    {
+      "id": "SUB-008",
+      "text_lines": [
+        "四つ、カードや電子証明書の期限。"
+      ],
+      "segment_id": 8
+    },
+    {
+      "id": "SUB-009",
+      "text_lines": [
+        "五つ、それでもダメなら、再設定と、公式の窓口です。"
+      ],
+      "segment_id": 9
+    },
+    {
+      "id": "SUB-010",
+      "text_lines": [
+        "では、一つずつ、見ていきましょう。"
+      ],
+      "segment_id": 10
+    },
+    {
+      "id": "SUB-011",
+      "text_lines": [
+        "一つ目です。まず、",
+        "スマホがマイナアプリに対応しているか、確認します。"
+      ],
+      "segment_id": 11
+    },
+    {
+      "id": "SUB-012_1",
+      "text_lines": [
+        "公式の案内では、iPhoneは「iOS 16.4以上」、",
+        "Androidは「Android 11以降」で、"
+      ],
+      "segment_id": 12,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-012_2",
+      "text_lines": [
+        "カードを読み取る機能が付いていることが、条件です。"
+      ],
+      "segment_id": 12,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-013",
+      "text_lines": [
+        "カードを読み取る機能を「NFC」と呼びます。",
+        "細かい対応機種は、説明欄の公式ページで確認できます。"
+      ],
+      "segment_id": 13,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-014",
+      "text_lines": [
+        "次に、アプリが最新版か、確認しましょう。"
+      ],
+      "segment_id": 14
+    },
+    {
+      "id": "SUB-015",
+      "text_lines": [
+        "アプリを消して、入れ直す前に、",
+        "まずアップデートがあるか、確認してください。"
+      ],
+      "segment_id": 15
+    },
+    {
+      "id": "SUB-016_1",
+      "text_lines": [
+        "ブラウザで「プライベートブラウズ」や「シークレットモード」",
+        "を使っていると、ログインの画面が進まないことがあります。"
+      ],
+      "segment_id": 16,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-016_2",
+      "text_lines": [
+        "通常モードで、開き直しましょう。"
+      ],
+      "segment_id": 16,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-017",
+      "text_lines": [
+        "それから、スマホ本体のロック設定です。公式でも、PIN、",
+        "顔認証、指紋認証などのロック設定が、必須と案内されています。"
+      ],
+      "segment_id": 17,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-018",
+      "text_lines": [
+        "スマホとアプリの準備は、ここまでで確認できました。"
+      ],
+      "segment_id": 18
+    },
+    {
+      "id": "SUB-019",
+      "text_lines": [
+        "二つ目です。カードを読み取れない場合の、確認です。"
+      ],
+      "segment_id": 19
+    },
+    {
+      "id": "SUB-020_1",
+      "text_lines": [
+        "まず、読み取る位置です。"
+      ],
+      "segment_id": 20,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-020_2",
+      "text_lines": [
+        "公式の案内では、マイナンバーカードの上に、",
+        "スマートフォンの背面上部を、ぴったり合わせます。"
+      ],
+      "segment_id": 20,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-021",
+      "text_lines": [
+        "iPhoneは、カードの上に、本体の背面上部、",
+        "上端のあたりを、ぴったり合わせます。"
+      ],
+      "segment_id": 21
+    },
+    {
+      "id": "SUB-022",
+      "text_lines": [
+        "Androidは、本体の背面にある読み取り位置を、",
+        "カードに合わせます。機種によって、場所は少し違います。"
+      ],
+      "segment_id": 22,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-023",
+      "text_lines": [
+        "読み取り中は、カードを動かさないで、数秒、",
+        "そのまま待ちます。"
+      ],
+      "segment_id": 23
+    },
+    {
+      "id": "SUB-024",
+      "text_lines": [
+        "読み取れないときは、いったん離して、位置を変えて、もう一度、",
+        "試してみましょう。それでもだめなら、ほかの確認に進みます。"
+      ],
+      "segment_id": 24,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-025",
+      "text_lines": [
+        "厚いケースや、手帳型のケース、スマホリングを付けていると、",
+        "読み取りにくくなることがあります。"
+      ],
+      "segment_id": 25,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-026",
+      "text_lines": [
+        "金属の机の上や、充電ケーブルを差したままでは、",
+        "読み取りにくいことがあります。"
+      ],
+      "segment_id": 26
+    },
+    {
+      "id": "SUB-027",
+      "text_lines": [
+        "読み取りの位置に「必ず」はありません。",
+        "公式の読み取りの解説ページも、説明欄でご案内します。"
+      ],
+      "segment_id": 27,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-028",
+      "text_lines": [
+        "それでも読み取れないときは、四つ目で、",
+        "カードや証明書の期限を確認します。"
+      ],
+      "segment_id": 28
+    },
+    {
+      "id": "SUB-029",
+      "text_lines": [
+        "三つ目です。暗証番号で止まる場合です。"
+      ],
+      "segment_id": 29
+    },
+    {
+      "id": "SUB-030",
+      "text_lines": [
+        "ログインで使う暗証番号は、数字4桁です。6桁でも、",
+        "英数字でも、ありません。"
+      ],
+      "segment_id": 30
+    },
+    {
+      "id": "SUB-031",
+      "text_lines": [
+        "公式の名前は「利用者証明用暗証番号」ですが、",
+        "ここでは「数字4桁の暗証番号」と覚えてください。"
+      ],
+      "segment_id": 31
+    },
+    {
+      "id": "SUB-032",
+      "text_lines": [
+        "スマホにマイナンバーカードを追加してある方は、",
+        "暗証番号のかわりに、顔や指紋で認証できることもあります。"
+      ],
+      "segment_id": 32,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-033",
+      "text_lines": [
+        "ここからは、大切な注意です。暗証番号は、",
+        "何度も試してはいけません。"
+      ],
+      "segment_id": 33
+    },
+    {
+      "id": "SUB-034",
+      "text_lines": [
+        "公式の案内では、数字4桁の暗証番号は、",
+        "3回続けて間違えると、ロックされます。"
+      ],
+      "segment_id": 34
+    },
+    {
+      "id": "SUB-035",
+      "text_lines": [
+        "分からない番号を、何度も試すのは、やめましょう。"
+      ],
+      "segment_id": 35
+    },
+    {
+      "id": "SUB-036",
+      "text_lines": [
+        "番号が分からないときは、五つ目で案内する「再設定」",
+        "を、確認してください。"
+      ],
+      "segment_id": 36
+    },
+    {
+      "id": "SUB-037",
+      "text_lines": [
+        "読み取りと暗証番号の確認は、ここまでです。",
+        "この2つが、多くの止まる場所です。"
+      ],
+      "segment_id": 37
+    },
+    {
+      "id": "SUB-038",
+      "text_lines": [
+        "四つ目です。カードや電子証明書の、期限です。"
+      ],
+      "segment_id": 38
+    },
+    {
+      "id": "SUB-039",
+      "text_lines": [
+        "まず、カード自体の期限。カードの表面に、",
+        "印字されています。"
+      ],
+      "segment_id": 39
+    },
+    {
+      "id": "SUB-040",
+      "text_lines": [
+        "大人の方は、カードの発行日から、",
+        "10回目の誕生日までです。"
+      ],
+      "segment_id": 40
+    },
+    {
+      "id": "SUB-041",
+      "text_lines": [
+        "次に、電子証明書。カードの中に入っている、",
+        "本人確認に使う証明書です。"
+      ],
+      "segment_id": 41
+    },
+    {
+      "id": "SUB-042",
+      "text_lines": [
+        "電子証明書には、カードとは別の期限があります。",
+        "5回目の誕生日までです。"
+      ],
+      "segment_id": 42
+    },
+    {
+      "id": "SUB-043",
+      "text_lines": [
+        "証明書の期限が切れていると、",
+        "ログインに失敗することがあります。"
+      ],
+      "segment_id": 43
+    },
+    {
+      "id": "SUB-044",
+      "text_lines": [
+        "カードの期限と、証明書の期限は、別もの。",
+        "この2つを、混同しないことが、大切です。"
+      ],
+      "segment_id": 44
+    },
+    {
+      "id": "SUB-045",
+      "text_lines": [
+        "期限が近づいたら、市役所や区役所の窓口で、",
+        "更新の手続きができます。3か月前から、手続きできます。"
+      ],
+      "segment_id": 45,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-046",
+      "text_lines": [
+        "五つ目です。それでもダメなときの、確認です。"
+      ],
+      "segment_id": 46
+    },
+    {
+      "id": "SUB-047_1",
+      "text_lines": [
+        "まず、公式の「障害・メンテナンス」のページを、",
+        "見てみましょう。"
+      ],
+      "segment_id": 47,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-047_2",
+      "text_lines": [
+        "マイナポータル側のメンテナンスで、",
+        "一時的に使えないことがあります。"
+      ],
+      "segment_id": 47,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-048",
+      "text_lines": [
+        "次に、暗証番号を忘れてしまった場合です。コンビニの端末で、",
+        "再設定できることがあります。もう一つの暗証番号が必要です。"
+      ],
+      "segment_id": 48,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-049",
+      "text_lines": [
+        "どの暗証番号も分からないときは、",
+        "市役所や区役所の窓口で、再設定できます。"
+      ],
+      "segment_id": 49
+    },
+    {
+      "id": "SUB-050",
+      "text_lines": [
+        "ここまで確認しても、分からないときは、",
+        "一人で続けず、公式の窓口に相談しましょう。"
+      ],
+      "segment_id": 50
+    },
+    {
+      "id": "SUB-051",
+      "text_lines": [
+        "マイナンバー総合フリーダイヤル、0120-95-0178です。",
+        "平日は午前9時半から午後8時まで、土日祝は午後5時半までです。"
+      ],
+      "segment_id": 51,
+      "font_px": 60
+    },
+    {
+      "id": "SUB-052",
+      "text_lines": [
+        "番号が分からないまま、何度も試すのは、",
+        "ここまでにしましょう。"
+      ],
+      "segment_id": 52
+    },
+    {
+      "id": "SUB-053",
+      "text_lines": [
+        "マイナアプリの変更点については、以前の動画でも、",
+        "紹介しています。"
+      ],
+      "segment_id": 53
+    },
+    {
+      "id": "SUB-054",
+      "text_lines": [
+        "今日のまとめです。確認するのは、この5つでした。"
+      ],
+      "segment_id": 54
+    },
+    {
+      "id": "SUB-055",
+      "text_lines": [
+        "一つ、スマホが対応しているか。"
+      ],
+      "segment_id": 55
+    },
+    {
+      "id": "SUB-056",
+      "text_lines": [
+        "二つ、カードを読み取れない場合。"
+      ],
+      "segment_id": 56
+    },
+    {
+      "id": "SUB-057",
+      "text_lines": [
+        "三つ、暗証番号で止まる場合。"
+      ],
+      "segment_id": 57
+    },
+    {
+      "id": "SUB-058",
+      "text_lines": [
+        "四つ、カードや電子証明書の期限。"
+      ],
+      "segment_id": 58
+    },
+    {
+      "id": "SUB-059",
+      "text_lines": [
+        "五つ、それでもダメなら、再設定と、公式の窓口です。"
+      ],
+      "segment_id": 59
+    },
+    {
+      "id": "SUB-060",
+      "text_lines": [
+        "どこで止まっているかで、見る場所が違います。",
+        "あわてずに、順番に、確認しましょう。"
+      ],
+      "segment_id": 60
+    },
+    {
+      "id": "SUB-061",
+      "text_lines": [
+        "こうしたスマホの困りごとを、これからも、",
+        "分かりやすく、確認していきます。"
+      ],
+      "segment_id": 61
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "section_label": "はじめに",
+      "layout": "layout_01_hero",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "順番に確認すれば、どこで止まっているか、見えてきます。",
+      "headline": "ログインできない？",
+      "support_text": "あわてずに、順番に確認していきましょう。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 1,
+      "end_segment": 3,
+      "subtitle_ids": [
+        "SUB-001",
+        "SUB-002",
+        "SUB-003"
+      ],
+      "icon_name": "login",
+      "icon_tone": "navy",
+      "production_note": "導入（問題提示・結論）"
+    },
+    {
+      "id": 2,
+      "section_label": "はじめに（今日確認する5つ）",
+      "layout": "layout_02_list",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "一覧（5項目）",
+      "headline": "今日、確認する5つ",
+      "support_text": "どこで止まっているかで、見る場所が変わります。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "soft_gradient",
+      "start_segment": 4,
+      "end_segment": 10,
+      "subtitle_ids": [
+        "SUB-004",
+        "SUB-005",
+        "SUB-006",
+        "SUB-007",
+        "SUB-008",
+        "SUB-009",
+        "SUB-010"
+      ],
+      "items": [
+        "スマホが対応しているか",
+        "カードを読み取れない場合",
+        "暗証番号で止まる場合",
+        "カードや電子証明書の期限",
+        "それでもダメなら、再設定と公式の窓口"
+      ]
+    },
+    {
+      "id": 3,
+      "section_label": "1 / 5 スマホが対応しているか確認",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "text_render_mode": "imagegen_native",
+      "main_message": "セクション扉",
+      "headline": "スマホが、対応しているか",
+      "support_text": "まずは、端末とアプリの準備から。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 11,
+      "end_segment": 11,
+      "subtitle_ids": [
+        "SUB-011"
+      ]
+    },
+    {
+      "id": 4,
+      "section_label": "1 / 5 スマホが対応しているか確認",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "公式（動作環境）",
+      "headline": "対応OSと、カードを読み取る機能",
+      "support_text": "iPhoneは「iOS 16.4以上」。Androidは「Android 11以降」でNFC搭載（2026年8月時点の公式案内・撮影時に再確認）。",
+      "official_asset": [
+        {
+          "label": "公式引用カード: 動作環境（対応OS・NFC・ロック設定）",
+          "kind": "image",
+          "path": "assets/official/quote_004_system_requirements.png",
+          "source": "https://services.digital.go.jp/mynaapp/system-requirements/"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 12,
+      "end_segment": 13,
+      "subtitle_ids": [
+        "SUB-012",
+        "SUB-013"
+      ],
+      "full_bleed_asset": true
+    },
+    {
+      "id": 5,
+      "section_label": "1 / 5 スマホが対応しているか確認",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "公式（FAQ）",
+      "headline": "アプリの最新版と、通常モード",
+      "support_text": "消して入れ直す前に、アップデート確認。シークレットモードでは進まないことがあります。",
+      "official_asset": [
+        {
+          "label": "公式引用カード: FAQ（シークレットモード→通常モード）",
+          "kind": "image",
+          "path": "assets/official/quote_005_faq_login.png",
+          "source": "https://support.mynaapp.digital.go.jp/hc/ja"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 14,
+      "end_segment": 16,
+      "subtitle_ids": [
+        "SUB-014",
+        "SUB-015",
+        "SUB-016"
+      ],
+      "full_bleed_asset": true
+    },
+    {
+      "id": 6,
+      "section_label": "1 / 5 スマホが対応しているか確認",
+      "layout": "layout_06_caution",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "注意",
+      "headline": "端末のロック設定が必須",
+      "support_text": "PIN・顔認証・指紋認証。公式が必須と案内しています。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 17,
+      "end_segment": 18,
+      "subtitle_ids": [
+        "SUB-017",
+        "SUB-018"
+      ],
+      "icon_name": "lock",
+      "icon_tone": "blue"
+    },
+    {
+      "id": 7,
+      "section_label": "2 / 5 カードを読み取れない場合",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "main_message": "セクション扉（概念）",
+      "headline": "カードを、読み取る",
+      "support_text": "スマホとカードの、向きと場所。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "very_slow_zoom",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 19,
+      "end_segment": 19,
+      "subtitle_ids": [
+        "SUB-019"
+      ],
+      "image_prompt_id": "IMG-001"
+    },
+    {
+      "id": 8,
+      "section_label": "2 / 5 カードを読み取れない場合",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "実演（iPhone）",
+      "headline": "iPhoneは、本体の上部",
+      "support_text": "カードの上に、背面上部を、ぴったり。",
+      "official_asset": [
+        {
+          "label": "公式引用カード: iPhone読み取り位置（公式イメージ入り）",
+          "kind": "image",
+          "path": "assets/official/quote_008_scan_iphone.png",
+          "source": "https://services.digital.go.jp/mynaapp/scan-mynumbercard/"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 20,
+      "end_segment": 21,
+      "subtitle_ids": [
+        "SUB-020",
+        "SUB-021"
+      ],
+      "full_bleed_asset": true
+    },
+    {
+      "id": 9,
+      "section_label": "2 / 5 カードを読み取れない場合",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "実演（Android）",
+      "headline": "Androidは、背面のあたり",
+      "support_text": "本体の背面にある読み取り位置に合わせます。機種によって場所が違います。",
+      "official_asset": [
+        {
+          "label": "公式引用カード: Android読み取り位置（公式イメージ入り）",
+          "kind": "image",
+          "path": "assets/official/quote_009_scan_android.png",
+          "source": "https://services.digital.go.jp/mynaapp/scan-mynumbercard/"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 22,
+      "end_segment": 22,
+      "subtitle_ids": [
+        "SUB-022"
+      ],
+      "full_bleed_asset": true
+    },
+    {
+      "id": 10,
+      "section_label": "2 / 5 カードを読み取れない場合",
+      "layout": "layout_06_caution",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "注意",
+      "headline": "読み取りの、4つの注意",
+      "support_text": "動かさない・ケースを外す・金属の机を避ける・充電ケーブルを外す。「必ず」の位置はありません。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 23,
+      "end_segment": 28,
+      "subtitle_ids": [
+        "SUB-023",
+        "SUB-024",
+        "SUB-025",
+        "SUB-026",
+        "SUB-027",
+        "SUB-028"
+      ],
+      "icon_name": "contactless",
+      "icon_tone": "blue"
+    },
+    {
+      "id": 11,
+      "section_label": "3 / 5 暗証番号で止まる場合",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "text_render_mode": "imagegen_native",
+      "main_message": "セクション扉",
+      "headline": "暗証番号で、止まる",
+      "support_text": "使うのは、数字4桁。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 29,
+      "end_segment": 29,
+      "subtitle_ids": [
+        "SUB-029"
+      ]
+    },
+    {
+      "id": 12,
+      "section_label": "3 / 5 暗証番号で止まる場合",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "公式（利用登録の案内）",
+      "headline": "ログインで使うのは、数字4桁",
+      "support_text": "「利用者証明用暗証番号」。スマホにカードを追加済みなら顔・指紋も可（場合による）。",
+      "official_asset": [
+        {
+          "label": "公式引用カード: 利用登録（数字4桁・読み取り開始・顔/指紋）",
+          "kind": "image",
+          "path": "assets/official/quote_012_register.png",
+          "source": "https://services.digital.go.jp/mynaapp/register/"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 30,
+      "end_segment": 32,
+      "subtitle_ids": [
+        "SUB-030",
+        "SUB-031",
+        "SUB-032"
+      ],
+      "full_bleed_asset": true
+    },
+    {
+      "id": 13,
+      "section_label": "3 / 5 暗証番号で止まる場合",
+      "layout": "layout_06_caution",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "分からない場合は、そこでやめて、再設定へ。",
+      "headline": "何度も試してはいけません",
+      "support_text": "公式の案内では、3回続けて間違えるとロックされます。分からなければ、再設定へ。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 33,
+      "end_segment": 37,
+      "subtitle_ids": [
+        "SUB-033",
+        "SUB-034",
+        "SUB-035",
+        "SUB-036",
+        "SUB-037"
+      ],
+      "icon_name": "block",
+      "icon_tone": "amber",
+      "production_note": "注意（最重要）"
+    },
+    {
+      "id": 14,
+      "section_label": "4 / 5 カードや電子証明書の期限",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "text_render_mode": "imagegen_native",
+      "main_message": "セクション扉",
+      "headline": "カードと、証明書の期限",
+      "support_text": "期限は、別もの。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 38,
+      "end_segment": 38,
+      "subtitle_ids": [
+        "SUB-038"
+      ]
+    },
+    {
+      "id": 15,
+      "section_label": "4 / 5 カードや電子証明書の期限",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "公式（有効期限の案内）",
+      "headline": "カード自体の期限",
+      "support_text": "表面に印字。大人の方は、受け取ってから10回目の誕生日まで（2026年9月時点・要再確認）。",
+      "official_asset": [
+        {
+          "label": "公式引用カード: 有効期限（10回目の誕生日・3か月前から更新）",
+          "kind": "image",
+          "path": "assets/official/quote_015_expiration.png",
+          "source": "https://www.digital.go.jp/policies/mynumber/expiration-date/"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 39,
+      "end_segment": 40,
+      "subtitle_ids": [
+        "SUB-039",
+        "SUB-040"
+      ],
+      "full_bleed_asset": true
+    },
+    {
+      "id": 16,
+      "section_label": "4 / 5 カードや電子証明書の期限",
+      "layout": "layout_05_compare",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "比較",
+      "headline": "カードの期限と、証明書の期限",
+      "support_text": "期限が切れると、ログインに失敗することがあります。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "soft_gradient",
+      "start_segment": 41,
+      "end_segment": 45,
+      "subtitle_ids": [
+        "SUB-041",
+        "SUB-042",
+        "SUB-043",
+        "SUB-044",
+        "SUB-045"
+      ],
+      "compare_cards": [
+        {
+          "title": "カードの期限",
+          "body": "表面に印字。大人の方は10回目の誕生日まで"
+        },
+        {
+          "title": "電子証明書の期限",
+          "body": "カードの中の証明書。5回目の誕生日まで"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "section_label": "5 / 5 それでもダメなら（再設定・メンテナンス・公式窓口）",
+      "layout": "layout_08_section",
+      "render_mode": "template",
+      "text_render_mode": "imagegen_native",
+      "main_message": "セクション扉",
+      "headline": "それでも、ダメなら",
+      "support_text": "再設定・メンテナンス・公式窓口。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 46,
+      "end_segment": 46,
+      "subtitle_ids": [
+        "SUB-046"
+      ]
+    },
+    {
+      "id": 18,
+      "section_label": "5 / 5 それでもダメなら（再設定・メンテナンス・公式窓口）",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "公式（障害・メンテナンス）",
+      "headline": "公式の「障害・メンテナンス」を確認",
+      "support_text": "マイナポータル側のメンテナンスで、一時的に使えないことがあります。",
+      "official_asset": [
+        {
+          "label": "公式引用カード: 障害・メンテナンス情報ページ",
+          "kind": "image",
+          "path": "assets/official/quote_018_maintenance.png",
+          "source": "https://myna.go.jp/html/info/index.html"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 47,
+      "end_segment": 47,
+      "subtitle_ids": [
+        "SUB-047"
+      ],
+      "full_bleed_asset": true
+    },
+    {
+      "id": 19,
+      "section_label": "5 / 5 それでもダメなら（再設定・メンテナンス・公式窓口）",
+      "layout": "layout_04_text_official",
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "main_message": "公式（再設定の案内）",
+      "headline": "暗証番号の再設定",
+      "support_text": "コンビニの端末でできる場合があります（もう一つの番号が必要）。分からなければ市役所・区役所の窓口。",
+      "official_asset": [
+        {
+          "label": "公式引用カード: コンビニでの再設定（本人確認のためパスワード入力が必要）",
+          "kind": "image",
+          "path": "assets/official/quote_019_reset.png",
+          "source": "https://www.jpki.go.jp/jpkiidreset/howto/kiosk.html"
+        }
+      ],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 48,
+      "end_segment": 49,
+      "subtitle_ids": [
+        "SUB-048",
+        "SUB-049"
+      ],
+      "full_bleed_asset": true
+    },
+    {
+      "id": 20,
+      "section_label": "5 / 5 それでもダメなら（再設定・メンテナンス・公式窓口）",
+      "layout": "layout_03_visual_text",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "分からなければ、一人で悩まず相談しましょう。",
+      "headline": "まずは、公式の窓口へ相談",
+      "support_text": "マイナンバー総合フリーダイヤル 0120-95-0178。平日9:30〜20:00・土日祝9:30〜17:30。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 50,
+      "end_segment": 53,
+      "subtitle_ids": [
+        "SUB-050",
+        "SUB-051",
+        "SUB-052",
+        "SUB-053"
+      ],
+      "icon_name": "support_agent",
+      "icon_tone": "green",
+      "production_note": "案内（窓口・002案内）"
+    },
+    {
+      "id": 21,
+      "section_label": "まとめ",
+      "layout": "layout_07_summary",
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "main_message": "まとめ",
+      "headline": "今日のまとめ",
+      "support_text": "確認する5つ",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "static",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 54,
+      "end_segment": 60,
+      "subtitle_ids": [
+        "SUB-054",
+        "SUB-055",
+        "SUB-056",
+        "SUB-057",
+        "SUB-058",
+        "SUB-059",
+        "SUB-060"
+      ],
+      "items": [
+        "スマホが対応しているか",
+        "カードを読み取れない場合",
+        "暗証番号で止まる場合",
+        "カードや電子証明書の期限",
+        "それでもダメなら、再設定と公式の窓口"
+      ]
+    },
+    {
+      "id": 22,
+      "section_label": "まとめ（クロージング）",
+      "layout": "layout_03_visual_text",
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "main_message": "クロージング",
+      "headline": "あわてずに、\n確認しましょう",
+      "support_text": "困ったときは、この順番を。",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "animation": "very_slow_zoom",
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "start_segment": 61,
+      "end_segment": 61,
+      "subtitle_ids": [
+        "SUB-061"
+      ],
+      "image_prompt_id": "IMG-002"
+    }
+  ],
+  "publish": {
+    "title": "【マイナアプリ】ログインできない？まず確認したい5つ",
+    "description": "マイナアプリにログインできない。カードが読み取れない。暗証番号で止まる。そんなときに、順番に確認していくための動画です。\n\nこの動画では「確認する5つ」——①スマホが対応しているか ②カードを読み取れない場合 ③暗証番号で止まる場合 ④カードや電子証明書の期限 ⑤それでもダメなら（再設定・メンテナンス・公式窓口）——を、困ったときに見る順番で説明します。\n\n主な根拠（確認日: 2026年9月3日）:\nデジタル庁 マイナアプリ https://services.digital.go.jp/mynaapp/\n動作環境 https://services.digital.go.jp/mynaapp/system-requirements/\n利用登録 https://services.digital.go.jp/mynaapp/register/\nマイナアプリFAQ（ログインできない・EDZ207） https://support.mynaapp.digital.go.jp/hc/ja\nマイナンバーカードの読み取りかた（公的個人認証サービス） https://www.jpki.go.jp/\n有効期限・更新 https://www.digital.go.jp/policies/mynumber/expiration-date/\n障害・メンテナンス情報 https://myna.go.jp/html/info/index.html\nマイナンバー総合フリーダイヤル https://www.kojinbango-card.go.jp/contact/tel/\n\nマイナアプリの変更点については、以前の動画「【マイナアプリ】マイナポータルアプリはどう変わった？今やること3つ」でも紹介しています（関連動画リンクは公開時に追加予定）。\n\n※アプリのバージョンやスマホの機種によって、画面や読み取り位置が異なる場合があります。\nこの動画の人物・イラストの一部はAIで生成した画像を使用しています。\n\n大人のデジタル安心室では、スマホやパソコンを、もっと安全・快適に使うための情報をお届けします。チャンネル登録・高評価もよろしくお願いします。\n\nナレーション：VOICEVOX:剣崎雌雄",
+    "description_note": "Episode 002のvideo ID/URLはrepo内に存在しないため推測せず、公開時に人間が確認して「マイナアプリの変更点はこちら」の相互リンク（説明欄・終了画面）を追加する（publish plan）。",
+    "chapters": [
+      "00:00 はじめに・今日確認する5つ",
+      "00:25 1/5 スマホが対応しているか",
+      "01:15 2/5 カードを読み取れない場合",
+      "02:25 3/5 暗証番号で止まる場合",
+      "03:25 4/5 カードや電子証明書の期限",
+      "04:15 5/5 それでもダメなら",
+      "05:05 まとめ"
+    ],
+    "tags": [
+      "マイナアプリ",
+      "ログインできない",
+      "マイナンバーカード",
+      "暗証番号",
+      "シニア向け"
+    ],
+    "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
+    "contains_synthetic_media": true,
+    "ai_disclosure_review": "REVIEW_REQUIRED",
+    "made_for_kids": false,
+    "pinned_comment_candidate": "どの画面で止まりましたか？「カード読み取り」「暗証番号」「その他」など、差し支えない範囲でコメントで教えてください。暗証番号・マイナンバー・氏名・生年月日など、個人情報は書かないでくださいね。",
+    "end_screen_candidate": "Episode 002【マイナアプリ】マイナポータルアプリはどう変わった？今やること3つ（人間操作で公開時に設定。video IDはrepo内に存在しないため公開時に確認）"
+  }
+}

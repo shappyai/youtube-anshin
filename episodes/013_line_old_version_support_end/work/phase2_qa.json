@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "warnings": [],
+  "probe": {
+    "format": {
+      "duration": 420.87
+    },
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "sample_rate": 48000,
+        "channels": 1
+      }
+    ]
+  },
+  "scene_count": 24,
+  "subtitle_count": 74,
+  "postroll": {
+    "kind": "channel_cta",
+    "cta_profile": "channel_common_cta",
+    "cta_variant": "registration_conversion_v1_reuse",
+    "reuse_from_episode": "011/012",
+    "reuse_source_status": "Episode011 / 012で人間承認・実使用されたregistration_conversion_v1の画面・音声・canonical textを完全reuse。再生成しない。",
+    "cta_content_hash": "e20707f4cdf3a79dbd4bd4dc27be0d7c8159ed8693783881293c069be47cc08f",
+    "canonical_text": "スマホやパソコンの「これ、どうすればいい？」を、公式情報で分かりやすく確認しています。次に困ったときのために、チャンネル登録しておいてください。",
+    "display_text": "次に困ったときのために。\nチャンネル登録しておいてください。",
+    "duration_sec": 15.0,
+    "animation": "static",
+    "status": "copied_from_human_approved_final_waiting_draft_review",
+    "cta_config": "work/cta_registration_conversion_v1.json",
+    "asset": "work/cta_registration_conversion_v1.png",
+    "cta_audio": "audio/voicevox_kenzaki/cta_registration_conversion_v1.wav",
+    "audio_actual_seconds": 11.456,
+    "trailing_seconds": 3.544,
+    "audio_required": true,
+    "duration_mode": "audio_based",
+    "fake_subscribe_ui": false,
+    "reserved_end_screen_right_percent": "40〜45%",
+    "end_screen_candidates": [
+      "【LINE】機種変更の前に確認！トーク履歴を残すバックアップとPIN",
+      "【LINE】画面が変わった？「友だちはどこ？」新しいトーク・ホームをやさしく解説"
+    ]
+  },
+  "scene_visual_warnings": {},
+  "expected_duration": 420.874
+}

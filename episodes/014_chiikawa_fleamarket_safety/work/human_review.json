@@ -1,0 +1,34 @@
+{
+  "episode_id": "014",
+  "review_date": "2026-09-06",
+  "phase": "Human full-watch review approved",
+  "human_draft_approved": true,
+  "senior_readability": "PASS",
+  "note": "draft_v2を全編視聴し、ニュース補強、9月2日・9月5日公式発表の区別、公式・報道・推測の境界、SCENE-005 imagegen_native、発音、字幕、CTAを承認。",
+  "pronunciation": {
+    "approved_segments": [20],
+    "review_items": [
+      {
+        "segment_id": 20,
+        "surface": "行う",
+        "context": "3つ目は、決済も連絡もフリマアプリの中で行うことです。",
+        "status": "human_approved_natural",
+        "human_approved": true,
+        "audio_regenerated": false,
+        "global_dictionary_registered": false
+      }
+    ],
+    "target_terms": {
+      "ちいかわ": "チイカワ（accent peak: ワ）",
+      "フリマ": "フリマ（accent peak: マ）",
+      "188": "イチハチハチ"
+    },
+    "tts_reading_leakage": 0
+  },
+  "video": {
+    "draft_v2": "approved"
+  },
+  "thumbnail": {
+    "thumbnail/thumbnail.png": "approved_user_provided"
+  }
+}

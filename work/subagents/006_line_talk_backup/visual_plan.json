@@ -1,0 +1,560 @@
+{
+  "episode_id": "006",
+  "episode_slug": "line_talk_backup",
+  "visual_plan_version": "1.0",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "section_label": "はじめに",
+      "purpose": "導入",
+      "narration_range": {"start_segment": 1, "end_segment": 3},
+      "render_mode": "gpt_image",
+      "device": "gpt_image",
+      "main_visual": "GPT full-frame背景。機種変更・故障でLINEのトークが消えるのではと不安な気持ちを、穏やかなシニアがスマホを見つめる光景で受ける（安心を先に見せる）。LINEの実際のUI・ロゴ・正確な日本語・QRコード・電話番号風の文字列は一切生成しない。スマホ画面は白飛び・ぼかしでUIを判別させない。右側に人物、左半分（x≦960）は文字を重ねるための静かな余白（真っ白にしない）。1920×1080一枚で完結（collage・分割パネル禁止）。",
+      "overlay_text": {
+        "headline": "機種変更しても、\nトークは残る？",
+        "support_text": "今のスマホで、3つのことを確認すれば、準備ができます。",
+        "items": []
+      },
+      "safe_area": "下部180px（1080pでy≧900）は字幕専用帯として空ける。文字は上部60%・左半分（x≦960）に配置し、字幕と重ならないようにする。",
+      "animation": "very_slow_zoom",
+      "text_render_mode": "codex",
+      "fit_mode": "full_bleed",
+      "image_prompt_id": "IMG-001",
+      "personal_data_risk": "個人情報なし（AI生成背景のみ）。LINEの実UI・ロゴ・正確な日本語を生成しないため、実アカウント情報は一切表示されない。",
+      "note": "冒頭20秒以内で結論（seg 4の3項目提示）へつなぐ。リテイク基準: 右側に人物・左半分が静か・真っ白でない・生成文字なし・LINE風UIなし。"
+    },
+    {
+      "scene_id": 2,
+      "section_label": "はじめに（今日確認する3つ）",
+      "purpose": "一覧",
+      "narration_range": {"start_segment": 4, "end_segment": 7},
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "「今日、確認する3つ」の番号付き3項目リスト（layout_02_list）。Codexテンプレートの正確な日本語のみ使用。LINEの実UI・ロゴは描かない。",
+      "overlay_text": {
+        "headline": "今日、確認する3つ",
+        "support_text": "どれも、今のスマホで、すぐに確認できます。",
+        "items": [
+          "最後にバックアップした日時を確認し、\n古ければ「今すぐバックアップ」で最新にする",
+          "自動バックアップの設定（保存先：iPhone=iCloud Drive／\nAndroid=Google ドライブ）",
+          "バックアップ用の暗証番号（PIN）"
+        ]
+      },
+      "safe_area": "リストは中央カラム（x=240〜1680）、y=220〜820に収め、項目間の行間を広くとる（50〜70代向け）。下部180px（y≧900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（Codex描画のみ・実画面なし）。",
+      "note": "本シーンの3項目はScene 24（まとめ）と内容・順・番号を完全に一致させる（台本方針）。表示時に①②③か1.2.3.かを両シーンで統一する。"
+    },
+    {
+      "scene_id": 3,
+      "section_label": "1 / 5 まず知っておきたいこと",
+      "purpose": "セクション扉",
+      "narration_range": {"start_segment": 8, "end_segment": 9},
+      "render_mode": "gpt_image",
+      "device": "gpt_image",
+      "main_visual": "GPT full-frame背景。「引き継ぎ（手続き）」と「バックアップ（コピー）」が別のものだという概念を、並んだ2つの収納箱（または2本の道）の柔らかいイラストで表現。LINEの実際のUI・ロゴ・正確な日本語・実サービス名の和文表記は生成しない。左半分（x≦960）は文字用の静かな余白。1920×1080一枚で完結。",
+      "overlay_text": {
+        "headline": "二つの準備は、\n別のもの",
+        "support_text": "引き継ぎ＝手続き。バックアップ＝コピー。",
+        "items": []
+      },
+      "safe_area": "下部180px（y≧900）は字幕専用帯。文字は上部60%・左半分（x≦960）に配置。見出し「1 / 5」はCodex後描画で上部に置く。",
+      "animation": "very_slow_zoom",
+      "text_render_mode": "codex",
+      "fit_mode": "full_bleed",
+      "image_prompt_id": "IMG-002",
+      "personal_data_risk": "個人情報なし。LINEの実UI・ロゴ・正確な日本語・ID・電話番号風文字列を生成しない。",
+      "note": "「見出し1 / 5」はCodex後描画（生成文字は使わない）。2つの箱の間に明確な余白を入れ「別の場所」と一目で分かるようにする。"
+    },
+    {
+      "scene_id": 4,
+      "section_label": "1 / 5 まず知っておきたいこと",
+      "purpose": "概念（時系列整理）",
+      "narration_range": {"start_segment": 10, "end_segment": 12},
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "「前・当日・後」の3ステップ時系列図（前:バックアップ→当日:引き継ぎ→後:復元）。左→右の矢印つきステップカード。Codexテンプレート描画。",
+      "overlay_text": {
+        "headline": "前・当日・後の\n3ステップ",
+        "support_text": "前＝バックアップ／当日＝引き継ぎ／後＝復元",
+        "items": [
+          "前: トークをバックアップ（コピー）",
+          "当日: アカウントを引き継ぎ",
+          "後: コピーを復元"
+        ]
+      },
+      "safe_area": "3ステップは中央カラム（x=240〜1680）、y=240〜840に収める。下部180px（y≧900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（Codex描画のみ・実画面なし）。",
+      "note": "「引き継ぎ」と「バックアップ」の用語を現場で混同しないための整理シーン。単語カードは大きく、行間を広くとる。"
+    },
+    {
+      "scene_id": 5,
+      "section_label": "1 / 5 まず知っておきたいこと",
+      "purpose": "比較",
+      "narration_range": {"start_segment": 13, "end_segment": 18},
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "2項目の左右比較カード（layout_05_compare）: 「引き継ぎだけ」と「バックアップだけ」、どちらか一方では不十分で両方必要、と見える構図。Codexテンプレート描画。",
+      "overlay_text": {
+        "headline": "引き継ぎだけでは、トークは戻らない",
+        "support_text": "トークの記録は端末の中だけ。公式も「事前にバックアップが必要」と案内しています。",
+        "compare_cards": [
+          {"title": "引き継ぎだけ", "body": "トークは戻らない"},
+          {"title": "バックアップだけ", "body": "新しいスマホで\nアカウントが使えない"}
+        ]
+      },
+      "safe_area": "比較カードはx=140〜1780・y=240〜860に収め、行高は50px以上。下部180px（y≧900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（Codex描画のみ・実画面なし）。",
+      "note": "seg 13〜15は「端末の中だけに保存・公式は事前バックアップ必要」の説明で、この比較カードを出し続けてもよいが、文字が字幕と重ならない範囲に収める。"
+    },
+    {
+      "scene_id": 6,
+      "section_label": "2 / 5 バックアップできているか確認",
+      "purpose": "実演",
+      "narration_range": {"start_segment": 19, "end_segment": 21},
+      "render_mode": "official",
+      "device": "android_emulator",
+      "main_visual": "保存HTML由来のLINE公式手順引用カード。実画面ではなく、設定→「バックアップ・引き継ぎ」→「トークのバックアップ」の公式導線を右スロットに大きく置く。",
+      "overlay_text": {
+        "headline": "設定 → 「バックアップ・引き継ぎ」",
+        "support_text": "「トークのバックアップ」の画面を開きます。機種やバージョンで表示が違う場合があります。",
+        "items": []
+      },
+      "safe_area": "説明文は左スロット、実画面は右スロット（x=1000〜1840）。下部180px（y≧900）は字幕専用帯とし、実画面の下部重要項目が字幕に覆われないようクロップ位置を上寄りに調整する。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "実画面取得はテストアカウントのみ。実トーク・友だち一覧・通知・QRコード・LINE ID・電話番号・プロフィール写真を映さない。設定画面に表示されるアカウント情報（プロフィール名・アイコン）はモザイクまたは見切らせる。",
+      "note": "SHOT-01。LINE未インストールのため実画面は取得せず、assets/official/line_backup_transfer_menu_fallback.png の公式手順引用カードで代替。「バージョンによって表示が違う場合があります」の留保を字幕で明示。"
+    },
+    {
+      "scene_id": 7,
+      "section_label": "2 / 5 バックアップできているか確認",
+      "purpose": "実演",
+      "narration_range": {"start_segment": 22, "end_segment": 23},
+      "render_mode": "official",
+      "device": "android_emulator",
+      "main_visual": "保存HTML由来のLINE公式手順引用カード。「今すぐバックアップ」の公式手順を右スロットに大きく置く。前回日時の実際の表示はアプリ版により異なるため、画面として推測しない。",
+      "overlay_text": {
+        "headline": "最後にバックアップした日時を確認",
+        "support_text": "日時が表示されていれば、作成済みです。\n古ければ「今すぐバックアップ」で更新。",
+        "items": []
+      },
+      "safe_area": "実画面は右スロット（x=1000〜1840）。下部180px（y≧900）は字幕専用帯。日時表示が下部にある場合はクロップを上寄りに。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "テストアカウントのダミーデータのみ。バックアップ日時・トーク件数などに実ユーザー情報を出さない。プロフィール・アカウント情報が写る場合はモザイク。",
+      "note": "SHOT-02。LINE未インストールのため実画面は取得せず、assets/official/line_talk_backup_datetime_fallback.png の公式手順引用カードで代替。日時の見え方はアプリ版により異なる旨を残す。"
+    },
+    {
+      "scene_id": 8,
+      "section_label": "2 / 5 バックアップできているか確認",
+      "purpose": "概念",
+      "narration_range": {"start_segment": 24, "end_segment": 24},
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "「スマホの外の保管場所にコピーが作られる」概念図（スマホ→雲の上の保管箱へ光の帯でコピーが流れる）。Codexテンプレートのシンプルな図解。LINE・Google・Appleの実ロゴは描かない。",
+      "overlay_text": {
+        "headline": "コピーが、\nスマホの外に作られる",
+        "support_text": "「今すぐバックアップ」で、いつでもコピーできます。",
+        "items": []
+      },
+      "safe_area": "図は中央（x=240〜1680・y=200〜840）。下部180px（y≧900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（Codex描画のみ・実画面なし）。",
+      "note": "「スマホの外」＝クラウド保管の比喩。次のScene 9（保存先比較）への橋渡し。"
+    },
+    {
+      "scene_id": 9,
+      "section_label": "2 / 5 バックアップできているか確認",
+      "purpose": "比較",
+      "narration_range": {"start_segment": 25, "end_segment": 25},
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "保存先の左右比較カード（layout_05_compare）: iPhone→iCloud Drive／Android→Google ドライブ。公式の表記（iCloud Drive・Google ドライブ）をそのまま使う。Codexテンプレート描画。",
+      "overlay_text": {
+        "headline": "保存先はOSで違います",
+        "support_text": "公式の保存先表記をそのまま使います（iCloud Drive／Google ドライブ）。",
+        "items": [
+          "iPhone: iCloud Drive",
+          "Android: Google ドライブ"
+        ]
+      },
+      "safe_area": "比較カードはx=140〜1780・y=240〜860。下部180px（y≧900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（Codex描画のみ・実画面なし）。",
+      "note": "ロゴは使わず文字表記のみ（正確性優先）。「標準バックアップの保存先」であることが分かる見出しを保つ。"
+    },
+    {
+      "scene_id": 10,
+      "section_label": "2 / 5 バックアップできているか確認",
+      "purpose": "注意",
+      "narration_range": {"start_segment": 26, "end_segment": 28},
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "注意カード（layout_06_caution、落ち着いた配色）: 「メイン端末だけ・文字だけ」。標準バックアップの制限（メイン端末限定・テキストのみ）を箇条書きで。",
+      "overlay_text": {
+        "headline": "メイン端末だけ・文字だけ",
+        "support_text": "標準バックアップがコピーするのは、文字のやり取りのみ。写真・動画については後で確認します。",
+        "items": [
+          "アカウントを登録したメイン端末だけ",
+          "無料の標準バックアップは文字（テキスト）だけ"
+        ]
+      },
+      "safe_area": "カードは中央・上部（x=240〜1680・y=220〜700）。下部180px（y≧900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（Codex描画のみ・実画面なし）。",
+      "note": "写真・動画の話はScene 22で扱うため、ここでは「後で確認します」で留める（重複説明しない）。"
+    },
+    {
+      "scene_id": 11,
+      "section_label": "3 / 5 自動バックアップを確認",
+      "purpose": "実演",
+      "narration_range": {"start_segment": 29, "end_segment": 30},
+      "render_mode": "official",
+      "device": "android_emulator",
+      "main_visual": "保存HTML由来のLINE公式手順引用カード。「バックアップ頻度＞自動バックアップをオンにする」の公式手順を右スロットに大きく置く。トグルの実状態は推測しない。",
+      "overlay_text": {
+        "headline": "自動バックアップのスイッチ",
+        "support_text": "オンなら、条件がそろったときに自動でコピーされます。",
+        "items": []
+      },
+      "safe_area": "実画面は右スロット（x=1000〜1840）。下部180px（y≧900）は字幕専用帯。スイッチ位置が下部の場合はクロップを上寄りに。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "テストアカウントのみ。実トーク・友だち一覧・通知・QRコード・LINE ID・電話番号・プロフィール写真を映さない。画面上部のプロフィール情報はモザイクまたは見切らせる。",
+      "note": "SHOT-03。LINE未インストールのため実画面は取得せず、assets/official/line_auto_backup_fallback.png の公式手順引用カードで代替。"
+    },
+    {
+      "scene_id": 12,
+      "section_label": "3 / 5 自動バックアップを確認",
+      "purpose": "比較",
+      "narration_range": {"start_segment": 31, "end_segment": 34},
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "自動バックアップ実行条件の左右比較カード（layout_05_compare）: iPhone（5条件）とAndroid（2条件）。公式の条件表記を使う。Codexテンプレート描画。",
+      "overlay_text": {
+        "headline": "自動でコピーされる条件",
+        "support_text": "公式の条件表記（2026年9月2日時点）。細かくは覚えなくて大丈夫です。",
+        "items": [
+          "iPhone（5条件）: ロック中・充電中・Wi-Fi接続・バックグラウンド更新・LINE実行",
+          "Android（2条件）: 充電中・ネットワーク接続中"
+        ]
+      },
+      "safe_area": "比較カードはx=140〜1780・y=240〜860。行高50px以上。下部180px（y≧900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（Codex描画のみ・実画面なし）。",
+      "note": "「覚えなくて大丈夫」のトーン（seg 35）へつなぐため、条件の書き出しは簡潔に。ロゴは使わず文字表記のみ。"
+    },
+    {
+      "scene_id": 13,
+      "section_label": "3 / 5 自動バックアップを確認",
+      "purpose": "注意",
+      "narration_range": {"start_segment": 35, "end_segment": 36},
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "注意カード（layout_06_caution）: 「オフのままにしない」。オフのままだと手動コピーのみ、失敗時はLINE公式アカウントから通知が届く、を明示。",
+      "overlay_text": {
+        "headline": "オフのままにしない",
+        "support_text": "オフのままだと、手動で押したときのコピーしか残りません。失敗時は公式アカウントから通知が届きます。",
+        "items": []
+      },
+      "safe_area": "カードは中央・上部（x=240〜1680・y=220〜700）。下部180px（y≧900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（Codex描画のみ・実画面なし）。「公式アカウントからの通知」は実画面で再現せず、文字案内のみにする。",
+      "note": "通知の実画面（公式アカウントのアイコンなど）は映さず、テキストで案内する。"
+    },
+    {
+      "scene_id": 14,
+      "section_label": "3 / 5 自動バックアップを確認",
+      "purpose": "実演（iPhone差分）",
+      "narration_range": {"start_segment": 37, "end_segment": 38},
+      "render_mode": "official",
+      "device": "iphone",
+      "main_visual": "iPhone実機未取得のため、LINE公式保存HTML由来のiCloud Drive確認手順引用カードを右スロットに大きく置く。Apple ID等を含むiOS設定画面は推測・再現しない。",
+      "overlay_text": {
+        "headline": "iPhoneは、iCloud Driveのオンも確認",
+        "support_text": "端末の設定で、iCloud Drive（とiCloudバックアップ）がオンになっているか確認します。",
+        "items": []
+      },
+      "safe_area": "実画面は右スロット（x=1000〜1840）。下部180px（y≧900）は字幕専用帯。アカウント情報が下部に出る場合はクロップを上寄りに。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "iPhone実機の設定画面にはApple ID・メールアドレス・端末名・アカウント一覧が表示されるため、該当部分は必ずモザイクまたは見切らせる。実機の用意が難しい場合はLINE公式資料（SRC-004）で代替し、実アカウント情報を映さない。",
+      "note": "SHOT-04。assets/official/line_icloud_drive_crop.png の公式手順引用カードで代替。「失敗時は公式アカウントから通知」は文字案内のみ（実通知画面は映さない）。"
+    },
+    {
+      "scene_id": 15,
+      "section_label": "4 / 5 バックアップ用の暗証番号（PIN）",
+      "purpose": "セクション扉",
+      "narration_range": {"start_segment": 39, "end_segment": 39},
+      "render_mode": "gpt_image",
+      "device": "gpt_image",
+      "main_visual": "GPT full-frame背景。「コピーを守る鍵」の概念を、大切な箱を守る大きな鍵（または鍵穴）の柔らかいイラストで表現。数字・PIN入力画面・LINEの実際のUI・ロゴ・正確な日本語は一切生成しない。左半分（x≦960）は文字用の静かな余白。1920×1080一枚で完結。",
+      "overlay_text": {
+        "headline": "コピーを守る、\n鍵のようなもの",
+        "support_text": "三つ目の確認は、バックアップ用の暗証番号、PINコードです。",
+        "items": []
+      },
+      "safe_area": "下部180px（y≧900）は字幕専用帯。文字は上部60%・左半分（x≦960）に配置。見出し「4 / 5」はCodex後描画で上部に置く。",
+      "animation": "very_slow_zoom",
+      "text_render_mode": "codex",
+      "fit_mode": "full_bleed",
+      "image_prompt_id": "IMG-003",
+      "personal_data_risk": "個人情報なし。鍵・箱のイラストのみで、実際のPIN値・数字列・LINEの実UI・ロゴ・正確な日本語を生成しない。",
+      "note": "「鍵」のモチーフは安心・保護のイメージに留め、鍵番号・数字は描かない（推測されやすいPINの話はScene 17で扱う）。"
+    },
+    {
+      "scene_id": 16,
+      "section_label": "4 / 5 バックアップ用の暗証番号（PIN）",
+      "purpose": "実演",
+      "narration_range": {"start_segment": 40, "end_segment": 42},
+      "render_mode": "official",
+      "device": "android_emulator",
+      "main_visual": "保存HTML由来のLINE公式手順引用カード。「バックアップ用のPINコードを作成」「6桁の数字」の要点を右スロットに大きく置く。PINの入力・値は表示しない。",
+      "overlay_text": {
+        "headline": "バックアップ用のPINコード",
+        "support_text": "6桁の暗証番号。直近14日間のトークを、OSに関係なく引き継げます（2026年9月時点の公式仕様）。",
+        "items": []
+      },
+      "safe_area": "実画面は右スロット（x=1000〜1840）。下部180px（y≧900）は字幕専用帯。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "テストアカウントのみ。実際のPIN値・入力欄の数字・ダミーでも実番号風の表示は映さない（入力画面の実演は行わず、設定導線の案内のみ）。プロフィール・アカウント情報はモザイクまたは見切らせる。",
+      "note": "SHOT-05。LINE未インストールのため実画面は取得せず、assets/official/line_backup_pin_fallback.png の公式手順引用カードで代替。PINの値そのものは映さず、項目と「6桁」「14日間」の説明をCodex後描画で補う。"
+    },
+    {
+      "scene_id": 17,
+      "section_label": "4 / 5 バックアップ用の暗証番号（PIN）",
+      "purpose": "概念",
+      "narration_range": {"start_segment": 43, "end_segment": 48},
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "「直近14日間のセーフティネット」概念図。カレンダー（14日分）をセーフティネット（網）の上に載せたシンプルな図解。Codexテンプレート描画。",
+      "overlay_text": {
+        "headline": "直近14日間の\nセーフティネット",
+        "support_text": "スマホが急に使えなくなっても、直近14日間は引き継げます。",
+        "items": ["推測されやすい番号は避ける"]
+      },
+      "safe_area": "図は中央（x=240〜1680・y=200〜840）。下部180px（y≧900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（Codex描画のみ・実画面なし）。",
+      "note": "「14日間」は2026年9月2日時点の公式値（SRC-005/008）。断定しすぎない表現（「セーフティネットのようなもの」）に合わせ、推測されやすい番号を避ける注意も同じsceneで受ける。"
+    },
+    {
+      "scene_id": 19,
+      "section_label": "5 / 5 機種変更の前に、知っておきたい注意",
+      "purpose": "セクション扉",
+      "narration_range": {"start_segment": 49, "end_segment": 51},
+      "render_mode": "gpt_image",
+      "device": "gpt_image",
+      "main_visual": "GPT full-frame背景。「OSをまたぐ機種変更」の概念を、異なる2つの島をつなぐ橋（または境目のライン）の柔らかいイラストで表現。iPhone/Androidの実機・ロゴ・正確な日本語は一切生成しない（2つの島の色違いでOSの違いを暗示するのみ）。左半分（x≦960）は文字用の静かな余白。1920×1080一枚で完結。",
+      "overlay_text": {
+        "headline": "OSをまたぐ\n機種変更に注意",
+        "support_text": "AndroidとiPhoneでは、引き継げる範囲が変わります。",
+        "items": []
+      },
+      "safe_area": "下部180px（y≧900）は字幕専用帯。文字は上部60%・左半分（x≦960）に配置。見出し「5 / 5」はCodex後描画で上部に置く。",
+      "animation": "very_slow_zoom",
+      "text_render_mode": "codex",
+      "fit_mode": "full_bleed",
+      "image_prompt_id": "IMG-004",
+      "personal_data_risk": "個人情報なし。Apple/Google/LINEのロゴ・実機イラスト・正確な日本語を生成しない。",
+      "note": "「越えられない境目」ではなく「注意して渡る橋」の印象にし、怖がらせないトーンを保つ。"
+    },
+    {
+      "scene_id": 20,
+      "section_label": "5 / 5 機種変更の前に、知っておきたい注意",
+      "purpose": "実演（公式ヘルプ）",
+      "narration_range": {"start_segment": 52, "end_segment": 53},
+      "render_mode": "official",
+      "device": "line_official",
+      "main_visual": "LINE公式ヘルプ「トーク履歴を標準バックアップするには？」（SRC-003）の「標準バックアップは同じOSに引き継ぐ場合にのみ利用できます」の記述を含む帯を大きくクロップして表示。右スロット配置。",
+      "overlay_text": {
+        "headline": "標準バックアップは、同じOSだけ",
+        "support_text": "LINE公式の案内（2026年9月2日確認）。異なるOSでは使えません。",
+        "items": []
+      },
+      "safe_area": "公式ヘルプcropは右スロット（x=1000〜1840）。下部180px（y≧900）は字幕専用帯。該当文が下部に来る場合はクロップ範囲を調整。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "公開ヘルプページのcropであり個人情報なし。crop範囲にアカウント情報・Cookie関連UIが入らないことを確認。出典URLと確認日（2026年9月2日）を字幕または説明欄で明示。",
+      "note": "SHOT-06。crop対象: 「同じOS〜利用できます」の文を含む最小範囲。ヘルプは同一OSのみの文言をそのまま見せる（タイトル以上の断定をしない）。"
+    },
+    {
+      "scene_id": 21,
+      "section_label": "5 / 5 機種変更の前に、知っておきたい注意",
+      "purpose": "比較",
+      "narration_range": {"start_segment": 54, "end_segment": 56},
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "「同じOS」と「異なるOS」の左右比較カード（layout_05_compare）。異なるOSでは直近14日間より前は引き継げないことを明示。Codexテンプレート描画。",
+      "overlay_text": {
+        "headline": "同じOSと、異なるOS",
+        "support_text": "異なるOSでは、直近14日間より前のトークは引き継げません（2026年9月2日確認）。",
+        "items": [
+          "同じOS（iPhone→iPhone など）: 標準バックアップ＋復元で、テキストを引き継げる",
+          "異なるOS（iPhone↔Android）: 直近14日分まで。それより前は引き継げない"
+        ]
+      },
+      "safe_area": "比較カードはx=140〜1780・y=240〜860。行高50px以上。下部180px（y≧900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（Codex描画のみ・実画面なし）。",
+      "note": "「すべてを移すことはできません」という事実を、不安を煽らず淡々と見せる配色にする。"
+    },
+    {
+      "scene_id": 22,
+      "section_label": "5 / 5 機種変更の前に、知っておきたい注意",
+      "purpose": "実演（公式ヘルプ）",
+      "narration_range": {"start_segment": 57, "end_segment": 58},
+      "render_mode": "official",
+      "device": "line_official",
+      "main_visual": "LINE公式ヘルプ「トーク履歴のバックアップ（保存）や復元で問題が発生している場合」（SRC-008）の「標準バックアップを利用した場合、トーク内の画像や動画はバックアップ・復元されません」を含む帯を大きくクロップして表示。右スロット配置。",
+      "overlay_text": {
+        "headline": "写真・動画はバックアップされない",
+        "support_text": "LINE公式の案内（2026年9月2日確認）。残したい写真や動画は、引き継ぎ前に端末へ保存します。",
+        "items": []
+      },
+      "safe_area": "公式ヘルプcropは右スロット（x=1000〜1840）。下部180px（y≧900）は字幕専用帯。該当文が下部に来る場合はクロップ範囲を調整。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "公開ヘルプページのcropであり個人情報なし。crop範囲にアカウント情報が入らないことを確認。出典URLと確認日（2026年9月2日）を字幕または説明欄で明示。",
+      "note": "SHOT-07。crop対象: 「画像や動画はバックアップ・復元されません」の文と必要なら続く「端末へ保存」の案内。"
+    },
+    {
+      "scene_id": 23,
+      "section_label": "5 / 5 機種変更の前に、知っておきたい注意",
+      "purpose": "参考（注意を含む）",
+      "narration_range": {"start_segment": 59, "end_segment": 61},
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "参考カード（layout_03_visual_text）: プレミアムバックアップの存在・対象（写真や動画も対象・LYPプレミアム向け）と、解約すると保存データが削除される注意。加入を勧める表現にしない。Codexテンプレート描画。",
+      "overlay_text": {
+        "headline": "参考：プレミアムバックアップ",
+        "support_text": "有料のLYPプレミアム向け。写真や動画も対象。解約すると保存データは削除される注意があります。",
+        "items": []
+      },
+      "safe_area": "カードは中央（x=240〜1680・y=220〜820）。下部180px（y≧900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（Codex描画のみ・実画面なし）。",
+      "note": "料金・プラン詳細は未確認のため触れない（事実境界）。seg 60〜61（引き継ぎ当日の準備・公式ガイド案内）は「引き継ぎガイド」への誘導文としてカード下部または字幕で受ける。"
+    },
+    {
+      "scene_id": 24,
+      "section_label": "まとめ",
+      "purpose": "まとめ",
+      "narration_range": {"start_segment": 62, "end_segment": 66},
+      "render_mode": "template",
+      "device": "template",
+      "main_visual": "まとめ3項目のチェックリスト（layout_07_summary）。冒頭（Scene 2）の3項目と内容・順・番号を完全に一致させる。Codexテンプレート描画。",
+      "overlay_text": {
+        "headline": "今日のまとめ",
+        "support_text": "今日確認する3つ",
+        "items": [
+          "最後にバックアップした日時を確認し、\n古ければ「今すぐバックアップ」で最新にする",
+          "自動バックアップの設定（保存先：iPhone=iCloud Drive／\nAndroid=Google ドライブ）",
+          "バックアップ用の暗証番号（PIN）"
+        ]
+      },
+      "safe_area": "リストはx=240〜1680・y=200〜840に収め、行間を広くとる。下部180px（y≧900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "codex",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（Codex描画のみ・実画面なし）。",
+      "note": "①②③の番号表現はScene 2の3項目と統一する（render時に両シーンで同一スタイルに）。seg 65の保存先（iCloud Drive／Google ドライブ）は②の補足行に反映済み。"
+    },
+    {
+      "scene_id": 25,
+      "section_label": "まとめ（クロージング）",
+      "purpose": "クロージング",
+      "narration_range": {"start_segment": 67, "end_segment": 68},
+      "render_mode": "gpt_image",
+      "device": "gpt_image",
+      "main_visual": "GPT full-frame背景。「あわてずに確認する」安心の光景。シニア（ひとり、または家族と）が穏やかにスマホを確認している。LINEの実際のUI・ロゴ・正確な日本語・数字は一切生成しない（スマホ画面はぼかしてUIを判別させない）。左半分（x≦960）は文字用の静かな余白。1920×1080一枚で完結。",
+      "overlay_text": {
+        "headline": "あわてずに、\n確認しましょう",
+        "support_text": "今のスマホで、すぐに確認できます。",
+        "items": []
+      },
+      "safe_area": "下部180px（y≧900）は字幕専用帯。文字は上部60%・左半分（x≦960）に配置。",
+      "animation": "very_slow_zoom",
+      "text_render_mode": "codex",
+      "fit_mode": "full_bleed",
+      "image_prompt_id": "IMG-005",
+      "personal_data_risk": "個人情報なし（AI生成背景のみ）。LINEの実UI・ロゴ・正確な日本語・QRコード・電話番号風文字列を生成しない。",
+      "note": "最終ナレーション（seg 67〜68）と同期させ、共通CTA（channel_common_cta）へ自然につなぐ。CTA画面は本visual planの対象外（postroll設定に従う）。"
+    }
+  ],
+  "visual_plan_summary": {
+    "episode_id": "006",
+    "episode_slug": "line_talk_backup",
+    "scene_count": 24,
+    "render_mode_counts": {
+      "template": 12,
+      "official": 7,
+      "gpt_image": 5,
+      "total": 24
+    },
+    "official_breakdown": {
+      "android_emulator": {"count": 4, "scene_ids": [6, 7, 11, 16], "content": "LINEアプリ操作の実演（テストアカウントのみ）"},
+      "iphone": {"count": 1, "scene_ids": [14], "content": "iPhone iCloud Drive差分（実機モザイクまたは公式資料）"},
+      "line_official": {"count": 2, "scene_ids": [20, 22], "content": "LINE公式ヘルプcrop（同一OSのみ・写真動画の案内）"}
+    },
+    "gpt_image_allocation": [
+      {"image_prompt_id": "IMG-001", "scene_id": 1, "purpose": "導入", "visual_concept": "機種変更・故障の不安を受ける穏やかなシニア＋スマホ（右側人物・左側余白）。LINE UI/日本語なし"},
+      {"image_prompt_id": "IMG-002", "scene_id": 3, "purpose": "セクション扉（1/5）", "visual_concept": "引き継ぎとバックアップが別物＝並んだ2つの収納箱。LINE UI/日本語なし"},
+      {"image_prompt_id": "IMG-003", "scene_id": 15, "purpose": "セクション扉（4/5 PIN）", "visual_concept": "コピーを守る鍵と箱。数字・PIN画面なし。LINE UI/日本語なし"},
+      {"image_prompt_id": "IMG-004", "scene_id": 19, "purpose": "セクション扉（5/5 OSまたぎ）", "visual_concept": "2つの島をつなぐ橋（OSまたぎ）。実機ロゴなし。LINE UI/日本語なし"},
+      {"image_prompt_id": "IMG-005", "scene_id": 25, "purpose": "クロージング", "visual_concept": "あわてずに確認する安心のシニア（左側余白）。LINE UI/日本語なし"}
+    ],
+    "shot_tag_mapping": [
+      {"shot_tag": "SHOT-01", "scene_id": 6, "content": "LINE設定→「バックアップ・引き継ぎ」画面（Android Emulator/テスト端末）"},
+      {"shot_tag": "SHOT-02", "scene_id": 7, "content": "「トークのバックアップ」画面: 前回バックアップ日時・今すぐバックアップ"},
+      {"shot_tag": "SHOT-03", "scene_id": 11, "content": "自動バックアップ設定（オン/オフのスイッチ）"},
+      {"shot_tag": "SHOT-04", "scene_id": 14, "content": "iPhone: iCloud Driveオン確認（実機モザイクまたは公式資料）"},
+      {"shot_tag": "SHOT-05", "scene_id": 16, "content": "バックアップ用PINコードの設定導線（PIN値は映さない）"},
+      {"shot_tag": "SHOT-06", "scene_id": 20, "content": "LINE公式ヘルプcrop: 標準バックアップは同じOSのみ"},
+      {"shot_tag": "SHOT-07", "scene_id": 22, "content": "LINE公式ヘルプcrop: 写真・動画はバックアップされない"}
+    ],
+    "personal_data_notices": [
+      "LINE実画面（Android Emulator/テスト端末）: テストアカウントのみ使用。実トーク・友だち一覧・通知・QRコード・LINE ID・電話番号・プロフィール写真を映さない。プロフィール情報はモザイクまたは見切らせる。",
+      "バックアップ日時・操作履歴: テストアカウントのダミーデータのみ。実ユーザーのバックアップ日時・件数を使わない。",
+      "PIN関連: 実際のPIN値・入力欄の数字を映さない。PIN入力の実演は行わず、設定導線の案内のみ（必要ならモザイク）。",
+      "iPhone iCloud Drive（Scene 14）: 実機の場合はApple ID・メールアドレス・端末名・アカウント一覧を必ずモザイク。実機が用意できない場合はLINE公式資料（SRC-004）で代替。",
+      "LINE公式ヘルプcrop（Scene 20/22）: 公開ページのcropであり個人情報なし。crop範囲にアカウント情報が入らないことを確認し、出典URLと確認日（2026年9月2日）を明示。",
+      "GPT画像5枚（IMG-001〜005）: LINEの実際のUI・ロゴ・正確な日本語・QRコード・電話番号・ID風の文字列を一切生成しない。スマホ画面はぼかし/白飛びでUIを判別させない。",
+      "通知の実画面: 「公式アカウントから通知」は文字案内のみで実通知画面は映さない（Scene 13/14）。"
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "short_id": "Short002",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "audio_reused": true,
+  "audio_gap_sec": 0.07,
+  "frame_rows": [
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v2\\scene_01_seg_01_cue_01.png",
+      "duration_sec": 3.328,
+      "start_sec": 0.0,
+      "end_sec": 3.328,
+      "scene": 1,
+      "segment_id": 1,
+      "cue_index": 1,
+      "subtitle": [
+        "このメール、",
+        "本物？"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "shorts/002_ai_suspicious_message/assets/imagegen_native_v2/normalized/scene_01_hook.png"
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v2\\scene_02_seg_02_cue_01.png",
+      "duration_sec": 5.9733333333333345,
+      "start_sec": 3.398,
+      "end_sec": 9.371333333333334,
+      "scene": 2,
+      "segment_id": 2,
+      "cue_index": 1,
+      "subtitle": [
+        "個人情報は",
+        "まず隠す"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "shorts/002_ai_suspicious_message/assets/imagegen_native_v2/normalized/scene_02_mask.png"
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v2\\scene_03_seg_03_cue_01.png",
+      "duration_sec": 5.002666666666666,
+      "start_sec": 9.441333333333334,
+      "end_sec": 14.444,
+      "scene": 3,
+      "segment_id": 3,
+      "cue_index": 1,
+      "subtitle": [
+        "AIは整理の補助",
+        "怪しい点を洗い出す"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v2\\scene_04_seg_04_cue_01.png",
+      "duration_sec": 3.6480000000000015,
+      "start_sec": 14.514000000000001,
+      "end_sec": 18.162000000000003,
+      "scene": 4,
+      "segment_id": 4,
+      "cue_index": 1,
+      "subtitle": [
+        "AIだけで決めない"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v2\\scene_05_seg_05_cue_01.png",
+      "duration_sec": 2.0622222222222213,
+      "start_sec": 18.232000000000003,
+      "end_sec": 20.294222222222224,
+      "scene": 5,
+      "segment_id": 5,
+      "cue_index": 1,
+      "subtitle": [
+        "メールのリンクは開かない"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v2\\scene_05_seg_05_cue_02.png",
+      "duration_sec": 2.0622222222222213,
+      "start_sec": 20.294222222222224,
+      "end_sec": 22.356444444444445,
+      "scene": 5,
+      "segment_id": 5,
+      "cue_index": 2,
+      "subtitle": [
+        "公式アプリから"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v2\\scene_05_seg_05_cue_03.png",
+      "duration_sec": 2.0622222222222213,
+      "start_sec": 22.356444444444445,
+      "end_sec": 24.418666666666667,
+      "scene": 5,
+      "segment_id": 5,
+      "cue_index": 3,
+      "subtitle": [
+        "ブックマークから確認"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v2\\scene_06_seg_06_cue_01.png",
+      "duration_sec": 3.189333333333334,
+      "start_sec": 24.48866666666667,
+      "end_sec": 27.678000000000004,
+      "scene": 6,
+      "segment_id": 6,
+      "cue_index": 1,
+      "subtitle": [
+        "最後は",
+        "公式から確認"
+      ],
+      "visual_mode": "imagegen_native",
+      "asset": "shorts/002_ai_suspicious_message/assets/imagegen_native_v2/normalized/scene_05_official.png"
+    },
+    {
+      "path": "C:\\Codex\\260829_youtube-anshin\\shorts\\002_ai_suspicious_message\\work\\rendered_frames_v2\\scene_06_seg_07_cue_01.png",
+      "duration_sec": 3.2319999999999993,
+      "start_sec": 27.748000000000005,
+      "end_sec": 30.980000000000004,
+      "scene": 6,
+      "segment_id": 7,
+      "cue_index": 1,
+      "subtitle": [
+        "困ったときのために",
+        "登録しておいてください"
+      ],
+      "visual_mode": "renderer_native",
+      "asset": null
+    }
+  ],
+  "mode_counts": {
+    "imagegen_native": 3,
+    "renderer_native": 6
+  },
+  "no_image_text_hybrid": true
+}

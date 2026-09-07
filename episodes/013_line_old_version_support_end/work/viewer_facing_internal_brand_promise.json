@@ -1,0 +1,29 @@
+{
+  "rule": "viewer_facing_internal_brand_promise",
+  "internal_brand_promise": "怖がらせる前に、確認する。",
+  "classification": "INTERNAL_ONLY",
+  "viewer_facing_expected_count": 0,
+  "viewer_facing_count": 0,
+  "status": "PASS",
+  "targets": [
+    {
+      "kind": "episode",
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\013_line_old_version_support_end\\episode.json",
+      "rule": "viewer_facing_internal_brand_promise",
+      "internal_brand_promise": "怖がらせる前に、確認する。",
+      "classification": "INTERNAL_ONLY",
+      "viewer_facing_expected_count": 0,
+      "viewer_facing_count": 0,
+      "status": "PASS",
+      "coverage": [
+        "episode title/description metadata",
+        "scene renderer text and ImageGen prompt/generated-text metadata",
+        "narration and subtitle canonical text",
+        "CTA/end-card canonical text",
+        "subtitle and overlay files; narration is checked from episode.json",
+        "publish description, thumbnail metadata, end-card metadata, and CTA/ImageGen manifests"
+      ],
+      "hits": []
+    }
+  ]
+}

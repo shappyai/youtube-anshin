@@ -1,0 +1,15 @@
+{
+  "episode": "006_line_talk_backup",
+  "status": "uploaded_private_verification_failed",
+  "mode": "private",
+  "final_sha256": "4607BE495CE60828A4DB1B43F7E5EDFA5884A12BF046C1756787F86AD2B5D36B",
+  "title": "【LINE】機種変更の前に確認！トーク履歴を残すバックアップとPIN",
+  "requested_privacy": "private",
+  "publish_at_local": null,
+  "publish_at_api": null,
+  "started_at": "2026-09-02T21:06:41Z",
+  "video_id": "DK0431L9TwA",
+  "uploaded_at": "2026-09-02T21:06:48Z",
+  "error": "PublishError",
+  "thumbnail_uploaded": true
+}

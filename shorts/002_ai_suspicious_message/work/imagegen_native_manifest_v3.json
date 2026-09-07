@@ -1,0 +1,68 @@
+{
+  "short_id": "Short002",
+  "prompt_file": "work/imagegen_prompts_v3.md",
+  "reuse_policy": "v2 ImageGen-native assetを再利用。不足sceneなし。新規ImageGen callなし。",
+  "assets": [
+    {
+      "major_visual": "A",
+      "role": "冒頭",
+      "asset": "assets/imagegen_native_v2/normalized/scene_01_hook.png",
+      "headline_lines": [
+        "このメール、",
+        "本物？"
+      ],
+      "text_render_mode": "imagegen_native",
+      "source": "reused_from_v2 / built-in image_gen",
+      "regeneration_count": 0,
+      "exact_text_qa": "PASS",
+      "vision_qa": "PASS_REVALIDATED",
+      "official_ui_generated": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "a3ebe0f10d85dcdae4135df728fc41a0b43f5484d7ff9260110f7137a82e0b85"
+    },
+    {
+      "major_visual": "B",
+      "role": "行動",
+      "asset": "assets/imagegen_native_v2/normalized/scene_02_mask.png",
+      "headline_lines": [
+        "個人情報は",
+        "まず隠す"
+      ],
+      "text_render_mode": "imagegen_native",
+      "source": "reused_from_v2 / built-in image_gen",
+      "regeneration_count": 0,
+      "exact_text_qa": "PASS",
+      "vision_qa": "PASS_REVALIDATED",
+      "official_ui_generated": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "3ce6475432c8f8cfbb28690c6865b217d77567000281221242531c233a4ad81a"
+    },
+    {
+      "major_visual": "C",
+      "role": "結論",
+      "asset": "assets/imagegen_native_v2/normalized/scene_05_official.png",
+      "headline_lines": [
+        "最後は",
+        "公式から確認"
+      ],
+      "text_render_mode": "imagegen_native",
+      "source": "reused_from_v2 / built-in image_gen",
+      "regeneration_count": 0,
+      "exact_text_qa": "PASS",
+      "vision_qa": "PASS_REVALIDATED",
+      "official_ui_generated": 0,
+      "hybrid_generated_image_large_text": 0,
+      "sha256": "9b710d3a5878d219335461a090b07a623834feebc08ee73231c5e5638c1a88d6"
+    }
+  ],
+  "metrics": {
+    "major_visual_count": 3,
+    "imagegen_native_scene_count": 3,
+    "imagegen_native_reuse_count": 3,
+    "imagegen_call_count": 0,
+    "regeneration_count": 0,
+    "exact_text_pass_count": 3,
+    "exact_text_fail_count": 0,
+    "hybrid_generated_image_large_text": 0
+  }
+}

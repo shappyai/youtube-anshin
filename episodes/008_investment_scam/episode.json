@@ -1,0 +1,2569 @@
+{
+ "schema_version": "1.0.0",
+ "metadata": {
+    "research_date": "2026-09-05",
+    "visual_theme": "adult_digital_soft_image_bg",
+  "production_phase": "Phase B（Visual Gate v5人間承認済み・VOICEVOX本編→draft QA）",
+  "media_decision": "実在サービスの公式UIはAI生成しない。金融庁検索サイト（search.fsa.go.jp）等の登録確認画面はPhase BでPCブラウザcaptureを検討、未取得の間はテンプレート（出典：金融庁）で代替。GPT画像5枚はimagegen_native（hero1＋section扉3＋概念1）で、有名人を再現せずシルエット・架空の広告表記に限る。実在LINE等のチャットUIは再現しない。数字・相談先・チェックポイントは警察庁/金融庁/国民生活センター/消費者庁/LINEヤフー公式本文（2026-09-05取得）を主軸。65歳以上でも無理なく見聞きできるTV-first readability（最小56px/字幕原則60〜72px）を全sceneに適用。",
+  "target_audience": "60代以上を中心に、特に65歳以上でも無理なく見聞きできる視聴者。文字を小さくせず、数字を聞き取りやすく、専門語を詰め込まない。",
+  "primary_sources": [
+   "警察庁 特殊詐欺の認知・検挙状況等（令和8年7月末暫定値）広報資料PDF",
+   "警察庁 SOS47 令和8年上半期（暫定値）",
+   "警察庁 SOS47「SNS型投資詐欺」特設ページ",
+   "警察庁 令和7年確定値 啓発資料（著名人画像無断使用・LINE誘導9割）",
+   "金融庁「著名人を騙る者からの投資勧誘等にご注意」・金融事業者一括検索・相談室",
+   "国民生活センター 発表情報（2026-09-01）",
+   "消費者庁「もうけ話にご注意ください!」",
+   "LINEヤフー 公式ストーリー（その広告、ホンモノ?）",
+   "警察庁「偽ショッピングサイト・詐欺サイト対策」"
+  ],
+  "fact_boundary": "「広告＝全部詐欺」「LINE自体が危険」とは言わない。有名人個人への言及・AI再現をしない。数字は集計範囲つき（令和8年7月末暫定値/上半期）で使い、制作日時点で確定値（8月末分）は未公表であることを公開日まで継続確認。PIO-NET相談件数は本文数値未確認のため言及しない。登録確認は金融庁公式の検索機能（search.fsa.go.jp）を案内し、「この会社は無登録」と特定しない。相談先は#9110・188・0570-050588（金融庁 詐欺的な投資に関する相談ダイヤル・平日10時〜17時）。"
+ },
+ "episode": {
+  "episode_id": "008",
+  "slug": "investment_scam",
+  "title": "【投資詐欺】その有名人、本物？LINEに誘導されたら確認したい3つ",
+  "target_duration": 330,
+  "status": "draft",
+  "topic": "有名人の広告などを入口にLINE等へ誘導されるSNS型投資詐欺で、お金を振り込む前に確認したい3つ（①広告の有名人をそのまま信用しない ②LINEなどに誘導されたら一度止まる ③送金する前に登録と振込先を確認する）を、最新の公式統計・注意喚起（2026-09-05確認）に基づいてやさしく説明する。",
+  "target_audience": "スマホやSNSは使うが、SNS型投資詐欺の新しい手口（著名人なりすまし広告・LINE誘導）に詳しくない60代以上。特に65歳以上でもテレビで無理なく見聞きできる構成とする。",
+  "topic_scores": {
+   "topic_score_trend": 5,
+   "topic_score_age_fit": 5,
+   "topic_score_channel_fit": 5,
+   "topic_score_home_ctr": 4,
+   "topic_score_competition": 3,
+   "topic_score_practicality": 5,
+   "selected_topic_reason": "2026-09-01国民生活センター発表と警察庁7月末暫定値（前年比+75.6%/+88.6%）で社会的関心が高く、被害額60代最多で50〜60代の自分事になる。なお制作日時点では8月末統計は未公表（最新=7月末暫定値）を確認済み。"
+  }
+ },
+ "narration": {
+  "speaker": "VOICEVOX",
+  "voice": "剣崎雌雄",
+  "style": "ノーマル",
+  "speedScale": 1,
+  "intonationScale": 1,
+  "pitchScale": 0,
+  "segment_policy": "1文ずつaudio_query→synthesis。Phase Aでは全文生成しない。"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-001",
+   "url": "https://www.npa.go.jp/bureau/criminal/souni/tokusyusagi/kouhou.pdf",
+   "title": "特殊詐欺の認知・検挙状況等について（令和8年7月末・暫定値）広報資料",
+   "organization": "警察庁",
+   "verified_at": "2026-09-05",
+   "claim": "SNS型投資詐欺: 認知6,566件（+75.6%）・被害額881.2億円（+88.6%）。PDF本文を直接取得し確認。"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://www.npa.go.jp/publications/statistics/sousa/sagi.html",
+   "title": "特殊詐欺の認知・検挙状況等について（統計トップ）",
+   "organization": "警察庁",
+   "verified_at": "2026-09-05",
+   "claim": "最新統計=令和8年7月末暫定値であることを確認（HTML保存）。"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/260731/01.html",
+   "title": "令和8年上半期における特殊詐欺の認知・検挙状況等について（暫定値）",
+   "organization": "警察庁SOS47",
+   "verified_at": "2026-09-05",
+   "claim": "SNS型投資詐欺: 上半期5,893件・797.9億円・1日あたり4.4億円・既遂1件当たり1,362.5万円。被害額は60代が最多。バナー等広告が最多（被害額前年比252.5%増）。HTML本文を直接取得し確認。"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://www.npa.go.jp/bureau/criminal/souni/tokusyusagi/hurikomesagi_toukei2026.pdf",
+   "title": "令和8年上半期（暫定値）広報資料PDF",
+   "organization": "警察庁",
+   "verified_at": "2026-09-05",
+   "claim": "p8: 被害額60代最多・バナー等広告252.5%増・Instagram/X(Twitter)増加。PDF本文を直接取得し確認。"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://www.npa.go.jp/bureau/criminal/souni/tokusyusagi/sagi_keihatsu2025.pdf",
+   "title": "特殊詐欺及びSNS型投資・ロマンス詐欺（令和7年・確定値）啓発資料",
+   "organization": "警察庁",
+   "verified_at": "2026-09-05",
+   "claim": "p12: 令和7年7月以降、著名人の画像・動画を無断使用したバナー等広告による被害が顕著に増加。p14/15: 接触後にLINEへ誘導される割合は約9割。p13: 令和7年は認知件数50代が最多（9,523件・1,288.0億円）。PDF本文を直接取得し確認。"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://www.npa.go.jp/bureau/safetylife/sos47/case/sns-romance/investment/",
+   "title": "SNS型投資詐欺（警察庁SOS47特設ページ）",
+   "organization": "警察庁SOS47",
+   "verified_at": "2026-09-05",
+   "claim": "手口の一例（広告→グループ招待→サクラ→振込指示→偽利益→手数料要求→連絡途絶）。チェック: 「必ずもうかる」「確実」「あなただけ」・個人名義口座・振込のたびに口座が変わる・SNSで知り合いLINEに誘導するのが典型的。HTML本文を直接取得し確認。"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://www.fsa.go.jp/ordinary/chuui/sns.html",
+   "title": "SNS・マッチングアプリ等で知り合った者や著名人を騙る者からの投資勧誘等にご注意ください！",
+   "organization": "金融庁",
+   "verified_at": "2026-09-05",
+   "claim": "偽アカウント・偽広告が無断転載で本人を名乗る／LINEグループ誘導／個人名義口座／出金時に手数料・税金要求。登録確認は「金融事業者一括検索機能」search.fsa.go.jp。相談ダイヤル0570-050588（平日10〜17時・IP電話03-6206-6066）。HTML本文を直接取得し確認。"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://www.fsa.go.jp/receipt/soudansitu/index.html",
+   "title": "金融サービス利用者相談室",
+   "organization": "金融庁",
+   "verified_at": "2026-09-05",
+   "claim": "一般相談受付0570-016811（IP電話03-5251-6811）・平日10〜17時。HTML本文を直接取得し確認（本編では投資詐欺ダイヤル0570-050588を案内）。"
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://www.fsa.go.jp/menkyo/menkyo.html",
+   "title": "免許・許可・登録等を受けている事業者一覧",
+   "organization": "金融庁",
+   "verified_at": "2026-09-05",
+   "claim": "金融事業者一括検索機能（search.fsa.go.jp）で名称・電話番号から検索できる。金融商品取引業者一覧（令和8年7月31日現在）等。HTML本文を直接取得し確認。"
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://www.fsa.go.jp/ordinary/chuui/mutouroku.html",
+   "title": "無登録で金融商品取引業を行う者の名称等について",
+   "organization": "金融庁",
+   "verified_at": "2026-09-05",
+   "claim": "無登録業者名等の一覧ページ（警告書発出情報の掲載）の存在を確認。HTML本文を直接取得。"
+  },
+  {
+   "source_id": "SRC-011",
+   "url": "https://www.fsa.go.jp/ordinary/chuui/highrisk.html",
+   "title": "無登録業者との取引は要注意！！～無登録業者との取引は高リスク～",
+   "organization": "金融庁",
+   "verified_at": "2026-09-05",
+   "claim": "SOS47もリンクする無登録業者注意ページ。無登録での金融商品取引業・暗号資産交換業は違法である旨。HTML本文を直接取得し確認（fsa_highrisk.html）。"
+  },
+  {
+   "source_id": "SRC-012",
+   "url": "https://www.kokusen.go.jp/news/data/n-20260901_1.html",
+   "title": "SNSで著名人が勧める“もうかる方法” それって本当！？金融商品・サービスのトラブルにご注意！",
+   "organization": "国民生活センター",
+   "verified_at": "2026-09-05",
+   "claim": "2026-09-01公表。相談事例3件（50代男性・50代女性・60代男性）。「投資資金の振込先に個人名義の口座を指定された場合、それは詐欺です。振り込まないでください」。188・#9110の説明。HTML本文を直接取得し確認。"
+  },
+  {
+   "source_id": "SRC-013",
+   "url": "https://www.caa.go.jp/policies/policy/consumer_policy/caution/caution_036",
+   "title": "SNSなどを通じた投資や副業といった“もうけ話”にご注意ください!",
+   "organization": "消費者庁",
+   "verified_at": "2026-09-05",
+   "claim": "「個人名義の口座を指定された場合、それは詐欺です。振り込まないでください」。PIO-NET統計はグラフのみで本文数値なし。188（いやや!）。HTML本文を直接取得し確認。"
+  },
+  {
+   "source_id": "SRC-014",
+   "url": "https://www.lycorp.co.jp/ja/story/20260224/csm2026_investment.html",
+   "title": "その広告、ホンモノ？「SNS型投資詐欺」の手口と対策",
+   "organization": "LINEヤフー",
+   "verified_at": "2026-09-05",
+   "claim": "著名人・キャラクター画像の無断使用が横行。サクラが待ち構えるグループトークへ誘導。「相談させない」は詐欺の証拠。通報機能（相手に知られない）。HTML本文を直接取得し確認。"
+  },
+  {
+   "source_id": "SRC-015",
+   "url": "https://www.kokusen.go.jp/soudan/",
+   "title": "バックアップ相談（国民生活センター相談窓口）",
+   "organization": "国民生活センター",
+   "verified_at": "2026-09-05",
+   "claim": "国民生活センター直接相談03-3446-0999（平日10〜16時）。消費者ホットライン188の案内あり。HTML本文を直接取得し確認。"
+  },
+  {
+   "source_id": "SRC-016",
+   "url": "https://www.kokusen.go.jp/map/index.html",
+   "title": "全国の消費生活センター等",
+   "organization": "国民生活センター",
+   "verified_at": "2026-09-05",
+   "claim": "消費者ホットライン188（全国共通）と、全国の消費生活センター等の案内を確認。"
+  },
+  {
+   "source_id": "SRC-017",
+   "url": "https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/?tab=info",
+   "title": "警察庁SOS47 注意喚起・お知らせ",
+   "organization": "警察庁SOS47",
+   "verified_at": "2026-09-05",
+   "claim": "令和8年7月末暫定値の公表など最新情報の掲載と、SOS47電話窓口の記載を確認。"
+  },
+  {
+   "source_id": "SRC-018",
+   "url": "https://www.npa.go.jp/bureau/cyber/countermeasures/fake-shop.html",
+   "title": "偽ショッピングサイト・詐欺サイト対策",
+   "organization": "警察庁",
+   "verified_at": "2026-09-05",
+   "claim": "URL・画面画像、口座情報・振込記録、相手とのメール等のやり取り内容を保存するよう案内。やり取りの画面を残す根拠として使用。"
+  }
+ ],
+ "scenes": [
+  {
+   "id": 1,
+   "section_label": "はじめに",
+   "layout": "layout_01_hero",
+   "render_mode": "gpt_image",
+   "text_render_mode": "imagegen_native",
+   "main_message": "有名人が投資をすすめていたら、まず、この3つ。",
+   "headline": "その投資広告、\n本物？",
+   "support_text": "LINEに誘導されたら、振り込む前に、3つ確認",
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "static",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 1,
+   "end_segment": 2,
+   "subtitle_ids": [
+    "SUB-001-1",
+    "SUB-001-2",
+    "SUB-002"
+   ],
+   "image_prompt_id": "IMG-001",
+   "production_note": "オープニング（問題提示）・imagegen_native"
+  },
+  {
+   "id": 2,
+   "section_label": "はじめに",
+   "layout": "layout_01_hero",
+   "render_mode": "template",
+   "text_render_mode": "pil_overlay",
+   "main_message": "あわてずに、確認する方法を、一緒に見ていきましょう。",
+   "headline": "高額な被害が、\n増えています",
+   "support_text": "こうした流れから、投資詐欺に（警察庁ほか）",
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "static",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 3,
+   "end_segment": 3,
+   "subtitle_ids": [
+    "SUB-003-1",
+    "SUB-003-2"
+   ],
+   "icon_name": "campaign",
+   "icon_tone": "navy",
+   "production_note": "導入（状況提示）"
+  },
+  {
+   "id": 3,
+   "section_label": "はじめに",
+   "layout": "layout_02_list",
+   "render_mode": "template",
+   "text_render_mode": "pil_overlay",
+   "main_message": "この3つを、順番に確認します。",
+   "headline": "今日確認する、3つ",
+   "support_text": "振り込む前に、思い出してください",
+   "items": [
+    "広告の有名人を、そのまま信用しない",
+    "LINEなどに誘導されたら、一度止まる",
+    "送金する前に、登録と振込先を確認する"
+   ],
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "static",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 4,
+   "end_segment": 9,
+   "subtitle_ids": [
+    "SUB-004-1",
+    "SUB-004-2",
+    "SUB-005",
+    "SUB-006-1",
+    "SUB-006-2",
+    "SUB-007-1",
+    "SUB-007-2",
+    "SUB-008-1",
+    "SUB-008-2",
+    "SUB-009-1",
+    "SUB-009-2"
+   ],
+   "production_note": "3つ一覧（タイトルと完全一致）"
+  },
+  {
+   "id": 4,
+   "section_label": "1 / 3",
+   "layout": "layout_08_section",
+   "render_mode": "gpt_image",
+   "text_render_mode": "imagegen_native",
+   "main_message": "セクション扉",
+   "headline": "広告の有名人を、\nそのまま信用しない",
+   "support_text": "まずは、そのまま信じない",
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "very_slow_zoom",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 10,
+   "end_segment": 12,
+   "subtitle_ids": [
+    "SUB-010",
+    "SUB-011-1",
+    "SUB-011-2",
+    "SUB-012-1",
+    "SUB-012-2"
+   ],
+   "image_prompt_id": "IMG-002",
+   "production_note": "セクション扉・imagegen_native・進行pillはCodex overlay（hybrid可）"
+  },
+  {
+   "id": 5,
+   "section_label": "1 / 3",
+   "layout": "layout_01_hero",
+   "render_mode": "template",
+   "text_render_mode": "pil_overlay",
+   "main_message": "前の年の同じ時期より、7割以上、増えています",
+   "headline": "6,566件\nおよそ881億円",
+   "support_text": "SNS型投資詐欺・今年7月末までの暫定値（警察庁）",
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "static",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 13,
+   "end_segment": 17,
+   "subtitle_ids": [
+    "SUB-013-1",
+    "SUB-013-2",
+    "SUB-014-1",
+    "SUB-014-2",
+    "SUB-015-1",
+    "SUB-015-2",
+    "SUB-016-1",
+    "SUB-016-2",
+    "SUB-017-1",
+    "SUB-017-2"
+   ],
+   "icon_name": "account_balance",
+   "icon_tone": "blue",
+   "production_note": "重要数字は1画面に集中。出典は短形のみ。1日4.4億円・60代最多はナレーション/字幕中心"
+  },
+  {
+   "id": 6,
+   "section_label": "1 / 3",
+   "layout": "layout_08_section",
+   "render_mode": "gpt_image",
+   "text_render_mode": "imagegen_native",
+   "main_message": "なりすまし広告のイメージ（実在人物ではありません）",
+   "headline": "本人が、すすめているとは、\n限らない",
+   "support_text": "写真や動画を無断で使った広告が増加（警察庁）",
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "very_slow_zoom",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 18,
+   "end_segment": 21,
+   "subtitle_ids": [
+    "SUB-018",
+    "SUB-019",
+    "SUB-020-1",
+    "SUB-020-2",
+    "SUB-020-3",
+    "SUB-021-1",
+    "SUB-021-2"
+   ],
+   "image_prompt_id": "IMG-003",
+   "production_note": "概念scene・imagegen_native・有名人を再現しない（シルエット）"
+  },
+  {
+   "id": 7,
+   "section_label": "1 / 3",
+   "layout": "layout_06_caution",
+   "render_mode": "template",
+   "text_render_mode": "pil_overlay",
+   "main_message": "有名人が無料で儲け話を教えることは、基本的にありません（警察庁）",
+   "headline": "「必ずもうかる」\n「あなただけ」は、注意の言葉",
+   "support_text": "そういう言葉が出たら、\nまず、疑いましょう",
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "static",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 22,
+   "end_segment": 24,
+   "subtitle_ids": [
+    "SUB-022-1",
+    "SUB-022-2",
+    "SUB-022-3",
+    "SUB-023-1",
+    "SUB-023-2",
+    "SUB-023-3",
+    "SUB-024-1",
+    "SUB-024-2"
+   ],
+   "icon_name": "warning",
+   "icon_tone": "amber",
+   "production_note": "注意（SOS47チェックポイント）"
+  },
+  {
+   "id": 8,
+   "section_label": "2 / 3",
+   "layout": "layout_08_section",
+   "render_mode": "gpt_image",
+   "text_render_mode": "imagegen_native",
+   "main_message": "セクション扉",
+   "headline": "LINEに誘導されたら、\n一度、止まる",
+   "support_text": "グループに移る前に、確認",
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "very_slow_zoom",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 25,
+   "end_segment": 26,
+   "subtitle_ids": [
+    "SUB-025",
+    "SUB-026-1",
+    "SUB-026-2"
+   ],
+   "image_prompt_id": "IMG-004",
+   "production_note": "セクション扉・imagegen_native・進行pillはCodex overlay"
+  },
+  {
+   "id": 9,
+   "section_label": "2 / 3",
+   "layout": "layout_01_hero",
+   "render_mode": "template",
+   "text_render_mode": "pil_overlay",
+   "main_message": "知り合ったあと、LINEに誘導するのが、典型的な手口（警察庁）",
+   "headline": "LINEに誘導されるのは、\nおよそ9割",
+   "support_text": "広告やメッセージで接触した後（令和7年・警察庁）",
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "static",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 27,
+   "end_segment": 28,
+   "subtitle_ids": [
+    "SUB-027-1",
+    "SUB-027-2",
+    "SUB-027-3",
+    "SUB-028-1",
+    "SUB-028-2"
+   ],
+   "icon_name": "forum",
+   "icon_tone": "blue",
+   "production_note": "重要数字（9割）"
+  },
+  {
+   "id": 10,
+   "section_label": "2 / 3",
+   "layout": "layout_06_caution",
+   "render_mode": "template",
+   "text_render_mode": "pil_overlay",
+   "main_message": "「今だけ」「あなただけ」と、あせらせる言葉が来たら、いったん止まりましょう",
+   "headline": "グループには、サクラが、\nいることも",
+   "support_text": "もうかったふりをする書き込みに、ご用心",
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "static",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 29,
+   "end_segment": 31,
+   "subtitle_ids": [
+    "SUB-029-1",
+    "SUB-029-2",
+    "SUB-030-1",
+    "SUB-030-2",
+    "SUB-031-1",
+    "SUB-031-2",
+    "SUB-031-3"
+   ],
+   "icon_name": "groups",
+   "icon_tone": "amber",
+   "production_note": "注意（サクラ・焦らす言葉）"
+  },
+  {
+   "id": 11,
+   "section_label": "2 / 3",
+   "layout": "layout_06_caution",
+   "render_mode": "template",
+   "text_render_mode": "pil_overlay",
+   "main_message": "1人で、抱え込まないでください",
+   "headline": "「相談しないで」は、\n詐欺のサイン",
+   "support_text": "家族や銀行に、言わないよう、仕向けられたら",
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "static",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 32,
+   "end_segment": 32,
+   "subtitle_ids": [
+    "SUB-032-1",
+    "SUB-032-2",
+    "SUB-032-3"
+   ],
+   "icon_name": "group_off",
+   "icon_tone": "amber",
+   "production_note": "注意（LINEヤフー: 相談させない=詐欺の証拠）"
+  },
+  {
+   "id": 12,
+   "section_label": "2 / 3",
+   "layout": "layout_03_visual_text",
+   "render_mode": "template",
+   "text_render_mode": "pil_overlay",
+   "main_message": "あやしいと思ったら、友人や家族に、話しましょう",
+   "headline": "LINEは、\n危険ではありません",
+   "support_text": "知らない人と、お金の話でつながるのが、危険",
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "static",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 33,
+   "end_segment": 36,
+   "subtitle_ids": [
+    "SUB-033-1",
+    "SUB-033-2",
+    "SUB-034-1",
+    "SUB-034-2",
+    "SUB-035-1",
+    "SUB-035-2",
+    "SUB-036"
+   ],
+   "icon_name": "forum",
+   "icon_tone": "green",
+   "production_note": "安心トーン（LINE自体を危険視しない）"
+  },
+  {
+   "id": 13,
+   "section_label": "3 / 3",
+   "layout": "layout_08_section",
+   "render_mode": "gpt_image",
+   "text_render_mode": "imagegen_native",
+   "main_message": "セクション扉",
+   "headline": "送金する前に、\n登録と振込先を確認",
+   "support_text": "この2つが、最後の確認",
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "very_slow_zoom",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 37,
+   "end_segment": 38,
+   "subtitle_ids": [
+    "SUB-037",
+    "SUB-038-1",
+    "SUB-038-2"
+   ],
+   "image_prompt_id": "IMG-005",
+   "production_note": "セクション扉・imagegen_native・進行pillはCodex overlay"
+  },
+  {
+   "id": 14,
+   "section_label": "3 / 3",
+   "layout": "layout_01_hero",
+   "render_mode": "template",
+   "text_render_mode": "pil_overlay",
+   "main_message": "登録がない会社には、お金を振り込まない",
+   "headline": "会社の登録を、\n確認する",
+   "support_text": "株・FX・暗号資産は、国の登録が必要（金融庁）",
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "static",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 39,
+   "end_segment": 42,
+   "subtitle_ids": [
+    "SUB-039",
+    "SUB-040-1",
+    "SUB-040-2",
+    "SUB-040-3",
+    "SUB-041-1",
+    "SUB-041-2",
+    "SUB-041-3",
+    "SUB-042-1",
+    "SUB-042-2"
+   ],
+   "icon_name": "verified_user",
+   "icon_tone": "green",
+   "production_note": "登録確認（検索サイトは説明欄へ・画面にURLは出さない）"
+  },
+  {
+   "id": 15,
+   "section_label": "3 / 3",
+   "layout": "layout_05_compare",
+   "render_mode": "template",
+   "text_render_mode": "pil_overlay",
+   "main_message": "どちらかでも、当てはまったら、詐欺を疑い、警察へ相談（警察庁）",
+      "headline": "振込先に、\n不審な点は？",
+   "support_text": "本物の投資話では、まず、ありません",
+   "compare_cards": [
+    {
+     "title": "個人名義の口座",
+     "body": "指定されたら、振り込まないで（国民生活センター・消費者庁）",
+     "color": "blue-card"
+    },
+    {
+     "title": "振込のたびに、口座が変わる",
+     "body": "それも、詐欺のサイン（警察庁）",
+     "color": "green-card"
+    }
+   ],
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "static",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 43,
+   "end_segment": 47,
+   "subtitle_ids": [
+    "SUB-043",
+    "SUB-044-1",
+    "SUB-044-2",
+    "SUB-045-1",
+    "SUB-045-2",
+    "SUB-045-3",
+    "SUB-045-4",
+    "SUB-046-1",
+    "SUB-046-2",
+    "SUB-047-1",
+    "SUB-047-2"
+   ],
+   "production_note": "2項目の左右比較（意味のある比較）"
+  },
+  {
+   "id": 16,
+   "section_label": "困ったときは",
+   "layout": "layout_02_list",
+   "render_mode": "template",
+   "text_render_mode": "pil_overlay",
+   "main_message": "まず、これ以上、送金しない",
+   "headline": "まず、これ以上、送金しない",
+   "support_text": "そのあとに、次の2つ",
+   "items": [
+    "やり取りの記録は、消さずに、残す",
+    "1人で悩まず、相談する"
+   ],
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "static",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 48,
+   "end_segment": 49,
+   "subtitle_ids": [
+    "SUB-048-1",
+    "SUB-048-2",
+    "SUB-049-1",
+    "SUB-049-2"
+   ],
+   "production_note": "行動3点（送金しない・記録を残す・相談する）"
+  },
+  {
+   "id": 17,
+   "section_label": "困ったときは",
+   "layout": "layout_02_list",
+   "render_mode": "template",
+   "text_render_mode": "pil_overlay",
+   "main_message": "（確認ポイント）",
+   "headline": "困ったら、相談を",
+   "support_text": "番号は、この3つ（受付時間などは説明欄で）",
+   "items": [
+    "#9110　警察相談専用電話",
+    "188　消費者ホットライン",
+    "0570-050588　金融庁・投資詐欺の相談ダイヤル"
+   ],
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "static",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 50,
+   "end_segment": 57,
+   "subtitle_ids": [
+    "SUB-050",
+    "SUB-051",
+    "SUB-052",
+    "SUB-053",
+    "SUB-054-1",
+    "SUB-054-2",
+    "SUB-055",
+    "SUB-056",
+    "SUB-057"
+   ],
+   "production_note": "相談先（大きな番号・細部はナレーション/description）"
+  },
+  {
+   "id": 18,
+   "section_label": "まとめ",
+   "layout": "layout_02_list",
+   "render_mode": "template",
+   "text_render_mode": "pil_overlay",
+   "main_message": "お金を送る前に、この3つを、思い出してください",
+   "headline": "まとめ",
+   "support_text": "1人で悩まず、相談しましょう",
+   "items": [
+    "広告の有名人を、そのまま信用しない",
+    "LINEなどに誘導されたら、一度止まる",
+    "送金する前に、登録と振込先を確認する"
+   ],
+   "official_asset": [],
+   "official_asset_crop": [],
+   "animation": "static",
+   "fit_mode": "full_bleed",
+   "background_fill": "none",
+   "start_segment": 58,
+   "end_segment": 63,
+   "subtitle_ids": [
+    "SUB-058",
+    "SUB-059-1",
+    "SUB-059-2",
+    "SUB-060-1",
+    "SUB-060-2",
+    "SUB-061-1",
+    "SUB-061-2",
+    "SUB-062-1",
+    "SUB-062-2",
+    "SUB-063-1",
+    "SUB-063-2"
+   ],
+   "production_note": "まとめ（3つ再掲=冒頭と完全一致）"
+  }
+ ],
+ "postroll": {
+  "kind": "channel_cta",
+  "profile": "channel_common_cta",
+  "cta_profile": "channel_common_cta",
+  "audio_required": true,
+  "cta_content_hash": "c0df4a036b397effa920436c4ba473186737ed6e5cc3df54b85afe8ba32b82eb",
+      "asset": "work/channel_cta_v2.png",
+  "cta_audio": "audio/voicevox_kenzaki/cta_channel_common.wav",
+  "duration_mode": "audio_based",
+  "duration_sec": 15,
+  "animation": "static",
+  "note": "End Screen背景にはチャンネルロゴ・名称・疑似登録アイコンを描画しない。右40〜45%はreserved（007 draft_v4確定ルール）"
+ },
+ "publish": {
+  "title": "【投資詐欺】その有名人、本物？LINEに誘導されたら確認したい3つ",
+  "description_file": "publish.jsonのdescriptionを使用",
+  "chapters": [
+   "0:00 はじめに・今日確認する3つ",
+   "0:20 1/3 広告の有名人を、そのまま信用しない",
+   "1:35 2/3 LINEなどに誘導されたら、一度止まる",
+   "2:25 3/3 送金する前に、登録と振込先を確認する",
+   "3:15 困ったときは（相談先）",
+   "3:55 まとめ"
+  ],
+  "chapters_text": "0:00 はじめに・今日確認する3つ\n0:20 1/3 広告の有名人を、そのまま信用しない\n1:35 2/3 LINEなどに誘導されたら、一度止まる\n2:25 3/3 送金する前に、登録と振込先を確認する\n3:15 困ったときは（相談先）\n3:55 まとめ",
+  "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
+  "contains_synthetic_media": true,
+  "ai_disclosure_review": "CANDIDATE（AI生成イラスト・画像使用のため true を推奨。人間確認の上で確定）",
+  "made_for_kids": false,
+  "category_id": "22",
+  "description": "有名人が投資をすすめる広告を見て、LINEに案内されたら。お金を振り込む前に確認したい3つを、やさしく解説します（詳細はpublish.json）。"
+ },
+ "narration_segments": [
+  {
+   "id": 1,
+   "section": "はじめに",
+   "narration": "有名人が、投資をすすめる広告を見て、LINEに案内されたら。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 1,
+   "subtitle_ids": [
+    "SUB-001-1",
+    "SUB-001-2"
+   ]
+  },
+  {
+   "id": 2,
+   "section": "はじめに",
+   "narration": "これ、本物でしょうか。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 1,
+   "subtitle_ids": [
+    "SUB-002"
+   ]
+  },
+  {
+   "id": 3,
+   "section": "はじめに",
+   "narration": "最近は、こうした流れから、高額な投資詐欺の被害が、増えています。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 2,
+   "subtitle_ids": [
+    "SUB-003-1",
+    "SUB-003-2"
+   ]
+  },
+  {
+   "id": 4,
+   "section": "はじめに",
+   "narration": "今回は、お金を振り込む前に、確認したい3つだけ、やさしく見ていきます。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 3,
+   "subtitle_ids": [
+    "SUB-004-1",
+    "SUB-004-2"
+   ]
+  },
+  {
+   "id": 5,
+   "section": "はじめに",
+   "narration": "確認するのは、この3つです。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 3,
+   "subtitle_ids": [
+    "SUB-005"
+   ]
+  },
+  {
+   "id": 6,
+   "section": "はじめに",
+   "narration": "一つ、広告の有名人を、そのまま信用しない。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 3,
+   "subtitle_ids": [
+    "SUB-006-1",
+    "SUB-006-2"
+   ]
+  },
+  {
+   "id": 7,
+   "section": "はじめに",
+   "narration": "二つ、LINEなどに誘導されたら、一度、止まる。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 3,
+   "subtitle_ids": [
+    "SUB-007-1",
+    "SUB-007-2"
+   ]
+  },
+  {
+   "id": 8,
+   "section": "はじめに",
+   "narration": "三つ、送金する前に、登録と振込先を、確認する。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 3,
+   "subtitle_ids": [
+    "SUB-008-1",
+    "SUB-008-2"
+   ]
+  },
+  {
+   "id": 9,
+   "section": "はじめに",
+   "narration": "では、順番に、見ていきましょう。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 3,
+   "subtitle_ids": [
+    "SUB-009-1",
+    "SUB-009-2"
+   ]
+  },
+  {
+   "id": 10,
+   "section": "1 / 3",
+   "narration": "一つ目です。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 4,
+   "subtitle_ids": [
+    "SUB-010"
+   ]
+  },
+  {
+   "id": 11,
+   "section": "1 / 3",
+   "narration": "広告の有名人を、そのまま信用しない、です。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 4,
+   "subtitle_ids": [
+    "SUB-011-1",
+    "SUB-011-2"
+   ]
+  },
+  {
+   "id": 12,
+   "section": "1 / 3",
+   "narration": "まずは、どれだけ被害が出ているか、見てみましょう。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 4,
+   "subtitle_ids": [
+    "SUB-012-1",
+    "SUB-012-2"
+   ]
+  },
+  {
+   "id": 13,
+   "section": "1 / 3",
+   "narration": "警察庁のまとめでは、SNS型投資詐欺、つまりSNSの広告などを入口にした投資詐欺は、今年7月末までの暫定値で、6,566件です。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 5,
+   "subtitle_ids": [
+    "SUB-013-1",
+    "SUB-013-2",
+    "SUB-013-3"
+   ]
+  },
+  {
+   "id": 14,
+   "section": "1 / 3",
+   "narration": "被害額は、およそ881億円に、のぼります。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 5,
+   "subtitle_ids": [
+    "SUB-014-1",
+    "SUB-014-2"
+   ]
+  },
+  {
+   "id": 15,
+   "section": "1 / 3",
+   "narration": "前の年の同じ時期より、7割以上、増えています。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 5,
+   "subtitle_ids": [
+    "SUB-015-1",
+    "SUB-015-2"
+   ]
+  },
+  {
+   "id": 16,
+   "section": "1 / 3",
+   "narration": "今年の上半期だけでも、1日あたり、およそ4億4,000万円の被害がありました。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 5,
+   "subtitle_ids": [
+    "SUB-016-1",
+    "SUB-016-2"
+   ]
+  },
+  {
+   "id": 17,
+   "section": "1 / 3",
+   "narration": "今年の上半期では、被害額は、60代が、最も多いという、報告もあります。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 5,
+   "subtitle_ids": [
+    "SUB-017-1",
+    "SUB-017-2",
+    "SUB-017-3"
+   ]
+  },
+  {
+   "id": 18,
+   "section": "1 / 3",
+   "narration": "ここからが、今日の本題です。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 6,
+   "subtitle_ids": [
+    "SUB-018"
+   ]
+  },
+  {
+   "id": 19,
+   "section": "1 / 3",
+   "narration": "入口となる、広告の話です。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 6,
+   "subtitle_ids": [
+    "SUB-019"
+   ]
+  },
+  {
+   "id": 20,
+   "section": "1 / 3",
+   "narration": "警察庁によると、有名人の写真や動画を、無断で使った広告が、去年の夏ごろから、特に増えています。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 6,
+   "subtitle_ids": [
+    "SUB-020-1",
+    "SUB-020-2",
+    "SUB-020-3"
+   ]
+  },
+  {
+   "id": 21,
+   "section": "1 / 3",
+   "narration": "写真や動画が本物でも、本人が「すすめている」とは、限りません。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 6,
+   "subtitle_ids": [
+    "SUB-021-1",
+    "SUB-021-2"
+   ]
+  },
+  {
+   "id": 22,
+   "section": "1 / 3",
+   "narration": "「必ずもうかる」「あなただけ」といった言葉が、広告にあったら、まず、疑いましょう。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 7,
+   "subtitle_ids": [
+    "SUB-022-1",
+    "SUB-022-2",
+    "SUB-022-3"
+   ]
+  },
+  {
+   "id": 23,
+   "section": "1 / 3",
+   "narration": "有名人が、無料で、確実に儲かる投資話を、教えることは、基本的にありません。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 7,
+   "subtitle_ids": [
+    "SUB-023-1",
+    "SUB-023-2",
+    "SUB-023-3"
+   ]
+  },
+  {
+   "id": 24,
+   "section": "1 / 3",
+   "narration": "気になったら、本人の公式アカウントで、本当に発信しているか、確認してみましょう。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 7,
+   "subtitle_ids": [
+    "SUB-024-1",
+    "SUB-024-2"
+   ]
+  },
+  {
+   "id": 25,
+   "section": "2 / 3",
+   "narration": "二つ目です。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 8,
+   "subtitle_ids": [
+    "SUB-025"
+   ]
+  },
+  {
+   "id": 26,
+   "section": "2 / 3",
+   "narration": "LINEなどに誘導されたら、一度、止まる、です。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 8,
+   "subtitle_ids": [
+    "SUB-026-1",
+    "SUB-026-2"
+   ]
+  },
+  {
+   "id": 27,
+   "section": "2 / 3",
+   "narration": "警察庁は、SNSで知り合ったあと、LINEに誘導するのが、典型的な手口だと、注意を呼びかけています。",
+   "reading_overrides": {},
+   "pause_after": 0.5,
+   "scene_id": 9,
+   "subtitle_ids": [
+    "SUB-027-1",
+    "SUB-027-2",
+    "SUB-027-3"
+   ]
+  },
+  {
+   "id": 28,
+   "section": "2 / 3",
+   "narration": "警察庁の去年のまとめでは、広告やメッセージでの接触後、およそ9割が、LINEに、誘導されています。",
+   "reading_overrides": {},
+   "pause_after": 0.5,
+   "scene_id": 9,
+   "subtitle_ids": [
+    "SUB-028-1",
+    "SUB-028-2",
+    "SUB-028-3"
+   ]
+  },
+  {
+   "id": 29,
+   "section": "2 / 3",
+   "narration": "グループに招待されたら、まずは、中の様子を、よく見てください。",
+   "reading_overrides": {},
+   "pause_after": 0.5,
+   "scene_id": 10,
+   "subtitle_ids": [
+    "SUB-029-1",
+    "SUB-029-2"
+   ]
+  },
+  {
+   "id": 30,
+   "section": "2 / 3",
+   "narration": "グループには、もうかったふりをする、サクラが、入っていることがあります。",
+   "reading_overrides": {},
+   "pause_after": 0.5,
+   "scene_id": 10,
+   "subtitle_ids": [
+    "SUB-030-1",
+    "SUB-030-2"
+   ]
+  },
+  {
+   "id": 31,
+   "section": "2 / 3",
+   "narration": "「今だけ」「あなただけ」と、あせらせる言葉が来たら、いったん、止まりましょう。",
+   "reading_overrides": {},
+   "accent_overrides": {
+    "今だけ": {
+     "reading": "イマダケ",
+     "accent": 1,
+     "note": "Episode008 human review: 最初の「い」にアクセント。phrase限定で適用し、「今」はglobal化しない。"
+    }
+   },
+   "pause_after": 0.5,
+   "scene_id": 10,
+   "subtitle_ids": [
+    "SUB-031-1",
+    "SUB-031-2",
+    "SUB-031-3"
+   ]
+  },
+  {
+   "id": 32,
+   "section": "2 / 3",
+   "narration": "「家族や銀行には、相談しないで」と言われたら、それは、詐欺のサインです。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 11,
+   "subtitle_ids": [
+    "SUB-032-1",
+    "SUB-032-2",
+    "SUB-032-3"
+   ]
+  },
+  {
+   "id": 33,
+   "section": "2 / 3",
+   "narration": "LINEそのものが、危険なわけではありません。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 12,
+   "subtitle_ids": [
+    "SUB-033-1",
+    "SUB-033-2"
+   ]
+  },
+  {
+   "id": 34,
+   "section": "2 / 3",
+   "narration": "知らない人と、お金の話でつながるのが、危険です。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 12,
+   "subtitle_ids": [
+    "SUB-034-1",
+    "SUB-034-2"
+   ]
+  },
+  {
+   "id": 35,
+   "section": "2 / 3",
+   "narration": "あやしいと思ったら、友人や家族に、話してみましょう。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 12,
+   "subtitle_ids": [
+    "SUB-035-1",
+    "SUB-035-2"
+   ]
+  },
+  {
+   "id": 36,
+   "section": "2 / 3",
+   "narration": "1人で、抱え込まないでください。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 12,
+   "subtitle_ids": [
+    "SUB-036"
+   ]
+  },
+  {
+   "id": 37,
+   "section": "3 / 3",
+   "narration": "三つ目です。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 13,
+   "subtitle_ids": [
+    "SUB-037"
+   ]
+  },
+  {
+   "id": 38,
+   "section": "3 / 3",
+   "narration": "お金を送る前に、2つのことを、確認します。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 13,
+   "subtitle_ids": [
+    "SUB-038-1",
+    "SUB-038-2"
+   ]
+  },
+  {
+   "id": 39,
+   "section": "3 / 3",
+   "narration": "1つ目は、会社の登録です。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 14,
+   "subtitle_ids": [
+    "SUB-039"
+   ]
+  },
+  {
+   "id": 40,
+   "section": "3 / 3",
+   "narration": "株やFX、暗号資産、いわゆる仮想通貨の取引を、日本で行う会社は、国の登録が、必要です。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 14,
+   "subtitle_ids": [
+    "SUB-040-1",
+    "SUB-040-2",
+    "SUB-040-3"
+   ]
+  },
+  {
+   "id": 41,
+   "section": "3 / 3",
+   "narration": "金融庁のホームページで、会社の名前を検索すると、登録があるか、確認できます。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 14,
+   "subtitle_ids": [
+    "SUB-041-1",
+    "SUB-041-2",
+    "SUB-041-3"
+   ]
+  },
+  {
+   "id": 42,
+   "section": "3 / 3",
+   "narration": "登録がない会社には、お金を、振り込まないでください。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 14,
+   "subtitle_ids": [
+    "SUB-042-1",
+    "SUB-042-2"
+   ]
+  },
+  {
+   "id": 43,
+   "section": "3 / 3",
+   "narration": "2つ目は、振込先です。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 15,
+   "subtitle_ids": [
+    "SUB-043"
+   ]
+  },
+  {
+   "id": 44,
+   "section": "3 / 3",
+   "narration": "個人名義の口座を指定されたら、まず、詐欺を疑ってください。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 15,
+   "subtitle_ids": [
+    "SUB-044-1",
+    "SUB-044-2"
+   ]
+  },
+  {
+   "id": 45,
+   "section": "3 / 3",
+   "narration": "国民生活センターと消費者庁も、「個人名義の口座なら、振り込まないでください」と、呼びかけています。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 15,
+   "subtitle_ids": [
+    "SUB-045-1",
+    "SUB-045-2",
+    "SUB-045-3",
+    "SUB-045-4"
+   ]
+  },
+  {
+   "id": 46,
+   "section": "3 / 3",
+   "narration": "振込のたびに、口座が変わるのも、詐欺のサインです。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 15,
+   "subtitle_ids": [
+    "SUB-046-1",
+    "SUB-046-2"
+   ]
+  },
+  {
+   "id": 47,
+   "section": "3 / 3",
+   "narration": "本当の投資の話なら、個人の名前の口座に、振り込ませることは、まずありません。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 15,
+   "subtitle_ids": [
+    "SUB-047-1",
+    "SUB-047-2"
+   ]
+  },
+  {
+   "id": 48,
+   "section": "困ったときは",
+   "narration": "もし「詐欺かも」と思ったら、まず、これ以上、送金しないことです。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 16,
+   "subtitle_ids": [
+    "SUB-048-1",
+    "SUB-048-2"
+   ]
+  },
+  {
+   "id": 49,
+   "section": "困ったときは",
+   "narration": "やり取りの画面は、消さずに、そのまま、残しておきましょう。",
+   "reading_overrides": {},
+   "pause_after": 0.3,
+   "scene_id": 16,
+   "subtitle_ids": [
+    "SUB-049-1",
+    "SUB-049-2"
+   ]
+  },
+  {
+   "id": 50,
+   "section": "困ったときは",
+   "narration": "相談先は、こちらです。",
+   "reading_overrides": {},
+   "pause_after": 0.5,
+   "scene_id": 17,
+   "subtitle_ids": [
+    "SUB-050"
+   ]
+  },
+  {
+   "id": 51,
+   "section": "困ったときは",
+   "narration": "警察相談専用電話は、シャープの9110。",
+   "reading_overrides": {"9110": "きゅう いち いち まる"},
+   "pause_after": 0.5,
+   "scene_id": 17,
+   "subtitle_ids": [
+    "SUB-051"
+   ]
+  },
+  {
+   "id": 52,
+   "section": "困ったときは",
+   "narration": "消費者ホットラインは、188。",
+   "reading_overrides": {"188": "イチ、ハチ、ハチ"},
+   "pause_after": 0.5,
+   "scene_id": 17,
+   "subtitle_ids": [
+    "SUB-052"
+   ]
+  },
+  {
+   "id": 53,
+   "section": "困ったときは",
+   "narration": "お住まいの消費生活センターに、つながります。",
+   "reading_overrides": {},
+   "pause_after": 0.5,
+   "scene_id": 17,
+   "subtitle_ids": [
+    "SUB-053"
+   ]
+  },
+  {
+   "id": 54,
+   "section": "困ったときは",
+   "narration": "金融庁には、投資詐欺に特化した、相談ダイヤルがあります。",
+   "reading_overrides": {},
+   "pause_after": 0.5,
+   "scene_id": 17,
+   "subtitle_ids": [
+    "SUB-054-1",
+    "SUB-054-2"
+   ]
+  },
+  {
+   "id": 55,
+   "section": "困ったときは",
+   "narration": "ゼロゴーナナゼロの、ゼロゴーゼロゴー、ハチハチ。",
+   "spoken_text": "ゼロゴーナナゼロの、ゼロゴーゼロゴー、ハチハチ。",
+   "display_text": "0570-050588",
+   "reading_overrides": {},
+   "pause_after": 0.5,
+   "scene_id": 17,
+   "subtitle_ids": [
+    "SUB-055"
+   ]
+  },
+  {
+   "id": 56,
+   "section": "困ったときは",
+   "narration": "受付時間は、平日の10時から17時までです。",
+   "reading_overrides": {},
+   "pause_after": 0.5,
+   "scene_id": 17,
+   "subtitle_ids": [
+    "SUB-056"
+   ]
+  },
+  {
+   "id": 57,
+   "section": "困ったときは",
+   "narration": "詳しくは、説明欄をご覧ください。",
+   "reading_overrides": {},
+   "pause_after": 0.5,
+   "scene_id": 17,
+   "subtitle_ids": [
+    "SUB-057"
+   ]
+  },
+  {
+   "id": 58,
+   "section": "まとめ",
+   "narration": "最後に、まとめです。",
+   "reading_overrides": {},
+   "pause_after": 0.5,
+   "scene_id": 18,
+   "subtitle_ids": [
+    "SUB-058"
+   ]
+  },
+  {
+   "id": 59,
+   "section": "まとめ",
+   "narration": "一つ、広告の有名人を、そのまま信用しない。",
+   "reading_overrides": {},
+   "pause_after": 0.5,
+   "scene_id": 18,
+   "subtitle_ids": [
+    "SUB-059-1",
+    "SUB-059-2"
+   ]
+  },
+  {
+   "id": 60,
+   "section": "まとめ",
+   "narration": "二つ、LINEなどに誘導されたら、一度、止まる。",
+   "reading_overrides": {},
+   "pause_after": 0.5,
+   "scene_id": 18,
+   "subtitle_ids": [
+    "SUB-060-1",
+    "SUB-060-2"
+   ]
+  },
+  {
+   "id": 61,
+   "section": "まとめ",
+   "narration": "三つ、送金する前に、登録と振込先を、確認する。",
+   "reading_overrides": {},
+   "pause_after": 0.5,
+   "scene_id": 18,
+   "subtitle_ids": [
+    "SUB-061-1",
+    "SUB-061-2"
+   ]
+  },
+  {
+   "id": 62,
+   "section": "まとめ",
+   "narration": "お金を送る前に、この3つを、思い出してください。",
+   "reading_overrides": {},
+   "pause_after": 0.5,
+   "scene_id": 18,
+   "subtitle_ids": [
+    "SUB-062-1",
+    "SUB-062-2"
+   ]
+  },
+  {
+   "id": 63,
+   "section": "まとめ",
+   "narration": "不安なときは、1人で悩まず、相談してください。",
+   "reading_overrides": {},
+   "pause_after": 0.5,
+   "scene_id": 18,
+   "subtitle_ids": [
+    "SUB-063-1",
+    "SUB-063-2"
+   ]
+  }
+ ],
+ "subtitles": [
+  {
+   "id": "SUB-001-1",
+   "text_lines": [
+    "有名人が、",
+    "投資をすすめる広告を見て、"
+   ],
+   "segment_id": 1,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-001-2",
+   "text_lines": [
+    "LINEに案内されたら。"
+   ],
+   "segment_id": 1,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-002",
+   "text_lines": [
+    "これ、",
+    "本物でしょうか。"
+   ],
+   "segment_id": 2,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-003-1",
+   "text_lines": [
+    "最近は、",
+    "こうした流れから、"
+   ],
+   "segment_id": 3,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-003-2",
+   "text_lines": [
+    "高額な投資詐欺の被害が、",
+    "増えています。"
+   ],
+   "segment_id": 3,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-004-1",
+   "text_lines": [
+    "今回は、",
+    "お金を振り込む前に、"
+   ],
+   "segment_id": 4,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-004-2",
+   "text_lines": [
+    "確認したい3つだけ、",
+    "やさしく見ていきます。"
+   ],
+   "segment_id": 4,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-005",
+   "text_lines": [
+    "確認するのは、",
+    "この3つです。"
+   ],
+   "segment_id": 5,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-006-1",
+   "text_lines": [
+    "一つ、",
+    "広告の有名人を、"
+   ],
+   "segment_id": 6,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-006-2",
+   "text_lines": [
+    "そのまま信用しない。"
+   ],
+   "segment_id": 6,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-007-1",
+   "text_lines": [
+    "二つ、",
+    "LINEなどに誘導されたら、"
+   ],
+   "segment_id": 7,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-007-2",
+   "text_lines": [
+    "一度、",
+    "止まる。"
+   ],
+   "segment_id": 7,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-008-1",
+   "text_lines": [
+    "三つ、",
+    "送金する前に、"
+   ],
+   "segment_id": 8,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-008-2",
+   "text_lines": [
+    "登録と振込先を、",
+    "確認する。"
+   ],
+   "segment_id": 8,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-009-1",
+   "text_lines": [
+    "では、",
+    "順番に、"
+   ],
+   "segment_id": 9,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-009-2",
+   "text_lines": [
+    "見ていきましょう。"
+   ],
+   "segment_id": 9,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-010",
+   "text_lines": [
+    "一つ目です。"
+   ],
+   "segment_id": 10,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-011-1",
+   "text_lines": [
+    "広告の有名人を、",
+    "そのまま信用しない、"
+   ],
+   "segment_id": 11,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-011-2",
+   "text_lines": [
+    "です。"
+   ],
+   "segment_id": 11,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-012-1",
+   "text_lines": [
+    "まずは、",
+    "どれだけ被害が出ているか、"
+   ],
+   "segment_id": 12,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-012-2",
+   "text_lines": [
+    "見てみましょう。"
+   ],
+   "segment_id": 12,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-013-1",
+   "text_lines": [
+    "警察庁のまとめでは、",
+    "SNS型投資詐欺、"
+   ],
+   "segment_id": 13,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-013-2",
+   "text_lines": [
+    "つまりSNSの広告などを入口にした投資詐欺は、"
+   ],
+   "segment_id": 13,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-013-3",
+   "text_lines": [
+    "今年7月末までの暫定値で、",
+    "6,566件です。"
+   ],
+   "segment_id": 13,
+   "display_order": 2
+  },
+  {
+   "id": "SUB-014-1",
+   "text_lines": [
+    "被害額は、",
+    "およそ881億円に、"
+   ],
+   "segment_id": 14,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-014-2",
+   "text_lines": [
+    "のぼります。"
+   ],
+   "segment_id": 14,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-015-1",
+   "text_lines": [
+    "前の年の同じ時期より、",
+    "7割以上、"
+   ],
+   "segment_id": 15,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-015-2",
+   "text_lines": [
+    "増えています。"
+   ],
+   "segment_id": 15,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-016-1",
+   "text_lines": [
+    "今年の上半期だけでも、",
+    "1日あたり、"
+   ],
+   "segment_id": 16,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-016-2",
+   "text_lines": [
+    "およそ4億4,000万円の被害がありました。"
+   ],
+   "segment_id": 16,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-017-1",
+   "text_lines": [
+    "今年の上半期では、",
+    "被害額は、"
+   ],
+   "segment_id": 17,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-017-2",
+   "text_lines": [
+    "60代が、",
+    "最も多いという、"
+   ],
+   "segment_id": 17,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-017-3",
+   "text_lines": [
+    "報告もあります。"
+   ],
+   "segment_id": 17,
+   "display_order": 2
+  },
+  {
+   "id": "SUB-018",
+   "text_lines": [
+    "ここからが、",
+    "今日の本題です。"
+   ],
+   "segment_id": 18,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-019",
+   "text_lines": [
+    "入口となる、",
+    "広告の話です。"
+   ],
+   "segment_id": 19,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-020-1",
+   "text_lines": [
+    "警察庁によると、",
+    "有名人の写真や動画を、"
+   ],
+   "segment_id": 20,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-020-2",
+   "text_lines": [
+    "無断で使った広告が、",
+    "去年の夏ごろから、"
+   ],
+   "segment_id": 20,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-020-3",
+   "text_lines": [
+    "特に増えています。"
+   ],
+   "segment_id": 20,
+   "display_order": 2
+  },
+  {
+   "id": "SUB-021-1",
+   "text_lines": [
+    "写真や動画が本物でも、"
+   ],
+   "segment_id": 21,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-021-2",
+   "text_lines": [
+    "本人が「すすめている」とは、",
+    "限りません。"
+   ],
+   "segment_id": 21,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-022-1",
+   "text_lines": [
+    "「必ずもうかる」「あなただけ」といった言葉が、"
+   ],
+   "segment_id": 22,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-022-2",
+   "text_lines": [
+    "広告にあったら、",
+    "まず、"
+   ],
+   "segment_id": 22,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-022-3",
+   "text_lines": [
+    "疑いましょう。"
+   ],
+   "segment_id": 22,
+   "display_order": 2
+  },
+  {
+   "id": "SUB-023-1",
+   "text_lines": [
+    "有名人が、",
+    "無料で、"
+   ],
+   "segment_id": 23,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-023-2",
+   "text_lines": [
+    "確実に儲かる投資話を、",
+    "教えることは、"
+   ],
+   "segment_id": 23,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-023-3",
+   "text_lines": [
+    "基本的にありません。"
+   ],
+   "segment_id": 23,
+   "display_order": 2
+  },
+  {
+   "id": "SUB-024-1",
+   "text_lines": [
+    "気になったら、",
+    "本人の公式アカウントで、"
+   ],
+   "segment_id": 24,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-024-2",
+   "text_lines": [
+    "本当に発信しているか、",
+    "確認してみましょう。"
+   ],
+   "segment_id": 24,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-025",
+   "text_lines": [
+    "二つ目です。"
+   ],
+   "segment_id": 25,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-026-1",
+   "text_lines": [
+    "LINEなどに誘導されたら、",
+    "一度、"
+   ],
+   "segment_id": 26,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-026-2",
+   "text_lines": [
+    "止まる、",
+    "です。"
+   ],
+   "segment_id": 26,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-027-1",
+   "text_lines": [
+    "警察庁は、",
+    "SNSで知り合ったあと、"
+   ],
+   "segment_id": 27,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-027-2",
+   "text_lines": [
+    "LINEに誘導するのが、",
+    "典型的な手口だと、"
+   ],
+   "segment_id": 27,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-027-3",
+   "text_lines": [
+    "注意を呼びかけています。"
+   ],
+   "segment_id": 27,
+   "display_order": 2
+  },
+  {
+   "id": "SUB-028-1",
+   "text_lines": [
+    "警察庁の去年のまとめでは、"
+   ],
+   "segment_id": 28,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-028-2",
+   "text_lines": [
+    "広告やメッセージでの接触後、",
+    "およそ9割が、"
+   ],
+   "segment_id": 28,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-028-3",
+   "text_lines": [
+    "LINEに、",
+    "誘導されています。"
+   ],
+   "segment_id": 28,
+   "display_order": 2
+  },
+  {
+   "id": "SUB-029-1",
+   "text_lines": [
+    "グループに招待されたら、",
+    "まずは、"
+   ],
+   "segment_id": 29,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-029-2",
+   "text_lines": [
+    "中の様子を、",
+    "よく見てください。"
+   ],
+   "segment_id": 29,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-030-1",
+   "text_lines": [
+    "グループには、",
+    "もうかったふりをする、"
+   ],
+   "segment_id": 30,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-030-2",
+   "text_lines": [
+    "サクラが、",
+    "入っていることがあります。"
+   ],
+   "segment_id": 30,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-031-1",
+   "text_lines": [
+    "「今だけ」「あなただけ」と、"
+   ],
+   "segment_id": 31,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-031-2",
+   "text_lines": [
+    "あせらせる言葉が来たら、",
+    "いったん、"
+   ],
+   "segment_id": 31,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-031-3",
+   "text_lines": [
+    "止まりましょう。"
+   ],
+   "segment_id": 31,
+   "display_order": 2
+  },
+  {
+   "id": "SUB-032-1",
+   "text_lines": [
+    "「家族や銀行には、"
+   ],
+   "segment_id": 32,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-032-2",
+   "text_lines": [
+    "相談しないで」と言われたら、",
+    "それは、"
+   ],
+   "segment_id": 32,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-032-3",
+   "text_lines": [
+    "詐欺のサインです。"
+   ],
+   "segment_id": 32,
+   "display_order": 2
+  },
+  {
+   "id": "SUB-033-1",
+   "text_lines": [
+    "LINEそのものが、"
+   ],
+   "segment_id": 33,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-033-2",
+   "text_lines": [
+    "危険なわけではありません。"
+   ],
+   "segment_id": 33,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-034-1",
+   "text_lines": [
+    "知らない人と、",
+    "お金の話でつながるのが、"
+   ],
+   "segment_id": 34,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-034-2",
+   "text_lines": [
+    "危険です。"
+   ],
+   "segment_id": 34,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-035-1",
+   "text_lines": [
+    "あやしいと思ったら、",
+    "友人や家族に、"
+   ],
+   "segment_id": 35,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-035-2",
+   "text_lines": [
+    "話してみましょう。"
+   ],
+   "segment_id": 35,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-036",
+   "text_lines": [
+    "1人で、",
+    "抱え込まないでください。"
+   ],
+   "segment_id": 36,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-037",
+   "text_lines": [
+    "三つ目です。"
+   ],
+   "segment_id": 37,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-038-1",
+   "text_lines": [
+    "お金を送る前に、",
+    "2つのことを、"
+   ],
+   "segment_id": 38,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-038-2",
+   "text_lines": [
+    "確認します。"
+   ],
+   "segment_id": 38,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-039",
+   "text_lines": [
+    "1つ目は、",
+    "会社の登録です。"
+   ],
+   "segment_id": 39,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-040-1",
+   "text_lines": [
+    "株やFX、",
+    "暗号資産、"
+   ],
+   "segment_id": 40,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-040-2",
+   "text_lines": [
+    "いわゆる仮想通貨の取引を、",
+    "日本で行う会社は、"
+   ],
+   "segment_id": 40,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-040-3",
+   "text_lines": [
+    "国の登録が、",
+    "必要です。"
+   ],
+   "segment_id": 40,
+   "display_order": 2
+  },
+  {
+   "id": "SUB-041-1",
+   "text_lines": [
+    "金融庁のホームページで、"
+   ],
+   "segment_id": 41,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-041-2",
+   "text_lines": [
+    "会社の名前を検索すると、",
+    "登録があるか、"
+   ],
+   "segment_id": 41,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-041-3",
+   "text_lines": [
+    "確認できます。"
+   ],
+   "segment_id": 41,
+   "display_order": 2
+  },
+  {
+   "id": "SUB-042-1",
+   "text_lines": [
+    "登録がない会社には、",
+    "お金を、"
+   ],
+   "segment_id": 42,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-042-2",
+   "text_lines": [
+    "振り込まないでください。"
+   ],
+   "segment_id": 42,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-043",
+   "text_lines": [
+    "2つ目は、",
+    "振込先です。"
+   ],
+   "segment_id": 43,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-044-1",
+   "text_lines": [
+    "個人名義の口座を指定されたら、",
+    "まず、"
+   ],
+   "segment_id": 44,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-044-2",
+   "text_lines": [
+    "詐欺を疑ってください。"
+   ],
+   "segment_id": 44,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-045-1",
+   "text_lines": [
+    "国民生活センターと消費者庁も、"
+   ],
+   "segment_id": 45,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-045-2",
+   "text_lines": [
+    "「個人名義の口座なら、"
+   ],
+   "segment_id": 45,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-045-3",
+   "text_lines": [
+    "振り込まないでください」と、"
+   ],
+   "segment_id": 45,
+   "display_order": 2
+  },
+  {
+   "id": "SUB-045-4",
+   "text_lines": [
+    "呼びかけています。"
+   ],
+   "segment_id": 45,
+   "display_order": 3
+  },
+  {
+   "id": "SUB-046-1",
+   "text_lines": [
+    "振込のたびに、",
+    "口座が変わるのも、"
+   ],
+   "segment_id": 46,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-046-2",
+   "text_lines": [
+    "詐欺のサインです。"
+   ],
+   "segment_id": 46,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-047-1",
+   "text_lines": [
+    "本当の投資の話なら、",
+    "個人の名前の口座に、"
+   ],
+   "segment_id": 47,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-047-2",
+   "text_lines": [
+    "振り込ませることは、",
+    "まずありません。"
+   ],
+   "segment_id": 47,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-048-1",
+   "text_lines": [
+    "もし「詐欺かも」と思ったら、",
+    "まず、"
+   ],
+   "segment_id": 48,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-048-2",
+   "text_lines": [
+    "これ以上、",
+    "送金しないことです。"
+   ],
+   "segment_id": 48,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-049-1",
+   "text_lines": [
+    "やり取りの画面は、",
+    "消さずに、"
+   ],
+   "segment_id": 49,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-049-2",
+   "text_lines": [
+    "そのまま、",
+    "残しておきましょう。"
+   ],
+   "segment_id": 49,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-050",
+   "text_lines": [
+    "相談先は、",
+    "こちらです。"
+   ],
+   "segment_id": 50,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-051",
+   "text_lines": [
+    "警察相談専用電話は、",
+    "シャープの9110。"
+   ],
+   "segment_id": 51,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-052",
+   "text_lines": [
+    "消費者ホットラインは、",
+    "188。"
+   ],
+   "segment_id": 52,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-053",
+   "text_lines": [
+    "お住まいの消費生活センターに、",
+    "つながります。"
+   ],
+   "segment_id": 53,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-054-1",
+   "text_lines": [
+    "金融庁には、",
+    "投資詐欺に特化した、"
+   ],
+   "segment_id": 54,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-054-2",
+   "text_lines": [
+    "相談ダイヤルがあります。"
+   ],
+   "segment_id": 54,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-055",
+   "text_lines": [
+    "0570-050588"
+   ],
+   "segment_id": 55,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-056",
+   "text_lines": [
+    "受付時間は、",
+    "平日の10時から17時までです。"
+   ],
+   "segment_id": 56,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-057",
+   "text_lines": [
+    "詳しくは、",
+    "説明欄をご覧ください。"
+   ],
+   "segment_id": 57,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-058",
+   "text_lines": [
+    "最後に、",
+    "まとめです。"
+   ],
+   "segment_id": 58,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-059-1",
+   "text_lines": [
+    "一つ、",
+    "広告の有名人を、"
+   ],
+   "segment_id": 59,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-059-2",
+   "text_lines": [
+    "そのまま信用しない。"
+   ],
+   "segment_id": 59,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-060-1",
+   "text_lines": [
+    "二つ、",
+    "LINEなどに誘導されたら、"
+   ],
+   "segment_id": 60,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-060-2",
+   "text_lines": [
+    "一度、",
+    "止まる。"
+   ],
+   "segment_id": 60,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-061-1",
+   "text_lines": [
+    "三つ、",
+    "送金する前に、"
+   ],
+   "segment_id": 61,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-061-2",
+   "text_lines": [
+    "登録と振込先を、",
+    "確認する。"
+   ],
+   "segment_id": 61,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-062-1",
+   "text_lines": [
+    "お金を送る前に、",
+    "この3つを、"
+   ],
+   "segment_id": 62,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-062-2",
+   "text_lines": [
+    "思い出してください。"
+   ],
+   "segment_id": 62,
+   "display_order": 1
+  },
+  {
+   "id": "SUB-063-1",
+   "text_lines": [
+    "不安なときは、",
+    "1人で悩まず、"
+   ],
+   "segment_id": 63,
+   "display_order": 0
+  },
+  {
+   "id": "SUB-063-2",
+   "text_lines": [
+    "相談してください。"
+   ],
+   "segment_id": 63,
+   "display_order": 1
+  }
+ ]
+}

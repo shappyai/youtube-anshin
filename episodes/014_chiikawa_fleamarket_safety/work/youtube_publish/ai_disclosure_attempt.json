@@ -1,0 +1,34 @@
+{
+  "episode": "014_chiikawa_fleamarket_safety",
+  "status": "verified",
+  "operation": "videos.update(part=status)",
+  "video_id": "2l0SI8VIh8A",
+  "source": "STATE.md",
+  "target_containsSyntheticMedia": true,
+  "status_before": {
+    "privacyStatus": "private",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+  },
+  "reupload": false,
+  "started_at": "2026-09-06T12:38:08Z",
+  "update_response_status": {
+    "privacyStatus": "private",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false,
+    "containsSyntheticMedia": true
+  },
+  "status_after": {
+    "privacyStatus": "private",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+  },
+  "verification_source": "videos.update response; videos.list omitted containsSyntheticMedia",
+  "verified_at": "2026-09-06T12:38:09Z"
+}

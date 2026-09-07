@@ -1,0 +1,28 @@
+{
+  "status": "PASS_WITH_HUMAN_AI_DISCLOSURE_REVIEW",
+  "review_date": "2026-09-05",
+  "selected_title": "【投資詐欺】その有名人、本物？LINEに誘導されたら確認したい3つ",
+  "thumbnail": "assets/thumbnail/thumbnail.png",
+  "description": {
+    "status": "PASS",
+    "primary_source_urls_present": true,
+    "confirmation_date_present": true,
+    "voicevox_credit_present": true,
+    "ai_generated_visual_note_present": true
+  },
+  "chapters": "PASS",
+  "tags": "PASS",
+  "pinned_comment": "PASS（個人情報・口座番号を書かない注意を含む）",
+  "contains_synthetic_media": true,
+  "ai_disclosure": "公開時に人間が最終確認",
+  "privacy": "PASS",
+  "visibility": "private",
+  "scheduled_at": null,
+  "latest_statistics_watch": "PASS（2026-09-05確認時点で最新は令和8年7月末・暫定値、8月末統計の新規掲載なし）",
+  "end_screen_plan": {
+    "related_video": "Episode004 ニセ警察詐欺",
+    "subscribe": "チャンネル登録",
+    "implemented": false
+  },
+  "youtube_upload": "未実施"
+}

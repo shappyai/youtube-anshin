@@ -1,0 +1,22 @@
+{
+  "status": "WARN",
+  "failures": [],
+  "warnings": [
+    "ffprobe was not found; codec/duration checks not run",
+    "ffmpeg was not found; decode check not run",
+    "ffmpeg was not found; black-frame check not run"
+  ],
+  "draft": {
+    "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\014_chiikawa_fleamarket_safety\\output\\draft_v2.mp4",
+    "sha256": "379D265E899549B34D9AE69CD290E2FC9D948A11B204C4EB37729C7046FCF3BD"
+  },
+  "final": {
+    "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\014_chiikawa_fleamarket_safety\\output\\final.mp4",
+    "sha256": "379D265E899549B34D9AE69CD290E2FC9D948A11B204C4EB37729C7046FCF3BD"
+  },
+  "sha256_match": true,
+  "probe": {
+    "error": "ffprobe was not found"
+  },
+  "subtitle_burn_in": "manual review required; no subtitle stream is expected"
+}

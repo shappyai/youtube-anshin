@@ -1,0 +1,225 @@
+{
+  "profiles": {
+    "adult_digital_soft_background": {
+      "purpose": "共通Background System（Episode 008〜恒久）: 明るく清潔・50〜60代向け・テレビ可読性を優先。白一色禁止。",
+      "base": {
+        "top_left": "#eef6fc",
+        "center": "#ffffff",
+        "bottom_right": "#edf5fb"
+      },
+      "top_bar": "#2f74bb",
+      "sections": {
+        "intro": {
+          "accent_hex": "#2f74bb",
+          "tint": "#dbe9f7",
+          "tint_position": "top_left",
+          "pill_text": "#2f74bb"
+        },
+        "sec1": {
+          "accent_hex": "#2f74bb",
+          "tint": "#e2edf9",
+          "tint_position": "right_top",
+          "pill_text": "#2f74bb"
+        },
+        "sec2": {
+          "accent_hex": "#63a975",
+          "tint": "#e4f3ea",
+          "tint_position": "left_bottom",
+          "pill_text": "#3f8c58"
+        },
+        "sec3": {
+          "accent_hex": "#2f857f",
+          "tint": "#e1f3f3",
+          "tint_position": "right_bottom",
+          "pill_text": "#2f857f"
+        },
+        "contact": {
+          "accent_hex": "#d3922e",
+          "tint": "#f7ead2",
+          "tint_position": "top_left",
+          "pill_text": "#a86f1d"
+        },
+        "summary": {
+          "accent_hex": "#4f9b86",
+          "tint": "#e6f2ec",
+          "tint_position": "right_bottom",
+          "pill_text": "#3f8c58"
+        }
+      },
+      "caution": {
+        "tint": "#f7e8cf",
+        "accent_hex": "#d3922e",
+        "tint_position": "right_top"
+      },
+      "decoration": {
+        "circle": {
+          "enabled": true,
+          "diameter": 720,
+          "opacity": 0.07,
+          "position": "top_left"
+        },
+        "dots": {
+          "enabled": true,
+          "count": 4,
+          "diameter": 13,
+          "opacity": 0.1,
+          "position": "bottom_right"
+        },
+        "line": {
+          "enabled": true,
+          "opacity": 0.1,
+          "width": 6,
+          "x": 120,
+          "y": 208,
+          "length": 300
+        }
+      },
+      "icon_plate": {
+        "circle_diameter": 262,
+        "icon_size": 180
+      },
+      "section_pill": {
+        "min_font": 44,
+        "default_font": 52,
+        "fill": "#ffffff",
+        "outline": "#c8deed",
+        "outline_width": 3,
+        "radius": 36,
+        "x": 100,
+        "y": 88,
+        "height": 72,
+        "padding_x": 46
+      },
+      "numerical_panel": {
+        "fill": "#eef6fc",
+        "outline": "#cfe0f0",
+        "outline_width": 4,
+        "radius": 44,
+        "motif_alpha": 40
+      },
+      "list_item_card": {
+        "fill": "#f3f9fd",
+        "outline": "#d9e7ef",
+        "outline_width": 3,
+        "radius": 26,
+        "inset_y": 6
+      },
+      "compare": {
+        "shadow": {
+          "fill": "#8fa9bd",
+          "alpha": 55,
+          "dx": 8,
+          "dy": 10,
+          "radius": 34
+        }
+      }
+    },
+    "adult_digital_soft_image_bg": {
+      "purpose": "ユーザー提供の共通背景画像を全面使用するEpisode 008以降の再利用プロファイル。背景装飾の二重描画を避け、テレビ可読性と字幕安全領域を優先。",
+      "background_type": "image",
+      "asset": "assets/backgrounds/adult_digital_soft_v2.png",
+      "background_asset_pending": false,
+      "fit": "cover",
+      "preserve_aspect_ratio": true,
+      "resample": "LANCZOS",
+      "overlay_decorations": false,
+      "top_bar_enabled": false,
+      "subtitle_safe_bottom_px": 180,
+      "base": {
+        "top_left": "#eef6fc",
+        "center": "#ffffff",
+        "bottom_right": "#edf5fb"
+      },
+      "sections": {
+        "intro": {
+          "accent_hex": "#2f74bb",
+          "pill_text": "#2f74bb"
+        },
+        "sec1": {
+          "accent_hex": "#2f74bb",
+          "pill_text": "#2f74bb"
+        },
+        "sec2": {
+          "accent_hex": "#63a975",
+          "pill_text": "#3f8c58"
+        },
+        "sec3": {
+          "accent_hex": "#2f857f",
+          "pill_text": "#2f857f"
+        },
+        "contact": {
+          "accent_hex": "#d3922e",
+          "pill_text": "#a86f1d"
+        },
+        "summary": {
+          "accent_hex": "#4f9b86",
+          "pill_text": "#3f8c58"
+        }
+      },
+      "caution": {
+        "accent_hex": "#d3922e",
+        "pill_text": "#a86f1d"
+      },
+      "decoration": {
+        "circle": {
+          "enabled": false
+        },
+        "dots": {
+          "enabled": false
+        },
+        "line": {
+          "enabled": false
+        }
+      },
+      "minimal_accent_line": {
+        "enabled": true,
+        "x": 90,
+        "y": 140,
+        "length": 280,
+        "width": 4,
+        "exclude_layouts": [
+          "layout_05_compare"
+        ]
+      },
+      "icon_plate": {
+        "circle_diameter": 214,
+        "icon_size": 180
+      },
+      "section_pill": {
+        "min_font": 44,
+        "default_font": 52,
+        "fill": "#ffffff",
+        "outline": "#c8deed",
+        "outline_width": 3,
+        "radius": 36,
+        "x": 90,
+        "y": 58,
+        "height": 72,
+        "padding_x": 46
+      },
+      "numerical_panel": {
+        "fill": "#edf7fc",
+        "outline": "#cfe0f0",
+        "outline_width": 4,
+        "radius": 44,
+        "motif_alpha": 0
+      },
+      "list_item_card": {
+        "fill": "#eaf4fb",
+        "outline": "#d3e7f2",
+        "outline_width": 3,
+        "radius": 26,
+        "inset_y": 6
+      },
+      "compare": {
+        "shadow": {
+          "fill": "#8fa9bd",
+          "alpha": 24,
+          "dx": 5,
+          "dy": 6,
+          "radius": 34
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+scene_id,media_type,device,status,path_or_source,privacy_note
+SCENE-001,imagegen_native,none,visual_approved_reuse,assets/generated_ai_v2/scene_001.png,人間承認済みImageGen asset。公式UI・個人情報なし。再生成しない
+SCENE-002,renderer_native,none,visual_approved_v2,renderer:visual_redesign_v2/renderer_native,個人情報なし
+SCENE-003,renderer_native,none,visual_approved_v2,renderer:visual_redesign_v2/threshold_focus,公式Factは正確な文字で表示
+SCENE-004,imagegen_native,none,visual_approved_reuse,assets/generated_ai_v2/scene_004.png,人間承認済みImageGen asset。公式UI・個人情報なし。再生成しない
+SCENE-005,renderer_native,none,RENDERER_NATIVE_READY,renderer:visual_gate_v3/fact_focus,LINE公式の下限値のみ。LINE画面・fake UI・AI reconstructionを使わない
+SCENE-006,official_ui,Android Emulator,CAPTURED,assets/captures/android/android_scene006_line_version.png,通知・アカウント・メール・電話番号を表示しない。現在のバージョン行のみcrop済み
+SCENE-007,renderer_native,none,visual_approved_v2,renderer:visual_redesign_v2/threshold_focus,閾値を正確なPIL文字で表示
+SCENE-008,imagegen_native,none,visual_approved_reuse,assets/generated_ai_v2/scene_008.png,人間承認済みImageGen asset。公式UI・個人情報なし。再生成しない
+SCENE-009,official_ui,iPhone実機,CAPTURED,assets/captures/iphone/iphone_scene009_ios_version.png,Apple Account・機種番号・シリアル・IMEI・通知を表示しない。iOSバージョン行のみcrop済み
+SCENE-010,official_ui,Android Emulator,CAPTURED,assets/captures/android/android_scene010_android_version.png,端末識別情報・IMEI・Google account・通知を表示しない。Androidバージョン行のみcrop済み
+SCENE-011,renderer_native,none,visual_approved_v2,renderer:visual_redesign_v2/threshold_focus,OS下限と最新版推奨環境を混同させない
+SCENE-012,imagegen_native,none,visual_approved_reuse,assets/generated_ai_v2/scene_012.png,人間承認済みImageGen asset。公式UI・個人情報なし。再生成しない
+SCENE-013,official_ui,iPhone実機,CAPTURED,assets/captures/iphone/iphone_scene013_line_update.png,Apple account名・メール・購入履歴を非表示。実画面は「開く」で、更新ボタンを架空生成しない
+SCENE-014,official_ui,Android Emulator,CAPTURED,assets/captures/android/android_scene014_line_update.png,Google account名・メール・購入履歴・通知を非表示。実画面は「開く」で、更新ボタンを架空生成しない
+SCENE-015,official_ui,iPhone実機,CAPTURED,assets/captures/iphone/iphone_scene015_os_update.png,OS更新画面のみ。Apple Account・通知・個人情報を表示しない。最新状態をcrop済み
+SCENE-016,official_ui,Android Emulator,CAPTURED,assets/captures/android/android_scene016_os_update.png,OS更新画面のみ。端末識別情報・通知・個人情報を表示しない。更新状態をcrop済み
+SCENE-017,renderer_native,none,visual_approved_v2,renderer:visual_redesign_v2/flow_focus,更新順序をLINE→OS→LINEで表示
+SCENE-018,renderer_native,none,visual_approved_v2,renderer:visual_redesign_v2/case_result,ケースA。買い替えを急がせない
+SCENE-019,renderer_native,none,visual_approved_v2,renderer:visual_redesign_v2/case_result,ケースB。LINE更新の次の確認を表示
+SCENE-020,renderer_native,none,visual_approved_v2,renderer:visual_redesign_v2/case_result,ケースC。OS→LINEの順番を表示
+SCENE-021,renderer_native,none,visual_approved_v2,renderer:visual_redesign_v2/case_result,ケースD。公式案内を優先し買い替えを断定しない
+SCENE-022,imagegen_native,none,visual_approved_reuse,assets/generated_ai_v2/scene_022.png,人間承認済みImageGen asset。公式UI・個人情報なし。再生成しない
+SCENE-023,renderer_native,none,visual_approved_v2,renderer:visual_redesign_v2/bridge_clean,バックアップ・引き継ぎの詳細画面は再現しない
+SCENE-024,renderer_native,none,visual_approved_v2,renderer:visual_redesign_v2/summary_three,CTAはpostrollのapproved reuseのみ。疑似登録UIなし

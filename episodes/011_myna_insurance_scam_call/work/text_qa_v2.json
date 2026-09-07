@@ -1,0 +1,85 @@
+{
+  "summary": {
+    "total": 2,
+    "auto_fail": 0,
+    "vision_review_required": 2,
+    "fallback_after": 2
+  },
+  "scenes": [
+    {
+      "scene_id": "SCENE-001",
+      "text_render_mode": "imagegen_native",
+      "headline": "その電話、本物？",
+      "support_text": "マイナ保険証の確認を口実にした電話",
+      "auto_passed": [
+        "文言仕様がsceneに定義されている",
+        "promptにheadline文言が含まれている",
+        "生成画像が配置されている",
+        "アスペクト比がおおよそ16:9",
+        "画像サイズが1280x720以上",
+        "SHA-256: b1b66ade4dc55543..."
+      ],
+      "auto_fail": [],
+      "vision_checklist": [
+        "指定文言と一致している",
+        "誤字なし",
+        "脱字なし",
+        "余計な文字なし",
+        "文字化けなし",
+        "不自然な漢字置換なし",
+        "行順が指定どおり",
+        "文字切れなし",
+        "画像端にはみ出していない",
+        "人物・重要オブジェクトと重なっていない",
+        "背景とのコントラスト十分",
+        "スマホ縮小時でも主見出しが読める"
+      ],
+      "vision_status": "pending",
+      "text_qa": {
+        "status": "passed",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "image_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\assets\\generated_ai\\scene_001.png"
+    },
+    {
+      "scene_id": "SCENE-018",
+      "text_render_mode": "imagegen_native",
+      "headline": "迷ったら、その場で決めない",
+      "support_text": "いったん止まって、公式から確認",
+      "auto_passed": [
+        "文言仕様がsceneに定義されている",
+        "promptにheadline文言が含まれている",
+        "promptにsupport_text文言が含まれている",
+        "生成画像が配置されている",
+        "アスペクト比がおおよそ16:9",
+        "画像サイズが1280x720以上",
+        "SHA-256: 9f60c19ed62b3613..."
+      ],
+      "auto_fail": [],
+      "vision_checklist": [
+        "指定文言と一致している",
+        "誤字なし",
+        "脱字なし",
+        "余計な文字なし",
+        "文字化けなし",
+        "不自然な漢字置換なし",
+        "行順が指定どおり",
+        "文字切れなし",
+        "画像端にはみ出していない",
+        "人物・重要オブジェクトと重なっていない",
+        "背景とのコントラスト十分",
+        "スマホ縮小時でも主見出しが読める"
+      ],
+      "vision_status": "pending",
+      "text_qa": {
+        "status": "passed",
+        "retry_count": 1,
+        "fallback": null,
+        "generation_attempts": 2,
+        "retry_reason": "補助文言を含む最終ImageGen-native契約へ合わせて再生成。pil_overlay fallbackなし"
+      },
+      "image_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\011_myna_insurance_scam_call\\assets\\generated_ai\\scene_018.png"
+    }
+  ]
+}

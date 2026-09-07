@@ -1,0 +1,22 @@
+# Episode 007 Final QA
+
+- status: PASS
+- date: 2026-09-04
+- final: output/final.mp4（draft_v5 と byte-identical・再encodeなし）
+- final_sha256: 80AD01947A57A4AAFF4745122BFE35B41B7F62009E89BA43664BEF8621289393
+- duration_seconds: 400.4
+- filesize_bytes: 19909566
+- codec: H.264 1920x1080 30fps / AAC 48kHz mono
+- decode_errors: 0
+- black_frames: 0
+- silence_anomaly: 0（CTA余韻 3.50s のみ・unexpected silence なし）
+- phase2_qa: WARN 2（既知の仮名分断予測・実フレームで問題なし）/ failures 0件
+- narration_segments: 61
+- subtitle_display_cues: 65（minimum 60px・overflow 0）
+- scenes: 22
+- pronunciation: NFC / PIN / 上→うえ / 方→かた×2 維持
+- subtitle_min_60px: PASS
+- tiny_text: 0
+- scene_mapping: PASS
+- privacy: PASS
+- thumbnail: assets/thumbnail/thumbnail.png（16:9・SHA一致・PASS）

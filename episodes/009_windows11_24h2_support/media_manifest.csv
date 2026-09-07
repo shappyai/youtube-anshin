@@ -1,0 +1,61 @@
+shot_id,filename,use,source_or_status,notes
+SHOT-01,assets/generated_ai/scene_001.png,opening concept,ImageGen complete; text_qa PASS,1920x1080; exact text: Windows 11 / このままで大丈夫？
+SHOT-02,assets/scenes/scene_002.png,template scene,local renderer,contact sheet included
+SHOT-03,assets/scenes/scene_003.png,template scene,local renderer,2026-10-13 and scoped editions
+SHOT-04,assets/scenes/scene_004.png,template scene,local renderer,settings path
+SHOT-05,assets/scenes/scene_005.png,template renderer,local renderer,edition and version compare
+SHOT-06,assets/official/about_version_focus_official.png,official UI focus v2,Microsoft Support SRC-007,PII-free focus crop; version information row emphasized
+SHOT-07,assets/official/about_specs_focus_official.png,official UI focus v2,Microsoft Support SRC-007,PII-free focus crop; example version label is renderer overlay, not altered UI
+SHOT-08,assets/scenes/scene_008.png,template scene,local renderer,section 2 / 3
+SHOT-09,assets/official/windows_update_check_button_official.png,official UI focus v2,Microsoft Support SRC-005/SRC-006,official English button crop with Japanese explanatory label outside UI
+SHOT-10,assets/scenes/scene_010.png,template scene,local renderer,save install restart
+SHOT-11,assets/scenes/scene_011.png,caution scene,local renderer,block semantic icon
+SHOT-12,assets/scenes/scene_012.png,template scene,local renderer,26H1 scope
+SHOT-13,assets/scenes/scene_013.png,template scene,local renderer,recheck order
+SHOT-14,assets/scenes/scene_014.png,template scene,local renderer,support_agent semantic icon
+SHOT-15,assets/generated_ai/scene_015.png,no-rush concept,ImageGen complete; text_qa PASS,1920x1080; exact text: 慌てて買い替えなくて大丈夫
+SHOT-16,assets/scenes/scene_016.png,template scene,local renderer,check order
+SHOT-17,assets/scenes/scene_017.png,summary,local renderer,summary one
+SHOT-18,assets/scenes/scene_018.png,summary,local renderer,summary two and three
+SHOT-19,assets/generated_ai/scene_019.png,closing concept,ImageGen complete; text_qa PASS,1920x1080; exact text: まずバージョンを確認
+WORK-01,work/visual_review/scene_contact_sheet_v1.png,contact sheet,local renderer,Phase A human review
+WORK-02,local/capture_windows_settings.ps1,capture method,local script,Windows 11 host check required
+WORK-03,work/visual_review/scene_contact_sheet_v2.png,contact sheet v2,local renderer,19-scene sheet after target-only visual correction
+WORK-04,work/visual_review/scene_006_007_009_before_after.png,before-after,local renderer,left=v1 right=v2 for target scenes only
+WORK-05,work/visual_review/scene_quality_report_v2.md,visual QA v2,local validator,19 OK / 0 WARN / 0 FAIL
+WORK-06,work/visual_review/visual_gate_v2_qa.md,Visual Gate v2 QA,local QA record,target scenes and privacy/human gate notes
+AUDIO-01,audio/voicevox_kenzaki/narration_kenzaki_auto.wav,Phase B narration,VOICEVOX:剣崎雌雄 / ノーマル; 52 segments; 289.357s
+AUDIO-02,audio/voicevox_kenzaki/cta_channel_common.wav,Phase B CTA audio,channel_common_cta; 11.563s audio with 15s visual postroll
+SUB-01,captions.srt,Phase B subtitles,59 cues from measured VOICEVOX timing; minimum 72px
+SUB-02,captions.ass,Phase B subtitle source,ASS render source generated from measured cue timing
+DRAFT-01,output/draft_v1.mp4,Phase B draft,H.264 1920x1080 30fps; AAC 48kHz; human full-watch pending
+WORK-07,work/channel_cta.png,CTA visual,channel_common_cta; no logo or fake subscribe icon; right reserved area
+WORK-08,work/qa_frames_draft_v1/contact_sheet.png,representative frame contact sheet,17 requested scene frames plus CTA; draft_v1 review
+WORK-09,work/draft_v1_qa.md,draft QA report,decode / black frame / silence / format / scene / subtitle checks PASS
+WORK-10,work/phase_b_review/pronunciation/pronunciation_review_all.wav,pronunciation preview,11 required terms; human audition pending
+AUDIO-03,audio/voicevox_kenzaki/narration_kenzaki_auto.wav,draft_v2 pronunciation-only narration,20 segments regenerated; 32 reused; 289.304s
+DRAFT-02,output/draft_v2.mp4,draft_v2,pronunciation-only revision; H.264 1920x1080 30fps; AAC 48kHz; draft_v1 preserved
+WORK-11,work/phase_b_review/pronunciation_fix_v2/pronunciation_fix_v2_all.wav,pronunciation fix preview,5 required previews with query JSON; human review pending
+WORK-12,work/phase_b_review/pronunciation_fix_v2_qa.md,pronunciation QA,方 / Windows / Update / ID approved pattern match PASS
+WORK-13,work/draft_v2_qa.md,draft_v2 QA report,decode / black / silence / format / Visual Gate regression PASS
+AUDIO-04,audio/voicevox_kenzaki/narration_kenzaki_auto.wav,draft_v3 narration,2 segments regenerated (006/038); 50 reused; 289.880s
+SUB-03,captions.srt,draft_v3 subtitles,59 cues from measured VOICEVOX timing; new wording in SUB-006/SUB-038; minimum 72px
+SUB-04,captions.ass,draft_v3 subtitle source,ASS regenerated from measured cue timing; Visual Gate v2 unchanged
+WORK-14,work/phase_b_review/ambiguous_kanji_pronunciation_v3.md,ambiguous 方 preflight,52 narration segments scanned; targeted wording PASS; remaining occurrences classified for review
+WORK-15,work/phase_b_review/pronunciation_v3_qa.md,draft_v3 pronunciation QA,Windows / Update / ID / 24H2 / 25H2 / 26H1 PASS; global 方 entry absent
+DRAFT-03,output/draft_v3.mp4,draft_v3,script wording revision; H.264 1920x1080 30fps; AAC 48kHz; draft_v1/v2 preserved
+WORK-16,work/draft_v3_qa.md,draft_v3 QA report,decode / black / silence / subtitle / chapter / CTA / Visual Gate v2 regression PASS
+WORK-17,work/phase_b_review/ambiguous_kanji_pronunciation_v3_canonical.md,canonical ambiguous_kanji_pronunciation preflight,52 narration segments scanned; global 方 entry absent; non-target occurrences documented
+WORK-18,work/phase_b_review/ambiguous_kanji_pronunciation_v3_final_approval.md,final pronunciation approval,human full-watch approved remaining 2 方 occurrences; unresolved 0; no global dictionary entry
+WORK-19,work/fact_watch_final.md,Microsoft official final fact watch,24H2 2026-10-13 / 25H2 / 26H1 reconfirmed; no script change
+FINAL-01,output/final.mp4,final video,draft_v3 byte-identical copy; H.264 1920x1080 30fps; AAC 48kHz; SHA-256 recorded in work/final_qa.json
+WORK-20,work/final_qa.md,final QA,all required final gates PASS; decode/black/silence/visual/subtitle/privacy/CTA/pronunciation/fact checks clear
+WORK-21,work/thumbnail_brief.md,thumbnail brief,brief retained; user-provided thumbnail formally adopted; no image generation
+WORK-22,work/analytics_plan.md,analytics plan,Episode 002 / 008 comparison and KPI plan
+WORK-23,work/pre_publish_checklist.md,pre-publish checklist,thumbnail QA and scheduled publication recorded; End Screen remains manual
+THUMB-01,assets/thumbnail/thumbnail_source.png,user-provided thumbnail source,HUMAN_SELECTED; SHA-256 B18F7307AE11D6722FAF8090406A9E006FE427A7AB91AB5012172BC9D2D0D8C6; 1672x941 original preserved
+THUMB-02,assets/thumbnail/thumbnail.png,normalized publication thumbnail,HUMAN_SELECTED; 1280x720 16:9; SHA-256 8F264D1A0095D64F51B9D22B8B32422A849D60AFFDA451A3CDCA7043F10B76DC; thumbnails.set PASS
+WORK-24,work/thumbnail_review/thumbnail_25.png,25 percent thumbnail review,320x180; main copy readable; SHA-256 3F8AF9FCA649B469BDB29858121F4EBEDEDCD49138368F0356F92CC8C326192A
+WORK-25,work/thumbnail_review/thumbnail_qa.json,thumbnail QA,decode/text/edge/important text/25 percent/fact boundary/privacy PASS
+PUB-01,work/youtube_publish/upload_attempt.json,YouTube scheduled upload,video NO4ZwXPvgA0; private; publishAt 2026-09-09T10:00:00Z; thumbnail uploaded; verification PASS
+PUB-02,work/youtube_publish/youtube_upload_log.md,YouTube upload log,channel UCgVRceTJYO5KOrPX4w2jXZw; scheduled upload; verification PASS

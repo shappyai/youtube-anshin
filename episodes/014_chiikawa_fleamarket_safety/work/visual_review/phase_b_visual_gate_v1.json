@@ -1,0 +1,156 @@
+{
+  "episode_id": "014",
+  "status": "FAIL",
+  "target_scenes": [
+    {
+      "scene_id": "SCENE-007",
+      "variant": "neutral_frame",
+      "asset_kinds": [],
+      "asset_paths": [],
+      "source_label_min_px": null,
+      "official_text_readability": null,
+      "visual_balance": "FAIL",
+      "centroid_status": "N/A"
+    },
+    {
+      "scene_id": "SCENE-008",
+      "variant": "neutral_frame",
+      "asset_kinds": [],
+      "asset_paths": [],
+      "source_label_min_px": null,
+      "official_text_readability": null,
+      "visual_balance": "FAIL",
+      "centroid_status": "N/A"
+    },
+    {
+      "scene_id": "SCENE-012",
+      "variant": "neutral_frame",
+      "asset_kinds": [],
+      "asset_paths": [],
+      "source_label_min_px": null,
+      "official_text_readability": null,
+      "visual_balance": "FAIL",
+      "centroid_status": "N/A"
+    },
+    {
+      "scene_id": "SCENE-013",
+      "variant": "neutral_frame",
+      "asset_kinds": [],
+      "asset_paths": [],
+      "source_label_min_px": null,
+      "official_text_readability": null,
+      "visual_balance": "FAIL",
+      "centroid_status": "N/A"
+    },
+    {
+      "scene_id": "SCENE-018",
+      "variant": "neutral_frame",
+      "asset_kinds": [],
+      "asset_paths": [],
+      "source_label_min_px": null,
+      "official_text_readability": null,
+      "visual_balance": "FAIL",
+      "centroid_status": "N/A"
+    }
+  ],
+  "checks": [
+    {
+      "name": "placeholder_remaining",
+      "status": "FAIL",
+      "details": [
+        "SCENE-022: missing scene",
+        "SCENE-026: missing scene"
+      ]
+    },
+    {
+      "name": "neutral_browser_frame",
+      "status": "FAIL",
+      "details": [
+        "SCENE-007",
+        "SCENE-008",
+        "SCENE-012",
+        "SCENE-013",
+        "SCENE-018"
+      ]
+    },
+    {
+      "name": "neutral_phone_frame",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "official_capture_or_semantic_visual",
+      "status": "FAIL",
+      "details": []
+    },
+    {
+      "name": "official_ui_ai_reconstruction",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "privacy",
+      "status": "FAIL",
+      "details": [
+        "SCENE-007: privacy metadata missing",
+        "SCENE-008: privacy metadata missing",
+        "SCENE-012: privacy metadata missing",
+        "SCENE-013: privacy metadata missing",
+        "SCENE-018: privacy metadata missing"
+      ]
+    },
+    {
+      "name": "source_label_min_44px",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "official_text_tv_readability",
+      "status": "FAIL",
+      "details": [
+        "SCENE-007: official text readability is not PASS",
+        "SCENE-008: official text readability is not PASS",
+        "SCENE-012: official text readability is not PASS",
+        "SCENE-013: official text readability is not PASS",
+        "SCENE-018: official text readability is not PASS"
+      ]
+    },
+    {
+      "name": "visual_balance",
+      "status": "FAIL",
+      "details": [
+        "SCENE-007: center=960 centroid=N/A",
+        "SCENE-008: center=960 centroid=N/A",
+        "SCENE-012: center=960 centroid=N/A",
+        "SCENE-013: center=960 centroid=N/A",
+        "SCENE-018: center=960 centroid=N/A"
+      ]
+    },
+    {
+      "name": "oversized_checkmark",
+      "status": "PASS",
+      "details": [
+        "0"
+      ]
+    },
+    {
+      "name": "meaningless_filler_icon",
+      "status": "PASS",
+      "details": [
+        "0"
+      ]
+    }
+  ],
+  "counts": {
+    "placeholder_remaining": 2,
+    "neutral_browser_frame": 5,
+    "neutral_phone_frame": 0,
+    "official_asset_scene_count": 0,
+    "semantic_visual_scene_count": 0
+  },
+  "policy": {
+    "oversized_checkmark_count": 0,
+    "decorative_checkmark_as_main_visual": 0,
+    "meaningless_filler_icon_count": 0
+  }
+}

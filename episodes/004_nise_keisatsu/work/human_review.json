@@ -1,0 +1,12 @@
+{
+  "episode": "004_nise_keisatsu",
+  "review_date": "2026-08-31",
+  "phase": "Human full-watch review approved",
+  "note": "draft_v3を人間が全編再視聴し違和感なし・承認。draft_v1→v2はSCENE-013公式画面の可読性修正、v2→v3は改行・誤コンテンツ（SCENE-007）・alignment（008/011/016）・項目数（3→4）・188発音などの人間レビュー反映。承認動画はoutput/draft_v3.mp4。",
+  "pronunciation": {
+    "approved_segments": [4, 16, 17, 25, 30, 57, 60, 66, 69]
+  },
+  "video": {
+    "draft_v3": "approved"
+  }
+}

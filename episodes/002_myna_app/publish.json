@@ -1,0 +1,42 @@
+{
+  "title_candidates": [
+    "【マイナアプリ】マイナポータルアプリはどう変わった？今やること3つ",
+    "新「マイナアプリ」って何？マイナポータルアプリから変わったこと・今やること｜やさしく解説",
+    "マイナポータルアプリが「マイナアプリ」に変わります｜アップデートだけで大丈夫？",
+    "アプリの名前とアイコンが変わった？「マイナアプリ」を確認する3つのポイント",
+    "偽物にだまされない「マイナアプリ」の見分け方｜今やること3つ"
+  ],
+  "selected_title": "【マイナアプリ】マイナポータルアプリはどう変わった？今やること3つ",
+  "description": "マイナポータルアプリの名前やアイコンが変わり、何が変わったのか、入れ直したほうがよいのかと戸惑っている方へ。\n\nこの動画では、2026年8月30日時点のデジタル庁・公式ストア・公式FAQの情報をもとに、新しいマイナアプリ、既存利用者のアップデート、新規利用登録、端末ロック、公式ストアの提供元確認、偽物やフィッシングへの注意を確認します。\n\nマイナンバーカードの読み取りや暗証番号の入力は実演していません。個人情報にかかわる手続きは、ご自身のスマートフォンで公式画面の案内に沿って行ってください。\n\n【公式情報】\nデジタル庁「マイナアプリ」 https://services.digital.go.jp/mynaapp/\n提供開始のお知らせ https://services.digital.go.jp/mynaapp/news/20260825-01/\n動作環境 https://services.digital.go.jp/mynaapp/system-requirements/\n利用登録 https://services.digital.go.jp/mynaapp/register/\n公式FAQ https://support.mynaapp.digital.go.jp/hc/ja\nApp Store https://apps.apple.com/jp/app/マイナアプリ-旧マイナポータルアプリ/id1476359069\nGoogle Play https://play.google.com/store/apps/details?id=jp.go.cas.mpa\n偽サイト・偽アプリ注意喚起 https://www.digital.go.jp/news/b32e5c16-8272-4cc3-9171-b4c583325feb\nフィッシング注意喚起 https://www.digital.go.jp/news/4750a8f5-1061-4ae6-903b-cfb327a50465\n\n相談窓口：マイナンバー総合フリーダイヤル 0120-95-0178\n\nナレーション：VOICEVOX:剣崎雌雄",
+  "description_file": "publish_description.md",
+  "chapters": [
+    "0:00 はじめに",
+    "0:25 マイナアプリとは",
+    "1:10 何が変わったのか",
+    "2:46 すでに使っていた人は？",
+    "4:14 削除・入れ直しに注意",
+    "4:31 動作環境と利用登録",
+    "5:52 本物の確認ポイント",
+    "6:06 ストアの提供元を確認",
+    "6:31 偽物・フィッシングに注意",
+    "7:09 今やること3つ",
+    "7:36 まとめ"
+  ],
+  "chapters_text": "0:00 はじめに\n0:25 マイナアプリとは\n1:10 何が変わったのか\n2:46 すでに使っていた人は？\n4:14 削除・入れ直しに注意\n4:31 動作環境と利用登録\n5:52 本物の確認ポイント\n6:06 ストアの提供元を確認\n6:31 偽物・フィッシングに注意\n7:09 今やること3つ\n7:36 まとめ",
+  "tags": ["マイナアプリ", "マイナポータル", "デジタル庁", "スマホ", "シニア向け"],
+  "credit": "ナレーション：VOICEVOX:剣崎雌雄",
+  "pinned_comment": "",
+  "source_urls": [
+    "https://services.digital.go.jp/mynaapp/",
+    "https://services.digital.go.jp/mynaapp/news/20260825-01/",
+    "https://services.digital.go.jp/mynaapp/system-requirements/",
+    "https://services.digital.go.jp/mynaapp/register/",
+    "https://support.mynaapp.digital.go.jp/hc/ja",
+    "https://apps.apple.com/jp/app/マイナアプリ-旧マイナポータルアプリ/id1476359069",
+    "https://play.google.com/store/apps/details?id=jp.go.cas.mpa",
+    "https://www.digital.go.jp/news/b32e5c16-8272-4cc3-9171-b4c583325feb",
+    "https://www.digital.go.jp/news/4750a8f5-1061-4ae6-903b-cfb327a50465"
+  ],
+  "thumbnail_candidates": [],
+  "visibility": "private"
+}

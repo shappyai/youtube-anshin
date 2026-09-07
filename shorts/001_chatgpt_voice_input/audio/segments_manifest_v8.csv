@@ -1,0 +1,8 @@
+﻿segment_id,source,path,narration,start_sec,end_sec,duration_sec,gap_after_sec,status
+1,reused_v7,audio/segments/001_v7.wav,ChatGPT、文字を打つのが大変ですか。,0.000,3.317,3.317,0.070,reused_existing_v7_segment
+2,reused_v7,audio/segments/002_v7.wav,音声入力なら、話した内容を文字にして送れます。,3.387,7.451,4.064,0.070,reused_existing_v7_segment
+3,user_capture,work/capture_v8/capture_audio_v8_processed.wav,冷蔵庫にキャベツがあります。簡単な料理を教えてください。,7.521,16.521,9.000,0.070,user_capture_audio
+4,reused_v7,audio/segments/004_v7.wav,文字になったら、内容を確認して送信します。,16.591,20.186,3.595,0.070,reused_existing_v7_segment
+5,voicevox,audio/segments/005_answer_v8.wav,料理の答えが返ってきました。,20.256,22.806,2.550,0.070,regenerated_v8_answer_segment
+6,reused_v7,audio/segments/005_v7.wav,文字を打たずに、質問できました。,22.876,25.404,2.528,0.070,reused_existing_v7_segment
+7,reused_v4_cta,audio/segments/008_v4.wav,次に困ったときのために、このチャンネルを登録しておいてください。,25.474,29.965,4.491,0.000,reused_existing_cta_segment_v4

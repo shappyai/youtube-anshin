@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-09-05",
+  "source": "assets/thumbnail/thumbnail_source.png",
+  "normalized": "assets/thumbnail/thumbnail.png",
+  "preview_25_percent": "work/thumbnail_review/thumbnail_25.png",
+  "source_sha256": "B18F7307AE11D6722FAF8090406A9E006FE427A7AB91AB5012172BC9D2D0D8C6",
+  "normalized_sha256": "8F264D1A0095D64F51B9D22B8B32422A849D60AFFDA451A3CDCA7043F10B76DC",
+  "preview_25_sha256": "3F8AF9FCA649B469BDB29858121F4EBEDEDCD49138368F0356F92CC8C326192A",
+  "source_dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "normalized_dimensions": {
+    "width": 1280,
+    "height": 720
+  },
+  "preview_25_dimensions": {
+    "width": 320,
+    "height": 180
+  },
+  "aspect_ratio": "16:9",
+  "crop_policy": "minimum; source bottom row 1px removed before LANCZOS resize",
+  "decode": "PASS",
+  "text_typo_count": 0,
+  "text_clipping_count": 0,
+  "edge_clipping_count": 0,
+  "important_text_readable": "PASS",
+  "readability_25_percent": "PASS",
+  "fact_boundary": "PASS",
+  "privacy": "PASS",
+  "real_person_count": 0,
+  "qr_code_count": 0,
+  "personal_data_count": 0,
+  "notes": [
+    "ユーザー提供画像をデザイン・文字・構成変更なしで正式採用。imagegen_native再生成なし。",
+    "25%表示でもWindows 11、このままで大丈夫？、10月13日までに、確認したいことが判読できる。",
+    "下部3項目は補助情報のため、25%表示で細部が小さくてもFAIL対象としない。"
+  ]
+}

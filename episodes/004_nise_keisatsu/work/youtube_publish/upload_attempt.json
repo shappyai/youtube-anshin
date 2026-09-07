@@ -1,0 +1,15 @@
+{
+  "episode": "004_nise_keisatsu",
+  "status": "uploaded_scheduled_verification_failed",
+  "mode": "scheduled",
+  "final_sha256": "2022F1BD549B60CAA6664BFDA22F92789DDA781FD35C6F3589E7155EACBFD6FE",
+  "title": "【ニセ警察詐欺】「警察です」と電話が来たら？まず切って確認｜LINE誘導・国際電話",
+  "requested_privacy": "private",
+  "publish_at_local": "2026-09-04 19:00:00 JST",
+  "publish_at_api": "2026-09-04T10:00:00Z",
+  "started_at": "2026-08-31T14:08:17Z",
+  "video_id": "rHLCF8WcOkU",
+  "uploaded_at": "2026-08-31T14:08:22Z",
+  "error": "PublishError",
+  "thumbnail_uploaded": true
+}

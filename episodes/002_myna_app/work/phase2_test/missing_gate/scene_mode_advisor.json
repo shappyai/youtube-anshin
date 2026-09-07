@@ -1,0 +1,462 @@
+{
+  "counts": {
+    "template": 12,
+    "official": 9,
+    "gpt_image": 5,
+    "hybrid": 9
+  },
+  "scenes": [
+    {
+      "scene_id": "SCENE-001",
+      "recommended_mode": "hybrid",
+      "current_mode": null,
+      "reasons": [
+        "見た目の主役が必要",
+        "公式素材を同時に提示"
+      ],
+      "concept_hits": [],
+      "official_hits": []
+    },
+    {
+      "scene_id": "SCENE-002",
+      "recommended_mode": "gpt_image",
+      "current_mode": null,
+      "reasons": [
+        "概念・注意・章扉を視覚中心で説明"
+      ],
+      "concept_hits": [],
+      "official_hits": []
+    },
+    {
+      "scene_id": "SCENE-003",
+      "recommended_mode": "template",
+      "current_mode": null,
+      "reasons": [
+        "一覧・比較・まとめはtemplate向き"
+      ],
+      "concept_hits": [
+        "とは"
+      ],
+      "official_hits": []
+    },
+    {
+      "scene_id": "SCENE-004",
+      "recommended_mode": "gpt_image",
+      "current_mode": null,
+      "reasons": [
+        "概念・注意・章扉を視覚中心で説明"
+      ],
+      "concept_hits": [],
+      "official_hits": []
+    },
+    {
+      "scene_id": "SCENE-005",
+      "recommended_mode": "official",
+      "current_mode": null,
+      "reasons": [
+        "正確な公式画面・文言を優先"
+      ],
+      "concept_hits": [],
+      "official_hits": []
+    },
+    {
+      "scene_id": "SCENE-006",
+      "recommended_mode": "template",
+      "current_mode": null,
+      "reasons": [
+        "一覧・比較・まとめはtemplate向き"
+      ],
+      "concept_hits": [],
+      "official_hits": []
+    },
+    {
+      "scene_id": "SCENE-007",
+      "recommended_mode": "template",
+      "current_mode": null,
+      "reasons": [
+        "公式性が必要だが素材未指定のため、捏造しないtemplateを使用"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "ログイン"
+      ]
+    },
+    {
+      "scene_id": "SCENE-008",
+      "recommended_mode": "official",
+      "current_mode": null,
+      "reasons": [
+        "正確な公式画面・文言を優先"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "公式"
+      ]
+    },
+    {
+      "scene_id": "SCENE-009",
+      "recommended_mode": "official",
+      "current_mode": null,
+      "reasons": [
+        "正確な公式画面・文言を優先"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "ログイン"
+      ]
+    },
+    {
+      "scene_id": "SCENE-010",
+      "recommended_mode": "hybrid",
+      "current_mode": null,
+      "reasons": [
+        "見た目の主役が必要",
+        "公式素材を同時に提示"
+      ],
+      "concept_hits": [
+        "安心"
+      ],
+      "official_hits": [
+        "ログイン"
+      ]
+    },
+    {
+      "scene_id": "SCENE-011",
+      "recommended_mode": "gpt_image",
+      "current_mode": null,
+      "reasons": [
+        "概念・注意・章扉を視覚中心で説明"
+      ],
+      "concept_hits": [],
+      "official_hits": []
+    },
+    {
+      "scene_id": "SCENE-012",
+      "recommended_mode": "template",
+      "current_mode": null,
+      "reasons": [
+        "公式性が必要だが素材未指定のため、捏造しないtemplateを使用"
+      ],
+      "concept_hits": [
+        "概念"
+      ],
+      "official_hits": [
+        "ログイン"
+      ]
+    },
+    {
+      "scene_id": "SCENE-013",
+      "recommended_mode": "official",
+      "current_mode": null,
+      "reasons": [
+        "正確な公式画面・文言を優先"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "ストア"
+      ]
+    },
+    {
+      "scene_id": "SCENE-014",
+      "recommended_mode": "official",
+      "current_mode": null,
+      "reasons": [
+        "正確な公式画面・文言を優先"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "設定"
+      ]
+    },
+    {
+      "scene_id": "SCENE-015",
+      "recommended_mode": "official",
+      "current_mode": null,
+      "reasons": [
+        "正確な公式画面・文言を優先"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "App Store",
+        "Google Play",
+        "公式",
+        "掲載",
+        "提供元"
+      ]
+    },
+    {
+      "scene_id": "SCENE-016",
+      "recommended_mode": "template",
+      "current_mode": null,
+      "reasons": [
+        "公式性が必要だが素材未指定のため、捏造しないtemplateを使用"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "設定"
+      ]
+    },
+    {
+      "scene_id": "SCENE-017",
+      "recommended_mode": "hybrid",
+      "current_mode": null,
+      "reasons": [
+        "見た目の主役が必要",
+        "公式素材を同時に提示"
+      ],
+      "concept_hits": [
+        "慌て"
+      ],
+      "official_hits": [
+        "公式",
+        "FAQ"
+      ]
+    },
+    {
+      "scene_id": "SCENE-018",
+      "recommended_mode": "hybrid",
+      "current_mode": null,
+      "reasons": [
+        "見た目の主役が必要",
+        "公式素材を同時に提示"
+      ],
+      "concept_hits": [
+        "仕組み"
+      ],
+      "official_hits": []
+    },
+    {
+      "scene_id": "SCENE-019",
+      "recommended_mode": "template",
+      "current_mode": null,
+      "reasons": [
+        "公式性が必要だが素材未指定のため、捏造しないtemplateを使用"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "公式",
+        "FAQ"
+      ]
+    },
+    {
+      "scene_id": "SCENE-020",
+      "recommended_mode": "gpt_image",
+      "current_mode": null,
+      "reasons": [
+        "概念・注意・章扉を視覚中心で説明"
+      ],
+      "concept_hits": [],
+      "official_hits": []
+    },
+    {
+      "scene_id": "SCENE-021",
+      "recommended_mode": "official",
+      "current_mode": null,
+      "reasons": [
+        "正確な公式画面・文言を優先"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "対応OS",
+        "NFC"
+      ]
+    },
+    {
+      "scene_id": "SCENE-022",
+      "recommended_mode": "official",
+      "current_mode": null,
+      "reasons": [
+        "正確な公式画面・文言を優先"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "利用登録",
+        "暗証番号"
+      ]
+    },
+    {
+      "scene_id": "SCENE-023",
+      "recommended_mode": "hybrid",
+      "current_mode": null,
+      "reasons": [
+        "見た目の主役が必要",
+        "公式素材を同時に提示"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "設定"
+      ]
+    },
+    {
+      "scene_id": "SCENE-024",
+      "recommended_mode": "template",
+      "current_mode": null,
+      "reasons": [
+        "公式性が必要だが素材未指定のため、捏造しないtemplateを使用"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "公式",
+        "FAQ",
+        "ログイン"
+      ]
+    },
+    {
+      "scene_id": "SCENE-025",
+      "recommended_mode": "template",
+      "current_mode": null,
+      "reasons": [
+        "公式性が必要だが素材未指定のため、捏造しないtemplateを使用"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "画面",
+        "暗証番号"
+      ]
+    },
+    {
+      "scene_id": "SCENE-026",
+      "recommended_mode": "template",
+      "current_mode": null,
+      "reasons": [
+        "公式性が必要だが素材未指定のため、捏造しないtemplateを使用"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "App Store",
+        "Google Play",
+        "ストア"
+      ]
+    },
+    {
+      "scene_id": "SCENE-027",
+      "recommended_mode": "official",
+      "current_mode": null,
+      "reasons": [
+        "正確な公式画面・文言を優先"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "画面",
+        "公式",
+        "掲載",
+        "提供元",
+        "ストア"
+      ]
+    },
+    {
+      "scene_id": "SCENE-028",
+      "recommended_mode": "hybrid",
+      "current_mode": null,
+      "reasons": [
+        "見た目の主役が必要",
+        "公式素材を同時に提示"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "公式"
+      ]
+    },
+    {
+      "scene_id": "SCENE-029",
+      "recommended_mode": "hybrid",
+      "current_mode": null,
+      "reasons": [
+        "見た目の主役が必要",
+        "公式素材を同時に提示"
+      ],
+      "concept_hits": [
+        "偽サイト",
+        "注意"
+      ],
+      "official_hits": [
+        "公式",
+        "ストア"
+      ]
+    },
+    {
+      "scene_id": "SCENE-030",
+      "recommended_mode": "hybrid",
+      "current_mode": null,
+      "reasons": [
+        "見た目の主役が必要",
+        "公式素材を同時に提示"
+      ],
+      "concept_hits": [
+        "注意"
+      ],
+      "official_hits": [
+        "暗証番号"
+      ]
+    },
+    {
+      "scene_id": "SCENE-031",
+      "recommended_mode": "hybrid",
+      "current_mode": null,
+      "reasons": [
+        "見た目の主役が必要",
+        "公式素材を同時に提示"
+      ],
+      "concept_hits": [],
+      "official_hits": []
+    },
+    {
+      "scene_id": "SCENE-032",
+      "recommended_mode": "template",
+      "current_mode": null,
+      "reasons": [
+        "公式性が必要だが素材未指定のため、捏造しないtemplateを使用"
+      ],
+      "concept_hits": [
+        "とは"
+      ],
+      "official_hits": [
+        "公式",
+        "掲載",
+        "提供元",
+        "ストア"
+      ]
+    },
+    {
+      "scene_id": "SCENE-033",
+      "recommended_mode": "template",
+      "current_mode": null,
+      "reasons": [
+        "公式性が必要だが素材未指定のため、捏造しないtemplateを使用"
+      ],
+      "concept_hits": [],
+      "official_hits": [
+        "設定",
+        "利用登録",
+        "暗証番号"
+      ]
+    },
+    {
+      "scene_id": "SCENE-034",
+      "recommended_mode": "gpt_image",
+      "current_mode": null,
+      "reasons": [
+        "概念・注意・章扉を視覚中心で説明"
+      ],
+      "concept_hits": [
+        "慌て",
+        "怖"
+      ],
+      "official_hits": []
+    },
+    {
+      "scene_id": "SCENE-035",
+      "recommended_mode": "template",
+      "current_mode": null,
+      "reasons": [
+        "公式性が必要だが素材未指定のため、捏造しないtemplateを使用"
+      ],
+      "concept_hits": [
+        "とは"
+      ],
+      "official_hits": [
+        "公式"
+      ]
+    }
+  ]
+}

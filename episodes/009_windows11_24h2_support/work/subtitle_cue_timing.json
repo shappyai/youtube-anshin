@@ -1,0 +1,572 @@
+{
+  "version": 1,
+  "method": "VOICEVOX audio_query mora duration; segment boundaries remain measured WAV timing",
+  "engine_url": "http://127.0.0.1:50021",
+  "speaker": "剣崎雌雄",
+  "style": "ノーマル",
+  "style_id": 21,
+  "generated_at": "2026-09-05T10:14:50.176154+00:00",
+  "cue_count": 59,
+  "cues": {
+    "SUB-001-1": {
+      "cue_id": "SUB-001-1",
+      "segment_id": 1,
+      "display_text": "Windows 11を使っている方、2026年10月13日に、",
+      "effective_text": "Windows 11を使っているかた、2026年10月13日に、",
+      "duration_sec": 5.526331,
+      "kana": "ウィ'ンドオズ、ジュウ'/イチ'オ/_ツカッテ'/イル'/カタ'、ニセ'ン/ニ'ジュウ/ロク'ネン/ジュウガツ'/ジュウ'/サン'ニチニ",
+      "reading_overrides": [
+        "方 → かた（reading_overrides）"
+      ]
+    },
+    "SUB-001-2": {
+      "cue_id": "SUB-001-2",
+      "segment_id": 1,
+      "display_text": "一部のWindows 11で更新の提供が終わります。",
+      "effective_text": "一部のWindows 11で更新の提供が終わります。",
+      "duration_sec": 4.079542,
+      "kana": "イチ'ブノ/ウィ'ンドオズ、ジュウ'/イチ'デ/コオシンノ'/テエキョオガ'/オワリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-002": {
+      "cue_id": "SUB-002",
+      "segment_id": 2,
+      "display_text": "ただし、Windows 11全部が、その日に使えなくなるわけではありません。",
+      "effective_text": "ただし、Windows 11全部が、その日に使えなくなるわけではありません。",
+      "duration_sec": 5.697838,
+      "kana": "タ'ダシ、ウィ'ンドオズ、ジュウ'/イチゼ'ンブガ、ソノ'/ヒニ'/_ツカエ'ナク/ナ'ル/ワケデワアリマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-003": {
+      "cue_id": "SUB-003",
+      "segment_id": 3,
+      "display_text": "今日は、自分のパソコンで確認したい3つを、順番に見ていきます。",
+      "effective_text": "今日は、自分のパソコンで確認したい3つを、順番に見ていきます。",
+      "duration_sec": 5.017632,
+      "kana": "キョ'オワ、ジブンノ'/パソコンデ'/カクニン'/_シタ'イ/ミッツ'オ、ジュンバンニ'/ミ'テ/イキマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-004": {
+      "cue_id": "SUB-004",
+      "segment_id": 4,
+      "display_text": "一つ目、自分のWindowsのバージョンです。",
+      "effective_text": "一つ目、自分のWindowsのバージョンです。",
+      "duration_sec": 2.972492,
+      "kana": "_ヒトツ'メ、ジブンノ'/ウィ'ンドオズノ/バ'アジョンデ_ス",
+      "reading_overrides": []
+    },
+    "SUB-005": {
+      "cue_id": "SUB-005",
+      "segment_id": 5,
+      "display_text": "二つ目、Windows Updateの画面です。",
+      "effective_text": "二つ目、Windows Updateの画面です。",
+      "duration_sec": 3.054234,
+      "kana": "_フタツ'メ、ウィ'ンドオズ/ア'ップデエトノ/ガメンデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-006": {
+      "cue_id": "SUB-006",
+      "segment_id": 6,
+      "display_text": "三つ目は、更新が表示されないときに考えるポイントです。",
+      "effective_text": "三つ目は、更新が表示されないときに考えるポイントです。",
+      "duration_sec": 4.306235,
+      "kana": "ミッツ'メワ、コオシンガ'/ヒョオジ'/サレナイ'/ト'キニ/カンガ'エル/ポイントデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-007": {
+      "cue_id": "SUB-007",
+      "segment_id": 7,
+      "display_text": "最初に、安心してほしいことです。",
+      "effective_text": "最初に、安心してほしいことです。",
+      "duration_sec": 2.689049,
+      "kana": "サイショニ'、アンシン'/_シテホシイ'/コト'デ_ス",
+      "reading_overrides": []
+    },
+    "SUB-008-1": {
+      "cue_id": "SUB-008-1",
+      "segment_id": 8,
+      "display_text": "今回、2026年10月13日に更新の終了とされているのは、Windows 11のうち、",
+      "effective_text": "今回、2026年10月13日に更新の終了とされているのは、Windows 11のうち、",
+      "duration_sec": 7.829498,
+      "kana": "コ'ンカイ、ニセ'ン/ニ'ジュウ/ロク'ネン/ジュウガツ'/ジュウ'/サン'ニチニ/コオシンノ'/シュウリョオト'/サレテ'/イル'/ノワ'、ウィ'ンドオズ、ジュウ'/イチ'ノ/ウチ'",
+      "reading_overrides": []
+    },
+    "SUB-008-2": {
+      "cue_id": "SUB-008-2",
+      "segment_id": 8,
+      "display_text": "バージョン24H2のHome、Pro、Pro Education、Pro for Workstationsです。",
+      "effective_text": "バージョンにじゅうよん、エイチ、ツーのHome、Pro、Pro Education、Pro for Workstationsです。",
+      "duration_sec": 7.672843,
+      "kana": "バ'アジョンニ/ジュ'ウヨン、エ'イチ、ツ'ウノ/ホ'オム、プ'ロ、プ'ロ/エデュケ'エション、プ'ロ/フォ'オ/ワ'アクステエションズデ_ス",
+      "reading_overrides": [
+        "24H2 → にじゅうよん、エイチ、ツー（reading_overrides）"
+      ]
+    },
+    "SUB-009": {
+      "cue_id": "SUB-009",
+      "segment_id": 9,
+      "display_text": "これは、Windows 11全体が10月13日に終了する、という意味ではありません。",
+      "effective_text": "これは、Windows 11全体が10月13日に終了する、という意味ではありません。",
+      "duration_sec": 6.977772,
+      "kana": "コレワ'、ウィ'ンドオズ、ジュウ'/イチゼ'ンタイガ/ジュウガツ'/ジュウ'/サン'ニチニ/シュウリョオ'/スル'、ト'/イウ'/イミデワアリマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-010": {
+      "cue_id": "SUB-010",
+      "segment_id": 10,
+      "display_text": "EnterpriseやEducationなどは、サポート期間が異なります。",
+      "effective_text": "EnterpriseやEducationなどは、サポート期間が異なります。",
+      "duration_sec": 4.438291,
+      "kana": "エンタアプラ'イズヤ/エデュケ'エションナドワ、サポオトキ'カンガ/コトナリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-011": {
+      "cue_id": "SUB-011",
+      "segment_id": 11,
+      "display_text": "家庭でよく使われるHomeやProの方は、まず自分のバージョンを確認しましょう。",
+      "effective_text": "家庭でよく使われるHomeやProのかたは、まず自分のバージョンを確認しましょう。",
+      "duration_sec": 5.378071,
+      "kana": "カテエデ'/ヨ'_ク/ツカワレル'/ホ'オムヤ/プ'ロノ/カタ'ワ、マ'ズ/ジブンノ'/バ'アジョンオ/カクニン'/シマショ'オ",
+      "reading_overrides": [
+        "方 → かた（reading_overrides）"
+      ]
+    },
+    "SUB-012": {
+      "cue_id": "SUB-012",
+      "segment_id": 12,
+      "display_text": "画面左下のスタートボタンを右クリックします。",
+      "effective_text": "画面左下のスタートボタンを右クリックします。",
+      "duration_sec": 3.201397,
+      "kana": "ガメンヒダリ'_シタノ/_スタアトボ'タンオ/ミギクリ'ッ_ク/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-013": {
+      "cue_id": "SUB-013",
+      "segment_id": 13,
+      "display_text": "設定を開き、システム、バージョン情報の順に進みます。",
+      "effective_text": "設定を開き、システム、バージョン情報の順に進みます。",
+      "duration_sec": 4.72702,
+      "kana": "セッテエオ'/ヒラキ'、シ'_ステム、バアジョンジョ'オホオノ/ジュンニ'/ススミマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-014": {
+      "cue_id": "SUB-014",
+      "segment_id": 14,
+      "display_text": "下のほうにある、Windowsの仕様を見てください。",
+      "effective_text": "下のほうにある、Windowsの仕様を見てください。",
+      "duration_sec": 3.448406,
+      "kana": "_シタノ'/ホ'オニ/ア'ル、ウィ'ンドオズノ/シヨオオ'/ミ'テ/クダサ'イ",
+      "reading_overrides": []
+    },
+    "SUB-015": {
+      "cue_id": "SUB-015",
+      "segment_id": 15,
+      "display_text": "ここで見るのは、エディションと、バージョンです。",
+      "effective_text": "ここで見るのは、エディションと、バージョンです。",
+      "duration_sec": 3.333085,
+      "kana": "ココデ'/ミ'ル/ノワ'、エディ'ショント、バ'アジョンデ_ス",
+      "reading_overrides": []
+    },
+    "SUB-016": {
+      "cue_id": "SUB-016",
+      "segment_id": 16,
+      "display_text": "バージョンが24H2か、25H2かを確認します。",
+      "effective_text": "バージョンがにじゅうよん、エイチ、ツーか、にじゅうご、エイチ、ツーかを確認します。",
+      "duration_sec": 6.56774,
+      "kana": "バ'アジョンガ/ニ'ジュウヨン、エ'イチ、ツ'ウカ、ニ'/ジュ'ウゴ、エ'イチ、ツ'ウカオ/カクニン'/シマ'_ス",
+      "reading_overrides": [
+        "24H2 → にじゅうよん、エイチ、ツー（reading_overrides）",
+        "25H2 → にじゅうご、エイチ、ツー（reading_overrides）"
+      ]
+    },
+    "SUB-017": {
+      "cue_id": "SUB-017",
+      "segment_id": 17,
+      "display_text": "画面は、パソコンによって少し違うことがあります。",
+      "effective_text": "画面は、パソコンによって少し違うことがあります。",
+      "duration_sec": 3.614667,
+      "kana": "ガメンワ'、パソコンニ'/ヨッテ'/_スコ'_シ/チガウ'/コト'ガ/アリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-018": {
+      "cue_id": "SUB-018",
+      "segment_id": 18,
+      "display_text": "実際の画面では、システムの中にあるバージョン情報を開きます。",
+      "effective_text": "実際の画面では、システムの中にあるバージョン情報を開きます。",
+      "duration_sec": 4.602184,
+      "kana": "ジッサイノ'/ガメンデワ'、シ'_ステムノ/ナ'カニ/ア'ル/バアジョンジョ'オホオオ/ヒラキマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-019": {
+      "cue_id": "SUB-019",
+      "segment_id": 19,
+      "display_text": "個人名やIDが見えている場合は、動画や人に見せる前に隠してください。",
+      "effective_text": "個人名やIDが見えている場合は、動画や人に見せる前に隠してください。",
+      "duration_sec": 5.358673,
+      "kana": "コジン'メエヤ/ア'イディイガ/ミエ'テ/イル'/バアイワ'、ドオガヤ'/_ヒトニ'/ミセ'ル/マ'エニ/カ_クシ'テ/クダサ'イ",
+      "reading_overrides": []
+    },
+    "SUB-020": {
+      "cue_id": "SUB-020",
+      "segment_id": 20,
+      "display_text": "デバイスの仕様という見出しの下で、Windowsの仕様を探します。",
+      "effective_text": "デバイスの仕様という見出しの下で、Windowsの仕様を探します。",
+      "duration_sec": 4.486541,
+      "kana": "デバ'イスノ/シヨオト'/イウ'/ミダシノ'/_シタデ'、ウィ'ンドオズノ/シヨオオ'/サガシマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-021": {
+      "cue_id": "SUB-021",
+      "segment_id": 21,
+      "display_text": "この確認は、24H2かどうかを知るためのものです。",
+      "effective_text": "この確認は、にじゅうよん、エイチ、ツーかどうかを知るためのものです。",
+      "duration_sec": 5.127732,
+      "kana": "コノ'/カクニンワ'、ニ'ジュウヨン、エ'イチ、ツ'ウカ/ド'オカオ/シル'/タメ'ノ/モノ'デ_ス",
+      "reading_overrides": [
+        "24H2 → にじゅうよん、エイチ、ツー（reading_overrides）"
+      ]
+    },
+    "SUB-022": {
+      "cue_id": "SUB-022",
+      "segment_id": 22,
+      "display_text": "二つ目は、Windows Updateです。",
+      "effective_text": "二つ目は、Windows Updateです。",
+      "duration_sec": 2.767591,
+      "kana": "_フタツ'メワ、ウィ'ンドオズ/ア'ップデエトデ_ス",
+      "reading_overrides": []
+    },
+    "SUB-023": {
+      "cue_id": "SUB-023",
+      "segment_id": 23,
+      "display_text": "設定から、Windows Updateを開きます。",
+      "effective_text": "設定から、Windows Updateを開きます。",
+      "duration_sec": 3.326983,
+      "kana": "セッテエカラ'、ウィ'ンドオズ/ア'ップデエトオ/ヒラキマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-024": {
+      "cue_id": "SUB-024",
+      "segment_id": 24,
+      "display_text": "更新プログラムの確認を選びます。",
+      "effective_text": "更新プログラムの確認を選びます。",
+      "duration_sec": 2.557931,
+      "kana": "コオシンプログ'ラムノ/カクニンオ'/エラビマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-025-1": {
+      "cue_id": "SUB-025-1",
+      "segment_id": 25,
+      "display_text": "更新が準備できている場合は、",
+      "effective_text": "更新が準備できている場合は、",
+      "duration_sec": 2.20383,
+      "kana": "コオシンガ'/ジュ'ンビ/デキ'テ/イル'/バアイワ'",
+      "reading_overrides": []
+    },
+    "SUB-025-2": {
+      "cue_id": "SUB-025-2",
+      "segment_id": 25,
+      "display_text": "Windows 11 version 25H2のダウンロードとインストールが表示されます。",
+      "effective_text": "Windows 11 version にじゅうご、エイチ、ツーのダウンロードとインストールが表示されます。",
+      "duration_sec": 7.772767,
+      "kana": "ウィ'ンドオズ、ジュウ'/イチ'、バ'アジョン、ニ'/ジュ'ウゴ、エ'イチ、ツ'ウノ/ダウンロ'オドト/イン_スト'オルガ/ヒョオジ'/サレマ'_ス",
+      "reading_overrides": [
+        "25H2 → にじゅうご、エイチ、ツー（reading_overrides）"
+      ]
+    },
+    "SUB-026": {
+      "cue_id": "SUB-026",
+      "segment_id": 26,
+      "display_text": "表示されたときは、作業中のファイルを保存して、案内を読みながら進めます。",
+      "effective_text": "表示されたときは、作業中のファイルを保存して、案内を読みながら進めます。",
+      "duration_sec": 5.776184,
+      "kana": "ヒョオジ'/サレタ'/ト'キワ、サギョオチュウノ'/ファ'イルオ/ホゾン'/_シテ'、アンナ'イオ/ヨミナ'ガラ/ススメマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-027": {
+      "cue_id": "SUB-027",
+      "segment_id": 27,
+      "display_text": "再起動を求められることがあります。",
+      "effective_text": "再起動を求められることがあります。",
+      "duration_sec": 2.436432,
+      "kana": "サイキ'ドオオ/モトメラレ'ル/コト'ガ/アリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-028": {
+      "cue_id": "SUB-028",
+      "segment_id": 28,
+      "display_text": "更新の表示やタイミングは、すべてのパソコンで同じではありません。",
+      "effective_text": "更新の表示やタイミングは、すべてのパソコンで同じではありません。",
+      "duration_sec": 4.559183,
+      "kana": "コオシンノ'/ヒョオジヤ'/タイミングワ'、ス'ベテノ/パソコンデ'/オナジデワアリマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-029": {
+      "cue_id": "SUB-029",
+      "segment_id": 29,
+      "display_text": "三つ目は、25H2が表示されないときです。",
+      "effective_text": "三つ目は、にじゅうご、エイチ、ツーが表示されないときです。",
+      "duration_sec": 4.745646,
+      "kana": "ミッツ'メワ、ニ'/ジュ'ウゴ、エ'イチ、ツ'ウガ/ヒョオジ'/サレナイ'/ト'キデ_ス",
+      "reading_overrides": [
+        "25H2 → にじゅうご、エイチ、ツー（reading_overrides）"
+      ]
+    },
+    "SUB-030": {
+      "cue_id": "SUB-030",
+      "segment_id": 30,
+      "display_text": "表示されないからといって、故障とは限りません。",
+      "effective_text": "表示されないからといって、故障とは限りません。",
+      "duration_sec": 3.434918,
+      "kana": "ヒョオジ'/サレナイ'カラト/イッテ'、コショオトワ'/カギリマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-031-1": {
+      "cue_id": "SUB-031-1",
+      "segment_id": 31,
+      "display_text": "アプリやドライバーとの相性を確認するため、",
+      "effective_text": "アプリやドライバーとの相性を確認するため、",
+      "duration_sec": 2.904353,
+      "kana": "ア'プリヤ/ドライバアトノ'/アイショ'オオ/カクニン'/スル'/タメ'",
+      "reading_overrides": []
+    },
+    "SUB-031-2": {
+      "cue_id": "SUB-031-2",
+      "segment_id": 31,
+      "display_text": "Microsoftが一時的に更新を保留することがあります。",
+      "effective_text": "Microsoftが一時的に更新を保留することがあります。",
+      "duration_sec": 3.903115,
+      "kana": "マイクロソ'_フトガ/イチジ'テキニ/コオシンオ'/ホリュウ'/スル'/コト'ガ/アリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-032": {
+      "cue_id": "SUB-032",
+      "segment_id": 32,
+      "display_text": "これを、セーフガードホールドといいます。",
+      "effective_text": "これを、セーフガードホールドといいます。",
+      "duration_sec": 2.804972,
+      "kana": "コレオ'、セエフガアドホ'オルドト/イイマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-033": {
+      "cue_id": "SUB-033",
+      "segment_id": 33,
+      "display_text": "無理にISOファイルなどを使って、手動で更新することはおすすめしません。",
+      "effective_text": "無理にISOファイルなどを使って、手動で更新することはおすすめしません。",
+      "duration_sec": 5.244206,
+      "kana": "ム'リニ/アイエスオオファ'イルナドオ/_ツカッテ'、シュドオデ'/コオシン'/スル'/コト'ワ/オススメ'/シマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-034": {
+      "cue_id": "SUB-034",
+      "segment_id": 34,
+      "display_text": "ここで、検索すると出てくる26H1についても、短く説明します。",
+      "effective_text": "ここで、検索すると出てくるにじゅうろく、エイチ、ワンについても、短く説明します。",
+      "duration_sec": 6.769508,
+      "kana": "ココデ'、ケンサ_ク'/スルト'/デテ'/ク'ル/ニジュウ'ロク、エ'イチ、ワ'ンニ/ツ'イテモ、ミジカ'_ク/セツメエ'/シマ'_ス",
+      "reading_overrides": [
+        "26H1 → にじゅうろく、エイチ、ワン（reading_overrides）"
+      ]
+    },
+    "SUB-035": {
+      "cue_id": "SUB-035",
+      "segment_id": 35,
+      "display_text": "26H1は、2026年の新しい一部の機器向けに用意された、特別なリリースです。",
+      "effective_text": "にじゅうろく、エイチ、ワンは、2026年の新しい一部の機器向けに用意された、特別なリリースです。",
+      "duration_sec": 8.183164,
+      "kana": "ニジュウ'ロク、エ'イチ、ワ'ンワ、ニセ'ン/ニ'ジュウ/ロク'ネンノ/アタラシ'イ/イチ'ブノ/_キキ'ムケニ/ヨ'オイ/サレタ'、トクベツナ'/リリ'イスデ_ス",
+      "reading_overrides": [
+        "26H1 → にじゅうろく、エイチ、ワン（reading_overrides）"
+      ]
+    },
+    "SUB-036": {
+      "cue_id": "SUB-036",
+      "segment_id": 36,
+      "display_text": "いま使っている24H2のパソコンが、26H1へ更新されるわけではありません。",
+      "effective_text": "いま使っているにじゅうよん、エイチ、ツーのパソコンが、にじゅうろく、エイチ、ワンへ更新されるわけではありません。",
+      "duration_sec": 8.435987,
+      "kana": "イ'マ/_ツカッテ'/イル'/ニ'ジュウヨン、エ'イチ、ツ'ウノ/パソコンガ'、ニジュウ'ロク、エ'イチ、ワ'ンエ/コオシン'/サレル'/ワケデワアリマセ'ン",
+      "reading_overrides": [
+        "24H2 → にじゅうよん、エイチ、ツー（reading_overrides）",
+        "26H1 → にじゅうろく、エイチ、ワン（reading_overrides）"
+      ]
+    },
+    "SUB-037": {
+      "cue_id": "SUB-037",
+      "segment_id": 37,
+      "display_text": "Microsoftは、26H1を既存のパソコンへWindows Updateで提供しないと説明しています。",
+      "effective_text": "Microsoftは、にじゅうろく、エイチ、ワンを既存のパソコンへWindows Updateで提供しないと説明しています。",
+      "duration_sec": 8.196272,
+      "kana": "マイクロソ'_フトワ、ニジュウ'ロク、エ'イチ、ワ'ンオ/_キソンノ'/パソコンエ'/ウィ'ンドオズ/ア'ップデエトデ/テエキョオ'/シナイト'/セツメエ'/_シテ'/イマ'_ス",
+      "reading_overrides": [
+        "26H1 → にじゅうろく、エイチ、ワン（reading_overrides）"
+      ]
+    },
+    "SUB-038": {
+      "cue_id": "SUB-038",
+      "segment_id": 38,
+      "display_text": "24H2の場合は、まず25H2が表示されるかを確認してください。",
+      "effective_text": "にじゅうよん、エイチ、ツーの場合は、まずにじゅうご、エイチ、ツーが表示されるかを確認してください。",
+      "duration_sec": 7.883955,
+      "kana": "ニ'ジュウヨン、エ'イチ、ツ'ウノ/バアイワ'、マ'ズニ/ジュ'ウゴ、エ'イチ、ツ'ウガ/ヒョオジ'/サレル'カオ/カクニン'/_シテ'/クダサ'イ",
+      "reading_overrides": [
+        "24H2 → にじゅうよん、エイチ、ツー（reading_overrides）",
+        "25H2 → にじゅうご、エイチ、ツー（reading_overrides）"
+      ]
+    },
+    "SUB-039": {
+      "cue_id": "SUB-039",
+      "segment_id": 39,
+      "display_text": "まずは、いまのWindows Updateを最新の状態にします。",
+      "effective_text": "まずは、いまのWindows Updateを最新の状態にします。",
+      "duration_sec": 4.372807,
+      "kana": "マ'ズワ、イ'マノ/ウィ'ンドオズ/ア'ップデエトオ/サイシンノ'/ジョオタイニ'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-040": {
+      "cue_id": "SUB-040",
+      "segment_id": 40,
+      "display_text": "パソコンを再起動し、少し時間を置いて、もう一度確認します。",
+      "effective_text": "パソコンを再起動し、少し時間を置いて、もう一度確認します。",
+      "duration_sec": 5.020808,
+      "kana": "パソコンオ'/サイキ'ドオ/シ'、_スコ'シ/ジカンオ'/オイテ'、モオイチド'/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-041-1": {
+      "cue_id": "SUB-041-1",
+      "segment_id": 41,
+      "display_text": "それでも分からないときは、Microsoftの公式サポートや、",
+      "effective_text": "それでも分からないときは、Microsoftの公式サポートや、",
+      "duration_sec": 4.167134,
+      "kana": "ソレデ'モ/ワカラ'ナイ/ト'キワ、マイクロソ'_フトノ/コオ_シキ'/サポ'オトヤ",
+      "reading_overrides": []
+    },
+    "SUB-041-2": {
+      "cue_id": "SUB-041-2",
+      "segment_id": 41,
+      "display_text": "パソコンメーカーに相談しましょう。",
+      "effective_text": "パソコンメーカーに相談しましょう。",
+      "duration_sec": 2.254779,
+      "kana": "パソコンメ'エカアニ/ソオダン'/シマショ'オ",
+      "reading_overrides": []
+    },
+    "SUB-042": {
+      "cue_id": "SUB-042",
+      "segment_id": 42,
+      "display_text": "会社や学校で管理されているパソコンは、管理者の案内を優先してください。",
+      "effective_text": "会社や学校で管理されているパソコンは、管理者の案内を優先してください。",
+      "duration_sec": 5.463427,
+      "kana": "カイシャヤ'/ガッコオデ'/カ'ンリ/サレテ'/イル'/パソコンワ'、カンリシャノ'/アンナ'イオ/ユウセン'/_シテ'/クダサ'イ",
+      "reading_overrides": []
+    },
+    "SUB-043-1": {
+      "cue_id": "SUB-043-1",
+      "segment_id": 43,
+      "display_text": "サポート終了とは、10月13日を過ぎた瞬間にパソコンが使えなくなる、",
+      "effective_text": "サポート終了とは、10月13日を過ぎた瞬間にパソコンが使えなくなる、",
+      "duration_sec": 5.584202,
+      "kana": "サポオトシュ'ウリョオトワ、ジュウガツ'/ジュウ'/サン'ニチオ/スギ'タ/シュンカンニ'/パソコンガ'/_ツカエ'ナク/ナ'ル",
+      "reading_overrides": []
+    },
+    "SUB-043-2": {
+      "cue_id": "SUB-043-2",
+      "segment_id": 43,
+      "display_text": "という意味ではありません。",
+      "effective_text": "という意味ではありません。",
+      "duration_sec": 1.566846,
+      "kana": "ト'/イウ'/イミデワアリマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-044-1": {
+      "cue_id": "SUB-044-1",
+      "segment_id": 44,
+      "display_text": "ただし、HomeやProの24H2では、その後、",
+      "effective_text": "ただし、HomeやProのにじゅうよん、エイチ、ツーでは、その後、",
+      "duration_sec": 5.110121,
+      "kana": "タ'ダシ、ホ'オムヤ/プ'ロノ/ニ'ジュウヨン、エ'イチ、ツ'ウデワ、ソノゴ'",
+      "reading_overrides": [
+        "24H2 → にじゅうよん、エイチ、ツー（reading_overrides）"
+      ]
+    },
+    "SUB-044-2": {
+      "cue_id": "SUB-044-2",
+      "segment_id": 44,
+      "display_text": "通常のセキュリティ更新などを受けられなくなります。",
+      "effective_text": "通常のセキュリティ更新などを受けられなくなります。",
+      "duration_sec": 3.226293,
+      "kana": "ツウジョオノ'/セキュリ_ティコ'オシンナドオ/ウケラレ'ナク/ナリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-045": {
+      "cue_id": "SUB-045",
+      "segment_id": 45,
+      "display_text": "対応するバージョンへ更新することが大切です。",
+      "effective_text": "対応するバージョンへ更新することが大切です。",
+      "duration_sec": 3.278144,
+      "kana": "タイオオ'/スル'/バ'アジョンエ/コオシン'/スル'/コト'ガ/タイセツデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-046": {
+      "cue_id": "SUB-046",
+      "segment_id": 46,
+      "display_text": "10月13日までに、慌ててパソコンを買い替えましょう、という話ではありません。",
+      "effective_text": "10月13日までに、慌ててパソコンを買い替えましょう、という話ではありません。",
+      "duration_sec": 6.040086,
+      "kana": "ジュウガツ'/ジュウ'/サン'ニチマデニ、アワテテ'/パソコンオ'/カイカエマショ'オ、ト'/イウ'/ハナシデワアリマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-047": {
+      "cue_id": "SUB-047",
+      "segment_id": 47,
+      "display_text": "まず、バージョンを確認し、Windows Updateを確認する。これが、いま行う順番です。",
+      "effective_text": "まず、バージョンを確認し、Windows Updateを確認する。これが、いま行う順番です。",
+      "duration_sec": 7.478959,
+      "kana": "マ'ズ、バ'アジョンオ/カクニン'/シ'、ウィ'ンドオズ/ア'ップデエトオ/カクニン'/スル'、コレガ'、イ'マ/オコナウ'/ジュンバンデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-048": {
+      "cue_id": "SUB-048",
+      "segment_id": 48,
+      "display_text": "最後に、今日の3つです。",
+      "effective_text": "最後に、今日の3つです。",
+      "duration_sec": 2.181199,
+      "kana": "サ'イゴニ、キョ'オノ/ミッツ'デ_ス",
+      "reading_overrides": []
+    },
+    "SUB-049": {
+      "cue_id": "SUB-049",
+      "segment_id": 49,
+      "display_text": "一つ目、自分のWindowsのバージョンを確認する。",
+      "effective_text": "一つ目、自分のWindowsのバージョンを確認する。",
+      "duration_sec": 3.498978,
+      "kana": "_ヒトツ'メ、ジブンノ'/ウィ'ンドオズノ/バ'アジョンオ/カクニン'/スル'",
+      "reading_overrides": []
+    },
+    "SUB-050": {
+      "cue_id": "SUB-050",
+      "segment_id": 50,
+      "display_text": "二つ目、Windows Updateで更新プログラムを確認する。",
+      "effective_text": "二つ目、Windows Updateで更新プログラムを確認する。",
+      "duration_sec": 4.294695,
+      "kana": "_フタツ'メ、ウィ'ンドオズ/ア'ップデエトデ/コオシンプログ'ラムオ/カクニン'/スル'",
+      "reading_overrides": []
+    },
+    "SUB-051": {
+      "cue_id": "SUB-051",
+      "segment_id": 51,
+      "display_text": "三つ目、表示されないときは、慌てず、無理な手動更新をしない。",
+      "effective_text": "三つ目、表示されないときは、慌てず、無理な手動更新をしない。",
+      "duration_sec": 5.277146,
+      "kana": "ミッツ'メ、ヒョオジ'/サレナイ'/ト'キワ、アワテ'ズ、ム'リナ/シュドオコ'オシンオ/シナイ'",
+      "reading_overrides": []
+    },
+    "SUB-052": {
+      "cue_id": "SUB-052",
+      "segment_id": 52,
+      "display_text": "不安なときは、公式サポートや詳しい人に相談してください。",
+      "effective_text": "不安なときは、公式サポートや詳しい人に相談してください。",
+      "duration_sec": 4.465764,
+      "kana": "フアンナ'/ト'キワ、コオ_シキ'/サポ'オトヤ/クワシ'イ/_ヒトニ'/ソオダン'/_シテ'/クダサ'イ",
+      "reading_overrides": []
+    }
+  }
+}

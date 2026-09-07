@@ -1,0 +1,69 @@
+asset_id,type,path,scene_id,source_or_prompt,dimensions,sha256_prefix,pii_status,status,notes
+BG-001,background,assets/backgrounds/adult_digital_soft_v2.png,,config/visual_theme.json,1920x1080,ca08d55d445f01b4,none,PASS,共通image background。元ファイルは保持。
+RAW-001,imagegen_raw,work/imagegen_raw/scene_001_source.png,SCENE-001,IMG-010-001,1672x941,8c4832b42da07831,none,ARCHIVED,生成原画。正規化copyをsceneで使用。
+RAW-017,imagegen_raw,work/imagegen_raw/scene_017_source.png,SCENE-017,IMG-010-017,1672x941,a3236341bfe54cfc,none,ARCHIVED,生成原画。文字・UIなし。
+RAW-020,imagegen_raw,work/imagegen_raw/scene_020_source.png,SCENE-020,IMG-010-020,1672x941,747986856c93b7bf,none,ARCHIVED,生成原画。正規化copyをsceneで使用。
+IMG-001,imagegen,assets/generated_ai/scene_001.png,SCENE-001,IMG-010-001,1920x1080,0f1aa9d61d173f3b,none,PASS,ImageGen native。指定見出しを目視確認。
+IMG-017,imagegen,assets/generated_ai/scene_017.png,SCENE-017,IMG-010-017,1920x1080,760245eb6c1e9a23,none,PASS,no_text。動作概念のみ。
+IMG-020,imagegen,assets/generated_ai/scene_020.png,SCENE-020,IMG-010-020,1920x1080,9a4f6db501c654dc,none,PASS,ImageGen native。指定見出しを目視確認。
+OFF-001,official,assets/official/official_screen_register_start.png,SCENE-007,SRC-002,342x587,fa8c8b7864fa2609,PII-free,PASS,デジタル庁公式原画。sceneでfocus crop。
+OFF-002,official,assets/official/official_screen_register_agreement.png,SCENE-009,SRC-002,280x587,f30e1e99ba2e88cd,PII-free,PASS,内容は通知設定画面。管理上の旧ファイル名。
+OFF-003,official,assets/official/official_screen_register_device_lock.png,SCENE-011,SRC-002,280x587,9f148a636483817b,PII-free,PASS,デジタル庁公式原画。sceneでfocus crop。
+OFF-004,official,assets/official/official_register_card_passcode_crop.png,SCENE-015,SRC-005,288x587,22e1178b7ea0c66b,PII-free,PASS,公式原画の暗証番号入力画面crop。
+OFF-005,official,assets/official/official_register_card_read_crop.png,SCENE-016,SRC-004,288x587,a164defbf9e46cb1,PII-free,PASS,公式原画の読み取り画面crop。
+OFF-006,official,assets/official/official_screen_register_biometric.png,SCENE-018,SRC-006,280x587,50dd9d88a772fdef,PII-free,PASS,デジタル庁公式原画。sceneでfocus crop。
+OFF-007,official_reference,assets/official/official_screen_register_card_auth.png,,SRC-003,576x587,0d9de09d00d13929,PII-free,REFERENCE_ONLY,sceneでは未使用。原画保管。
+TMPL-002,template,assets/generated_template/scene_002.png,SCENE-002,hybrid_scene_renderer,1920x1080,356f03705a366f64,none,PASS,common background適用。
+TMPL-003,template,assets/generated_template/scene_003.png,SCENE-003,hybrid_scene_renderer,1920x1080,a51336ae38b2c1c0,none,PASS,common background適用。
+TMPL-004,template,assets/generated_template/scene_004.png,SCENE-004,hybrid_scene_renderer,1920x1080,9a259e0870ab0d70,none,PASS,section scene。
+TMPL-005,template,assets/generated_template/scene_005.png,SCENE-005,hybrid_scene_renderer,1920x1080,ef775fbe563a0675,none,PASS,common background適用。
+TMPL-006,template,assets/generated_template/scene_006.png,SCENE-006,hybrid_scene_renderer,1920x1080,fb264c9baf628e67,none,PASS,section scene。
+TMPL-008,template,assets/generated_template/scene_008.png,SCENE-008,hybrid_scene_renderer,1920x1080,d7f4e52cf91af462,none,PASS,section scene。
+TMPL-010,template,assets/generated_template/scene_010.png,SCENE-010,hybrid_scene_renderer,1920x1080,af127adffa373fd0,none,PASS,section scene。
+TMPL-012,template,assets/generated_template/scene_012.png,SCENE-012,hybrid_scene_renderer,1920x1080,43ebefdf1205fa9e,none,PASS,条件比較を後半へ移動。
+TMPL-013,template,assets/generated_template/scene_013.png,SCENE-013,hybrid_scene_renderer,1920x1080,3dbeec404494781a,none,PASS,本人認証3ルートのlist。
+TMPL-014,template,assets/generated_template/scene_014.png,SCENE-014,hybrid_scene_renderer,1920x1080,7ffda4a117227564,none,PASS,section scene。
+TMPL-019,template,assets/generated_template/scene_019.png,SCENE-019,hybrid_scene_renderer,1920x1080,096d5ec2985a1236,none,PASS,summary scene。
+RENDER-001,rendered_scene,assets/scenes/scene_001.png,SCENE-001,hybrid_scene_renderer,1920x1080,0f1aa9d61d173f3b,none,PASS,contact sheet v2対象。
+RENDER-002,rendered_scene,assets/scenes/scene_002.png,SCENE-002,hybrid_scene_renderer,1920x1080,356f03705a366f64,none,PASS,contact sheet v2対象。
+RENDER-003,rendered_scene,assets/scenes/scene_003.png,SCENE-003,hybrid_scene_renderer,1920x1080,a51336ae38b2c1c0,none,PASS,contact sheet v2対象。
+RENDER-004,rendered_scene,assets/scenes/scene_004.png,SCENE-004,hybrid_scene_renderer,1920x1080,9a259e0870ab0d70,none,PASS,1 / 6開始。
+RENDER-005,rendered_scene,assets/scenes/scene_005.png,SCENE-005,hybrid_scene_renderer,1920x1080,ef775fbe563a0675,none,PASS,最初の実操作。
+RENDER-006,rendered_scene,assets/scenes/scene_006.png,SCENE-006,hybrid_scene_renderer,1920x1080,fb264c9baf628e67,none,PASS,contact sheet v2対象。
+RENDER-007,rendered_scene,assets/scenes/scene_007.png,SCENE-007,hybrid_scene_renderer,1920x1080,fef938fad5f88ec9,none,PASS,公式cropを使用。
+RENDER-008,rendered_scene,assets/scenes/scene_008.png,SCENE-008,hybrid_scene_renderer,1920x1080,d7f4e52cf91af462,none,PASS,contact sheet v2対象。
+RENDER-009,rendered_scene,assets/scenes/scene_009.png,SCENE-009,hybrid_scene_renderer,1920x1080,449fd211ce773e61,none,PASS,公式cropを使用。
+RENDER-010,rendered_scene,assets/scenes/scene_010.png,SCENE-010,hybrid_scene_renderer,1920x1080,af127adffa373fd0,none,PASS,contact sheet v2対象。
+RENDER-011,rendered_scene,assets/scenes/scene_011.png,SCENE-011,hybrid_scene_renderer,1920x1080,118eeddc58877fb4,none,PASS,公式cropを使用。
+RENDER-012,rendered_scene,assets/scenes/scene_012.png,SCENE-012,hybrid_scene_renderer,1920x1080,43ebefdf1205fa9e,none,PASS,条件補足。
+RENDER-013,rendered_scene,assets/scenes/scene_013.png,SCENE-013,hybrid_scene_renderer,1920x1080,3dbeec404494781a,none,PASS,本人認証3ルート。
+RENDER-014,rendered_scene,assets/scenes/scene_014.png,SCENE-014,hybrid_scene_renderer,1920x1080,7ffda4a117227564,none,PASS,section scene。
+RENDER-015,rendered_scene,assets/scenes/scene_015.png,SCENE-015,hybrid_scene_renderer,1920x1080,75a3ce96896fbe39,none,PASS,4桁入力の公式crop。
+RENDER-016,rendered_scene,assets/scenes/scene_016.png,SCENE-016,hybrid_scene_renderer,1920x1080,4d7bdea2846c0076,none,PASS,カード読み取りの公式crop。
+RENDER-017,rendered_scene,assets/scenes/scene_017.png,SCENE-017,hybrid_scene_renderer,1920x1080,760245eb6c1e9a23,none,PASS,concept image。
+RENDER-018,rendered_scene,assets/scenes/scene_018.png,SCENE-018,hybrid_scene_renderer,1920x1080,bd9a80895d3bc698,none,PASS,生体認証の公式crop。
+RENDER-019,rendered_scene,assets/scenes/scene_019.png,SCENE-019,hybrid_scene_renderer,1920x1080,6d2210170dc2209f,none,PASS,summary scene。関連動画の一般表現へ修正。
+RENDER-020,rendered_scene,assets/scenes/scene_020.png,SCENE-020,hybrid_scene_renderer,1920x1080,9a4f6db501c654dc,none,PASS,contact sheet v2対象。
+REVIEW-001,contact_sheet,work/visual_review/scene_contact_sheet_v1.png,,hybrid_scene_renderer,1740x1120,966a3a098b9c800e,none,ARCHIVED,v1の20 scene一覧。
+REVIEW-002,contact_sheet,work/visual_review/scene_contact_sheet_v2.png,,hybrid_scene_renderer,1740x1120,7fea94bdb8fec464,none,PASS,v2の20 scene一覧。
+REVIEW-003,comparison,work/visual_review/intro_v1_v2_comparison.png,,make_phase15_comparison,1312x2153,7521cf0d3d4d64f1,none,PASS,v1左とv2右の冒頭5 scene比較。
+AUDIO-010,narration_audio,audio/voicevox_kenzaki/narration_kenzaki_auto.wav,,voicevox_incremental.py,48kHz WAV,ec150286c8d76a261,none,PASS,剣崎雌雄。41セグメントを連結。最新修正はsegment 038のみ再生成。
+AUDIO-CTA-010,cta_audio,audio/voicevox_kenzaki/cta_registration_conversion_v1.wav,,episode-specific CTA override,48kHz WAV,1d21f765f5606310,none,PASS,registration_conversion_v1専用CTA。11.456秒。
+CTA-CONFIG-010,cta_config,work/cta_registration_conversion_v1.json,,episode-specific CTA override,JSON,7bb2ff3fced40388,none,PASS,config/channel_cta.jsonは変更せず、Episode 010だけで使用。説明行を110px下げた。
+CTA-010,cta_screen,work/cta_registration_conversion_v1.png,,episode-specific CTA override,1920x1080,96efb5195cd7f3d,none,PASS,次に困ったときのために。60px表示。説明行を110px下げ、右側reserved・疑似登録アイコンなし。
+CAP-010,captions,captions.srt,,build_subtitle_timeline.py,text,15f93f7e0069c910,none,PASS,VOICEVOX実測タイミング。44キュー。segment 038表示を更新。
+CAP-ASS-010,captions_ass,captions.ass,,build_subtitle_timeline.py,text,c9ccebe86b7dc4dd,none,PASS,72px字幕。動画焼き込み用。segment 038表示を更新。
+DRAFT-010,draft_video,output/draft_v1.mp4,,phase2_video.py,1920x1080,430ca10380b77bf2,none,PASS,全20scene＋registration_conversion_v1 CTA。v2比較用のbaselineとして保持。
+QA-FRAMES-010,qa_contact_sheet,work/qa_frames_draft_v1/contact_sheet.png,,draft_v1 frame extraction,1800x1223,51292f90c3ae945a,none,PASS,代表フレーム21枚。v2比較用baseline。
+DRAFT-010-V2,draft_video,output/draft_v2.mp4,,phase2_video.py,1920x1080,89bbde65d864944b,none,PASS,指定修正後のv2。SCENE-019・segment 038・CTA説明行を更新。人間全編視聴承認済み。
+QA-FRAMES-010-V2,qa_contact_sheet,work/qa_frames_draft_v2/contact_sheet.png,,draft_v2 frame extraction,1800x1223,bfbcf147a9e7ae23,none,PASS,代表フレーム21枚。SCENE-019とCTA終盤を確認しfinalへ回帰なし。
+FINAL-010,final_video,output/final.mp4,,copy_only_finalize,1920x1080,89bbde65d864944b,none,PASS,draft_v2からbyte-identical copy。再エンコードなし。
+FINAL-QA-010,final_qa,work/final_qa.json,,final_qa,JSON,5ef60701bf5ced9f,none,PASS,decode・black・silence・audio peak・字幕・visual・CTA・Fact error count 0の最終QA。
+DESC-010,publish_description,description.md,,publish metadata,text,5c4d8ae1013fead7,none,PASS,視聴者向け説明文。内部Episode番号なし。
+CHAPTERS-010,publish_chapters,chapters.md,,publish metadata,text,a2826f905b8a62d5,none,PASS,final実測タイムラインに合わせた12章。内部scene番号なし。
+HUMAN-REVIEW-010,human_approval,work/human_review.json,,human gate,JSON,c083aafb534800cc,none,PASS,draft_v2全編視聴承認、thumbnail human selected、senior_readability PASS。
+THUMB-SOURCE-010,thumbnail_source,assets/thumbnail/thumbnail_source.png,,ChatGPT human-provided source,1672x941,68a4f32a8fb27fd6,none,PASS,ユーザー指定の受領原本。内容変更なし。
+THUMB-010,thumbnail,assets/thumbnail/thumbnail.png,,thumbnail normalization,1280x720,ffa2a968e3acf41b,none,PASS,原本から比率調整と縮小のみ。指定コピー・人物・説明用ビジュアルを維持。
+THUMB-QA-010,thumbnail_qa,work/thumbnail_review/thumbnail_qa.json,,thumbnail QA,JSON,93e4fc88180c7c43,none,PASS,1280x720、2MB以内、clipping0、text omission0、face clipping0、25%可読、内部番号0。
+UPLOAD-010,youtube_upload,work/youtube_publish/upload_attempt.json,,publish_youtube.py,rU5jlU7eq3I,RECORDED,none,PASS,privateで2026-09-06 19:00 JSTへ予約。videos.insertは1回、再uploadなし。
+AI-DISCLOSURE-010,youtube_ai_disclosure,work/youtube_publish/ai_disclosure_attempt.json,,publish_youtube.py,status-only update,VERIFIED,none,PASS,containsSyntheticMedia=trueをvideos.update responseで検証。video ID不変。

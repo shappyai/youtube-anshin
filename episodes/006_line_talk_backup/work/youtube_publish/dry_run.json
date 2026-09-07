@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "api_called": false,
+  "oauth_called": false,
+  "episode": "006_line_talk_backup",
+  "final_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\006_line_talk_backup\\output\\final.mp4",
+  "thumbnail_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\006_line_talk_backup\\assets\\thumbnail\\thumbnail.png",
+  "title": "【LINE】機種変更の前に確認！トーク履歴を残すバックアップとPIN",
+  "description_bytes": 2867,
+  "tag_count": 8,
+  "tag_total_length": 43,
+  "privacy": "private",
+  "ai_disclosure": true,
+  "schedule_local": null,
+  "schedule_api": null,
+  "video_sha256": "4607BE495CE60828A4DB1B43F7E5EDFA5884A12BF046C1756787F86AD2B5D36B",
+  "existing_video_id": null,
+  "expected_api_requests": [
+    "videos.insert part=snippet,status resumable=True notifySubscribers=False status.containsSyntheticMedia",
+    "thumbnails.set",
+    "videos.list part=snippet,status"
+  ],
+  "errors": []
+}

@@ -1,0 +1,373 @@
+{
+  "version": "2.0",
+  "prompt_contract": "one_scene_full_frame_text_v2",
+  "image_count": 6,
+  "scenes": [
+    {
+      "scene_id": "SCENE-001",
+      "filename": "scene_001.png",
+      "narration": "いつも使っている会社から、「支払い情報を更新してください」というメールが届きました。会社名もロゴも見覚えがあります。これ、本物でしょうか。実は、本物かどうかをメールだけで見分けなくて大丈夫です。",
+      "main_message": "本物かどうかを、その場で当てなくていい",
+      "headline": "リンクから入らない",
+      "support_text": "公式を自分で開く",
+      "duration": 18.7,
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "text_spec": {
+        "headline": "リンクから入らない",
+        "support_text": "公式を自分で開く",
+        "placement": "calm low-detail area, upper-left preferred",
+        "style": "white Japanese type with dark blue outline, high contrast",
+        "aspect_ratio": "16:9"
+      },
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "very_slow_zoom",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Render exact Japanese text inside the image, in this order: line 1: \"リンクから入らない\" and line 2: \"公式を自分で開く\". Spell it correctly: no typos, no missing characters, no extra characters, no mojibake, no unnatural kanji substitution. Preserve the declared line order and do not merge or reorder lines. Place the text in a calm, low-detail area, upper-left preferred. Use white Japanese type with a dark blue outline, high contrast, large and legible. The main headline must stay readable when the image is scaled down to a smartphone thumbnail. Do not clip the text, do not let it touch the image edges, and do not place it over the main subject or important objects. Keep the bottom 180 pixels (subtitle-safe area) free of text and content.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-005",
+      "filename": "scene_005.png",
+      "narration": "1つ目です。支払い情報の更新です。",
+      "main_message": "急がされても、公式側で確認",
+      "headline": "支払い方法の更新",
+      "support_text": "1 / 5　通販・普段使うアプリ",
+      "duration": 3.3,
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "text_spec": {
+        "headline": "支払い方法の更新",
+        "support_text": "1 / 5　通販・普段使うアプリ",
+        "placement": "calm low-detail area, upper-left preferred",
+        "style": "white Japanese type with dark blue outline, high contrast",
+        "aspect_ratio": "16:9"
+      },
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "very_slow_zoom",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Render exact Japanese text inside the image, in this order: line 1: \"支払い方法の更新\" and line 2: \"1 / 5　通販・普段使うアプリ\". Spell it correctly: no typos, no missing characters, no extra characters, no mojibake, no unnatural kanji substitution. Preserve the declared line order and do not merge or reorder lines. Place the text in a calm, low-detail area, upper-left preferred. Use white Japanese type with a dark blue outline, high contrast, large and legible. The main headline must stay readable when the image is scaled down to a smartphone thumbnail. Do not clip the text, do not let it touch the image edges, and do not place it over the main subject or important objects. Keep the bottom 180 pixels (subtitle-safe area) free of text and content.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-010",
+      "filename": "scene_010.png",
+      "narration": "2つ目です。再配達のお願いです。",
+      "main_message": "SMSとは別の入口から確認",
+      "headline": "再配達のお願い",
+      "support_text": "2 / 5　宅配・SMS",
+      "duration": 3.1,
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "text_spec": {
+        "headline": "再配達のお願い",
+        "support_text": "2 / 5　宅配・SMS",
+        "placement": "calm low-detail area, upper-left preferred",
+        "style": "white Japanese type with dark blue outline, high contrast",
+        "aspect_ratio": "16:9"
+      },
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "very_slow_zoom",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Render exact Japanese text inside the image, in this order: line 1: \"再配達のお願い\" and line 2: \"2 / 5　宅配・SMS\". Spell it correctly: no typos, no missing characters, no extra characters, no mojibake, no unnatural kanji substitution. Preserve the declared line order and do not merge or reorder lines. Place the text in a calm, low-detail area, upper-left preferred. Use white Japanese type with a dark blue outline, high contrast, large and legible. The main headline must stay readable when the image is scaled down to a smartphone thumbnail. Do not clip the text, do not let it touch the image edges, and do not place it over the main subject or important objects. Keep the bottom 180 pixels (subtitle-safe area) free of text and content.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-016",
+      "filename": "scene_016.png",
+      "narration": "3つ目です。カードの利用確認です。",
+      "main_message": "公式アプリや明細から確認",
+      "headline": "カードの利用確認",
+      "support_text": "3 / 5　通知が本物でも、入口は自分で",
+      "duration": 3.3,
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "text_spec": {
+        "headline": "カードの利用確認",
+        "support_text": "3 / 5　通知が本物でも、入口は自分で",
+        "placement": "calm low-detail area, upper-left preferred",
+        "style": "white Japanese type with dark blue outline, high contrast",
+        "aspect_ratio": "16:9"
+      },
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "very_slow_zoom",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Render exact Japanese text inside the image, in this order: line 1: \"カードの利用確認\" and line 2: \"3 / 5　通知が本物でも、入口は自分で\". Spell it correctly: no typos, no missing characters, no extra characters, no mojibake, no unnatural kanji substitution. Preserve the declared line order and do not merge or reorder lines. Place the text in a calm, low-detail area, upper-left preferred. Use white Japanese type with a dark blue outline, high contrast, large and legible. The main headline must stay readable when the image is scaled down to a smartphone thumbnail. Do not clip the text, do not let it touch the image edges, and do not place it over the main subject or important objects. Keep the bottom 180 pixels (subtitle-safe area) free of text and content.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-020",
+      "filename": "scene_020.png",
+      "narration": "4つ目です。料金が未払いです。",
+      "main_message": "支払いも公式サイトで確認",
+      "headline": "料金が未払いです",
+      "support_text": "4 / 5　携帯会社・通信料金",
+      "duration": 2.9,
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "text_spec": {
+        "headline": "料金が未払いです",
+        "support_text": "4 / 5　携帯会社・通信料金",
+        "placement": "calm low-detail area, upper-left preferred",
+        "style": "white Japanese type with dark blue outline, high contrast",
+        "aspect_ratio": "16:9"
+      },
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "very_slow_zoom",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Render exact Japanese text inside the image, in this order: line 1: \"料金が未払いです\" and line 2: \"4 / 5　携帯会社・通信料金\". Spell it correctly: no typos, no missing characters, no extra characters, no mojibake, no unnatural kanji substitution. Preserve the declared line order and do not merge or reorder lines. Place the text in a calm, low-detail area, upper-left preferred. Use white Japanese type with a dark blue outline, high contrast, large and legible. The main headline must stay readable when the image is scaled down to a smartphone thumbnail. Do not clip the text, do not let it touch the image edges, and do not place it over the main subject or important objects. Keep the bottom 180 pixels (subtitle-safe area) free of text and content.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    },
+    {
+      "scene_id": "SCENE-024",
+      "filename": "scene_024.png",
+      "narration": "5つ目です。公的なお知らせです。",
+      "main_message": "名前の重さに急かされない",
+      "headline": "公的なお知らせ",
+      "support_text": "5 / 5　役所・公的機関を装う連絡",
+      "duration": 3.1,
+      "render_mode": "gpt_image",
+      "text_render_mode": "imagegen_native",
+      "text_spec": {
+        "headline": "公的なお知らせ",
+        "support_text": "5 / 5　役所・公的機関を装う連絡",
+        "placement": "calm low-detail area, upper-left preferred",
+        "style": "white Japanese type with dark blue outline, high contrast",
+        "aspect_ratio": "16:9"
+      },
+      "text_qa": {
+        "status": "pending",
+        "retry_count": 0,
+        "fallback": null
+      },
+      "fit_mode": "full_bleed",
+      "background_fill": "none",
+      "animation_default": "very_slow_zoom",
+      "image_prompt": "Generate exactly ONE standalone 16:9 image for this scene. Do not create a collage, storyboard, contact sheet, split panel, or multiple scenes. Create an edge-to-edge full-frame background for a 1920x1080 Japanese YouTube educational video for viewers aged 50 to 70. Calm, trustworthy white, blue and green palette. Strong visual hierarchy, one main message, one large focal point, readable on a smartphone, uncluttered. Do not leave a blank white half or a large empty white area. A text area may be quiet, but it must remain a real background that continues to the screen edges. No presentation card layout unless explicitly required by this scene. Reserve the bottom 180 pixels as a subtitle-safe area. No tiny text, no fake official UI, no invented government logos, no unnecessary decoration. Scene direction: Render exact Japanese text inside the image, in this order: line 1: \"公的なお知らせ\" and line 2: \"5 / 5　役所・公的機関を装う連絡\". Spell it correctly: no typos, no missing characters, no extra characters, no mojibake, no unnatural kanji substitution. Preserve the declared line order and do not merge or reorder lines. Place the text in a calm, low-detail area, upper-left preferred. Use white Japanese type with a dark blue outline, high contrast, large and legible. The main headline must stay readable when the image is scaled down to a smartphone thumbnail. Do not clip the text, do not let it touch the image edges, and do not place it over the main subject or important objects. Keep the bottom 180 pixels (subtitle-safe area) free of text and content.",
+      "official_asset": [],
+      "official_asset_slot": null,
+      "safe_area": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "content": [
+          0,
+          0,
+          1920,
+          900
+        ]
+      },
+      "bottom_subtitle_reserved": 180,
+      "asset_contract": {
+        "format": "PNG",
+        "width": 1920,
+        "height": 1080,
+        "one_scene_per_image": true,
+        "full_frame": true
+      },
+      "must_not_generate": [
+        "collage, storyboard, contact sheet, split panel, grid, or multiple scenes in one image",
+        "blank white half or large empty white canvas",
+        "presentation card layout unless explicitly required by the scene",
+        "official UI or app screen",
+        "real or invented government logo",
+        "fake screenshot",
+        "tiny or garbled Japanese text",
+        "personal information",
+        "content in the bottom 180px subtitle area"
+      ],
+      "status": "image_required"
+    }
+  ]
+}

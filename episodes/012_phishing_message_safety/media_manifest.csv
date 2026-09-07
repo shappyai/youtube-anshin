@@ -1,0 +1,31 @@
+scene_id,asset_path,use,source_or_prompt,status,notes
+SCENE-001,assets/generated_ai/scene_001.png,opening concept,ImageGen native single scene,UPLOADED_SCHEDULED,exact text QA PASS; no logo/official UI; normalized 1920x1080
+SCENE-002,template,core answer,renderer template,UPLOADED_SCHEDULED,large exact text; semantic icon; no URL
+SCENE-003,template,chapter map,renderer template,UPLOADED_SCHEDULED,5 items; 52px minimum in list
+SCENE-004,template,phishing definition,renderer template,UPLOADED_SCHEDULED,semantic lock icon; no fake service UI
+SCENE-005,assets/generated_ai/scene_005.png,case 1 chapter door,ImageGen native single scene,UPLOADED_SCHEDULED,exact text QA PASS; abstract payment concept; no real service
+SCENE-006,template,explanatory payment concept,semantic explanatory scene,UPLOADED_SCHEDULED,no fictional UI claim; no real address/URL/phone/QR/name/logo
+SCENE-007,quote:exact_from_official_pdf,official consultation example,https://www.kokusen.go.jp/mimamori/pdf/shinsen550.pdf,CAPTURED_OFFICIAL_QUOTE,2026-09-06 exact short quote transcribed from the official PDF bullet; no OCR fallback or partial extracted text; no personal data
+SCENE-008,renderer:semantic_operation,official app or site confirmation,https://www.kokusen.go.jp/mimamori/mj_mailmag/mj-shinsen550.html,SEMANTIC_OPERATION_VISUAL,close the message then open the official app yourself; no neutral phone frame; no personal data
+SCENE-009,template,case 1 summary,renderer template,UPLOADED_SCHEDULED,three large actions
+SCENE-010,assets/generated_ai/scene_010.png,case 2 chapter door,ImageGen native single scene,UPLOADED_SCHEDULED,exact text QA PASS; abstract delivery concept; no real provider
+SCENE-011,template,explanatory delivery concept,semantic explanatory scene,UPLOADED_SCHEDULED,no fictional UI claim; no tracking number/URL/phone/QR/provider logo
+SCENE-012,assets/official/scene_012_antiphishing_delivery_flow.png,official delivery warning,https://www.antiphishing.jp/report/guideline/consumer_guideline2026.html,CAPTURED_OFFICIAL_CROP,Anti-Phishing Council official delivery SMS to fake-site/unauthorized-app flow; official public material only
+SCENE-013,renderer:safe_entry_options_centered,safe delivery entry points,https://www.post.japanpost.jp/notification/notice/fraud-mail.html,SEMANTIC_CENTERED_VISUAL,three safe entry cards re-centered; neutral phone/browser frame removed; no personal data
+SCENE-014,template,case 2 summary,https://www.post.japanpost.jp/notification/notice/fraud-mail.html,UPLOADED_SCHEDULED,summary only; official asset not required
+SCENE-015,template,midroll CTA,channel_common_cta,UPLOADED_SCHEDULED,Episode 011 wording; no pseudo subscribe
+SCENE-016,assets/generated_ai/scene_016.png,case 3 chapter door,ImageGen native single scene,UPLOADED_SCHEDULED,exact text QA PASS; abstract card concept; no real provider
+SCENE-017,template,explanatory card-notification concept,semantic explanatory scene,UPLOADED_SCHEDULED,no fictional UI claim; no card number/ID/URL/QR/logo
+SCENE-018,assets/official/scene_018_jcb_warning.png,official card warning,https://www.jcb.co.jp/security/phishing/,CAPTURED_OFFICIAL_CROP,JCB official phishing warning illustration; no personal data
+SCENE-019,template,case 3 summary,renderer template,UPLOADED_SCHEDULED,official app and statement conclusion
+SCENE-020,assets/generated_ai/scene_020.png,case 4 chapter door,ImageGen native single scene,UPLOADED_SCHEDULED,exact text QA PASS; abstract carrier billing concept; no provider
+SCENE-021,template,explanatory carrier-billing concept,semantic explanatory scene,UPLOADED_SCHEDULED,no fictional UI claim; no contract/account/provider data
+SCENE-022,assets/official/scene_022_softbank_warning.png,official carrier warning,https://www.softbank.jp/mobile/support/protect/spam/,CAPTURED_OFFICIAL_CROP,SoftBank official warning headline crop; recipient price date and other personal data removed
+SCENE-023,template,case 4 summary,renderer template,UPLOADED_SCHEDULED,normal confirmation and post-input response
+SCENE-024,assets/generated_ai/scene_024.png,case 5 chapter door,ImageGen native single scene,UPLOADED_SCHEDULED,exact text QA PASS; no government mark/provider name
+SCENE-025,template,explanatory public-notice concept,semantic explanatory scene,UPLOADED_SCHEDULED,no fictional UI claim; no agency name/mark/URL/phone/QR
+SCENE-026,assets/official/scene_026_nta_warning.png,official public agency warning,https://www.nta.go.jp/information/attention/attention.htm; https://www.caa.go.jp/notice/statement/horii/044840.html,CAPTURED_OFFICIAL_CROP,NTA official warning banner selected as one large fact; no QR or personal data
+SCENE-027,template,case 5 summary,renderer template,UPLOADED_SCHEDULED,agency-specific confirmation caveat
+SCENE-028,template,common three-step checklist,renderer template,UPLOADED_SCHEDULED,large list; no tiny source text
+SCENE-029,template,post-click response,renderer template,UPLOADED_SCHEDULED,compare layout; input-type branches; no personal data
+SCENE-030,template,final summary,renderer template,UPLOADED_SCHEDULED,three large actions and consultation route

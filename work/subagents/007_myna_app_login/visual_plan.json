@@ -1,0 +1,837 @@
+{
+  "episode_id": "007",
+  "episode_slug": "myna_app_login",
+  "visual_plan_version": "1.0",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "section_label": "はじめに",
+      "purpose": "導入（problem-first・結論提示）",
+      "narration_range": {"start_segment": 1, "end_segment": 3},
+      "render_mode": "template",
+      "device": "template",
+      "layout": "layout_01_hero",
+      "main_visual": "layout_01_hero。落ち着いた配色の背景に、大きな「？」シンボル＋大見出し「ログインできない？」を1つ置き、直下に「あわてずに、順番に確認していきましょう。」の補足1行。1画面1メッセージ。マイナアプリの実UI・ロゴ・政府マークは描かない（テンプレート描画のみ）。",
+      "overlay_text": {
+        "headline": "ログインできない？",
+        "support_text": "あわてずに、順番に確認していきましょう。",
+        "items": []
+      },
+      "safe_area": "見出しは中央（x=300〜1620・y=260〜560）、補足はその下（y=600〜760）。下部180px（y≥900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（テンプレート描画のみ・実画面なし）。",
+      "fallback": "該当なし（テンプレートで完結。素材取得不要）。",
+      "tv_readability": {
+        "headline_readable": "PASS",
+        "body_font_sufficient": "PASS",
+        "official_crop_readable": "PASS",
+        "too_many_text_lines": "PASS",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "冒頭0〜5秒で困りごとを提示し、seg 4（今日確認する5つ）へつなぐ。見出しは100〜140px級でテレビでも読めるサイズにする。"
+    },
+    {
+      "scene_id": 2,
+      "section_label": "はじめに（今日確認する5つ）",
+      "purpose": "一覧（冒頭の5項目提示）",
+      "narration_range": {"start_segment": 4, "end_segment": 10},
+      "render_mode": "template",
+      "device": "template",
+      "layout": "layout_02_list",
+      "main_visual": "「今日、確認する5つ」の番号付き5項目リスト（layout_02_list）。1行1項目・行間を広くとる（50〜70代向け）。番号表現はまとめ（scene 21）と完全に統一する。マイナアプリの実UI・ロゴは描かない。",
+      "overlay_text": {
+        "headline": "今日、確認する5つ",
+        "support_text": "どこで止まっているかで、見る場所が変わります。",
+        "items": [
+          "スマホが対応しているか",
+          "カードを読み取れない場合",
+          "暗証番号で止まる場合",
+          "カードや電子証明書の期限",
+          "それでもダメなら、再設定と公式の窓口"
+        ]
+      },
+      "safe_area": "リストは中央カラム（x=240〜1680）、y=230〜820に収め、項目間の行間を広くとる（1項目1行・長い項目は最大2行）。下部180px（y≥900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（テンプレート描画のみ・実画面なし）。",
+      "fallback": "該当なし（テンプレートで完結）。",
+      "tv_readability": {
+        "headline_readable": "PASS",
+        "body_font_sufficient": "PASS",
+        "official_crop_readable": "PASS",
+        "too_many_text_lines": "REVIEW",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "5項目+見出し+補足で縦の収まりが厳しいため、項目文は1行に短縮した文案を使用し、行間は45px以上確保する（REVIEW→人間のcontact sheet確認）。項目の内容・順・番号表現はscene 21（まとめ）と完全一致させる。seg 5〜9の読み上げに合わせて項目ごとに強調表示を切り替えてもよい。"
+    },
+    {
+      "scene_id": 3,
+      "section_label": "1 / 5 スマホが対応しているか確認",
+      "purpose": "セクション扉（1/5）",
+      "narration_range": {"start_segment": 11, "end_segment": 11},
+      "render_mode": "template",
+      "device": "template",
+      "layout": "layout_08_section",
+      "main_visual": "セクション扉（layout_08_section相当）。ImageGenで背景と見出し文字を同時生成（imagegen_native）: 大見出し「スマホが、対応しているか」＋補足1行「まずは、端末とアプリの準備から。」。見出し「1 / 5」は上部に配置。マイナアプリの実UI・ロゴ・政府マークは生成しない。1920×1080 full-frameで一枚完結（collage・分割パネル禁止）。",
+      "overlay_text": {
+        "headline": "スマホが、対応しているか",
+        "support_text": "まずは、端末とアプリの準備から。",
+        "items": []
+      },
+      "safe_area": "見出しは中央・やや上寄り（y=200〜600）に配置。下部180px（y≥900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "imagegen_native",
+      "fit_mode": "full_bleed",
+      "personal_data_risk": "個人情報なし（概念的な背景のみ。実UI・ロゴ・政府マークを生成しない）。",
+      "fallback": "imagegen_nativeの文字QA FAIL→1回だけ再生成→2回目FAILはpil_overlayへfallback（既存layout_08_sectionの正確な文字後描画で完結）。",
+      "tv_readability": {
+        "headline_readable": "要確認",
+        "body_font_sufficient": "要確認",
+        "official_crop_readable": "PASS",
+        "too_many_text_lines": "PASS",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "template render_modeのままimagegen_nativeで背景＋文字を生成する（セクション扉はimagegen_nativeの既定対象）。生成文字のQA（scripts/text_qa.py＋Image Agent目視: 指定文言一致・誤字脱字・行順・切れ・はみ出し・重なり・コントラスト・縮小時可読性）を実施してから採用。"
+    },
+    {
+      "scene_id": 4,
+      "section_label": "1 / 5 スマホが対応しているか確認",
+      "purpose": "実演（公式・動作環境）",
+      "narration_range": {"start_segment": 12, "end_segment": 13},
+      "render_mode": "official",
+      "device": "official_web",
+      "layout": "layout_04_text_official",
+      "main_visual": "2段階表示（SHOT-01）: 最初に公式の動作環境ページ全体を2〜4秒（場所を理解させるためだけ）→ 説明時は「対応OS」（iOS 16.4以上／Android 11以降かつNFC）の記載帯を大きくcropして右スロット（x=1000〜1840）に配置。左スロットに主見出し＋補足2行以内。crop内の長文は転記せず、主見出し「対応OSと、カードを読み取る機能」と補足のみpil_overlayで表示。",
+      "overlay_text": {
+        "headline": "対応OSと、カードを読み取る機能",
+        "support_text": "iPhoneは「iOS 16.4以上」。Androidは「Android 11以降」でNFC搭載（2026年8月時点の公式案内・撮影時に再確認）。",
+        "items": []
+      },
+      "safe_area": "公式cropは右スロット（x=1000〜1840・y=180〜880）で、下部180px（y≥900）と重ならないようcrop位置を上寄りに調整。説明文は左スロット（x=100〜900）。",
+      "animation": "static",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "none",
+      "official_source": {
+        "urls": ["https://services.digital.go.jp/mynaapp/system-requirements/"],
+        "source_id": "SRC-002",
+        "verified_at": "2026-09-03",
+        "crop_guidance": "「iOS 16.4以上」「Android 11以降」「NFC」の記載を含む最小範囲を1行ずつ大きくcrop。全体表示は2〜4秒のみ。crop後の1920×1080 frameで本文が読めることを実測してから採用（全体を小さく中央に置くだけは禁止）。",
+        "human_check": "撮影時に公式ページの本文・表示を人間が最終確認"
+      },
+      "personal_data_risk": "公開公式ページのcropであり個人情報なし。crop範囲にユーザー情報が入らないことを確認。",
+      "fallback": "実画面が取得できない場合は公式保存HTML由来の引用カード（assets/official/mynaapp_system_requirements_fallback.png 候補）で代替。",
+      "tv_readability": {
+        "headline_readable": "PASS",
+        "body_font_sufficient": "REVIEW",
+        "official_crop_readable": "要確認",
+        "too_many_text_lines": "REVIEW",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "補足文がiOS・Android・NFC・確認日の4情報を含むため長め。TV表示では「iOS 16.4以上／Android 11以降＋NFC」を強調行とし、確認日注記は字幕または説明欄へ回す（REVIEW→人間確認）。重要数字（16.4・11）はpil_overlayで大きく表示。公式2段階表示（全体2〜4秒→crop）を適用。"
+    },
+    {
+      "scene_id": 5,
+      "section_label": "1 / 5 スマホが対応しているか確認",
+      "purpose": "実演（公式FAQ・アプリ最新版と通常モード）",
+      "narration_range": {"start_segment": 14, "end_segment": 16},
+      "render_mode": "official",
+      "device": "official_web",
+      "layout": "layout_04_text_official",
+      "main_visual": "2段階表示（SHOT-02）: 公式FAQ（ログインできない記事）のページ全体を2〜4秒 → 説明時は「プライベートブラウズ/シークレットモードでは進まないことがある」「アプリを最新版に更新」の記載帯を大きくcropして右スロットへ。左スロットに主見出し＋補足。FAQ本文は全文転記せず、要点だけpil_overlayで示す。",
+      "overlay_text": {
+        "headline": "アプリの最新版と、通常モード",
+        "support_text": "消して入れ直す前に、アップデート確認。シークレットモードでは進まないことがあります。",
+        "items": []
+      },
+      "safe_area": "公式cropは右スロット（x=1000〜1840・y=180〜880）。下部180px（y≥900）は字幕専用帯として空け、crop範囲を上寄りに調整。",
+      "animation": "static",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "none",
+      "official_source": {
+        "urls": ["https://support.mynaapp.digital.go.jp/hc/ja"],
+        "source_id": "SRC-005",
+        "verified_at": "2026-09-03",
+        "crop_guidance": "「ログインできない」FAQ記事（EDZ207）内の「シークレットモード・プライベートブラウズを通常モードで開き直す」「端末再起動・動作環境の確認」の記載帯を最小範囲でcrop。全体表示は2〜4秒のみ。表示中のボタン名・リンクは読み取れる大きさのcropを選ぶ。",
+        "human_check": "撮影時に該当FAQ記事の本文・表示を人間が最終確認"
+      },
+      "personal_data_risk": "公開FAQページのcropであり個人情報なし。crop範囲にログイン情報・アカウント情報が入らないことを確認。",
+      "fallback": "公式保存HTML由来の引用カード（assets/official/mynaapp_faq_login_fallback.png 候補）で代替。",
+      "tv_readability": {
+        "headline_readable": "PASS",
+        "body_font_sufficient": "PASS",
+        "official_crop_readable": "要確認",
+        "too_many_text_lines": "PASS",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "「アップデート確認」と「通常モードで開き直す」の2つの動作が同一sceneにあるため、crop内の対象行をナレーションに合わせて切り替えるか、2枚のcropを順に出す。公式2段階表示（全体2〜4秒→crop）を適用し、crop後の読みやすさを実測。"
+    },
+    {
+      "scene_id": 6,
+      "section_label": "1 / 5 スマホが対応しているか確認",
+      "purpose": "注意（端末ロック必須）",
+      "narration_range": {"start_segment": 17, "end_segment": 18},
+      "render_mode": "template",
+      "device": "template",
+      "layout": "layout_06_caution",
+      "main_visual": "注意カード（layout_06_caution、落ち着いた配色）: 「端末のロック設定が必須」。PIN・顔認証・指紋認証の3つをアイコン（形）＋文字で並べ、色だけで区別しない。端末ロック画面の実写・実機は使わない（必要ない）。",
+      "overlay_text": {
+        "headline": "端末のロック設定が必須",
+        "support_text": "PIN・顔認証・指紋認証。公式が必須と案内しています。",
+        "items": []
+      },
+      "safe_area": "カードは中央・上部（x=240〜1680・y=220〜700）。下部180px（y≥900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（テンプレート描画のみ・実画面なし。実際のロック画面・生体情報を映さない）。",
+      "fallback": "該当なし（テンプレートで完結）。",
+      "tv_readability": {
+        "headline_readable": "PASS",
+        "body_font_sufficient": "PASS",
+        "official_crop_readable": "PASS",
+        "too_many_text_lines": "PASS",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "「PIN・顔認証・指紋認証」は3項目1行でまとめ（箇条書きにしない）。端末ロックは公式必須という事実を淡々と見せる。"
+    },
+    {
+      "scene_id": 7,
+      "section_label": "2 / 5 カードを読み取れない場合",
+      "purpose": "セクション扉（2/5・概念）",
+      "narration_range": {"start_segment": 19, "end_segment": 19},
+      "render_mode": "gpt_image",
+      "device": "gpt_image",
+      "layout": "layout_03_visual_text",
+      "main_visual": "GPT full-frame概念背景（IMG-001）: スマートフォン（画面はぼかし/白飛びでUIを判別させない）とマイナンバーカード（表裏の個人情報・写真・番号が読めない角度・デフォルメのみ）を、カードの上にスマホの背面上部を合わせる構図で配置。NFCの読み取りを表す波紋や位置を示す光/矢印は概念的に描く。マイナアプリ/マイナポータルの実UI・ロゴ・政府マーク・QRコード・番号風の文字列は一切生成しない。左半分（x≤960）は文字用の静かな余白（真っ白にしない）。見出し「カードを、読み取る」＋補足「スマホとカードの、向きと場所。」をImageGenで同時生成（imagegen_native）。1920×1080一枚で完結（collage・分割パネル禁止）。",
+      "overlay_text": {
+        "headline": "カードを、読み取る",
+        "support_text": "スマホとカードの、向きと場所。",
+        "items": []
+      },
+      "safe_area": "下部180px（y≥900）は字幕専用帯として空ける。見出しは上部60%・左半分（x≤960）の余白に配置し、カード・スマホの図と重ならないようにする。見出し「2 / 5」は上部に配置。",
+      "animation": "very_slow_zoom",
+      "text_render_mode": "imagegen_native",
+      "fit_mode": "full_bleed",
+      "image_prompt_id": "IMG-001",
+      "personal_data_risk": "AI生成の概念背景のみで個人情報なし。実カード・実際の氏名/生年月日/住所/顔写真/番号・QRコード・暗証番号を一切描かない（カードは情報が読めないイラスト表現に限定）。",
+      "fallback": "概念イラストのため公式素材による代替はしない。文字QA FAIL→1回だけ再生成→2回目FAILはpil_overlay（背景のみ生成→正確な文字を後乗せ）へfallback。背景生成自体の不備はprompt修正で最大1回再生成。",
+      "tv_readability": {
+        "headline_readable": "要確認",
+        "body_font_sufficient": "要確認",
+        "official_crop_readable": "PASS",
+        "too_many_text_lines": "PASS",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "GPT画像2枚のうちの1枚（SHOT-03は撮影ではなく概念扉）。1scene=1枚=1出力パス（assets/generated_ai/scene_007.png）。imagegen_nativeで背景＋短い文言（1〜2行）を同時生成し、文字QA（text_qa.py＋Image Agent目視）を実施。読み取り位置は「背面上部」を概念的に示すが、実UI・実位置の断定イラストにはしない（「必ず」の位置はないという台本方針）。"
+    },
+    {
+      "scene_id": 8,
+      "section_label": "2 / 5 カードを読み取れない場合",
+      "purpose": "実演（iPhoneの読み取り位置）",
+      "narration_range": {"start_segment": 20, "end_segment": 21},
+      "render_mode": "official",
+      "device": "iphone",
+      "layout": "layout_04_text_official",
+      "main_visual": "2段階表示（SHOT-04）: iPhone実機での読み取り実演を優先（テスト用カードまたは個人情報を完全に隠した状態のみ）。カードの中央にiPhone本体上部（上端・カメラ付近）を合わせた状態をアップでcropし、読み取り位置を線/矢印（pil_overlay）で強調。最初に全体（スマホとカードの位置関係）を2〜4秒見せてから説明時にアップへ。実演を取得できない場合は、公式「読み取りかた」の図解ページを右スロットに大きくcrop。",
+      "overlay_text": {
+        "headline": "iPhoneは、本体の上部",
+        "support_text": "上端のカメラのあたりを、カードの中央に。",
+        "items": []
+      },
+      "safe_area": "実演アップ/公式cropは右スロット（x=1000〜1840）。下部180px（y≥900）は字幕専用帯とし、カード・スマホの重要部分が字幕に覆われないようcrop位置を上寄りに。",
+      "animation": "static",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "none",
+      "official_source": {
+        "urls": ["https://www.jpki.go.jp/"],
+        "source_id": "SRC-007",
+        "verified_at": "2026-09-03",
+        "crop_guidance": "「iPhoneは本体上部（上端・カメラ付近）をカード中央に密着」の図解＋説明文を最小範囲でcrop。実演動画素材の場合はiPhone上端とカード中央の関係がわかるフレームを使用。全体表示は2〜4秒のみ、説明時は位置関係のアップ。",
+        "human_check": "2026-09-03時点はweb検索要約のため、撮影時に公式「読み取りかた」ページの図解・本文を人間が最終確認（要確認）"
+      },
+      "personal_data_risk": "読み取り実演はテスト用カードまたは個人情報を完全に隠した状態のみ。本物のマイナンバー・氏名・生年月日・住所・顔写真・カード表裏・QRコード・暗証番号を絶対に映さない。実機のApple ID・アカウント表示はモザイクまたは見切らせる。",
+      "fallback": "実機・テスト用カードが用意できない場合は、公式「読み取りかた」図解のcropまたは公式保存HTML由来の引用カード（assets/official/mynaapp_read_iphoneposition_fallback.png 候補）で代替。",
+      "tv_readability": {
+        "headline_readable": "PASS",
+        "body_font_sufficient": "PASS",
+        "official_crop_readable": "要確認",
+        "too_many_text_lines": "PASS",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "公式2段階表示（全体2〜4秒→位置関係のアップcrop）を適用。強調線/矢印は中央寄りに配置し、重要な位置関係（上端カメラ付近×カード中央）を1メッセージで伝える。crop後の1920×1080 frameで可読性を実測。"
+    }
+,
+    {
+      "scene_id": 9,
+      "section_label": "2 / 5 カードを読み取れない場合",
+      "purpose": "実演（Androidの読み取り位置）",
+      "narration_range": {"start_segment": 22, "end_segment": 22},
+      "render_mode": "official",
+      "device": "android_phone",
+      "layout": "layout_04_text_official",
+      "main_visual": "2段階表示（SHOT-05）: Android実機での読み取り実演を優先（NFC読み取りはエミュレータでは成立しないため実機必須・テスト端末）。「機種によって位置が少し違う」ことを示すため、背面の該当エリアを指し示す実演のアップ。最初に全体（スマホ背面とカードの位置関係）を2〜4秒見せ、説明時に背面とカードの接触部分を大きくcrop。実演を取得できない場合は公式の読み取り位置解説（背面上部をぴったり合わせる）の図解cropで代替。",
+      "overlay_text": {
+        "headline": "Androidは、背面のあたり",
+        "support_text": "機種によって位置が違います。少しずつ動かして試します。",
+        "items": []
+      },
+      "safe_area": "実演アップ/公式cropは右スロット（x=1000〜1840）。下部180px（y≥900）は字幕専用帯とし、重要部分が覆われないようcrop位置を上寄りに。",
+      "animation": "static",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "none",
+      "official_source": {
+        "urls": ["https://services.digital.go.jp/mynaapp/register/", "https://www.jpki.go.jp/"],
+        "source_id": "SRC-003 / SRC-007",
+        "verified_at": "2026-09-03",
+        "crop_guidance": "「マイナンバーカードの上にスマートフォン背面上部をぴったりと合わせる」の公式記載・図解を最小範囲でcrop。Androidの機種別位置は公式で一律に断定していないため、cropは共通の「背面上部」案内に限定し、機種差はナレーションで補う。全体表示は2〜4秒のみ。",
+        "human_check": "撮影時に公式ページの図解・本文を人間が最終確認（要確認）"
+      },
+      "personal_data_risk": "読み取り実演はテスト用カードまたは個人情報を完全に隠した状態のみ。本物のマイナンバー・氏名・生年月日・住所・顔写真・カード表裏・QRコード・暗証番号を絶対に映さない。Android端末に表示されるGoogle/端末アカウント情報はモザイクまたは見切らせる。",
+      "fallback": "実機が用意できない場合は公式「読み取り位置」図解のcropまたは公式保存HTML由来の引用カード（assets/official/mynaapp_read_androidposition_fallback.png 候補）で代替。",
+      "tv_readability": {
+        "headline_readable": "PASS",
+        "body_font_sufficient": "PASS",
+        "official_crop_readable": "要確認",
+        "too_many_text_lines": "PASS",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "公式2段階表示（全体2〜4秒→crop）を適用。「機種によって少し違う」という不確実性を台本どおり留保し、位置を断定する見せ方をしない（「必ず」なし）。crop後の1920×1080 frameで可読性を実測。"
+    },
+    {
+      "scene_id": 10,
+      "section_label": "2 / 5 カードを読み取れない場合",
+      "purpose": "注意（読み取りの4つの注意）",
+      "narration_range": {"start_segment": 23, "end_segment": 28},
+      "render_mode": "template",
+      "device": "template",
+      "layout": "layout_06_caution",
+      "main_visual": "注意カード（layout_06_caution）: 読み取りがうまくいかないときの4項目を、アイコン（形）＋短い文字で1行1項目ずつ表示（動かさない／ケースを外す／金属の机を避ける／充電ケーブルを外す）。補足の「『必ず』の位置はありません」を下部に1行。実画面・実写は使わない（概念図のアイコンで受ける）。",
+      "overlay_text": {
+        "headline": "読み取りの、4つの注意",
+        "support_text": "「必ず」の位置はありません。",
+        "items": [
+          "読み取り中は、カードを動かさない",
+          "厚いケース・手帳型ケース・リングは外す",
+          "金属の机の上は避ける",
+          "充電ケーブルは外す"
+        ]
+      },
+      "safe_area": "カードは中央・上部（x=240〜1680・y=220〜760）。4項目は1行1つ・行間45px以上。下部180px（y≥900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（テンプレート描画のみ・実画面なし）。",
+      "fallback": "該当なし（テンプレートで完結）。",
+      "tv_readability": {
+        "headline_readable": "PASS",
+        "body_font_sufficient": "PASS",
+        "official_crop_readable": "PASS",
+        "too_many_text_lines": "REVIEW",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "4項目+見出し+補足で文字量が多いため、項目は必ず1行に短縮（REVIEW→人間のcontact sheet確認）。seg 23〜28の長いナレーションの間、項目ごとのハイライト表示をナレーションに合わせて切り替える。ケース・リング・充電ケーブルはアイコンで視覚化（色だけで区別しない）。"
+    },
+    {
+      "scene_id": 11,
+      "section_label": "3 / 5 暗証番号で止まる場合",
+      "purpose": "セクション扉（3/5）",
+      "narration_range": {"start_segment": 29, "end_segment": 29},
+      "render_mode": "template",
+      "device": "template",
+      "layout": "layout_08_section",
+      "main_visual": "セクション扉（layout_08_section相当）。ImageGenで背景と見出し文字を同時生成（imagegen_native）: 大見出し「暗証番号で、止まる」＋補足1行「使うのは、数字4桁。」。「3 / 5」は上部に配置。暗証番号の入力画面・数字列・実UIは生成しない（「数字4桁」という文字情報のみ）。1920×1080 full-frameで一枚完結。",
+      "overlay_text": {
+        "headline": "暗証番号で、止まる",
+        "support_text": "使うのは、数字4桁。",
+        "items": []
+      },
+      "safe_area": "見出しは中央・やや上寄り（y=200〜600）。下部180px（y≥900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "imagegen_native",
+      "fit_mode": "full_bleed",
+      "personal_data_risk": "個人情報なし（概念的背景のみ。PIN入力画面・数字列・実UI・ロゴ・政府マークを生成しない）。",
+      "fallback": "imagegen_nativeの文字QA FAIL→1回だけ再生成→2回目FAILはpil_overlayへfallback（既存layout_08_sectionの正確な文字後描画で完結）。",
+      "tv_readability": {
+        "headline_readable": "要確認",
+        "body_font_sufficient": "要確認",
+        "official_crop_readable": "PASS",
+        "too_many_text_lines": "PASS",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "「数字4桁」は本セクションの最重要情報のため、生成文字QAで「4桁」の誤字・欠落がないことを重点確認（text_qa.py＋Image Agent目視）。FAIL時はpil_overlayへfallbackして正確な文字を保証する。"
+    },
+    {
+      "scene_id": 12,
+      "section_label": "3 / 5 暗証番号で止まる場合",
+      "purpose": "実演（公式・利用登録の暗証番号案内）",
+      "narration_range": {"start_segment": 30, "end_segment": 32},
+      "render_mode": "official",
+      "device": "official_web",
+      "layout": "layout_04_text_official",
+      "main_visual": "2段階表示（SHOT-06）: 公式「利用登録」ページを全体2〜4秒 → 説明時は「利用者証明用暗証番号（数字4桁）」の記載と入力案内の帯を大きくcropして右スロットへ。左スロットに主見出し「ログインで使うのは、数字4桁」。アプリ内の暗証番号入力画面の実演は、カード読み取りを伴い個人情報リスクが高いため原則行わない（公式ページcropを主とする）。",
+      "overlay_text": {
+        "headline": "ログインで使うのは、数字4桁",
+        "support_text": "「利用者証明用暗証番号」。スマホにカードを追加済みなら顔・指紋も可（場合による）。",
+        "items": []
+      },
+      "safe_area": "公式cropは右スロット（x=1000〜1840・y=180〜880）。下部180px（y≥900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "none",
+      "official_source": {
+        "urls": ["https://services.digital.go.jp/mynaapp/register/"],
+        "source_id": "SRC-003",
+        "verified_at": "2026-09-03",
+        "crop_guidance": "「利用者証明用暗証番号（数字4桁）」「読み取り開始」等の記載を含む最小範囲を大きくcrop。「数字4桁」が確実に読めるサイズとコントラストを確認。全体表示は2〜4秒のみ。crop内の長文は転記しない。",
+        "human_check": "撮影時に公式ページの本文・表示を人間が最終確認"
+      },
+      "personal_data_risk": "公開公式ページのcropであり個人情報なし。暗証番号入力画面・実際の値・ダミーでも番号風の表示は映さない（入力実演は行わず案内cropのみ）。",
+      "fallback": "アプリ画面が取得できる場合も暗証番号入力欄・値は映さない方針は不変。公式保存HTML由来の引用カード（assets/official/mynaapp_register_pin_fallback.png 候補）で代替。",
+      "tv_readability": {
+        "headline_readable": "PASS",
+        "body_font_sufficient": "REVIEW",
+        "official_crop_readable": "要確認",
+        "too_many_text_lines": "REVIEW",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "公式名「利用者証明用暗証番号」は括弧書き1行の副情報に留め、主役は「数字4桁」（見出し級100px以上）にする（REVIEW→人間確認）。「顔・指紋も可」は場合による留保つきで補足。公式2段階表示を適用。"
+    },
+    {
+      "scene_id": 13,
+      "section_label": "3 / 5 暗証番号で止まる場合",
+      "purpose": "注意（最重要・ロック）",
+      "narration_range": {"start_segment": 33, "end_segment": 37},
+      "render_mode": "template",
+      "device": "template",
+      "layout": "layout_06_caution",
+      "main_visual": "注意カード（layout_06_caution・最重要のため強調配色）: 大見出し「何度も試してはいけません」＋「公式の案内では、3回続けて間違えるとロックされます」を数字「3回」を大きく強調して表示。「分からなければ、再設定へ（5つ目）」の導線を下部に1行。数字はpil_overlayで正確に描画。",
+      "overlay_text": {
+        "headline": "何度も試してはいけません",
+        "support_text": "公式の案内では、3回続けて間違えるとロックされます。分からなければ、再設定へ。",
+        "items": []
+      },
+      "safe_area": "カードは中央・上部（x=240〜1680・y=200〜720）。「3回」の数字は見出し級（100〜140px）で中央寄り。下部180px（y≥900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（テンプレート描画のみ。暗証番号の値・入力画面を映さない。ロック回数は公式案内を引用）。",
+      "fallback": "該当なし（テンプレートで完結）。",
+      "tv_readability": {
+        "headline_readable": "PASS",
+        "body_font_sufficient": "PASS",
+        "official_crop_readable": "PASS",
+        "too_many_text_lines": "PASS",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "本動画の最重要注意（ロックの話題はここに集中）。「3回続けて間違えるとロック」の回数は2026-09-03の公式要約確認（SRC-008）に基づき、撮影時に人間が最終確認。怖がらせすぎず「再設定がある」で締める。"
+    },
+    {
+      "scene_id": 14,
+      "section_label": "4 / 5 カードや電子証明書の期限",
+      "purpose": "セクション扉（4/5）",
+      "narration_range": {"start_segment": 38, "end_segment": 38},
+      "render_mode": "template",
+      "device": "template",
+      "layout": "layout_08_section",
+      "main_visual": "セクション扉（layout_08_section相当）。ImageGenで背景と見出し文字を同時生成（imagegen_native）: 大見出し「カードと、証明書の期限」＋補足1行「期限は、別もの。」。「4 / 5」は上部に配置。「期限は別もの」という本セクションの要点を1メッセージで受ける（2つの期限の概念を並べるカレンダー/印章イラスト等）。カードの実物・実UI・政府マークは生成しない。1920×1080 full-frameで一枚完結。",
+      "overlay_text": {
+        "headline": "カードと、証明書の期限",
+        "support_text": "期限は、別もの。",
+        "items": []
+      },
+      "safe_area": "見出しは中央・やや上寄り（y=200〜600）。下部180px（y≥900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "imagegen_native",
+      "fit_mode": "full_bleed",
+      "personal_data_risk": "個人情報なし（概念的背景のみ。実カード・氏名等の表記・実UI・政府マークを生成しない）。",
+      "fallback": "imagegen_nativeの文字QA FAIL→1回だけ再生成→2回目FAILはpil_overlayへfallback（既存layout_08_sectionの正確な文字後描画で完結）。",
+      "tv_readability": {
+        "headline_readable": "要確認",
+        "body_font_sufficient": "要確認",
+        "official_crop_readable": "PASS",
+        "too_many_text_lines": "PASS",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "「別もの」が本セクションの伝達ポイント（seg 44の混同注意につながる）。見出し2行＋補足1行の短い文言でimagegen_nativeを適用し、文字QAを実施。"
+    },
+    {
+      "scene_id": 15,
+      "section_label": "4 / 5 カードや電子証明書の期限",
+      "purpose": "実演（公式・カード自体の期限）",
+      "narration_range": {"start_segment": 39, "end_segment": 40},
+      "render_mode": "official",
+      "device": "official_web",
+      "layout": "layout_04_text_official",
+      "main_visual": "2段階表示（SHOT-07）: 公式「有効期限」ページを全体2〜4秒 → 説明時は「カードの有効期限（18歳以上は10回目の誕生日・表面に印字）」の表/記載を大きくcropして右スロットへ。「10回目」の数字を強調。カード表面の印字箇所は実物を映さず（個人情報リスク）、cropとイラスト（印字位置の概念図）で示す。",
+      "overlay_text": {
+        "headline": "カード自体の期限",
+        "support_text": "表面に印字。大人の方は、受け取ってから10回目の誕生日まで（2026年9月時点・要再確認）。",
+        "items": []
+      },
+      "safe_area": "公式cropは右スロット（x=1000〜1840・y=180〜880）。下部180px（y≥900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "none",
+      "official_source": {
+        "urls": ["https://www.digital.go.jp/policies/mynumber/expiration-date/"],
+        "source_id": "SRC-010",
+        "verified_at": "2026-09-03",
+        "crop_guidance": "カードの有効期限の表（18歳以上=10回目の誕生日・18歳未満=5回目）を含む最小範囲を大きくcrop。「10回目」の数字が確実に読めるサイズ・コントラストを確認。全体表示は2〜4秒のみ。",
+        "human_check": "2026-09-03時点はweb検索要約のため、撮影時に公式ページの本文・表を人間が最終確認（要確認）"
+      },
+      "personal_data_risk": "公開公式ページのcropであり個人情報なし。カード表面の印字位置は実物を映さずイラスト表現のみ（氏名・番号・顔写真は一切出さない）。",
+      "fallback": "公式保存HTML由来の引用カード（assets/official/myna_expiration_card_fallback.png 候補）で代替。",
+      "tv_readability": {
+        "headline_readable": "PASS",
+        "body_font_sufficient": "PASS",
+        "official_crop_readable": "要確認",
+        "too_many_text_lines": "PASS",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "公式2段階表示を適用。「10回目の誕生日」を数字として大きく見せる（pil_overlay）。確認日注記は字幕または説明欄へ。"
+    },
+    {
+      "scene_id": 16,
+      "section_label": "4 / 5 カードや電子証明書の期限",
+      "purpose": "比較（カードの期限と電子証明書の期限）",
+      "narration_range": {"start_segment": 41, "end_segment": 45},
+      "render_mode": "template",
+      "device": "template",
+      "layout": "layout_05_compare",
+      "main_visual": "左右比較カード（layout_05_compare）: 左「カードの期限」（表面に印字・大人は10回目の誕生日まで）／右「電子証明書の期限」（カードの中にある証明書・5回目の誕生日まで）。2つの期限が「別もの」であることが一目で分かる構図。更新（3か月前から市役所・区役所で手続き）は補足行に。数字（10回目・5回目・3か月前）はpil_overlayで大きく描画。",
+      "overlay_text": {
+        "headline": "カードの期限と、証明書の期限",
+        "support_text": "期限が切れると、ログインに失敗することがあります。更新手続きは3か月前からできます。",
+        "items": [],
+        "compare_cards": [
+          {"title": "カードの期限", "body": "表面に印字。大人の方は10回目の誕生日まで"},
+          {"title": "電子証明書の期限", "body": "カードの中の証明書。5回目の誕生日まで"}
+        ]
+      },
+      "safe_area": "比較カードはx=140〜1780・y=240〜860に収め、行高50px以上・本文は1行に短縮。下部180px（y≥900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（テンプレート描画のみ・実画面・実カードなし）。",
+      "fallback": "該当なし（テンプレートで完結）。",
+      "tv_readability": {
+        "headline_readable": "PASS",
+        "body_font_sufficient": "REVIEW",
+        "official_crop_readable": "PASS",
+        "too_many_text_lines": "PASS",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "2カラム比較は「比較に意味がある場合のみ」のルールに適合（カードvs証明書の期限差は本動画の要点）。2カラムで文字が小さくなりがちなため、各カードの本文は1行に短縮し数値（10回目・5回目）を強調（REVIEW→人間のcontact sheet確認）。比較カードの2枚のタイトル・本文はscene 15の公式cropと矛盾しないよう突合する。"
+    },
+    {
+      "scene_id": 17,
+      "section_label": "5 / 5 それでもダメなら（再設定・メンテナンス・公式窓口）",
+      "purpose": "セクション扉（5/5）",
+      "narration_range": {"start_segment": 46, "end_segment": 46},
+      "render_mode": "template",
+      "device": "template",
+      "layout": "layout_08_section",
+      "main_visual": "セクション扉（layout_08_section相当）。ImageGenで背景と見出し文字を同時生成（imagegen_native）: 大見出し「それでも、ダメなら」＋補足1行「再設定・メンテナンス・公式窓口。」。「5 / 5」は上部に配置。「一人で続けない」安心のトーンになる背景（穏やかな光など）。実UI・ロゴ・政府マークは生成しない。1920×1080 full-frameで一枚完結。",
+      "overlay_text": {
+        "headline": "それでも、ダメなら",
+        "support_text": "再設定・メンテナンス・公式窓口。",
+        "items": []
+      },
+      "safe_area": "見出しは中央・やや上寄り（y=200〜600）。下部180px（y≥900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "imagegen_native",
+      "fit_mode": "full_bleed",
+      "personal_data_risk": "個人情報なし（概念的背景のみ。実UI・ロゴ・政府マーク・番号風文字列を生成しない）。",
+      "fallback": "imagegen_nativeの文字QA FAIL→1回だけ再生成→2回目FAILはpil_overlayへfallback（既存layout_08_sectionの正確な文字後描画で完結）。",
+      "tv_readability": {
+        "headline_readable": "要確認",
+        "body_font_sufficient": "要確認",
+        "official_crop_readable": "PASS",
+        "too_many_text_lines": "PASS",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "見出し「それでも、ダメなら」は不安を煽らず「次にやることがある」安心感へつなぐ補足行（再設定・メンテナンス・公式窓口）とセットで受ける。生成文字QAを実施。"
+    },
+    {
+      "scene_id": 18,
+      "section_label": "5 / 5 それでもダメなら（再設定・メンテナンス・公式窓口）",
+      "purpose": "実演（公式・障害・メンテナンス情報）",
+      "narration_range": {"start_segment": 47, "end_segment": 47},
+      "render_mode": "official",
+      "device": "official_web",
+      "layout": "layout_04_text_official",
+      "main_visual": "2段階表示（SHOT-08）: マイナポータル「障害・メンテナンス情報」ページを全体2〜4秒 → 説明時はページ見出しと「メンテナンス」の該当行・更新日時を大きくcropして右スロットへ。左スロットに主見出し＋補足。メンテナンス中であることの判断方法（日時・対象）をcropで見せるが、詳細文は転記しない。",
+      "overlay_text": {
+        "headline": "公式の「障害・メンテナンス」を確認",
+        "support_text": "マイナポータル側のメンテナンスで、一時的に使えないことがあります。",
+        "items": []
+      },
+      "safe_area": "公式cropは右スロット（x=1000〜1840・y=180〜880）。下部180px（y≥900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "none",
+      "official_source": {
+        "urls": ["https://myna.go.jp/html/info/index.html"],
+        "source_id": "SRC-011",
+        "verified_at": "2026-09-03",
+        "crop_guidance": "ページ見出し（障害・メンテナンス情報）＋一覧の先頭行（日時・内容）を最小範囲でcrop。全体表示は2〜4秒のみ。crop内の長文・詳細は転記しない。",
+        "human_check": "撮影時にページの本文・表示を人間が最終確認（要確認）"
+      },
+      "personal_data_risk": "公開公式ページのcropであり個人情報なし。crop範囲にユーザー情報が入らないことを確認。",
+      "fallback": "公式保存HTML由来の引用カード（assets/official/myna_maintenance_fallback.png 候補）で代替。",
+      "tv_readability": {
+        "headline_readable": "PASS",
+        "body_font_sufficient": "PASS",
+        "official_crop_readable": "要確認",
+        "too_many_text_lines": "PASS",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "公式2段階表示を適用。「一時的に使えないことがある」を断定しすぎない台本トーンに合わせ、cropも「確認の仕方」を見せることに限定。crop後の1920×1080 frameで可読性を実測。"
+    },
+    {
+      "scene_id": 19,
+      "section_label": "5 / 5 それでもダメなら（再設定・メンテナンス・公式窓口）",
+      "purpose": "実演（公式・暗証番号の再設定）",
+      "narration_range": {"start_segment": 48, "end_segment": 49},
+      "render_mode": "official",
+      "device": "official_web",
+      "layout": "layout_04_text_official",
+      "main_visual": "2段階表示（SHOT-09）: 公式「暗証番号の再設定」案内ページを全体2〜4秒 → 説明時は「コンビニの端末で再設定できる場合がある（もう一つの暗証番号が必要）」「市役所・区役所の窓口でも再設定」の記載帯を大きくcropして右スロットへ。窓口・コンビニ端末の実写は使わずcropと文字案内で受ける。",
+      "overlay_text": {
+        "headline": "暗証番号の再設定",
+        "support_text": "コンビニの端末でできる場合があります（もう一つの番号が必要）。分からなければ、市役所・区役所の窓口で。",
+        "items": []
+      },
+      "safe_area": "公式cropは右スロット（x=1000〜1840・y=180〜880）。下部180px（y≥900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "none",
+      "official_source": {
+        "urls": ["https://www.jpki.go.jp/jpkiidreset/howto/kiosk.html"],
+        "source_id": "SRC-009",
+        "verified_at": "2026-09-03",
+        "crop_guidance": "コンビニ端末での再設定手順と条件（もう一方の暗証番号が必要・条件あり）の記載を最小範囲でcrop。全体表示は2〜4秒のみ。窓口での再設定はマイナンバーカード総合サイトFAQ（SRC-012参照先）の案内を補足に。",
+        "human_check": "2026-09-03時点はweb検索要約のため、撮影時に公式ページの本文・条件を人間が最終確認（要確認）"
+      },
+      "personal_data_risk": "公開公式ページのcropであり個人情報なし。暗証番号の値・入力画面・コンビニ端末の実操作画面を映さない。",
+      "fallback": "公式保存HTML由来の引用カード（assets/official/jpki_pin_reset_fallback.png 候補）で代替。",
+      "tv_readability": {
+        "headline_readable": "PASS",
+        "body_font_sufficient": "PASS",
+        "official_crop_readable": "要確認",
+        "too_many_text_lines": "REVIEW",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "補足がコンビニ＋窓口の2文で長め（REVIEW→人間確認）。「もう一つの番号が必要」の条件を欠落させない（条件ありの事実を正確に）。公式2段階表示を適用。"
+    },
+    {
+      "scene_id": 20,
+      "section_label": "5 / 5 それでもダメなら（再設定・メンテナンス・公式窓口）",
+      "purpose": "案内（公式窓口・フリーダイヤル）",
+      "narration_range": {"start_segment": 50, "end_segment": 53},
+      "render_mode": "template",
+      "device": "template",
+      "layout": "layout_03_visual_text",
+      "main_visual": "「まずは、公式の窓口へ相談」の案内カード（layout_03_visual_text）。受話器/相談窓口のシンプルな図解と、電話番号「0120-95-0178」を最大級（100px以上・中央寄り）で表示。受付時間（平日9:30〜20:00・土日祝9:30〜17:30）は補足2行以内。電話番号・時間はpil_overlayで正確に描画（数字の誤り厳禁）。実在のフリーダイヤル以外の番号風文字列を置かない。",
+      "overlay_text": {
+        "headline": "まずは、公式の窓口へ相談",
+        "support_text": "マイナンバー総合フリーダイヤル 0120-95-0178。平日9:30〜20:00・土日祝9:30〜17:30（2026年9月時点・要再確認）。",
+        "items": []
+      },
+      "safe_area": "番号は中央（x=400〜1520・y=260〜520）に見出し級で配置し、受付時間はその下2行以内（y=560〜700）。下部180px（y≥900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "none",
+      "personal_data_risk": "公開の問い合わせ窓口情報の案内のみで個人情報なし。実際の通話内容・電話画面は映さない。",
+      "fallback": "該当なし（テンプレートで完結。必要なら公式フリーダイヤル案内ページ（SRC-012）を説明欄で誘導）。",
+      "tv_readability": {
+        "headline_readable": "PASS",
+        "body_font_sufficient": "REVIEW",
+        "official_crop_readable": "PASS",
+        "too_many_text_lines": "REVIEW",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "電話番号は本動画の最重要数値のため、番号を1行・100px以上で表示し、受付時間は2行以内に短縮（REVIEW→人間確認）。番号の誤記を防ぐため必ずpil_overlay（numbers QA）。受付時間は2026-09-03公式要約確認（SRC-012）で、撮影時に人間が最終確認。seg 53（以前の動画の紹介）は「Episode 002への誘導」として字幕で受ける。"
+    },
+    {
+      "scene_id": 21,
+      "section_label": "まとめ",
+      "purpose": "まとめ（5項目再掲）",
+      "narration_range": {"start_segment": 54, "end_segment": 60},
+      "render_mode": "template",
+      "device": "template",
+      "layout": "layout_07_summary",
+      "main_visual": "まとめ5項目のチェックリスト（layout_07_summary）。冒頭（scene 2）の5項目と内容・順・番号表現を完全に一致させる。「どこで止まっているかで、見る場所が違います」の補足1行を下部に。テンプレート描画のみ（実UIなし）。",
+      "overlay_text": {
+        "headline": "今日のまとめ",
+        "support_text": "確認する5つ",
+        "items": [
+          "スマホが対応しているか",
+          "カードを読み取れない場合",
+          "暗証番号で止まる場合",
+          "カードや電子証明書の期限",
+          "それでもダメなら、再設定と公式の窓口"
+        ]
+      },
+      "safe_area": "リストはx=240〜1680・y=200〜820に収め、1項目1行・行間45px以上。下部180px（y≥900）は字幕専用帯として空ける。",
+      "animation": "static",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "none",
+      "personal_data_risk": "個人情報なし（テンプレート描画のみ・実画面なし）。",
+      "fallback": "該当なし（テンプレートで完結）。",
+      "tv_readability": {
+        "headline_readable": "PASS",
+        "body_font_sufficient": "PASS",
+        "official_crop_readable": "PASS",
+        "too_many_text_lines": "REVIEW",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "5項目+見出しで縦の収まりが厳しいため、項目文はscene 2と同じ1行に短縮した文案を使用（REVIEW→人間のcontact sheet確認）。seg 60（あわてずに順番に）は補足行または字幕で受け、scene 22クロージングへつなぐ。"
+    },
+    {
+      "scene_id": 22,
+      "section_label": "まとめ（クロージング）",
+      "purpose": "クロージング（安心の締め）",
+      "narration_range": {"start_segment": 61, "end_segment": 61},
+      "render_mode": "gpt_image",
+      "device": "gpt_image",
+      "layout": "layout_03_visual_text",
+      "main_visual": "GPT full-frame概念背景（IMG-002）: 「あわてずに、確認しましょう」の安心感。穏やかな光の窓辺やデスクで、シニアが落ち着いてスマホを確認している光景（スマホ画面はぼかし/白飛びでUIを判別させない）。マイナアプリの実UI・ロゴ・政府マーク・番号風文字列は一切生成しない。左半分（x≤960）は文字用の静かな余白（真っ白にしない）。見出し「あわてずに、確認しましょう」＋補足「困ったときは、この順番を思い出してください。」をImageGenで同時生成（imagegen_native）。1920×1080 full-frame一枚で完結。",
+      "overlay_text": {
+        "headline": "あわてずに、確認しましょう",
+        "support_text": "困ったときは、この順番を思い出してください。",
+        "items": []
+      },
+      "safe_area": "下部180px（y≥900）は字幕専用帯として空ける。見出しは上部60%・左半分（x≤960）の余白に配置し、人物・重要オブジェクトと重ならないようにする。",
+      "animation": "very_slow_zoom",
+      "text_render_mode": "imagegen_native",
+      "fit_mode": "full_bleed",
+      "image_prompt_id": "IMG-002",
+      "personal_data_risk": "AI生成の概念背景のみで個人情報なし。実スマホ画面・実カード・実番号・QRコード・政府マークを一切描かない（画面はぼかし）。",
+      "fallback": "概念イラストのため公式素材による代替はしない。文字QA FAIL→1回だけ再生成→2回目FAILはpil_overlay（背景のみ生成→正確な文字を後乗せ）へfallback。背景生成自体の不備はprompt修正で最大1回再生成。",
+      "tv_readability": {
+        "headline_readable": "要確認",
+        "body_font_sufficient": "要確認",
+        "official_crop_readable": "PASS",
+        "too_many_text_lines": "PASS",
+        "important_content_near_edge": "PASS",
+        "subtitle_overlap": "PASS",
+        "tiny_phone_screenshot": "PASS"
+      },
+      "note": "GPT画像2枚のうちの1枚（出力: assets/generated_ai/scene_022.png）。seg 61の最終ナレーションと同期させ、共通CTA（channel_common_cta・postroll設定）へ自然につなぐ。CTA画面は本visual planの対象外。imagegen_nativeで背景＋短い文言（1〜2行）を同時生成し、文字QA（text_qa.py＋Image Agent目視）を実施。"
+    }
+  ],
+  "summary": {
+    "episode_id": "007",
+    "episode_slug": "myna_app_login",
+    "visual_plan_version": "1.0",
+    "scene_count": 22,
+    "render_mode_counts": {
+      "template": 12,
+      "official": 8,
+      "gpt_image": 2,
+      "total": 22
+    },
+    "render_mode_breakdown": {
+      "template": {"scene_ids": [1, 2, 3, 6, 10, 11, 13, 14, 16, 17, 20, 21], "content": "導入(1)・一覧(2)・セクション扉(3,11,14,17)・注意(6,10,13)・比較(16)・窓口案内(20)・まとめ(21)。正確な文字はすべてpil_overlay（セクション扉4枚のみimagegen_nativeで背景+文字を同時生成）"},
+      "official": {"scene_ids": [4, 5, 8, 9, 12, 15, 18, 19], "content": "公式Webページのcrop（動作環境・FAQ・読み取り図解・利用登録・有効期限・障害メンテ・再設定）。AIで実UIを再現しない"},
+      "gpt_image": {"scene_ids": [7, 22], "content": "概念イラストのみ2枚（2/5扉・クロージング）。実UI・政府マーク・ロゴを生成しない（episode.jsonのrender_modeと一致）"}
+    },
+    "gpt_image_allocation": [
+      {
+        "image_prompt_id": "IMG-001",
+        "scene_id": 7,
+        "purpose": "セクション扉（2/5）スマホとカードの概念",
+        "output_path": "assets/generated_ai/scene_007.png",
+        "visual_concept": "スマホ（画面はぼかし）とマイナンバーカード（個人情報面は見せない）の読み取り位置を穏やかなイラストで。NFCの波紋と背面上部の位置を光/矢印で概念的に示す。左半分は文字用の静かな余白。テキスト1〜2行をImageGenで同時生成。マイナアプリ/マイナポータルの実UI・ロゴ・政府マーク・QRコード・番号風文字列は一切生成しない",
+        "text_render_mode": "imagegen_native（文字QA FAIL時はpil_overlayへfallback。3回以上回さない）"
+      },
+      {
+        "image_prompt_id": "IMG-002",
+        "scene_id": 22,
+        "purpose": "クロージング（安心の締め）",
+        "output_path": "assets/generated_ai/scene_022.png",
+        "visual_concept": "「あわてずに、確認しましょう」の安心感。穏やかなシニアが落ち着いてスマホを確認する光景（画面はぼかし/白飛び）。左半分は文字用の静かな余白。テキストをImageGenで同時生成。実UI・ロゴ・政府マーク・番号風文字列は一切生成しない",
+        "text_render_mode": "imagegen_native（文字QA FAIL時はpil_overlayへfallback）"
+      }
+    ],
+    "shot_tag_mapping": [
+      {"shot_tag": "SHOT-01", "scene_id": 4, "content": "マイナアプリ公式・動作環境ページ（official_web crop。全体2〜4秒→対応OS行を大きくcrop）"},
+      {"shot_tag": "SHOT-02", "scene_id": 5, "content": "公式FAQ・ログインできない記事（EDZ207）: シークレットモード・アップデートの記載crop"},
+      {"shot_tag": "SHOT-03", "scene_id": 7, "content": "セクション扉（概念）: GPT画像IMG-001（撮影ではなく概念イラスト）"},
+      {"shot_tag": "SHOT-04", "scene_id": 8, "content": "iPhoneでの読み取り位置・実演（実機+テスト用カード/完全隠し。不可時は公式図解crop）"},
+      {"shot_tag": "SHOT-05", "scene_id": 9, "content": "Androidでの読み取り位置・実演（NFC実機必須。不可時は公式の背面上部案内crop）"},
+      {"shot_tag": "SHOT-06", "scene_id": 12, "content": "公式・利用登録画面の暗証番号入力の案内（registerページcrop。入力値は映さない）"},
+      {"shot_tag": "SHOT-07", "scene_id": 15, "content": "公式・有効期限の案内ページ（カードの期限・10回目の誕生日の表crop）"},
+      {"shot_tag": "SHOT-08", "scene_id": 18, "content": "公式・障害・メンテナンス情報ページ（myna.go.jp crop）"},
+      {"shot_tag": "SHOT-09", "scene_id": 19, "content": "公式・暗証番号再設定の案内ページ（コンビニ端末・条件のcrop）"}
+    ],
+    "official_two_stage_display_note": "全official scene（4, 5, 8, 9, 12, 15, 18, 19）で2段階表示を適用する: 最初に画面全体を2〜4秒（場所を理解させるためだけ）→ 説明時は該当箇所を大きくcrop（全体を小さく中央に置くだけは禁止）。crop後に1920×1080 frameで文字が読めることを実測し、人間のcontact sheet確認でPASSを得てから採用する。読み取らせたい数字・ボタン名（iOS 16.4・Android 11・数字4桁・3回・10回目・5回目・0120-95-0178）はcrop＋pil_overlayの大文字表示で補強する。",
+    "live_capture_fallback_policy": [
+      "SHOT-01/02/06/07/08/09（公式Webページ）: PCブラウザで公式ページまたは公式保存HTMLを取得し、crop（引用カード）を主とする。実機・エミュレータ画面が取得できたら併用。",
+      "SHOT-04/05（読み取り実演）: iPhone実機・Android実機を優先（NFC読み取りはAndroid Emulatorで成立しないため実機必須）。読み取り実演はテスト用カードまたは個人情報を完全に隠した状態のみ。取得できない場合はjpki.go.jp等の公式図解crop・公式保存HTML由来の引用カードへfallback。",
+      "SHOT-03: GPT概念画像（IMG-001）で実演はしない（実カード不要）。",
+      "カメラ・録画で絶対に映さない: マイナンバー・氏名・生年月日・住所・顔写真・カード表裏・暗証番号・QRコード。実カードはデモ用/完全に隠した状態のみ。実機のアカウント・Apple ID等の表示はモザイクまたは見切らせる。"
+    ],
+    "tv_readability_summary": [
+      "見出し80〜140px級・補足48〜60px級・1画面1メッセージを維持し、下部180px（y≥900）字幕帯を全sceneで空ける（subtitle_overlapは全scene PASS）。",
+      "文字量が増えやすい一覧・注意・比較（scene 2, 10, 16, 21）は項目1行に短縮し行間を広げる。REVIEWとして人間のcontact sheet確認へ回す。",
+      "数字・日付・公式名・電話番号はすべてpil_overlay（正確性優先）。色だけで区別せず、アイコン・形・番号を併用。",
+      "official cropの可読性（official_crop_readable）は撮影/取得後に1920×1080 frameで実測して確定する（現時点は「要確認」。確認日2026-09-03のweb要約由来の事実・図解は撮影時に人間が最終確認）。",
+      "GPT画像2枚（scene 7/22）のスマホ画面はぼかし/白飛びでUIを判別させない。imagegen_nativeの生成文字は文字QA（text_qa.py＋Image Agent目視）を行い、2回FAILでpil_overlayへfallback。",
+      "重要な数値を含む画像（セクション扉4枚: 3, 11, 14, 17の「2/5」等の表記・「数字4桁」）は生成文字QAで欠落・誤字を重点確認する。"
+    ],
+    "notes": [
+      "canonical file（episode.json・script.md等）は変更していない。本visual_plan.jsonのみ作成。scene_id・narration_rangeはepisode.jsonのscenes.id・start_segment/end_segmentと完全一致。",
+      "セクション扉4枚（scene 3, 11, 14, 17）はrender_mode=templateのままtext_render_mode=imagegen_nativeで背景+文字を生成する（episode.json指定の通り）。GPT概念アートとしての割当はscene 7/22の2枚のみで、内訳は上記render_mode_countsに一致。",
+      "scene 2/21の番号表現（1.2.3. / ①②③）と項目文案は両シーンで完全一致させる。",
+      "scene 10/16のREVIEW（文字量・2カラム細字）とscene 4/12/19/20のsupport_text長に関するREVIEWは、人間のcontact sheet確認で最終判断する（template側の文言短縮は親Codexの判断でepisode.jsonに反映可能）。",
+      "公式cropの取得時は、マイナアプリ/マイナポータルの画面・表記がバージョンにより変わり得ることを明記し、撮影日時点の表示を採用する。"
+    ]
+  }
+}

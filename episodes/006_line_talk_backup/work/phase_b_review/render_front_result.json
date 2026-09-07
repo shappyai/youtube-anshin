@@ -1,0 +1,90 @@
+{
+  "normalized_ai": [
+    {
+      "scene_id": 1,
+      "source": "C:\\Codex\\260829_youtube-anshin\\episodes\\006_line_talk_backup\\assets\\generated_ai\\scene_001.png",
+      "normalized": "C:\\Codex\\260829_youtube-anshin\\episodes\\006_line_talk_backup\\work\\phase_b_review\\normalized_ai\\scene_001.png",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene_id": 3,
+      "source": "C:\\Codex\\260829_youtube-anshin\\episodes\\006_line_talk_backup\\assets\\generated_ai\\scene_003.png",
+      "normalized": "C:\\Codex\\260829_youtube-anshin\\episodes\\006_line_talk_backup\\work\\phase_b_review\\normalized_ai\\scene_003.png",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene_id": 15,
+      "source": "C:\\Codex\\260829_youtube-anshin\\episodes\\006_line_talk_backup\\assets\\generated_ai\\scene_015.png",
+      "normalized": "C:\\Codex\\260829_youtube-anshin\\episodes\\006_line_talk_backup\\work\\phase_b_review\\normalized_ai\\scene_015.png",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene_id": 19,
+      "source": "C:\\Codex\\260829_youtube-anshin\\episodes\\006_line_talk_backup\\assets\\generated_ai\\scene_019.png",
+      "normalized": "C:\\Codex\\260829_youtube-anshin\\episodes\\006_line_talk_backup\\work\\phase_b_review\\normalized_ai\\scene_019.png",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene_id": 25,
+      "source": "C:\\Codex\\260829_youtube-anshin\\episodes\\006_line_talk_backup\\assets\\generated_ai\\scene_025.png",
+      "normalized": "C:\\Codex\\260829_youtube-anshin\\episodes\\006_line_talk_backup\\work\\phase_b_review\\normalized_ai\\scene_025.png",
+      "size": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "ai_validation": {
+    "status": "PASS",
+    "missing": [],
+    "invalid": [],
+    "safe_area_warnings": []
+  },
+  "render": {
+    "status": "PASS",
+    "rendered": [
+      "scene_001.png",
+      "scene_002.png",
+      "scene_003.png",
+      "scene_004.png",
+      "scene_005.png",
+      "scene_006.png",
+      "scene_007.png",
+      "scene_008.png",
+      "scene_009.png",
+      "scene_010.png",
+      "scene_011.png",
+      "scene_012.png",
+      "scene_013.png",
+      "scene_014.png",
+      "scene_015.png",
+      "scene_016.png",
+      "scene_017.png",
+      "scene_019.png",
+      "scene_020.png",
+      "scene_021.png",
+      "scene_022.png",
+      "scene_023.png",
+      "scene_024.png",
+      "scene_025.png"
+    ],
+    "errors": []
+  },
+  "rendered_scene_count": 24,
+  "total_scene_count": 24,
+  "cta_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\006_line_talk_backup\\work\\channel_cta.png",
+  "contact_sheet": "C:\\Codex\\260829_youtube-anshin\\episodes\\006_line_talk_backup\\work\\phase_b_review\\scene_contact_sheet.png",
+  "gpt_contact_sheet": "C:\\Codex\\260829_youtube-anshin\\episodes\\006_line_talk_backup\\work\\phase_b_review\\gpt_image_contact_sheet.png"
+}
