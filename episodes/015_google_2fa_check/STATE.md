@@ -4,9 +4,9 @@
 
 - Episode: 015_google_2fa_check
 - 更新日: 2026-09-08
-- status: PHASE_A_COMPLETE_WAITING_HUMAN_GATE
-- phase: Phase A（企画・公式情報・台本・画面設計・公開メタデータの初稿）
-- 次の停止点: Human Gate 1（テーマ・3項目・台本・タイトル）
+- status: FULL_DRAFT_COMPLETE_WAITING_HUMAN_GATE
+- phase: Phase B（現行UI確認・音声・字幕・scene・full draft）
+- 次の停止点: Human Gate 2相当（full draft・公式UI差し替え要否・発音・可読性）
 
 ## 今回の結論
 
@@ -27,34 +27,38 @@ Episode001の「セキュリティ チェックアップ」「再設定用の電
 - 2段階認証をオフにする提案はしていない。
 - 「2段階認証を設定していても危険」「乗っ取られる」などの根拠のない断定は採用していない。
 
-## Phase A成果物の予定
+## Phase B成果物
 
-- narration segments: 45
-- subtitles: 45（実尺に合わせた分割は音声生成時に再確認）
+- narration segments: 42（旧SEG-015〜017を圧縮、旧SEG-044を削除）
+- subtitles: 61（発話実時間に合わせて分割）
 - scenes: 12
-- official UI capture slots: 3
+- official UI fallback cards: 3（SRC-001 / SRC-003 / SRC-004）
 - AI-generated visual assets: 0
-- target duration: 4〜6分
+- main narration duration: 306.180秒（5分06.180秒）
+- full draft duration: 318.740秒（5分18.740秒、共通CTA音声11.563秒と余韻を含む）
+- VOICEVOX: 剣崎雌雄 / ノーマル / 42セグメント生成済み
+- full draft: `output/draft_auto_v2.mp4`（共通CTA音声を含む。v1は本編のみの中間ドラフト）
+- Phase 2 QA: PASS（FAIL 0 / WARN 0）
 
-## Phase Aで未実施
+## Phase Bの確認結果と未実施
 
-- Google実画面のcapture
-- VOICEVOX audio_query / synthesis
-- captions.srtの実時間確定
-- 動画render / draft / final
+- Google公式ヘルプの現行表示で、導線・正式UI名称を確認した。
+- 個別Googleアカウントの認証済みテストセッションが用意できなかったため、実アカウント画面はcaptureしていない。3つの公式UI名fallbackカードを使用した。
+- バックアップ コードは入口・存在確認のみ。実コードの数字は撮影・保存・字幕化していない。新規作成・更新もしていない。
+- captions.srtの実時間確定、動画render、full draft生成は完了した。
 - サムネイル生成
 - YouTube upload / publish
 - グローバルSTATE.mdの変更
 
 ## Human Gateで確認する点
 
-1. 仮タイトル3案と、対象を「2段階認証設定済みの人」に限定する方針。
-2. Googleアカウントの現行UIで、画面のメニュー名と導線が台本に一致するか。
+1. full draftの冒頭30秒以内に、対象・3項目・「今日は3か所だけ」が伝わるか。
+2. 公式UI名fallbackカードを、実際のアカウント設定画面と誤認しないか。可能なら認証済みテストセッションの実画面へ差し替えるか。
 3. テストアカウントで「現在の確認方法」に表示される項目と、実際に使える方法の一致。
-4. バックアップ コードの存在確認方法。コードの数字を映さないこと、新しいセット作成の要否。
-5. パスキー一覧の端末が本人所有か、現在も使っているか。削除・追加を急がないこと。
-6. 4〜6分の情報量と、冒頭30秒以内に結論・3項目が入ること。
-7. 「方」を含む曖昧なナレーション表現が残っていないか、固有名詞の発音レビューが必要か。
+4. バックアップ コードの入口・存在確認だけで成立しているか。コードの数字がどの素材にも出ていないか。
+5. パスキー一覧の端末が本人所有か、現在も使っているか。削除・追加を急がない説明になっているか。
+6. PC表示のcropと字幕が65歳以上でも読みやすいか。4〜6分の情報量で水増しがないか。
+7. VOICEVOXの「Google」「2段階認証プロセス」「バックアップ コード」「パスキー」などの発音を人間が試聴確認する。
 
 ## CTA
 

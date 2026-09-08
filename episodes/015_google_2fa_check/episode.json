@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "metadata": {
     "research_date": "2026-09-08",
-    "production_phase": "Phase A / human gate待ち",
+    "production_phase": "Phase B / full draft Human Gate待ち",
     "channel": "大人のデジタル安心室",
     "visual_theme": "adult_digital_soft_background",
     "target_audience_detail": "50〜70代、特に65歳以上。現在の設定を自分で確認できることを優先し、headline 80px以上、main fact 60px以上、secondary 52px以上、字幕72pxを基準にする。",
@@ -44,7 +44,26 @@
       "動画renderは未実施",
       "サムネイル生成は未実施",
       "YouTube uploadは未実施"
-    ]
+    ],
+    "phase_b": {
+      "status": "FULL_DRAFT_HUMAN_GATE_PENDING",
+      "current_ui_verification": "OFFICIAL_HELP_AX_CONFIRMED",
+      "personalized_account_capture": "PENDING_HUMAN_AUTHENTICATED_TEST_SESSION",
+      "official_asset_strategy": "fallback_official_label_until_human_capture",
+      "backup_code_policy": "entry_and_existence_only_no_digits",
+      "thumbnail_status": "NOT_STARTED",
+      "youtube_upload_status": "NOT_STARTED",
+      "cta_audio": "REUSED_APPROVED_COMMON_CTA_AUDIO",
+      "cta_audio_duration_seconds": 11.563,
+      "cta_postroll_duration_seconds": 13.0,
+      "main_narration_duration_seconds": 306.18,
+      "full_draft_duration_seconds": 318.74,
+      "full_draft_path": "output/draft_auto_v2.mp4"
+    },
+    "narration_segment_count": 42,
+    "subtitle_count": 61,
+    "scene_count": 12,
+    "official_ui_scene_count": 3
   },
   "episode": {
     "episode_id": "015",
@@ -194,98 +213,1019 @@
     }
   ],
   "narration_segments": [
-    {"id": 1, "section": "はじめに", "narration": "Googleの2段階認証を設定していても、確認しておきたい場所があります。", "reading_overrides": {}, "pause_after": 0.12, "scene_id": 1, "subtitle_ids": ["SUB-001"]},
-    {"id": 2, "section": "はじめに", "narration": "2段階認証は、パスワードに加えて、もう一つの確認を求める重要な対策です。", "reading_overrides": {}, "pause_after": 0.12, "scene_id": 1, "subtitle_ids": ["SUB-002"]},
-    {"id": 3, "section": "はじめに", "narration": "そのうえで、以前登録した確認方法が、現在も使えるかを見ておきます。", "reading_overrides": {}, "pause_after": 0.12, "scene_id": 1, "subtitle_ids": ["SUB-003"]},
-    {"id": 4, "section": "はじめに", "narration": "今日は3か所だけ一緒に確認します。", "reading_overrides": {"今日": "きょう"}, "pause_after": 0.15, "scene_id": 1, "subtitle_ids": ["SUB-004"]},
-    {"id": 5, "section": "はじめに", "narration": "見るのは、現在の確認方法、バックアップ コード、登録済みパスキーの3つです。", "reading_overrides": {}, "pause_after": 0.15, "scene_id": 2, "subtitle_ids": ["SUB-005"]},
-    {"id": 6, "section": "はじめに", "narration": "どれも、設定を変える前に、まず表示を確かめるだけで大丈夫です。", "reading_overrides": {}, "pause_after": 0.15, "scene_id": 2, "subtitle_ids": ["SUB-006"]},
-    {"id": 7, "section": "1 / 3", "narration": "1 / 3、2段階認証プロセスの、現在の確認方法です。", "reading_overrides": {}, "pause_after": 0.15, "scene_id": 3, "subtitle_ids": ["SUB-007"]},
-    {"id": 8, "section": "1 / 3", "narration": "Googleアカウントを開き、「セキュリティとログイン」を選びます。", "reading_overrides": {}, "pause_after": 0.12, "scene_id": 4, "subtitle_ids": ["SUB-008"]},
-    {"id": 9, "section": "1 / 3", "narration": "「Googleにログインする方法」の中から、「2段階認証プロセス」を開きます。", "reading_overrides": {}, "pause_after": 0.12, "scene_id": 4, "subtitle_ids": ["SUB-009"]},
-    {"id": 10, "section": "1 / 3", "narration": "ここでは、パスワードのあとに、何で本人確認する設定なのかを確認します。", "reading_overrides": {}, "pause_after": 0.14, "scene_id": 4, "subtitle_ids": ["SUB-010"]},
-    {"id": 11, "section": "1 / 3", "narration": "Googleからのメッセージ、確認コード、Google認証システムなど、表示される内容はアカウントによって異なります。", "reading_overrides": {}, "pause_after": 0.16, "scene_id": 4, "subtitle_ids": ["SUB-011"]},
-    {"id": 12, "section": "1 / 3", "narration": "自分が現在使っているスマホや方法と、画面の登録内容が合っているかを見てください。", "reading_overrides": {}, "pause_after": 0.14, "scene_id": 4, "subtitle_ids": ["SUB-012"]},
-    {"id": 13, "section": "1 / 3", "narration": "機種変更で古いスマホを手放した人は、古い方法や電話番号が残っていないかも確認します。", "reading_overrides": {}, "pause_after": 0.15, "scene_id": 4, "subtitle_ids": ["SUB-013"]},
-    {"id": 14, "section": "1 / 3", "narration": "ただし、表示された名前だけで不正利用と決めつける必要はありません。分からなければ、変更せずに公式ヘルプを確認します。", "reading_overrides": {}, "pause_after": 0.16, "scene_id": 4, "subtitle_ids": ["SUB-014"]},
-    {"id": 15, "section": "1 / 3", "narration": "Google公式では、確認コードを入力するより、Googleからのメッセージをタップする方法をおすすめしています。", "reading_overrides": {}, "pause_after": 0.16, "scene_id": 5, "subtitle_ids": ["SUB-015"]},
-    {"id": 16, "section": "1 / 3", "narration": "通知が届いたら、表示された端末、場所、時刻を確かめて、自分の操作なら「はい」を選びます。", "reading_overrides": {}, "pause_after": 0.14, "scene_id": 5, "subtitle_ids": ["SUB-016"]},
-    {"id": 17, "section": "1 / 3", "narration": "自分が操作していない通知なら、「いいえ」を選び、次の対応は公式の案内で確認します。", "reading_overrides": {}, "pause_after": 0.15, "scene_id": 5, "subtitle_ids": ["SUB-017"]},
-    {"id": 18, "section": "2 / 3", "narration": "2 / 3、バックアップ コードです。", "reading_overrides": {}, "pause_after": 0.15, "scene_id": 6, "subtitle_ids": ["SUB-018"]},
-    {"id": 19, "section": "2 / 3", "narration": "これは、スマートフォンを使えないときの、2段階認証の予備の入口です。", "reading_overrides": {}, "pause_after": 0.14, "scene_id": 7, "subtitle_ids": ["SUB-019"]},
-    {"id": 20, "section": "2 / 3", "narration": "同じ「2段階認証プロセス」の画面で、「バックアップ コード」を開きます。", "reading_overrides": {}, "pause_after": 0.12, "scene_id": 7, "subtitle_ids": ["SUB-020"]},
-    {"id": 21, "section": "2 / 3", "narration": "コードが用意されているか、保管場所を自分が分かっているかを確認します。", "reading_overrides": {}, "pause_after": 0.14, "scene_id": 7, "subtitle_ids": ["SUB-021"]},
-    {"id": 22, "section": "2 / 3", "narration": "Google公式では、バックアップ コードは10個のコードからなる新しいセットを作成でき、1つのコードは1回だけ使えると案内されています。", "reading_overrides": {}, "pause_after": 0.16, "scene_id": 7, "subtitle_ids": ["SUB-022"]},
-    {"id": 23, "section": "2 / 3", "narration": "新しいセットを作ると、古いセットは自動的に無効になります。", "reading_overrides": {}, "pause_after": 0.15, "scene_id": 7, "subtitle_ids": ["SUB-023"]},
-    {"id": 24, "section": "2 / 3", "narration": "昔ダウンロードしたコードが、紙やファイルのどこにあるか分からない場合は、古いものをそのまま頼りにしないでください。", "reading_overrides": {}, "pause_after": 0.15, "scene_id": 8, "subtitle_ids": ["SUB-024"]},
-    {"id": 25, "section": "2 / 3", "narration": "新しいセットを作るなら、先に保管場所を決めて、安全にしまいます。", "reading_overrides": {}, "pause_after": 0.14, "scene_id": 8, "subtitle_ids": ["SUB-025"]},
-    {"id": 26, "section": "2 / 3", "narration": "コードそのものは、動画や写真、メールで人に渡さないでください。", "reading_overrides": {}, "pause_after": 0.14, "scene_id": 8, "subtitle_ids": ["SUB-026"]},
-    {"id": 27, "section": "2 / 3", "narration": "Googleが電話でバックアップ コードを聞くことはない、と公式に案内されています。", "reading_overrides": {}, "pause_after": 0.16, "scene_id": 8, "subtitle_ids": ["SUB-027"]},
-    {"id": 28, "section": "3 / 3", "narration": "3 / 3、パスキーとセキュリティ キーです。", "reading_overrides": {}, "pause_after": 0.15, "scene_id": 9, "subtitle_ids": ["SUB-028"]},
-    {"id": 29, "section": "3 / 3", "narration": "パスキーは、パスワードの代わりに、スマホの画面ロックなどでログインする方法です。", "reading_overrides": {}, "pause_after": 0.14, "scene_id": 10, "subtitle_ids": ["SUB-029"]},
-    {"id": 30, "section": "3 / 3", "narration": "2段階認証を設定しているアカウントでも、パスキーでログインすると、2つ目の確認が省略されます。", "reading_overrides": {}, "pause_after": 0.16, "scene_id": 10, "subtitle_ids": ["SUB-030"]},
-    {"id": 31, "section": "3 / 3", "narration": "これは、2段階認証をオフにしたという意味ではなく、パスキーが別のログイン手段として使われるということです。", "reading_overrides": {}, "pause_after": 0.16, "scene_id": 10, "subtitle_ids": ["SUB-031"]},
-    {"id": 32, "section": "3 / 3", "narration": "Googleアカウントの「パスキーとセキュリティ キー」を開き、登録されているものを確認します。", "reading_overrides": {}, "pause_after": 0.14, "scene_id": 10, "subtitle_ids": ["SUB-032"]},
-    {"id": 33, "section": "3 / 3", "narration": "Google公式では、Android端末にこのアカウントでログインしていると、パスキーが自動で登録されている可能性があると案内しています。", "reading_overrides": {}, "pause_after": 0.16, "scene_id": 10, "subtitle_ids": ["SUB-033"]},
-    {"id": 34, "section": "3 / 3", "narration": "表示された端末が、自分の持ち物で、現在も使っているものかを確認してください。", "reading_overrides": {}, "pause_after": 0.14, "scene_id": 10, "subtitle_ids": ["SUB-034"]},
-    {"id": 35, "section": "3 / 3", "narration": "パスキーは、自分が所有して使う端末にだけ作成するよう、Googleが案内しています。", "reading_overrides": {}, "pause_after": 0.15, "scene_id": 10, "subtitle_ids": ["SUB-035"]},
-    {"id": 36, "section": "3 / 3", "narration": "古い端末を手放した場合や、共有の端末に作ってしまった場合は、Googleアカウントから削除できます。", "reading_overrides": {}, "pause_after": 0.16, "scene_id": 11, "subtitle_ids": ["SUB-036"]},
-    {"id": 37, "section": "3 / 3", "narration": "ただし、名前だけで判断せず、端末の買い替え時期や自分の記憶も照らし合わせてから操作します。", "reading_overrides": {}, "pause_after": 0.16, "scene_id": 11, "subtitle_ids": ["SUB-037"]},
-    {"id": 38, "section": "3 / 3", "narration": "「可能な場合はパスワードをスキップする」という設定があれば、パスキーを優先する設定かどうかも確認できます。", "reading_overrides": {}, "pause_after": 0.16, "scene_id": 11, "subtitle_ids": ["SUB-038"]},
-    {"id": 39, "section": "まとめ", "narration": "まとめです。1つ目、2段階認証で現在使う確認方法。", "reading_overrides": {}, "pause_after": 0.14, "scene_id": 12, "subtitle_ids": ["SUB-039"]},
-    {"id": 40, "section": "まとめ", "narration": "2つ目、スマートフォンが使えないときのバックアップ コード。", "reading_overrides": {}, "pause_after": 0.14, "scene_id": 12, "subtitle_ids": ["SUB-040"]},
-    {"id": 41, "section": "まとめ", "narration": "3つ目、別のログイン手段であるパスキーとセキュリティ キー。", "reading_overrides": {}, "pause_after": 0.14, "scene_id": 12, "subtitle_ids": ["SUB-041"]},
-    {"id": 42, "section": "まとめ", "narration": "2段階認証は重要な対策です。そのうえで、登録内容を確認して、現在の自分で使える状態にしておきます。", "reading_overrides": {}, "pause_after": 0.16, "scene_id": 12, "subtitle_ids": ["SUB-042"]},
-    {"id": 43, "section": "まとめ", "narration": "分からない表示があったら、削除や変更を急がず、Googleアカウントの公式画面とヘルプで確認します。", "reading_overrides": {}, "pause_after": 0.16, "scene_id": 12, "subtitle_ids": ["SUB-043"]},
-    {"id": 44, "section": "まとめ", "narration": "再設定用の連絡先やログイン中の端末も大切ですが、今回はそこを詳しく繰り返さず、2段階認証の周りに絞りました。", "reading_overrides": {}, "pause_after": 0.16, "scene_id": 12, "subtitle_ids": ["SUB-044"]},
-    {"id": 45, "section": "まとめ", "narration": "設定が確認できたら、今日はここで終わりです。", "reading_overrides": {"今日": "きょう"}, "pause_after": 0.2, "scene_id": 12, "subtitle_ids": ["SUB-045"]}
+    {
+      "id": 1,
+      "section": "はじめに",
+      "narration": "Googleの2段階認証を設定していても、確認しておきたい場所があります。",
+      "reading_overrides": {},
+      "pause_after": 0.12,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-001"
+      ]
+    },
+    {
+      "id": 2,
+      "section": "はじめに",
+      "narration": "2段階認証は、パスワードに加えて、もう一度本人確認をする大切な対策です。",
+      "reading_overrides": {},
+      "pause_after": 0.12,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-002"
+      ]
+    },
+    {
+      "id": 3,
+      "section": "はじめに",
+      "narration": "ただ、設定したときから時間がたつと、確認に使うスマホや予備の方法が、今の生活と合わなくなっていることがあります。",
+      "reading_overrides": {},
+      "pause_after": 0.12,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-003",
+        "SUB-004"
+      ]
+    },
+    {
+      "id": 4,
+      "section": "はじめに",
+      "narration": "今日は3か所だけ一緒に確認します。",
+      "reading_overrides": {
+        "今日": "きょう"
+      },
+      "pause_after": 0.15,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-005"
+      ]
+    },
+    {
+      "id": 5,
+      "section": "はじめに",
+      "narration": "見るのは、いつもの確認方法、スマホが使えないときの予備、登録されているパスキーの3つです。",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-006"
+      ]
+    },
+    {
+      "id": 6,
+      "section": "はじめに",
+      "narration": "2段階認証を外すのではなく、今も自分が使える設定かを確かめていきましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-007"
+      ]
+    },
+    {
+      "id": 7,
+      "section": "1 / 3",
+      "narration": "1 / 3、いつもの確認方法です。",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-008"
+      ]
+    },
+    {
+      "id": 8,
+      "section": "1 / 3",
+      "narration": "Googleアカウントを開き、「セキュリティとログイン」を選びます。",
+      "reading_overrides": {},
+      "pause_after": 0.12,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-009"
+      ]
+    },
+    {
+      "id": 9,
+      "section": "1 / 3",
+      "narration": "「Googleにログインする方法」の中から、「2段階認証プロセス」を開きます。",
+      "reading_overrides": {},
+      "pause_after": 0.12,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-010"
+      ]
+    },
+    {
+      "id": 10,
+      "section": "1 / 3",
+      "narration": "ここでは、パスワードのあとに、何で本人確認する設定なのかを確認します。",
+      "reading_overrides": {},
+      "pause_after": 0.14,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-011"
+      ]
+    },
+    {
+      "id": 11,
+      "section": "1 / 3",
+      "narration": "表示される内容は、アカウントによって異なります。スマホへの通知、確認コード、認証アプリなどが表示されることがあります。",
+      "reading_overrides": {},
+      "pause_after": 0.16,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-012",
+        "SUB-013"
+      ]
+    },
+    {
+      "id": 12,
+      "section": "1 / 3",
+      "narration": "今使っているスマホや方法と、画面の登録内容が合っているかを見比べます。",
+      "reading_overrides": {},
+      "pause_after": 0.14,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-014"
+      ]
+    },
+    {
+      "id": 13,
+      "section": "1 / 3",
+      "narration": "古いスマホや、もう使っていない方法が残っている場合は、すぐに削除せず、まず現在の確認方法が使えることを確かめます。",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-015",
+        "SUB-016"
+      ]
+    },
+    {
+      "id": 14,
+      "section": "1 / 3",
+      "narration": "見覚えのない表示があっても、この画面だけで不正利用と決めつける必要はありません。Google公式の案内を確認し、分からない操作は止めておきましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.16,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-017",
+        "SUB-018"
+      ]
+    },
+    {
+      "id": 15,
+      "section": "1 / 3",
+      "narration": "Googleからのメッセージが表示されたら、端末・場所・時刻を確認します。自分の操作なら「はい」、違う操作なら「いいえ」を選び、分からないときは公式の案内を確認します。",
+      "reading_overrides": {},
+      "pause_after": 0.16,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-019",
+        "SUB-020"
+      ]
+    },
+    {
+      "id": 16,
+      "section": "2 / 3",
+      "narration": "2 / 3、スマホが使えないときの予備です。",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 6,
+      "subtitle_ids": [
+        "SUB-021"
+      ]
+    },
+    {
+      "id": 17,
+      "section": "2 / 3",
+      "narration": "バックアップ コードは、スマホが手元にないときなどに、本人確認へ使える予備のコードです。",
+      "reading_overrides": {},
+      "pause_after": 0.14,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-022"
+      ]
+    },
+    {
+      "id": 18,
+      "section": "2 / 3",
+      "narration": "「2段階認証プロセス」の中にある、「バックアップ コード」を開きます。",
+      "reading_overrides": {},
+      "pause_after": 0.12,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-023"
+      ]
+    },
+    {
+      "id": 19,
+      "section": "2 / 3",
+      "narration": "ここで確認するのは、コードを用意してあるか、そして自分が安全な場所を分かっているかです。",
+      "reading_overrides": {},
+      "pause_after": 0.14,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-024"
+      ]
+    },
+    {
+      "id": 20,
+      "section": "2 / 3",
+      "narration": "Google公式では、バックアップ コードは10個のコードからなる新しいセットを作成でき、1つのコードは1回だけ使えると案内されています。",
+      "reading_overrides": {},
+      "pause_after": 0.16,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-025",
+        "SUB-026"
+      ]
+    },
+    {
+      "id": 21,
+      "section": "2 / 3",
+      "narration": "新しいセットを作ると、以前のセットは使えなくなります。今回は確認だけにして、作り直しはしません。",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-027",
+        "SUB-028"
+      ]
+    },
+    {
+      "id": 22,
+      "section": "2 / 3",
+      "narration": "以前に保存した場所が分からない場合は、そのコードがあるつもりで進めないことが大切です。必要なら、落ち着いて公式の案内を確認してから対応します。",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-029",
+        "SUB-030",
+        "SUB-031"
+      ]
+    },
+    {
+      "id": 23,
+      "section": "2 / 3",
+      "narration": "新しいコードを作るかどうかは、保存する場所を先に決めてから考えます。紙に保管する場合も、他人に見せない場所を選びます。",
+      "reading_overrides": {},
+      "pause_after": 0.14,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-032",
+        "SUB-033"
+      ]
+    },
+    {
+      "id": 24,
+      "section": "2 / 3",
+      "narration": "バックアップ コードは、電話やメールで誰かに伝えるものではありません。画面にコードの数字が出ても、録画やスクリーンショットには残さないでください。",
+      "reading_overrides": {},
+      "pause_after": 0.14,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-034",
+        "SUB-035"
+      ]
+    },
+    {
+      "id": 25,
+      "section": "2 / 3",
+      "narration": "Googleが電話でバックアップ コードを聞くことはありません。求められても伝えず、公式サイトから確認します。",
+      "reading_overrides": {},
+      "pause_after": 0.16,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-036",
+        "SUB-037"
+      ]
+    },
+    {
+      "id": 26,
+      "section": "3 / 3",
+      "narration": "3 / 3、登録されているパスキーです。",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 9,
+      "subtitle_ids": [
+        "SUB-038"
+      ]
+    },
+    {
+      "id": 27,
+      "section": "3 / 3",
+      "narration": "パスキーは、スマホやパソコンの画面ロック、指紋、顔認証などを使って、パスワードの代わりにログインする方法です。",
+      "reading_overrides": {},
+      "pause_after": 0.14,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-039",
+        "SUB-040"
+      ]
+    },
+    {
+      "id": 28,
+      "section": "3 / 3",
+      "narration": "パスキーを使うと、場合によっては2段階目の確認を省いてログインできます。これは、2段階認証をオフにすることとは別の仕組みです。",
+      "reading_overrides": {},
+      "pause_after": 0.16,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-041",
+        "SUB-042",
+        "SUB-043"
+      ]
+    },
+    {
+      "id": 29,
+      "section": "3 / 3",
+      "narration": "大事なのは、自分が持っていて、画面ロックをかけている端末にだけ登録されているかを確認することです。",
+      "reading_overrides": {},
+      "pause_after": 0.16,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-044",
+        "SUB-045"
+      ]
+    },
+    {
+      "id": 30,
+      "section": "3 / 3",
+      "narration": "Googleアカウントの「パスキーとセキュリティ キー」の場所を開きます。",
+      "reading_overrides": {},
+      "pause_after": 0.14,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-046"
+      ]
+    },
+    {
+      "id": 31,
+      "section": "3 / 3",
+      "narration": "Androidスマホでは、端末の設定などによって、パスキーが自動的に登録されることがあります。表示された端末名を確認します。",
+      "reading_overrides": {},
+      "pause_after": 0.16,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-047",
+        "SUB-048"
+      ]
+    },
+    {
+      "id": 32,
+      "section": "3 / 3",
+      "narration": "今も自分が使っている端末なら、そのままで構いません。古い端末や共有の端末があれば、登録を見直します。",
+      "reading_overrides": {},
+      "pause_after": 0.14,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-049",
+        "SUB-050"
+      ]
+    },
+    {
+      "id": 33,
+      "section": "3 / 3",
+      "narration": "新しく登録するときは、自分が所有し、画面ロックを設定している端末だけを使います。",
+      "reading_overrides": {},
+      "pause_after": 0.15,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-051"
+      ]
+    },
+    {
+      "id": 34,
+      "section": "3 / 3",
+      "narration": "使っていない端末を見つけた場合も、名前だけで判断せず、公式の説明を確認してから削除を考えます。",
+      "reading_overrides": {},
+      "pause_after": 0.16,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-052"
+      ]
+    },
+    {
+      "id": 35,
+      "section": "3 / 3",
+      "narration": "パスワードを使わずにログインする設定が表示される場合もあります。内容を理解していないまま、変更を急がなくて大丈夫です。",
+      "reading_overrides": {},
+      "pause_after": 0.16,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-053",
+        "SUB-054"
+      ]
+    },
+    {
+      "id": 36,
+      "section": "3 / 3",
+      "narration": "パスキーは便利な方法ですが、登録先を確認して、自分の端末だけになっているかを見ておきましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.16,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-055"
+      ]
+    },
+    {
+      "id": 37,
+      "section": "まとめ",
+      "narration": "まとめです。1つ目、いつもの確認方法。",
+      "reading_overrides": {},
+      "pause_after": 0.14,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-056"
+      ]
+    },
+    {
+      "id": 38,
+      "section": "まとめ",
+      "narration": "2つ目、スマホが使えないときの予備。",
+      "reading_overrides": {},
+      "pause_after": 0.14,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-057"
+      ]
+    },
+    {
+      "id": 39,
+      "section": "まとめ",
+      "narration": "3つ目、登録されているパスキーとセキュリティ キー。",
+      "reading_overrides": {},
+      "pause_after": 0.14,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-058"
+      ]
+    },
+    {
+      "id": 40,
+      "section": "まとめ",
+      "narration": "2段階認証は大切な対策です。そのうえで、確認に使う方法と予備の手段を、今の自分に合わせておきます。",
+      "reading_overrides": {},
+      "pause_after": 0.16,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-059"
+      ]
+    },
+    {
+      "id": 41,
+      "section": "まとめ",
+      "narration": "見覚えのない表示があっても、慌てて削除や変更をせず、Google公式の案内を確認しましょう。",
+      "reading_overrides": {},
+      "pause_after": 0.16,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-060"
+      ]
+    },
+    {
+      "id": 42,
+      "section": "まとめ",
+      "narration": "設定が確認できたら、今日はここで終わりです。",
+      "reading_overrides": {
+        "今日": "きょう"
+      },
+      "pause_after": 0.2,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-061"
+      ]
+    }
   ],
   "subtitles": [
-    {"id": "SUB-001", "text_lines": ["Googleの2段階認証を設定していても、", "確認しておきたい場所があります。"], "segment_id": 1},
-    {"id": "SUB-002", "text_lines": ["2段階認証は、パスワードに加えて、", "もう一つの確認を求める重要な対策です。"], "segment_id": 2},
-    {"id": "SUB-003", "text_lines": ["そのうえで、以前登録した確認方法が、", "現在も使えるかを見ておきます。"], "segment_id": 3},
-    {"id": "SUB-004", "text_lines": ["今日は3か所だけ", "一緒に確認します。"], "segment_id": 4},
-    {"id": "SUB-005", "text_lines": ["見るのは、現在の確認方法、", "バックアップ コード、登録済みパスキーの3つです。"], "segment_id": 5},
-    {"id": "SUB-006", "text_lines": ["設定を変える前に、", "まず表示を確かめるだけで大丈夫です。"], "segment_id": 6},
-    {"id": "SUB-007", "text_lines": ["1 / 3、2段階認証プロセスの、", "現在の確認方法です。"], "segment_id": 7},
-    {"id": "SUB-008", "text_lines": ["Googleアカウントを開き、", "「セキュリティとログイン」を選びます。"], "segment_id": 8},
-    {"id": "SUB-009", "text_lines": ["「Googleにログインする方法」の中から、", "「2段階認証プロセス」を開きます。"], "segment_id": 9},
-    {"id": "SUB-010", "text_lines": ["パスワードのあとに、", "何で本人確認する設定かを確認します。"], "segment_id": 10},
-    {"id": "SUB-011", "text_lines": ["Googleからのメッセージや確認コードなど、", "表示される内容はアカウントによって異なります。"], "segment_id": 11},
-    {"id": "SUB-012", "text_lines": ["現在使っているスマホや方法と、", "画面の登録内容が合っているかを見ます。"], "segment_id": 12},
-    {"id": "SUB-013", "text_lines": ["古い方法や電話番号が", "残っていないかも確認します。"], "segment_id": 13},
-    {"id": "SUB-014", "text_lines": ["表示された名前だけで", "不正利用と決めつける必要はありません。"], "segment_id": 14},
-    {"id": "SUB-015", "text_lines": ["確認コードを入力するより、", "Googleからのメッセージをおすすめしています。"], "segment_id": 15},
-    {"id": "SUB-016", "text_lines": ["端末、場所、時刻を確かめて、", "自分の操作なら「はい」を選びます。"], "segment_id": 16},
-    {"id": "SUB-017", "text_lines": ["自分が操作していない通知なら、", "「いいえ」を選び、公式の案内を確認します。"], "segment_id": 17},
-    {"id": "SUB-018", "text_lines": ["2 / 3、", "バックアップ コードです。"], "segment_id": 18},
-    {"id": "SUB-019", "text_lines": ["スマートフォンを使えないときの、", "2段階認証の予備の入口です。"], "segment_id": 19},
-    {"id": "SUB-020", "text_lines": ["同じ「2段階認証プロセス」で、", "「バックアップ コード」を開きます。"], "segment_id": 20},
-    {"id": "SUB-021", "text_lines": ["コードが用意されているか、", "保管場所を分かっているか確認します。"], "segment_id": 21},
-    {"id": "SUB-022", "text_lines": ["新しいセットは10個のコードからなり、", "1つのコードは1回だけ使えます。"], "segment_id": 22},
-    {"id": "SUB-023", "text_lines": ["新しいセットを作ると、", "古いセットは自動的に無効になります。"], "segment_id": 23},
-    {"id": "SUB-024", "text_lines": ["昔のコードの場所が分からないなら、", "古いものをそのまま頼りにしません。"], "segment_id": 24},
-    {"id": "SUB-025", "text_lines": ["新しいセットを作るなら、", "先に保管場所を決めて安全にしまいます。"], "segment_id": 25},
-    {"id": "SUB-026", "text_lines": ["コードそのものは、", "動画や写真、メールで人に渡しません。"], "segment_id": 26},
-    {"id": "SUB-027", "text_lines": ["Googleが電話で", "バックアップ コードを聞くことはありません。"], "segment_id": 27},
-    {"id": "SUB-028", "text_lines": ["3 / 3、", "パスキーとセキュリティ キーです。"], "segment_id": 28},
-    {"id": "SUB-029", "text_lines": ["パスキーは、パスワードの代わりに、", "スマホの画面ロックなどでログインする方法です。"], "segment_id": 29},
-    {"id": "SUB-030", "text_lines": ["2段階認証を設定していても、", "パスキーでは2つ目の確認が省略されます。"], "segment_id": 30},
-    {"id": "SUB-031", "text_lines": ["2段階認証をオフにしたのではなく、", "パスキーが別のログイン手段になります。"], "segment_id": 31},
-    {"id": "SUB-032", "text_lines": ["「パスキーとセキュリティ キー」を開き、", "登録されているものを確認します。"], "segment_id": 32},
-    {"id": "SUB-033", "text_lines": ["Android端末にログインしていると、", "パスキーが自動登録される可能性があります。"], "segment_id": 33},
-    {"id": "SUB-034", "text_lines": ["表示された端末が自分の持ち物で、", "現在も使っているものかを確認します。"], "segment_id": 34},
-    {"id": "SUB-035", "text_lines": ["パスキーは、自分が所有して使う端末に", "作成するようGoogleが案内しています。"], "segment_id": 35},
-    {"id": "SUB-036", "text_lines": ["古い端末や共有の端末に作った場合は、", "Googleアカウントから削除できます。"], "segment_id": 36},
-    {"id": "SUB-037", "text_lines": ["名前だけで判断せず、", "買い替え時期や自分の記憶も照らし合わせます。"], "segment_id": 37},
-    {"id": "SUB-038", "text_lines": ["パスキーを優先する設定かどうかも、", "表示があれば確認できます。"], "segment_id": 38},
-    {"id": "SUB-039", "text_lines": ["1つ目、", "2段階認証で現在使う確認方法。"], "segment_id": 39},
-    {"id": "SUB-040", "text_lines": ["2つ目、", "スマートフォンが使えないときのバックアップ コード。"], "segment_id": 40},
-    {"id": "SUB-041", "text_lines": ["3つ目、別のログイン手段である", "パスキーとセキュリティ キー。"], "segment_id": 41},
-    {"id": "SUB-042", "text_lines": ["2段階認証は重要な対策です。", "登録内容を確認して、今も使える状態にします。"], "segment_id": 42},
-    {"id": "SUB-043", "text_lines": ["分からない表示があったら、", "削除や変更を急がず公式ヘルプで確認します。"], "segment_id": 43},
-    {"id": "SUB-044", "text_lines": ["今回は再設定用連絡先や端末一覧を繰り返さず、", "2段階認証の周りに絞りました。"], "segment_id": 44},
-    {"id": "SUB-045", "text_lines": ["設定が確認できたら、", "今日はここで終わりです。"], "segment_id": 45}
+    {
+      "id": "SUB-001",
+      "text_lines": [
+        "Googleの2段階認証を設定していても、",
+        "確認しておきたい場所があります。"
+      ],
+      "segment_id": 1,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-002",
+      "text_lines": [
+        "2段階認証は、パスワードに",
+        "加えて、もう一度本人確認をする大切な対策です。"
+      ],
+      "segment_id": 2,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-003",
+      "text_lines": [
+        "ただ、設定したときから時間がたつと、",
+        "確認に使うスマホや予備の方法が、"
+      ],
+      "segment_id": 3,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-004",
+      "text_lines": [
+        "今の生活と合わなくなっていることがあります。"
+      ],
+      "segment_id": 3,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-005",
+      "text_lines": [
+        "今日は3か所だけ一緒に確認します。"
+      ],
+      "segment_id": 4,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-006",
+      "text_lines": [
+        "見るのは、いつもの確認方法、スマホが使えないと",
+        "きの予備、登録されているパスキーの3つです。"
+      ],
+      "segment_id": 5,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-007",
+      "text_lines": [
+        "2段階認証を外すのではなく、",
+        "今も自分が使える設定かを確かめていきましょう。"
+      ],
+      "segment_id": 6,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-008",
+      "text_lines": [
+        "1/3、いつもの確認方法です。"
+      ],
+      "segment_id": 7,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-009",
+      "text_lines": [
+        "Googleアカウントを開き、",
+        "「セキュリティとログイン」を選びます。"
+      ],
+      "segment_id": 8,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-010",
+      "text_lines": [
+        "「Googleにログインする方法」の中から、",
+        "「2段階認証プロセス」を開きます。"
+      ],
+      "segment_id": 9,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-011",
+      "text_lines": [
+        "ここでは、パスワードのあとに、",
+        "何で本人確認する設定なのかを確認します。"
+      ],
+      "segment_id": 10,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-012",
+      "text_lines": [
+        "表示される内容は、アカウントによって異なります。"
+      ],
+      "segment_id": 11,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-013",
+      "text_lines": [
+        "スマホへの通知、確認コード、",
+        "認証アプリなどが表示されることがあります。"
+      ],
+      "segment_id": 11,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-014",
+      "text_lines": [
+        "今使っているスマホや方法と、",
+        "画面の登録内容が合っているかを見比べます。"
+      ],
+      "segment_id": 12,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-015",
+      "text_lines": [
+        "古いスマホや、もう使っていない方法が",
+        "残っている場合は、すぐに削除せず、"
+      ],
+      "segment_id": 13,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-016",
+      "text_lines": [
+        "まず現在の確認方法が使えることを確かめます。"
+      ],
+      "segment_id": 13,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-017",
+      "text_lines": [
+        "見覚えのない表示があっても、この画面だけで",
+        "不正利用と決めつける必要はありません。"
+      ],
+      "segment_id": 14,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-018",
+      "text_lines": [
+        "Google公式の案内を確認し、",
+        "分からない操作は止めておきましょう。"
+      ],
+      "segment_id": 14,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-019",
+      "text_lines": [
+        "Googleからのメッセージが表示されたら、",
+        "端末・場所・時刻を確認します。"
+      ],
+      "segment_id": 15,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-020",
+      "text_lines": [
+        "自分の操作なら「はい」、違う操作なら「いいえ」を",
+        "選び、分からないときは公式の案内を確認します。"
+      ],
+      "segment_id": 15,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-021",
+      "text_lines": [
+        "2/3、スマホが使えないときの予備です。"
+      ],
+      "segment_id": 16,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-022",
+      "text_lines": [
+        "バックアップコードは、スマホが手元にないと",
+        "きなどに、本人確認へ使える予備のコードです。"
+      ],
+      "segment_id": 17,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-023",
+      "text_lines": [
+        "「2段階認証プロセス」の中にある、",
+        "「バックアップコード」を開きます。"
+      ],
+      "segment_id": 18,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-024",
+      "text_lines": [
+        "ここで確認するのは、コードを用意してあるか、",
+        "そして自分が安全な場所を分かっているかです。"
+      ],
+      "segment_id": 19,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-025",
+      "text_lines": [
+        "Google公式では、バックアップコードは",
+        "10個のコードからなる新しいセットを作成でき、"
+      ],
+      "segment_id": 20,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-026",
+      "text_lines": [
+        "1つのコードは1回だけ使えると案内されています。"
+      ],
+      "segment_id": 20,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-027",
+      "text_lines": [
+        "新しいセットを作ると、",
+        "以前のセットは使えなくなります。"
+      ],
+      "segment_id": 21,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-028",
+      "text_lines": [
+        "今回は確認だけにして、作り直しはしません。"
+      ],
+      "segment_id": 21,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-029",
+      "text_lines": [
+        "以前に保存した場所が分からない場合は、",
+        "そのコードがあるつもりで進めないことが大切です。"
+      ],
+      "segment_id": 22,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-030",
+      "text_lines": [
+        "必要なら、"
+      ],
+      "segment_id": 22,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-031",
+      "text_lines": [
+        "落ち着いて公式の案内を確認してから対応します。"
+      ],
+      "segment_id": 22,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-032",
+      "text_lines": [
+        "新しいコードを作るかどうかは、",
+        "保存する場所を先に決めてから考えます。"
+      ],
+      "segment_id": 23,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-033",
+      "text_lines": [
+        "紙に保管する場合も、他人に見せない場所を選びます。"
+      ],
+      "segment_id": 23,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-034",
+      "text_lines": [
+        "バックアップコードは、",
+        "電話やメールで誰かに伝えるものではありません。"
+      ],
+      "segment_id": 24,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-035",
+      "text_lines": [
+        "画面にコードの数字が出ても、",
+        "録画やスクリーンショットには残さないでください。"
+      ],
+      "segment_id": 24,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-036",
+      "text_lines": [
+        "Googleが電話でバックアップコードを",
+        "聞くことはありません。"
+      ],
+      "segment_id": 25,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-037",
+      "text_lines": [
+        "求められても伝えず、公式サイトから確認します。"
+      ],
+      "segment_id": 25,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-038",
+      "text_lines": [
+        "3/3、登録されているパスキーです。"
+      ],
+      "segment_id": 26,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-039",
+      "text_lines": [
+        "パスキーは、スマホやパソコンの画面ロック、",
+        "指紋、顔認証などを使って、"
+      ],
+      "segment_id": 27,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-040",
+      "text_lines": [
+        "パスワードの代わりにログインする方法です。"
+      ],
+      "segment_id": 27,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-041",
+      "text_lines": [
+        "パスキーを使うと、場合によっては",
+        "2段階目の確認を省いてログインできます。"
+      ],
+      "segment_id": 28,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-042",
+      "text_lines": [
+        "これは、"
+      ],
+      "segment_id": 28,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-043",
+      "text_lines": [
+        "2段階認証をオフにすることとは別の仕組みです。"
+      ],
+      "segment_id": 28,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-044",
+      "text_lines": [
+        "大事なのは、自分が持っていて、"
+      ],
+      "segment_id": 29,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-045",
+      "text_lines": [
+        "画面ロックをかけている端末にだけ",
+        "登録されているかを確認することです。"
+      ],
+      "segment_id": 29,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-046",
+      "text_lines": [
+        "Googleアカウントの「パスキーと",
+        "セキュリティキー」の場所を開きます。"
+      ],
+      "segment_id": 30,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-047",
+      "text_lines": [
+        "Androidスマホでは、端末の設定などによって、",
+        "パスキーが自動的に登録されることがあります。"
+      ],
+      "segment_id": 31,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-048",
+      "text_lines": [
+        "表示された端末名を確認します。"
+      ],
+      "segment_id": 31,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-049",
+      "text_lines": [
+        "今も自分が使っている端末なら、",
+        "そのままで構いません。"
+      ],
+      "segment_id": 32,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-050",
+      "text_lines": [
+        "古い端末や共有の端末があれば、登録を見直します。"
+      ],
+      "segment_id": 32,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-051",
+      "text_lines": [
+        "新しく登録するときは、自分が所有し、",
+        "画面ロックを設定している端末だけを使います。"
+      ],
+      "segment_id": 33,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-052",
+      "text_lines": [
+        "使っていない端末を見つけた場合も、名前だけで",
+        "判断せず、公式の説明を確認してから削除を考えます。"
+      ],
+      "segment_id": 34,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-053",
+      "text_lines": [
+        "パスワードを使わずにログインする設定が",
+        "表示される場合もあります。"
+      ],
+      "segment_id": 35,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-054",
+      "text_lines": [
+        "内容を理解していないまま、",
+        "変更を急がなくて大丈夫です。"
+      ],
+      "segment_id": 35,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-055",
+      "text_lines": [
+        "パスキーは便利な方法ですが、登録先を確認して、",
+        "自分の端末だけになっているかを見ておきましょう。"
+      ],
+      "segment_id": 36,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-056",
+      "text_lines": [
+        "まとめです。1つ目、いつもの確認方法。"
+      ],
+      "segment_id": 37,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-057",
+      "text_lines": [
+        "2つ目、スマホが使えないときの予備。"
+      ],
+      "segment_id": 38,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-058",
+      "text_lines": [
+        "3つ目、登録されているパスキーとセキュリティキー。"
+      ],
+      "segment_id": 39,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-059",
+      "text_lines": [
+        "2段階認証は大切な対策です。そのうえで、確認に使う",
+        "方法と予備の手段を、今の自分に合わせておきます。"
+      ],
+      "segment_id": 40,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-060",
+      "text_lines": [
+        "見覚えのない表示があっても、慌てて削除や変更を",
+        "せず、Google公式の案内を確認しましょう。"
+      ],
+      "segment_id": 41,
+      "font_px": 72
+    },
+    {
+      "id": "SUB-061",
+      "text_lines": [
+        "設定が確認できたら、今日はここで終わりです。"
+      ],
+      "segment_id": 42,
+      "font_px": 72
+    }
   ],
   "scenes": [
     {
@@ -299,99 +1239,159 @@
       "section_label": "はじめに",
       "official_asset": [],
       "official_asset_crop": [],
-      "official_source_ids": ["SRC-001", "SRC-002"],
+      "official_source_ids": [
+        "SRC-001",
+        "SRC-002"
+      ],
       "icon_name": "lock",
       "icon_tone": "blue",
       "visual_role": "opening",
       "visual_focal_point": "2段階認証済みの視聴者が自分の設定を確認する入口",
-      "visual_balance": {"center_x": 960, "intentional_asymmetry": false},
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
       "animation": "static",
       "fit_mode": "full_bleed",
       "background_fill": "soft_gradient",
       "start_segment": 1,
       "end_segment": 4,
-      "subtitle_ids": ["SUB-001", "SUB-002", "SUB-003", "SUB-004"]
+      "subtitle_ids": [
+        "SUB-001",
+        "SUB-002",
+        "SUB-003",
+        "SUB-004",
+        "SUB-005"
+      ],
+      "device": "PCブラウザ"
     },
     {
       "id": 2,
       "layout": "layout_02_list",
       "render_mode": "template",
       "text_render_mode": "pil_overlay",
-      "headline": "確認するのは3つ",
-      "support_text": "変更する前に、まず表示を確認",
-      "main_message": "現在の確認方法・バックアップ コード・パスキー",
+      "headline": "今日は3か所だけ",
+      "support_text": "今も使える設定かを確認",
+      "main_message": "いつもの確認方法 / 予備 / パスキー",
       "section_label": "はじめに",
-      "items": ["現在の確認方法", "バックアップ コード", "パスキーとセキュリティ キー"],
+      "items": [
+        "いつもの確認方法",
+        "スマホが使えないときの予備",
+        "登録されているパスキー"
+      ],
       "official_asset": [],
       "official_asset_crop": [],
-      "official_source_ids": ["SRC-001", "SRC-003", "SRC-004"],
+      "official_source_ids": [
+        "SRC-001",
+        "SRC-003",
+        "SRC-004"
+      ],
       "icon_name": "checklist",
       "icon_tone": "blue",
       "visual_role": "overview",
       "visual_focal_point": "3項目を大きく読み取れる縦リスト",
-      "visual_balance": {"center_x": 960, "intentional_asymmetry": false},
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
       "animation": "static",
       "fit_mode": "full_bleed",
       "background_fill": "soft_gradient",
       "start_segment": 5,
       "end_segment": 6,
-      "subtitle_ids": ["SUB-005", "SUB-006"]
+      "subtitle_ids": [
+        "SUB-006",
+        "SUB-007"
+      ],
+      "device": "PCブラウザ"
     },
     {
       "id": 3,
       "layout": "layout_08_section",
       "render_mode": "template",
       "text_render_mode": "pil_overlay",
-      "headline": "現在の確認方法",
-      "support_text": "1 / 3",
-      "main_message": "今の自分で使える方法かを確認",
+      "headline": "いつもの確認方法",
+      "support_text": "画面では「2段階認証プロセス」",
+      "main_message": "まず、今使っている確認方法を確認",
       "section_label": "1 / 3",
       "official_asset": [],
       "official_asset_crop": [],
-      "official_source_ids": ["SRC-001"],
+      "official_source_ids": [
+        "SRC-001"
+      ],
       "icon_name": "lock",
       "icon_tone": "blue",
       "visual_role": "section_divider",
       "visual_focal_point": "1 / 3を大きく示し、確認対象を一つに絞る",
-      "visual_balance": {"center_x": 960, "intentional_asymmetry": false},
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
       "animation": "static",
       "fit_mode": "full_bleed",
       "background_fill": "soft_gradient",
       "start_segment": 7,
       "end_segment": 7,
-      "subtitle_ids": ["SUB-007"]
+      "subtitle_ids": [
+        "SUB-008"
+      ],
+      "device": "PCブラウザ"
     },
     {
       "id": 4,
       "layout": "layout_04_text_official",
       "render_mode": "official",
       "text_render_mode": "pil_overlay",
-      "headline": "2段階認証プロセス",
-      "support_text": "現在の確認方法を確認",
+      "headline": "いつもの確認方法",
+      "support_text": "正式名称：2段階認証プロセス",
       "main_message": "登録内容と、今使っているスマホ・方法を照らし合わせる",
       "section_label": "1 / 3",
-      "official_asset": [],
+      "official_asset": [
+        {
+          "kind": "quote",
+          "label": "Google公式UI名",
+          "text": "2段階認証プロセス",
+          "source": "SRC-001"
+        }
+      ],
       "official_asset_crop": [],
       "official_asset_slot": {
-        "status": "planned",
+        "status": "fallback_official_label",
         "source_url": "https://support.google.com/accounts/answer/185839?co=GENIE.Platform%3DDesktop&hl=ja",
-        "capture_method": "PCブラウザのGoogleアカウント実画面",
+        "capture_method": "PCブラウザの認証済みテストセッション（Human確認後）",
         "phase": "Phase B",
-        "note": "Googleにログインする方法→2段階認証プロセス。実際に表示された現在の確認方法だけを使い、設定のオン・オフ操作はしない。"
+        "note": "現行のGoogle公式UI名称を公式ヘルプで確認済み。個別アカウント画面は認証済みテストセッションをHuman確認後にcaptureするまで、公式UI名称のquote cardで代替する。",
+        "source_id": "SRC-001"
       },
-      "official_source_ids": ["SRC-001"],
+      "official_source_ids": [
+        "SRC-001"
+      ],
       "official_ui_required": true,
-      "capture_status": "PLANNED",
+      "capture_status": "FALLBACK_OFFICIAL_LABEL",
       "device": "PCブラウザ",
       "visual_role": "official_ui_current_2sv_method",
       "visual_focal_point": "2段階認証プロセス内の現在の確認方法を大きくcropする",
-      "visual_balance": {"center_x": 1240, "intentional_asymmetry": true},
+      "visual_balance": {
+        "center_x": 1240,
+        "intentional_asymmetry": true
+      },
       "animation": "static",
       "fit_mode": "crop",
       "background_fill": "soft_gradient",
       "start_segment": 8,
       "end_segment": 14,
-      "subtitle_ids": ["SUB-008", "SUB-009", "SUB-010", "SUB-011", "SUB-012", "SUB-013", "SUB-014"]
+      "subtitle_ids": [
+        "SUB-009",
+        "SUB-010",
+        "SUB-011",
+        "SUB-012",
+        "SUB-013",
+        "SUB-014",
+        "SUB-015",
+        "SUB-016",
+        "SUB-017",
+        "SUB-018"
+      ]
     },
     {
       "id": 5,
@@ -400,78 +1400,116 @@
       "text_render_mode": "pil_overlay",
       "headline": "通知が来たとき",
       "support_text": "端末・場所・時刻を確認",
-      "main_message": "自分の操作なら「はい」、違えば「いいえ」",
+      "main_message": "自分の操作なら「はい」、違えば公式の案内を確認",
       "section_label": "1 / 3",
       "official_asset": [],
       "official_asset_crop": [],
-      "official_source_ids": ["SRC-005"],
-      "icon_name": "notifications",
-      "icon_tone": "blue",
+      "official_source_ids": [
+        "SRC-005"
+      ],
+      "icon_name": "verified_user",
+      "icon_tone": "green",
       "visual_role": "prompt_explanation",
       "visual_focal_point": "通知の確認順を大きく示し、実際の通知画面は個人情報を映さない",
-      "visual_balance": {"center_x": 960, "intentional_asymmetry": false},
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
       "animation": "static",
       "fit_mode": "full_bleed",
       "background_fill": "soft_gradient",
       "start_segment": 15,
-      "end_segment": 17,
-      "subtitle_ids": ["SUB-015", "SUB-016", "SUB-017"]
+      "end_segment": 15,
+      "subtitle_ids": [
+        "SUB-019",
+        "SUB-020"
+      ],
+      "device": "PCブラウザ"
     },
     {
       "id": 6,
       "layout": "layout_08_section",
       "render_mode": "template",
       "text_render_mode": "pil_overlay",
-      "headline": "バックアップ コード",
-      "support_text": "2 / 3",
-      "main_message": "スマートフォンが使えないときの予備を確認",
+      "headline": "スマホが使えないときの予備",
+      "support_text": "画面では「バックアップ コード」",
+      "main_message": "予備の入口が分かる状態にする",
       "section_label": "2 / 3",
       "official_asset": [],
       "official_asset_crop": [],
-      "official_source_ids": ["SRC-003"],
+      "official_source_ids": [
+        "SRC-003"
+      ],
       "icon_name": "key",
       "icon_tone": "amber",
       "visual_role": "section_divider",
       "visual_focal_point": "2 / 3と予備の入口を大きく示す",
-      "visual_balance": {"center_x": 960, "intentional_asymmetry": false},
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
       "animation": "static",
       "fit_mode": "full_bleed",
       "background_fill": "soft_gradient",
-      "start_segment": 18,
-      "end_segment": 18,
-      "subtitle_ids": ["SUB-018"]
+      "start_segment": 16,
+      "end_segment": 16,
+      "subtitle_ids": [
+        "SUB-021"
+      ],
+      "device": "PCブラウザ"
     },
     {
       "id": 7,
       "layout": "layout_04_text_official",
       "render_mode": "official",
       "text_render_mode": "pil_overlay",
-      "headline": "バックアップ コード",
-      "support_text": "用意の有無と保管場所を確認",
-      "main_message": "数字は見せず、予備の入口が分かる状態にする",
+      "headline": "スマホが使えないときの予備",
+      "support_text": "正式名称：バックアップ コード",
+      "main_message": "コードの数字は映さず、用意の有無を確認",
       "section_label": "2 / 3",
-      "official_asset": [],
+      "official_asset": [
+        {
+          "kind": "quote",
+          "label": "Google公式UI名",
+          "text": "バックアップ コード",
+          "source": "SRC-003"
+        }
+      ],
       "official_asset_crop": [],
       "official_asset_slot": {
-        "status": "planned",
+        "status": "fallback_official_label",
         "source_url": "https://support.google.com/accounts/answer/1187538?co=GENIE.Platform%3DDesktop&hl=ja",
-        "capture_method": "PCブラウザのGoogleアカウント実画面",
+        "capture_method": "PCブラウザの認証済みテストセッション（Human確認後）",
         "phase": "Phase B",
-        "note": "バックアップ コードの入口と管理導線だけを示す。コードの数字は表示・保存・共有せず、必要なら撮影前に完全にマスクする。"
+        "note": "バックアップ コードの入口と公式UI名称だけを表示する。実コードの数字は撮影・保存・字幕化しない。新規作成や更新はHuman確認なしに行わない。",
+        "source_id": "SRC-003"
       },
-      "official_source_ids": ["SRC-003"],
+      "official_source_ids": [
+        "SRC-003"
+      ],
       "official_ui_required": true,
-      "capture_status": "PLANNED",
+      "capture_status": "FALLBACK_OFFICIAL_LABEL",
       "device": "PCブラウザ",
       "visual_role": "official_ui_backup_codes",
       "visual_focal_point": "バックアップ コードの項目名と確認導線を大きくcropする",
-      "visual_balance": {"center_x": 1240, "intentional_asymmetry": true},
+      "visual_balance": {
+        "center_x": 1240,
+        "intentional_asymmetry": true
+      },
       "animation": "static",
       "fit_mode": "crop",
       "background_fill": "soft_gradient",
-      "start_segment": 19,
-      "end_segment": 23,
-      "subtitle_ids": ["SUB-019", "SUB-020", "SUB-021", "SUB-022", "SUB-023"]
+      "start_segment": 17,
+      "end_segment": 21,
+      "subtitle_ids": [
+        "SUB-022",
+        "SUB-023",
+        "SUB-024",
+        "SUB-025",
+        "SUB-026",
+        "SUB-027",
+        "SUB-028"
+      ]
     },
     {
       "id": 8,
@@ -479,165 +1517,287 @@
       "render_mode": "template",
       "text_render_mode": "pil_overlay",
       "headline": "コードは見せない",
-      "support_text": "1回使うと、そのコードは使えません",
-      "main_message": "古いセットに頼らず、保管場所を先に決める",
+      "support_text": "確認するのは入口と用意の有無",
+      "main_message": "実コードの数字は撮影・保存しない",
       "section_label": "2 / 3",
-      "items": ["新しいセットで古いセットは無効", "コードは人に渡さない", "電話で聞かれても伝えない"],
+      "items": [
+        "新しいセットで古いセットは無効",
+        "コードは人に渡さない",
+        "電話で聞かれても伝えない"
+      ],
       "official_asset": [],
       "official_asset_crop": [],
-      "official_source_ids": ["SRC-003"],
+      "official_source_ids": [
+        "SRC-003"
+      ],
       "icon_name": "key",
       "icon_tone": "amber",
       "visual_role": "backup_code_caution",
       "visual_focal_point": "数字を載せず、保管と共有禁止だけを大きく表示する",
-      "visual_balance": {"center_x": 960, "intentional_asymmetry": false},
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
       "animation": "static",
       "fit_mode": "full_bleed",
       "background_fill": "soft_gradient",
-      "start_segment": 24,
-      "end_segment": 27,
-      "subtitle_ids": ["SUB-024", "SUB-025", "SUB-026", "SUB-027"]
+      "start_segment": 22,
+      "end_segment": 25,
+      "subtitle_ids": [
+        "SUB-029",
+        "SUB-030",
+        "SUB-031",
+        "SUB-032",
+        "SUB-033",
+        "SUB-034",
+        "SUB-035",
+        "SUB-036",
+        "SUB-037"
+      ],
+      "device": "PCブラウザ"
     },
     {
       "id": 9,
       "layout": "layout_08_section",
       "render_mode": "template",
       "text_render_mode": "pil_overlay",
-      "headline": "パスキーとセキュリティ キー",
-      "support_text": "3 / 3",
-      "main_message": "別のログイン手段の登録状態を確認",
+      "headline": "登録されているパスキー",
+      "support_text": "画面では「パスキーとセキュリティ キー」",
+      "main_message": "自分の端末だけに登録されているか確認",
       "section_label": "3 / 3",
       "official_asset": [],
       "official_asset_crop": [],
-      "official_source_ids": ["SRC-004"],
+      "official_source_ids": [
+        "SRC-004"
+      ],
       "icon_name": "key",
       "icon_tone": "teal",
       "visual_role": "section_divider",
       "visual_focal_point": "3 / 3と確認対象を大きく示す",
-      "visual_balance": {"center_x": 960, "intentional_asymmetry": false},
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
       "animation": "static",
       "fit_mode": "full_bleed",
       "background_fill": "soft_gradient",
-      "start_segment": 28,
-      "end_segment": 28,
-      "subtitle_ids": ["SUB-028"]
+      "start_segment": 26,
+      "end_segment": 26,
+      "subtitle_ids": [
+        "SUB-038"
+      ],
+      "device": "PCブラウザ"
     },
     {
       "id": 10,
       "layout": "layout_04_text_official",
       "render_mode": "official",
       "text_render_mode": "pil_overlay",
-      "headline": "パスキーとセキュリティ キー",
-      "support_text": "登録されている端末・キーを確認",
-      "main_message": "自分が所有して使う端末だけかを確かめる",
+      "headline": "登録されているパスキー",
+      "support_text": "正式名称：パスキーとセキュリティ キー",
+      "main_message": "自分が所有して使う端末だけかを確認",
       "section_label": "3 / 3",
-      "official_asset": [],
+      "official_asset": [
+        {
+          "kind": "quote",
+          "label": "Google公式UI名",
+          "text": "パスキーとセキュリティ キー",
+          "source": "SRC-004"
+        }
+      ],
       "official_asset_crop": [],
       "official_asset_slot": {
-        "status": "planned",
+        "status": "fallback_official_label",
         "source_url": "https://support.google.com/accounts/answer/13548313?hl=ja",
-        "capture_method": "PCブラウザのGoogleアカウント実画面",
+        "capture_method": "PCブラウザの認証済みテストセッション（Human確認後）",
         "phase": "Phase B",
-        "note": "パスキーとセキュリティ キーの登録一覧を確認する。端末名・アカウント名はマスクし、追加・削除は人間が必要性を確認した場合だけ。"
+        "note": "現行のGoogle公式UI名称を公式ヘルプで確認済み。個別アカウントの登録一覧は認証済みテストセッションをHuman確認後にcaptureするまで、公式UI名称のquote cardで代替する。",
+        "source_id": "SRC-004"
       },
-      "official_source_ids": ["SRC-004"],
+      "official_source_ids": [
+        "SRC-004"
+      ],
       "official_ui_required": true,
-      "capture_status": "PLANNED",
+      "capture_status": "FALLBACK_OFFICIAL_LABEL",
       "device": "PCブラウザ",
       "visual_role": "official_ui_passkeys",
       "visual_focal_point": "登録済み一覧と本人所有端末の確認箇所を大きくcropする",
-      "visual_balance": {"center_x": 1240, "intentional_asymmetry": true},
+      "visual_balance": {
+        "center_x": 1240,
+        "intentional_asymmetry": true
+      },
       "animation": "static",
       "fit_mode": "crop",
       "background_fill": "soft_gradient",
-      "start_segment": 29,
-      "end_segment": 35,
-      "subtitle_ids": ["SUB-029", "SUB-030", "SUB-031", "SUB-032", "SUB-033", "SUB-034", "SUB-035"]
+      "start_segment": 27,
+      "end_segment": 33,
+      "subtitle_ids": [
+        "SUB-039",
+        "SUB-040",
+        "SUB-041",
+        "SUB-042",
+        "SUB-043",
+        "SUB-044",
+        "SUB-045",
+        "SUB-046",
+        "SUB-047",
+        "SUB-048",
+        "SUB-049",
+        "SUB-050",
+        "SUB-051"
+      ]
     },
     {
       "id": 11,
       "layout": "layout_06_caution",
       "render_mode": "template",
       "text_render_mode": "pil_overlay",
-      "headline": "削除は急がない",
-      "support_text": "端末の買い替え時期と記憶を照合",
-      "main_message": "古い端末・共有端末だけ、必要なら整理する",
+      "headline": "自分の端末だけ",
+      "support_text": "古い端末・共有端末は見直す",
+      "main_message": "名前だけで決めず、公式の説明を確認",
       "section_label": "3 / 3",
-      "items": ["名前だけで判断しない", "本人所有かを確認", "分からなければ変更しない"],
+      "items": [
+        "名前だけで判断しない",
+        "本人所有かを確認",
+        "分からなければ変更しない"
+      ],
       "official_asset": [],
       "official_asset_crop": [],
-      "official_source_ids": ["SRC-004"],
+      "official_source_ids": [
+        "SRC-004"
+      ],
       "icon_name": "key",
       "icon_tone": "amber",
       "visual_role": "passkey_caution",
       "visual_focal_point": "削除を急がず、照合してから判断する順番を表示する",
-      "visual_balance": {"center_x": 960, "intentional_asymmetry": false},
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
       "animation": "static",
       "fit_mode": "full_bleed",
       "background_fill": "soft_gradient",
-      "start_segment": 36,
-      "end_segment": 38,
-      "subtitle_ids": ["SUB-036", "SUB-037", "SUB-038"]
+      "start_segment": 34,
+      "end_segment": 36,
+      "subtitle_ids": [
+        "SUB-052",
+        "SUB-053",
+        "SUB-054",
+        "SUB-055"
+      ],
+      "device": "PCブラウザ"
     },
     {
       "id": 12,
       "layout": "layout_07_summary",
       "render_mode": "template",
       "text_render_mode": "pil_overlay",
-      "headline": "今日の3か所",
-      "support_text": "確認できたら、今日は終了",
-      "main_message": "2段階認証を保ったまま、登録内容を点検する",
+      "headline": "3か所を確認できたら終了",
+      "support_text": "2段階認証はそのまま使う",
+      "main_message": "いつもの方法 / 予備 / パスキー",
       "section_label": "まとめ",
-      "items": ["現在の確認方法", "バックアップ コード", "パスキーとセキュリティ キー"],
+      "items": [
+        "いつもの確認方法",
+        "スマホが使えないときの予備",
+        "登録されているパスキー"
+      ],
       "official_asset": [],
       "official_asset_crop": [],
-      "official_source_ids": ["SRC-001", "SRC-003", "SRC-004"],
+      "official_source_ids": [
+        "SRC-001",
+        "SRC-003",
+        "SRC-004"
+      ],
       "icon_name": "verified_user",
       "icon_tone": "green",
       "visual_role": "summary",
       "visual_focal_point": "3項目と「確認できたら終了」を大きく残す",
-      "visual_balance": {"center_x": 960, "intentional_asymmetry": false},
+      "visual_balance": {
+        "center_x": 960,
+        "intentional_asymmetry": false
+      },
       "animation": "static",
       "fit_mode": "full_bleed",
       "background_fill": "soft_gradient",
-      "start_segment": 39,
-      "end_segment": 45,
-      "subtitle_ids": ["SUB-039", "SUB-040", "SUB-041", "SUB-042", "SUB-043", "SUB-044", "SUB-045"]
+      "start_segment": 37,
+      "end_segment": 42,
+      "subtitle_ids": [
+        "SUB-056",
+        "SUB-057",
+        "SUB-058",
+        "SUB-059",
+        "SUB-060",
+        "SUB-061"
+      ],
+      "device": "PCブラウザ"
     }
   ],
   "postroll": {
     "kind": "channel_cta",
     "cta_profile": "channel_common_cta",
     "source_episode": "config/channel_cta.json",
-    "duration_sec": 0,
+    "duration_sec": 13.0,
     "animation": "static",
-    "status": "PLANNED_COPY_ONLY",
+    "status": "FULL_DRAFT_AUDIO_ENABLED_COPY_ONLY",
     "audio_required": true,
     "duration_mode": "audio_based",
     "fake_subscribe_ui": false,
-    "reserved_end_screen_right_percent": "40〜45%"
+    "reserved_end_screen_right_percent": "40〜45%",
+    "asset": "work/channel_cta.png",
+    "cta_audio": "audio/voicevox_kenzaki/cta_channel_common.wav",
+    "trailing_seconds": 1.0,
+    "cta_content_hash": "c0df4a036b397effa920436c4ba473186737ed6e5cc3df54b85afe8ba32b82eb",
+    "cta_audio_duration_seconds": 11.563
   },
   "publish": {
+    "episode_id": "015",
     "title": "【Google】2段階認証していても確認したい3か所",
-    "description": "Googleの2段階認証をすでに設定している人向けに、追加で確認したい3か所を説明します。\n\nこの動画で確認するのは、次の3つです。\n1. 2段階認証で現在使う確認方法\n2. スマートフォンが使えないときのバックアップ コード\n3. 登録済みのパスキーとセキュリティ キー\n\n2段階認証は重要な対策です。そのうえで、以前登録した方法が今も使えるか、予備の入口を自分が管理できているか、別のログイン方法が残っていないかを確認します。設定をオフにする動画ではありません。\n\n※Googleアカウントの画面、表示名、使えるログイン方法は、アカウント・端末・時期によって異なる場合があります。実際の画面を確認し、分からない表示は削除や変更を急がず、Google公式ヘルプで確認してください。\n\n主な公式情報（確認日: 2026年9月8日）\nhttps://support.google.com/accounts/answer/185839?co=GENIE.Platform%3DDesktop&hl=ja\nhttps://support.google.com/accounts/answer/10956730?hl=ja\nhttps://support.google.com/accounts/answer/1187538?co=GENIE.Platform%3DDesktop&hl=ja\nhttps://support.google.com/accounts/answer/13548313?hl=ja\nhttps://support.google.com/accounts/answer/7026266?co=GENIE.Platform%3DAndroid&hl=ja\nhttps://support.google.com/accounts/answer/17137073?hl=ja\nhttps://support.google.com/accounts/answer/7684753?hl=ja\n\nナレーション：VOICEVOX:剣崎雌雄",
+    "title_candidates": [
+      {
+        "title": "【Google】2段階認証していても確認したい3か所",
+        "reason": "対象を2段階認証済みの人に絞り、動画で確認する数を約束する。"
+      },
+      {
+        "title": "【Google】2段階認証のあとに見る3つの設定",
+        "reason": "2段階認証を済ませた後の追加点検だと伝わりやすい。"
+      },
+      {
+        "title": "Googleにログインできる？2段階認証の確認ポイント3つ",
+        "reason": "予備手段を含む内容だが、ログイン不能を断定せず確認行動へつなげる。"
+      }
+    ],
+    "description": "Googleの2段階認証を設定している人向けに、設定内容を確認する3か所を紹介します。\n\nこの動画で確認するのは、次の3つです。\n1. いつもの確認方法（画面では「2段階認証プロセス」）\n2. スマホが使えないときの予備（画面では「バックアップ コード」）\n3. 登録されているパスキー（画面では「パスキーとセキュリティ キー」）\n\nバックアップ コードは、コード本体の数字を撮影・保存せず、入口と用意の有無だけを確認します。Googleの画面はアカウントや時期によって表示が異なる場合があります。操作に迷った場合は、Google公式ヘルプをご確認ください。\n\nナレーション：VOICEVOX:剣崎雌雄\n",
     "chapters": [
       "00:00 今日は3か所だけ",
-      "00:30 1 / 3 現在の確認方法",
-      "01:45 2 / 3 バックアップ コード",
-      "02:55 3 / 3 パスキーとセキュリティ キー",
-      "04:25 まとめ"
+      "00:37 1 / 3 いつもの確認方法",
+      "01:48 2 / 3 スマホが使えないときの予備",
+      "03:10 3 / 3 登録されているパスキー",
+      "04:35 まとめ"
     ],
-    "chapters_status": "PROVISIONAL_BEFORE_AUDIO_GENERATION",
+    "chapters_status": "SYNCED_TO_AUDIO_TIMING_DRAFT_V2",
+    "tags": [
+      "Google",
+      "Googleアカウント",
+      "2段階認証",
+      "バックアップコード",
+      "パスキー",
+      "セキュリティキー",
+      "スマホ初心者",
+      "シニア向け"
+    ],
     "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
     "contains_synthetic_media": false,
     "ai_disclosure_review": "REVIEW_REQUIRED_BEFORE_UPLOAD",
-    "status": "DRAFT_PHASE_A",
+    "status": "DRAFT_FULL_HUMAN_GATE_PENDING",
     "visibility": "private",
-    "thumbnail_status": "NOT_STARTED_PHASE_A",
+    "thumbnail": null,
+    "thumbnail_status": "NOT_STARTED_PHASE_B",
     "cta_profile": "channel_common_cta",
+    "cta_status": "PLANNED_COPY_ONLY",
     "cta_extension_candidate": {
       "status": "CANDIDATE_NOT_FOR_UPLOAD",
-      "text": "次回は、Googleアカウントにログイン中の端末も一緒に確認します。"
+      "text": "次回は、Googleアカウントにログイン中の端末も一緒に確認します。",
+      "reason": "今回の3項目の確認後に、Episode001で扱った端末確認へ戻る導線。採用は人間Gateで決める。"
     },
     "source_urls": [
       "https://support.google.com/accounts/answer/185839?co=GENIE.Platform%3DDesktop&hl=ja",
@@ -648,7 +1808,15 @@
       "https://support.google.com/accounts/answer/17137073?hl=ja",
       "https://support.google.com/accounts/answer/7684753?hl=ja"
     ],
-    "upload_status": "NOT_STARTED_PHASE_A",
-    "human_approval_required": true
+    "upload_status": "NOT_STARTED",
+    "human_approval_required": true,
+    "phase_a_boundary": "Phase Aの設計・一次情報整理まで。動画、音声、実画面capture、サムネイル、YouTube uploadは未実施。",
+    "phase_b_status": {
+      "status": "FULL_DRAFT_HUMAN_GATE_PENDING",
+      "personalized_google_ui_capture": "PENDING_HUMAN_AUTHENTICATED_TEST_SESSION",
+      "backup_code_digits": "MUST_NOT_APPEAR",
+      "thumbnail_generation": "NOT_STARTED",
+      "youtube_upload": "NOT_STARTED"
+    }
   }
 }

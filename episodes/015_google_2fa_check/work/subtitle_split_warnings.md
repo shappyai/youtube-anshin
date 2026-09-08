@@ -1,0 +1,17 @@
+segment-003: split into 2 temporal cues
+segment-011: split into 2 temporal cues
+segment-013: split into 2 temporal cues
+segment-014: split into 2 temporal cues
+segment-015: split into 2 temporal cues
+segment-020: split into 2 temporal cues
+segment-021: split into 2 temporal cues
+segment-022: split into 3 temporal cues
+segment-023: split into 2 temporal cues
+segment-024: split into 2 temporal cues
+segment-025: split into 2 temporal cues
+segment-027: split into 2 temporal cues
+segment-028: split into 3 temporal cues
+segment-029: split into 2 temporal cues
+segment-031: split into 2 temporal cues
+segment-032: split into 2 temporal cues
+segment-035: split into 2 temporal cues

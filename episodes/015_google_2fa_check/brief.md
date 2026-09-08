@@ -2,12 +2,12 @@
 
 - Episode: `015`
 - Slug: `google_2fa_check`
-- 制作段階: `Phase A / 人間Gate 1待ち`
+- 制作段階: `Phase B / full draft Human Gate待ち`
 - 調査日: `2026-09-08`
 - 採用タイトル（暫定）: **【Google】2段階認証していても確認したい3か所**
 - 形式: `focused_setting_depth_v1`
 - 主な視聴者: Googleアカウントで2段階認証を設定済みの50〜70代、特に65歳以上。設定は済ませたが、登録した端末や予備の手段を最近確認していない人
-- 想定尺: 4〜6分（情報量が足りない場合に水増しせず、VOICEVOX実測で確定）
+- 実測尺: 5分18.740秒（本編5分06.180秒＋共通CTA音声11.563秒＋余韻。full draft）
 
 ## 企画の結論
 
@@ -58,8 +58,10 @@ Episode 015では、上記をもう一度一覧で説明しない。セキュリ
 - 本編外の終了CTAは、`config/channel_cta.json` の `channel_common_cta` を基本とする。
 - 追加案（未採用・Phase Bで人間確認）: 「次は、スマホを買い替えたあとにGoogleアカウントの端末一覧をどう見るかを確認する」。Episode 001との重複を避けるため、今回の概要欄や音声へはまだ入れない。
 
-## Phase Aの境界
+## Phase Bの進捗とHuman Gate
 
-- 作成対象: `brief.md`、`sources.md`、`script.md`、`shotlist.md`、`episode.json`、`publish.json`、`media_manifest.csv`、`STATE.md`
-- 未実施: Google画面の撮影、VOICEVOX生成、字幕ファイル生成、動画生成、サムネイル生成、YouTube upload
-- Phase A終了後は、人間がテーマ・台本・3項目・公式UIの撮影可否・CTA案を確認するまで停止する。
+- Google公式ヘルプの現行表示で、3項目に対応する正式名称を確認した。
+- 個別のGoogleアカウント設定画面は、認証済みテストセッションがないため撮影していない。full draftでは、正式UI名だけの公式引用カードをfallbackとして使用している。
+- VOICEVOX音声42セグメント、実時間字幕61 cue、scene 12枚、共通CTA、full draftを生成した。本編は306.180秒、full draftは318.740秒。
+- バックアップ コードは入口・存在確認だけとし、実コードの数字は撮影・保存・字幕化していない。新規作成・更新もしていない。
+- サムネイル生成、YouTube upload、publishは未実施。full draft確認後にHuman Gateで停止する。
