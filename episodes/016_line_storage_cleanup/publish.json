@@ -1,10 +1,11 @@
 {
   "episode_id": "016",
-  "status": "PHASE_A_DRAFT",
+  "status": "PHASE_B_BLOCKED_SAFE_LINE_ENVIRONMENT",
   "selected_title": null,
+  "title_status": "第一候補をPhase Bで仮使用。最終確定はHuman Gate 2。",
   "title_candidates": [
     {
-      "title": "【LINE】重くなった？まず確認したい3か所",
+      "title": "【LINE】重くなった？写真を消す前に確認したい3か所",
       "home_ctr": 5,
       "search_fit": 5,
       "senior_clarity": 5,
@@ -13,7 +14,7 @@
       "now_reason": 4,
       "total": 29,
       "selected": false,
-      "recommendation": "推奨1"
+      "recommendation": "第一候補"
     },
     {
       "title": "【LINE】容量がいっぱい？写真を消す前に確認したい3か所",
@@ -85,8 +86,8 @@
   "end_screen_candidates": [],
   "visibility": "private",
   "upload_eligible": false,
-  "phase_a_boundary": "Phase Aのみ。LINE実画面capture、VOICEVOX生成、字幕ファイル生成、scene生成、動画生成、thumbnail生成、YouTube操作は未実施。",
-  "draft_status": "NOT_STARTED_PHASE_A_ONLY",
+  "phase_a_boundary": "Human Gate 1承認済み。Phase Bで安全な実LINE環境を確認中。実画面capture、VOICEVOX生成、字幕、scene、動画、thumbnail、YouTube操作は後工程。",
+  "draft_status": "PHASE_B_WAITING_FOR_SAFE_LINE_ENVIRONMENT",
   "draft_path": null,
   "draft_duration_sec": null,
   "draft_main_duration_sec": null,

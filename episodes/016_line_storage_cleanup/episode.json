@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "metadata": {
     "research_date": "2026-09-08",
-    "production_phase": "Phase A / Human Gate 1待ち",
+    "production_phase": "Phase B / 安全なLINE環境未準備のため停止",
     "channel": "大人のデジタル安心室",
     "target_audience_detail": "50〜70代、特に65歳以上。スマホの設定画面をテレビでも読み取れるよう、全体画面は短く、確認対象は大きくクロップする。",
     "media_decision": "LINEスマホアプリの確認はスマートフォンを主媒体とし、個人情報のないAndroid Emulatorまたは安全なテスト用端末を第一候補にする。本番LINEは使用しない。",
@@ -31,13 +31,13 @@
       "capture_count": 0,
       "deletion_operation_count": 0
     },
-    "title_status": "未確定。推奨3案をHuman Gate 1で比較する。",
+    "title_status": "第一候補をPhase Bで仮使用。最終確定はHuman Gate 2。",
     "competitor_research_boundary": "競合は需要と見せ方の研究のみ。文章、構成、サムネイル、再生数の約束は流用しない。"
   },
   "episode": {
     "episode_id": "016",
     "slug": "line_storage_cleanup",
-    "title": "【LINE】重くなった？まず確認したい3か所",
+    "title": "【LINE】重くなった？写真を消す前に確認したい3か所",
     "target_duration": 315,
     "status": "in_review",
     "topic": "LINEが重い、または容量が大きいと感じたときに、写真やトークを急いで削除する前に確認したい3か所と、削除前の注意を説明する。",
@@ -55,7 +55,7 @@
     "title_candidates": [
       {
         "id": "A",
-        "title": "【LINE】重くなった？まず確認したい3か所",
+        "title": "【LINE】重くなった？写真を消す前に確認したい3か所",
         "home_ctr": 5,
         "search_fit": 5,
         "senior_clarity": 5,
@@ -390,7 +390,7 @@
     {
       "id": 19,
       "section": "確認2",
-      "narration": "キャッシュとは、次に表示しやすくするために一時的に保存されるデータのことです。財布の中身ではなく、使い終わったレシートを一時置きする場所に近いものです。",
+      "narration": "キャッシュは、LINEを表示しやすくするために一時的に保存されるデータです。",
       "reading_overrides": {},
       "pause_after": 0.3,
       "scene_id": 6,
@@ -401,7 +401,7 @@
     {
       "id": 20,
       "section": "確認2",
-      "narration": "LINE公式は、キャッシュがたまっているときに、キャッシュを削除する手順を案内しています。",
+      "narration": "LINE公式は、キャッシュがたまっているときの削除手順を案内しています。",
       "reading_overrides": {},
       "pause_after": 0.25,
       "scene_id": 6,
@@ -423,7 +423,7 @@
     {
       "id": 22,
       "section": "確認2",
-      "narration": "公式ヘルプでは、キャッシュを削除しても、トーク履歴などは削除されないと案内されています。",
+      "narration": "キャッシュを消しても、トーク履歴そのものは消えません。",
       "reading_overrides": {},
       "pause_after": 0.3,
       "scene_id": 7,
@@ -434,7 +434,7 @@
     {
       "id": 23,
       "section": "確認2",
-      "narration": "一方で、保存期間が過ぎた写真や動画は見られなくなる場合があります。また、別の公式案内では、キャッシュ削除後にLINEアプリ内の画像、動画、ボイスメッセージが見られない、または再生できない場合があると説明されています。",
+      "narration": "ただし、古い写真や動画などが見られなくなる場合があるので、「何も影響しない」とは考えないでください。",
       "reading_overrides": {},
       "pause_after": 0.35,
       "scene_id": 7,
@@ -445,7 +445,7 @@
     {
       "id": 24,
       "section": "確認2",
-      "narration": "そのため、「キャッシュなら何も消えない」とは言いません。",
+      "narration": "キャッシュの削除と、写真や動画などの削除は、別の操作です。",
       "reading_overrides": {},
       "pause_after": 0.3,
       "scene_id": 7,
@@ -467,7 +467,7 @@
     {
       "id": 26,
       "section": "確認2",
-      "narration": "今回の動画では、実際のデータ削除は、安全なテスト環境で内容を確認したあとに限ります。本番のLINEで、試しに押すことはしません。",
+      "narration": "削除する場合は、消えるものを確認して、大切なデータを残してから進めます。",
       "reading_overrides": {},
       "pause_after": 0.3,
       "scene_id": 8,
@@ -478,7 +478,7 @@
     {
       "id": 27,
       "section": "確認2",
-      "narration": "なお、アルバムのキャッシュとアルバムの中身も別です。公式ヘルプでは、アルバムのキャッシュを削除しても、アルバムの内容は削除されないと案内されています。ただし、アルバムの中身を消した場合は復元できません。",
+      "narration": "大切な写真や動画は、先に保存できているか確認してから進めます。",
       "reading_overrides": {},
       "pause_after": 0.35,
       "scene_id": 8,
@@ -588,7 +588,7 @@
     {
       "id": 37,
       "section": "確認3",
-      "narration": "機種変更前のバックアップと復元を扱ったEpisode 006とは、目的が違います。今回のテーマは、今のLINEの容量を調べ、整理する前に影響を確認することです。バックアップがあるから、何でも削除してよいという意味ではありません。",
+      "narration": "削除するか迷うときは、無理に進めず、残したいデータを確認してからにします。",
       "reading_overrides": {},
       "pause_after": 0.35,
       "scene_id": 12,
@@ -665,7 +665,7 @@
     {
       "id": 44,
       "section": "まとめ",
-      "narration": "この動画では、確認する場所を案内しました。実際の削除は、表示内容を確かめ、安全なテスト環境で内容を確認してから行います。",
+      "narration": "削除するか迷うときは、画面に出ている項目を確認し、残したいデータを保存してから進めましょう。",
       "reading_overrides": {},
       "pause_after": 0.4,
       "scene_id": 13,
@@ -820,16 +820,16 @@
     {
       "id": "SUB-019",
       "text_lines": [
-        "キャッシュは一時的に保存されるデータです。",
-        "使い終わったレシートの一時置き場に近いものです。"
+        "キャッシュは、LINEを表示しやすくするために",
+        "一時的に保存されるデータです。"
       ],
       "segment_id": 19
     },
     {
       "id": "SUB-020",
       "text_lines": [
-        "LINE公式は、キャッシュの削除を",
-        "削除する手順を案内しています。"
+        "LINE公式は、キャッシュがたまったときの",
+        "削除手順を案内しています。"
       ],
       "segment_id": 20
     },
@@ -844,48 +844,48 @@
     {
       "id": "SUB-022",
       "text_lines": [
-        "キャッシュを削除しても、",
-        "トーク履歴などは削除されないと案内されています。"
+        "キャッシュを消しても、",
+        "トーク履歴そのものは消えません。"
       ],
       "segment_id": 22
     },
     {
       "id": "SUB-023",
       "text_lines": [
-        "保存期間が過ぎた写真や動画は、",
-        "見られなくなる場合があります。"
+        "古い写真や動画などが見られなくなる場合があります。",
+        "「何も影響しない」とは考えないでください。"
       ],
       "segment_id": 23
     },
     {
       "id": "SUB-024",
       "text_lines": [
-        "「キャッシュなら何も消えない」とは",
-        "言いません。"
+        "キャッシュの削除と、写真や動画などの削除は、",
+        "別の操作です。"
       ],
       "segment_id": 24
     },
     {
       "id": "SUB-025",
       "text_lines": [
-        "削除する場合も、キャッシュだけを確認。",
-        "すべてのデータを削除する操作は別です。"
+        "削除する場合は、消えるものを確認して、",
+        "大切なデータを残してから進めます。"
       ],
       "segment_id": 25
     },
     {
       "id": "SUB-026",
       "text_lines": [
-        "実際の削除は内容を確認した",
-        "安全なテスト環境に限ります。"
+        "大切な写真や動画は、先に保存できているか",
+        "確認してから進めます。"
       ],
       "segment_id": 26
     },
     {
       "id": "SUB-027",
       "text_lines": [
-        "アルバムのキャッシュと中身は別です。",
-        "中身を消した場合は復元できません。"
+        "大切な写真や動画は、先に保存できているか",
+        "確認してから進めます。"
       ],
       "segment_id": 27
     },
@@ -964,8 +964,8 @@
     {
       "id": "SUB-037",
       "text_lines": [
-        "Episode 006とは目的が違います。",
-        "バックアップがあっても何でも削除してよいわけではありません。"
+        "削除するか迷うときは、無理に進めず、",
+        "残したいデータを確認してからにします。"
       ],
       "segment_id": 37
     },
@@ -1019,8 +1019,8 @@
     {
       "id": "SUB-044",
       "text_lines": [
-        "実際の削除は、表示内容を確かめ、",
-        "安全なテスト環境で内容を確認してから行います。"
+        "画面に出ている項目を確認し、",
+        "残したいデータを保存してから進めましょう。"
       ],
       "segment_id": 44
     }
@@ -1133,7 +1133,7 @@
       "layout": "official_ui",
       "main_message": "キャッシュだけを選ぶ",
       "headline": "トークや写真とは別",
-      "support_text": "「何も消えない」とは言わず、削除前の注意を確認します",
+      "support_text": "古い写真や動画が見られない場合に注意します",
       "official_asset": [],
       "official_asset_crop": [],
       "start_segment": 21,
@@ -1150,7 +1150,7 @@
       "layout": "caution",
       "main_message": "保存期間やメディアの注意を確認",
       "headline": "削除前に、残したいものを見る",
-      "support_text": "アルバムのキャッシュとアルバムの中身も別です",
+      "support_text": "大切な写真や動画は、先に保存できているか確認します",
       "official_asset": [],
       "official_asset_crop": [],
       "start_segment": 26,
@@ -1218,7 +1218,7 @@
       "layout": "caution",
       "main_message": "大きさ、保存先、復元できるかを確認",
       "headline": "判断は最後に",
-      "support_text": "バックアップの説明と、容量整理の説明は別です",
+      "support_text": "残したいデータを確認してから判断します",
       "official_asset": [],
       "official_asset_crop": [],
       "start_segment": 36,
@@ -1255,7 +1255,7 @@
     "status": "not_generated_phase_a"
   },
   "publish": {
-    "title": "【LINE】重くなった？まず確認したい3か所",
+    "title": "【LINE】重くなった？写真を消す前に確認したい3か所",
     "description": "LINEが重い、または容量が大きいと感じたときに、写真やトークを急いで削除する前に確認したい3か所を、LINE公式ヘルプに沿って紹介します。\n\nこの動画で確認する場所\n・データの削除画面で、容量の内訳を確認\n・キャッシュを確認し、選ぶ場合もキャッシュだけにする\n・トークごとの容量を確認し、写真やファイルを消す前に残すものを考える\n\nキャッシュ、トーク履歴、写真、動画、ファイル、ボイスメッセージ、アルバムの中身は同じものではありません。削除したデータは復元できないものがあり、保存期間が経過した写真や動画などが見られなくなる場合もあります。表示は端末やLINEのバージョンで異なる場合があります。\n\n参考にした公式情報\nhttps://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja\nhttps://help.line.me/line/smartphone/pc?contentId=20010180&lang=ja\nhttps://help-o.line.me/line/smartphone?contentId=20000236&lang=ja\nhttps://help.line.me/line/smartphone/sp?contentId=20000248&lang=ja\n\nナレーション：VOICEVOX:剣崎雌雄",
     "chapters": [
       "00:00 結論：写真やトークを急いで消さない",
@@ -1265,17 +1265,19 @@
       "04:35 まとめ"
     ],
     "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
-    "title_status": "未確定。Phase Aでは3案を比較中。",
+    "title_status": "第一候補をPhase Bで仮使用。最終確定はHuman Gate 2。",
     "upload_eligible": false,
-    "phase_a_boundary": "Phase Aのみ。実画面capture、音声、字幕生成、scene生成、動画生成、thumbnail生成、YouTube操作は未実施。",
+    "phase_a_boundary": "Human Gate 1承認済み。Phase Bで安全な実LINE環境を確認中。実画面capture、音声、字幕、scene、動画、thumbnail、YouTube操作は後工程。",
     "contains_synthetic_media": false,
     "ai_disclosure_review": "Phase Bで確認。Phase AではAI生成画像を作らず、LINE UIは実画面のみとする。",
     "visibility": "private",
     "human_approved": false
   },
   "phase_a": {
-    "status": "HUMAN_GATE_1_PENDING",
+    "status": "APPROVED_WITH_MINOR_CHANGES",
     "title_finalized": false,
+    "human_gate_1_result": "APPROVED_WITH_MINOR_CHANGES",
+    "phase_b_status": "BLOCKED_SAFE_LINE_ENVIRONMENT_NOT_AVAILABLE",
     "recommended_title_count": 3,
     "final_three_items": [
       "データの削除で容量の内訳を確認する",
