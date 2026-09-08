@@ -1,0 +1,63 @@
+{
+  "episode_id": "015",
+  "title": "【Google】2段階認証していても確認したい3か所",
+  "title_candidates": [
+    {
+      "title": "【Google】2段階認証していても確認したい3か所",
+      "reason": "対象を2段階認証済みの人に絞り、動画で確認する数を約束する。"
+    },
+    {
+      "title": "【Google】2段階認証のあとに見る3つの設定",
+      "reason": "2段階認証を済ませた後の追加点検だと伝わりやすい。"
+    },
+    {
+      "title": "Googleにログインできる？2段階認証の確認ポイント3つ",
+      "reason": "予備手段を含む内容だが、ログイン不能を断定せず確認行動へつなげる。"
+    }
+  ],
+  "description": "Googleの2段階認証をすでに設定している人向けに、追加で確認したい3か所を説明します。\n\nこの動画で確認するのは、次の3つです。\n1. 2段階認証で現在使う確認方法\n2. スマートフォンが使えないときのバックアップ コード\n3. 登録済みのパスキーとセキュリティ キー\n\n2段階認証は重要な対策です。そのうえで、以前登録した方法が今も使えるか、予備の入口を自分が管理できているか、別のログイン方法が残っていないかを確認します。設定をオフにする動画ではありません。\n\n※Googleアカウントの画面、表示名、使えるログイン方法は、アカウント・端末・時期によって異なる場合があります。実際の画面を確認し、分からない表示は削除や変更を急がず、Google公式ヘルプで確認してください。\n\n主な公式情報（確認日: 2026年9月8日）\nhttps://support.google.com/accounts/answer/185839?co=GENIE.Platform%3DDesktop&hl=ja\nhttps://support.google.com/accounts/answer/10956730?hl=ja\nhttps://support.google.com/accounts/answer/1187538?co=GENIE.Platform%3DDesktop&hl=ja\nhttps://support.google.com/accounts/answer/13548313?hl=ja\nhttps://support.google.com/accounts/answer/7026266?co=GENIE.Platform%3DAndroid&hl=ja\nhttps://support.google.com/accounts/answer/17137073?hl=ja\nhttps://support.google.com/accounts/answer/7684753?hl=ja\n\nナレーション：VOICEVOX:剣崎雌雄",
+  "chapters": [
+    "00:00 今日は3か所だけ",
+    "00:30 1 / 3 現在の確認方法",
+    "01:45 2 / 3 バックアップ コード",
+    "02:55 3 / 3 パスキーとセキュリティ キー",
+    "04:25 まとめ"
+  ],
+  "chapters_status": "PROVISIONAL_BEFORE_AUDIO_GENERATION",
+  "tags": [
+    "Google",
+    "Googleアカウント",
+    "2段階認証",
+    "バックアップコード",
+    "パスキー",
+    "セキュリティキー",
+    "スマホ初心者",
+    "シニア向け"
+  ],
+  "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
+  "contains_synthetic_media": false,
+  "ai_disclosure_review": "REVIEW_REQUIRED_BEFORE_UPLOAD",
+  "status": "DRAFT_PHASE_A",
+  "visibility": "private",
+  "thumbnail": null,
+  "thumbnail_status": "NOT_STARTED_PHASE_A",
+  "cta_profile": "channel_common_cta",
+  "cta_status": "PLANNED_COPY_ONLY",
+  "cta_extension_candidate": {
+    "status": "CANDIDATE_NOT_FOR_UPLOAD",
+    "text": "次回は、Googleアカウントにログイン中の端末も一緒に確認します。",
+    "reason": "今回の3項目の確認後に、Episode001で扱った端末確認へ戻る導線。採用は人間Gateで決める。"
+  },
+  "source_urls": [
+    "https://support.google.com/accounts/answer/185839?co=GENIE.Platform%3DDesktop&hl=ja",
+    "https://support.google.com/accounts/answer/10956730?hl=ja",
+    "https://support.google.com/accounts/answer/1187538?co=GENIE.Platform%3DDesktop&hl=ja",
+    "https://support.google.com/accounts/answer/13548313?hl=ja",
+    "https://support.google.com/accounts/answer/7026266?co=GENIE.Platform%3DAndroid&hl=ja",
+    "https://support.google.com/accounts/answer/17137073?hl=ja",
+    "https://support.google.com/accounts/answer/7684753?hl=ja"
+  ],
+  "upload_status": "NOT_STARTED_PHASE_A",
+  "human_approval_required": true,
+  "phase_a_boundary": "Phase Aの設計・一次情報整理まで。動画、音声、実画面capture、サムネイル、YouTube uploadは未実施。"
+}

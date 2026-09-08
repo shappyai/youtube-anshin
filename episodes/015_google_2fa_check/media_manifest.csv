@@ -1,0 +1,14 @@
+scene_id,role,path,device_or_medium,render_mode,text_render_mode,source_or_origin,sha256,width,height,status
+SCENE-001,intro,planned://renderer/scene_001,template,template,pil_overlay,config/visual_theme.json:adult_digital_soft_background,,,,planned_phase_a
+SCENE-002,overview,planned://renderer/scene_002,template,template,pil_overlay,config/visual_theme.json:adult_digital_soft_background,,,,planned_phase_a
+SCENE-003,section_1,planned://renderer/scene_003,template,template,pil_overlay,config/visual_theme.json:adult_digital_soft_background,,,,planned_phase_a
+SCENE-004,current_2sv_method,planned://assets/captures/pc/scene_004_current_2sv_method.png,PCブラウザ,official,pil_overlay,SRC-001,,,,planned_phase_b_capture
+SCENE-005,prompt_explanation,planned://renderer/scene_005,template,template,pil_overlay,config/visual_theme.json:adult_digital_soft_background,,,,planned_phase_a
+SCENE-006,section_2,planned://renderer/scene_006,template,template,pil_overlay,config/visual_theme.json:adult_digital_soft_background,,,,planned_phase_a
+SCENE-007,backup_codes,planned://assets/captures/pc/scene_007_backup_codes.png,PCブラウザ,official,pil_overlay,SRC-003,,,,planned_phase_b_capture_no_code_digits
+SCENE-008,backup_caution,planned://renderer/scene_008,template,template,pil_overlay,config/visual_theme.json:adult_digital_soft_background,,,,planned_phase_a
+SCENE-009,section_3,planned://renderer/scene_009,template,template,pil_overlay,config/visual_theme.json:adult_digital_soft_background,,,,planned_phase_a
+SCENE-010,passkeys_and_security_keys,planned://assets/captures/pc/scene_010_passkeys.png,PCブラウザ,official,pil_overlay,SRC-004,,,,planned_phase_b_capture_privacy_mask
+SCENE-011,passkey_caution,planned://renderer/scene_011,template,template,pil_overlay,config/visual_theme.json:adult_digital_soft_background,,,,planned_phase_a
+SCENE-012,summary,planned://renderer/scene_012,template,template,pil_overlay,config/visual_theme.json:adult_digital_soft_background,,,,planned_phase_a
+POSTROLL-CTA,channel_cta,planned://config/channel_cta.json,既存CTA asset,template,pil_overlay,config/channel_cta.json:channel_common_cta,,,,planned_phase_b_copy_only
