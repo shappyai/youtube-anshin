@@ -1,0 +1,48 @@
+{
+  "status": "REVIEW",
+  "preflight": "ambiguous_kanji_pronunciation",
+  "rule": "ambiguous_方_avoidance",
+  "episode": "017_smartphone_battery_drain",
+  "narration_segment_count": 34,
+  "narration_occurrence_count": 3,
+  "narration_occurrences": [
+    {
+      "segment_id": 1,
+      "category": "A",
+      "status": "REVIEW",
+      "context": "最近、朝は100%だったのに、夕方には充電がかなり減っている。そんなことはありませんか。",
+      "reason": "人を指す表現のため文脈確認"
+    },
+    {
+      "segment_id": 11,
+      "category": "A",
+      "status": "REVIEW",
+      "context": "アプリごとの詳細には、「画面上」「バックグラウンド」など、使われ方の手がかりが表示されます。端末や状況によって、圏外や低信号、通知などが表示される場合もあります。",
+      "reason": "人を指す表現のため文脈確認"
+    },
+    {
+      "segment_id": 28,
+      "category": "A",
+      "status": "REVIEW",
+      "context": "まとめです。朝100%から夕方にかなり減ったときは、まず3か所を確認します。",
+      "reason": "人を指す表現のため文脈確認"
+    }
+  ],
+  "script_occurrence_count": 3,
+  "script_occurrences": [
+    {
+      "line": 27,
+      "text": "**[SEG-001]** 最近、朝は100%だったのに、夕方には充電がかなり減っている。そんなことはありませんか。"
+    },
+    {
+      "line": 49,
+      "text": "**[SEG-011] [SHOT-03]** アプリごとの詳細には、「画面上」「バックグラウンド」など、使われ方の手がかりが表示されます。端末や状況によって、圏外や低信号、通知などが表示される場合もあります。"
+    },
+    {
+      "line": 89,
+      "text": "**[SEG-028]** まとめです。朝100%から夕方にかなり減ったときは、まず3か所を確認します。"
+    }
+  ],
+  "global_方_dictionary_entry": false,
+  "failures": []
+}

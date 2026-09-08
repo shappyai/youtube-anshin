@@ -2,22 +2,31 @@
 
 - Episode: 017_smartphone_battery_drain
 - Topic: iPhoneの充電が以前より早く減ると感じたときに、原因を切り分けるために確認する3か所
-- 基準日: 2026-09-08
-- Phase: **Phase A / Human Gate 1待ち**
-- status: phase_a_complete_waiting_human_gate_1
+- 基準日: 2026-09-09
+- Phase: **Phase B / full draft ready / Human Gate 2 review**
+- status: phase_b_full_draft_ready_human_gate_2
 - platform_recommendation: iPhone中心
-- selected_title: 「【iPhone】充電の減りが早い？まず確認したい3か所」推奨。Human Gate 1で確定
+- selected_title: 「【iPhone】充電の減りが早い？まず確認したい3か所」Human Gate 1承認済み
 - selected_checks: バッテリー使用状況、画面表示と明るさ、バッテリーの状態
-- human_approved: false
+- phase_a_human_gate: APPROVED_WITH_MINOR_CHANGES
+- human_approved: false（Episode全体。Human Gate 2未実施）
 - upload_eligible: false
 - viewer_facing_internal_brand_promise: 0
 - 公式一次情報調査: Appleを中心に確認。Android一般情報とPixel固有情報を比較材料として記録
-- 実画面capture: 未実施
-- 端末: Human Gate 1後に確定する実機iPhone。iPhone 15以降を第一候補、14以前は入口表示を分ける
-- VOICEVOX生成: 未実施
-- 字幕生成: 未実施
-- scene生成: 未実施
-- 動画生成: 未実施
+- 実画面capture: Human提供スクリーンショットを受領。正規化cropを作成し、個人利用が推測できるアプリ一覧は使用しない
+- 端末: iPhone 12 mini / iOS 26.6.1。SHOT-05は「バッテリーの状態と充電」を正とする
+- VOICEVOX生成: 34セグメント生成済み。剣崎雌雄・ノーマル。本文音声 308.681秒。発音レビュー6件をHuman確認待ち
+- 字幕生成: 34 cue、実音声タイミング同期済み、subtitle preflight PASS
+- scene生成: 15 scene生成済み。実機画面sceneとtemplate sceneをcontact sheetで目視確認済み
+- 動画生成: full draft生成済み。draft_auto_v1.mp4、321.13秒。Phase 2 QA PASS
 - サムネイル生成: 未実施
 - YouTube操作: 未実施
-- 次のゲート: タイトル、撮影端末、実画面提供方法、台本の承認
+- minor changes: canonical CTAはconfig/channel_cta.jsonを使用し、Episode016の最新音声・visualをcopy/reuse。section番号を1/2/3へ統一。冒頭3項目を大きく表示。バッテリー説明は最大容量・注意表示中心
+- CTA audio reuse: episodes/016_line_storage_cleanup/audio/voicevox_kenzaki/cta_channel_common.wav
+- CTA visual reuse: episodes/016_line_storage_cleanup/work/channel_cta.png
+- 実画面capture: iPhone 12 mini / iOS 26.6.1を確認。AIによるApple設定UI再現はしない
+- 安全素材: screenshots/はHuman提供のraw保管。production assetには正規化cropのみを配置し、アプリ名の見えるrawは使用しない
+- QA: episode/schema、sources、scenes、official assets、字幕、CTA、viewer-facing内部文言検査はPASS。production preflightは発音レビューのみREVIEW
+- 個人情報QA: アプリ一覧rawは本番使用せず、正規化cropのみ使用。Apple Account、メールアドレス、電話番号、端末名、通知、位置情報履歴、シリアル番号、個人アプリ名をproduction assetに残していない。raw screenshots/はcommit対象外
+- draft: [output/draft_auto_v1.mp4](output/draft_auto_v1.mp4)。[draft contact sheet](work/draft_contact_sheet_v1.png)
+- 次のゲート: Human Gate 2。実尺・字幕・実機UI・TV可読性・個人情報・VOICEVOX発音レビュー候補を確認。サムネイル生成とYouTube操作は未実施

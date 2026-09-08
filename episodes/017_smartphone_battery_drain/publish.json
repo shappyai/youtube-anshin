@@ -1,8 +1,8 @@
 {
   "episode_id": "017",
-  "status": "PHASE_A_DRAFT_NOT_UPLOADABLE",
+  "status": "FULL_DRAFT_READY_HUMAN_GATE_2",
   "selected_title": "【iPhone】充電の減りが早い？まず確認したい3か所",
-  "title_status": "RECOMMENDATION_ONLY_HUMAN_GATE_1_REQUIRED",
+  "title_status": "HUMAN_GATE_1_APPROVED",
   "title_candidates": [
     {
       "title": "【iPhone】充電の減りが早い？まず確認したい3か所",
@@ -17,16 +17,16 @@
       "reason": "交換を急がず確認する動画だと伝わるが、交換を検討していない人には少し狭い。"
     }
   ],
-  "description": "iPhoneの充電が以前より早く減ると感じたときに、バッテリー交換や節電設定の一括変更を急ぐ前に確認したい3か所を紹介します。\n\nこの動画で確認する場所\n1. 設定のバッテリーで、何がバッテリーを使っているか\n2. 画面表示と明るさで、画面オンや自動ロックの状態\n3. バッテリーの状態で、最大容量やサービス表示\n\n表示名や表示される項目は、iPhoneの機種やiOSのバージョンで異なる場合があります。通知、位置情報、バックグラウンド更新などを一律にオフにする案内ではありません。まず確認し、必要な変更だけを考えます。\n\n主な公式情報（確認日: 2026年9月8日）\nhttps://support.apple.com/ja-jp/120745\nhttps://support.apple.com/ja-jp/102432\nhttps://support.apple.com/ja-jp/guide/iphone/iphd453d043a/ios\nhttps://support.apple.com/ja-jp/101575\n\nナレーション：VOICEVOX:剣崎雌雄（Phase B予定）",
+  "description": "iPhoneの充電が以前より早く減ると感じたときに、バッテリー交換や節電設定の一括変更を急ぐ前に確認したい3か所を紹介します。今回はiPhone 12 mini／iOS 26.6.1の実画面を使用しています。\n\nこの動画で確認する場所\n1. 設定のバッテリーで、何がバッテリーを使っているか\n2. 画面表示と明るさで、明るさと自動ロックの状態\n3. バッテリーの状態と充電で、最大容量や注意表示\n\n【目次】\n00:00 結論：まず3か所を確認\n00:33 1. 何が電池を使っているか\n02:15 2. 画面の設定\n03:13 3. バッテリーの状態\n04:11 まとめ\n\n表示名や表示される項目は、iPhoneの機種やiOSのバージョンで異なる場合があります。通知、位置情報、バックグラウンド更新などを一律にオフにする案内ではありません。まず確認し、必要な変更だけを考えます。数字だけで交換必須や故障とは判断しません。\n\n主な公式情報（確認日: 2026年9月9日）\nhttps://support.apple.com/ja-jp/120745\nhttps://support.apple.com/ja-jp/102432\nhttps://support.apple.com/ja-jp/guide/iphone/iphd453d043a/ios\nhttps://support.apple.com/ja-jp/101575\nhttps://support.apple.com/ja-jp/guide/iphone/iph60ba71065/ios\n\nナレーション：VOICEVOX:剣崎雌雄",
   "pinned_comment": "充電の減りが早いと感じたとき、まずどの画面を確認しましたか？\n\n機種やiOSのバージョンで表示が違う場合があります。分からない表示があれば、個人情報を隠して教えてください。",
   "chapters": [
-    "00:00 結論：まず見る3か所",
-    "00:45 1. バッテリー使用状況",
-    "02:15 2. 画面表示と明るさ",
-    "03:20 3. バッテリーの状態",
-    "04:25 まとめ"
+    "00:00 結論：まず3か所を確認",
+    "00:33 1. 何が電池を使っているか",
+    "02:15 2. 画面の設定",
+    "03:13 3. バッテリーの状態",
+    "04:11 まとめ"
   ],
-  "chapters_status": "PLANNED_ESTIMATE_NOT_SYNCED_TO_AUDIO",
+  "chapters_status": "MEASURED_FROM_AUDIO_TIMING_DRAFT",
   "tags": [
     "iPhone",
     "iPhoneバッテリー",
@@ -37,15 +37,24 @@
     "シニア向け"
   ],
   "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
-  "contains_synthetic_media": null,
-  "ai_disclosure_review": "REVIEW_REQUIRED_BEFORE_UPLOAD",
+  "cta_profile": "channel_common_cta",
+  "cta_canonical_hash": "e20707f4cdf3a79dbd4bd4dc27be0d7c8159ed8693783881293c069be47cc08f",
+  "cta_reuse_only": true,
+  "cta_audio_reuse_source": "episodes/016_line_storage_cleanup/audio/voicevox_kenzaki/cta_channel_common.wav",
+  "cta_visual_reuse_source": "episodes/016_line_storage_cleanup/work/channel_cta.png",
+  "cta_audio_path": "audio/voicevox_kenzaki/cta_channel_common.wav",
+  "cta_audio_sha256": "1D21F765F5606310CA08BC0264EC6ED0136F68F5A7DA07318B5018F1735FDBC9",
+  "cta_visual_path": "work/channel_cta.png",
+  "cta_visual_sha256": "657B7F0B7B184996EF328FF61A71B3298B4D28B1B64F95B5112038F41557DD27",
+  "contains_synthetic_media": false,
+  "ai_disclosure_review": "NO_AI_GENERATED_VISUALS; REVIEW_BEFORE_UPLOAD",
   "thumbnail": null,
-  "thumbnail_status": "NOT_GENERATED_PHASE_A",
+  "thumbnail_status": "NOT_GENERATED_BY_REQUEST",
   "thumbnail_planned_path": "thumbnail/thumbnail.png",
   "visibility": null,
   "upload_eligible": false,
-  "phase_a_boundary": "Human Gate 1承認前のPhase A。一次情報整理、企画比較、台本、shotlist、公開メタデータ案まで。実画面capture、音声、字幕、scene、動画、サムネイル生成、YouTube操作は未実施。",
-  "human_gate": "HUMAN_GATE_1_REQUIRED",
+  "phase_a_boundary": "Human Gate 1はAPPROVED WITH MINOR CHANGES。canonical CTA再利用、section番号、冒頭一覧、バッテリー状態説明方針を反映済み。",
+  "human_gate": "HUMAN_GATE_1_APPROVED_MINOR_CHANGES; HUMAN_GATE_2_REVIEW_REQUIRED",
   "human_approved": false,
   "viewer_facing_internal_brand_promise": 0,
   "final_path": null,
@@ -65,20 +74,42 @@
     "https://support.google.com/pixelphone/answer/6090612?hl=ja",
     "https://support.google.com/pixelphone/answer/10011133?hl=ja"
   ],
+  "device": {
+    "model": "iPhone 12 mini",
+    "ios_version": "iOS 26.6.1",
+    "screen_source": "Human提供実画面静止画",
+    "screen_truth": "Human提供画面の表示を正とする"
+  },
+  "phase_b": {
+    "status": "FULL_DRAFT_READY_HUMAN_GATE_2",
+    "real_screen_capture": true,
+    "screenshot_directory": "screenshots/",
+    "privacy_policy": "rawのアプリ一覧はviewer-facingに使用せず、正規化cropのみをproduction assetにする",
+    "draft_status": "FULL_DRAFT_READY_WAITING_HUMAN_GATE_2",
+    "draft_path": "output/draft_auto_v1.mp4",
+    "draft_revision": "v1",
+    "draft_duration_sec": 321.137,
+    "draft_main_duration_sec": 308.681,
+    "draft_qa_status": "PASS",
+    "draft_qa_report": "work/phase2_qa_v1.md",
+    "draft_sha256": "D82026D4DE8ED145BABBC177103D6366F9E9A109A0862149EA2A2A9A22F2CBEF",
+    "pronunciation_status": "REVIEW_HUMAN_HEARING_REQUIRED",
+    "thumbnail_generation": false,
+    "youtube_operation": false
+  },
   "phase_a": {
-    "status": "COMPLETE_WAITING_HUMAN_GATE_1",
-    "real_screen_capture": false,
-    "voicevox": false,
-    "subtitles": false,
-    "scene_generation": false,
-    "video_generation": false,
+    "status": "COMPLETE_HUMAN_GATE_1_APPROVED",
+    "real_screen_capture": true,
+    "voicevox": true,
+    "subtitles": true,
+    "scene_generation": true,
+    "video_generation": true,
     "thumbnail_generation": false,
     "youtube_operation": false,
     "open_questions": [
-      "Human提供端末の機種名とiOSバージョン",
-      "安全なバッテリー使用状況画面の取得方法",
-      "Human Gate 1でのタイトル確定",
-      "アップデート後の現行iOS表示差"
+      "full draftの実尺と字幕タイミングをHuman確認",
+      "VOICEVOXの発音レビュー候補をHuman確認",
+      "個人情報を含まないscene contact sheetをHuman確認"
     ]
   }
 }
