@@ -1,0 +1,32 @@
+{
+  "episode_id": "016",
+  "start_time": "2026-09-08T20:42:14+09:00",
+  "phase_a_completed": "2026-09-08T20:42:14+09:00",
+  "gpt_image_count": 0,
+  "pronunciation_review_count": 0,
+  "draft_v1_completed": "2026-09-08T20:52:44+09:00",
+  "draft_versions": [
+    "draft_auto_v1.mp4",
+    "draft_auto_v2.mp4",
+    "draft_auto_v3.mp4",
+    "draft_auto_v4.mp4"
+  ],
+  "human_correction_count": null,
+  "final_version": null,
+  "finalize_time": null,
+  "subagent_count": null,
+  "parallel_task_groups": null,
+  "image_generation_agents": null,
+  "image_generation_parallel_batches": null,
+  "image_generation_calls": null,
+  "image_regeneration_calls": null,
+  "image_generation_elapsed_seconds": null,
+  "human_gate_count": null,
+  "human_correction_rounds": null,
+  "phase_a_minutes": null,
+  "phase_b_minutes": null,
+  "finalization_minutes": null,
+  "total_production_minutes": null,
+  "human_audio_override_used": [],
+  "automatic_regeneration_count": 0
+}

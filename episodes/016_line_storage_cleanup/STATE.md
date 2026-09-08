@@ -3,21 +3,23 @@
 - Episode: 016_line_storage_cleanup
 - Topic: LINEが重い・容量が大きいと感じたときに、写真やトークを消す前に確認する3か所
 - 基準日: 2026-09-08
-- Phase: **Phase B / 安全なLINE環境未準備のため停止**
+- Phase: **Phase B / full draft生成済み、Human Gate 2待ち**
 - status: in_review
 - phase_a_human_gate: APPROVED WITH MINOR CHANGES
 - human_approved: false
 - upload_eligible: false
 - title_status: 第一候補「【LINE】重くなった？写真を消す前に確認したい3か所」をPhase B仮使用。最終確定はHuman Gate 2
 - viewer_facing_internal_brand_promise: 0
-- 実画面capture: 未実施
+- 実画面capture: Human提供3枚を受領。正規化copyを作成し、個人情報QA PASS
 - 削除操作: 未実施
-- VOICEVOX生成: 未実施
-- 字幕生成: 未実施
-- scene・動画生成: 未実施
+- VOICEVOX生成: 完了。剣崎雌雄ノーマル、44セグメントを生成・再利用
+- 字幕生成: 完了。実測タイミングの44 cue、SRT/ASSを生成
+- scene・動画生成: 完了。13 scene + CTAのfull draftを生成
 - thumbnail生成: 未実施
 - YouTube操作: 未実施
-- 共通CTA設定: 更新済み。新canonical textの音声・画像assetは未生成
+- 共通CTA設定: 更新済み。新canonical textの音声・画像assetをPhase Bで生成
+- full draft: `output/draft_auto_v4.mp4`、実尺280.2秒（本編267.743秒 + CTA12.456秒）
+- draft SHA-256: `ACC541077A5F206CAAAAF6967D1BCFC4BF47461A0F546A95121991231E1969E8`
 
 ## Human Gate 1承認
 
@@ -56,24 +58,31 @@
 2. キャッシュを確認し、削除するならキャッシュだけにする
 3. トークごとの容量順で大きいトークを確認する
 
-## Phase B環境確認
+## Phase B撮影素材確認
 
-- Android SDKのemulator.exeは存在し、emulator-5554は起動済み
-- 端末モデル: sdk_gphone64_x86_64
-- Android: 16
-- LINEパッケージ jp.naver.line.android: 未導入
-- 現在画面: Chrome
-- 判定: 安全な実LINE環境を確認できないため、実画面capture以降を停止
-- 本番LINEへの切り替え: 実施しない
+- Android EmulatorへのLINEアカウント作成・ログイン: 実施しない
+- Human提供画像: `トーク.jpg`、`データの削除.jpg`、マスク済みの`トーク毎に削除.jpg`
+- 正規化copy: `assets/normalized/`。EXIFを除去し、実画面のcropを作成
+- 個人情報QA: 3枚とも、本人名・友だち名・グループ名・実トーク・写真・電話番号・メールアドレス・QRコード・通知内容は判読できない状態を確認
+- LINE UI: 「トーク」の「データの削除」、「キャッシュ 369.7MB」、「トークごとにデータを削除」、マスク済み容量順の実画面を確認
 - 削除操作: 実施しない
 
-## Phase B再開条件
+## Phase B実施結果
 
-1. 個人情報のないAndroid Emulatorまたはテスト用LINEアカウントを用意する
-2. 現行LINE UIの入口・項目名・表示順を確認する
-3. 削除ボタン直前までの実画面を取得する
-4. 音声・字幕・scene・full draftを生成し、Human Gate 2で確認する
+1. 正規化した3枚のHuman実画面と、視認性を優先した実画面cropをshotlistとepisode.jsonに反映した
+2. VOICEVOX発音レビュー、音声、実時間字幕を完了した
+3. scene contact sheet、full draft、QAを生成した
+4. Human Gate 2で実画面・個人情報・音声・字幕・draftを確認する
 
-## 停止文
+## 自動QA結果
 
-**Phase B停止。安全な実LINE環境が未準備のため、本番アカウントへ切り替えず、実画面capture・削除・音声・scene・full draftへ進まない。**
+- production preflight: PASS（公式素材、字幕、発音、viewer-facing内部ブランド文言0）
+- VOICEVOX pronunciation: PASS（approved 6、review 0、queries 44/44）
+- subtitle preflight: PASS（44 cue、fail 0、warn 0）
+- phase2 QA: PASS（13 scene、黒画面FAILなし、実尺280.2秒）
+- viewer-facing text QA: PASS（内部ブランド文言0）
+- scene quality report: 公式画面が白面中心のため共通グラデーションとの差分比較ができず、公式scene 6件が機械FAIL。代表フレームの目視では、実画面の見切れ・字幕帯侵入・制作側ラベル残存なしを確認した。
+
+## 継続中の安全境界
+
+**Human提供の設定画面だけを使用し、実データの削除操作、Android EmulatorへのLINEログイン、thumbnail生成、YouTube upload/publishは行わない。full draft完成後にHuman Gate 2で停止する。**

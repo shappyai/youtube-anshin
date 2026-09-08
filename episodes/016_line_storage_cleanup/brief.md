@@ -4,12 +4,12 @@
 
 - Episode: 016
 - slug: line_storage_cleanup
-- 制作段階: Phase B / 安全なLINE環境未準備のため停止
+- 制作段階: Phase B / full draft生成済み、Human Gate 2待ち
 - 企画テーマ: LINEが重い、または容量が大きいと感じる人が、写真やトークを急いで削除する前に、LINEの中で容量の使われ方と整理の入口を確認する。
 - 主な視聴者: 50〜70代、特に65歳以上。スマホの設定画面をテレビでも読み取れることを優先する。
 - 想定尺: 4分45秒〜5分45秒。情報量が不足する場合のみ6分台まで許容する。
-- 撮影媒体: スマートフォン。第一候補は個人情報のない安全なAndroid Emulatorまたは安全なテスト用端末。
-- Phase Bの判断: Human Gate 1はAPPROVED WITH MINOR CHANGES。第一候補タイトルを仮使用し、安全な実LINE環境が確認できるまで停止する。
+- 撮影媒体: スマートフォン。Human提供の実LINE設定画面を静止画で使用する。Android EmulatorへのLINEアカウント作成・ログインは行わない。
+- Phase Bの判断: Human Gate 1はAPPROVED WITH MINOR CHANGES。第一候補タイトルを作業タイトルとして使用し、Human提供の3枚を個人情報QA後に反映した。full draftまで生成済みで、最終タイトルと公開可否はHuman Gate 2で確認する。
 
 ## この動画で約束すること
 
@@ -91,15 +91,22 @@ Human Gate 1で第一候補を承認済み。最終確定はfull draft後のHuma
 
 Episode 006は、機種変更前のトーク履歴バックアップと復元が主題だった。Episode 016は、今の端末でLINEがどのデータを使っているかを調べ、削除する場合の影響を理解する動画である。バックアップは削除の代わりではないため、今回はバックアップ手順を焼き直さない。重要なトークやメディアを保存する必要がある場合は、削除より先に保存先と復元可能性を確認する、という関係だけを説明する。
 
-## Human Gate 1承認とPhase B停止
+## Human Gate 1承認とPhase B開始
 
 Human Gate 1は「APPROVED WITH MINOR CHANGES」。テーマ、3項目、安全境界を承認済み。viewer-facingから制作側の事情を外し、キャッシュ説明を簡潔化し、共通CTAを更新した。
 
-ADBで確認したAndroid Emulatorは起動済みだが、LINEアプリが未導入で、安全な実LINE環境として使用できなかった。現在の端末画面はChromeである。個人の本番LINEへ切り替えず、実画面取得以降のPhase Bを停止する。
+Android EmulatorへのLINEアカウント作成・ログインは行わず、Human提供の静止画方式へ変更した。`トーク.jpg`、`データの削除.jpg`、マスク済みの`トーク毎に削除.jpg`を確認し、正規化copyを使用する。個人の本番LINEで追加操作は行わない。
 
-## Phase Bの再開条件
+## Phase Bの実施条件
 
-- 安全なテスト用LINE環境が用意できない場合、本番アカウントを使わずHuman Gateへ報告する。
-- LINEの実画面でメニュー名や項目が確認できない場合、架空UIを作らず、公式ページの短い引用・説明カードへ設計変更する。
+- Human提供画像に個人情報が見つかった場合、その画像は使用せず停止して報告する。
+- LINEの実画面で確認できない説明は、架空UIを作らず、公式ページの短い説明カードへ分ける。
 - キャッシュ以外の削除は、実データを消さず、Human確認後に限る。
-- Phase Bでは、実画面取得・音声・字幕・scene・full draftまで進める。ただし、安全な実LINE環境がないため現在は停止中。
+- Phase Bでは、実画面の正規化・音声・字幕・scene・full draftまで進める。削除操作とYouTube操作は行わない。
+
+## Phase B完了状況
+
+- 使用draft: `output/draft_auto_v4.mp4`
+- 実尺: 280.2秒（本編267.743秒、CTA12.456秒）
+- production preflight / phase2 QA / subtitle preflight / VOICEVOX pronunciation: PASS
+- thumbnail生成、YouTube upload/publish、実データの削除操作: 未実施

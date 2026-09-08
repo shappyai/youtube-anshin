@@ -1,16 +1,18 @@
-scene_id,media_type,device,status,path_or_source,privacy_note
-SCENE-001,template,none,PLANNED,,冒頭の結論。個人情報なし。大きなメッセージはrenderer-nativeで作成予定。
-SCENE-002,template,none,PLANNED,,3項目の一覧。アイコンは意味に合う既存カタログを使用予定。
-SCENE-003,official_ui,Android Emulator,CAPTURE_REQUIRED,https://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja,実LINEの入口を撮影。個人情報なし。全体2〜4秒後にクロップ。
-SCENE-004,official_ui,Android Emulator,CAPTURE_REQUIRED,https://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja,データの削除画面で容量を確認。削除しない。
-SCENE-005,official_ui,Android Emulator,CAPTURE_REQUIRED,https://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja,キャッシュ項目を拡大。選択箇所を確認し、削除前で停止。
-SCENE-006,renderer_native,none,PLANNED,https://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja,キャッシュとトーク履歴等の違いを正確な文字で説明。架空UIなし。
-SCENE-007,renderer_native,none,PLANNED,https://help-o.line.me/line/smartphone?contentId=20000236&lang=ja,保存期間・画像動画ボイスメッセージの注意を短い事実カードで表示。
-SCENE-008,renderer_native,none,PLANNED,https://help.line.me/line/smartphone/sp?contentId=20000248&lang=ja,アルバムのキャッシュとアルバム内容の違いを補足。架空UIなし。
-SCENE-009,official_ui,Android Emulator,CAPTURE_REQUIRED,https://help.line.me/line/smartphone/pc?contentId=20010180&lang=ja,トークごとにデータを削除の入口。テスト用名称のみ。
-SCENE-010,official_ui,Android Emulator,CAPTURE_REQUIRED,https://help.line.me/line/smartphone/pc?contentId=20010180&lang=ja,大きい容量順の一覧を確認。削除すべき順とは表示しない。
-SCENE-011,official_ui,Android Emulator,CAPTURE_REQUIRED,https://help.line.me/line/smartphone/pc?contentId=20010180&lang=ja,トーク内のデータ種類を確認。削除ボタンは押さない。
-SCENE-012,template,none,PLANNED,,保存先確認と削除前判断。個人データを使わない。
-SCENE-013,template,none,PLANNED,,まとめ。キャッシュ・トーク・メディア・アルバムを混同しない。
-SCENE-014,template,none,PLANNED,config/channel_cta.json,共通CTA。Phase Bで生成。登録アイコンや疑似登録ボタンは描画しない。
-
+scene_id,role,path,device_or_medium,render_mode,text_render_mode,source_or_origin,sha256,width,height,status
+HUMAN-001,source_human_capture,assets/normalized/human_talk_settings.png,スマートフォン,human_capture,no_text,Human提供原本「トーク.jpg」,2DF6105E1911968F26F9DA0E6933CF0CB4B0C4639CEB3E9720F29020081F9A3C,1080,2460,privacy_pass_source_used_via_crop
+HUMAN-002,source_human_capture,assets/normalized/human_data_deletion.png,スマートフォン,human_capture,no_text,Human提供原本「データの削除.jpg」,48D33A698ED6E98EFDB9C852034BB21FBDA01BB8C6D79D44958F55D5F568566D,1080,2460,privacy_pass_source_used_via_crops
+HUMAN-003,source_human_capture,assets/normalized/human_talk_list_masked.png,スマートフォン,human_capture,no_text,Human提供原本「トーク毎に削除.jpg」マスク済み,9FABC8A504B3A98109ECDC0708E62FDBBB8FF1D4F2EE2800F6CF55AD4C48CD44,1080,2460,privacy_pass_masked_source_used_via_crop
+SCENE-001,renderer_native,work/rendered_final_scenes/scene_001.png,none,template,pil_overlay,config/visual_theme.json:adult_digital_soft_background,185DC4683571776FEE6042E0A645DD0CB06FE7EB1D3E15864273DF731FFAA632,1920,1080,generated_full_draft_v4
+SCENE-002,renderer_native,work/rendered_final_scenes/scene_002.png,none,template,pil_overlay,config/visual_theme.json:adult_digital_soft_background,88DAFC9B29029F4C6CEAE9198F5FB2F388A48478E6A9CBEDCEFB09700E93CCF2,1920,1080,generated_full_draft_v4
+SCENE-003,renderer_native,work/rendered_final_scenes/scene_003.png,none,template,pil_overlay,config/visual_theme.json:adult_digital_soft_background,1C70957F14FD9C9BB36BCC1B74C9CABEEE1EEA586EDFE325F346F865AAA8482E,1920,1080,generated_full_draft_v4
+SCENE-004,official_ui,work/rendered_final_scenes/scene_004.png,スマートフォン,official,pil_overlay,SRC-001; HUMAN-001; assets/normalized/human_talk_settings_deletion_focus.png,2A68E92D0A06F735718C2E2C624CD9D83D07A87425F12FAB7E14CA0AF2C374CD,1920,1080,generated_full_draft_v4_human_ui
+SCENE-005,official_ui,work/rendered_final_scenes/scene_005.png,スマートフォン,official,pil_overlay,SRC-001; HUMAN-002; assets/normalized/human_data_deletion_cache_focus.png,C3F91AF7D74EF1F28BED93EA97037AF3BE509D292F71BCCA40A3CE60A0E8EA61,1920,1080,generated_full_draft_v4_human_ui
+SCENE-006,official_ui,work/rendered_final_scenes/scene_006.png,スマートフォン,official,pil_overlay,SRC-001; HUMAN-002; assets/normalized/human_data_deletion_cache_focus.png,4C1306BF3215E85514DF0B8CAA784110F0A9D03603E7E765D45FBC7D4B7E6A5F,1920,1080,generated_full_draft_v4_human_ui_reuse
+SCENE-007,official_ui,work/rendered_final_scenes/scene_007.png,スマートフォン,official,pil_overlay,SRC-001; HUMAN-002; assets/normalized/human_data_deletion_cache_focus.png,F34B23905DA6080795FCFB01D7EDEA4AA29B5A1A510F4D22DD3B52991FC19266,1920,1080,generated_full_draft_v4_human_ui_reuse
+SCENE-008,renderer_native,work/rendered_final_scenes/scene_008.png,none,template,pil_overlay,SRC-003; SRC-004; config/visual_theme.json:adult_digital_soft_background,24BE0D9D102C228562C2684B079BCDF515AC0243E2FF53F319CE698402138AA4,1920,1080,generated_full_draft_v4
+SCENE-009,official_ui,work/rendered_final_scenes/scene_009.png,スマートフォン,official,pil_overlay,SRC-002; HUMAN-002; assets/normalized/human_data_deletion_talk_entry_focus.png,8C25E87F22F9D457E169A8E9573B9222CCAD73BD317DCD71AA872789FA7DFD34,1920,1080,generated_full_draft_v4_human_ui
+SCENE-010,official_ui,work/rendered_final_scenes/scene_010.png,スマートフォン,official,pil_overlay,SRC-002; HUMAN-003; assets/normalized/human_talk_list_masked_landscape.png,416BAF5F2C7296D09C94F542284E059FE2CCB3A727B2C7CE3731E12151AC7095,1920,1080,generated_full_draft_v4_human_ui_masked
+SCENE-011,renderer_native,work/rendered_final_scenes/scene_011.png,none,template,pil_overlay,SRC-002; SRC-003; config/visual_theme.json:adult_digital_soft_background,31EE7A072C418B7ACD7A3AC04E11758AFE447B91B8E26EA025E9CA7BE25635DA,1920,1080,generated_full_draft_v4_caution_card
+SCENE-012,renderer_native,work/rendered_final_scenes/scene_012.png,none,template,pil_overlay,SRC-002; SRC-003; config/visual_theme.json:adult_digital_soft_background,3E31A4B7EB38B929215507896658A381BB75B57008623ED216D4A526842BBBDD,1920,1080,generated_full_draft_v4
+SCENE-013,renderer_native,work/rendered_final_scenes/scene_013.png,none,template,pil_overlay,SRC-001; SRC-002; SRC-003; config/visual_theme.json:adult_digital_soft_background,20C432C680D8A2067C56BE9781AC82E0655998E9542A5AECE104F4D0DE1D7D24,1920,1080,generated_full_draft_v4
+SCENE-014,renderer_native,work/channel_cta.png,none,template,pil_overlay,config/channel_cta.json,657B7F0B7B184996EF328FF61A71B3298B4D28B1B64F95B5112038F41557DD27,1920,1080,generated_full_draft_v4_cta
