@@ -4,9 +4,10 @@
 
 - Episode: 015_google_2fa_check
 - 更新日: 2026-09-08
-- status: FULL_DRAFT_V4_COMPLETE_WAITING_HUMAN_GATE_2
-- phase: Phase B（現行UI確認・音声・字幕・scene・full draft）
-- 次の停止点: Human Gate 2（draft_auto_v4・音声／字幕修正と実Google UI入口の可読性・個人情報混入の最終確認）
+- status: finalized
+- human_approved: true
+- phase: Final candidate（Human Gate 2 APPROVED / copy-only finalized）
+- 次の停止点: thumbnail完成後のpublish preflightと、YouTube StudioでのEnd Screen設定。upload／schedule／publishは未実施。
 
 ## 今回の結論
 
@@ -35,34 +36,39 @@ Episode001の「セキュリティ チェックアップ」「再設定用の電
 - official UI entry captures: 3（SRC-001 / SRC-003 / SRC-004。Scene 004・007・010）
 - AI-generated visual assets: 0
 - main narration duration: 300.356秒（5分00.356秒）
-- full draft duration: 313.356秒（5分13.356秒、QA基準timeline。container probeは312.920秒）
+- full draft duration: 313.356秒（5分13.356秒、QA基準timeline。final container probeは312.918秒）
 - VOICEVOX: 剣崎雌雄 / ノーマル / 42セグメント生成済み
-- full draft: `output/draft_auto_v4.mp4`（共通CTA音声を含む。旧draftは比較用に保持）
+- approved draft: `output/draft_auto_v4.mp4`（共通CTA音声を含む。旧draftは比較用に保持）
+- final: `output/final.mp4`
+- finalization method: copy-only; no re-encode
 - full draft SHA-256: `7AB436A319D66CC7EF27BA9A936CC6AC15AC0A725EBEFA7818AFC2C7131EDB5D`
+- final SHA-256: `7AB436A319D66CC7EF27BA9A936CC6AC15AC0A725EBEFA7818AFC2C7131EDB5D`（draft_auto_v4と一致）
+- final QA: `output/review/final_qa.md`、PASS / FAIL 0 / WARN 0。SHA一致、decode error 0、black frame 0、音声clipping 0。
+- Final production preflight: PASS（sources、scenes、official assets、subtitles、pronunciation、viewer-facing INTERNAL_ONLY）。
+- Publish preflight dry-run: PASS（final／Human approval／final QA／metadata、privacy=PRIVATE）。OAuth/APIは未呼出し。
 - Phase 2 QA: v4再実行済み（`work/phase2_qa.md`、PASS / FAIL 0 / WARN 0）。
 - scene quality report: v4再実行済み（`work/scene_quality_report_v4.md`、9 OK / 0 WARN / 3 FAIL）。3件はgradient背景の差分比較ができない既知の機械判定で、実画面入口のprivacy/readabilityは別レポートと目視で確認する。
 - contact sheet: `output/review/draft_contact_sheet_v4.png`
 - 音声・字幕修正v4: section番号、`セキュリティー`、文脈限定の「なにで」、compound語の連続読みを反映。`work/audio_subtitle_revision_v4.md`で確認済み。
+- Human Gate 2: APPROVED（映像・音声・字幕）。
 
 ## Phase Bの確認結果と未実施
 
 - Google公式ヘルプの現行表示で、導線・正式UI名称を確認した。
 - Humanログイン済みPCブラウザで、実Google UIの入口だけをcaptureした。Scene 004はセキュリティ設定の導線、Scene 007はバックアップ コード入口、Scene 010はパスキー入口。後段の個人情報・秘密情報は既存カードで説明する。
 - バックアップ コードは入口・存在確認のみ。実コードの数字は撮影・保存・字幕化していない。新規作成・更新もしていない。
-- captions.srtの実時間確定、動画render、full draft生成は完了した。
-- サムネイル生成
-- YouTube upload / publish
+- captions.srtの実時間確定、動画render、full draft生成、copy-only finalize、final QAは完了した。
+- サムネイル生成（ChatGPT側）
+- YouTube upload / schedule / publish
+- YouTube StudioのEnd Screen設定
 - グローバルSTATE.mdの変更
 
-## Human Gateで確認する点
+## Human Gate 2承認後の公開前確認
 
-1. full draftの冒頭30秒以内に、対象・3項目・「今日は3か所だけ」が伝わるか。
-2. draft_auto_v4のScene 004・007・010で、実Google UIの入口が65歳以上でも読めるか。表示される時刻などを含め、視聴に不要な情報がないか確認する。
-3. テストアカウントで「現在の確認方法」に表示される項目と、実際に使える方法の一致。
-4. バックアップ コードの入口・存在確認だけで成立しているか。コードの数字がどの素材にも出ていないか。
-5. パスキー一覧の端末が本人所有か、現在も使っているか。削除・追加を急がない説明になっているか。
-6. Scene 007にバックアップコード本体がなく、Scene 010に端末名などがないことを含め、PC表示のcropと字幕が65歳以上でも読みやすいか。4〜6分の情報量で水増しがないか。
-7. VOICEVOXの「Google」「2段階認証プロセス」「バックアップ コード」「セキュリティ キー」「パスキー」などの発音を人間が試聴確認する。v4ではaudio_query上でcompound語が1 accent phrase内に収まっていることを機械確認済み。
+1. thumbnailをChatGPT側で作成し、指定パスへ配置する。
+2. YouTube StudioでEnd Screenを人間設定する。動画内に疑似登録UIはない。
+3. thumbnail配置後にpublish preflightを再実行する。upload／schedule／publishは別途人間確認後に行う。
+4. YouTube AI開示（contains_synthetic_media）の最終判断をupload前に人間確認する。
 
 ## CTA
 

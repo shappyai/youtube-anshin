@@ -1,32 +1,40 @@
-# Episode 015 QC — full draft
+# Episode 015 QC — final candidate
 
-- 状態: `FULL_DRAFT_V4_COMPLETE_WAITING_HUMAN_GATE_2`
+- 状態: `FINALIZED_HUMAN_APPROVED`
 - 確認日: 2026-09-08
-- full draft: `output/draft_auto_v4.mp4`
-- full draft SHA-256: `7AB436A319D66CC7EF27BA9A936CC6AC15AC0A725EBEFA7818AFC2C7131EDB5D`
-- 実尺: 312.920秒（5分12.920秒、container probe）。音声timeline/QA基準は313.356秒（5分13.356秒）。
+- approved draft: `output/draft_auto_v4.mp4`
+- final: `output/final.mp4`
+- finalize方式: copy-only（再encodeなし）
+- SHA-256: `7AB436A319D66CC7EF27BA9A936CC6AC15AC0A725EBEFA7818AFC2C7131EDB5D`
+- 実尺: 312.918秒（5分12.918秒、final container probe）。音声timeline/QA基準は313.356秒（5分13.356秒）。
 - 映像: 1920×1080 / H.264 / 30fps
 - 音声: AAC / 48kHz / mono
+- Human Gate 2: APPROVED（映像・音声・字幕）
 
 ## 自動QA
 
 - Phase 2 production preflight: PASS
+- Final production preflight: PASS（episode.json、sources、scenes、official assets、subtitles、pronunciation、viewer-facing INTERNAL_ONLY）
 - Phase 2 QA: PASS（FAIL 0 / WARN 0）
+- Final QA: PASS（SHA一致、decode error 0、black frame 0、unexpected silence 0、audio clipping 0）
+- Publish preflight dry-run: PASS（final / Human approval / final QA / metadata確認、privacy=PRIVATE、OAuth/API未呼出し）
 - VOICEVOX pronunciation preflight: PASS、42/42 query、review 0
 - Subtitle preflight: PASS、61 cue、FAIL 0 / WARN 0
 - viewer-facing INTERNAL_ONLY文言QA: PASS、検出0
 - バックアップコード数字の素材混入: 0（入口・存在確認のみ）
 - scene renderer: 12枚生成済み。テンプレート9枚、実Google UI入口3枚。AI生成画像0枚
-- scene quality report: `9 OK / 0 WARN / 3 FAIL`。3件は実Google UI入口の `layout_04_text_official` で、gradient背景には差分比較用の画像背景がないため `background comparison unavailable` となる既知の機械判定。実画面の内容・位置・プライバシーは別のvisual gateと目視で確認する。
+- scene quality report: `9 OK / 0 WARN / 3 FAIL`。3件は実Google UI入口の `layout_04_text_official` で、gradient背景には差分比較用の画像背景がないため `background comparison unavailable` となる既知の機械判定。SCENE-010はnear-white率72%も検出。Human Gate 2で映像を承認済みだが、機械判定結果は記録として残す。
 - v4 contact sheet: `output/review/draft_contact_sheet_v4.png`（動画代表フレーム）
-- 音声・字幕専用確認: `work/audio_subtitle_revision_v4.md`（section番号0件、compound語のaudio_query内breakなし）
+- 音声・字幕専用確認: `work/audio_subtitle_revision_v4.md`（section番号0件、`セキュリティー`・`なにで本人確認`・compound語のaudio_query内breakなし）
 
-## Human Gate確認事項
+## Human Gate 2
 
-1. scene 004 / 007 / 010はHumanログイン済みPCブラウザの入口キャプチャへ差し替え済み。65歳以上でもUI名と入口が読めるか確認する。
-2. PC表示のcrop、字幕の大きさ、1画面1メッセージが65歳以上でも読みやすいか確認する。
-3. VOICEVOXの固有名詞・用語の発音と、冒頭30秒以内の対象・3項目の伝わり方を試聴する。
-4. バックアップ コードの数字が、動画・字幕・静止画・raw素材のどこにも残っていないことを再確認する。
-5. 内容確認が済むまで、thumbnail生成・YouTube upload・publish・finalizeは行わない。
+Human Gate 2: **APPROVED**（映像・音声・字幕）。
 
-詳細: `work/phase2_qa.md`、`work/production_preflight_v4.md`、`work/pronunciation_preflight_v4.md`、`work/subtitle_preflight_v4.md`、`work/viewer_facing_internal_brand_promise_v4.md`、`work/cta_preflight_v4.md`、`work/scene_quality_report_v4.md`、`work/audio_subtitle_revision_v4.md`
+## 公開前の未実施項目
+
+1. thumbnail生成（ChatGPT側）と`assets/thumbnail/thumbnail.png`への配置。
+2. YouTube StudioでEnd Screenを人間設定する。
+3. thumbnail配置後のpublish preflight、YouTube upload・schedule・publish。
+
+詳細: `output/review/final_qa.md`、`output/review/final_qa.json`、`work/youtube_publish/dry_run.json`、`work/phase2_qa.md`、`work/production_preflight_phase2.md`、`work/production_preflight_v4.md`、`work/production_preflight_final.md`、`work/pronunciation_preflight_v4.md`、`work/subtitle_preflight_v4.md`、`work/viewer_facing_internal_brand_promise_v4.md`、`work/viewer_facing_internal_brand_promise_final.md`、`work/cta_preflight_v4.md`、`work/cta_preflight_final.md`、`work/scene_quality_report_v4.md`、`work/audio_subtitle_revision_v4.md`

@@ -2,12 +2,12 @@
 
 - Episode: `015`
 - Slug: `google_2fa_check`
-- 制作段階: `Phase B / draft_auto_v4 Human Gate 2待ち`
+- 制作段階: `Final candidate / Human Gate 2 APPROVED`
 - 調査日: `2026-09-08`
 - 採用タイトル（暫定）: **【Google】2段階認証していても確認したい3か所**
 - 形式: `focused_setting_depth_v1`
 - 主な視聴者: Googleアカウントで2段階認証を設定済みの50〜70代、特に65歳以上。設定は済ませたが、登録した端末や予備の手段を最近確認していない人
-- 実測尺: 5分12.920秒（container probe。音声timelineは本編5分00.356秒、full draft QA基準は5分13.356秒。draft_auto_v4）
+- 実測尺: 5分12.918秒（final container probe。音声timelineは本編5分00.356秒、full draft QA基準は5分13.356秒。copy-only finalize）
 
 ## 企画の結論
 
@@ -68,4 +68,5 @@ Episode 015では、上記をもう一度一覧で説明しない。セキュリ
 - v4 contact sheet: `output/review/draft_contact_sheet_v4.png`（動画代表フレーム）。
 - v4専用音声・字幕確認: `work/audio_subtitle_revision_v4.md`。セクション番号、読み、compoundのaudio_query、実時間字幕を確認した。
 - バックアップ コードは入口・存在確認だけとし、実コードの数字は撮影・保存・字幕化していない。新規作成・更新もしていない。
-- サムネイル生成、YouTube upload、publish、finalizeは未実施。draft_auto_v4確認後、Human Gate 2で停止する。
+- draft_auto_v4をHuman Gate 2で承認し、再encodeなしで`output/final.mp4`へcopy-only finalizeした。final QAはPASS。
+- サムネイル生成、YouTube upload、publish、scheduleは未実施。thumbnailはChatGPT側で作成する恒久ルールに従い、End ScreenはYouTube Studioで人間設定する。

@@ -1,0 +1,9 @@
+{
+  "episode": "015_google_2fa_check",
+  "review_date": "2026-09-08",
+  "phase": "Human Gate 2 approved",
+  "note": "draft_auto_v4を人間確認し、映像・音声・字幕を承認。Episode015のfinal候補として確定する。thumbnail生成、YouTube upload、schedule、publishは未実施。End ScreenはYouTube Studioで人間設定する。",
+  "video": {
+    "draft_auto_v4": "approved"
+  }
+}

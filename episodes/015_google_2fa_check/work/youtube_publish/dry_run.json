@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "api_called": false,
+  "oauth_called": false,
+  "episode": "015_google_2fa_check",
+  "final_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\015_google_2fa_check\\output\\final.mp4",
+  "thumbnail_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\015_google_2fa_check\\thumbnail\\thumbnail.png",
+  "title": "【Google】2段階認証していても確認したい3か所",
+  "description_bytes": 1486,
+  "tag_count": 8,
+  "tag_total_length": 54,
+  "privacy": "private",
+  "ai_disclosure": false,
+  "schedule_local": null,
+  "schedule_api": null,
+  "video_sha256": "7AB436A319D66CC7EF27BA9A936CC6AC15AC0A725EBEFA7818AFC2C7131EDB5D",
+  "existing_video_id": null,
+  "expected_api_requests": [
+    "videos.insert part=snippet,status resumable=True notifySubscribers=False status.containsSyntheticMedia",
+    "thumbnails.set",
+    "videos.list part=snippet,status"
+  ],
+  "errors": []
+}
