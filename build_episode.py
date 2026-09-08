@@ -210,7 +210,7 @@ def main() -> int:
     parser.add_argument("--offline-voicevox", action="store_true")
     parser.add_argument("--engine-url", default="http://127.0.0.1:50021")
     parser.add_argument("--rerender-scene", type=int)
-    parser.add_argument("--regen-segment", type=int)
+    parser.add_argument("--regen-segment", type=int, action="append")
     parser.add_argument("--output-name", default="draft_auto_v1.mp4")
     parser.add_argument("--review-name", default="scene_contact_sheet.png")
     parser.add_argument("--finalize", action="store_true")

@@ -1,0 +1,363 @@
+{
+  "status": "PASS",
+  "qa": "approved_pitch_shape_match",
+  "surface": [
+    "キャッシュ"
+  ],
+  "target_segment_ids": [
+    5,
+    10,
+    18,
+    19,
+    20,
+    21,
+    22,
+    24,
+    25,
+    40,
+    42
+  ],
+  "tolerance": 1e-06,
+  "rows": [
+    {
+      "segment_id": 5,
+      "narration": "2つ目は、キャッシュです。",
+      "start_sec": 18.725,
+      "end_sec": 20.634,
+      "checks": [
+        {
+          "surface": "キャッシュ",
+          "reading": "キャッシュ",
+          "mora_text": [
+            "キャ",
+            "ッ",
+            "シュ"
+          ],
+          "pitch": [
+            4.600119400024414,
+            5.050119400024414,
+            5.050119400024414
+          ],
+          "first_mora_low": true,
+          "second_mora_rise": true,
+          "later_mora_plateau": true,
+          "consecutive_same_mora_count": 0,
+          "consecutive_same_mora_pitch_delta": null,
+          "consecutive_same_mora_pass": true
+        }
+      ],
+      "approved_pitch_shape_match": true
+    },
+    {
+      "segment_id": 10,
+      "narration": "LINEの中では、キャッシュやトーク関連のデータがたまると、アプリの容量が増え、動作が重くなる要因になると公式が案内しています。",
+      "start_sec": 48.587,
+      "end_sec": 58.08,
+      "checks": [
+        {
+          "surface": "キャッシュ",
+          "reading": "キャッシュ",
+          "mora_text": [
+            "キャ",
+            "ッ",
+            "シュ"
+          ],
+          "pitch": [
+            4.824165153503418,
+            5.274165153503418,
+            5.274165153503418
+          ],
+          "first_mora_low": true,
+          "second_mora_rise": true,
+          "later_mora_plateau": true,
+          "consecutive_same_mora_count": 0,
+          "consecutive_same_mora_pitch_delta": null,
+          "consecutive_same_mora_pass": true
+        }
+      ],
+      "approved_pitch_shape_match": true
+    },
+    {
+      "segment_id": 18,
+      "narration": "次はキャッシュです。",
+      "start_sec": 103.356,
+      "end_sec": 104.657,
+      "checks": [
+        {
+          "surface": "キャッシュ",
+          "reading": "キャッシュ",
+          "mora_text": [
+            "キャ",
+            "ッ",
+            "シュ"
+          ],
+          "pitch": [
+            4.515315341949463,
+            4.965315341949463,
+            4.965315341949463
+          ],
+          "first_mora_low": true,
+          "second_mora_rise": true,
+          "later_mora_plateau": true,
+          "consecutive_same_mora_count": 0,
+          "consecutive_same_mora_pitch_delta": null,
+          "consecutive_same_mora_pass": true
+        }
+      ],
+      "approved_pitch_shape_match": true
+    },
+    {
+      "segment_id": 19,
+      "narration": "キャッシュは、LINEを表示しやすくするために一時的に保存されるデータです。",
+      "start_sec": 104.857,
+      "end_sec": 109.967,
+      "checks": [
+        {
+          "surface": "キャッシュ",
+          "reading": "キャッシュ",
+          "mora_text": [
+            "キャ",
+            "ッ",
+            "シュ"
+          ],
+          "pitch": [
+            4.676229763031006,
+            5.126229763031006,
+            5.126229763031006
+          ],
+          "first_mora_low": true,
+          "second_mora_rise": true,
+          "later_mora_plateau": true,
+          "consecutive_same_mora_count": 0,
+          "consecutive_same_mora_pitch_delta": null,
+          "consecutive_same_mora_pass": true
+        }
+      ],
+      "approved_pitch_shape_match": true
+    },
+    {
+      "segment_id": 20,
+      "narration": "LINE公式は、キャッシュがたまっているときの削除手順を案内しています。",
+      "start_sec": 110.267,
+      "end_sec": 115.173,
+      "checks": [
+        {
+          "surface": "キャッシュ",
+          "reading": "キャッシュ",
+          "mora_text": [
+            "キャ",
+            "ッ",
+            "シュ"
+          ],
+          "pitch": [
+            4.809766578674316,
+            5.259766578674316,
+            5.259766578674316
+          ],
+          "first_mora_low": true,
+          "second_mora_rise": true,
+          "later_mora_plateau": true,
+          "consecutive_same_mora_count": 0,
+          "consecutive_same_mora_pitch_delta": null,
+          "consecutive_same_mora_pass": true
+        }
+      ],
+      "approved_pitch_shape_match": true
+    },
+    {
+      "segment_id": 21,
+      "narration": "データの削除画面で、キャッシュの項目を大きく見せます。",
+      "start_sec": 115.423,
+      "end_sec": 119.455,
+      "checks": [
+        {
+          "surface": "キャッシュ",
+          "reading": "キャッシュ",
+          "mora_text": [
+            "キャ",
+            "ッ",
+            "シュ"
+          ],
+          "pitch": [
+            4.809846210479736,
+            5.259846210479736,
+            5.259846210479736
+          ],
+          "first_mora_low": true,
+          "second_mora_rise": true,
+          "later_mora_plateau": true,
+          "consecutive_same_mora_count": 0,
+          "consecutive_same_mora_pitch_delta": null,
+          "consecutive_same_mora_pass": true
+        }
+      ],
+      "approved_pitch_shape_match": true
+    },
+    {
+      "segment_id": 22,
+      "narration": "キャッシュを消しても、トーク履歴そのものは消えません。",
+      "start_sec": 119.655,
+      "end_sec": 123.047,
+      "checks": [
+        {
+          "surface": "キャッシュ",
+          "reading": "キャッシュ",
+          "mora_text": [
+            "キャ",
+            "ッ",
+            "シュ"
+          ],
+          "pitch": [
+            4.762595462799072,
+            5.212595462799072,
+            5.212595462799072
+          ],
+          "first_mora_low": true,
+          "second_mora_rise": true,
+          "later_mora_plateau": true,
+          "consecutive_same_mora_count": 0,
+          "consecutive_same_mora_pitch_delta": null,
+          "consecutive_same_mora_pass": true
+        }
+      ],
+      "approved_pitch_shape_match": true
+    },
+    {
+      "segment_id": 24,
+      "narration": "キャッシュの削除と、写真や動画などの削除は、別の操作です。",
+      "start_sec": 131.527,
+      "end_sec": 136.252,
+      "checks": [
+        {
+          "surface": "キャッシュ",
+          "reading": "キャッシュ",
+          "mora_text": [
+            "キャ",
+            "ッ",
+            "シュ"
+          ],
+          "pitch": [
+            4.769471454620361,
+            5.219471454620361,
+            5.219471454620361
+          ],
+          "first_mora_low": true,
+          "second_mora_rise": true,
+          "later_mora_plateau": true,
+          "consecutive_same_mora_count": 0,
+          "consecutive_same_mora_pitch_delta": null,
+          "consecutive_same_mora_pass": true
+        }
+      ],
+      "approved_pitch_shape_match": true
+    },
+    {
+      "segment_id": 25,
+      "narration": "削除する場合も、画面でキャッシュだけが選ばれていることを確認します。トーク履歴、写真、動画、ファイルなどをまとめて選ぶ、すべてのデータを削除する、という操作は別です。",
+      "start_sec": 136.552,
+      "end_sec": 149.992,
+      "checks": [
+        {
+          "surface": "キャッシュ",
+          "reading": "キャッシュ",
+          "mora_text": [
+            "キャ",
+            "ッ",
+            "シュ"
+          ],
+          "pitch": [
+            4.812068748474121,
+            5.262068748474121,
+            5.262068748474121
+          ],
+          "first_mora_low": true,
+          "second_mora_rise": true,
+          "later_mora_plateau": true,
+          "consecutive_same_mora_count": 0,
+          "consecutive_same_mora_pitch_delta": null,
+          "consecutive_same_mora_pass": true
+        }
+      ],
+      "approved_pitch_shape_match": true
+    },
+    {
+      "segment_id": 40,
+      "narration": "2つ目、キャッシュを確認し、削除する場合もキャッシュだけを選ぶ。",
+      "start_sec": 232.65,
+      "end_sec": 237.471,
+      "checks": [
+        {
+          "surface": "キャッシュ",
+          "reading": "キャッシュ",
+          "mora_text": [
+            "キャ",
+            "ッ",
+            "シュ"
+          ],
+          "pitch": [
+            4.798810291290283,
+            5.248810291290283,
+            5.248810291290283
+          ],
+          "first_mora_low": true,
+          "second_mora_rise": true,
+          "later_mora_plateau": true,
+          "consecutive_same_mora_count": 0,
+          "consecutive_same_mora_pitch_delta": null,
+          "consecutive_same_mora_pass": true
+        },
+        {
+          "surface": "キャッシュ",
+          "reading": "キャッシュ",
+          "mora_text": [
+            "キャ",
+            "ッ",
+            "シュ"
+          ],
+          "pitch": [
+            4.516658115386963,
+            4.966658115386963,
+            4.966658115386963
+          ],
+          "first_mora_low": true,
+          "second_mora_rise": true,
+          "later_mora_plateau": true,
+          "consecutive_same_mora_count": 0,
+          "consecutive_same_mora_pitch_delta": null,
+          "consecutive_same_mora_pass": true
+        }
+      ],
+      "approved_pitch_shape_match": true
+    },
+    {
+      "segment_id": 42,
+      "narration": "キャッシュ、トーク履歴、写真、動画、ファイル、ボイスメッセージ、アルバムの中身は、同じものではありません。",
+      "start_sec": 244.769,
+      "end_sec": 253.751,
+      "checks": [
+        {
+          "surface": "キャッシュ",
+          "reading": "キャッシュ",
+          "mora_text": [
+            "キャ",
+            "ッ",
+            "シュ"
+          ],
+          "pitch": [
+            4.3328407287597654,
+            4.782840728759766,
+            4.782840728759766
+          ],
+          "first_mora_low": true,
+          "second_mora_rise": true,
+          "later_mora_plateau": true,
+          "consecutive_same_mora_count": 0,
+          "consecutive_same_mora_pitch_delta": null,
+          "consecutive_same_mora_pass": true
+        }
+      ],
+      "approved_pitch_shape_match": true
+    }
+  ],
+  "failures": []
+}

@@ -40,7 +40,7 @@
     {
       "segment_id": 5,
       "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\audio\\voicevox_kenzaki\\segments\\005.wav",
-      "hash": "593359146eb0b862686dd50326ac0bab0a1f4ed0bf2ca10855b6717c12f7efec",
+      "hash": "acbae2867da1a8235706cde57019bfa257777187e2d11dfddcace93094a2cc52",
       "start_sec": 18.725,
       "end_sec": 20.634,
       "duration_sec": 1.909,
@@ -85,7 +85,7 @@
     {
       "segment_id": 10,
       "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\audio\\voicevox_kenzaki\\segments\\010.wav",
-      "hash": "250613ebcb81d0d9e8a98212ecfc575316e5ea154441f66d7549e028ffb20cb4",
+      "hash": "21f0971702c027321d3849904638fa36679730d94bd87169e980359f93e6dc17",
       "start_sec": 48.587,
       "end_sec": 58.08,
       "duration_sec": 9.493,
@@ -157,7 +157,7 @@
     {
       "segment_id": 18,
       "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\audio\\voicevox_kenzaki\\segments\\018.wav",
-      "hash": "2e959277853295dff13c36e40db76dbe256f1916c4f71df3909e028b86392f1a",
+      "hash": "f7adfc1c894879f92688578612a31a38dee02130b621aab31323cc23e1f40580",
       "start_sec": 103.356,
       "end_sec": 104.657,
       "duration_sec": 1.301,
@@ -166,7 +166,7 @@
     {
       "segment_id": 19,
       "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\audio\\voicevox_kenzaki\\segments\\019.wav",
-      "hash": "779455a122db92ba30bb55820cfc92e71858fee78aa83d7f416568b64ecaf57e",
+      "hash": "644a15b6293f82cccebfe40ec7f90091147c65b10e147c03809bf368d30dacf0",
       "start_sec": 104.857,
       "end_sec": 109.967,
       "duration_sec": 5.109,
@@ -175,7 +175,7 @@
     {
       "segment_id": 20,
       "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\audio\\voicevox_kenzaki\\segments\\020.wav",
-      "hash": "405823f6dc3ef2e734a7b4e272f9b8996eb60c49fed8bf6b068d18eaf760d947",
+      "hash": "25dea900ed108eb8e890d50f8fb9bd0773b141c7bda6de4a46875c1d0f757c48",
       "start_sec": 110.267,
       "end_sec": 115.173,
       "duration_sec": 4.907,
@@ -184,7 +184,7 @@
     {
       "segment_id": 21,
       "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\audio\\voicevox_kenzaki\\segments\\021.wav",
-      "hash": "c528b067c4e35b4c89a5394be3bbd11013e2614f6d30fb7f2cb293af6c38433b",
+      "hash": "606551cd89b7e6530110b256ec5477255ef1a0d9dbc4e3dce45025dbff5a56a5",
       "start_sec": 115.423,
       "end_sec": 119.455,
       "duration_sec": 4.032,
@@ -193,7 +193,7 @@
     {
       "segment_id": 22,
       "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\audio\\voicevox_kenzaki\\segments\\022.wav",
-      "hash": "24358701959db7923a8ff1d729695d7c9b1aa883992e1a8ce7e835a1557a0230",
+      "hash": "f4fee97652a42b41f93aee22b1e6da492209c16a49aab6596dc84d660429d421",
       "start_sec": 119.655,
       "end_sec": 123.047,
       "duration_sec": 3.392,
@@ -211,7 +211,7 @@
     {
       "segment_id": 24,
       "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\audio\\voicevox_kenzaki\\segments\\024.wav",
-      "hash": "dd2a261e22a16ec04bd0b97ba9aa0eb3fb0507df4ac4788645ffa2b239ff3291",
+      "hash": "41bc703b4a957de79c6c1b230297d6025a21ce7046eb80e73263745911fd1eb0",
       "start_sec": 131.527,
       "end_sec": 136.252,
       "duration_sec": 4.725,
@@ -220,7 +220,7 @@
     {
       "segment_id": 25,
       "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\audio\\voicevox_kenzaki\\segments\\025.wav",
-      "hash": "61b14472f318d5d1e041aac316d7587880bc6ec04412bd28d722bbe59d2e1307",
+      "hash": "b094e0705a1d877db79a1148ad2177013064d932b010b6e166b2d347638f2174",
       "start_sec": 136.552,
       "end_sec": 149.992,
       "duration_sec": 13.44,
@@ -355,7 +355,7 @@
     {
       "segment_id": 40,
       "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\audio\\voicevox_kenzaki\\segments\\040.wav",
-      "hash": "f348675a4f3e12e85bb34be3fc98258f69cab8f028f8c52e1fca35aa0a0a2c3f",
+      "hash": "c586a02ddb10f28d39f919cc17b0467bf9212dbc2902b2d829618e98680782fa",
       "start_sec": 232.65,
       "end_sec": 237.471,
       "duration_sec": 4.821,
@@ -373,7 +373,7 @@
     {
       "segment_id": 42,
       "wav_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\audio\\voicevox_kenzaki\\segments\\042.wav",
-      "hash": "7fea691473f55bfba62fddfa7077aa9885206c18ada8bacfd1c59695732dc978",
+      "hash": "623449d3d40069460d34c6c1944cf20947cbcf5303663ec3f0bdf95202e2b65e",
       "start_sec": 244.769,
       "end_sec": 253.751,
       "duration_sec": 8.981,

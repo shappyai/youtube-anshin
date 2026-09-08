@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "qa": "cta_full_text_visible",
+  "canonical_text": "スマホやパソコンの「これ、どうすればいい？」を、公式情報で分かりやすく確認しています。次に困ったときのために、チャンネル登録しておいてください。",
+  "description": "スマホやパソコンの「これ、どうすればいい？」を、公式情報で\n分かりやすく確認しています。",
+  "cta": "次に困ったときのために、\nチャンネル登録しておいてください。",
+  "metrics": {
+    "description": {
+      "text": "スマホやパソコンの「これ、どうすればいい？」を、公式情報で\n分かりやすく確認しています。",
+      "box": [
+        138,
+        450,
+        1042,
+        695
+      ],
+      "font_size": 60,
+      "min_size": 56,
+      "max_lines": 3,
+      "lines": [
+        "スマホやパソコンの「これ、どう",
+        "すればいい？」を、公式情報で",
+        "分かりやすく確認しています。"
+      ],
+      "line_height": 68,
+      "complete": true
+    },
+    "cta": {
+      "text": "次に困ったときのために、\nチャンネル登録しておいてください。",
+      "box": [
+        105,
+        726,
+        1065,
+        875
+      ],
+      "font_size": 56,
+      "min_size": 56,
+      "max_lines": 2,
+      "lines": [
+        "次に困ったときのために、",
+        "チャンネル登録しておいてください。"
+      ],
+      "line_height": 63,
+      "complete": true
+    }
+  },
+  "image": {
+    "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\work\\channel_cta.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "mode": "RGB"
+  },
+  "end_screen_reserved_start_x": 1090,
+  "failures": []
+}

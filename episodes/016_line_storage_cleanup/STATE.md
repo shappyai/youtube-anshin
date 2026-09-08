@@ -3,7 +3,7 @@
 - Episode: 016_line_storage_cleanup
 - Topic: LINEが重い・容量が大きいと感じたときに、写真やトークを消す前に確認する3か所
 - 基準日: 2026-09-08
-- Phase: **Phase B / full draft生成済み、Human Gate 2待ち**
+- Phase: **Phase B / draft_auto_v5生成済み、Human Gate 2待ち**
 - status: in_review
 - phase_a_human_gate: APPROVED WITH MINOR CHANGES
 - human_approved: false
@@ -12,14 +12,14 @@
 - viewer_facing_internal_brand_promise: 0
 - 実画面capture: Human提供3枚を受領。正規化copyを作成し、個人情報QA PASS
 - 削除操作: 未実施
-- VOICEVOX生成: 完了。剣崎雌雄ノーマル、44セグメントを生成・再利用
+- VOICEVOX生成: 完了。剣崎雌雄ノーマル、44セグメントを生成・再利用。`キャッシュ`を含む11セグメント（12回出現）をv5で再生成
 - 字幕生成: 完了。実測タイミングの44 cue、SRT/ASSを生成
 - scene・動画生成: 完了。13 scene + CTAのfull draftを生成
 - thumbnail生成: 未実施
 - YouTube操作: 未実施
 - 共通CTA設定: 更新済み。新canonical textの音声・画像assetをPhase Bで生成
-- full draft: `output/draft_auto_v4.mp4`、実尺280.2秒（本編267.743秒 + CTA12.456秒）
-- draft SHA-256: `ACC541077A5F206CAAAAF6967D1BCFC4BF47461A0F546A95121991231E1969E8`
+- full draft: `output/draft_auto_v5.mp4`、実尺280.2秒（本編267.743秒 + CTA12.456秒）。v4は保持
+- draft SHA-256: `C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28`
 
 ## Human Gate 1承認
 
@@ -77,11 +77,19 @@
 ## 自動QA結果
 
 - production preflight: PASS（公式素材、字幕、発音、viewer-facing内部ブランド文言0）
-- VOICEVOX pronunciation: PASS（approved 6、review 0、queries 44/44）
+- VOICEVOX pronunciation: PASS（approved 28、review 0、queries 44/44）。`キャッシュ`のmora/pitch追加QAもPASS
 - subtitle preflight: PASS（44 cue、fail 0、warn 0）
 - phase2 QA: PASS（13 scene、黒画面FAILなし、実尺280.2秒）
 - viewer-facing text QA: PASS（内部ブランド文言0）
 - scene quality report: 公式画面が白面中心のため共通グラデーションとの差分比較ができず、公式scene 6件が機械FAIL。代表フレームの目視では、実画面の見切れ・字幕帯侵入・制作側ラベル残存なしを確認した。
+
+## Human Gate 2修正（draft_auto_v5）
+
+- 0:25付近のSCENE-002を差し替え。主役を「1 容量の内訳」「2 キャッシュ」「3 容量の大きいトーク」の3行にし、「今日見る3か所」は見出しとしてのみ表示した。
+- `キャッシュ`はVOICEVOXの実audio_queryで「キャ・ッ・シュ」の3モーラ構造を確認。標準辞書へ`accent=3`、最終モーラを高くする`low_high_plateau`（anchor mora 3）として登録した。
+- 影響対象はセグメント005、010、018、019、020、021、022、024、025、040、042。字幕とtimelineは再生成音声の実時間から再計算した。
+- 実データの削除、Android EmulatorへのLINEログイン、thumbnail生成、finalize、YouTube操作は行っていない。
+- Human Gate 2で、SCENE-002、キャッシュの発音、字幕同期、full draft、個人情報QA、タイトルを確認する。
 
 ## 継続中の安全境界
 

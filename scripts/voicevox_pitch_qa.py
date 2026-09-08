@@ -24,14 +24,22 @@ def _positions(query: dict[str, Any]) -> list[tuple[int, int, str, float]]:
     return result
 
 
-def _matching_starts(query: dict[str, Any], reading: str) -> list[int]:
-    target = [char for char in str(reading).replace(" ", "") if char.strip()]
+def _matching_spans(query: dict[str, Any], reading: str) -> list[tuple[int, int]]:
+    target_text = "".join(str(reading).split())
     positions = _positions(query)
-    return [
-        index
-        for index in range(max(0, len(positions) - len(target) + 1))
-        if [item[2] for item in positions[index:index + len(target)]] == target
-    ]
+    if not target_text:
+        return []
+    matches: list[tuple[int, int]] = []
+    for start in range(len(positions)):
+        joined = ""
+        for end in range(start, len(positions)):
+            joined += positions[end][2]
+            if not target_text.startswith(joined):
+                break
+            if joined == target_text:
+                matches.append((start, end))
+                break
+    return matches
 
 
 def _entry_for_segment(segment: dict[str, Any], entries: list[dict[str, Any]], episode_id: str) -> list[dict[str, Any]]:
@@ -55,9 +63,8 @@ def check_segment(
     checks: list[dict[str, Any]] = []
     for entry in _entry_for_segment(segment, entries, episode_id):
         reading = str(entry.get("reading") or "").replace(" ", "")
-        target = [char for char in reading if char.strip()]
-        for start in _matching_starts(query, reading):
-            end = start + len(target) - 1
+        for start, end in _matching_spans(query, reading):
+            target = [item[2] for item in positions[start:end + 1]]
             pitches = [item[3] for item in positions[start:end + 1]]
             first_mora_low = len(pitches) >= 2 and pitches[0] < pitches[1]
             high_values = pitches[1:]
@@ -134,7 +141,7 @@ def run_qa(
     result = {
         "status": "PASS" if rows and not failures else "FAIL",
         "qa": "approved_pitch_shape_match",
-        "surface": "信用",
+        "surface": sorted({check["surface"] for row in rows for check in row["checks"]}),
         "target_segment_ids": [int(segment["id"]) for segment in data.get("narration_segments", []) if _entry_for_segment(segment, entries, episode_id)],
         "tolerance": tolerance,
         "rows": rows,

@@ -356,22 +356,28 @@ def apply_pronunciation_pitch_patterns(
         if not _scope_matches(override, episode_id):
             continue
         reading = str(override.get("reading") or "").replace(" ", "")
-        target = [char for char in reading if char.strip()]
-        if len(target) < 2:
+        target_text = "".join(reading.split())
+        if not target_text:
             continue
         positions: list[tuple[int, int, str]] = []
         phrases = query.get("accent_phrases") or []
         for phrase_index, phrase in enumerate(phrases):
             for mora_index, mora in enumerate(phrase.get("moras") or []):
                 positions.append((phrase_index, mora_index, str(mora.get("text") or "")))
-        if len(target) > len(positions):
-            continue
-        starts = [
-            index
-            for index in range(len(positions) - len(target) + 1)
-            if [item[2] for item in positions[index:index + len(target)]] == target
-        ]
-        if not starts:
+        # Match by the engine's mora text, not Unicode characters. A single
+        # Japanese mora can contain a small kana (キャ/シュ), so キャッシュ
+        # is three engine moras rather than five Unicode characters.
+        matches: list[tuple[int, int]] = []
+        for start in range(len(positions)):
+            joined = ""
+            for end in range(start, len(positions)):
+                joined += positions[end][2]
+                if not target_text.startswith(joined):
+                    break
+                if joined == target_text:
+                    matches.append((start, end))
+                    break
+        if not matches:
             continue
         try:
             low_delta = float(override.get("pitch_low_delta") or -0.45)
@@ -381,17 +387,17 @@ def apply_pronunciation_pitch_patterns(
             anchor_number = int(override.get("pitch_high_anchor_mora") or 2)
         except (TypeError, ValueError):
             anchor_number = 2
-        anchor_offset = max(1, min(len(target) - 1, anchor_number - 1))
         equalize_following = _config_bool(override.get("pitch_equalize_following_same_mora"))
-        for start in starts:
-            end = start + len(target) - 1
+        for start, end in matches:
+            target_mora_count = end - start + 1
+            anchor_offset = max(1, min(target_mora_count - 1, anchor_number - 1))
             phrase_index, _mora_index, _ = positions[start]
             anchor_phrase, anchor_mora, _ = positions[start + anchor_offset]
             anchor_value = float(
                 (phrases[anchor_phrase].get("moras") or [])[anchor_mora].get("pitch") or 0.0
             )
             if anchor_value <= 0.0:
-                for candidate_offset in range(1, len(target)):
+                for candidate_offset in range(1, target_mora_count):
                     candidate_phrase, candidate_mora, _ = positions[start + candidate_offset]
                     candidate_value = float(
                         (phrases[candidate_phrase].get("moras") or [])[candidate_mora].get("pitch") or 0.0
@@ -402,15 +408,15 @@ def apply_pronunciation_pitch_patterns(
             if anchor_value <= 0.0:
                 continue
             low_value = max(0.1, anchor_value + low_delta)
-            for offset in range(len(target)):
+            for offset in range(target_mora_count):
                 current_phrase, current_mora, _ = positions[start + offset]
                 phrases[current_phrase]["moras"][current_mora]["pitch"] = (
                     low_value if offset == 0 else anchor_value
                 )
             following_count = 0
-            if equalize_following and target[-1] == "オ":
+            if equalize_following and target_text.endswith("オ"):
                 next_index = end + 1
-                while next_index < len(positions) and positions[next_index][2] == target[-1]:
+                while next_index < len(positions) and positions[next_index][2] == "オ":
                     previous_phrase, _previous_mora, _ = positions[end]
                     next_phrase, next_mora, _ = positions[next_index]
                     contiguous = (
@@ -431,10 +437,10 @@ def apply_pronunciation_pitch_patterns(
                     "surface": str(override.get("surface") or ""),
                     "reading": reading,
                     "phrase_index": phrase_index,
-                    "mora_count": len(target),
+                    "mora_count": target_mora_count,
                     "low_pitch": low_value,
                     "high_pitch": anchor_value,
-                    "pattern": ["low"] + ["high"] * (len(target) - 1),
+                    "pattern": ["low"] + ["high"] * (target_mora_count - 1),
                     "following_same_mora_count": following_count,
                     "following_same_mora_pitch_delta": 0.0 if following_count else None,
                 }

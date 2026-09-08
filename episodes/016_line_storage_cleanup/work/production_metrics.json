@@ -9,7 +9,8 @@
     "draft_auto_v1.mp4",
     "draft_auto_v2.mp4",
     "draft_auto_v3.mp4",
-    "draft_auto_v4.mp4"
+    "draft_auto_v4.mp4",
+    "draft_auto_v5.mp4"
   ],
   "human_correction_count": null,
   "final_version": null,
@@ -28,5 +29,5 @@
   "finalization_minutes": null,
   "total_production_minutes": null,
   "human_audio_override_used": [],
-  "automatic_regeneration_count": 0
+  "automatic_regeneration_count": 11
 }

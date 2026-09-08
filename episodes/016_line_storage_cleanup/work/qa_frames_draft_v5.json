@@ -1,0 +1,131 @@
+{
+  "video": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\output\\draft_auto_v5.mp4",
+  "frames": [
+    {
+      "name": "scene_001",
+      "scene_id": 1,
+      "target_sec": 7.68,
+      "captured_sec": 7.68,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\work\\draft_frames_ffmpeg_v5\\scene_001.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_002",
+      "scene_id": 2,
+      "target_sec": 24.54,
+      "captured_sec": 24.54,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\work\\draft_frames_ffmpeg_v5\\scene_002.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_003",
+      "scene_id": 3,
+      "target_sec": 48.67,
+      "captured_sec": 48.67,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\work\\draft_frames_ffmpeg_v5\\scene_003.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_004",
+      "scene_id": 4,
+      "target_sec": 67.8,
+      "captured_sec": 67.8,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\work\\draft_frames_ffmpeg_v5\\scene_004.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_005",
+      "scene_id": 5,
+      "target_sec": 87.66,
+      "captured_sec": 87.66,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\work\\draft_frames_ffmpeg_v5\\scene_005.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_006",
+      "scene_id": 6,
+      "target_sec": 109.39,
+      "captured_sec": 109.39,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\work\\draft_frames_ffmpeg_v5\\scene_006.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_007",
+      "scene_id": 7,
+      "target_sec": 132.88,
+      "captured_sec": 132.88,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\work\\draft_frames_ffmpeg_v5\\scene_007.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_008",
+      "scene_id": 8,
+      "target_sec": 156.14,
+      "captured_sec": 156.14,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\work\\draft_frames_ffmpeg_v5\\scene_008.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_009",
+      "scene_id": 9,
+      "target_sec": 169.13,
+      "captured_sec": 169.13,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\work\\draft_frames_ffmpeg_v5\\scene_009.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_010",
+      "scene_id": 10,
+      "target_sec": 182.64,
+      "captured_sec": 182.64,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\work\\draft_frames_ffmpeg_v5\\scene_010.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_011",
+      "scene_id": 11,
+      "target_sec": 198.78,
+      "captured_sec": 198.78,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\work\\draft_frames_ffmpeg_v5\\scene_011.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_012",
+      "scene_id": 12,
+      "target_sec": 217.2,
+      "captured_sec": 217.2,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\work\\draft_frames_ffmpeg_v5\\scene_012.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "scene_013",
+      "scene_id": 13,
+      "target_sec": 246.77,
+      "captured_sec": 246.77,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\work\\draft_frames_ffmpeg_v5\\scene_013.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "cta",
+      "scene_id": null,
+      "target_sec": 273.971,
+      "captured_sec": 273.971,
+      "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\work\\draft_frames_ffmpeg_v5\\cta.png",
+      "width": 1920,
+      "height": 1080
+    }
+  ]
+}

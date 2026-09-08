@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "metadata": {
     "research_date": "2026-09-08",
-    "production_phase": "Phase B / full draft生成済み、Human Gate 2待ち",
+    "production_phase": "Phase B / draft_auto_v5生成済み、Human Gate 2待ち",
     "channel": "大人のデジタル安心室",
     "target_audience_detail": "50〜70代、特に65歳以上。スマホの設定画面をテレビでも読み取れるよう、全体画面は短く、確認対象は大きくクロップする。",
     "media_decision": "LINEスマホアプリの確認はスマートフォンを主媒体とする。Human提供の個人情報が見えない実LINE設定画面静止画を使用し、Android EmulatorへのLINEログイン・新規テストアカウント作成・本番での削除操作は行わない。",
@@ -32,7 +32,31 @@
       "deletion_operation_count": 0
     },
     "title_status": "第一候補をPhase Bで仮使用。最終確定はHuman Gate 2。",
-    "competitor_research_boundary": "競合は需要と見せ方の研究のみ。文章、構成、サムネイル、再生数の約束は流用しない。"
+    "competitor_research_boundary": "競合は需要と見せ方の研究のみ。文章、構成、サムネイル、再生数の約束は流用しない。",
+    "phase_b_revision": {
+      "base_draft": "output/draft_auto_v4.mp4",
+      "draft": "output/draft_auto_v5.mp4",
+      "scene_revision": {
+        "scene_id": 2,
+        "heading": "今日見る3か所",
+        "heading_is_item": false,
+        "items": [
+          "1 容量の内訳",
+          "2 キャッシュ",
+          "3 容量の大きいトーク"
+        ]
+      },
+      "pronunciation_revision": {
+        "surface": "キャッシュ",
+        "mora_structure": ["キャ", "ッ", "シュ"],
+        "accent_nucleus_mora": "シュ",
+        "occurrence_count": 12,
+        "regenerated_segments": [5, 10, 18, 19, 20, 21, 22, 24, 25, 40, 42],
+        "dictionary_scope": "global standard pronunciation dictionary"
+      },
+      "deletion_operations_performed": false,
+      "human_gate": "Human Gate 2"
+    }
   },
   "episode": {
     "episode_id": "016",
@@ -1052,8 +1076,13 @@
       "id": 2,
       "layout": "layout_02_list",
       "main_message": "今日見る3か所",
-      "headline": "まず確認する3か所",
-      "support_text": "容量の内訳、キャッシュ、大きいトーク",
+      "headline": "今日見る3か所",
+      "support_text": "確認する場所",
+      "items": [
+        "容量の内訳",
+        "キャッシュ",
+        "容量の大きいトーク"
+      ],
       "official_asset": [],
       "official_asset_crop": [],
       "start_segment": 4,

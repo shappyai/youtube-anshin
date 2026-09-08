@@ -229,7 +229,7 @@ def concat_segments(rows: list[dict[str, Any]], output: Path) -> float:
 
 def generate_incremental(
     data: dict[str, Any], episode_dir: Path, work_dir: Path, engine_url: str,
-    force_segment: int | None = None, dry_run: bool = False, audio_dir: Path | None = None,
+    force_segment: int | list[int] | None = None, dry_run: bool = False, audio_dir: Path | None = None,
 ) -> dict[str, Any]:
     episode_id = str(data["episode"]["episode_id"])
     audio_dir = audio_dir or episode_dir / "audio" / "voicevox_kenzaki"
@@ -247,6 +247,11 @@ def generate_incremental(
     cursor = 0.0
     new_state: dict[str, Any] = {"version": 1, "segments": {}}
     query_audit: dict[str, Any] = {}
+    force_segments = (
+        {int(item) for item in force_segment}
+        if isinstance(force_segment, list)
+        else ({int(force_segment)} if force_segment is not None else set())
+    )
 
     for segment in data.get("narration_segments", []):
         segment_id = int(segment["id"])
@@ -294,7 +299,7 @@ def generate_incremental(
         reusable = path.exists() and (
             previous.get("hash") in {digest, legacy_digest} or legacy_reuse
         )
-        if force_segment == segment_id:
+        if segment_id in force_segments:
             reusable = False
         if reusable:
             skipped.append(segment_id)
