@@ -1,0 +1,20 @@
+{
+  "episode_id": "016",
+  "reviewed_at": "2026-09-08",
+  "reviewer": "user",
+  "phase": "Human Gate 2 approved",
+  "video": {
+    "draft_auto_v5.mp4": "approved"
+  },
+  "scope": [
+    "draft_auto_v5 full-watch",
+    "SCENE-002 overview correction",
+    "キャッシュ pronunciation",
+    "subtitle and timeline sync",
+    "final candidate copy-only finalize"
+  ],
+  "thumbnail": {
+    "assets/thumbnail/thumbnail.png": "pending_chatgpt_creation"
+  },
+  "notes": "Human Gate 2でdraft_auto_v5を全編確認し承認。最終タイトル、3項目表示、キャッシュ発音、字幕、実画面のマスク状態を確認済み。final.mp4はbyte-identical copyのみ。thumbnailとYouTube操作は未実施。"
+}

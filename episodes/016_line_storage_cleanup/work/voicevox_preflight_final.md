@@ -11,11 +11,33 @@ Dictionary: config\voicevox_pronunciation.yaml
 ## PASS
 
 - seg 003 今日 → きょう（reading_overrides）
+- seg 005 キャッシュ → キャッシュ（pronunciation dictionary）
+- seg 005 キャッシュ → low_high_plateau（pitch shape / mora QA対象）
+- seg 010 キャッシュ → キャッシュ（pronunciation dictionary）
+- seg 010 キャッシュ → low_high_plateau（pitch shape / mora QA対象）
 - seg 012 開きます → ひらきます（pronunciation dictionary）
 - seg 016 何も → ナニモ（pronunciation dictionary）
+- seg 018 キャッシュ → キャッシュ（pronunciation dictionary）
+- seg 018 キャッシュ → low_high_plateau（pitch shape / mora QA対象）
+- seg 019 キャッシュ → キャッシュ（pronunciation dictionary）
+- seg 019 キャッシュ → low_high_plateau（pitch shape / mora QA対象）
+- seg 020 キャッシュ → キャッシュ（pronunciation dictionary）
+- seg 020 キャッシュ → low_high_plateau（pitch shape / mora QA対象）
+- seg 021 キャッシュ → キャッシュ（pronunciation dictionary）
+- seg 021 キャッシュ → low_high_plateau（pitch shape / mora QA対象）
+- seg 022 キャッシュ → キャッシュ（pronunciation dictionary）
+- seg 022 キャッシュ → low_high_plateau（pitch shape / mora QA対象）
 - seg 023 何も → ナニモ（pronunciation dictionary）
+- seg 024 キャッシュ → キャッシュ（pronunciation dictionary）
+- seg 024 キャッシュ → low_high_plateau（pitch shape / mora QA対象）
+- seg 025 キャッシュ → キャッシュ（pronunciation dictionary）
+- seg 025 キャッシュ → low_high_plateau（pitch shape / mora QA対象）
 - seg 030 開く → ひらく（reading_overrides）
 - seg 038 今日 → きょう（reading_overrides）
+- seg 040 キャッシュ → キャッシュ（pronunciation dictionary）
+- seg 040 キャッシュ → low_high_plateau（pitch shape / mora QA対象）
+- seg 042 キャッシュ → キャッシュ（pronunciation dictionary）
+- seg 042 キャッシュ → low_high_plateau（pitch shape / mora QA対象）
 
 ## REVIEW
 
@@ -32,7 +54,7 @@ Dictionary: config\voicevox_pronunciation.yaml
 ## Summary
 
 - result: PASS
-- approved matches: 6
+- approved matches: 28
 - human-approved context items: 0
 - review items: 0
 - dictionary mutation: none

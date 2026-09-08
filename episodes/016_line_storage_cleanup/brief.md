@@ -4,12 +4,12 @@
 
 - Episode: 016
 - slug: line_storage_cleanup
-- 制作段階: Phase B / draft_auto_v5生成済み、Human Gate 2待ち
+- 制作段階: Phase C / final候補確定、thumbnail・YouTube操作待ち
 - 企画テーマ: LINEが重い、または容量が大きいと感じる人が、写真やトークを急いで削除する前に、LINEの中で容量の使われ方と整理の入口を確認する。
 - 主な視聴者: 50〜70代、特に65歳以上。スマホの設定画面をテレビでも読み取れることを優先する。
 - 想定尺: 4分45秒〜5分45秒。情報量が不足する場合のみ6分台まで許容する。
 - 撮影媒体: スマートフォン。Human提供の実LINE設定画面を静止画で使用する。Android EmulatorへのLINEアカウント作成・ログインは行わない。
-- Phase Bの判断: Human Gate 1はAPPROVED WITH MINOR CHANGES。第一候補タイトルを作業タイトルとして使用し、Human提供の3枚を個人情報QA後に反映した。draft_auto_v5まで生成済みで、最終タイトルと公開可否はHuman Gate 2で確認する。
+- Phase Bの判断: Human Gate 1はAPPROVED WITH MINOR CHANGES。Human提供の3枚を個人情報QA後に反映し、draft_auto_v5を生成した。Human Gate 2で最終タイトルとfull draftを承認済み。`output/final.mp4`は再encodeなしのcopy-onlyで確定し、thumbnailとYouTube操作は未実施とする。
 
 ## この動画で約束すること
 

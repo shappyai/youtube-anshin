@@ -1,8 +1,8 @@
 {
   "episode_id": "016",
-  "status": "FULL_DRAFT_READY_HUMAN_GATE_2",
+  "status": "FINALIZED_HUMAN_GATE_2_APPROVED",
   "selected_title": "【LINE】重くなった？写真を消す前に確認したい3か所",
-  "title_status": "第一候補をPhase Bの作業タイトルとして使用。最終確定はHuman Gate 2。",
+  "title_status": "Human Gate 2で最終タイトル承認済み。",
   "title_candidates": [
     {
       "title": "【LINE】重くなった？写真を消す前に確認したい3か所",
@@ -13,7 +13,7 @@
       "self_relevance": 5,
       "now_reason": 4,
       "total": 29,
-      "selected": false,
+      "selected": true,
       "recommendation": "第一候補"
     },
     {
@@ -53,7 +53,7 @@
       "recommendation": "保留"
     }
   ],
-  "description": "LINEが重い、または容量が大きいと感じたときに、写真やトークを急いで削除する前に確認したい3か所を、LINE公式ヘルプに沿って紹介します。\n\nこの動画で確認する場所\n・データの削除画面で、容量の内訳を確認\n・キャッシュを確認し、選ぶ場合もキャッシュだけにする\n・トークごとの容量を確認し、写真やファイルを消す前に残すものを考える\n\nキャッシュ、トーク履歴、写真、動画、ファイル、ボイスメッセージ、アルバムの中身は同じものではありません。削除したデータは復元できないものがあり、保存期間が経過した写真や動画などが見られなくなる場合もあります。表示は端末やLINEのバージョンで異なる場合があります。\n\n主な公式情報（確認日: 2026年9月8日）\nhttps://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja\nhttps://help.line.me/line/smartphone/pc?contentId=20010180&lang=ja\nhttps://help-o.line.me/line/smartphone?contentId=20000236&lang=ja\nhttps://help.line.me/line/smartphone/sp?contentId=20000248&lang=ja\nhttps://guide.line.me/ja/features-and-columns/cleanup-line.html\n\nナレーション：VOICEVOX:剣崎雌雄",
+  "description": "LINEが重い、または容量が大きいと感じたときに、写真やトークを急いで削除する前に確認したい3か所を、LINE公式ヘルプに沿って紹介します。\n\nこの動画で確認する場所\n・データの削除画面で、容量の内訳を確認\n・キャッシュを確認し、選ぶ場合もキャッシュだけにする\n・トークごとの容量を確認し、写真やファイルを消す前に残すものを考える\n\nキャッシュ、トーク履歴、写真、動画、ファイル、ボイスメッセージ、アルバムの中身は同じものではありません。削除したデータは復元できないものがあり、保存期間が経過した写真や動画などが見られなくなる場合もあります。表示は端末やLINEのバージョンで異なる場合があります。\n\n【目次】\n00:00 結論：写真やトークを急いで消さない\n00:35 1. LINEの容量の内訳を確認\n01:40 2. キャッシュを確認\n03:05 3. 容量の大きいトークを確認\n04:35 まとめ\n\n主な公式情報（確認日: 2026年9月8日）\nhttps://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja\nhttps://help.line.me/line/smartphone/pc?contentId=20010180&lang=ja\nhttps://help-o.line.me/line/smartphone?contentId=20000236&lang=ja\nhttps://help.line.me/line/smartphone/sp?contentId=20000248&lang=ja\nhttps://guide.line.me/ja/features-and-columns/cleanup-line.html\n\nナレーション：VOICEVOX:剣崎雌雄",
   "chapters": [
     "00:00 結論：写真やトークを急いで消さない",
     "00:35 1. LINEの容量の内訳を確認",
@@ -61,6 +61,7 @@
     "03:05 3. 容量の大きいトークを確認",
     "04:35 まとめ"
   ],
+  "pinned_comment": "LINEの容量が気になったら、まずは「データの削除」で内訳を確認しましょう。\n\n写真やトークを削除する前に、残したいものがないか確認してください。\n\n表示は端末やLINEのバージョンで異なる場合があります。",
   "tags": [
     "LINE",
     "LINE容量",
@@ -82,12 +83,13 @@
   "ai_disclosure_review": "REVIEW_REQUIRED_BEFORE_UPLOAD",
   "thumbnail": null,
   "thumbnail_status": "NOT_STARTED_CHATGPT_CREATION_PENDING",
-  "thumbnail_brief": "Phase BでChatGPTが作成。2〜6語を基本とし、削除を急がせる表現や効果保証は使わない。",
+  "thumbnail_planned_path": "assets/thumbnail/thumbnail.png",
+  "thumbnail_brief": "ChatGPT作成予定。2〜6語を基本とし、削除を急がせる表現や効果保証は使わない。",
   "end_screen_candidates": [],
   "visibility": "private",
   "upload_eligible": false,
   "phase_a_boundary": "Human Gate 1承認済み。Android EmulatorへのLINEログインは行わず、Human提供の設定画面3枚を個人情報QA後に使用する。削除操作、thumbnail、YouTube操作は行わない。",
-  "draft_status": "FULL_DRAFT_READY_FOR_HUMAN_GATE_2",
+  "draft_status": "FULL_DRAFT_READY_FOR_HUMAN_GATE_2_APPROVED",
   "draft_path": "output/draft_auto_v5.mp4",
   "draft_revision": "v5",
   "previous_draft_path": "output/draft_auto_v4.mp4",
@@ -97,13 +99,19 @@
   "draft_qa_report": "work/phase2_qa.md",
   "draft_sha256": "C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28",
   "draft_contact_sheet": "output/review/draft_contact_sheet_v5.png",
-  "human_review_points": "Human Gate 2で、実画面3枚のマスク状態と個人情報不存在、0:25付近の3項目表示、LINE UIと台本の一致、キャッシュの発音と注意、字幕、full draft、タイトルを確認する。",
-  "final_path": null,
-  "human_approved": false,
+  "human_review_points": "Human Gate 2で、実画面3枚のマスク状態と個人情報不存在、0:25付近の3項目表示、LINE UIと台本の一致、キャッシュの発音と注意、字幕、full draft、タイトルを確認し承認済み。",
+  "human_gate": "HUMAN_GATE_2_APPROVED",
+  "final_path": "output/final.mp4",
+  "finalization_method": "copy-only; no re-encode",
+  "finalized_at": "2026-09-08",
+  "human_approved": true,
   "viewer_facing_internal_brand_promise": 0,
-  "final_qa_status": "NOT_STARTED",
-  "final_qa_report": null,
-  "final_sha256": null,
+  "final_qa_status": "PASS",
+  "final_qa_report": "output/review/final_qa.md",
+  "final_sha256": "C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28",
+  "final_duration_sec": 280.2,
+  "publish_preflight_status": "BLOCKED_THUMBNAIL_PENDING",
+  "publish_preflight_report": "work/youtube_publish/dry_run.json",
   "end_cta_count": 1,
   "source_urls": [
     "https://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja",
@@ -113,6 +121,7 @@
     "https://guide.line.me/ja/features-and-columns/cleanup-line.html",
     "https://help.line.me/line/smartphone?contentId=20000199&lang=ja&p=faq.html"
   ],
+  "end_screen_status": "HumanがYouTube Studioで設定予定。未設定。",
   "youtube_upload": "not_started",
   "youtube_video_id": null,
   "youtube_url": null,

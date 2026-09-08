@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "warnings": [],
+  "draft": {
+    "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\output\\draft_auto_v5.mp4",
+    "sha256": "C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28"
+  },
+  "final": {
+    "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\output\\final.mp4",
+    "sha256": "C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28"
+  },
+  "sha256_match": true,
+  "probe": {
+    "format": {
+      "duration": 280.2
+    },
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "sample_rate": 48000,
+        "channels": 1
+      }
+    ]
+  },
+  "decode_error_count": 0,
+  "black_frame_count": 0,
+  "unexpected_silence_count": 0,
+  "av_sync": "PASS",
+  "audio_clipping_count": 0,
+  "audio_checked": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\audio\\voicevox_kenzaki\\narration_kenzaki_auto.wav",
+  "subtitle_burn_in": "manual review required; no subtitle stream is expected"
+}

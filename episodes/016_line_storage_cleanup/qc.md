@@ -1,7 +1,7 @@
-# Episode 016 Phase B QC
+# Episode 016 Final Candidate QC
 
 基準日: 2026-09-08  
-状態: draft_auto_v5生成済み、Human Gate 2待ち
+状態: final候補確定、Human Gate 2 APPROVED
 
 ## Human提供画面
 
@@ -49,7 +49,7 @@
 - `キャッシュ`の出現は12回、影響セグメントは11本。005、010、018、019、020、021、022、024、025、040、042を再生成した。その他33本は再利用した。
 - `config/voicevox_pronunciation.yaml`に重複のないglobal登録を追加し、`accent_phrases`のaccent 3、`pitch_shape: low_high_plateau`、`pitch_high_anchor_mora: 3`を適用した。`ッ`は無声モーラのため、聴感上の山は最終の「シュ」に置かれる。
 - draft SHA-256: `C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28`
-- thumbnail生成、finalize、YouTube upload/publish、実データ削除は未実施。
+- thumbnail生成、YouTube upload/publish、実データ削除は未実施。Human Gate 2承認後、finalizeは再encodeなしのcopy-onlyで実施する。
 
 ## Human Gate 2確認項目
 
@@ -59,3 +59,15 @@
 4. 実際に削除操作をしていないこと。
 5. VOICEVOXの読み、字幕の同期、実画面の可読性、full draftの切り替え。
 6. タイトルと概要欄が内容以上に断定していないか。
+
+## Human Gate 2承認後の最終確認
+
+- Human Gate 2: APPROVED（2026-09-08）。`draft_auto_v5.mp4`を全編確認し、最終タイトルを承認した。
+- final: `output/final.mp4`。`draft_auto_v5.mp4`から再encodeなしでcopyしたbyte-identical final候補。
+- draft / final SHA-256: `C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28`（一致）。
+- final QA: PASS。映像・音声のdecode、black frame、unexpected silence、clipping、AV syncを確認した。レポートは`output/review/final_qa.md`。
+- viewer-facing INTERNAL_ONLY QA: PASS（検出0）。`キャッシュ`標準辞書登録と全12回の発音QAもPASS。
+- 概要欄、チャプター、固定コメント案: `publish.json`へ最終確定。
+- thumbnail: 未作成。予定配置は`assets/thumbnail/thumbnail.png`で、ChatGPT作成後にHuman確認する。
+- End Screen: 未設定。HumanがYouTube Studioで設定する。
+- publish preflight: BLOCKED（thumbnail未作成）。`work/youtube_publish/dry_run.json`でOAuth/API未呼び出しを確認した。dry-run以外のYouTube操作は行わない。

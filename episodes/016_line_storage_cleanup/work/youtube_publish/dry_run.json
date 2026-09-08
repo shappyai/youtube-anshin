@@ -1,0 +1,26 @@
+{
+  "status": "FAIL",
+  "api_called": false,
+  "oauth_called": false,
+  "episode": "016_line_storage_cleanup",
+  "final_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\output\\final.mp4",
+  "thumbnail_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\assets\\thumbnail\\thumbnail.png",
+  "title": "【LINE】重くなった？写真を消す前に確認したい3か所",
+  "description_bytes": 1919,
+  "tag_count": 8,
+  "tag_total_length": 50,
+  "privacy": "private",
+  "ai_disclosure": false,
+  "schedule_local": null,
+  "schedule_api": null,
+  "video_sha256": "C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28",
+  "existing_video_id": null,
+  "expected_api_requests": [
+    "videos.insert part=snippet,status resumable=True notifySubscribers=False status.containsSyntheticMedia",
+    "thumbnails.set",
+    "videos.list part=snippet,status"
+  ],
+  "errors": [
+    "Thumbnail missing: C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\assets\\thumbnail\\thumbnail.png"
+  ]
+}

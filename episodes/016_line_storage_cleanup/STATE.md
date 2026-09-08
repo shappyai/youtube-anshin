@@ -3,23 +3,28 @@
 - Episode: 016_line_storage_cleanup
 - Topic: LINEが重い・容量が大きいと感じたときに、写真やトークを消す前に確認する3か所
 - 基準日: 2026-09-08
-- Phase: **Phase B / draft_auto_v5生成済み、Human Gate 2待ち**
-- status: in_review
+- Phase: **Phase C / final候補確定、thumbnail・YouTube操作待ち**
+- status: finalized
 - phase_a_human_gate: APPROVED WITH MINOR CHANGES
-- human_approved: false
+- human_approved: true
 - upload_eligible: false
-- title_status: 第一候補「【LINE】重くなった？写真を消す前に確認したい3か所」をPhase B仮使用。最終確定はHuman Gate 2
+- title_status: 「【LINE】重くなった？写真を消す前に確認したい3か所」をHuman Gate 2で最終承認済み
 - viewer_facing_internal_brand_promise: 0
 - 実画面capture: Human提供3枚を受領。正規化copyを作成し、個人情報QA PASS
 - 削除操作: 未実施
 - VOICEVOX生成: 完了。剣崎雌雄ノーマル、44セグメントを生成・再利用。`キャッシュ`を含む11セグメント（12回出現）をv5で再生成
 - 字幕生成: 完了。実測タイミングの44 cue、SRT/ASSを生成
 - scene・動画生成: 完了。13 scene + CTAのfull draftを生成
-- thumbnail生成: 未実施
-- YouTube操作: 未実施
+- thumbnail生成: 未実施（ChatGPT作成予定。配置予定: `assets/thumbnail/thumbnail.png`）
+- YouTube操作: 未実施（End ScreenはHumanがYouTube Studioで設定）
 - 共通CTA設定: 更新済み。新canonical textの音声・画像assetをPhase Bで生成
 - full draft: `output/draft_auto_v5.mp4`、実尺280.2秒（本編267.743秒 + CTA12.456秒）。v4は保持
 - draft SHA-256: `C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28`
+- final: `output/final.mp4`（draft_auto_v5からbyte-identical copy、再encodeなし）
+- final SHA-256: `C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28`
+- final QA: PASS（SHA一致、decode、black frame、unexpected silence、clipping、AV sync）
+- Human Gate 2: APPROVED（2026-09-08）
+- publish preflight: thumbnail未作成のためBLOCKED。dry-runでOAuth/APIは呼び出していない。
 
 ## Human Gate 1承認
 
@@ -88,9 +93,16 @@
 - 0:25付近のSCENE-002を差し替え。主役を「1 容量の内訳」「2 キャッシュ」「3 容量の大きいトーク」の3行にし、「今日見る3か所」は見出しとしてのみ表示した。
 - `キャッシュ`はVOICEVOXの実audio_queryで「キャ・ッ・シュ」の3モーラ構造を確認。標準辞書へ`accent=3`、最終モーラを高くする`low_high_plateau`（anchor mora 3）として登録した。
 - 影響対象はセグメント005、010、018、019、020、021、022、024、025、040、042。字幕とtimelineは再生成音声の実時間から再計算した。
-- 実データの削除、Android EmulatorへのLINEログイン、thumbnail生成、finalize、YouTube操作は行っていない。
+- 実データの削除、Android EmulatorへのLINEログイン、thumbnail生成、YouTube操作は行っていない。finalizeはHuman Gate 2承認後にcopy-onlyで実施した。
 - Human Gate 2で、SCENE-002、キャッシュの発音、字幕同期、full draft、個人情報QA、タイトルを確認する。
+
+## Human Gate 2承認後の最終状態
+
+- Humanが`draft_auto_v5.mp4`を全編確認し、SCENE-002の3項目表示、キャッシュの発音、字幕同期、実画面のマスク状態、タイトルを承認した。
+- `output/final.mp4`は再encodeなしのbyte-identical copyとして確定した。概要欄、チャプター、固定コメント案は`publish.json`へ最終記録した。
+- final QAと公開前の各preflightを実施済み。thumbnailは未作成、YouTube upload・schedule・publishは未実施とする。
+- End ScreenはHumanがYouTube Studioで設定する。
 
 ## 継続中の安全境界
 
-**Human提供の設定画面だけを使用し、実データの削除操作、Android EmulatorへのLINEログイン、thumbnail生成、YouTube upload/publishは行わない。full draft完成後にHuman Gate 2で停止する。**
+**Human提供の設定画面だけを使用し、実データの削除操作、Android EmulatorへのLINEログイン、thumbnail生成、YouTube upload/publishは行わない。thumbnail完成とHumanによる公開前確認が済むまで停止する。**

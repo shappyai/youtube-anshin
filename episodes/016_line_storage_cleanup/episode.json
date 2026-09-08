@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "metadata": {
     "research_date": "2026-09-08",
-    "production_phase": "Phase B / draft_auto_v5生成済み、Human Gate 2待ち",
+    "production_phase": "Phase C / final候補確定、thumbnail・YouTube操作待ち",
     "channel": "大人のデジタル安心室",
     "target_audience_detail": "50〜70代、特に65歳以上。スマホの設定画面をテレビでも読み取れるよう、全体画面は短く、確認対象は大きくクロップする。",
     "media_decision": "LINEスマホアプリの確認はスマートフォンを主媒体とする。Human提供の個人情報が見えない実LINE設定画面静止画を使用し、Android EmulatorへのLINEログイン・新規テストアカウント作成・本番での削除操作は行わない。",
@@ -31,7 +31,7 @@
       "capture_count": 3,
       "deletion_operation_count": 0
     },
-    "title_status": "第一候補をPhase Bで仮使用。最終確定はHuman Gate 2。",
+    "title_status": "Human Gate 2で最終タイトル承認済み。",
     "competitor_research_boundary": "競合は需要と見せ方の研究のみ。文章、構成、サムネイル、再生数の約束は流用しない。",
     "phase_b_revision": {
       "base_draft": "output/draft_auto_v4.mp4",
@@ -55,7 +55,16 @@
         "dictionary_scope": "global standard pronunciation dictionary"
       },
       "deletion_operations_performed": false,
-      "human_gate": "Human Gate 2"
+      "human_gate": "Human Gate 2 APPROVED"
+    },
+    "finalization": {
+      "status": "FINALIZED_COPY_ONLY_HUMAN_GATE_2_APPROVED",
+      "draft": "output/draft_auto_v5.mp4",
+      "final": "output/final.mp4",
+      "method": "copy-only; no re-encode",
+      "sha256": "C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28",
+      "final_qa": "output/review/final_qa.md",
+      "human_gate": "Human Gate 2 APPROVED"
     }
   },
   "episode": {
@@ -63,7 +72,7 @@
     "slug": "line_storage_cleanup",
     "title": "【LINE】重くなった？写真を消す前に確認したい3か所",
     "target_duration": 315,
-    "status": "in_review",
+    "status": "publish_ready",
     "topic": "LINEが重い、または容量が大きいと感じたときに、写真やトークを急いで削除する前に確認したい3か所と、削除前の注意を説明する。",
     "target_audience": "LINEを日常的に使う50〜70代、特に65歳以上。写真やトークを消す前に、LINEの容量の内訳と影響範囲を確認したい人。",
     "topic_scores": {
@@ -1475,7 +1484,7 @@
   },
   "publish": {
     "title": "【LINE】重くなった？写真を消す前に確認したい3か所",
-    "description": "LINEが重い、または容量が大きいと感じたときに、写真やトークを急いで削除する前に確認したい3か所を、LINE公式ヘルプに沿って紹介します。\n\nこの動画で確認する場所\n・データの削除画面で、容量の内訳を確認\n・キャッシュを確認し、選ぶ場合もキャッシュだけにする\n・トークごとの容量を確認し、写真やファイルを消す前に残すものを考える\n\nキャッシュ、トーク履歴、写真、動画、ファイル、ボイスメッセージ、アルバムの中身は同じものではありません。削除したデータは復元できないものがあり、保存期間が経過した写真や動画などが見られなくなる場合もあります。表示は端末やLINEのバージョンで異なる場合があります。\n\n参考にした公式情報\nhttps://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja\nhttps://help.line.me/line/smartphone/pc?contentId=20010180&lang=ja\nhttps://help-o.line.me/line/smartphone?contentId=20000236&lang=ja\nhttps://help.line.me/line/smartphone/sp?contentId=20000248&lang=ja\n\nナレーション：VOICEVOX:剣崎雌雄",
+    "description": "LINEが重い、または容量が大きいと感じたときに、写真やトークを急いで削除する前に確認したい3か所を、LINE公式ヘルプに沿って紹介します。\n\nこの動画で確認する場所\n・データの削除画面で、容量の内訳を確認\n・キャッシュを確認し、選ぶ場合もキャッシュだけにする\n・トークごとの容量を確認し、写真やファイルを消す前に残すものを考える\n\nキャッシュ、トーク履歴、写真、動画、ファイル、ボイスメッセージ、アルバムの中身は同じものではありません。削除したデータは復元できないものがあり、保存期間が経過した写真や動画などが見られなくなる場合もあります。表示は端末やLINEのバージョンで異なる場合があります。\n\n【目次】\n00:00 結論：写真やトークを急いで消さない\n00:35 1. LINEの容量の内訳を確認\n01:40 2. キャッシュを確認\n03:05 3. 容量の大きいトークを確認\n04:35 まとめ\n\n主な公式情報（確認日: 2026年9月8日）\nhttps://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja\nhttps://help.line.me/line/smartphone/pc?contentId=20010180&lang=ja\nhttps://help-o.line.me/line/smartphone?contentId=20000236&lang=ja\nhttps://help.line.me/line/smartphone/sp?contentId=20000248&lang=ja\nhttps://guide.line.me/ja/features-and-columns/cleanup-line.html\n\nナレーション：VOICEVOX:剣崎雌雄",
     "chapters": [
       "00:00 結論：写真やトークを急いで消さない",
       "00:35 1. LINEの容量の内訳を確認",
@@ -1483,20 +1492,32 @@
       "03:05 3. 容量の大きいトークを確認",
       "04:35 まとめ"
     ],
+    "pinned_comment": "LINEの容量が気になったら、まずは「データの削除」で内訳を確認しましょう。\n\n写真やトークを削除する前に、残したいものがないか確認してください。\n\n表示は端末やLINEのバージョンで異なる場合があります。",
     "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
-    "title_status": "第一候補をPhase Bで仮使用。最終確定はHuman Gate 2。",
+    "title_status": "Human Gate 2で最終タイトル承認済み。",
     "upload_eligible": false,
     "phase_a_boundary": "Human Gate 1承認済み。Human提供の個人情報が見えない設定画面3枚を反映し、音声・実時間字幕・scene・full draftまで生成済み。削除操作、thumbnail、YouTube操作は行わない。",
     "contains_synthetic_media": false,
     "ai_disclosure_review": "Phase Bで確認。Phase AではAI生成画像を作らず、LINE UIは実画面のみとする。",
     "visibility": "private",
-    "human_approved": false
+    "human_approved": true,
+    "final_path": "output/final.mp4",
+    "finalization_method": "copy-only; no re-encode",
+    "final_qa_status": "PASS",
+    "final_qa_report": "output/review/final_qa.md",
+    "final_sha256": "C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28",
+    "final_duration_sec": 280.2,
+    "thumbnail": null,
+    "thumbnail_status": "NOT_STARTED_CHATGPT_CREATION_PENDING",
+    "thumbnail_planned_path": "assets/thumbnail/thumbnail.png",
+    "publish_preflight_status": "BLOCKED_THUMBNAIL_PENDING",
+    "publish_preflight_report": "work/youtube_publish/dry_run.json"
   },
   "phase_a": {
     "status": "APPROVED_WITH_MINOR_CHANGES",
-    "title_finalized": false,
+    "title_finalized": true,
     "human_gate_1_result": "APPROVED_WITH_MINOR_CHANGES",
-    "phase_b_status": "FULL_DRAFT_READY_HUMAN_GATE_2",
+    "phase_b_status": "FINALIZED_COPY_ONLY_HUMAN_GATE_2_APPROVED",
     "recommended_title_count": 3,
     "final_three_items": [
       "データの削除で容量の内訳を確認する",
@@ -1514,11 +1535,9 @@
       "競合の文章、構成、サムネイルの再利用"
     ],
     "not_done": [
-      "最終タイトル確定",
-      "Human Gate 2承認",
-      "thumbnail生成",
+      "thumbnail生成（ChatGPT作成予定）",
       "YouTube操作",
-      "finalize"
+      "End Screen設定（YouTube StudioでHuman設定）"
     ],
     "human_gate_questions": [
       "推奨タイトル3案のうち、65歳以上に最も伝わる案はどれか",
