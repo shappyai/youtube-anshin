@@ -1,0 +1,16 @@
+scene_id,media_type,device,status,path_or_source,privacy_note
+SCENE-001,template,none,PLANNED,,冒頭の結論。個人情報なし。大きなメッセージはrenderer-nativeで作成予定。
+SCENE-002,template,none,PLANNED,,3項目の一覧。アイコンは意味に合う既存カタログを使用予定。
+SCENE-003,official_ui,Android Emulator,CAPTURE_REQUIRED,https://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja,実LINEの入口を撮影。個人情報なし。全体2〜4秒後にクロップ。
+SCENE-004,official_ui,Android Emulator,CAPTURE_REQUIRED,https://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja,データの削除画面で容量を確認。削除しない。
+SCENE-005,official_ui,Android Emulator,CAPTURE_REQUIRED,https://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja,キャッシュ項目を拡大。選択箇所を確認し、削除前で停止。
+SCENE-006,renderer_native,none,PLANNED,https://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja,キャッシュとトーク履歴等の違いを正確な文字で説明。架空UIなし。
+SCENE-007,renderer_native,none,PLANNED,https://help-o.line.me/line/smartphone?contentId=20000236&lang=ja,保存期間・画像動画ボイスメッセージの注意を短い事実カードで表示。
+SCENE-008,renderer_native,none,PLANNED,https://help.line.me/line/smartphone/sp?contentId=20000248&lang=ja,アルバムのキャッシュとアルバム内容の違いを補足。架空UIなし。
+SCENE-009,official_ui,Android Emulator,CAPTURE_REQUIRED,https://help.line.me/line/smartphone/pc?contentId=20010180&lang=ja,トークごとにデータを削除の入口。テスト用名称のみ。
+SCENE-010,official_ui,Android Emulator,CAPTURE_REQUIRED,https://help.line.me/line/smartphone/pc?contentId=20010180&lang=ja,大きい容量順の一覧を確認。削除すべき順とは表示しない。
+SCENE-011,official_ui,Android Emulator,CAPTURE_REQUIRED,https://help.line.me/line/smartphone/pc?contentId=20010180&lang=ja,トーク内のデータ種類を確認。削除ボタンは押さない。
+SCENE-012,template,none,PLANNED,,保存先確認と削除前判断。個人データを使わない。
+SCENE-013,template,none,PLANNED,,まとめ。キャッシュ・トーク・メディア・アルバムを混同しない。
+SCENE-014,template,none,PLANNED,config/channel_cta.json,共通CTA。Phase Bで生成。登録アイコンや疑似登録ボタンは描画しない。
+

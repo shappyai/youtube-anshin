@@ -1,0 +1,1310 @@
+{
+  "schema_version": "1.0.0",
+  "metadata": {
+    "research_date": "2026-09-08",
+    "production_phase": "Phase A / Human Gate 1待ち",
+    "channel": "大人のデジタル安心室",
+    "target_audience_detail": "50〜70代、特に65歳以上。スマホの設定画面をテレビでも読み取れるよう、全体画面は短く、確認対象は大きくクロップする。",
+    "media_decision": "LINEスマホアプリの確認はスマートフォンを主媒体とし、個人情報のないAndroid Emulatorまたは安全なテスト用端末を第一候補にする。本番LINEは使用しない。",
+    "fact_boundary": "LINE公式が案内するデータの削除画面、キャッシュ、トークごとの容量順表示を扱う。キャッシュ削除でもトーク履歴などは削除されないという案内と、保存期間経過メディアやアプリ内メディアが利用できなくなる場合があるという注意を併記する。",
+    "source_of_truth": [
+      "https://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja",
+      "https://help.line.me/line/smartphone/pc?contentId=20010180&lang=ja",
+      "https://help-o.line.me/line/smartphone?contentId=20000236&lang=ja",
+      "https://help.line.me/line/smartphone/sp?contentId=20000248&lang=ja",
+      "https://guide.line.me/ja/features-and-columns/cleanup-line.html",
+      "https://help.line.me/line/smartphone?contentId=20000199&lang=ja&p=faq.html"
+    ],
+    "human_gates": [
+      "Gate 1: 公式情報、競合需要、3項目、タイトル候補、台本、撮影方針を確認する。Phase A終了時に停止する。",
+      "Gate 2: 安全なテスト用LINE環境と、Android・iPhoneの現在のメニュー表示を確認する。削除操作は行わない。",
+      "Gate 3: 実画面の可読性、注意文、個人情報の不存在を確認する。",
+      "Gate 4: 実操作を行う場合だけ、対象データ・保存先・復元可否をHuman確認する。"
+    ],
+    "phase_a_counts": {
+      "scene_count": 13,
+      "official_ui_scene_count": 7,
+      "template_scene_count": 6,
+      "imagegen_scene_count": 0,
+      "fact_fail_count": 0,
+      "fact_review_count": 3,
+      "capture_count": 0,
+      "deletion_operation_count": 0
+    },
+    "title_status": "未確定。推奨3案をHuman Gate 1で比較する。",
+    "competitor_research_boundary": "競合は需要と見せ方の研究のみ。文章、構成、サムネイル、再生数の約束は流用しない。"
+  },
+  "episode": {
+    "episode_id": "016",
+    "slug": "line_storage_cleanup",
+    "title": "【LINE】重くなった？まず確認したい3か所",
+    "target_duration": 315,
+    "status": "in_review",
+    "topic": "LINEが重い、または容量が大きいと感じたときに、写真やトークを急いで削除する前に確認したい3か所と、削除前の注意を説明する。",
+    "target_audience": "LINEを日常的に使う50〜70代、特に65歳以上。写真やトークを消す前に、LINEの容量の内訳と影響範囲を確認したい人。",
+    "topic_scores": {
+      "home_ctr": 5,
+      "search_fit": 5,
+      "senior_clarity": 5,
+      "accuracy": 5,
+      "self_relevance": 5,
+      "now_reason": 4,
+      "total": 29,
+      "scale": "各項目5点、6軸、30点満点。タイトルは未確定。"
+    },
+    "title_candidates": [
+      {
+        "id": "A",
+        "title": "【LINE】重くなった？まず確認したい3か所",
+        "home_ctr": 5,
+        "search_fit": 5,
+        "senior_clarity": 5,
+        "accuracy": 5,
+        "self_relevance": 5,
+        "now_reason": 4,
+        "total": 29,
+        "recommendation": "推奨1",
+        "note": "短く、LINE・困りごと・確認の順番・3か所が伝わる。"
+      },
+      {
+        "id": "B",
+        "title": "【LINE】容量がいっぱい？写真を消す前に確認したい3か所",
+        "home_ctr": 5,
+        "search_fit": 5,
+        "senior_clarity": 5,
+        "accuracy": 4,
+        "self_relevance": 5,
+        "now_reason": 4,
+        "total": 28,
+        "recommendation": "推奨2",
+        "note": "写真を消す前という安全入口が明確。ただし、全員の端末が満杯とは限らない。"
+      },
+      {
+        "id": "C",
+        "title": "【スマホが重い人】LINEでまず確認したい3か所",
+        "home_ctr": 5,
+        "search_fit": 5,
+        "senior_clarity": 4,
+        "accuracy": 5,
+        "self_relevance": 5,
+        "now_reason": 4,
+        "total": 28,
+        "recommendation": "推奨3",
+        "note": "スマホが重いという困りごとに直結するが、LINEがタイトル後半になる。"
+      },
+      {
+        "id": "D",
+        "title": "【LINE】動作が重い？安全に軽くする前に見る3か所",
+        "home_ctr": 4,
+        "search_fit": 4,
+        "senior_clarity": 4,
+        "accuracy": 3,
+        "self_relevance": 4,
+        "now_reason": 4,
+        "total": 23,
+        "recommendation": "保留",
+        "note": "安全に軽くする、が効果保証のように受け取られやすい。"
+      }
+    ],
+    "final_three_items": [
+      {
+        "order": 1,
+        "label": "容量の内訳を確認",
+        "viewer_facing_title": "データの削除で容量を確認",
+        "official_basis": "ホーム → 設定 → トーク → データの削除の入口と、データ項目の確認",
+        "action_boundary": "確認で止める。スマホ全体の容量とは分けて考える。"
+      },
+      {
+        "order": 2,
+        "label": "キャッシュを確認",
+        "viewer_facing_title": "キャッシュを確認し、選ぶならキャッシュだけ",
+        "official_basis": "キャッシュ削除の入口、トーク履歴などは削除されないという案内、メディアへの注意",
+        "action_boundary": "削除はHuman確認後。何も消えない、全部安全とは言わない。"
+      },
+      {
+        "order": 3,
+        "label": "大きいトークを確認",
+        "viewer_facing_title": "トークごとの容量順を確認",
+        "official_basis": "トークごとにデータを削除で、容量の大きいトークルーム順に確認できる案内",
+        "action_boundary": "大きい順は削除順ではない。写真・動画・ファイル等を消す前に残すものを確認する。"
+      }
+    ]
+  },
+  "narration": {
+    "voice": "VOICEVOX",
+    "speaker": "剣崎雌雄",
+    "style": "ノーマル",
+    "speedScale": 1.0,
+    "intonationScale": 1.0,
+    "pitchScale": 0.0
+  },
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "url": "https://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja",
+      "title": "キャッシュの削除とは？（重いLINEを軽くする方法）",
+      "organization": "LINEヤフー株式会社 / LINEヘルプセンター",
+      "verified_at": "2026-09-08",
+      "claim": "キャッシュやトーク履歴データの蓄積、キャッシュ削除の入口、トーク履歴などは削除されないという案内、保存期間経過メディアの注意を確認した。"
+    },
+    {
+      "source_id": "SRC-002",
+      "url": "https://help.line.me/line/smartphone/pc?contentId=20010180&lang=ja",
+      "title": "トークルーム内のデータを削除するには？",
+      "organization": "LINEヤフー株式会社 / LINEヘルプセンター",
+      "verified_at": "2026-09-08",
+      "claim": "データの削除の入口、トークごとの容量順表示、削除データは復元できないという注意を確認した。"
+    },
+    {
+      "source_id": "SRC-003",
+      "url": "https://help-o.line.me/line/smartphone?contentId=20000236&lang=ja",
+      "title": "画像・動画・ボイスメッセージを送信・受信・再生できない",
+      "organization": "LINEヤフー株式会社 / LINEヘルプセンター",
+      "verified_at": "2026-09-08",
+      "claim": "メディアの保存期間、キャッシュ削除後に画像・動画・ボイスメッセージが利用できなくなる場合の注意、画像をアルバムへ保存する案内を確認した。"
+    },
+    {
+      "source_id": "SRC-004",
+      "url": "https://help.line.me/line/smartphone/sp?contentId=20000248&lang=ja",
+      "title": "アルバムの作り方・編集と、アルバム内の写真・動画を共有・転送する方法",
+      "organization": "LINEヤフー株式会社 / LINEヘルプセンター",
+      "verified_at": "2026-09-08",
+      "claim": "アルバムのキャッシュ削除ではアルバム内容が削除されないこと、アルバム内容の削除は復元できないことを確認した。"
+    },
+    {
+      "source_id": "SRC-005",
+      "url": "https://guide.line.me/ja/features-and-columns/cleanup-line.html",
+      "title": "大掃除は家だけじゃない！年末こそやりたい「LINEの大掃除」",
+      "organization": "LINEヤフー株式会社 / LINEみんなの使い方ガイド",
+      "verified_at": "2026-09-08",
+      "claim": "キャッシュは一時的なデータで、写真・動画・ボイスメッセージ・ファイルはキャッシュ削除の対象に含まれないという説明を確認した。"
+    },
+    {
+      "source_id": "SRC-006",
+      "url": "https://help.line.me/line/smartphone?contentId=20000199&lang=ja&p=faq.html",
+      "title": "LINEで問題が発生した場合の対処方法",
+      "organization": "LINEヤフー株式会社 / LINEヘルプセンター",
+      "verified_at": "2026-09-08",
+      "claim": "端末の空き容量とLINEアプリの対処を分けて確認する案内、iPhoneとAndroidのストレージ確認場所を確認した。"
+    }
+  ],
+  "narration_segments": [
+    {
+      "id": 1,
+      "section": "導入",
+      "narration": "LINEが最近重い、容量が大きいと感じても、いきなり写真やトークを消す必要はありません。",
+      "reading_overrides": {},
+      "pause_after": 0.35,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-001"
+      ]
+    },
+    {
+      "id": 2,
+      "section": "導入",
+      "narration": "先に、LINEの中で何が容量を使っているかを確認します。",
+      "reading_overrides": {},
+      "pause_after": 0.25,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-002"
+      ]
+    },
+    {
+      "id": 3,
+      "section": "導入",
+      "narration": "今日は、まず見る場所を3つに絞ります。",
+      "reading_overrides": {},
+      "pause_after": 0.25,
+      "scene_id": 1,
+      "subtitle_ids": [
+        "SUB-003"
+      ]
+    },
+    {
+      "id": 4,
+      "section": "導入",
+      "narration": "1つ目は、LINEのデータの削除画面です。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-004"
+      ]
+    },
+    {
+      "id": 5,
+      "section": "導入",
+      "narration": "2つ目は、キャッシュです。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-005"
+      ]
+    },
+    {
+      "id": 6,
+      "section": "導入",
+      "narration": "3つ目は、容量の大きいトークルームです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-006"
+      ]
+    },
+    {
+      "id": 7,
+      "section": "導入",
+      "narration": "ただし、確認したからといって、必ずスマホが速くなるとは限りません。原因を見てから、消してよいものだけを考えます。",
+      "reading_overrides": {},
+      "pause_after": 0.35,
+      "scene_id": 2,
+      "subtitle_ids": [
+        "SUB-007"
+      ]
+    },
+    {
+      "id": 8,
+      "section": "確認1",
+      "narration": "スマホで写真を撮ろうとしたとき、空き容量が少ないと表示され、LINEの写真を消そうか迷うことがあります。",
+      "reading_overrides": {},
+      "pause_after": 0.25,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-008"
+      ]
+    },
+    {
+      "id": 9,
+      "section": "確認1",
+      "narration": "このとき、スマホ全体の容量と、LINEアプリが使っている容量は、まず分けて考えます。",
+      "reading_overrides": {},
+      "pause_after": 0.25,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-009"
+      ]
+    },
+    {
+      "id": 10,
+      "section": "確認1",
+      "narration": "LINEの中では、キャッシュやトーク関連のデータがたまると、アプリの容量が増え、動作が重くなる要因になると公式が案内しています。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-010"
+      ]
+    },
+    {
+      "id": 11,
+      "section": "確認1",
+      "narration": "最初に見るのは、削除ボタンではありません。容量の内訳です。",
+      "reading_overrides": {},
+      "pause_after": 0.35,
+      "scene_id": 3,
+      "subtitle_ids": [
+        "SUB-011"
+      ]
+    },
+    {
+      "id": 12,
+      "section": "確認1",
+      "narration": "LINEを開き、ホームから設定を開きます。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-012"
+      ]
+    },
+    {
+      "id": 13,
+      "section": "確認1",
+      "narration": "次に、トーク、データの削除へ進みます。",
+      "reading_overrides": {},
+      "pause_after": 0.25,
+      "scene_id": 4,
+      "subtitle_ids": [
+        "SUB-013"
+      ]
+    },
+    {
+      "id": 14,
+      "section": "確認1",
+      "narration": "ここで表示された項目と容量を、まず確認します。",
+      "reading_overrides": {},
+      "pause_after": 0.25,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-014"
+      ]
+    },
+    {
+      "id": 15,
+      "section": "確認1",
+      "narration": "スマホやLINEのバージョンによって、表示名や並ぶ順が異なることがあります。実際の画面に出ている文字を優先します。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-015"
+      ]
+    },
+    {
+      "id": 16,
+      "section": "確認1",
+      "narration": "この段階では、まだ何も削除しません。大きい項目が分かるだけでも、写真を全部消すという判断を避けられます。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-016"
+      ]
+    },
+    {
+      "id": 17,
+      "section": "確認1",
+      "narration": "もしLINEを確認してもスマホ全体の空き容量が少ない場合は、端末のストレージも別に確認します。LINEだけが原因とは限りません。",
+      "reading_overrides": {},
+      "pause_after": 0.35,
+      "scene_id": 5,
+      "subtitle_ids": [
+        "SUB-017"
+      ]
+    },
+    {
+      "id": 18,
+      "section": "確認2",
+      "narration": "次はキャッシュです。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 6,
+      "subtitle_ids": [
+        "SUB-018"
+      ]
+    },
+    {
+      "id": 19,
+      "section": "確認2",
+      "narration": "キャッシュとは、次に表示しやすくするために一時的に保存されるデータのことです。財布の中身ではなく、使い終わったレシートを一時置きする場所に近いものです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 6,
+      "subtitle_ids": [
+        "SUB-019"
+      ]
+    },
+    {
+      "id": 20,
+      "section": "確認2",
+      "narration": "LINE公式は、キャッシュがたまっているときに、キャッシュを削除する手順を案内しています。",
+      "reading_overrides": {},
+      "pause_after": 0.25,
+      "scene_id": 6,
+      "subtitle_ids": [
+        "SUB-020"
+      ]
+    },
+    {
+      "id": 21,
+      "section": "確認2",
+      "narration": "データの削除画面で、キャッシュの項目を大きく見せます。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-021"
+      ]
+    },
+    {
+      "id": 22,
+      "section": "確認2",
+      "narration": "公式ヘルプでは、キャッシュを削除しても、トーク履歴などは削除されないと案内されています。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-022"
+      ]
+    },
+    {
+      "id": 23,
+      "section": "確認2",
+      "narration": "一方で、保存期間が過ぎた写真や動画は見られなくなる場合があります。また、別の公式案内では、キャッシュ削除後にLINEアプリ内の画像、動画、ボイスメッセージが見られない、または再生できない場合があると説明されています。",
+      "reading_overrides": {},
+      "pause_after": 0.35,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-023"
+      ]
+    },
+    {
+      "id": 24,
+      "section": "確認2",
+      "narration": "そのため、「キャッシュなら何も消えない」とは言いません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-024"
+      ]
+    },
+    {
+      "id": 25,
+      "section": "確認2",
+      "narration": "削除する場合も、画面でキャッシュだけが選ばれていることを確認します。トーク履歴、写真、動画、ファイルなどをまとめて選ぶ、すべてのデータを削除する、という操作は別です。",
+      "reading_overrides": {},
+      "pause_after": 0.35,
+      "scene_id": 7,
+      "subtitle_ids": [
+        "SUB-025"
+      ]
+    },
+    {
+      "id": 26,
+      "section": "確認2",
+      "narration": "今回の動画では、実際のデータ削除は、安全なテスト環境で内容を確認したあとに限ります。本番のLINEで、試しに押すことはしません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-026"
+      ]
+    },
+    {
+      "id": 27,
+      "section": "確認2",
+      "narration": "なお、アルバムのキャッシュとアルバムの中身も別です。公式ヘルプでは、アルバムのキャッシュを削除しても、アルバムの内容は削除されないと案内されています。ただし、アルバムの中身を消した場合は復元できません。",
+      "reading_overrides": {},
+      "pause_after": 0.35,
+      "scene_id": 8,
+      "subtitle_ids": [
+        "SUB-027"
+      ]
+    },
+    {
+      "id": 28,
+      "section": "確認3",
+      "narration": "最後は、トークルームごとの確認です。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 9,
+      "subtitle_ids": [
+        "SUB-028"
+      ]
+    },
+    {
+      "id": 29,
+      "section": "確認3",
+      "narration": "ホームから設定、トーク、データの削除へ進み、「トークごとにデータを削除」を表示します。",
+      "reading_overrides": {},
+      "pause_after": 0.25,
+      "scene_id": 9,
+      "subtitle_ids": [
+        "SUB-029"
+      ]
+    },
+    {
+      "id": 30,
+      "section": "確認3",
+      "narration": "この画面では、データ容量の大きいトークルームから順に確認できると、公式ヘルプに案内されています。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 9,
+      "subtitle_ids": [
+        "SUB-030"
+      ]
+    },
+    {
+      "id": 31,
+      "section": "確認3",
+      "narration": "ここで大切なのは、大きい順は「消す順番」ではなく、「調べる順番」の候補だということです。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-031"
+      ]
+    },
+    {
+      "id": 32,
+      "section": "確認3",
+      "narration": "大きなトークを開くと、トーク履歴、写真、動画、ファイル、ボイスメッセージなど、確認するデータが分かれて表示されることがあります。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-032"
+      ]
+    },
+    {
+      "id": 33,
+      "section": "確認3",
+      "narration": "個人名や実際の会話を出さず、テスト用のトークルームで項目だけを確認します。削除ボタンは押しません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 10,
+      "subtitle_ids": [
+        "SUB-033"
+      ]
+    },
+    {
+      "id": 34,
+      "section": "確認3",
+      "narration": "大切な写真や動画がある場合は、先に保存先を考えます。公式は、受信した画像をLINEアルバムに保存する方法を案内しています。動画やファイルは、保存先と対象を確認してから判断します。",
+      "reading_overrides": {},
+      "pause_after": 0.35,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-034"
+      ]
+    },
+    {
+      "id": 35,
+      "section": "確認3",
+      "narration": "トーク内の写真、動画、ファイル、ボイスメッセージ、トーク履歴を削除すると、復元できないものがあります。削除したデータを、あとから元に戻せるとは考えないでください。",
+      "reading_overrides": {},
+      "pause_after": 0.35,
+      "scene_id": 11,
+      "subtitle_ids": [
+        "SUB-035"
+      ]
+    },
+    {
+      "id": 36,
+      "section": "確認3",
+      "narration": "「大きいから消す」ではなく、「何が大きいのか」「残したいものはないか」「削除後に戻せるか」を確認してから、必要な場合だけ判断します。",
+      "reading_overrides": {},
+      "pause_after": 0.35,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-036"
+      ]
+    },
+    {
+      "id": 37,
+      "section": "確認3",
+      "narration": "機種変更前のバックアップと復元を扱ったEpisode 006とは、目的が違います。今回のテーマは、今のLINEの容量を調べ、整理する前に影響を確認することです。バックアップがあるから、何でも削除してよいという意味ではありません。",
+      "reading_overrides": {},
+      "pause_after": 0.35,
+      "scene_id": 12,
+      "subtitle_ids": [
+        "SUB-037"
+      ]
+    },
+    {
+      "id": 38,
+      "section": "まとめ",
+      "narration": "今日の確認は3つです。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-038"
+      ]
+    },
+    {
+      "id": 39,
+      "section": "まとめ",
+      "narration": "1つ目、LINEのデータの削除画面で、容量の内訳を見る。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-039"
+      ]
+    },
+    {
+      "id": 40,
+      "section": "まとめ",
+      "narration": "2つ目、キャッシュを確認し、削除する場合もキャッシュだけを選ぶ。",
+      "reading_overrides": {},
+      "pause_after": 0.2,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-040"
+      ]
+    },
+    {
+      "id": 41,
+      "section": "まとめ",
+      "narration": "3つ目、トークごとのデータを大きい順に確認し、写真やファイルを消す前に残すものを決める。",
+      "reading_overrides": {},
+      "pause_after": 0.25,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-041"
+      ]
+    },
+    {
+      "id": 42,
+      "section": "まとめ",
+      "narration": "キャッシュ、トーク履歴、写真、動画、ファイル、ボイスメッセージ、アルバムの中身は、同じものではありません。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-042"
+      ]
+    },
+    {
+      "id": 43,
+      "section": "まとめ",
+      "narration": "削除する前に、画面の項目と、消える可能性のあるものを確認してください。",
+      "reading_overrides": {},
+      "pause_after": 0.3,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-043"
+      ]
+    },
+    {
+      "id": 44,
+      "section": "まとめ",
+      "narration": "この動画では、確認する場所を案内しました。実際の削除は、表示内容を確かめ、安全なテスト環境で内容を確認してから行います。",
+      "reading_overrides": {},
+      "pause_after": 0.4,
+      "scene_id": 13,
+      "subtitle_ids": [
+        "SUB-044"
+      ]
+    }
+  ],
+  "subtitles": [
+    {
+      "id": "SUB-001",
+      "text_lines": [
+        "LINEが最近重い、容量が大きいと感じても、",
+        "いきなり写真やトークを消す必要はありません。"
+      ],
+      "segment_id": 1
+    },
+    {
+      "id": "SUB-002",
+      "text_lines": [
+        "先に、LINEの中で何が容量を使っているかを",
+        "確認します。"
+      ],
+      "segment_id": 2
+    },
+    {
+      "id": "SUB-003",
+      "text_lines": [
+        "今日は、まず見る場所を",
+        "3つに絞ります。"
+      ],
+      "segment_id": 3
+    },
+    {
+      "id": "SUB-004",
+      "text_lines": [
+        "1つ目は、LINEの",
+        "データの削除画面です。"
+      ],
+      "segment_id": 4
+    },
+    {
+      "id": "SUB-005",
+      "text_lines": [
+        "2つ目は、キャッシュです。"
+      ],
+      "segment_id": 5
+    },
+    {
+      "id": "SUB-006",
+      "text_lines": [
+        "3つ目は、容量の大きい",
+        "トークルームです。"
+      ],
+      "segment_id": 6
+    },
+    {
+      "id": "SUB-007",
+      "text_lines": [
+        "必ず速くなるとは限りません。",
+        "原因を見てから考えます。"
+      ],
+      "segment_id": 7
+    },
+    {
+      "id": "SUB-008",
+      "text_lines": [
+        "空き容量が少ないと表示され、",
+        "LINEの写真を消そうか迷うことがあります。"
+      ],
+      "segment_id": 8
+    },
+    {
+      "id": "SUB-009",
+      "text_lines": [
+        "スマホ全体の容量と、LINEアプリの容量は",
+        "まず分けて考えます。"
+      ],
+      "segment_id": 9
+    },
+    {
+      "id": "SUB-010",
+      "text_lines": [
+        "キャッシュやトーク関連のデータがたまると、",
+        "LINEが重くなる要因になると公式が案内しています。"
+      ],
+      "segment_id": 10
+    },
+    {
+      "id": "SUB-011",
+      "text_lines": [
+        "最初に見るのは削除ボタンではなく、",
+        "容量の内訳です。"
+      ],
+      "segment_id": 11
+    },
+    {
+      "id": "SUB-012",
+      "text_lines": [
+        "LINEを開き、ホームから",
+        "設定を開きます。"
+      ],
+      "segment_id": 12
+    },
+    {
+      "id": "SUB-013",
+      "text_lines": [
+        "トーク、データの削除へ",
+        "進みます。"
+      ],
+      "segment_id": 13
+    },
+    {
+      "id": "SUB-014",
+      "text_lines": [
+        "表示された項目と容量を、",
+        "まず確認します。"
+      ],
+      "segment_id": 14
+    },
+    {
+      "id": "SUB-015",
+      "text_lines": [
+        "表示名や並ぶ順が異なることがあります。",
+        "実際の画面の文字を優先します。"
+      ],
+      "segment_id": 15
+    },
+    {
+      "id": "SUB-016",
+      "text_lines": [
+        "この段階では削除しません。",
+        "写真を全部消す判断を避けます。"
+      ],
+      "segment_id": 16
+    },
+    {
+      "id": "SUB-017",
+      "text_lines": [
+        "スマホ全体の空き容量が少ない場合は、",
+        "端末のストレージも別に確認します。"
+      ],
+      "segment_id": 17
+    },
+    {
+      "id": "SUB-018",
+      "text_lines": [
+        "次はキャッシュです。"
+      ],
+      "segment_id": 18
+    },
+    {
+      "id": "SUB-019",
+      "text_lines": [
+        "キャッシュは一時的に保存されるデータです。",
+        "使い終わったレシートの一時置き場に近いものです。"
+      ],
+      "segment_id": 19
+    },
+    {
+      "id": "SUB-020",
+      "text_lines": [
+        "LINE公式は、キャッシュの削除を",
+        "削除する手順を案内しています。"
+      ],
+      "segment_id": 20
+    },
+    {
+      "id": "SUB-021",
+      "text_lines": [
+        "データの削除画面で、",
+        "キャッシュの項目を大きく見せます。"
+      ],
+      "segment_id": 21
+    },
+    {
+      "id": "SUB-022",
+      "text_lines": [
+        "キャッシュを削除しても、",
+        "トーク履歴などは削除されないと案内されています。"
+      ],
+      "segment_id": 22
+    },
+    {
+      "id": "SUB-023",
+      "text_lines": [
+        "保存期間が過ぎた写真や動画は、",
+        "見られなくなる場合があります。"
+      ],
+      "segment_id": 23
+    },
+    {
+      "id": "SUB-024",
+      "text_lines": [
+        "「キャッシュなら何も消えない」とは",
+        "言いません。"
+      ],
+      "segment_id": 24
+    },
+    {
+      "id": "SUB-025",
+      "text_lines": [
+        "削除する場合も、キャッシュだけを確認。",
+        "すべてのデータを削除する操作は別です。"
+      ],
+      "segment_id": 25
+    },
+    {
+      "id": "SUB-026",
+      "text_lines": [
+        "実際の削除は内容を確認した",
+        "安全なテスト環境に限ります。"
+      ],
+      "segment_id": 26
+    },
+    {
+      "id": "SUB-027",
+      "text_lines": [
+        "アルバムのキャッシュと中身は別です。",
+        "中身を消した場合は復元できません。"
+      ],
+      "segment_id": 27
+    },
+    {
+      "id": "SUB-028",
+      "text_lines": [
+        "最後は、トークルームごとの",
+        "確認です。"
+      ],
+      "segment_id": 28
+    },
+    {
+      "id": "SUB-029",
+      "text_lines": [
+        "「トークごとにデータを削除」を",
+        "表示します。"
+      ],
+      "segment_id": 29
+    },
+    {
+      "id": "SUB-030",
+      "text_lines": [
+        "容量の大きいトークルームから順に",
+        "確認できると案内されています。"
+      ],
+      "segment_id": 30
+    },
+    {
+      "id": "SUB-031",
+      "text_lines": [
+        "大きい順は「消す順番」ではなく、",
+        "「調べる順番」の候補です。"
+      ],
+      "segment_id": 31
+    },
+    {
+      "id": "SUB-032",
+      "text_lines": [
+        "トーク履歴、写真、動画、ファイルなど、",
+        "データが分かれて表示されることがあります。"
+      ],
+      "segment_id": 32
+    },
+    {
+      "id": "SUB-033",
+      "text_lines": [
+        "テスト用のトークルームで",
+        "項目だけを確認します。"
+      ],
+      "segment_id": 33
+    },
+    {
+      "id": "SUB-034",
+      "text_lines": [
+        "大切なものがある場合は、",
+        "先に保存先を考えます。"
+      ],
+      "segment_id": 34
+    },
+    {
+      "id": "SUB-035",
+      "text_lines": [
+        "削除すると、復元できないものがあります。",
+        "あとから元に戻せるとは考えません。"
+      ],
+      "segment_id": 35
+    },
+    {
+      "id": "SUB-036",
+      "text_lines": [
+        "何が大きいのか、残したいものはないか、",
+        "戻せるかを確認してから判断します。"
+      ],
+      "segment_id": 36
+    },
+    {
+      "id": "SUB-037",
+      "text_lines": [
+        "Episode 006とは目的が違います。",
+        "バックアップがあっても何でも削除してよいわけではありません。"
+      ],
+      "segment_id": 37
+    },
+    {
+      "id": "SUB-038",
+      "text_lines": [
+        "今日の確認は3つです。"
+      ],
+      "segment_id": 38
+    },
+    {
+      "id": "SUB-039",
+      "text_lines": [
+        "1つ目、データの削除画面で、",
+        "容量の内訳を見る。"
+      ],
+      "segment_id": 39
+    },
+    {
+      "id": "SUB-040",
+      "text_lines": [
+        "2つ目、キャッシュを確認し、",
+        "選ぶ場合もキャッシュだけ。"
+      ],
+      "segment_id": 40
+    },
+    {
+      "id": "SUB-041",
+      "text_lines": [
+        "3つ目、トークごとの容量を確認し、",
+        "消す前に残すものを決める。"
+      ],
+      "segment_id": 41
+    },
+    {
+      "id": "SUB-042",
+      "text_lines": [
+        "キャッシュ、トーク履歴、写真、動画、ファイル、",
+        "アルバムの中身は、同じものではありません。"
+      ],
+      "segment_id": 42
+    },
+    {
+      "id": "SUB-043",
+      "text_lines": [
+        "削除する前に、画面の項目と、",
+        "消える可能性のあるものを確認してください。"
+      ],
+      "segment_id": 43
+    },
+    {
+      "id": "SUB-044",
+      "text_lines": [
+        "実際の削除は、表示内容を確かめ、",
+        "安全なテスト環境で内容を確認してから行います。"
+      ],
+      "segment_id": 44
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "layout": "intro",
+      "main_message": "写真やトークを消す前に、まず確認",
+      "headline": "いきなり削除しない",
+      "support_text": "LINEの中で、容量を使っている場所を確認します",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "start_segment": 1,
+      "end_segment": 3,
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "full_bleed",
+      "background_fill": "soft_gradient",
+      "animation": "static",
+      "animation_reason": "冒頭の結論を読みやすく固定表示する。"
+    },
+    {
+      "id": 2,
+      "layout": "list",
+      "main_message": "今日見る3か所",
+      "headline": "まず確認する3か所",
+      "support_text": "容量の内訳、キャッシュ、大きいトーク",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "start_segment": 4,
+      "end_segment": 7,
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "full_bleed",
+      "background_fill": "soft_gradient",
+      "animation": "static",
+      "animation_reason": "3項目を一覧で理解させる。"
+    },
+    {
+      "id": 3,
+      "layout": "concept",
+      "main_message": "LINEの容量とスマホ全体の容量を分けて見る",
+      "headline": "最初は容量の内訳",
+      "support_text": "原因を見てから、整理するか考えます",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "start_segment": 8,
+      "end_segment": 11,
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "full_bleed",
+      "background_fill": "soft_gradient",
+      "animation": "static",
+      "animation_reason": "スマホ全体とLINEを切り分ける説明を落ち着いて見せる。"
+    },
+    {
+      "id": 4,
+      "layout": "official_ui",
+      "main_message": "LINEの設定からデータの削除へ",
+      "headline": "1 / 3　入口を確認",
+      "support_text": "ホーム → 設定 → トーク → データの削除",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "start_segment": 12,
+      "end_segment": 13,
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "crop",
+      "background_fill": "soft_gradient",
+      "animation": "static",
+      "animation_reason": "場所を理解するための実画面。全体表示は短くする。"
+    },
+    {
+      "id": 5,
+      "layout": "official_ui",
+      "main_message": "表示された項目と容量を見る",
+      "headline": "削除前に、容量を確認",
+      "support_text": "表示名は端末やLINEのバージョンで異なる場合があります",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "start_segment": 14,
+      "end_segment": 17,
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "crop",
+      "background_fill": "soft_gradient",
+      "animation": "static",
+      "animation_reason": "容量の数字と確認対象を大きく見せる。"
+    },
+    {
+      "id": 6,
+      "layout": "official_ui",
+      "main_message": "キャッシュは一時的なデータ",
+      "headline": "2 / 3　キャッシュを確認",
+      "support_text": "キャッシュの削除は、他のデータの削除とは別です",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "start_segment": 18,
+      "end_segment": 20,
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "crop",
+      "background_fill": "soft_gradient",
+      "animation": "static",
+      "animation_reason": "キャッシュの意味と入口を実画面で確認する。"
+    },
+    {
+      "id": 7,
+      "layout": "official_ui",
+      "main_message": "キャッシュだけを選ぶ",
+      "headline": "トークや写真とは別",
+      "support_text": "「何も消えない」とは言わず、削除前の注意を確認します",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "start_segment": 21,
+      "end_segment": 25,
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "crop",
+      "background_fill": "soft_gradient",
+      "animation": "static",
+      "animation_reason": "キャッシュ選択箇所と注意を大きく見せる。"
+    },
+    {
+      "id": 8,
+      "layout": "caution",
+      "main_message": "保存期間やメディアの注意を確認",
+      "headline": "削除前に、残したいものを見る",
+      "support_text": "アルバムのキャッシュとアルバムの中身も別です",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "start_segment": 26,
+      "end_segment": 27,
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "full_bleed",
+      "background_fill": "soft_gradient",
+      "animation": "static",
+      "animation_reason": "注意事項を読みやすく固定表示する。"
+    },
+    {
+      "id": 9,
+      "layout": "official_ui",
+      "main_message": "トークごとの容量を確認",
+      "headline": "3 / 3　大きいトークを見る",
+      "support_text": "データの削除 → トークごとにデータを削除",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "start_segment": 28,
+      "end_segment": 30,
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "crop",
+      "background_fill": "soft_gradient",
+      "animation": "static",
+      "animation_reason": "入口と公式の容量順表示を実画面で確認する。"
+    },
+    {
+      "id": 10,
+      "layout": "official_ui",
+      "main_message": "大きい順は、調べる順番の候補",
+      "headline": "大きいから、すぐ消さない",
+      "support_text": "トーク履歴、写真、動画、ファイル等を分けて確認します",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "start_segment": 31,
+      "end_segment": 33,
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "crop",
+      "background_fill": "soft_gradient",
+      "animation": "static",
+      "animation_reason": "大きい順と削除順を混同しないようにする。"
+    },
+    {
+      "id": 11,
+      "layout": "official_ui",
+      "main_message": "残したい写真や動画を先に確認",
+      "headline": "消えるものを確認",
+      "support_text": "削除したデータは復元できないものがあります",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "start_segment": 34,
+      "end_segment": 35,
+      "render_mode": "official",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "crop",
+      "background_fill": "soft_gradient",
+      "animation": "static",
+      "animation_reason": "データの種類と削除前の停止点を見せる。"
+    },
+    {
+      "id": 12,
+      "layout": "caution",
+      "main_message": "大きさ、保存先、復元できるかを確認",
+      "headline": "判断は最後に",
+      "support_text": "バックアップの説明と、容量整理の説明は別です",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "start_segment": 36,
+      "end_segment": 37,
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "full_bleed",
+      "background_fill": "soft_gradient",
+      "animation": "static",
+      "animation_reason": "削除前の判断軸を整理する。"
+    },
+    {
+      "id": 13,
+      "layout": "summary",
+      "main_message": "まず確認、消すのは最後",
+      "headline": "今日の3つ",
+      "support_text": "容量の内訳、キャッシュ、大きいトーク",
+      "official_asset": [],
+      "official_asset_crop": [],
+      "start_segment": 38,
+      "end_segment": 44,
+      "render_mode": "template",
+      "text_render_mode": "pil_overlay",
+      "fit_mode": "full_bleed",
+      "background_fill": "soft_gradient",
+      "animation": "static",
+      "animation_reason": "3項目と削除前確認をまとめる。"
+    }
+  ],
+  "postroll": {
+    "cta_profile": "channel_common_cta",
+    "duration_sec": 0,
+    "asset": "",
+    "status": "not_generated_phase_a"
+  },
+  "publish": {
+    "title": "【LINE】重くなった？まず確認したい3か所",
+    "description": "LINEが重い、または容量が大きいと感じたときに、写真やトークを急いで削除する前に確認したい3か所を、LINE公式ヘルプに沿って紹介します。\n\nこの動画で確認する場所\n・データの削除画面で、容量の内訳を確認\n・キャッシュを確認し、選ぶ場合もキャッシュだけにする\n・トークごとの容量を確認し、写真やファイルを消す前に残すものを考える\n\nキャッシュ、トーク履歴、写真、動画、ファイル、ボイスメッセージ、アルバムの中身は同じものではありません。削除したデータは復元できないものがあり、保存期間が経過した写真や動画などが見られなくなる場合もあります。表示は端末やLINEのバージョンで異なる場合があります。\n\n参考にした公式情報\nhttps://help.line.me/line/smartphone/sp?contentId=20005079&lang=ja\nhttps://help.line.me/line/smartphone/pc?contentId=20010180&lang=ja\nhttps://help-o.line.me/line/smartphone?contentId=20000236&lang=ja\nhttps://help.line.me/line/smartphone/sp?contentId=20000248&lang=ja\n\nナレーション：VOICEVOX:剣崎雌雄",
+    "chapters": [
+      "00:00 結論：写真やトークを急いで消さない",
+      "00:35 1. LINEの容量の内訳を確認",
+      "01:40 2. キャッシュを確認",
+      "03:05 3. 容量の大きいトークを確認",
+      "04:35 まとめ"
+    ],
+    "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
+    "title_status": "未確定。Phase Aでは3案を比較中。",
+    "upload_eligible": false,
+    "phase_a_boundary": "Phase Aのみ。実画面capture、音声、字幕生成、scene生成、動画生成、thumbnail生成、YouTube操作は未実施。",
+    "contains_synthetic_media": false,
+    "ai_disclosure_review": "Phase Bで確認。Phase AではAI生成画像を作らず、LINE UIは実画面のみとする。",
+    "visibility": "private",
+    "human_approved": false
+  },
+  "phase_a": {
+    "status": "HUMAN_GATE_1_PENDING",
+    "title_finalized": false,
+    "recommended_title_count": 3,
+    "final_three_items": [
+      "データの削除で容量の内訳を確認する",
+      "キャッシュを確認し、削除するならキャッシュだけにする",
+      "トークごとの容量順で大きいトークを確認する"
+    ],
+    "competitor_pattern_adopted": [
+      "LINEまたはスマホが重い・容量を使うという困りごとを冒頭に置く",
+      "視聴者がすぐ理解できる3か所の画面案内を約束する",
+      "削除の前に写真・動画・ファイルの注意を見せる"
+    ],
+    "competitor_pattern_rejected": [
+      "すぐ消せば劇的に軽くなるという効果保証",
+      "写真やトークを一括削除する誘導",
+      "競合の文章、構成、サムネイルの再利用"
+    ],
+    "not_done": [
+      "LINE実画面capture",
+      "VOICEVOX生成",
+      "字幕ファイル生成",
+      "scene生成・動画生成",
+      "thumbnail生成",
+      "YouTube操作"
+    ],
+    "human_gate_questions": [
+      "推奨タイトル3案のうち、65歳以上に最も伝わる案はどれか",
+      "安全なテスト用LINE環境を用意できるか",
+      "AndroidとiPhoneの表示差をどこまで本編で扱うか",
+      "キャッシュ削除の注意を画面でどの長さ・大きさで表示するか"
+    ]
+  }
+}
