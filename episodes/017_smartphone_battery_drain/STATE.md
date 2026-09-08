@@ -1,0 +1,23 @@
+# Episode 017 state
+
+- Episode: 017_smartphone_battery_drain
+- Topic: iPhoneの充電が以前より早く減ると感じたときに、原因を切り分けるために確認する3か所
+- 基準日: 2026-09-08
+- Phase: **Phase A / Human Gate 1待ち**
+- status: phase_a_complete_waiting_human_gate_1
+- platform_recommendation: iPhone中心
+- selected_title: 「【iPhone】充電の減りが早い？まず確認したい3か所」推奨。Human Gate 1で確定
+- selected_checks: バッテリー使用状況、画面表示と明るさ、バッテリーの状態
+- human_approved: false
+- upload_eligible: false
+- viewer_facing_internal_brand_promise: 0
+- 公式一次情報調査: Appleを中心に確認。Android一般情報とPixel固有情報を比較材料として記録
+- 実画面capture: 未実施
+- 端末: Human Gate 1後に確定する実機iPhone。iPhone 15以降を第一候補、14以前は入口表示を分ける
+- VOICEVOX生成: 未実施
+- 字幕生成: 未実施
+- scene生成: 未実施
+- 動画生成: 未実施
+- サムネイル生成: 未実施
+- YouTube操作: 未実施
+- 次のゲート: タイトル、撮影端末、実画面提供方法、台本の承認

@@ -1,0 +1,6 @@
+scene_id,role,path,device_or_medium,render_mode,text_render_mode,source_or_origin,sha256,width,height,status
+SHOT-01,planned_official_ui_capture,NOT_CREATED,実機iPhone,official,no_text,SRC-001; 設定からバッテリー入口,NOT_AVAILABLE,TBD,TBD,PLANNED_NOT_CAPTURED
+SHOT-02,planned_official_ui_capture,NOT_CREATED,実機iPhone,official,no_text,SRC-001; SRC-002; 使用状況グラフと上位アプリ,NOT_AVAILABLE,TBD,TBD,PLANNED_NOT_CAPTURED
+SHOT-03,planned_official_ui_capture,NOT_CREATED,実機iPhone,official,no_text,SRC-003; アプリごとの画面オン・バックグラウンド等,NOT_AVAILABLE,TBD,TBD,PLANNED_NOT_CAPTURED
+SHOT-04,planned_official_ui_capture,NOT_CREATED,実機iPhone,official,no_text,SRC-005; 画面表示と明るさ,NOT_AVAILABLE,TBD,TBD,PLANNED_NOT_CAPTURED
+SHOT-05,planned_official_ui_capture,NOT_CREATED,実機iPhone,official,no_text,SRC-003; SRC-004; バッテリーの状態,NOT_AVAILABLE,TBD,TBD,PLANNED_NOT_CAPTURED

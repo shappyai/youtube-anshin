@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0.0",
+  "metadata": {
+    "research_date": "2026-09-08",
+    "production_phase": "Phase A complete / Human Gate 1待ち",
+    "channel": "大人のデジタル安心室",
+    "visual_theme": "adult_digital_soft_background",
+    "target_audience_detail": "50〜70代、特に65歳以上。iPhoneの設定画面をテレビでも読める大きさで見せ、まず確認だけを行う。",
+    "media_decision": "iPhone実機を主媒体とする。Human提供の安全なテスト端末を優先し、iPhone 15以降を第一候補、iPhone 14以前はバッテリー状態の入口を分岐して扱う。",
+    "scope": "iPhone中心。Android固有画面やPixel固有機能を一般化しない。Android / iPhone共通版はPhase A比較で不採用案とした。",
+    "fact_boundary": "使用状況の内訳、画面表示と明るさ、バッテリーの状態を確認する。確認だけを基本とし、設定の一括変更、強制終了の常用、交換必須の一律基準、節電アプリ紹介は扱わない。",
+    "viewer_facing_count": 0,
+    "human_gates": [
+      "Gate 1: iPhone中心の方針、最終3項目、タイトル、台本、撮影端末を人間確認",
+      "Gate 2: 現行iPhone実画面、機種・iOS差、個人情報マスク、可読性を人間確認",
+      "Gate 3: VOICEVOX、字幕、draft、サムネイル、publishを人間確認"
+    ],
+    "do_not_create_in_phase_a": [
+      "実画面capture",
+      "VOICEVOX音声",
+      "captions.srt",
+      "scene生成",
+      "draft.mp4",
+      "thumbnail画像",
+      "YouTube upload"
+    ]
+  },
+  "episode": {
+    "episode_id": "017",
+    "slug": "smartphone_battery_drain",
+    "title": "【iPhone】充電の減りが早い？まず確認したい3か所",
+    "title_status": "recommended_waiting_human_gate_1",
+    "title_candidates": [
+      {
+        "id": "A",
+        "title": "【iPhone】充電の減りが早い？まず確認したい3か所",
+        "reason": "iPhone中心であること、困りごと、確認数が伝わる。改善や交換を断定しない。",
+        "status": "recommended"
+      },
+      {
+        "id": "B",
+        "title": "【iPhone】電池の減りが早い？まず見る3か所",
+        "reason": "短く読みやすい。『充電の減り』との検索語の一致はHuman Gateで比較する。",
+        "status": "candidate"
+      },
+      {
+        "id": "C",
+        "title": "【iPhoneの電池】交換する前に確認したい3か所",
+        "reason": "交換前の確認という視聴動機は強いが、故障感を強めすぎないか確認する。",
+        "status": "candidate"
+      }
+    ],
+    "target_duration_seconds": 300,
+    "target_duration_range_seconds": [240, 360],
+    "status": "phase_a_complete_waiting_human_gate_1",
+    "publication_status": "not_started",
+    "topic": "iPhoneの充電の減りが早いと感じた人が、交換や一括の節電設定の前に、使用状況・画面表示・バッテリー状態を確認する。",
+    "target_audience": "以前より充電が早く減ると感じる50〜70代、特に65歳以上のiPhone利用者。",
+    "topic_scores": {
+      "senior_clarity": 5,
+      "factual_accuracy": 5,
+      "screen_capture_safety": 5,
+      "four_to_six_minute_fit": 5,
+      "production_cost": 4,
+      "total": 24
+    }
+  },
+  "platform_comparison": [
+    {
+      "option": "android_centered",
+      "clarity": 3,
+      "official_support": 3,
+      "screen_capture": 4,
+      "duration_fit": 4,
+      "production_cost": 4,
+      "total": 18,
+      "decision": "not_selected",
+      "reason": "Android一般向け公式ヘルプは端末差を明記。Pixel公式の画面をAndroid全般へ一般化できない。"
+    },
+    {
+      "option": "iphone_centered",
+      "clarity": 5,
+      "official_support": 5,
+      "screen_capture": 5,
+      "duration_fit": 5,
+      "production_cost": 4,
+      "total": 24,
+      "decision": "recommended",
+      "reason": "Apple公式の現行案内とiPhone実機1台で、3項目を同じ導線から案内できる。"
+    },
+    {
+      "option": "android_iphone_common",
+      "clarity": 2,
+      "official_support": 4,
+      "screen_capture": 2,
+      "duration_fit": 2,
+      "production_cost": 2,
+      "total": 12,
+      "decision": "not_selected",
+      "reason": "2つの操作系と機種差の説明で、4〜6分の少数確認という約束が薄くなる。"
+    }
+  ],
+  "selected_checks": [
+    {
+      "id": "CHECK-01",
+      "title": "バッテリー使用状況の内訳",
+      "path": "設定 → バッテリー",
+      "confirm_only": "上位アプリ・システム、画面オン、バックグラウンド処理、圏外および低信号、通知の手がかりを確認する。",
+      "side_effect_if_changed": "通知・位置情報・バックグラウンド更新を一括でオフにすると、通知遅延、位置情報機能の制限、アプリ更新の遅れが起こる可能性がある。",
+      "source_ids": ["SRC-001", "SRC-002", "SRC-003"]
+    },
+    {
+      "id": "CHECK-02",
+      "title": "画面表示と明るさ",
+      "path": "設定 → 画面表示と明るさ",
+      "confirm_only": "明るさ、自動ロック、対応機種の常に画面オンの状態を確認する。",
+      "side_effect_if_changed": "暗くしすぎると読みにくくなり、自動ロックを短くしすぎると読んでいる途中で画面が消える。常に画面オンをオフにするとロック中の情報が見えにくくなる。",
+      "source_ids": ["SRC-001", "SRC-005"]
+    },
+    {
+      "id": "CHECK-03",
+      "title": "バッテリーの状態",
+      "path": "設定 → バッテリー → バッテリーの状態 / バッテリーの状態と充電",
+      "confirm_only": "最大容量、ピークパフォーマンス性能、サービス表示を確認する。",
+      "side_effect_if_changed": "数字だけで交換必須と決めない。著しい劣化やサービス表示がある場合はAppleまたは正規サービスへ相談する。",
+      "source_ids": ["SRC-001", "SRC-003", "SRC-004"]
+    }
+  ],
+  "narration": {
+    "speaker": "VOICEVOX",
+    "voice": "剣崎雌雄",
+    "style": "ノーマル",
+    "speedScale": 1.0,
+    "intonationScale": 1.0,
+    "pitchScale": 0.0,
+    "status": "not_generated",
+    "segment_policy": "Phase Bで1文ずつaudio_query→synthesis。音声用テキストと表示字幕を分離する。",
+    "pronunciation_review_terms": ["iPhone", "iOS", "バックグラウンド", "ピークパフォーマンス性能", "Apple"]
+  },
+  "narration_segments": [
+    {"id": 1, "section": "はじめに", "narration": "最近、朝は100%だったのに、夕方には充電がかなり減っている。そんなことはありませんか。", "shot_id": null},
+    {"id": 2, "section": "はじめに", "narration": "「バッテリーの寿命かもしれない」と、すぐに交換を考えたくなります。", "shot_id": null},
+    {"id": 3, "section": "はじめに", "narration": "でも、その前にiPhoneの中で、原因の手がかりを確認できます。", "shot_id": null},
+    {"id": 4, "section": "はじめに", "narration": "今日は、節電設定を片っ端から変えずに、まず見る3か所だけを一緒に確認します。", "shot_id": null},
+    {"id": 5, "section": "はじめに", "narration": "1つ目は、何がバッテリーを使っているか。2つ目は、画面の設定。3つ目は、バッテリーの状態です。", "shot_id": null},
+    {"id": 6, "section": "1 / 3", "narration": "1つ目は、バッテリー使用状況の内訳です。", "shot_id": null},
+    {"id": 7, "section": "1 / 3", "narration": "「設定」を開き、「バッテリー」をタップします。", "shot_id": "SHOT-01"},
+    {"id": 8, "section": "1 / 3", "narration": "ここに使用状況のグラフや、アプリとシステムのアクティビティが表示されます。表示の名前や期間は、iOSのバージョンで違う場合があります。", "shot_id": null},
+    {"id": 9, "section": "1 / 3", "narration": "上位に表示されたアプリを、まず確認します。ここで見るのは、順位そのものではなく、使った時間や、その日に何をしていたかとのつながりです。", "shot_id": "SHOT-02"},
+    {"id": 10, "section": "1 / 3", "narration": "動画や地図を長く使った日なら、そのアプリが上位でも不思議ではありません。上位にあるだけで、アプリの故障とは決めません。", "shot_id": null},
+    {"id": 11, "section": "1 / 3", "narration": "アプリをタップすると、画面オン、バックグラウンド処理、圏外や低信号、通知などの手がかりが表示されることがあります。", "shot_id": "SHOT-03"},
+    {"id": 12, "section": "1 / 3", "narration": "「画面オン」が長ければ、画面を見ていた時間が長かった可能性があります。「バックグラウンド処理」は、音楽の再生、写真の同期、位置情報の追跡などが続いていた可能性を示します。", "shot_id": null},
+    {"id": 13, "section": "1 / 3", "narration": "「圏外や低信号」は、電波を探していたことの手がかりです。「通知」は、通知でiPhoneのスリープが解除された可能性があります。", "shot_id": null},
+    {"id": 14, "section": "1 / 3", "narration": "ここで大切なのは、表示を見て原因候補を絞ることです。通知や位置情報を、いきなり全部オフにはしません。", "shot_id": null},
+    {"id": 15, "section": "1 / 3", "narration": "最近iOSを更新した直後なら、バックグラウンドで更新後の処理が続き、しばらく減りが早く見えることがあります。画面にその案内があれば、数日たってからもう一度確認します。", "shot_id": null},
+    {"id": 16, "section": "2 / 3", "narration": "2つ目は、画面の設定です。1つ目で「画面オン」が長かったときに確認します。", "shot_id": null},
+    {"id": 17, "section": "2 / 3", "narration": "「設定」から「画面表示と明るさ」を開きます。", "shot_id": "SHOT-04"},
+    {"id": 18, "section": "2 / 3", "narration": "明るさが高すぎないか、自動ロックが長すぎたり、オフになったりしていないかを確認します。対応機種では、「常に画面オン」もここに表示されます。", "shot_id": null},
+    {"id": 19, "section": "2 / 3", "narration": "ただし、画面を暗くしすぎる必要はありません。文字が読みにくくなれば、かえって使いにくくなります。自動ロックを短くしすぎると、読んでいる途中で画面が消えることもあります。", "shot_id": null},
+    {"id": 20, "section": "2 / 3", "narration": "設定を変える場合も、明るさや自動ロックなど、必要なものを1つだけ試します。この動画では、確認だけにして、全員に同じ変更は勧めません。", "shot_id": null},
+    {"id": 21, "section": "2 / 3", "narration": "「常に画面オン」をオフにすると、ロック中の時刻や通知をすぐ見られなくなる場合があります。対応機種だけにある機能なので、表示がない人は気にしなくて大丈夫です。", "shot_id": null},
+    {"id": 22, "section": "3 / 3", "narration": "3つ目は、バッテリーそのものの状態です。", "shot_id": null},
+    {"id": 23, "section": "3 / 3", "narration": "iPhone 15以降は、「設定」「バッテリー」「バッテリーの状態」と進みます。iPhone 14以前は、「バッテリーの状態と充電」と表示されます。", "shot_id": "SHOT-05"},
+    {"id": 24, "section": "3 / 3", "narration": "ここで、最大容量、ピークパフォーマンス性能、サービスという表示がないかを確認します。", "shot_id": null},
+    {"id": 25, "section": "3 / 3", "narration": "最大容量は、新品のときと比べたバッテリー容量の目安です。数字だけを見て、「この割合なら必ず交換」とは判断しません。", "shot_id": null},
+    {"id": 26, "section": "3 / 3", "narration": "Appleの案内で、著しい劣化やサービスの表示が出ている場合は、正規サービスへ相談する目安になります。表示がない場合でも、使用時間、画面、電波、温度などで減り方は変わります。", "shot_id": null},
+    {"id": 27, "section": "3 / 3", "narration": "つまり、この画面は交換を決めるボタンではなく、バッテリーの状態を確認する場所です。", "shot_id": null},
+    {"id": 28, "section": "まとめ", "narration": "まとめです。朝100%から夕方にかなり減ったときは、まず3か所を確認します。", "shot_id": null},
+    {"id": 29, "section": "まとめ", "narration": "1つ目、設定のバッテリーで、何が使っているかを見る。", "shot_id": null},
+    {"id": 30, "section": "まとめ", "narration": "2つ目、画面表示と明るさで、画面オンが長くなっていないかを見る。", "shot_id": null},
+    {"id": 31, "section": "まとめ", "narration": "3つ目、バッテリーの状態で、最大容量やサービス表示を見る。", "shot_id": null},
+    {"id": 32, "section": "まとめ", "narration": "アプリのバックグラウンド、通知、位置情報、5Gを、まとめてオフにする必要はありません。まず表示を確認し、必要な変更だけを考えます。", "shot_id": null},
+    {"id": 33, "section": "まとめ", "narration": "更新直後や、端末が熱くなった後は、一時的に減りが早く見えることもあります。数日たっても続く場合は、機種、iOSのバージョン、使ったアプリ、表示された内容をメモして、Appleや正規サービスへ相談しましょう。", "shot_id": null},
+    {"id": 34, "section": "まとめ", "narration": "今日の確認で、原因の候補を一つずつ切り分けられれば十分です。", "shot_id": null}
+  ],
+  "cta": {
+    "profile": "channel_common_cta",
+    "status": "planned_copy_only",
+    "canonical_text": "スマホやパソコンの「これ、どうすればいい？」を、公式情報で分かりやすく確認しています。次に困ったときのために、チャンネル登録しておいてください。"
+  },
+  "sources": [
+    {"source_id": "SRC-001", "url": "https://support.apple.com/ja-jp/120745", "title": "iPhoneやiPadのバッテリーの減りが早い場合", "organization": "Apple", "verified_at": "2026-09-08"},
+    {"source_id": "SRC-002", "url": "https://support.apple.com/ja-jp/102432", "title": "iPhoneでバッテリーの使用状況を確認する", "organization": "Apple", "verified_at": "2026-09-08"},
+    {"source_id": "SRC-003", "url": "https://support.apple.com/ja-jp/guide/iphone/iphd453d043a/ios", "title": "iPhoneのバッテリーの使用状況と状態を理解する", "organization": "Apple", "verified_at": "2026-09-08"},
+    {"source_id": "SRC-004", "url": "https://support.apple.com/ja-jp/101575", "title": "iPhoneのバッテリーとパフォーマンス", "organization": "Apple", "verified_at": "2026-09-08"},
+    {"source_id": "SRC-005", "url": "https://support.apple.com/ja-jp/guide/iphone/iph7117338a8/ios", "title": "iPhoneの画面が自動ロックされるまでの時間を延ばす", "organization": "Apple", "verified_at": "2026-09-08"},
+    {"source_id": "SRC-006", "url": "https://support.apple.com/ja-jp/118408", "title": "iPhone、iPad、iPod touchでアプリを切り替える", "organization": "Apple", "verified_at": "2026-09-08"},
+    {"source_id": "SRC-007", "url": "https://support.apple.com/ja-jp/102647", "title": "iPhone、iPad、iPod touchで位置情報サービスとGPSのオン／オフを切り替える", "organization": "Apple", "verified_at": "2026-09-08"},
+    {"source_id": "SRC-008", "url": "https://support.apple.com/ja-jp/102515", "title": "iOS／iPadOS／watchOSのプライバシーと位置情報サービスについて", "organization": "Apple", "verified_at": "2026-09-08"},
+    {"source_id": "SRC-009", "url": "https://support.apple.com/ja-jp/101604", "title": "iPhoneやiPadで低電力モードを使ってバッテリーを長持ちさせる", "organization": "Apple", "verified_at": "2026-09-08"},
+    {"source_id": "SRC-010", "url": "https://support.google.com/android/answer/7664692?hl=ja", "title": "Androidデバイスの電池を長持ちさせる", "organization": "Google", "verified_at": "2026-09-08"},
+    {"source_id": "SRC-011", "url": "https://support.google.com/pixelphone/answer/6090599?hl=ja", "title": "バッテリーが消耗する問題を解決する", "organization": "Google Pixel", "verified_at": "2026-09-08"},
+    {"source_id": "SRC-012", "url": "https://support.google.com/pixelphone/answer/6090612?hl=ja", "title": "Google Pixelのバッテリーを長持ちさせる", "organization": "Google Pixel", "verified_at": "2026-09-08"},
+    {"source_id": "SRC-013", "url": "https://support.google.com/pixelphone/answer/10011133?hl=ja", "title": "Google Pixelでバッテリーと充電器を使ってみる", "organization": "Google Pixel", "verified_at": "2026-09-08"}
+  ],
+  "phase_a": {
+    "status": "complete_waiting_human_gate_1",
+    "real_screen_capture": false,
+    "voicevox": false,
+    "subtitles": false,
+    "scene_generation": false,
+    "video_generation": false,
+    "thumbnail_generation": false,
+    "youtube_operation": false,
+    "open_questions": [
+      "Human提供端末の機種名とiOSバージョン",
+      "安全なバッテリー使用状況画面の取得方法",
+      "Human Gate 1でのタイトル確定",
+      "アップデート後の現行iOS表示差"
+    ]
+  }
+}

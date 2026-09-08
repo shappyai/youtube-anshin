@@ -1,0 +1,84 @@
+{
+  "episode_id": "017",
+  "status": "PHASE_A_DRAFT_NOT_UPLOADABLE",
+  "selected_title": "【iPhone】充電の減りが早い？まず確認したい3か所",
+  "title_status": "RECOMMENDATION_ONLY_HUMAN_GATE_1_REQUIRED",
+  "title_candidates": [
+    {
+      "title": "【iPhone】充電の減りが早い？まず確認したい3か所",
+      "reason": "対象端末を明示し、困りごとと確認数を短く伝える。"
+    },
+    {
+      "title": "【iPhone】電池の減りが早い？まず見る3か所",
+      "reason": "日常語で短く、検索時の困りごとに近い。"
+    },
+    {
+      "title": "【iPhoneの電池】交換する前に確認したい3か所",
+      "reason": "交換を急がず確認する動画だと伝わるが、交換を検討していない人には少し狭い。"
+    }
+  ],
+  "description": "iPhoneの充電が以前より早く減ると感じたときに、バッテリー交換や節電設定の一括変更を急ぐ前に確認したい3か所を紹介します。\n\nこの動画で確認する場所\n1. 設定のバッテリーで、何がバッテリーを使っているか\n2. 画面表示と明るさで、画面オンや自動ロックの状態\n3. バッテリーの状態で、最大容量やサービス表示\n\n表示名や表示される項目は、iPhoneの機種やiOSのバージョンで異なる場合があります。通知、位置情報、バックグラウンド更新などを一律にオフにする案内ではありません。まず確認し、必要な変更だけを考えます。\n\n主な公式情報（確認日: 2026年9月8日）\nhttps://support.apple.com/ja-jp/120745\nhttps://support.apple.com/ja-jp/102432\nhttps://support.apple.com/ja-jp/guide/iphone/iphd453d043a/ios\nhttps://support.apple.com/ja-jp/101575\n\nナレーション：VOICEVOX:剣崎雌雄（Phase B予定）",
+  "pinned_comment": "充電の減りが早いと感じたとき、まずどの画面を確認しましたか？\n\n機種やiOSのバージョンで表示が違う場合があります。分からない表示があれば、個人情報を隠して教えてください。",
+  "chapters": [
+    "00:00 結論：まず見る3か所",
+    "00:45 1. バッテリー使用状況",
+    "02:15 2. 画面表示と明るさ",
+    "03:20 3. バッテリーの状態",
+    "04:25 まとめ"
+  ],
+  "chapters_status": "PLANNED_ESTIMATE_NOT_SYNCED_TO_AUDIO",
+  "tags": [
+    "iPhone",
+    "iPhoneバッテリー",
+    "充電の減りが早い",
+    "バッテリー使用状況",
+    "バッテリーの状態",
+    "スマホ初心者",
+    "シニア向け"
+  ],
+  "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
+  "contains_synthetic_media": null,
+  "ai_disclosure_review": "REVIEW_REQUIRED_BEFORE_UPLOAD",
+  "thumbnail": null,
+  "thumbnail_status": "NOT_GENERATED_PHASE_A",
+  "thumbnail_planned_path": "thumbnail/thumbnail.png",
+  "visibility": null,
+  "upload_eligible": false,
+  "phase_a_boundary": "Human Gate 1承認前のPhase A。一次情報整理、企画比較、台本、shotlist、公開メタデータ案まで。実画面capture、音声、字幕、scene、動画、サムネイル生成、YouTube操作は未実施。",
+  "human_gate": "HUMAN_GATE_1_REQUIRED",
+  "human_approved": false,
+  "viewer_facing_internal_brand_promise": 0,
+  "final_path": null,
+  "final_sha256": null,
+  "source_urls": [
+    "https://support.apple.com/ja-jp/120745",
+    "https://support.apple.com/ja-jp/102432",
+    "https://support.apple.com/ja-jp/guide/iphone/iphd453d043a/ios",
+    "https://support.apple.com/ja-jp/101575",
+    "https://support.apple.com/ja-jp/guide/iphone/iph7117338a8/ios",
+    "https://support.apple.com/ja-jp/118408",
+    "https://support.apple.com/ja-jp/102647",
+    "https://support.apple.com/ja-jp/102515",
+    "https://support.apple.com/ja-jp/101604",
+    "https://support.google.com/android/answer/7664692?hl=ja",
+    "https://support.google.com/pixelphone/answer/6090599?hl=ja",
+    "https://support.google.com/pixelphone/answer/6090612?hl=ja",
+    "https://support.google.com/pixelphone/answer/10011133?hl=ja"
+  ],
+  "phase_a": {
+    "status": "COMPLETE_WAITING_HUMAN_GATE_1",
+    "real_screen_capture": false,
+    "voicevox": false,
+    "subtitles": false,
+    "scene_generation": false,
+    "video_generation": false,
+    "thumbnail_generation": false,
+    "youtube_operation": false,
+    "open_questions": [
+      "Human提供端末の機種名とiOSバージョン",
+      "安全なバッテリー使用状況画面の取得方法",
+      "Human Gate 1でのタイトル確定",
+      "アップデート後の現行iOS表示差"
+    ]
+  }
+}
