@@ -2,12 +2,12 @@
 
 - Episode: `015`
 - Slug: `google_2fa_check`
-- 制作段階: `Phase B / draft_auto_v3 Human Gate 2待ち`
+- 制作段階: `Phase B / draft_auto_v4 Human Gate 2待ち`
 - 調査日: `2026-09-08`
 - 採用タイトル（暫定）: **【Google】2段階認証していても確認したい3か所**
 - 形式: `focused_setting_depth_v1`
 - 主な視聴者: Googleアカウントで2段階認証を設定済みの50〜70代、特に65歳以上。設定は済ませたが、登録した端末や予備の手段を最近確認していない人
-- 実測尺: 5分18.740秒（本編5分06.180秒＋共通CTA音声11.563秒＋余韻。draft_auto_v3）
+- 実測尺: 5分12.920秒（container probe。音声timelineは本編5分00.356秒、full draft QA基準は5分13.356秒。draft_auto_v4）
 
 ## 企画の結論
 
@@ -63,8 +63,9 @@ Episode 015では、上記をもう一度一覧で説明しない。セキュリ
 - Google公式ヘルプの現行表示で、3項目に対応する正式名称を確認した。
 - Humanログイン済みのPCブラウザで、Scene 004・007・010の入口だけを確認・captureした。場所の案内は実Google UI、個人情報・秘密情報が表示される先の説明は既存カードとするハイブリッド構成に更新した。
 - Scene 004は「Google にログインする方法」→「2 段階認証プロセス」、Scene 007は「バックアップ コード」の入口行、Scene 010は「パスキーとセキュリティ キー」の入口行だけを使用している。
-- VOICEVOX音声42セグメント、実時間字幕61 cue、scene 12枚、共通CTA、full draftを生成した。本編は306.180秒、full draftは318.740秒。
-- draft_auto_v3 SHA-256: `B42AAFCD4773BA727B50465AE24CD326F65DF8EBC9ECE1EFF65C4E47D47D923C`。Phase 2 QA、production preflight、字幕、発音、viewer-facing文言、CTAの再実行結果はPASS。
-- v3 contact sheet: `work/draft_contact_sheet_v3.png`（動画代表フレーム）／`output/review/draft_contact_sheet_v3.png`（scene一覧）。
+- VOICEVOX音声42セグメント、実時間字幕61 cue、scene 12枚、共通CTA、full draftを生成した。本編は300.356秒、full draftのQA基準timelineは313.356秒。
+- draft_auto_v4 SHA-256: `7AB436A319D66CC7EF27BA9A936CC6AC15AC0A725EBEFA7818AFC2C7131EDB5D`。Phase 2 QA、production preflight、字幕、発音、viewer-facing文言、CTAの再実行結果はPASS。
+- v4 contact sheet: `output/review/draft_contact_sheet_v4.png`（動画代表フレーム）。
+- v4専用音声・字幕確認: `work/audio_subtitle_revision_v4.md`。セクション番号、読み、compoundのaudio_query、実時間字幕を確認した。
 - バックアップ コードは入口・存在確認だけとし、実コードの数字は撮影・保存・字幕化していない。新規作成・更新もしていない。
-- サムネイル生成、YouTube upload、publishは未実施。draft_auto_v3確認後、Human Gate 2で停止する。
+- サムネイル生成、YouTube upload、publish、finalizeは未実施。draft_auto_v4確認後、Human Gate 2で停止する。

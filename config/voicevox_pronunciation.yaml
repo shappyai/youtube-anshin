@@ -26,8 +26,43 @@ pronunciations:
   - surface: "セキュリティ"
     method: text_replacement
     to: "セキュリティー"
-    scope: "episodes/001（本編）の「セキュリティ」表記すべて"
-    note: "2026-08-30 人間指定。語尾を伸ばした読みに統一。"
+    scope: "標準辞書（全Episodeの「セキュリティ」表記）"
+    status: approved
+    human_approved: true
+    global: true
+    provenance: "Episode001 + Episode015 Human review"
+    date: "2026-09-08"
+    note: >-
+      2026-08-30 Episode001で人間指定。2026-09-08 Episode015 Human Gate 2で
+      標準辞書への昇格を承認。表示字幕・公式UIは「セキュリティ」のまま、
+      VOICEVOX入力は「セキュリティー」に統一する。
+  - surface: "セキュリティ キー"
+    method: text_replacement
+    to: "セキュリティーキー"
+    scope: "標準辞書（全Episodeの「セキュリティ キー」表記）"
+    status: approved
+    human_approved: true
+    global: true
+    provenance: "Episode015 Human Gate 2"
+    date: "2026-09-08"
+    note: >-
+      表示字幕・公式UIは「セキュリティ キー」のまま、VOICEVOX入力は
+      「セキュリティーキー」として一続きにする。語中の息継ぎ・pauseを
+      入れない。アクセント位置はVOICEVOX標準を維持し、genericな
+      「セキュリティ」より複合語を優先する。
+  - surface: "バックアップ コード"
+    method: text_replacement
+    to: "バックアップコード"
+    scope: "標準辞書（全Episodeの「バックアップ コード」表記）"
+    status: approved
+    human_approved: true
+    global: true
+    provenance: "Episode015 Human Gate 2"
+    date: "2026-09-08"
+    note: >-
+      表示字幕・公式UIは「バックアップ コード」のまま、VOICEVOX入力は
+      「バックアップコード」として一続きにする。語中の息継ぎ・pauseを
+      入れない。アクセント位置は新設せず、VOICEVOX標準を維持する。
   - surface: "Gmail"
     method: text_replacement
     to: "ジーメール"

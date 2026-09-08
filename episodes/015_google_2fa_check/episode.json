@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "metadata": {
     "research_date": "2026-09-08",
-    "production_phase": "Phase B / draft_auto_v3 Human Gate 2待ち",
+    "production_phase": "Phase B / draft_auto_v4 Human Gate 2待ち",
     "channel": "大人のデジタル安心室",
     "visual_theme": "adult_digital_soft_background",
     "target_audience_detail": "50〜70代、特に65歳以上。現在の設定を自分で確認できることを優先し、headline 80px以上、main fact 60px以上、secondary 52px以上、字幕72pxを基準にする。",
@@ -46,7 +46,7 @@
       "YouTube uploadは未実施"
     ],
     "phase_b": {
-      "status": "FULL_DRAFT_V3_HUMAN_GATE_2_PENDING",
+      "status": "FULL_DRAFT_V4_HUMAN_GATE_2_PENDING",
       "current_ui_verification": "AUTHENTICATED_TEST_SESSION_ENTRY_CAPTURED",
       "personalized_account_capture": "CAPTURED_ENTRY_ONLY_HUMAN_AUTHENTICATED_TEST_SESSION",
       "official_asset_strategy": "hybrid_real_ui_entry_plus_fallback_card",
@@ -56,10 +56,11 @@
       "cta_audio": "REUSED_APPROVED_COMMON_CTA_AUDIO",
       "cta_audio_duration_seconds": 11.563,
       "cta_postroll_duration_seconds": 13.0,
-      "main_narration_duration_seconds": 306.18,
-      "full_draft_duration_seconds": 318.74,
-      "full_draft_path": "output/draft_auto_v3.mp4",
-      "full_draft_sha256": "B42AAFCD4773BA727B50465AE24CD326F65DF8EBC9ECE1EFF65C4E47D47D923C",
+      "main_narration_duration_seconds": 300.356,
+      "full_draft_duration_seconds": 313.356,
+      "full_draft_container_duration_seconds": 312.92,
+      "full_draft_path": "output/draft_auto_v4.mp4",
+      "full_draft_sha256": "7AB436A319D66CC7EF27BA9A936CC6AC15AC0A725EBEFA7818AFC2C7131EDB5D",
       "rendered_scene_sha256": {
         "SCENE-004": "818D66E4DF34233086DA123AF32159A9AEEC63AA572D38BBB849C6534C369E4E",
         "SCENE-007": "B57C222F6285082C1AB12487D8B4037A8204FAC61EC96FC3E520E10338D64B44",
@@ -291,8 +292,8 @@
     },
     {
       "id": 7,
-      "section": "1 / 3",
-      "narration": "1 / 3、いつもの確認方法です。",
+      "section": "1",
+      "narration": "1、いつもの確認方法です。",
       "reading_overrides": {},
       "pause_after": 0.15,
       "scene_id": 3,
@@ -302,7 +303,7 @@
     },
     {
       "id": 8,
-      "section": "1 / 3",
+      "section": "1",
       "narration": "Googleアカウントを開き、「セキュリティとログイン」を選びます。",
       "reading_overrides": {},
       "pause_after": 0.12,
@@ -313,7 +314,7 @@
     },
     {
       "id": 9,
-      "section": "1 / 3",
+      "section": "1",
       "narration": "「Googleにログインする方法」の中から、「2段階認証プロセス」を開きます。",
       "reading_overrides": {},
       "pause_after": 0.12,
@@ -324,9 +325,11 @@
     },
     {
       "id": 10,
-      "section": "1 / 3",
+      "section": "1",
       "narration": "ここでは、パスワードのあとに、何で本人確認する設定なのかを確認します。",
-      "reading_overrides": {},
+      "reading_overrides": {
+        "何で本人確認": "なにで本人確認"
+      },
       "pause_after": 0.14,
       "scene_id": 4,
       "subtitle_ids": [
@@ -335,7 +338,7 @@
     },
     {
       "id": 11,
-      "section": "1 / 3",
+      "section": "1",
       "narration": "表示される内容は、アカウントによって異なります。スマホへの通知、確認コード、認証アプリなどが表示されることがあります。",
       "reading_overrides": {},
       "pause_after": 0.16,
@@ -347,7 +350,7 @@
     },
     {
       "id": 12,
-      "section": "1 / 3",
+      "section": "1",
       "narration": "今使っているスマホや方法と、画面の登録内容が合っているかを見比べます。",
       "reading_overrides": {},
       "pause_after": 0.14,
@@ -358,7 +361,7 @@
     },
     {
       "id": 13,
-      "section": "1 / 3",
+      "section": "1",
       "narration": "古いスマホや、もう使っていない方法が残っている場合は、すぐに削除せず、まず現在の確認方法が使えることを確かめます。",
       "reading_overrides": {},
       "pause_after": 0.15,
@@ -370,7 +373,7 @@
     },
     {
       "id": 14,
-      "section": "1 / 3",
+      "section": "1",
       "narration": "見覚えのない表示があっても、この画面だけで不正利用と決めつける必要はありません。Google公式の案内を確認し、分からない操作は止めておきましょう。",
       "reading_overrides": {},
       "pause_after": 0.16,
@@ -382,7 +385,7 @@
     },
     {
       "id": 15,
-      "section": "1 / 3",
+      "section": "1",
       "narration": "Googleからのメッセージが表示されたら、端末・場所・時刻を確認します。自分の操作なら「はい」、違う操作なら「いいえ」を選び、分からないときは公式の案内を確認します。",
       "reading_overrides": {},
       "pause_after": 0.16,
@@ -394,8 +397,8 @@
     },
     {
       "id": 16,
-      "section": "2 / 3",
-      "narration": "2 / 3、スマホが使えないときの予備です。",
+      "section": "2",
+      "narration": "2、スマホが使えないときの予備です。",
       "reading_overrides": {},
       "pause_after": 0.15,
       "scene_id": 6,
@@ -405,7 +408,7 @@
     },
     {
       "id": 17,
-      "section": "2 / 3",
+      "section": "2",
       "narration": "バックアップ コードは、スマホが手元にないときなどに、本人確認へ使える予備のコードです。",
       "reading_overrides": {},
       "pause_after": 0.14,
@@ -416,7 +419,7 @@
     },
     {
       "id": 18,
-      "section": "2 / 3",
+      "section": "2",
       "narration": "「2段階認証プロセス」の中にある、「バックアップ コード」を開きます。",
       "reading_overrides": {},
       "pause_after": 0.12,
@@ -427,7 +430,7 @@
     },
     {
       "id": 19,
-      "section": "2 / 3",
+      "section": "2",
       "narration": "ここで確認するのは、コードを用意してあるか、そして自分が安全な場所を分かっているかです。",
       "reading_overrides": {},
       "pause_after": 0.14,
@@ -438,7 +441,7 @@
     },
     {
       "id": 20,
-      "section": "2 / 3",
+      "section": "2",
       "narration": "Google公式では、バックアップ コードは10個のコードからなる新しいセットを作成でき、1つのコードは1回だけ使えると案内されています。",
       "reading_overrides": {},
       "pause_after": 0.16,
@@ -450,7 +453,7 @@
     },
     {
       "id": 21,
-      "section": "2 / 3",
+      "section": "2",
       "narration": "新しいセットを作ると、以前のセットは使えなくなります。今回は確認だけにして、作り直しはしません。",
       "reading_overrides": {},
       "pause_after": 0.15,
@@ -462,7 +465,7 @@
     },
     {
       "id": 22,
-      "section": "2 / 3",
+      "section": "2",
       "narration": "以前に保存した場所が分からない場合は、そのコードがあるつもりで進めないことが大切です。必要なら、落ち着いて公式の案内を確認してから対応します。",
       "reading_overrides": {},
       "pause_after": 0.15,
@@ -475,7 +478,7 @@
     },
     {
       "id": 23,
-      "section": "2 / 3",
+      "section": "2",
       "narration": "新しいコードを作るかどうかは、保存する場所を先に決めてから考えます。紙に保管する場合も、他人に見せない場所を選びます。",
       "reading_overrides": {},
       "pause_after": 0.14,
@@ -487,7 +490,7 @@
     },
     {
       "id": 24,
-      "section": "2 / 3",
+      "section": "2",
       "narration": "バックアップ コードは、電話やメールで誰かに伝えるものではありません。画面にコードの数字が出ても、録画やスクリーンショットには残さないでください。",
       "reading_overrides": {},
       "pause_after": 0.14,
@@ -499,7 +502,7 @@
     },
     {
       "id": 25,
-      "section": "2 / 3",
+      "section": "2",
       "narration": "Googleが電話でバックアップ コードを聞くことはありません。求められても伝えず、公式サイトから確認します。",
       "reading_overrides": {},
       "pause_after": 0.16,
@@ -511,8 +514,8 @@
     },
     {
       "id": 26,
-      "section": "3 / 3",
-      "narration": "3 / 3、登録されているパスキーです。",
+      "section": "3",
+      "narration": "3、登録されているパスキーです。",
       "reading_overrides": {},
       "pause_after": 0.15,
       "scene_id": 9,
@@ -522,7 +525,7 @@
     },
     {
       "id": 27,
-      "section": "3 / 3",
+      "section": "3",
       "narration": "パスキーは、スマホやパソコンの画面ロック、指紋、顔認証などを使って、パスワードの代わりにログインする方法です。",
       "reading_overrides": {},
       "pause_after": 0.14,
@@ -534,7 +537,7 @@
     },
     {
       "id": 28,
-      "section": "3 / 3",
+      "section": "3",
       "narration": "パスキーを使うと、場合によっては2段階目の確認を省いてログインできます。これは、2段階認証をオフにすることとは別の仕組みです。",
       "reading_overrides": {},
       "pause_after": 0.16,
@@ -547,7 +550,7 @@
     },
     {
       "id": 29,
-      "section": "3 / 3",
+      "section": "3",
       "narration": "大事なのは、自分が持っていて、画面ロックをかけている端末にだけ登録されているかを確認することです。",
       "reading_overrides": {},
       "pause_after": 0.16,
@@ -559,7 +562,7 @@
     },
     {
       "id": 30,
-      "section": "3 / 3",
+      "section": "3",
       "narration": "Googleアカウントの「パスキーとセキュリティ キー」の場所を開きます。",
       "reading_overrides": {},
       "pause_after": 0.14,
@@ -570,7 +573,7 @@
     },
     {
       "id": 31,
-      "section": "3 / 3",
+      "section": "3",
       "narration": "Androidスマホでは、端末の設定などによって、パスキーが自動的に登録されることがあります。表示された端末名を確認します。",
       "reading_overrides": {},
       "pause_after": 0.16,
@@ -582,7 +585,7 @@
     },
     {
       "id": 32,
-      "section": "3 / 3",
+      "section": "3",
       "narration": "今も自分が使っている端末なら、そのままで構いません。古い端末や共有の端末があれば、登録を見直します。",
       "reading_overrides": {},
       "pause_after": 0.14,
@@ -594,7 +597,7 @@
     },
     {
       "id": 33,
-      "section": "3 / 3",
+      "section": "3",
       "narration": "新しく登録するときは、自分が所有し、画面ロックを設定している端末だけを使います。",
       "reading_overrides": {},
       "pause_after": 0.15,
@@ -605,7 +608,7 @@
     },
     {
       "id": 34,
-      "section": "3 / 3",
+      "section": "3",
       "narration": "使っていない端末を見つけた場合も、名前だけで判断せず、公式の説明を確認してから削除を考えます。",
       "reading_overrides": {},
       "pause_after": 0.16,
@@ -616,7 +619,7 @@
     },
     {
       "id": 35,
-      "section": "3 / 3",
+      "section": "3",
       "narration": "パスワードを使わずにログインする設定が表示される場合もあります。内容を理解していないまま、変更を急がなくて大丈夫です。",
       "reading_overrides": {},
       "pause_after": 0.16,
@@ -628,7 +631,7 @@
     },
     {
       "id": 36,
-      "section": "3 / 3",
+      "section": "3",
       "narration": "パスキーは便利な方法ですが、登録先を確認して、自分の端末だけになっているかを見ておきましょう。",
       "reading_overrides": {},
       "pause_after": 0.16,
@@ -771,7 +774,7 @@
     {
       "id": "SUB-008",
       "text_lines": [
-        "1/3、いつもの確認方法です。"
+        "1、いつもの確認方法です。"
       ],
       "segment_id": 7,
       "font_px": 72
@@ -885,7 +888,7 @@
     {
       "id": "SUB-021",
       "text_lines": [
-        "2/3、スマホが使えないときの予備です。"
+        "2、スマホが使えないときの予備です。"
       ],
       "segment_id": 16,
       "font_px": 72
@@ -893,7 +896,7 @@
     {
       "id": "SUB-022",
       "text_lines": [
-        "バックアップコードは、スマホが手元にないと",
+        "バックアップ コードは、スマホが手元にないと",
         "きなどに、本人確認へ使える予備のコードです。"
       ],
       "segment_id": 17,
@@ -903,7 +906,7 @@
       "id": "SUB-023",
       "text_lines": [
         "「2段階認証プロセス」の中にある、",
-        "「バックアップコード」を開きます。"
+        "「バックアップ コード」を開きます。"
       ],
       "segment_id": 18,
       "font_px": 72
@@ -920,7 +923,7 @@
     {
       "id": "SUB-025",
       "text_lines": [
-        "Google公式では、バックアップコードは",
+        "Google公式では、バックアップ コードは",
         "10個のコードからなる新しいセットを作成でき、"
       ],
       "segment_id": 20,
@@ -996,7 +999,7 @@
     {
       "id": "SUB-034",
       "text_lines": [
-        "バックアップコードは、",
+        "バックアップ コードは、",
         "電話やメールで誰かに伝えるものではありません。"
       ],
       "segment_id": 24,
@@ -1014,7 +1017,7 @@
     {
       "id": "SUB-036",
       "text_lines": [
-        "Googleが電話でバックアップコードを",
+        "Googleが電話でバックアップ コードを",
         "聞くことはありません。"
       ],
       "segment_id": 25,
@@ -1031,7 +1034,7 @@
     {
       "id": "SUB-038",
       "text_lines": [
-        "3/3、登録されているパスキーです。"
+        "3、登録されているパスキーです。"
       ],
       "segment_id": 26,
       "font_px": 72
@@ -1099,7 +1102,7 @@
       "id": "SUB-046",
       "text_lines": [
         "Googleアカウントの「パスキーと",
-        "セキュリティキー」の場所を開きます。"
+        "セキュリティ キー」の場所を開きます。"
       ],
       "segment_id": 30,
       "font_px": 72
@@ -1202,7 +1205,7 @@
     {
       "id": "SUB-058",
       "text_lines": [
-        "3つ目、登録されているパスキーとセキュリティキー。"
+        "3つ目、登録されているパスキーとセキュリティ キー。"
       ],
       "segment_id": 39,
       "font_px": 72
@@ -1320,7 +1323,7 @@
       "headline": "いつもの確認方法",
       "support_text": "画面では「2段階認証プロセス」",
       "main_message": "まず、今使っている確認方法を確認",
-      "section_label": "1 / 3",
+      "section_label": "1",
       "official_asset": [],
       "official_asset_crop": [],
       "official_source_ids": [
@@ -1329,7 +1332,7 @@
       "icon_name": "lock",
       "icon_tone": "blue",
       "visual_role": "section_divider",
-      "visual_focal_point": "1 / 3を大きく示し、確認対象を一つに絞る",
+      "visual_focal_point": "1を大きく示し、確認対象を一つに絞る",
       "visual_balance": {
         "center_x": 960,
         "intentional_asymmetry": false
@@ -1352,7 +1355,7 @@
       "headline": "いつもの確認方法",
       "support_text": "正式名称：2段階認証プロセス",
       "main_message": "登録内容と、今使っているスマホ・方法を照らし合わせる",
-      "section_label": "1 / 3",
+      "section_label": "1",
       "official_asset": [
         {
           "kind": "image",
@@ -1408,7 +1411,7 @@
       "headline": "通知が来たとき",
       "support_text": "端末・場所・時刻を確認",
       "main_message": "自分の操作なら「はい」、違えば公式の案内を確認",
-      "section_label": "1 / 3",
+      "section_label": "1",
       "official_asset": [],
       "official_asset_crop": [],
       "official_source_ids": [
@@ -1441,7 +1444,7 @@
       "headline": "スマホが使えないときの予備",
       "support_text": "画面では「バックアップ コード」",
       "main_message": "予備の入口が分かる状態にする",
-      "section_label": "2 / 3",
+      "section_label": "2",
       "official_asset": [],
       "official_asset_crop": [],
       "official_source_ids": [
@@ -1450,7 +1453,7 @@
       "icon_name": "key",
       "icon_tone": "amber",
       "visual_role": "section_divider",
-      "visual_focal_point": "2 / 3と予備の入口を大きく示す",
+      "visual_focal_point": "2と予備の入口を大きく示す",
       "visual_balance": {
         "center_x": 960,
         "intentional_asymmetry": false
@@ -1473,7 +1476,7 @@
       "headline": "スマホが使えないときの予備",
       "support_text": "正式名称：バックアップ コード",
       "main_message": "コードの数字は映さず、用意の有無を確認",
-      "section_label": "2 / 3",
+      "section_label": "2",
       "official_asset": [
         {
           "kind": "image",
@@ -1526,7 +1529,7 @@
       "headline": "コードは見せない",
       "support_text": "確認するのは入口と用意の有無",
       "main_message": "実コードの数字は撮影・保存しない",
-      "section_label": "2 / 3",
+      "section_label": "2",
       "items": [
         "新しいセットで古いセットは無効",
         "コードは人に渡さない",
@@ -1571,7 +1574,7 @@
       "headline": "登録されているパスキー",
       "support_text": "画面では「パスキーとセキュリティ キー」",
       "main_message": "自分の端末だけに登録されているか確認",
-      "section_label": "3 / 3",
+      "section_label": "3",
       "official_asset": [],
       "official_asset_crop": [],
       "official_source_ids": [
@@ -1580,7 +1583,7 @@
       "icon_name": "key",
       "icon_tone": "teal",
       "visual_role": "section_divider",
-      "visual_focal_point": "3 / 3と確認対象を大きく示す",
+      "visual_focal_point": "3と確認対象を大きく示す",
       "visual_balance": {
         "center_x": 960,
         "intentional_asymmetry": false
@@ -1603,7 +1606,7 @@
       "headline": "登録されているパスキー",
       "support_text": "正式名称：パスキーとセキュリティ キー",
       "main_message": "自分が所有して使う端末だけかを確認",
-      "section_label": "3 / 3",
+      "section_label": "3",
       "official_asset": [
         {
           "kind": "image",
@@ -1662,7 +1665,7 @@
       "headline": "自分の端末だけ",
       "support_text": "古い端末・共有端末は見直す",
       "main_message": "名前だけで決めず、公式の説明を確認",
-      "section_label": "3 / 3",
+      "section_label": "3",
       "items": [
         "名前だけで判断しない",
         "本人所有かを確認",
@@ -1776,12 +1779,12 @@
     "description": "Googleの2段階認証を設定している人向けに、設定内容を確認する3か所を紹介します。\n\nこの動画で確認するのは、次の3つです。\n1. いつもの確認方法（画面では「2段階認証プロセス」）\n2. スマホが使えないときの予備（画面では「バックアップ コード」）\n3. 登録されているパスキー（画面では「パスキーとセキュリティ キー」）\n\nバックアップ コードは、コード本体の数字を撮影・保存せず、入口と用意の有無だけを確認します。Googleの画面はアカウントや時期によって表示が異なる場合があります。操作に迷った場合は、Google公式ヘルプをご確認ください。\n\nナレーション：VOICEVOX:剣崎雌雄\n",
     "chapters": [
       "00:00 今日は3か所だけ",
-      "00:37 1 / 3 いつもの確認方法",
-      "01:48 2 / 3 スマホが使えないときの予備",
-      "03:10 3 / 3 登録されているパスキー",
-      "04:35 まとめ"
+      "00:37 1 いつもの確認方法",
+      "01:48 2 スマホが使えないときの予備",
+      "03:05 3 登録されているパスキー",
+      "04:30 まとめ"
     ],
-    "chapters_status": "SYNCED_TO_AUDIO_TIMING_DRAFT_V3",
+    "chapters_status": "SYNCED_TO_AUDIO_TIMING_DRAFT_V4",
     "tags": [
       "Google",
       "Googleアカウント",
@@ -1795,7 +1798,7 @@
     "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
     "contains_synthetic_media": false,
     "ai_disclosure_review": "REVIEW_REQUIRED_BEFORE_UPLOAD",
-    "status": "DRAFT_AUTO_V3_HUMAN_GATE_2_PENDING",
+    "status": "DRAFT_AUTO_V4_HUMAN_GATE_2_PENDING",
     "visibility": "private",
     "thumbnail": null,
     "thumbnail_status": "NOT_STARTED_PHASE_B",
@@ -1819,12 +1822,12 @@
     "human_approval_required": true,
     "phase_a_boundary": "Phase Aの設計・一次情報整理まで。動画、音声、実画面capture、サムネイル、YouTube uploadは未実施。",
     "phase_b_status": {
-      "status": "FULL_DRAFT_V3_HUMAN_GATE_2_PENDING",
+      "status": "FULL_DRAFT_V4_HUMAN_GATE_2_PENDING",
       "personalized_google_ui_capture": "CAPTURED_ENTRY_ONLY_HUMAN_AUTHENTICATED_TEST_SESSION",
       "backup_code_digits": "MUST_NOT_APPEAR",
       "thumbnail_generation": "NOT_STARTED",
       "youtube_upload": "NOT_STARTED",
-      "full_draft_path": "output/draft_auto_v3.mp4",
+      "full_draft_path": "output/draft_auto_v4.mp4",
       "visual_revision": "Scene 004・007・010は実Google UIの入口のみ。後段の個人情報・秘密情報を含む一覧やバックアップコード本体は使用しない。"
     }
   }

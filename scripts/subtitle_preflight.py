@@ -127,11 +127,15 @@ def check_protected_boundaries(
     for subtitle in subtitles:
         by_segment.setdefault(int(subtitle["segment_id"]), []).append(subtitle)
     for segment_id, cues in by_segment.items():
-        combined = "".join(cue_text(cue) for cue in cues)
+        # Layout spaces are viewer-facing typography, not Japanese reading
+        # characters.  Use the cleaned stream for boundary positions so an
+        # official UI spelling such as 「バックアップ コード」 does not
+        # shift the semantic check into the next mora.
+        combined = clean("".join(cue_text(cue) for cue in cues))
         boundaries: set[int] = set()
         cursor = 0
         for cue in cues[:-1]:
-            cursor += len(cue_text(cue))
+            cursor += len(clean(cue_text(cue)))
             boundaries.add(cursor)
         for term in PROTECTED_TERMS:
             start = combined.find(term)
@@ -192,7 +196,7 @@ def check_semantic_line_breaks(
             if len(lines) != 2:
                 continue
             full = "".join(lines)
-            result = boundary_issues(full, len(lines[0]))
+            result = boundary_issues(full, len(clean(lines[0])))
             for key, failed in result.items():
                 if failed:
                     metrics[key] += 1
@@ -203,10 +207,10 @@ def check_semantic_line_breaks(
 
         # Then scan the temporal boundaries between consecutive cues in the
         # same narration segment.
-        combined = "".join(cue_text(cue) for cue in cues)
+        combined = clean("".join(cue_text(cue) for cue in cues))
         cursor = 0
         for previous in cues[:-1]:
-            cursor += len(cue_text(previous))
+            cursor += len(clean(cue_text(previous)))
             result = boundary_issues(combined, cursor)
             for key, failed in result.items():
                 if failed:

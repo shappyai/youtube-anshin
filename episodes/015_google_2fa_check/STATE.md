@@ -4,9 +4,9 @@
 
 - Episode: 015_google_2fa_check
 - 更新日: 2026-09-08
-- status: FULL_DRAFT_V3_COMPLETE_WAITING_HUMAN_GATE_2
+- status: FULL_DRAFT_V4_COMPLETE_WAITING_HUMAN_GATE_2
 - phase: Phase B（現行UI確認・音声・字幕・scene・full draft）
-- 次の停止点: Human Gate 2（draft_auto_v3・実Google UI入口の可読性・個人情報混入の最終確認）
+- 次の停止点: Human Gate 2（draft_auto_v4・音声／字幕修正と実Google UI入口の可読性・個人情報混入の最終確認）
 
 ## 今回の結論
 
@@ -34,14 +34,15 @@ Episode001の「セキュリティ チェックアップ」「再設定用の電
 - scenes: 12
 - official UI entry captures: 3（SRC-001 / SRC-003 / SRC-004。Scene 004・007・010）
 - AI-generated visual assets: 0
-- main narration duration: 306.180秒（5分06.180秒）
-- full draft duration: 318.740秒（5分18.740秒、共通CTA音声11.563秒と余韻を含む）
+- main narration duration: 300.356秒（5分00.356秒）
+- full draft duration: 313.356秒（5分13.356秒、QA基準timeline。container probeは312.920秒）
 - VOICEVOX: 剣崎雌雄 / ノーマル / 42セグメント生成済み
-- full draft: `output/draft_auto_v3.mp4`（共通CTA音声を含む。v2は比較用に保持）
-- full draft SHA-256: `B42AAFCD4773BA727B50465AE24CD326F65DF8EBC9ECE1EFF65C4E47D47D923C`
-- Phase 2 QA: v3再実行済み（`work/phase2_qa.md`、PASS / FAIL 0 / WARN 0）。
-- scene quality report: v3再実行済み（`work/scene_quality_report_v3.md`、9 OK / 0 WARN / 3 FAIL）。3件はgradient背景の差分比較ができない既知の機械判定で、実画面入口のprivacy/readabilityは別レポートと目視で確認する。
-- contact sheet: `work/draft_contact_sheet_v3.png`、`output/review/draft_contact_sheet_v3.png`
+- full draft: `output/draft_auto_v4.mp4`（共通CTA音声を含む。旧draftは比較用に保持）
+- full draft SHA-256: `7AB436A319D66CC7EF27BA9A936CC6AC15AC0A725EBEFA7818AFC2C7131EDB5D`
+- Phase 2 QA: v4再実行済み（`work/phase2_qa.md`、PASS / FAIL 0 / WARN 0）。
+- scene quality report: v4再実行済み（`work/scene_quality_report_v4.md`、9 OK / 0 WARN / 3 FAIL）。3件はgradient背景の差分比較ができない既知の機械判定で、実画面入口のprivacy/readabilityは別レポートと目視で確認する。
+- contact sheet: `output/review/draft_contact_sheet_v4.png`
+- 音声・字幕修正v4: section番号、`セキュリティー`、文脈限定の「なにで」、compound語の連続読みを反映。`work/audio_subtitle_revision_v4.md`で確認済み。
 
 ## Phase Bの確認結果と未実施
 
@@ -56,12 +57,12 @@ Episode001の「セキュリティ チェックアップ」「再設定用の電
 ## Human Gateで確認する点
 
 1. full draftの冒頭30秒以内に、対象・3項目・「今日は3か所だけ」が伝わるか。
-2. draft_auto_v3のScene 004・007・010で、実Google UIの入口が65歳以上でも読めるか。表示される時刻などを含め、視聴に不要な情報がないか確認する。
+2. draft_auto_v4のScene 004・007・010で、実Google UIの入口が65歳以上でも読めるか。表示される時刻などを含め、視聴に不要な情報がないか確認する。
 3. テストアカウントで「現在の確認方法」に表示される項目と、実際に使える方法の一致。
 4. バックアップ コードの入口・存在確認だけで成立しているか。コードの数字がどの素材にも出ていないか。
 5. パスキー一覧の端末が本人所有か、現在も使っているか。削除・追加を急がない説明になっているか。
 6. Scene 007にバックアップコード本体がなく、Scene 010に端末名などがないことを含め、PC表示のcropと字幕が65歳以上でも読みやすいか。4〜6分の情報量で水増しがないか。
-7. VOICEVOXの「Google」「2段階認証プロセス」「バックアップ コード」「パスキー」などの発音を人間が試聴確認する。
+7. VOICEVOXの「Google」「2段階認証プロセス」「バックアップ コード」「セキュリティ キー」「パスキー」などの発音を人間が試聴確認する。v4ではaudio_query上でcompound語が1 accent phrase内に収まっていることを機械確認済み。
 
 ## CTA
 

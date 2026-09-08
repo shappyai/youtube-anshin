@@ -18,12 +18,12 @@
   "description": "Googleの2段階認証を設定している人向けに、設定内容を確認する3か所を紹介します。\n\nこの動画で確認するのは、次の3つです。\n1. いつもの確認方法（画面では「2段階認証プロセス」）\n2. スマホが使えないときの予備（画面では「バックアップ コード」）\n3. 登録されているパスキー（画面では「パスキーとセキュリティ キー」）\n\nバックアップ コードは、コード本体の数字を撮影・保存せず、入口と用意の有無だけを確認します。Googleの画面はアカウントや時期によって表示が異なる場合があります。操作に迷った場合は、Google公式ヘルプをご確認ください。\n\nナレーション：VOICEVOX:剣崎雌雄\n",
   "chapters": [
     "00:00 今日は3か所だけ",
-    "00:37 1 / 3 いつもの確認方法",
-    "01:48 2 / 3 スマホが使えないときの予備",
-    "03:10 3 / 3 登録されているパスキー",
-    "04:35 まとめ"
+    "00:37 1 いつもの確認方法",
+    "01:48 2 スマホが使えないときの予備",
+    "03:05 3 登録されているパスキー",
+    "04:30 まとめ"
   ],
-  "chapters_status": "SYNCED_TO_AUDIO_TIMING_DRAFT_V3",
+  "chapters_status": "SYNCED_TO_AUDIO_TIMING_DRAFT_V4",
   "tags": [
     "Google",
     "Googleアカウント",
@@ -37,8 +37,8 @@
   "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
   "contains_synthetic_media": false,
   "ai_disclosure_review": "REVIEW_REQUIRED_BEFORE_UPLOAD",
-  "status": "DRAFT_AUTO_V3_HUMAN_GATE_2_PENDING",
-  "draft_sha256": "B42AAFCD4773BA727B50465AE24CD326F65DF8EBC9ECE1EFF65C4E47D47D923C",
+  "status": "DRAFT_AUTO_V4_HUMAN_GATE_2_PENDING",
+  "draft_sha256": "7AB436A319D66CC7EF27BA9A936CC6AC15AC0A725EBEFA7818AFC2C7131EDB5D",
   "visibility": "private",
   "thumbnail": null,
   "thumbnail_status": "NOT_STARTED_PHASE_B",
@@ -62,7 +62,7 @@
   "human_approval_required": true,
   "phase_a_boundary": "Phase Aの設計・一次情報整理まで。動画、音声、実画面capture、サムネイル、YouTube uploadは未実施。",
   "phase_b_status": {
-    "status": "FULL_DRAFT_V3_HUMAN_GATE_2_PENDING",
+    "status": "FULL_DRAFT_V4_HUMAN_GATE_2_PENDING",
     "personalized_google_ui_capture": "CAPTURED_ENTRY_ONLY_HUMAN_AUTHENTICATED_TEST_SESSION",
     "backup_code_digits": "MUST_NOT_APPEAR",
     "thumbnail_generation": "NOT_STARTED",
@@ -70,9 +70,10 @@
     "cta_audio": "REUSED_APPROVED_COMMON_CTA_AUDIO",
     "cta_audio_duration_seconds": 11.563,
     "cta_postroll_duration_seconds": 13.0,
-    "main_narration_duration_seconds": 306.18,
-    "full_draft_duration_seconds": 318.74,
-    "full_draft_path": "output/draft_auto_v3.mp4",
+    "main_narration_duration_seconds": 300.356,
+    "full_draft_duration_seconds": 313.356,
+    "full_draft_container_duration_seconds": 312.92,
+    "full_draft_path": "output/draft_auto_v4.mp4",
     "visual_revision": "Scene 004・007・010は実Google UIの入口のみ。個人情報・秘密情報・バックアップコード本体は使用しない。"
   }
 }

@@ -451,10 +451,17 @@ def load_pronunciation_entries(path: Path = PRONUNCIATION_PATH) -> list[dict[str
 
 
 def replace_readings(text: str, replacements: dict[str, str]) -> str:
-    result = text
-    for surface in sorted(replacements, key=len, reverse=True):
-        result = result.replace(surface, replacements[surface])
-    return result
+    if not replacements:
+        return text
+    # Replace against the original text in one pass.  Sequential replacement
+    # can re-match a shorter surface inside a longer replacement, e.g.
+    # 「セキュリティ キー」→「セキュリティーキー」 followed by the generic
+    # 「セキュリティ」 rule would otherwise become
+    # 「セキュリティーーキー」.
+    pattern = re.compile(
+        "|".join(re.escape(surface) for surface in sorted(replacements, key=len, reverse=True))
+    )
+    return pattern.sub(lambda match: replacements[match.group(0)], text)
 
 
 CONTEXT_DEPENDENT_TERMS: tuple[tuple[str, str], ...] = (

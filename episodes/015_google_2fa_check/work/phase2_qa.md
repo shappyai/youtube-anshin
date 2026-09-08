@@ -2,7 +2,7 @@
 
 - status: PASS
 - scenes: 12
-- expected duration: 319.180s
+- expected duration: 313.356s
 
 ## FAIL
 

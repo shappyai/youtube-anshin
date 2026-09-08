@@ -93,6 +93,7 @@ def expected_reading(
         if surface in text:
             effective = replace_readings(effective, {str(surface): str(reading)})
             approvals.append(f"{surface} → {reading}（reading_overrides）")
+    text_replacements: dict[str, str] = {}
     for entry in dictionary_matches(text, entries):
         surface = str(entry.get("surface"))
         if surface in overrides:
@@ -108,7 +109,13 @@ def expected_reading(
                     f"{surface} → {active['pitch_shape']}（pitch shape / mora QA対象）"
                 )
             if active.get("method") == "text_replacement":
-                effective = replace_readings(effective, {surface: str(target)})
+                # Apply all text replacements together.  ``replace_readings``
+                # sorts surfaces by length, so an approved compound such as
+                # 「セキュリティ キー」 wins over the reusable generic
+                # 「セキュリティ」 rule and cannot be double-replaced.
+                text_replacements[surface] = str(target)
+    if text_replacements:
+        effective = replace_readings(effective, text_replacements)
     for surface, spec in (segment.get("accent_overrides") or {}).items():
         if surface not in text or not isinstance(spec, dict):
             continue

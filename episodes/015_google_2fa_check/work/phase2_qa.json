@@ -4,7 +4,7 @@
   "warnings": [],
   "probe": {
     "format": {
-      "duration": 318.74
+      "duration": 312.92
     },
     "streams": [
       {
@@ -42,5 +42,5 @@
     "cta_audio_duration_seconds": 11.563
   },
   "scene_visual_warnings": {},
-  "expected_duration": 319.18
+  "expected_duration": 313.356
 }
