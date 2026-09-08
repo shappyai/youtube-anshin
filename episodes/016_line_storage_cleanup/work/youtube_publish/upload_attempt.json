@@ -1,0 +1,16 @@
+{
+  "episode": "016_line_storage_cleanup",
+  "status": "uploaded_private",
+  "mode": "private",
+  "final_sha256": "C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28",
+  "title": "【LINE】重くなった？写真を消す前に確認したい3か所",
+  "requested_privacy": "private",
+  "publish_at_local": null,
+  "publish_at_api": null,
+  "started_at": "2026-09-08T14:31:06Z",
+  "video_id": "g7M2ykjNC6k",
+  "uploaded_at": "2026-09-08T14:31:10Z",
+  "thumbnail_uploaded": true,
+  "thumbnail_status": "success",
+  "verification": "PASS"
+}

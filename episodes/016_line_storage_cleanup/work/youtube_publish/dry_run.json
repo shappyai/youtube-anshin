@@ -1,5 +1,5 @@
 {
-  "status": "FAIL",
+  "status": "PASS",
   "api_called": false,
   "oauth_called": false,
   "episode": "016_line_storage_cleanup",
@@ -20,7 +20,5 @@
     "thumbnails.set",
     "videos.list part=snippet,status"
   ],
-  "errors": [
-    "Thumbnail missing: C:\\Codex\\260829_youtube-anshin\\episodes\\016_line_storage_cleanup\\assets\\thumbnail\\thumbnail.png"
-  ]
+  "errors": []
 }

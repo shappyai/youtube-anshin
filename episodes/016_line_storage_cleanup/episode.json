@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "metadata": {
     "research_date": "2026-09-08",
-    "production_phase": "Phase C / final候補確定、thumbnail・YouTube操作待ち",
+    "production_phase": "Phase C / private upload済み、公開操作待ち",
     "channel": "大人のデジタル安心室",
     "target_audience_detail": "50〜70代、特に65歳以上。スマホの設定画面をテレビでも読み取れるよう、全体画面は短く、確認対象は大きくクロップする。",
     "media_decision": "LINEスマホアプリの確認はスマートフォンを主媒体とする。Human提供の個人情報が見えない実LINE設定画面静止画を使用し、Android EmulatorへのLINEログイン・新規テストアカウント作成・本番での削除操作は行わない。",
@@ -1496,7 +1496,7 @@
     "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
     "title_status": "Human Gate 2で最終タイトル承認済み。",
     "upload_eligible": false,
-    "phase_a_boundary": "Human Gate 1承認済み。Human提供の個人情報が見えない設定画面3枚を反映し、音声・実時間字幕・scene・full draftまで生成済み。削除操作、thumbnail、YouTube操作は行わない。",
+    "phase_a_boundary": "Human Gate 1承認済み。Human提供の個人情報が見えない設定画面3枚を反映し、音声・実時間字幕・scene・full draftまで生成済み。実データの削除、YouTubeのschedule・publishは行わず、Human承認済みthumbnailでprivate uploadのみ実施する。",
     "contains_synthetic_media": false,
     "ai_disclosure_review": "Phase Bで確認。Phase AではAI生成画像を作らず、LINE UIは実画面のみとする。",
     "visibility": "private",
@@ -1507,11 +1507,29 @@
     "final_qa_report": "output/review/final_qa.md",
     "final_sha256": "C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28",
     "final_duration_sec": 280.2,
-    "thumbnail": null,
-    "thumbnail_status": "NOT_STARTED_CHATGPT_CREATION_PENDING",
+    "thumbnail": "assets/thumbnail/thumbnail.png",
+    "thumbnail_status": "UPLOADED_SUCCESS",
     "thumbnail_planned_path": "assets/thumbnail/thumbnail.png",
-    "publish_preflight_status": "BLOCKED_THUMBNAIL_PENDING",
-    "publish_preflight_report": "work/youtube_publish/dry_run.json"
+    "publish_preflight_status": "PASS",
+    "publish_preflight_report": "work/youtube_publish/dry_run.json",
+    "youtube_upload": "uploaded_private",
+    "youtube_video_id": "g7M2ykjNC6k",
+    "youtube_url": "https://youtu.be/g7M2ykjNC6k",
+    "youtube_privacy": "private",
+    "youtube_scheduled_at": null,
+    "youtube_scheduled_at_api": null,
+    "thumbnail_uploaded": true,
+    "uploaded_at": "2026-09-08T14:31:10Z",
+    "youtube_channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+    "upload_verification": {
+      "status": "PASS",
+      "verified_at": "2026-09-08T14:35:32Z",
+      "title_match": true,
+      "description_match": true,
+      "privacy_status": "private",
+      "publish_at": null,
+      "thumbnail_present": true
+    }
   },
   "phase_a": {
     "status": "APPROVED_WITH_MINOR_CHANGES",
@@ -1535,8 +1553,7 @@
       "競合の文章、構成、サムネイルの再利用"
     ],
     "not_done": [
-      "thumbnail生成（ChatGPT作成予定）",
-      "YouTube操作",
+      "公開予約・公開",
       "End Screen設定（YouTube StudioでHuman設定）"
     ],
     "human_gate_questions": [

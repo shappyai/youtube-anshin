@@ -3,7 +3,7 @@
 - Episode: 016_line_storage_cleanup
 - Topic: LINEが重い・容量が大きいと感じたときに、写真やトークを消す前に確認する3か所
 - 基準日: 2026-09-08
-- Phase: **Phase C / final候補確定、thumbnail・YouTube操作待ち**
+- Phase: **Phase C / private upload済み、公開操作待ち**
 - status: finalized
 - phase_a_human_gate: APPROVED WITH MINOR CHANGES
 - human_approved: true
@@ -15,8 +15,8 @@
 - VOICEVOX生成: 完了。剣崎雌雄ノーマル、44セグメントを生成・再利用。`キャッシュ`を含む11セグメント（12回出現）をv5で再生成
 - 字幕生成: 完了。実測タイミングの44 cue、SRT/ASSを生成
 - scene・動画生成: 完了。13 scene + CTAのfull draftを生成
-- thumbnail生成: 未実施（ChatGPT作成予定。配置予定: `assets/thumbnail/thumbnail.png`）
-- YouTube操作: 未実施（End ScreenはHumanがYouTube Studioで設定）
+- thumbnail: Human承認済み（ChatGPT作成、Codex生成なし）。`assets/thumbnail/thumbnail.png`をYouTubeへ設定済み
+- YouTube upload: `uploaded_private`（End ScreenはHumanがYouTube Studioで設定）
 - 共通CTA設定: 更新済み。新canonical textの音声・画像assetをPhase Bで生成
 - full draft: `output/draft_auto_v5.mp4`、実尺280.2秒（本編267.743秒 + CTA12.456秒）。v4は保持
 - draft SHA-256: `C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28`
@@ -24,7 +24,9 @@
 - final SHA-256: `C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28`
 - final QA: PASS（SHA一致、decode、black frame、unexpected silence、clipping、AV sync）
 - Human Gate 2: APPROVED（2026-09-08）
-- publish preflight: thumbnail未作成のためBLOCKED。dry-runでOAuth/APIは呼び出していない。
+- publish preflight: PASS（thumbnail、metadata、duplicate guard、final QA）。dry-runではOAuth/API未呼び出し。
+- YouTube video: `g7M2ykjNC6k` / `https://youtu.be/g7M2ykjNC6k` / `private` / `publishAt: null`
+- upload後API再確認: PASS（title、description、privacyStatus、publishAt未設定、thumbnail、channel guard）
 
 ## Human Gate 1承認
 
@@ -100,9 +102,20 @@
 
 - Humanが`draft_auto_v5.mp4`を全編確認し、SCENE-002の3項目表示、キャッシュの発音、字幕同期、実画面のマスク状態、タイトルを承認した。
 - `output/final.mp4`は再encodeなしのbyte-identical copyとして確定した。概要欄、チャプター、固定コメント案は`publish.json`へ最終記録した。
-- final QAと公開前の各preflightを実施済み。thumbnailは未作成、YouTube upload・schedule・publishは未実施とする。
+- final QAと公開前の各preflightを実施済み。Human承認済みthumbnailを設定し、YouTubeはprivate uploadまで完了。schedule・publishは未実施とする。
 - End ScreenはHumanがYouTube Studioで設定する。
 
 ## 継続中の安全境界
 
-**Human提供の設定画面だけを使用し、実データの削除操作、Android EmulatorへのLINEログイン、thumbnail生成、YouTube upload/publishは行わない。thumbnail完成とHumanによる公開前確認が済むまで停止する。**
+**Human提供の設定画面だけを使用し、実データの削除操作、Android EmulatorへのLINEログイン、Codexによるthumbnail生成、YouTubeのschedule・publishは行わない。End Screenと固定コメントはHuman対応とする。**
+
+## YouTube publication
+- youtube_upload: uploaded_private
+- youtube_video_id: g7M2ykjNC6k
+- youtube_url: https://youtu.be/g7M2ykjNC6k
+- youtube_privacy: private
+- youtube_scheduled_at: null
+- youtube_scheduled_at_api: null
+- thumbnail_uploaded: true
+- uploaded_at: 2026-09-08T14:31:10Z
+- youtube_channel_id: UCgVRceTJYO5KOrPX4w2jXZw

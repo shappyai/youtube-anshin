@@ -1,7 +1,7 @@
 # Episode 016 Final Candidate QC
 
 基準日: 2026-09-08  
-状態: final候補確定、Human Gate 2 APPROVED
+状態: private upload済み、Human Gate 2 APPROVED
 
 ## Human提供画面
 
@@ -49,7 +49,7 @@
 - `キャッシュ`の出現は12回、影響セグメントは11本。005、010、018、019、020、021、022、024、025、040、042を再生成した。その他33本は再利用した。
 - `config/voicevox_pronunciation.yaml`に重複のないglobal登録を追加し、`accent_phrases`のaccent 3、`pitch_shape: low_high_plateau`、`pitch_high_anchor_mora: 3`を適用した。`ッ`は無声モーラのため、聴感上の山は最終の「シュ」に置かれる。
 - draft SHA-256: `C1D7B6DA8039DEC668FB9EAB8FAA8E51354D43246AA3B4D33E2750B3D2EECF28`
-- thumbnail生成、YouTube upload/publish、実データ削除は未実施。Human Gate 2承認後、finalizeは再encodeなしのcopy-onlyで実施する。
+- Codexによるthumbnail生成、実データ削除、YouTubeのschedule・publishは未実施。Human承認済みthumbnailを使用してprivate uploadを実施した。
 
 ## Human Gate 2確認項目
 
@@ -68,6 +68,19 @@
 - final QA: PASS。映像・音声のdecode、black frame、unexpected silence、clipping、AV syncを確認した。レポートは`output/review/final_qa.md`。
 - viewer-facing INTERNAL_ONLY QA: PASS（検出0）。`キャッシュ`標準辞書登録と全12回の発音QAもPASS。
 - 概要欄、チャプター、固定コメント案: `publish.json`へ最終確定。
-- thumbnail: 未作成。予定配置は`assets/thumbnail/thumbnail.png`で、ChatGPT作成後にHuman確認する。
+- thumbnail: Human承認済み。`assets/thumbnail/thumbnail.png`を使用し、YouTube設定済み。Codexによる生成・差し替えは行っていない。
 - End Screen: 未設定。HumanがYouTube Studioで設定する。
-- publish preflight: BLOCKED（thumbnail未作成）。`work/youtube_publish/dry_run.json`でOAuth/API未呼び出しを確認した。dry-run以外のYouTube操作は行わない。
+- publish preflight: PASS（thumbnail、metadata、duplicate guard、final QA）。`work/youtube_publish/dry_run.json`はupload前dry-runのPASS記録。
+
+## YouTube非公開upload後の確認
+
+- video ID: `g7M2ykjNC6k`
+- URL: `https://youtu.be/g7M2ykjNC6k`
+- channel guard: PASS（「大人のデジタル安心室」）
+- upload result: `uploaded_private`
+- `privacyStatus`: `private`
+- `publishAt`: 未設定（API値 `null`）
+- title / description: metadataと一致
+- thumbnail: `assets/thumbnail/thumbnail.png` 設定済み。API再取得でthumbnail keys（default / medium / high / standard / maxres）を確認。
+- upload後API再確認: PASS。記録は`work/youtube_publish/api_recheck.json`。
+- 固定コメント、End Screen、公開予約、公開: 未実施。Human対応。
