@@ -1,0 +1,48 @@
+{
+  "episode_id": "015",
+  "revision": "v3",
+  "status": "HUMAN_REVIEW_REQUIRED",
+  "human_gate": 2,
+  "target_scenes": [
+    {
+      "scene_id": "SCENE-004",
+      "capture": "assets/captured/pc/scene_004_google_signin_2sv_entry.jpg",
+      "ui_entry": "Google にログインする方法 → 2 段階認証プロセス",
+      "capture_policy": "entry_only_no_pii",
+      "raw_dimensions": "513x145",
+      "rendered_sha256": "818D66E4DF34233086DA123AF32159A9AEEC63AA572D38BBB849C6534C369E4E",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "SCENE-007",
+      "capture": "assets/captured/pc/scene_007_google_backup_codes_entry.jpg",
+      "ui_entry": "バックアップ コード → バックアップ コードの取得",
+      "capture_policy": "entry_only_no_code_digits_no_qr",
+      "raw_dimensions": "502x82",
+      "rendered_sha256": "B57C222F6285082C1AB12487D8B4037A8204FAC61EC96FC3E520E10338D64B44",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "SCENE-010",
+      "capture": "assets/captured/pc/scene_010_google_passkey_entry.jpg",
+      "ui_entry": "パスキーとセキュリティ キー → 2 件のパスキー",
+      "capture_policy": "entry_only_no_device_names",
+      "raw_dimensions": "513x61",
+      "rendered_sha256": "A61A5A3F1C56936E4E3380AC76C81EFFBCB08D4912F454C0AF9197CF70853961",
+      "status": "PASS"
+    }
+  ],
+  "checks": {
+    "actual_ui_entry_capture": "PASS",
+    "ai_reconstruction": "PASS",
+    "backup_code_secret_protection": "PASS",
+    "pii_and_device_name_protection": "PASS",
+    "senior_readability": "REVIEW",
+    "scene_quality_mechanical": "REVIEW"
+  },
+  "draft": {
+    "path": "output/draft_auto_v3.mp4",
+    "sha256": "B42AAFCD4773BA727B50465AE24CD326F65DF8EBC9ECE1EFF65C4E47D47D923C",
+    "duration_seconds": 318.74
+  }
+}

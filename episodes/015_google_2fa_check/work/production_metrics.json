@@ -7,9 +7,11 @@
   "draft_v1_completed": "2026-09-08T11:39:18+09:00",
   "draft_versions": [
     "draft_auto_v1.mp4",
-    "draft_auto_v2.mp4"
+    "draft_auto_v2.mp4",
+    "draft_auto_v3.mp4"
   ],
   "draft_v2_completed": "2026-09-08T11:55:06+09:00",
+  "draft_v3_completed": "2026-09-08T14:15:18+09:00",
   "main_narration_duration_seconds": 306.18,
   "full_draft_duration_seconds": 318.74,
   "human_correction_count": null,

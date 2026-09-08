@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "metadata": {
     "research_date": "2026-09-08",
-    "production_phase": "Phase B / full draft Human Gate待ち",
+    "production_phase": "Phase B / draft_auto_v3 Human Gate 2待ち",
     "channel": "大人のデジタル安心室",
     "visual_theme": "adult_digital_soft_background",
     "target_audience_detail": "50〜70代、特に65歳以上。現在の設定を自分で確認できることを優先し、headline 80px以上、main fact 60px以上、secondary 52px以上、字幕72pxを基準にする。",
@@ -46,10 +46,10 @@
       "YouTube uploadは未実施"
     ],
     "phase_b": {
-      "status": "FULL_DRAFT_HUMAN_GATE_PENDING",
-      "current_ui_verification": "OFFICIAL_HELP_AX_CONFIRMED",
-      "personalized_account_capture": "PENDING_HUMAN_AUTHENTICATED_TEST_SESSION",
-      "official_asset_strategy": "fallback_official_label_until_human_capture",
+      "status": "FULL_DRAFT_V3_HUMAN_GATE_2_PENDING",
+      "current_ui_verification": "AUTHENTICATED_TEST_SESSION_ENTRY_CAPTURED",
+      "personalized_account_capture": "CAPTURED_ENTRY_ONLY_HUMAN_AUTHENTICATED_TEST_SESSION",
+      "official_asset_strategy": "hybrid_real_ui_entry_plus_fallback_card",
       "backup_code_policy": "entry_and_existence_only_no_digits",
       "thumbnail_status": "NOT_STARTED",
       "youtube_upload_status": "NOT_STARTED",
@@ -58,7 +58,14 @@
       "cta_postroll_duration_seconds": 13.0,
       "main_narration_duration_seconds": 306.18,
       "full_draft_duration_seconds": 318.74,
-      "full_draft_path": "output/draft_auto_v2.mp4"
+      "full_draft_path": "output/draft_auto_v3.mp4",
+      "full_draft_sha256": "B42AAFCD4773BA727B50465AE24CD326F65DF8EBC9ECE1EFF65C4E47D47D923C",
+      "rendered_scene_sha256": {
+        "SCENE-004": "818D66E4DF34233086DA123AF32159A9AEEC63AA572D38BBB849C6534C369E4E",
+        "SCENE-007": "B57C222F6285082C1AB12487D8B4037A8204FAC61EC96FC3E520E10338D64B44",
+        "SCENE-010": "A61A5A3F1C56936E4E3380AC76C81EFFBCB08D4912F454C0AF9197CF70853961"
+      },
+      "visual_revision": "Scene 004・007・010をHumanログイン済みPCブラウザの入口キャプチャへ差し替え。個人情報・秘密情報はraw素材に残さない。"
     },
     "narration_segment_count": 42,
     "subtitle_count": 61,
@@ -1348,26 +1355,26 @@
       "section_label": "1 / 3",
       "official_asset": [
         {
-          "kind": "quote",
-          "label": "Google公式UI名",
-          "text": "2段階認証プロセス",
+          "kind": "image",
+          "path": "assets/captured/pc/scene_004_google_signin_2sv_entry.jpg",
+          "label": "実画面：Google にログインする方法 → 2 段階認証プロセス",
           "source": "SRC-001"
         }
       ],
       "official_asset_crop": [],
       "official_asset_slot": {
-        "status": "fallback_official_label",
-        "source_url": "https://support.google.com/accounts/answer/185839?co=GENIE.Platform%3DDesktop&hl=ja",
-        "capture_method": "PCブラウザの認証済みテストセッション（Human確認後）",
-        "phase": "Phase B",
-        "note": "現行のGoogle公式UI名称を公式ヘルプで確認済み。個別アカウント画面は認証済みテストセッションをHuman確認後にcaptureするまで、公式UI名称のquote cardで代替する。",
+        "status": "captured_official_ui_entry",
+        "source_url": "https://myaccount.google.com/security",
+        "capture_method": "PCブラウザ・Humanログイン済みテストアカウント（入口のみ）",
+        "phase": "Phase B / Human Gate 2 visual revision",
+        "note": "Google公式のセキュリティ設定画面で「Google にログインする方法」から「2 段階認証プロセス」へ進む入口だけをcapture。メールアドレス、アカウント名、プロフィール画像、電話番号などはraw素材に含めず、認証操作・設定変更は行っていない。",
         "source_id": "SRC-001"
       },
       "official_source_ids": [
         "SRC-001"
       ],
       "official_ui_required": true,
-      "capture_status": "FALLBACK_OFFICIAL_LABEL",
+      "capture_status": "CAPTURED_OFFICIAL_UI_ENTRY",
       "device": "PCブラウザ",
       "visual_role": "official_ui_current_2sv_method",
       "visual_focal_point": "2段階認証プロセス内の現在の確認方法を大きくcropする",
@@ -1469,26 +1476,26 @@
       "section_label": "2 / 3",
       "official_asset": [
         {
-          "kind": "quote",
-          "label": "Google公式UI名",
-          "text": "バックアップ コード",
+          "kind": "image",
+          "path": "assets/captured/pc/scene_007_google_backup_codes_entry.jpg",
+          "label": "実画面：バックアップ コードの入口",
           "source": "SRC-003"
         }
       ],
       "official_asset_crop": [],
       "official_asset_slot": {
-        "status": "fallback_official_label",
+        "status": "captured_official_ui_entry",
         "source_url": "https://support.google.com/accounts/answer/1187538?co=GENIE.Platform%3DDesktop&hl=ja",
-        "capture_method": "PCブラウザの認証済みテストセッション（Human確認後）",
-        "phase": "Phase B",
-        "note": "バックアップ コードの入口と公式UI名称だけを表示する。実コードの数字は撮影・保存・字幕化しない。新規作成や更新はHuman確認なしに行わない。",
+        "capture_method": "PCブラウザ・Humanログイン済みテストアカウント（入口のみ）",
+        "phase": "Phase B / Human Gate 2 visual revision",
+        "note": "2 段階認証プロセス内の「バックアップ コード」入口の行だけをcapture。コード一覧は開かず、実コードの数字・QRコード・アカウント情報はraw素材に保存していない。新規作成・更新・削除は行っていない。",
         "source_id": "SRC-003"
       },
       "official_source_ids": [
         "SRC-003"
       ],
       "official_ui_required": true,
-      "capture_status": "FALLBACK_OFFICIAL_LABEL",
+      "capture_status": "CAPTURED_OFFICIAL_UI_ENTRY",
       "device": "PCブラウザ",
       "visual_role": "official_ui_backup_codes",
       "visual_focal_point": "バックアップ コードの項目名と確認導線を大きくcropする",
@@ -1599,26 +1606,26 @@
       "section_label": "3 / 3",
       "official_asset": [
         {
-          "kind": "quote",
-          "label": "Google公式UI名",
-          "text": "パスキーとセキュリティ キー",
+          "kind": "image",
+          "path": "assets/captured/pc/scene_010_google_passkey_entry.jpg",
+          "label": "実画面：パスキーとセキュリティ キーの入口",
           "source": "SRC-004"
         }
       ],
       "official_asset_crop": [],
       "official_asset_slot": {
-        "status": "fallback_official_label",
-        "source_url": "https://support.google.com/accounts/answer/13548313?hl=ja",
-        "capture_method": "PCブラウザの認証済みテストセッション（Human確認後）",
-        "phase": "Phase B",
-        "note": "現行のGoogle公式UI名称を公式ヘルプで確認済み。個別アカウントの登録一覧は認証済みテストセッションをHuman確認後にcaptureするまで、公式UI名称のquote cardで代替する。",
+        "status": "captured_official_ui_entry",
+        "source_url": "https://myaccount.google.com/security",
+        "capture_method": "PCブラウザ・Humanログイン済みテストアカウント（入口のみ）",
+        "phase": "Phase B / Human Gate 2 visual revision",
+        "note": "Google公式の「Google にログインする方法」にある「パスキーとセキュリティ キー」の入口行だけをcapture。個別の端末名・アカウント情報が並ぶ一覧は開かず、raw素材に保存していない。",
         "source_id": "SRC-004"
       },
       "official_source_ids": [
         "SRC-004"
       ],
       "official_ui_required": true,
-      "capture_status": "FALLBACK_OFFICIAL_LABEL",
+      "capture_status": "CAPTURED_OFFICIAL_UI_ENTRY",
       "device": "PCブラウザ",
       "visual_role": "official_ui_passkeys",
       "visual_focal_point": "登録済み一覧と本人所有端末の確認箇所を大きくcropする",
@@ -1774,7 +1781,7 @@
       "03:10 3 / 3 登録されているパスキー",
       "04:35 まとめ"
     ],
-    "chapters_status": "SYNCED_TO_AUDIO_TIMING_DRAFT_V2",
+    "chapters_status": "SYNCED_TO_AUDIO_TIMING_DRAFT_V3",
     "tags": [
       "Google",
       "Googleアカウント",
@@ -1788,7 +1795,7 @@
     "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
     "contains_synthetic_media": false,
     "ai_disclosure_review": "REVIEW_REQUIRED_BEFORE_UPLOAD",
-    "status": "DRAFT_FULL_HUMAN_GATE_PENDING",
+    "status": "DRAFT_AUTO_V3_HUMAN_GATE_2_PENDING",
     "visibility": "private",
     "thumbnail": null,
     "thumbnail_status": "NOT_STARTED_PHASE_B",
@@ -1812,11 +1819,13 @@
     "human_approval_required": true,
     "phase_a_boundary": "Phase Aの設計・一次情報整理まで。動画、音声、実画面capture、サムネイル、YouTube uploadは未実施。",
     "phase_b_status": {
-      "status": "FULL_DRAFT_HUMAN_GATE_PENDING",
-      "personalized_google_ui_capture": "PENDING_HUMAN_AUTHENTICATED_TEST_SESSION",
+      "status": "FULL_DRAFT_V3_HUMAN_GATE_2_PENDING",
+      "personalized_google_ui_capture": "CAPTURED_ENTRY_ONLY_HUMAN_AUTHENTICATED_TEST_SESSION",
       "backup_code_digits": "MUST_NOT_APPEAR",
       "thumbnail_generation": "NOT_STARTED",
-      "youtube_upload": "NOT_STARTED"
+      "youtube_upload": "NOT_STARTED",
+      "full_draft_path": "output/draft_auto_v3.mp4",
+      "visual_revision": "Scene 004・007・010は実Google UIの入口のみ。後段の個人情報・秘密情報を含む一覧やバックアップコード本体は使用しない。"
     }
   }
 }
