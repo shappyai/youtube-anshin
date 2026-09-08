@@ -1,0 +1,12 @@
+
+## 2026-09-08T09:01:18Z
+- timestamp: 2026-09-08T09:01:18Z
+- mode: scheduled
+- final_sha256: 7AB436A319D66CC7EF27BA9A936CC6AC15AC0A725EBEFA7818AFC2C7131EDB5D
+- title: 【Google】2段階認証していても確認したい3か所
+- video_id: f_6347guKso
+- privacy: private
+- publish_at_local: 2026-09-08 19:00:00 JST
+- publish_at_api: 2026-09-08T10:00:00Z
+- thumbnail_status: success
+- verification: PASS

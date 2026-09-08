@@ -1,0 +1,16 @@
+{
+  "episode": "015_google_2fa_check",
+  "status": "uploaded_scheduled",
+  "mode": "scheduled",
+  "final_sha256": "7AB436A319D66CC7EF27BA9A936CC6AC15AC0A725EBEFA7818AFC2C7131EDB5D",
+  "title": "【Google】2段階認証していても確認したい3か所",
+  "requested_privacy": "private",
+  "publish_at_local": "2026-09-08 19:00:00 JST",
+  "publish_at_api": "2026-09-08T10:00:00Z",
+  "started_at": "2026-09-08T09:01:18Z",
+  "video_id": "f_6347guKso",
+  "uploaded_at": "2026-09-08T09:01:23Z",
+  "thumbnail_uploaded": true,
+  "thumbnail_status": "success",
+  "verification": "PASS"
+}

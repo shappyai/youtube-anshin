@@ -2,7 +2,7 @@
 
 - Episode: `015`
 - Slug: `google_2fa_check`
-- 制作段階: `Final candidate / Human Gate 2 APPROVED`
+- 制作段階: `Phase C / YouTube scheduled upload完了`
 - 調査日: `2026-09-08`
 - 採用タイトル（暫定）: **【Google】2段階認証していても確認したい3か所**
 - 形式: `focused_setting_depth_v1`
@@ -55,7 +55,7 @@ Episode 015では、上記をもう一度一覧で説明しない。セキュリ
 
 ## CTA案
 
-- 本編外の終了CTAは、`config/channel_cta.json` の `channel_common_cta` を基本とする。
+- 本編外の終了CTAは、`config/channel_cta.json` の `channel_common_cta` をcopy-onlyで使用した。
 - 追加案（未採用・Phase Bで人間確認）: 「次は、スマホを買い替えたあとにGoogleアカウントの端末一覧をどう見るかを確認する」。Episode 001との重複を避けるため、今回の概要欄や音声へはまだ入れない。
 
 ## Phase Bの進捗とHuman Gate
@@ -69,4 +69,4 @@ Episode 015では、上記をもう一度一覧で説明しない。セキュリ
 - v4専用音声・字幕確認: `work/audio_subtitle_revision_v4.md`。セクション番号、読み、compoundのaudio_query、実時間字幕を確認した。
 - バックアップ コードは入口・存在確認だけとし、実コードの数字は撮影・保存・字幕化していない。新規作成・更新もしていない。
 - draft_auto_v4をHuman Gate 2で承認し、再encodeなしで`output/final.mp4`へcopy-only finalizeした。final QAはPASS。
-- サムネイル生成、YouTube upload、publish、scheduleは未実施。thumbnailはChatGPT側で作成する恒久ルールに従い、End ScreenはYouTube Studioで人間設定する。
+- サムネイルはChatGPT生成・Human承認済みで配置し、YouTube scheduled uploadとthumbnail設定を完了した。動画はprivateで2026-09-08 19:00 JSTに予約済み。End Screenと固定コメントはYouTube Studioで人間設定する。

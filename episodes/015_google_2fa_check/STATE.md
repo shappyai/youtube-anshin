@@ -6,8 +6,8 @@
 - 更新日: 2026-09-08
 - status: finalized
 - human_approved: true
-- phase: Final candidate（Human Gate 2 APPROVED / copy-only finalized）
-- 次の停止点: thumbnail完成後のpublish preflightと、YouTube StudioでのEnd Screen設定。upload／schedule／publishは未実施。
+- phase: Phase C（YouTube scheduled upload完了 / Human Gate 2 APPROVED）
+- 次の停止点: YouTube StudioでEnd Screenと固定コメントを人間設定する。動画はprivateで2026-09-08 19:00 JSTに予約済み。即時publicは未実施。
 
 ## 今回の結論
 
@@ -58,18 +58,37 @@ Episode001の「セキュリティ チェックアップ」「再設定用の電
 - Humanログイン済みPCブラウザで、実Google UIの入口だけをcaptureした。Scene 004はセキュリティ設定の導線、Scene 007はバックアップ コード入口、Scene 010はパスキー入口。後段の個人情報・秘密情報は既存カードで説明する。
 - バックアップ コードは入口・存在確認のみ。実コードの数字は撮影・保存・字幕化していない。新規作成・更新もしていない。
 - captions.srtの実時間確定、動画render、full draft生成、copy-only finalize、final QAは完了した。
-- サムネイル生成（ChatGPT側）
-- YouTube upload / schedule / publish
-- YouTube StudioのEnd Screen設定
+- サムネイルはChatGPT生成・Human承認済みで指定パスへ配置し、YouTubeのthumbnail設定も完了した。
+- YouTube upload / scheduleは完了。privacyStatus=private、publishAt=2026-09-08 19:00 JST。
+- 即時public、YouTube StudioのEnd Screen設定、固定コメント投稿は未実施。
 - グローバルSTATE.mdの変更
 
-## Human Gate 2承認後の公開前確認
+## 公開後のHuman作業
 
-1. thumbnailをChatGPT側で作成し、指定パスへ配置する。
-2. YouTube StudioでEnd Screenを人間設定する。動画内に疑似登録UIはない。
-3. thumbnail配置後にpublish preflightを再実行する。upload／schedule／publishは別途人間確認後に行う。
-4. YouTube AI開示（contains_synthetic_media）の最終判断をupload前に人間確認する。
+1. YouTube StudioでEnd Screenを人間設定する。動画内に疑似登録UIはない。
+2. 固定コメントは自動投稿せず、必要ならYouTube Studioで人間が投稿する。
+3. 予約時刻までprivacyStatus=privateの状態を確認する。即時publicへの変更は行わない。
 
 ## CTA
 
-既存のchannel_common_ctaをcopy-onlyで使用する予定。追加案「次回はログイン中の端末も確認する」は候補として記録しただけで、現時点ではcanonicalなナレーション・概要欄に採用していない。
+既存のchannel_common_ctaをcopy-onlyで使用した。追加案「次回はログイン中の端末も確認する」は候補として記録しただけで、現時点ではcanonicalなナレーション・概要欄に採用していない。
+
+## YouTube publication
+- youtube_upload: uploaded_scheduled
+- youtube_video_id: f_6347guKso
+- youtube_url: https://youtu.be/f_6347guKso
+- youtube_privacy: private
+- youtube_scheduled_at: 2026-09-08 19:00:00 JST
+- youtube_scheduled_at_api: 2026-09-08T10:00:00Z
+- thumbnail_uploaded: true
+- uploaded_at: 2026-09-08T09:01:23Z
+- youtube_channel_id: UCgVRceTJYO5KOrPX4w2jXZw
+- auth_health: PASS（OAuth client、refresh token、YouTube API auth）
+- channel_guard: PASS（UCgVRceTJYO5KOrPX4w2jXZw）
+- duplicate_guard: PASS（upload前の既存video IDなし・reupload false）
+- youtube_schedule_verification: PASS（privacyStatus=private・publishAt一致）
+- youtube_thumbnail_verification: PASS（thumbnails.set）
+- youtube_metadata_verification: PASS（title・description・channel ID・privacyStatus・publishAt）
+- youtube_reupload: false
+- end_screen_status: HUMAN_ACTION_REQUIRED_NOT_CONFIGURED
+- pinned_comment_status: HUMAN_ACTION_REQUIRED_NOT_POSTED

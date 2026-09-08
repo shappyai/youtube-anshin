@@ -1,11 +1,12 @@
-# Episode 015 QC — final candidate
+# Episode 015 QC — scheduled upload
 
-- 状態: `FINALIZED_HUMAN_APPROVED`
+- 状態: `UPLOADED_SCHEDULED`
 - 確認日: 2026-09-08
 - approved draft: `output/draft_auto_v4.mp4`
 - final: `output/final.mp4`
 - finalize方式: copy-only（再encodeなし）
 - SHA-256: `7AB436A319D66CC7EF27BA9A936CC6AC15AC0A725EBEFA7818AFC2C7131EDB5D`
+- thumbnail: `assets/thumbnail/thumbnail.png`（ChatGPT生成・Human承認済み・YouTube設定済み）
 - 実尺: 312.918秒（5分12.918秒、final container probe）。音声timeline/QA基準は313.356秒（5分13.356秒）。
 - 映像: 1920×1080 / H.264 / 30fps
 - 音声: AAC / 48kHz / mono
@@ -18,6 +19,10 @@
 - Phase 2 QA: PASS（FAIL 0 / WARN 0）
 - Final QA: PASS（SHA一致、decode error 0、black frame 0、unexpected silence 0、audio clipping 0）
 - Publish preflight dry-run: PASS（final / Human approval / final QA / metadata確認、privacy=PRIVATE、OAuth/API未呼出し）
+- OAuth health: PASS（refresh token、YouTube API auth）
+- Channel guard: PASS（UCgVRceTJYO5KOrPX4w2jXZw）
+- Duplicate guard: PASS（upload前の既存video IDなし、reupload false）
+- Scheduled upload/API verify: PASS（video ID、title、description、privacyStatus、publishAt、thumbnail設定）
 - VOICEVOX pronunciation preflight: PASS、42/42 query、review 0
 - Subtitle preflight: PASS、61 cue、FAIL 0 / WARN 0
 - viewer-facing INTERNAL_ONLY文言QA: PASS、検出0
@@ -31,10 +36,14 @@
 
 Human Gate 2: **APPROVED**（映像・音声・字幕）。
 
-## 公開前の未実施項目
+## YouTube publication
 
-1. thumbnail生成（ChatGPT側）と`assets/thumbnail/thumbnail.png`への配置。
-2. YouTube StudioでEnd Screenを人間設定する。
-3. thumbnail配置後のpublish preflight、YouTube upload・schedule・publish。
+- video ID: `f_6347guKso`
+- publishAt: `2026-09-08 19:00:00 JST`（`2026-09-08T10:00:00Z`）
+- privacyStatus: `private`
+- thumbnail: `PASS（thumbnails.set）`
+- metadata: `PASS（title・description・channel ID・privacyStatus・publishAt）`
+- End Screen: 未設定（YouTube Studioで人間設定）
+- 固定コメント: 未投稿（自動化なし・人間作業）
 
-詳細: `output/review/final_qa.md`、`output/review/final_qa.json`、`work/youtube_publish/dry_run.json`、`work/phase2_qa.md`、`work/production_preflight_phase2.md`、`work/production_preflight_v4.md`、`work/production_preflight_final.md`、`work/pronunciation_preflight_v4.md`、`work/subtitle_preflight_v4.md`、`work/viewer_facing_internal_brand_promise_v4.md`、`work/viewer_facing_internal_brand_promise_final.md`、`work/cta_preflight_v4.md`、`work/cta_preflight_final.md`、`work/scene_quality_report_v4.md`、`work/audio_subtitle_revision_v4.md`
+詳細: `output/review/final_qa.md`、`output/review/final_qa.json`、`work/youtube_publish/auth_preflight.json`、`work/youtube_publish/dry_run.json`、`work/youtube_publish/upload_attempt.json`、`work/youtube_publish/youtube_upload_log.md`、`work/phase2_qa.md`、`work/production_preflight_phase2.md`、`work/production_preflight_v4.md`、`work/production_preflight_final.md`、`work/pronunciation_preflight_v4.md`、`work/subtitle_preflight_v4.md`、`work/viewer_facing_internal_brand_promise_v4.md`、`work/viewer_facing_internal_brand_promise_final.md`、`work/cta_preflight_v4.md`、`work/cta_preflight_final.md`、`work/scene_quality_report_v4.md`、`work/audio_subtitle_revision_v4.md`
