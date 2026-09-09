@@ -4,19 +4,19 @@
 
 - Episode: `017`
 - Slug: `smartphone_battery_drain`
-- 制作段階: `Phase B / v2 full draft ready / Human Gate 2 correction review`
+- 制作段階: `Phase C / final candidate ready / YouTube operation pending`
 - 調査日: `2026-09-08`
 - 採用プラットフォーム案: **iPhone中心**
 - 形式: `focused_troubleshooting_v1`
 - 想定尺: `4〜6分（CTAを含む最終目標）`
 - 主な視聴者: スマホの充電が以前より早く減ると感じている50〜70代、特に65歳以上
-- 現在の未実施: サムネイル生成、YouTube操作。実画面はHuman提供のiPhone 12 mini／iOS 26.6.1を受領済み
+- 現在の未実施: サムネイル生成、YouTube操作。実画面はHuman提供のiPhone 12 mini／iOS 26.6.1を受領済み。Human Gate 2承認済み、final.mp4確定済み
 
 ## 企画の結論
 
 「朝は100%だったのに、夕方にはかなり減っている。バッテリーの寿命かもしれない」と感じた人に、いきなり交換や一括の節電設定を勧めず、まず自分のiPhoneで確認できる場所を3つに絞って案内する。
 
-### Human Gate 1へ提案する最終3項目
+### 最終3項目（Human Gate 2承認済み）
 
 1. **バッテリー使用状況の内訳**
    - `設定 → バッテリー`
@@ -103,8 +103,8 @@ Episode 017では「節電10選」に広げず、視聴者の状況を次の流�
 2. すぐ交換や節電設定の一括変更をしない、という結論を提示。
 3. 小さな見出し「今日見る3か所」と、大きな一覧「1　何が電池を使っているか」「2　画面の設定」「3　バッテリーの状態」を30秒以内に提示。
 
-## Phase Bの現在状態
+## 最終状態
 
-Human Gate 1は **APPROVED WITH MINOR CHANGES**。CTA、section番号、冒頭一覧、バッテリー状態の説明方針を反映した。
+Human Gate 1は **APPROVED WITH MINOR CHANGES**、Human Gate 2は **APPROVED**。CTA、section番号、冒頭一覧、バッテリー状態の説明方針を反映した。
 
-Phase Bでは、Human提供のiPhone 12 mini／iOS 26.6.1を正とする。「バッテリーの状態と充電」「最大容量」「ピークパフォーマンス性能」「画面上」「バックグラウンド」「自動ロック 5分」を実画面で確認した。Human Gate 2修正として、標準発音辞書へHuman承認済みの「バッテリー」を登録し、該当10セグメントを再生成した。実画面メインのsceneを拡大してv2 full draftを作成し、旧v1は保持している。サムネイル生成、finalize、YouTube操作は行わない。
+Phase Bでは、Human提供のiPhone 12 mini／iOS 26.6.1を正とする。「バッテリーの状態と充電」「最大容量」「ピークパフォーマンス性能」「画面上」「バックグラウンド」「自動ロック 5分」を実画面で確認した。Human Gate 2修正として、標準発音辞書へHuman承認済みの「バッテリー」を登録し、該当10セグメントを再生成した。実画面メインのsceneを拡大してv2 full draftを作成し、旧v1は保持している。Human Gate 2でdraft_auto_v2を承認し、copy-onlyでfinal.mp4を確定した。サムネイル生成、YouTube操作は行わない。

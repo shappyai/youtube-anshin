@@ -3,19 +3,20 @@
 - Episode: 017_smartphone_battery_drain
 - Topic: iPhoneの充電が以前より早く減ると感じたときに、原因を切り分けるために確認する3か所
 - 基準日: 2026-09-09
-- Phase: **Phase B / v2 full draft ready / Human Gate 2 correction review**
-- status: phase_b_full_draft_v2_ready_human_gate_2
+- Phase: **Phase C / final candidate ready / YouTube operation pending**
+- status: finalized
 - platform_recommendation: iPhone中心
-- selected_title: 「【iPhone】充電の減りが早い？まず確認したい3か所」Human Gate 1承認済み
+- selected_title: 「【iPhone】充電の減りが早い？まず確認したい3か所」Human Gate 2承認済み・final確定
 - selected_checks: バッテリー使用状況、画面表示と明るさ、バッテリーの状態
 - phase_a_human_gate: APPROVED_WITH_MINOR_CHANGES
-- human_approved: false（Episode全体。Human Gate 2未実施）
+- human_approved: true
+- human_gate_2: APPROVED
 - upload_eligible: false
 - viewer_facing_internal_brand_promise: 0
 - 公式一次情報調査: Appleを中心に確認。Android一般情報とPixel固有情報を比較材料として記録
 - 実画面capture: Human提供スクリーンショットを受領。正規化cropを作成し、個人利用が推測できるアプリ一覧は使用しない
 - 端末: iPhone 12 mini / iOS 26.6.1。SHOT-05は「バッテリーの状態と充電」を正とする
-- VOICEVOX生成: 34セグメント。剣崎雌雄・ノーマル。本文音声 308.681秒。「バッテリー」を含む10セグメントを再生成し、標準発音辞書へ登録。その他の発音レビュー6件はHuman確認待ち
+- VOICEVOX生成: 34セグメント。剣崎雌雄・ノーマル。本文音声 308.681秒。「バッテリー」を含む10セグメントを再生成し、標準発音辞書へ登録。夕方・使われ方・画面上・開いて・バックグラウンド・iPhone・iOS・AppleはHuman Gate 2で承認済み
 - 字幕生成: 34 cue、v2実音声タイミングから再計算。v1と内容・SHAが一致、subtitle preflight PASS
 - scene生成: 15 scene。SCENE-004/005/006/007/009/010/011/013/014でHuman実画面を大きく表示。汎用盾・チェック表示は除去し、contact sheetで目視確認済み
 - 動画生成: full draft v2生成済み。draft_auto_v2.mp4、321.13秒。Phase 2 QA PASS。旧draft_auto_v1.mp4は保持
@@ -26,8 +27,16 @@
 - CTA visual reuse: episodes/016_line_storage_cleanup/work/channel_cta.png
 - 実画面capture: iPhone 12 mini / iOS 26.6.1を確認。AIによるApple設定UI再現はしない
 - 安全素材: screenshots/はHuman提供のraw保管。production assetには正規化cropのみを配置し、アプリ名の見えるrawは使用しない
-- QA: episode/schema、sources、scenes、official assets、字幕、CTA、viewer-facing内部文言、phase2、video decode、scene qualityはPASS。production preflightは発音レビュー6件のみREVIEW。バッテリー発音・visual revision QAはPASS
+- QA: Final QA、pronunciation、subtitle、production、CTA canonical、viewer-facing INTERNAL_ONLY、phase2、video decode、scene quality、privacy、publish dry-runはPASS。バッテリー発音・visual revision QAもPASS
 - 個人情報QA: アプリ一覧rawは本番使用せず、正規化cropのみ使用。Apple Account、メールアドレス、電話番号、端末名、通知、位置情報履歴、シリアル番号、個人アプリ名をproduction assetに残していない。raw screenshots/はcommit対象外
 - draft v1: [output/draft_auto_v1.mp4](output/draft_auto_v1.mp4)（保持）
 - draft v2: [output/draft_auto_v2.mp4](output/draft_auto_v2.mp4)。[draft contact sheet v2](work/draft_contact_sheet_v2.png)。[scene contact sheet v2](work/scene_contact_sheet_v2.png)
-- 次のゲート: Human Gate 2。v2のバッテリー発音（最後の「リ」）、実画面の大きさ・TV可読性・字幕帯、個人情報、CTA再利用を確認。サムネイル生成・finalize・YouTube操作は未実施
+- approved_draft: [output/draft_auto_v2.mp4](output/draft_auto_v2.mp4)
+- final: [output/final.mp4](output/final.mp4)
+- finalization_method: copy-only; no re-encode
+- draft_sha256 / final_sha256: `76BC6321AB21A2C520E92F7743FBDFE4707FF7820A1A488046899119AE5978D5`（一致）
+- finalized_at: 2026-09-09
+- final_qa: [output/review/final_qa.md](output/review/final_qa.md)
+- publish_preflight: PASS（dry-run、OAuth/API未接続、upload未実施）
+- サムネイル生成: 未実施。予定パス `assets/thumbnail/thumbnail.png`（ChatGPT作成予定）
+- YouTube操作: 未実施。End Screen・固定コメント設定も未実施

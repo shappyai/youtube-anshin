@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "metadata": {
     "research_date": "2026-09-08",
-    "production_phase": "Phase B / v2 full draft ready / Human Gate 2 correction review",
+    "production_phase": "Phase C / final candidate ready / YouTube operation pending",
     "channel": "大人のデジタル安心室",
     "visual_theme": "adult_digital_soft_background",
     "target_audience_detail": "50〜70代、特に65歳以上。iPhoneの設定画面をテレビでも読める大きさで見せ、まず確認だけを行う。",
@@ -12,8 +12,8 @@
     "viewer_facing_count": 0,
     "human_gates": [
       "Gate 1: APPROVED_WITH_MINOR_CHANGES。iPhone中心の方針、最終3項目、タイトル、4〜6分構成を承認。撮影端末はHuman提供実機の表示を正とする",
-      "Gate 2: v1確認後の発音・visual修正を反映。v2を人間確認",
-      "Gate 3: VOICEVOX、字幕、draft、サムネイル、publishを人間確認"
+      "Gate 2: APPROVED。Humanがdraft_auto_v2.mp4を全編確認し、映像・実iPhone画面・字幕・音声・発音を承認",
+      "Gate 3: サムネイル生成・YouTube操作は未実施（本Episodeの依頼範囲外）"
     ],
     "do_not_create_in_phase_a": [
       "実画面capture",
@@ -29,13 +29,13 @@
     "episode_id": "017",
     "slug": "smartphone_battery_drain",
     "title": "【iPhone】充電の減りが早い？まず確認したい3か所",
-    "title_status": "human_gate_1_approved",
+    "title_status": "final_human_gate_2_approved",
     "title_candidates": [
       {
         "id": "A",
         "title": "【iPhone】充電の減りが早い？まず確認したい3か所",
         "reason": "iPhone中心であること、困りごと、確認数が伝わる。改善や交換を断定しない。",
-        "status": "recommended"
+        "status": "final_human_approved"
       },
       {
         "id": "B",
@@ -53,8 +53,8 @@
     "target_duration": 300,
     "target_duration_seconds": 300,
     "target_duration_range_seconds": [240, 360],
-    "status": "in_review",
-    "publication_status": "full_draft_v2_ready_waiting_human_gate_2",
+    "status": "publish_ready",
+    "publication_status": "final_ready_youtube_operation_pending",
     "topic": "iPhoneの充電の減りが早いと感じた人が、交換や一括の節電設定の前に、使用状況・画面表示・バッテリー状態を確認する。",
     "target_audience": "以前より充電が早く減ると感じる50〜70代、特に65歳以上のiPhone利用者。",
     "opening_list": {
@@ -136,6 +136,50 @@
       "source_ids": ["SRC-001", "SRC-003", "SRC-004"]
     }
   ],
+  "pronunciation_human_approvals": [
+    {
+      "segment_id": 1,
+      "term": "方",
+      "approved_surface": "夕方",
+      "status": "HUMAN_APPROVED",
+      "approval_scope": "Episode017 Human Gate 2"
+    },
+    {
+      "segment_id": 11,
+      "term": "方",
+      "approved_surface": "使われ方",
+      "status": "HUMAN_APPROVED",
+      "approval_scope": "Episode017 Human Gate 2"
+    },
+    {
+      "segment_id": 11,
+      "term": "上",
+      "approved_surface": "画面上",
+      "status": "HUMAN_APPROVED",
+      "approval_scope": "Episode017 Human Gate 2"
+    },
+    {
+      "segment_id": 12,
+      "term": "開く/開ける",
+      "approved_surface": "開いて",
+      "status": "HUMAN_APPROVED",
+      "approval_scope": "Episode017 Human Gate 2"
+    },
+    {
+      "segment_id": 12,
+      "term": "上",
+      "approved_surface": "画面上",
+      "status": "HUMAN_APPROVED",
+      "approval_scope": "Episode017 Human Gate 2"
+    },
+    {
+      "segment_id": 28,
+      "term": "方",
+      "approved_surface": "夕方",
+      "status": "HUMAN_APPROVED",
+      "approval_scope": "Episode017 Human Gate 2"
+    }
+  ],
   "narration": {
     "speaker": "VOICEVOX",
     "voice": "剣崎雌雄",
@@ -143,14 +187,16 @@
     "speedScale": 1.0,
     "intonationScale": 1.0,
     "pitchScale": 0.0,
-    "status": "generated_voicevox_human_review_pending",
+    "status": "generated_voicevox_human_approved",
     "audio_path": "audio/voicevox_kenzaki_v2/narration_kenzaki_auto.wav",
     "audio_revision": "v2",
     "audio_duration_sec": 308.681,
     "segment_count": 34,
-    "pronunciation_preflight": "REVIEW",
+    "pronunciation_preflight": "PASS",
     "segment_policy": "Phase Bで1文ずつaudio_query→synthesis。音声用テキストと表示字幕を分離する。",
-    "pronunciation_review_terms": ["iPhone", "iOS", "バックグラウンド", "Apple"],
+    "pronunciation_review_terms": [],
+    "pronunciation_human_approved_terms": ["バッテリー", "夕方", "使われ方", "画面上", "開いて", "バックグラウンド", "iPhone", "iOS", "Apple"],
+    "pronunciation_human_approval_record": "work/human_review.json",
     "standard_dictionary_approved_terms": ["バッテリー"],
     "regenerated_segment_ids": [2, 5, 6, 7, 22, 23, 25, 27, 29, 31]
   },
@@ -503,14 +549,28 @@
     "chapters_status": "MEASURED_FROM_AUDIO_TIMING_DRAFT_V2",
     "pinned_comment": "充電の減りが早いと感じたとき、まずどの画面を確認しましたか？\n\n機種やiOSのバージョンで表示が違う場合があります。分からない表示があれば、個人情報を隠して教えてください。",
     "voice_credit": "ナレーション：VOICEVOX:剣崎雌雄",
-    "title_status": "HUMAN_GATE_1_APPROVED",
+    "title_status": "FINAL_HUMAN_GATE_2_APPROVED",
     "upload_eligible": false,
     "contains_synthetic_media": false,
-    "ai_disclosure_review": "NO_AI_GENERATED_VISUALS; REVIEW_BEFORE_UPLOAD",
+    "ai_disclosure_review": "PASS_NO_AI_GENERATED_VISUALS; HUMAN_GATE_2_CONFIRMED",
     "visibility": null,
-    "human_approved": false,
+    "human_approved": true,
+    "human_gate": "HUMAN_GATE_2_APPROVED",
+    "human_review_record": "work/human_review.json",
     "thumbnail": null,
     "thumbnail_status": "NOT_GENERATED_BY_REQUEST",
+    "thumbnail_planned_path": "assets/thumbnail/thumbnail.png",
+    "thumbnail_optional_private": true,
+    "final_path": "output/final.mp4",
+    "finalization_method": "copy-only; no re-encode",
+    "finalized_at": "2026-09-09",
+    "final_sha256": "76BC6321AB21A2C520E92F7743FBDFE4707FF7820A1A488046899119AE5978D5",
+    "final_duration_sec": 321.137,
+    "final_qa_status": "PASS",
+    "final_qa_report": "output/review/final_qa.md",
+    "publish_preflight_status": "PASS",
+    "publish_preflight_mode": "dry-run; no OAuth/API; no upload",
+    "publish_preflight_report": "work/youtube_publish/dry_run.json",
     "youtube_operation": false
   },
   "device": {
@@ -520,11 +580,11 @@
     "screen_truth": "Human提供画面の表示を正とする"
   },
   "phase_b": {
-    "status": "FULL_DRAFT_V2_READY_HUMAN_GATE_2",
+    "status": "FINAL_READY_HUMAN_GATE_2_APPROVED",
     "real_screen_capture": true,
     "screenshot_directory": "screenshots/",
     "privacy_policy": "rawのアプリ一覧はviewer-facingに使用せず、正規化cropのみをproduction assetにする",
-    "draft_status": "FULL_DRAFT_V2_READY_WAITING_HUMAN_GATE_2",
+    "draft_status": "FINAL_CANDIDATE_HUMAN_GATE_2_APPROVED",
     "draft_path": "output/draft_auto_v2.mp4",
     "draft_revision": "v2",
     "draft_duration_sec": 321.137,
@@ -542,7 +602,17 @@
     "battery_pronunciation_qa_report": "work/battery_pronunciation_qa_v2.md",
     "visual_revision_qa_report": "work/visual_revision_qa_v2.md",
     "scene_quality_report": "work/scene_quality_report_v2.json",
-    "pronunciation_status": "BATTERY_STANDARD_DICTIONARY_PASS; OTHER_HUMAN_REVIEW_REQUIRED",
+    "pronunciation_status": "PASS_HUMAN_APPROVED",
+    "human_approved": true,
+    "human_gate_2": "APPROVED",
+    "final_path": "output/final.mp4",
+    "finalization_method": "copy-only; no re-encode",
+    "finalized_at": "2026-09-09",
+    "final_sha256": "76BC6321AB21A2C520E92F7743FBDFE4707FF7820A1A488046899119AE5978D5",
+    "final_qa_status": "PASS",
+    "final_qa_report": "output/review/final_qa.md",
+    "publish_preflight_status": "PASS",
+    "publish_preflight_report": "work/youtube_publish/dry_run.json",
     "thumbnail_generation": false,
     "youtube_operation": false
   },
@@ -555,6 +625,8 @@
     "video_generation": true,
     "thumbnail_generation": false,
     "youtube_operation": false,
+    "pronunciation_human_approval_record": "work/human_review.json",
+    "pronunciation_review_pack_audio": "audio/voicevox_kenzaki_v2/narration_kenzaki_auto.wav",
     "open_questions": [
       "full draftの実尺、字幕タイミング、実機UIとの一致をHuman確認",
       "VOICEVOXの発音レビュー候補をHuman確認",

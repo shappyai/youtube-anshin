@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "api_called": false,
+  "oauth_called": false,
+  "episode": "017_smartphone_battery_drain",
+  "final_path": "C:\\Codex\\260829_youtube-anshin\\episodes\\017_smartphone_battery_drain\\output\\final.mp4",
+  "thumbnail_path": null,
+  "title": "【iPhone】充電の減りが早い？まず確認したい3か所",
+  "description_bytes": 2012,
+  "tag_count": 7,
+  "tag_total_length": 53,
+  "privacy": "private",
+  "ai_disclosure": false,
+  "schedule_local": null,
+  "schedule_api": null,
+  "video_sha256": "76BC6321AB21A2C520E92F7743FBDFE4707FF7820A1A488046899119AE5978D5",
+  "existing_video_id": null,
+  "expected_api_requests": [
+    "videos.insert part=snippet,status resumable=True notifySubscribers=False status.containsSyntheticMedia",
+    "videos.list part=snippet,status"
+  ],
+  "errors": []
+}

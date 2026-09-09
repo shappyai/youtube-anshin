@@ -1,10 +1,10 @@
 # Episode 017 撮影・画面設計
 
-## Phase Bの現在状態
+## 最終状態
 
 - Human Gate 1: **APPROVED WITH MINOR CHANGES**
 - 反映済み: canonical CTA再利用、section番号を1/2/3へ統一、冒頭3項目を大きく表示、バッテリー状態説明を最大容量・注意表示中心へ整理
-- 現在の状態: Human提供のiPhone 12 mini／iOS 26.6.1を受領。実画面の個人情報QAと正規化crop、音声・字幕・scene・full draft v1を完了。Human Gate 2修正として「バッテリー」10セグメントを標準辞書で再生成し、実画面メインのsceneへ再構成したfull draft v2を作成。修正版のHuman Gate 2確認待ち
+- 現在の状態: Human提供のiPhone 12 mini／iOS 26.6.1を受領。実画面の個人情報QAと正規化crop、音声・字幕・scene・full draft v1を完了。Human Gate 2修正として「バッテリー」10セグメントを標準辞書で再生成し、実画面メインのsceneへ再構成したfull draft v2を作成。Human Gate 2で確認・承認済み。final.mp4はcopy-onlyで確定し、サムネイル生成とYouTube操作は未実施
 
 ## 冒頭一覧scene（実画面ではない説明scene）
 

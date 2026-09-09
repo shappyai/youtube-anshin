@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "warnings": [],
+  "draft": {
+    "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\017_smartphone_battery_drain\\output\\draft_auto_v2.mp4",
+    "sha256": "76BC6321AB21A2C520E92F7743FBDFE4707FF7820A1A488046899119AE5978D5"
+  },
+  "final": {
+    "path": "C:\\Codex\\260829_youtube-anshin\\episodes\\017_smartphone_battery_drain\\output\\final.mp4",
+    "sha256": "76BC6321AB21A2C520E92F7743FBDFE4707FF7820A1A488046899119AE5978D5"
+  },
+  "sha256_match": true,
+  "probe": {
+    "format": {
+      "duration": 321.13
+    },
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "sample_rate": 48000,
+        "channels": 1
+      }
+    ]
+  },
+  "decode_error_count": 0,
+  "black_frame_count": 0,
+  "unexpected_silence_count": 0,
+  "av_sync": "PASS",
+  "audio_clipping_count": 0,
+  "audio_checked": "C:\\Codex\\260829_youtube-anshin\\episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\narration_kenzaki_auto.wav",
+  "subtitle_burn_in": "manual review required; no subtitle stream is expected"
+}

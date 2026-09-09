@@ -1,0 +1,31 @@
+{
+  "episode_id": "017",
+  "reviewed_at": "2026-09-09",
+  "reviewer": "user",
+  "phase": "Human Gate 2 approved",
+  "video": {
+    "draft_auto_v2.mp4": "approved"
+  },
+  "scope": [
+    "draft_auto_v2.mp4 full-watch",
+    "映像・Human提供iPhone実画面・字幕・音声・発音",
+    "バッテリー・夕方・使われ方・画面上・開いて・バックグラウンド・iPhone・iOS・Appleの発音",
+    "最終タイトル",
+    "copy-only finalize"
+  ],
+  "pronunciation_approved_terms": [
+    "バッテリー",
+    "夕方",
+    "使われ方",
+    "画面上",
+    "開いて",
+    "バックグラウンド",
+    "iPhone",
+    "iOS",
+    "Apple"
+  ],
+  "thumbnail": {
+    "episodes/017_smartphone_battery_drain/assets/thumbnail/thumbnail.png": "pending_chatgpt_creation"
+  },
+  "notes": "Human Gate 2でdraft_auto_v2.mp4を全編確認し、映像・実iPhone画面・字幕・音声・発音を承認。最終タイトルを確定。サムネイルとYouTube操作は未実施。"
+}
