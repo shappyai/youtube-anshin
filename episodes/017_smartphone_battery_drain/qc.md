@@ -2,12 +2,12 @@
 
 ## Phase B現在判定
 
-- 判定: **FULL_DRAFT_READY_HUMAN_GATE_2_REVIEW**
-- 対象: Human Gate 1 minor changes反映後の実画面同期、音声、字幕、scene、full draft
+- 判定: **FULL_DRAFT_V2_READY_HUMAN_GATE_2_REVIEW**
+- 対象: Human Gate 2修正後の実画面拡大、発音辞書反映、音声、字幕、scene、full draft v2
 - 基準日: 2026-09-09
 - Human Gate 1: **APPROVED WITH MINOR CHANGES**
-- Human Gate 2: **REVIEW REQUIRED**。承認前のためupload eligibleではない
-- Phase Bの完了条件: Human提供iPhone 12 mini／iOS 26.6.1の画面を受領し、正規化crop、音声、字幕、scene、full draft、個人情報QAを実施済み。発音レビューのみHuman確認待ち
+- Human Gate 2: **V2 REVIEW REQUIRED**。承認前のためupload eligibleではない
+- Phase Bの完了条件: Human提供iPhone 12 mini／iOS 26.6.1の画面を受領し、正規化crop、発音修正音声、字幕、scene、full draft v2、個人情報QAを実施済み。バッテリー発音は標準辞書・mora QA PASS、その他の発音レビュー6件はHuman確認待ち
 
 ## 確認結果
 
@@ -15,12 +15,12 @@
 |---|---|---|
 | Fact | PASS_WITH_SCREEN_SYNC | Apple公式を主根拠に、使用状況・画面・バッテリー状態を紐付けた。撮影時点でApple公式を再確認し、iPhone 12 miniの実表示へ同期。 |
 | Language | PASS_WITH_MINOR_CHANGES | 65歳以上を想定し、確認と変更を分離。バッテリー状態は最大容量・注意表示を中心にし、専門用語を実機確認後に補足する。 |
-| Visual | PASS_WITH_HUMAN_CONTACT_SHEET_REVIEW | Human提供の実OS画面から正規化cropを作成。15 sceneとdraft contact sheetを目視確認し、アプリ名が見える使用状況rawはviewer-facingに使用しない。公式画面の機械的な視覚重心チェックは比較用背景がないため適用外とし、目視確認を正とする。 |
-| Audio | REVIEW_PRONUNCIATION | VOICEVOXを1文単位で34セグメント生成。無音・クリッピングを含むdraft QAはPASS。`夕方`、`使われ方`、`画面上`、`開いて`、`バックグラウンド`、`iPhone/iOS/Apple`の発音をHuman聴取確認する。 |
+| Visual | PASS_WITH_HUMAN_CONTACT_SHEET_REVIEW | Human提供の実OS画面から正規化cropを作成。実画面メインを9 sceneへ拡大し、汎用盾・チェック表示を除去。15 sceneとv2 draft contact sheetを目視確認し、アプリ名が見える使用状況rawはviewer-facingに使用しない。 |
+| Audio | REVIEW_PRONUNCIATION | VOICEVOXを1文単位で34セグメント管理。「バッテリー」含む10セグメントを再生成し、mora QA（バ・ッ・テ・リ・イ、accent=4、語末高域）と標準辞書登録はPASS。無音・クリッピングを含むdraft QAはPASS。残る`夕方`、`使われ方`、`画面上`、`開いて`、`バックグラウンド`、`iPhone/iOS/Apple`の発音はHuman聴取確認する。 |
 | Policy | PASS | 位置情報、通知、バックグラウンド通信、5G、強制終了の一律オフ推奨を含めない。サムネイル生成・YouTube操作は行わない。 |
 | Privacy | PASS_WITH_RESTRICTIONS | raw screenshotsはsource保管。production assetにはアプリ名を避けたcropのみ使用し、Apple Account・メールアドレス・電話番号・端末名・通知・位置情報履歴・個人的な利用状況・シリアル番号を残さない。raw screenshots/はcommit対象外。 |
 | Subtitle | PASS | 34 cueを実音声タイミングから生成。60px、最大2行、subtitle preflight fail=0 / warn=0。 |
-| Draft | PASS | `output/draft_auto_v1.mp4`。321.13秒、1920×1080、30fps、Phase 2 QA failures=0 / warnings=0。 |
+| Draft | PASS | `output/draft_auto_v2.mp4`。321.13秒、1920×1080、30fps、Phase 2 QA failures=0 / warnings=0。旧v1は保持。 |
 
 ## Human提供画面の確認結果
 
@@ -41,20 +41,31 @@
 - 怪しい節電アプリの紹介: **該当なし**
 - 内部用ブランド文言のviewer-facing混入: **0件**
 
+## v2修正内容
+
+- 発音: `config/voicevox_pronunciation.yaml`へ標準辞書として`バッテリー`を1件登録。VOICEVOX実audio_queryの5モーラ「バ・ッ・テ・リ・イ」を確認し、4モーラ目「リ」にaccent=4、`low_high_plateau`を適用。
+- 再生成segment: 002、005、006、007、022、023、025、027、029、031。音声尺はv1と同じ308.681秒。
+- Visual: SCENE-001、003、004、005、006、007、008、009、010、011、012、013、014をv2化。うちSCENE-004/005/006/007/009/010/011/013/014は実画面メイン。SCENE-002/015は一覧として維持。実画面slot幅は840px（43.8%）から1270px（66.1%）へ拡大。
+- 字幕: v2音声から再計算し、34 cue。音声尺が変わらなかったため字幕内容・タイムコードはv1と同一SHA。字幕帯はy=900以降、実画面slotはbottom=895pxで重ならない。
+- CTA: `config/channel_cta.json`をcanonicalとし、Episode016の`channel_common_cta`音声・visualをcopy/reuse。文言の新規生成なし。
+
 ## 実施済みQA
 
 - episode/schema、sources、scenes、official assets: **PASS**
 - viewer-facing内部ブランド文言検査: **PASS / count 0**
-- CTA canonical preflight: **PASS**。`config/channel_cta.json`の文言・Episode016再利用音声・visualを使用
-- production preflight: **REVIEW**。失敗はなく、VOICEVOX発音レビュー6件のみHuman確認待ち
-- 実尺: 本編音声 308.681秒。CTA音声 11.456秒＋末尾1秒を含むdraft 321.13秒
+- CTA canonical preflight v2: **PASS**。`config/channel_cta.json`の文言・Episode016再利用音声・visualを使用
+- production preflight v2: **REVIEW**。FAILなし、VOICEVOX発音レビュー6件のみHuman確認待ち。バッテリー発音固有QAはPASS
+- phase2 QA v2: **PASS**。failures=0 / warnings=0。scene quality v2: **PASS**（15/15）。video decode: **PASS**
+- visual revision QA v2: **PASS**。実画面9 scene、slot幅66.1%、字幕帯重なりなし、AI Apple UIなし、汎用盾・チェック0件
+- 実尺: 本編音声 308.681秒。CTA音声 11.456秒＋末尾1秒を含むdraft v2 321.137秒（probe表示321.13秒）
 - サムネイル: **未生成**
 - YouTube操作: **未実施**
 
 ## Human Gate 2確認ポイント
 
-1. draft全体の実機UI、字幕、ナレーションの一致とテレビ視聴時の可読性
-2. `画面上`、`開いて`、`夕方`、`使われ方`、`バックグラウンド`、`iPhone`、`iOS`、`Apple`の発音
-3. app listを除いた正規化cropとdraftに個人情報がないこと
-4. バッテリー状態の説明が「最大容量」「サービス等の注意表示」に留まり、数字だけで交換必須・故障と断定していないこと
-5. CTA本文・音声がcanonicalと一致し、右側のEnd Screen予約領域を侵食していないこと
+1. `バッテリー`全出現で最後の「リ」が語末の高域として聞こえること（表示字幕は「バッテリー」のまま）
+2. v2実画面メインsceneの重要文字がテレビ視聴でも確認でき、字幕帯に覆われていないこと
+3. `画面上`、`開いて`、`夕方`、`使われ方`、`バックグラウンド`、`iPhone`、`iOS`、`Apple`の発音
+4. app listを除いた正規化cropとdraftに個人情報がないこと
+5. バッテリー状態の説明が「最大容量」「サービス等の注意表示」に留まり、数字だけで交換必須・故障と断定していないこと
+6. CTA本文・音声がcanonicalと一致し、右側のEnd Screen予約領域を侵食していないこと

@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "segments": {
+    "1": {
+      "hash": "89d857f76c50f653efb9db677641079d2a829899cbd39a3d381e6c09bf24f950",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\001.wav"
+    },
+    "2": {
+      "hash": "4b3e187ae28db34cba411684a2bc0ee8dd7778b0b06f09c2e3ee4da7e2c6c310",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\002.wav"
+    },
+    "3": {
+      "hash": "4761fb0f61ae7be237b9b87f90233ca06255889d1550004d363b6d9acdacb052",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\003.wav"
+    },
+    "4": {
+      "hash": "5d2059eb25875d09176afea0374d8e16ab8ebb2b3a5fe3642c8fbbede4dceae8",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\004.wav"
+    },
+    "5": {
+      "hash": "287a88aca26434bdb745b91b1c84e81bc2824863c9ae417711fa936be570d80f",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\005.wav"
+    },
+    "6": {
+      "hash": "df6bfd62f603e4ba848c5ffbe18df6e3b670c837322075fe64df7ccd64943d16",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\006.wav"
+    },
+    "7": {
+      "hash": "46a66581e5f3b7294419857877dc41714794e1c32877e1c0729e07a20c9c18ce",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\007.wav"
+    },
+    "8": {
+      "hash": "4a74c10b2ed58e36c21c5efc3e78ee8d4dd42a39ed4b1e27ee7dce1eeba2819d",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\008.wav"
+    },
+    "9": {
+      "hash": "498f0e62cc9013c2f7331dd8a7374799194531f3c36921abd1c6630526321084",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\009.wav"
+    },
+    "10": {
+      "hash": "a8435797c1ff317fed3b4f06ddd288b12805e6e3317b771b8c6931e5fdc6425d",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\010.wav"
+    },
+    "11": {
+      "hash": "2d40e8ac41dfb94c6d89f99afd91d186302ecbc8696e7fc598cdc00180aa9aed",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\011.wav"
+    },
+    "12": {
+      "hash": "0b32faa37476d24196f6e241714f406b7a81186e38edcd268505051dfa38b397",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\012.wav"
+    },
+    "13": {
+      "hash": "faf3bf544b710b177f66b7115a311f2e98bc552e8dd02a1b1758e5e538b5944f",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\013.wav"
+    },
+    "14": {
+      "hash": "34849410d530763611fe2982299bae86404afaf89fac332750f44fa6040f1663",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\014.wav"
+    },
+    "15": {
+      "hash": "e63db2e04a1fd67bf0c56c6b0466c33d106b1e4654396a96f841a0a94bf12ffc",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\015.wav"
+    },
+    "16": {
+      "hash": "778418f5c4c0bd4d26b4f84faece867e7fa7d4324c26625fa366b3c72b31befd",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\016.wav"
+    },
+    "17": {
+      "hash": "a5f4c26c542c8bed86cc56b0815b65b95837a1f68f212ec134c50b485766438d",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\017.wav"
+    },
+    "18": {
+      "hash": "155a3b121dadb3b1f5b4a9b21c6498306a3ef6729bceb4ad8b14fd571b6429f1",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\018.wav"
+    },
+    "19": {
+      "hash": "ea447f7a8f8c10d880e5a4b248ef1e59181ca8d76acde95c73a3f641499723cd",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\019.wav"
+    },
+    "20": {
+      "hash": "d593a8b85ce1a41d7a95a4f9191a151ad0c555255dfb694adb220403ed9102b0",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\020.wav"
+    },
+    "21": {
+      "hash": "737280f450a853bc5c77aa43c589cee6121501b3c110c264c6e9399deca57198",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\021.wav"
+    },
+    "22": {
+      "hash": "c91f49afa10cdb81e8073e0acd69a9f7ce0ecdbeed36d19c684179c2036017d0",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\022.wav"
+    },
+    "23": {
+      "hash": "b5cbbee249534de641dba418f4970d17bf5a0f908dc185f302aab045f84e2983",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\023.wav"
+    },
+    "24": {
+      "hash": "c240b7f773e5670341bc4c0a9cdd51806da7dd5f92463c4d5d8dc88f7362c346",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\024.wav"
+    },
+    "25": {
+      "hash": "155a55df2f8def7b1263e8c21db52da1078e134709089c8dcf46b094d5222f45",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\025.wav"
+    },
+    "26": {
+      "hash": "bde86ce884c46ec3c5234a6125ab915dce47891f9cb49249e3530114f8792bb3",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\026.wav"
+    },
+    "27": {
+      "hash": "7ee15a9acfa974e59eacbd947741017c13f46044b095292a1922c0286edb8290",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\027.wav"
+    },
+    "28": {
+      "hash": "e8c057187ab3e5fbe35be79cb2683b2049a0fbb43c8162865429ca4d0bfeb4ea",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\028.wav"
+    },
+    "29": {
+      "hash": "dd962fdec73a418997a53440a2e6732641de25f70f9448810b2d19b91bb62f2e",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\029.wav"
+    },
+    "30": {
+      "hash": "db2b74d1ee05902a48072f0cdf99ea5d0ff0206062546fd15d0fd8c3b43281b0",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\030.wav"
+    },
+    "31": {
+      "hash": "e7634c1c063d8c88a9c6a2dce64684a4924bf448164e20fc5e0e1eb75d84494e",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\031.wav"
+    },
+    "32": {
+      "hash": "1c4187f8ddfb604103a066f9f2330d02b987cb91f1c7c613b4ea6279c22f1637",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\032.wav"
+    },
+    "33": {
+      "hash": "a2afd9afbfb75d77b45ff48168a581b101d72ca59598eae69319fe73eb550a8a",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\033.wav"
+    },
+    "34": {
+      "hash": "6e03e57b7d42230ee308929684cc9ea8da4fb3f5a9515c8b420b5d0cfdad22d6",
+      "wav_path": "episodes\\017_smartphone_battery_drain\\audio\\voicevox_kenzaki_v2\\segments\\034.wav"
+    }
+  }
+}

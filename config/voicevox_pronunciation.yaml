@@ -411,3 +411,26 @@ pronunciations:
       剣崎雌雄 / ノーマルの実audio_queryでモーラ構造「キャ・ッ・シュ」を確認し、
       最終モーラ「シュ」がアクセント核になるaccent=3を指定する。
       表示字幕は「キャッシュ」のまま維持し、今後のEpisode/Shortsで再利用する。
+  - surface: "バッテリー"
+    method: accent_phrases
+    reading: "バッテリイ"
+    accent_phrases:
+      - kana: "バッテリイ"
+        accent: 4
+    pitch_shape: low_high_plateau
+    pitch_high_anchor_mora: 4
+    pitch_low_delta: -0.45
+    pitch_equalize_following_same_mora: false
+    accent_on_phrase: true
+    human_approved: true
+    global: true
+    scope: "標準辞書（Episode017 Human Gate 2修正）"
+    provenance: "2026-09-09 Human指定 + VOICEVOX audio_query/mora_data確認"
+    date: "2026-09-09"
+    accent_nucleus_mora: "リ"
+    note: >-
+      既存の標準辞書に同語の登録がないことを確認したうえで追加。
+      剣崎雌雄 / ノーマルの実audio_queryでモーラ構造「バ・ッ・テ・リ・イ」を確認。
+      語末の長音「ー」はengine上「イ」として扱われるため、表示上最後の「リ」に
+      対応する4モーラ目へaccent=4を指定する。表示字幕は「バッテリー」のまま維持し、
+      今後のEpisode/Shortsで再利用する。

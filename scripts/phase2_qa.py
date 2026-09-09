@@ -55,7 +55,23 @@ def unresolved_placeholders(data: dict[str, Any]) -> list[str]:
     return issues
 
 
-def text_boxes_for(layout: str, render_mode: str) -> dict[str, tuple[tuple[int, int, int, int], int, int, int, float]]:
+def _scene_box(scene: dict[str, Any], key: str, default: tuple[int, int, int, int]) -> tuple[int, int, int, int]:
+    raw = scene.get(key)
+    if isinstance(raw, (list, tuple)) and len(raw) == 4:
+        try:
+            values = tuple(int(value) for value in raw)
+        except (TypeError, ValueError):
+            return default
+        if values[2] > values[0] and values[3] > values[1]:
+            return values
+    return default
+
+
+def text_boxes_for(
+    layout: str,
+    render_mode: str,
+    scene: dict[str, Any] | None = None,
+) -> dict[str, tuple[tuple[int, int, int, int], int, int, int, float]]:
     """pill renderer / overlay と同じ本文boxの写し（linebreak QA用）。
 
     layout: text kind -> (box, max_size, min_size, max_lines, spacing_ratio)。
@@ -85,9 +101,13 @@ def text_boxes_for(layout: str, render_mode: str) -> dict[str, tuple[tuple[int, 
             "main_message": ((900, 650, 1770, 780), 44, 40, 3, 0.16),
         }
     if layout == "layout_04_text_official":
+        scene = scene or {}
+        text_box = _scene_box(scene, "official_text_box", (120, 310, 930, 840))
+        left, top, right, bottom = text_box
         return {
             "headline": ((110, 82, 1810, 225), 112, 82, 2, 0.12),
-            "support_text": ((130, 625, 910, 725), 48, 40, 2, 0.14),
+            "support_text": ((left + 10, top + 24, right - 10, bottom - 154), 52, 44, 4, 0.14),
+            "main_message": ((left, bottom - 132, right, bottom - 12), 60, 48, 2, 0.12),
         }
     if layout == "layout_05_compare":
         return {
@@ -124,7 +144,7 @@ def linebreak_issues(data: dict[str, Any]) -> list[str]:
             # ImageGen内文字のためPIL wrap前提のlinebreak QAは適用しない。
             # この種のsceneの文字QAは scripts/text_qa.py（目視相当チェック）で行う。
             continue
-        boxes = text_boxes_for(layout, render_mode)
+        boxes = text_boxes_for(layout, render_mode, scene)
         scale = float(scene.get("headline_scale") or 1.0)
         for kind, (box, max_size, min_size, max_lines, spacing) in boxes.items():
             text = str(scene.get(kind) or "")
@@ -486,6 +506,8 @@ def _declared_official_area_ratio(scene: dict[str, Any]) -> float | None:
         "layout_06_caution": (1120, 180, 1810, 840),
     }
     box = boxes.get(str(scene.get("layout") or ""))
+    if str(scene.get("layout") or "") == "layout_04_text_official":
+        box = _scene_box(scene, "official_visual_box", box or (1000, 235, 1810, 800))
     if box is None:
         return None
     width, height = max(0, box[2] - box[0]), max(0, box[3] - box[1])

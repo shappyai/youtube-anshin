@@ -4,7 +4,7 @@
 
 - Episode: `017`
 - Slug: `smartphone_battery_drain`
-- 制作段階: `Phase B / full draft ready / Human Gate 2 review`
+- 制作段階: `Phase B / v2 full draft ready / Human Gate 2 correction review`
 - 調査日: `2026-09-08`
 - 採用プラットフォーム案: **iPhone中心**
 - 形式: `focused_troubleshooting_v1`
@@ -107,4 +107,4 @@ Episode 017では「節電10選」に広げず、視聴者の状況を次の流�
 
 Human Gate 1は **APPROVED WITH MINOR CHANGES**。CTA、section番号、冒頭一覧、バッテリー状態の説明方針を反映した。
 
-Phase Bでは、Human提供のiPhone 12 mini／iOS 26.6.1を正とする。「バッテリーの状態と充電」「最大容量」「ピークパフォーマンス性能」「画面上」「バックグラウンド」「自動ロック 5分」を実画面で確認した。音声、実時間字幕、scene、full draftを完成し、Human Gate 2で確認待ちとしている。サムネイル生成とYouTube操作は行わない。
+Phase Bでは、Human提供のiPhone 12 mini／iOS 26.6.1を正とする。「バッテリーの状態と充電」「最大容量」「ピークパフォーマンス性能」「画面上」「バックグラウンド」「自動ロック 5分」を実画面で確認した。Human Gate 2修正として、標準発音辞書へHuman承認済みの「バッテリー」を登録し、該当10セグメントを再生成した。実画面メインのsceneを拡大してv2 full draftを作成し、旧v1は保持している。サムネイル生成、finalize、YouTube操作は行わない。

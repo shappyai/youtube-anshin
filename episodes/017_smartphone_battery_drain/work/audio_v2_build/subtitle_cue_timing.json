@@ -1,0 +1,328 @@
+{
+  "version": 1,
+  "method": "VOICEVOX audio_query mora duration; segment boundaries remain measured WAV timing",
+  "engine_url": "http://127.0.0.1:50021",
+  "speaker": "剣崎雌雄",
+  "style": "ノーマル",
+  "style_id": 21,
+  "generated_at": "2026-09-08T23:57:25.228967+00:00",
+  "cue_count": 34,
+  "cues": {
+    "SUB-001": {
+      "cue_id": "SUB-001",
+      "segment_id": 1,
+      "display_text": "朝は100%だったのに、夕方にはかなり減っている。",
+      "effective_text": "朝はひゃくパーセントだったのに、夕方にはかなり減っている。",
+      "duration_sec": 3.931269,
+      "kana": "ア'サワ/ヒャ_クパアセ'ントダッタノニ、ユウガタニワ'/カ'ナリ/ヘッテ'/イル'",
+      "reading_overrides": [
+        "100% → ひゃくパーセント（reading_overrides）"
+      ]
+    },
+    "SUB-002": {
+      "cue_id": "SUB-002",
+      "segment_id": 2,
+      "display_text": "バッテリーの寿命かもと、すぐ交換を考えてしまいます。",
+      "effective_text": "バッテリーの寿命かもと、すぐ交換を考えてしまいます。",
+      "duration_sec": 4.010923,
+      "kana": "バ'ッテリイノ/ジュミョオカ'モト、ス'グ/コオカンオ'/カンガ'エテ/シマイマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-003": {
+      "cue_id": "SUB-003",
+      "segment_id": 3,
+      "display_text": "その前に、iPhoneの中で原因の手がかりを確認できます。",
+      "effective_text": "その前に、アイフォーンの中で原因の手がかりを確認できます。",
+      "duration_sec": 4.346111,
+      "kana": "ソノ'/マ'エニ、アイフォ'オンノ/ナ'カデ/ゲンインノ'/テガ'カリオ/カクニン'/デキマ'_ス",
+      "reading_overrides": [
+        "iPhone → アイフォーン（reading_overrides）"
+      ]
+    },
+    "SUB-004": {
+      "cue_id": "SUB-004",
+      "segment_id": 4,
+      "display_text": "節電設定を変える前に、まず3か所を確認します。",
+      "effective_text": "節電設定を変える前に、まず3か所を確認します。",
+      "duration_sec": 4.194217,
+      "kana": "セツデンセ'ッテエオ/カエル'/マ'エニ、マ'ズ/サンカ'ショオ/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-005": {
+      "cue_id": "SUB-005",
+      "segment_id": 5,
+      "display_text": "1つ目は、何が電池を使っているか。2つ目は画面、3つ目は状態。",
+      "effective_text": "1つ目は、何が電池を使っているか。2つ目は画面、3つ目は状態。",
+      "duration_sec": 5.739336,
+      "kana": "_ヒトツ'メワ、ナ'ニガ/デ'ンチオ/_ツカッテ'/イル'カ、_フタツ'メワ/ガメン'、ミッツ'メワ/ジョオタイ'",
+      "reading_overrides": []
+    },
+    "SUB-006": {
+      "cue_id": "SUB-006",
+      "segment_id": 6,
+      "display_text": "1つ目は、バッテリー使用状況の内訳です。",
+      "effective_text": "1つ目は、バッテリー使用状況の内訳です。",
+      "duration_sec": 3.500558,
+      "kana": "_ヒトツ'メワ、バッテリイシヨオジョ'オキョオノ/ウチワケデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-007": {
+      "cue_id": "SUB-007",
+      "segment_id": 7,
+      "display_text": "「設定」→「バッテリー」",
+      "effective_text": "「設定」→「バッテリー」",
+      "duration_sec": 1.844229,
+      "kana": "セッテエ'、バ'ッテリイ",
+      "reading_overrides": []
+    },
+    "SUB-008": {
+      "cue_id": "SUB-008",
+      "segment_id": 8,
+      "display_text": "「1日の使用状況」のグラフと、アクティビティを確認します。",
+      "effective_text": "「1日の使用状況」のグラフと、アクティビティを確認します。",
+      "duration_sec": 4.673776,
+      "kana": "イチニチ'ノ/シヨオジョ'オキョオ、ノ'/グ'ラ_フト、ア_クティ'ビティオ/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-009": {
+      "cue_id": "SUB-009",
+      "segment_id": 9,
+      "display_text": "上位のアプリやシステムを確認し、使った時間と照らし合わせます。",
+      "effective_text": "上位のアプリやシステムを確認し、使った時間と照らし合わせます。",
+      "duration_sec": 4.667245,
+      "kana": "ジョ'オイノ/ア'プリヤ/シ'_ステムオ/カクニン'/シ'、_ツカッタ'/ジカント'/テラシアワセマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-010": {
+      "cue_id": "SUB-010",
+      "segment_id": 10,
+      "display_text": "上位にあるだけで、故障とは決めません。",
+      "effective_text": "上位にあるだけで、故障とは決めません。",
+      "duration_sec": 2.879256,
+      "kana": "ジョ'オイニ/ア'ルダケデ、コショオトワ'/キメマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-011": {
+      "cue_id": "SUB-011",
+      "segment_id": 11,
+      "display_text": "アプリごとの詳細で、「画面上」「バックグラウンド」を確認。",
+      "effective_text": "アプリごとの詳細で、「画面上」「バックグラウンド」を確認。",
+      "duration_sec": 4.943017,
+      "kana": "アプリゴトノ'/ショオサイデ'、ガメンジョオ'、バックグラ'ウンド、オ'/カクニン'",
+      "reading_overrides": []
+    },
+    "SUB-012": {
+      "cue_id": "SUB-012",
+      "segment_id": 12,
+      "display_text": "「画面上」は表示していた時間、「バックグラウンド」は裏の処理の手がかり。",
+      "effective_text": "「画面上」は表示していた時間、「バックグラウンド」は裏の処理の手がかり。",
+      "duration_sec": 5.627759,
+      "kana": "ガメンジョオ'、ワ'/ヒョオジ'/_シテ'/イタ'/ジカン'、バックグラ'ウンド、ワ'/ウラ'ノ/ショ'リノ/テガ'カリ",
+      "reading_overrides": []
+    },
+    "SUB-013": {
+      "cue_id": "SUB-013",
+      "segment_id": 13,
+      "display_text": "「圏外や低信号」「通知」が表示される場合もあります。",
+      "effective_text": "「圏外や低信号」「通知」が表示される場合もあります。",
+      "duration_sec": 4.663852,
+      "kana": "ケ'ンガイヤ/テエシ'ンゴオ、ツウチ'、ガ'/ヒョオジ'/サレル'/バアイモ'/アリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-014": {
+      "cue_id": "SUB-014",
+      "segment_id": 14,
+      "display_text": "表示を見て原因候補を絞り、いきなり全部オフにしません。",
+      "effective_text": "表示を見て原因候補を絞り、いきなり全部オフにしません。",
+      "duration_sec": 4.278887,
+      "kana": "ヒョオジオ'/ミ'テ/ゲンインコ'オホオ/シボリ'、イキナリ'/ゼ'ンブ/オ'フニ/シマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-015": {
+      "cue_id": "SUB-015",
+      "segment_id": 15,
+      "display_text": "iOS更新直後は、数日待ってから再確認します。",
+      "effective_text": "アイオーエス更新直後は、数日待ってから再確認します。",
+      "duration_sec": 4.469241,
+      "kana": "アイオオエ_スコ'オシン/チョ'クゴワ、スウ'ニチ/マ'ッテカラ/サイカ'クニン/シマ'_ス",
+      "reading_overrides": [
+        "iOS → アイオーエス（reading_overrides）"
+      ]
+    },
+    "SUB-016": {
+      "cue_id": "SUB-016",
+      "segment_id": 16,
+      "display_text": "2つ目は、画面の設定です。",
+      "effective_text": "2つ目は、画面の設定です。",
+      "duration_sec": 2.502866,
+      "kana": "_フタツ'メワ、ガメンノ'/セッテエデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-017": {
+      "cue_id": "SUB-017",
+      "segment_id": 17,
+      "display_text": "「設定」→「画面表示と明るさ」",
+      "effective_text": "「設定」→「画面表示と明るさ」",
+      "duration_sec": 2.719491,
+      "kana": "セッテエ'、ガメンヒョ'オジト/アカル'サ",
+      "reading_overrides": []
+    },
+    "SUB-018": {
+      "cue_id": "SUB-018",
+      "segment_id": 18,
+      "display_text": "「明るさ」と「自動ロック」を確認します。",
+      "effective_text": "「明るさ」と「自動ロック」を確認します。",
+      "duration_sec": 3.948762,
+      "kana": "アカル'サ、ト'、ジドオロ'ック、オ'/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-019": {
+      "cue_id": "SUB-019",
+      "segment_id": 19,
+      "display_text": "暗くしすぎたり短くしすぎると、使いにくくなることがあります。",
+      "effective_text": "暗くしすぎたり短くしすぎると、使いにくくなることがあります。",
+      "duration_sec": 4.304223,
+      "kana": "クラク_シスギタ'リ/ミジカク_シスギ'ルト、_ツカイニ_ククナル'/コト'ガ/アリマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-020": {
+      "cue_id": "SUB-020",
+      "segment_id": 20,
+      "display_text": "変える場合も、必要なものを1つだけ試します。",
+      "effective_text": "変える場合も、必要なものを1つだけ試します。",
+      "duration_sec": 3.472256,
+      "kana": "カエル'/バアイモ'、_ヒツヨオナ'/モノ'オ/_ヒトツダケ'/タメシマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-021": {
+      "cue_id": "SUB-021",
+      "segment_id": 21,
+      "display_text": "この動画では、設定を一括で変えません。",
+      "effective_text": "この動画では、設定を一括で変えません。",
+      "duration_sec": 3.167012,
+      "kana": "コノ'/ドオガデワ'、セッテエオ'/イッカツデ'/カエマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-022": {
+      "cue_id": "SUB-022",
+      "segment_id": 22,
+      "display_text": "3つ目は、バッテリーそのものの状態です。",
+      "effective_text": "3つ目は、バッテリーそのものの状態です。",
+      "duration_sec": 3.135854,
+      "kana": "ミッツ'メワ、バッテリイソ'ノモノノ/ジョオタイデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-023": {
+      "cue_id": "SUB-023",
+      "segment_id": 23,
+      "display_text": "iPhone 12 miniでは、「バッテリーの状態と充電」",
+      "effective_text": "アイフォーン 12 miniでは、「バッテリーの状態と充電」",
+      "duration_sec": 4.535391,
+      "kana": "アイフォ'オン、ジュウ'/ニ'、ミ'ニデワ、バ'ッテリイノ/ジョオタイト'/ジュウデン'",
+      "reading_overrides": [
+        "iPhone → アイフォーン（reading_overrides）"
+      ]
+    },
+    "SUB-024": {
+      "cue_id": "SUB-024",
+      "segment_id": 24,
+      "display_text": "「最大容量」と、注意表示がないかを確認します。",
+      "effective_text": "「最大容量」と、注意表示がないかを確認します。",
+      "duration_sec": 4.485777,
+      "kana": "サイダイヨオリョ'オ、ト'、チュウイヒョ'オジガナイカオ/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-025": {
+      "cue_id": "SUB-025",
+      "segment_id": 25,
+      "display_text": "最大容量は、新品時と比べた容量の目安です。",
+      "effective_text": "最大容量は、新品時と比べた容量の目安です。",
+      "duration_sec": 4.063127,
+      "kana": "サイダイヨオリョ'オワ、シンピン'ジト/クラベタ'/ヨオリョ'オノ/メヤスデ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-026": {
+      "cue_id": "SUB-026",
+      "segment_id": 26,
+      "display_text": "注意表示がある場合は、Appleの案内を読み相談を検討します。",
+      "effective_text": "注意表示がある場合は、アップルの案内を読み相談を検討します。",
+      "duration_sec": 4.992513,
+      "kana": "チュウイヒョ'オジガ/ア'ル/バアイワ'、ア'ップルノ/アンナ'イオ/ヨ'ミ/ソオダンオ'/ケントオ'/シマ'_ス",
+      "reading_overrides": [
+        "Apple → アップル（reading_overrides）"
+      ]
+    },
+    "SUB-027": {
+      "cue_id": "SUB-027",
+      "segment_id": 27,
+      "display_text": "数字だけで、交換必須や故障とは決めません。",
+      "effective_text": "数字だけで、交換必須や故障とは決めません。",
+      "duration_sec": 3.529279,
+      "kana": "スウジダケデ'、コオカン'/ヒッスヤ'/コショオトワ'/キメマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-028": {
+      "cue_id": "SUB-028",
+      "segment_id": 28,
+      "display_text": "まとめ：まず、3か所を確認します。",
+      "effective_text": "まとめ：まず、3か所を確認します。",
+      "duration_sec": 3.353078,
+      "kana": "マトメ'、マ'ズ、サンカ'ショオ/カクニン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-029": {
+      "cue_id": "SUB-029",
+      "segment_id": 29,
+      "display_text": "1つ目、バッテリーで何が使っているかを見る。",
+      "effective_text": "1つ目、バッテリーで何が使っているかを見る。",
+      "duration_sec": 3.211472,
+      "kana": "_ヒトツ'メ、バ'ッテリイデ/ナ'ニガ/_ツカッテ'/イル'カオ/ミ'ル",
+      "reading_overrides": []
+    },
+    "SUB-030": {
+      "cue_id": "SUB-030",
+      "segment_id": 30,
+      "display_text": "2つ目、画面表示と明るさで明るさと自動ロックを確認する。",
+      "effective_text": "2つ目、画面表示と明るさで明るさと自動ロックを確認する。",
+      "duration_sec": 4.59801,
+      "kana": "_フタツ'メ、ガメンヒョ'オジト/アカル'サデ/アカル'サト/ジドオロ'ックオ/カクニン'/スル'",
+      "reading_overrides": []
+    },
+    "SUB-031": {
+      "cue_id": "SUB-031",
+      "segment_id": 31,
+      "display_text": "3つ目、状態と充電で最大容量と注意表示を見る。",
+      "effective_text": "3つ目、状態と充電で最大容量と注意表示を見る。",
+      "duration_sec": 4.293209,
+      "kana": "ミッツ'メ、ジョオタイト'/ジュウデンデ'/サイダイヨオリョ'オト/チュウイヒョ'オジオ/ミ'ル",
+      "reading_overrides": []
+    },
+    "SUB-032": {
+      "cue_id": "SUB-032",
+      "segment_id": 32,
+      "display_text": "通知・位置情報・バックグラウンド更新をまとめてオフにしません。",
+      "effective_text": "通知・位置情報・バックグラウンド更新をまとめてオフにしません。",
+      "duration_sec": 5.14028,
+      "kana": "ツウチ'、イチジョ'オホオ、バックグラウンドコ'オシンオ/マトメテ'/オ'フニ/シマセ'ン",
+      "reading_overrides": []
+    },
+    "SUB-033": {
+      "cue_id": "SUB-033",
+      "segment_id": 33,
+      "display_text": "更新直後や発熱の後は、数日たっても続けば相談します。",
+      "effective_text": "更新直後や発熱の後は、数日たっても続けば相談します。",
+      "duration_sec": 4.8066,
+      "kana": "コオシン'/チョ'クゴヤ/ハツネツノ'/ア'トワ、スウ'ニ_チ/タ'ッテモ/ツズケ'バ/ソオダン'/シマ'_ス",
+      "reading_overrides": []
+    },
+    "SUB-034": {
+      "cue_id": "SUB-034",
+      "segment_id": 34,
+      "display_text": "原因候補を一つずつ切り分けられれば十分です。",
+      "effective_text": "原因候補を一つずつ切り分けられれば十分です。",
+      "duration_sec": 3.307709,
+      "kana": "ゲンインコ'オホオ/_ヒトツズ'_ツ/キリワケ'ラレレバ/ジュウブ'ンデ_ス",
+      "reading_overrides": []
+    }
+  }
+}

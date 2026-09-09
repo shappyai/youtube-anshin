@@ -5,8 +5,10 @@
 - 仮タイトル: **【iPhone】充電の減りが早い？まず確認したい3か所**
 - 対象: iPhoneを使っていて、以前より充電が早く減ると感じている50〜70代、特に65歳以上
 - 推奨構成: iPhone中心・3確認・4〜6分
-- Phase B状態: Human Gate 1承認済み（minor changes反映）。Human提供のiPhone 12 mini／iOS 26.6.1画面、音声、字幕、full draftを反映済み。Human Gate 2確認待ち
-- ナレーター: VOICEVOX「剣崎雌雄」ノーマルを34セグメント生成。発音レビュー候補をHuman確認待ち
+- Phase B状態: Human Gate 1承認済み（minor changes反映）。Human Gate 2修正として、標準発音辞書の「バッテリー」を適用した音声v2、実画面を主役にしたscene v2、字幕、full draft v2を反映済み。旧draftは保持し、Human Gate 2の修正版確認待ち
+- ナレーター: VOICEVOX「剣崎雌雄」ノーマルを34セグメント生成。「バッテリー」は標準辞書で再生成済み。その他の発音レビュー候補6件をHuman確認待ち
+
+- v2音声修正: 「バッテリー」はHuman承認済みの標準辞書指定をEpisode017内の全10セグメントへ適用。台本文と表示字幕の表記は変更しない。
 
 ## 制作メモ（読み上げない）
 

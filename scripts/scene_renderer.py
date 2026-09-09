@@ -34,6 +34,19 @@ OFFICIAL_TEXT_BOX = (120, 310, 930, 840)
 OFFICIAL_TEXT_BOX_CENTERED = (240, 310, 1680, 840)
 OFFICIAL_VISUAL_BOX = (970, 300, 1810, 830)
 
+
+def scene_box(scene: dict[str, Any], key: str, default: tuple[int, int, int, int]) -> tuple[int, int, int, int]:
+    """Read an optional per-scene box while keeping the shared layout default."""
+    raw = scene.get(key)
+    if isinstance(raw, (list, tuple)) and len(raw) == 4:
+        try:
+            values = tuple(int(value) for value in raw)
+        except (TypeError, ValueError):
+            return default
+        if values[2] > values[0] and values[3] > values[1]:
+            return values
+    return default
+
 LAYOUT_TEMPLATES = {
     "layout_01_hero": "layout_01_hero.html",
     "layout_02_list": "layout_02_list.html",
@@ -1849,14 +1862,16 @@ def render_pillow_scene(
         headline_box = (110, 150, 1810, 285) if image_theme else (110, 82, 1810, 225)
         draw_headline(draw, headline_box, scene, 112, 82, 2, "center", 0.12)
         variant = official_visual_variant(scene)
-        text_box = OFFICIAL_TEXT_BOX_CENTERED if variant == "safe_entry_options_centered" else OFFICIAL_TEXT_BOX
+        text_default = OFFICIAL_TEXT_BOX_CENTERED if variant == "safe_entry_options_centered" else OFFICIAL_TEXT_BOX
+        text_box = scene_box(scene, "official_text_box", text_default)
+        visual_box = scene_box(scene, "official_visual_box", OFFICIAL_VISUAL_BOX)
         draw_official_text_column(draw, canvas, scene, text_box, soft, blue, blue_strong)
         if assets:
-            paste_assets(canvas, assets, OFFICIAL_VISUAL_BOX, vertical=len(assets) > 1)
+            paste_assets(canvas, assets, visual_box, vertical=len(assets) > 1)
         elif variant == "semantic_operation":
-            draw_semantic_operation_visual(canvas, OFFICIAL_VISUAL_BOX, scene)
+            draw_semantic_operation_visual(canvas, visual_box, scene)
         elif variant != "safe_entry_options_centered":
-            draw_neutral_visual_frame(canvas, OFFICIAL_VISUAL_BOX, scene)
+            draw_neutral_visual_frame(canvas, visual_box, scene)
     elif layout == "layout_05_compare":
         # Image-theme section pills sit in the quiet upper-left-center area;
         # keep the two-line compare headline below them before the cards.

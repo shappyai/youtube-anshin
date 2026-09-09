@@ -18,6 +18,7 @@ from scene_renderer import (
     load_visual_theme,
     normalized_semantic_icon_path,
     official_visual_variant,
+    scene_box,
     theme_background_path,
     theme_profile_for_episode,
 )
@@ -100,14 +101,20 @@ def geometry(scene: dict[str, Any], asset_count: int) -> dict[str, Any]:
             official_boxes.append((50, 145, 830, 795))
     elif layout == "layout_04_text_official":
         variant = official_visual_variant(scene)
+        text_box = scene_box(
+            scene,
+            "official_text_box",
+            OFFICIAL_TEXT_BOX_CENTERED if variant == "safe_entry_options_centered" else OFFICIAL_TEXT_BOX,
+        )
+        visual_box = scene_box(scene, "official_visual_box", OFFICIAL_VISUAL_BOX)
         if variant == "safe_entry_options_centered":
-            visual_boxes.append(OFFICIAL_TEXT_BOX_CENTERED)
+            visual_boxes.append(text_box)
         else:
-            visual_boxes.extend([OFFICIAL_TEXT_BOX, OFFICIAL_VISUAL_BOX])
+            visual_boxes.extend([text_box, visual_box])
         if scene.get("official_asset_slot") and variant not in {"safe_entry_options_centered", "semantic_operation"}:
-            planned_official_boxes.append(OFFICIAL_VISUAL_BOX)
+            planned_official_boxes.append(visual_box)
         if asset_count:
-            official_boxes.append(OFFICIAL_VISUAL_BOX)
+            official_boxes.append(visual_box)
     elif layout == "layout_05_compare":
         visual_boxes.extend([(110, 410, 900, 835), (1020, 410, 1810, 835)])
         if asset_count:
@@ -407,6 +414,15 @@ def visual_centroid_preflight(
         or str(scene.get("render_mode") or "template") in {"gpt_image", "hybrid"}
         or not scene.get("official_asset_slot")
     ):
+        return base
+
+    # The adult_digital_soft_background profile is renderer-generated gradient
+    # art rather than a reusable raster asset.  There is no source image to
+    # subtract in that case; the declared boxes and the human contact sheet
+    # remain the applicable checks, so do not turn this limitation into a
+    # false FAIL.
+    if str(theme.get("background_type") or "gradient") != "image" or not (theme.get("asset") or theme.get("background_asset")):
+        base.update({"status": "N/A", "reason": "gradient theme has no subtractable background"})
         return base
 
     if official_visual_variant(scene) == "safe_entry_options_centered":

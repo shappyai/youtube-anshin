@@ -1,0 +1,204 @@
+{
+  "status": "PASS",
+  "screen_main_scenes": [
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    14
+  ],
+  "screen_main_scene_count": 9,
+  "screen_main_metrics": [
+    {
+      "scene_id": 4,
+      "asset_paths": [
+        "assets/normalized/shot01_battery_entry.png"
+      ],
+      "visual_box": [
+        590,
+        235,
+        1860,
+        895
+      ],
+      "width_px": 1270,
+      "height_px": 660,
+      "frame_width_ratio": 0.6615,
+      "subtitle_safe": true
+    },
+    {
+      "scene_id": 5,
+      "asset_paths": [
+        "assets/normalized/shot02_usage_graph.png"
+      ],
+      "visual_box": [
+        590,
+        235,
+        1860,
+        895
+      ],
+      "width_px": 1270,
+      "height_px": 660,
+      "frame_width_ratio": 0.6615,
+      "subtitle_safe": true
+    },
+    {
+      "scene_id": 6,
+      "asset_paths": [
+        "assets/normalized/shot03_activity.png"
+      ],
+      "visual_box": [
+        590,
+        235,
+        1860,
+        895
+      ],
+      "width_px": 1270,
+      "height_px": 660,
+      "frame_width_ratio": 0.6615,
+      "subtitle_safe": true
+    },
+    {
+      "scene_id": 7,
+      "asset_paths": [
+        "assets/normalized/shot03_activity.png"
+      ],
+      "visual_box": [
+        590,
+        235,
+        1860,
+        895
+      ],
+      "width_px": 1270,
+      "height_px": 660,
+      "frame_width_ratio": 0.6615,
+      "subtitle_safe": true
+    },
+    {
+      "scene_id": 9,
+      "asset_paths": [
+        "assets/normalized/shot04_display_brightness.png"
+      ],
+      "visual_box": [
+        590,
+        235,
+        1860,
+        895
+      ],
+      "width_px": 1270,
+      "height_px": 660,
+      "frame_width_ratio": 0.6615,
+      "subtitle_safe": true
+    },
+    {
+      "scene_id": 10,
+      "asset_paths": [
+        "assets/normalized/shot04_display_lock.png"
+      ],
+      "visual_box": [
+        590,
+        235,
+        1860,
+        895
+      ],
+      "width_px": 1270,
+      "height_px": 660,
+      "frame_width_ratio": 0.6615,
+      "subtitle_safe": true
+    },
+    {
+      "scene_id": 11,
+      "asset_paths": [
+        "assets/normalized/shot04_display_lock.png"
+      ],
+      "visual_box": [
+        590,
+        235,
+        1860,
+        895
+      ],
+      "width_px": 1270,
+      "height_px": 660,
+      "frame_width_ratio": 0.6615,
+      "subtitle_safe": true
+    },
+    {
+      "scene_id": 13,
+      "asset_paths": [
+        "assets/normalized/shot05_battery_health.png"
+      ],
+      "visual_box": [
+        590,
+        235,
+        1860,
+        895
+      ],
+      "width_px": 1270,
+      "height_px": 660,
+      "frame_width_ratio": 0.6615,
+      "subtitle_safe": true
+    },
+    {
+      "scene_id": 14,
+      "asset_paths": [
+        "assets/normalized/shot05_battery_health.png"
+      ],
+      "visual_box": [
+        590,
+        235,
+        1860,
+        895
+      ],
+      "width_px": 1270,
+      "height_px": 660,
+      "frame_width_ratio": 0.6615,
+      "subtitle_safe": true
+    }
+  ],
+  "old_declared_visual_box": [
+    970,
+    300,
+    1810,
+    830
+  ],
+  "old_frame_width_px": 840,
+  "old_frame_width_ratio": 0.4375,
+  "new_frame_width_px_min": 1270,
+  "new_frame_width_px_max": 1270,
+  "new_frame_width_ratio_min": 0.6615,
+  "new_frame_width_ratio_max": 0.6615,
+  "text_only_scene_ids": [
+    1,
+    2,
+    3,
+    8,
+    12,
+    15
+  ],
+  "opening_text_sequence_is_intentional": true,
+  "instructional_text_card_runs_after_opening": [
+    [
+      8
+    ],
+    [
+      12
+    ],
+    [
+      15
+    ]
+  ],
+  "subtitle_band": [
+    0,
+    900,
+    1920,
+    1080
+  ],
+  "official_visual_bottom_max": 895,
+  "subtitle_overlap": false,
+  "generic_episode_icons": [],
+  "apple_ui_ai_reconstruction": false,
+  "asset_policy": "Human提供iPhone 12 mini / iOS 26.6.1の正規化実画面のみ。AI生成Apple UIなし。"
+}
