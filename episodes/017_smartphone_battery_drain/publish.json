@@ -1,6 +1,6 @@
 {
   "episode_id": "017",
-  "status": "FINAL_READY_HUMAN_GATE_2_APPROVED",
+  "status": "UPLOADED_PRIVATE_HUMAN_APPROVED",
   "selected_title": "【iPhone】充電の減りが早い？まず確認したい3か所",
   "title_status": "FINAL_HUMAN_GATE_2_APPROVED",
   "title_candidates": [
@@ -48,11 +48,11 @@
   "cta_visual_sha256": "657B7F0B7B184996EF328FF61A71B3298B4D28B1B64F95B5112038F41557DD27",
   "contains_synthetic_media": false,
   "ai_disclosure_review": "PASS_NO_AI_GENERATED_VISUALS; HUMAN_GATE_2_CONFIRMED",
-  "thumbnail": null,
-  "thumbnail_status": "NOT_GENERATED_BY_REQUEST",
+  "thumbnail": "assets/thumbnail/thumbnail.png",
+  "thumbnail_status": "UPLOADED_SUCCESS",
   "thumbnail_planned_path": "assets/thumbnail/thumbnail.png",
-  "thumbnail_optional_private": true,
-  "visibility": null,
+  "thumbnail_optional_private": false,
+  "visibility": "private",
   "upload_eligible": false,
   "phase_a_boundary": "Human Gate 1はAPPROVED WITH MINOR CHANGES。canonical CTA再利用、section番号、冒頭一覧、バッテリー状態説明方針を反映済み。",
   "human_gate": "HUMAN_GATE_2_APPROVED",
@@ -66,7 +66,18 @@
   "narration_audio_revision": "v2",
   "narration_audio_path": "audio/voicevox_kenzaki_v2/narration_kenzaki_auto.wav",
   "narration_audio_sha256": "668B8ABFC6630E79BCA35D638949C9FFD85EBC577378BB887C205BF62CEA36FC",
-  "regenerated_segment_ids": [2, 5, 6, 7, 22, 23, 25, 27, 29, 31],
+  "regenerated_segment_ids": [
+    2,
+    5,
+    6,
+    7,
+    22,
+    23,
+    25,
+    27,
+    29,
+    31
+  ],
   "human_approved": true,
   "viewer_facing_internal_brand_promise": 0,
   "final_path": "output/final.mp4",
@@ -102,7 +113,7 @@
     "screen_truth": "Human提供画面の表示を正とする"
   },
   "phase_b": {
-    "status": "FINAL_READY_HUMAN_GATE_2_APPROVED",
+    "status": "UPLOADED_PRIVATE_HUMAN_APPROVED",
     "real_screen_capture": true,
     "screenshot_directory": "screenshots/",
     "privacy_policy": "rawのアプリ一覧はviewer-facingに使用せず、正規化cropのみをproduction assetにする",
@@ -119,7 +130,18 @@
     "audio_revision": "v2",
     "audio_path": "audio/voicevox_kenzaki_v2/narration_kenzaki_auto.wav",
     "audio_sha256": "668B8ABFC6630E79BCA35D638949C9FFD85EBC577378BB887C205BF62CEA36FC",
-    "regenerated_segment_ids": [2, 5, 6, 7, 22, 23, 25, 27, 29, 31],
+    "regenerated_segment_ids": [
+      2,
+      5,
+      6,
+      7,
+      22,
+      23,
+      25,
+      27,
+      29,
+      31
+    ],
     "pitch_qa_report": "work/battery_pitch_qa_v2.md",
     "battery_pronunciation_qa_report": "work/battery_pronunciation_qa_v2.md",
     "visual_revision_qa_report": "work/visual_revision_qa_v2.md",
@@ -137,7 +159,7 @@
     "publish_preflight_status": "PASS",
     "publish_preflight_report": "work/youtube_publish/dry_run.json",
     "thumbnail_generation": false,
-    "youtube_operation": false
+    "youtube_operation": true
   },
   "phase_a": {
     "status": "COMPLETE_HUMAN_GATE_1_APPROVED",
@@ -153,5 +175,30 @@
       "VOICEVOXの発音レビュー候補をHuman確認",
       "個人情報を含まないscene contact sheetをHuman確認"
     ]
+  },
+  "youtube_upload": "uploaded_private",
+  "youtube_video_id": "XjAf_B77EtE",
+  "youtube_url": "https://youtu.be/XjAf_B77EtE",
+  "youtube_privacy": "private",
+  "youtube_scheduled_at": null,
+  "youtube_scheduled_at_api": null,
+  "thumbnail_uploaded": true,
+  "uploaded_at": "2026-09-09T10:31:45Z",
+  "youtube_channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+  "upload_verification": {
+    "status": "PASS",
+    "verified_at": "2026-09-09T10:34:50Z",
+    "video_id": "XjAf_B77EtE",
+    "channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+    "channel_guard": "PASS",
+    "channel_id_match": true,
+    "channel_title_match": true,
+    "title_match": true,
+    "description_match": true,
+    "privacy_status": "private",
+    "publish_at": null,
+    "thumbnail_present": true,
+    "thumbnail_keys": ["default", "high", "maxres", "medium", "standard"],
+    "videos_list_parts": "snippet,status"
   }
 }

@@ -25,7 +25,8 @@
     "Apple"
   ],
   "thumbnail": {
-    "episodes/017_smartphone_battery_drain/assets/thumbnail/thumbnail.png": "pending_chatgpt_creation"
+    "episodes/017_smartphone_battery_drain/assets/thumbnail/thumbnail.png": "human_provided_approved"
   },
-  "notes": "Human Gate 2でdraft_auto_v2.mp4を全編確認し、映像・実iPhone画面・字幕・音声・発音を承認。最終タイトルを確定。サムネイルとYouTube操作は未実施。"
+  "youtube_private_upload": "approved",
+  "notes": "Human Gate 2でdraft_auto_v2.mp4を全編確認し、映像・実iPhone画面・字幕・音声・発音を承認。最終タイトルを確定。Human提供サムネイルを承認し、Episode017をprivate uploadする依頼を受領。"
 }

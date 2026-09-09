@@ -2,7 +2,7 @@
 
 ## 最終判定
 
-- 判定: **FINAL_READY_HUMAN_GATE_2_APPROVED**
+- 判定: **UPLOADED_PRIVATE_HUMAN_APPROVED**
 - 対象: Human Gate 2修正後の実画面拡大、発音辞書反映、音声、字幕、scene、full draft v2、copy-only final
 - 基準日: 2026-09-09
 - Human Gate 1: **APPROVED WITH MINOR CHANGES**
@@ -17,7 +17,7 @@
 | Language | PASS_WITH_MINOR_CHANGES | 65歳以上を想定し、確認と変更を分離。バッテリー状態は最大容量・注意表示を中心にし、専門用語を実機確認後に補足する。 |
 | Visual | PASS_WITH_HUMAN_CONTACT_SHEET_REVIEW | Human提供の実OS画面から正規化cropを作成。実画面メインを9 sceneへ拡大し、汎用盾・チェック表示を除去。15 sceneとv2 draft contact sheetを目視確認し、アプリ名が見える使用状況rawはviewer-facingに使用しない。 |
 | Audio | PASS_HUMAN_APPROVED | VOICEVOXを1文単位で34セグメント管理。「バッテリー」含む10セグメントを再生成し、mora QA（バ・ッ・テ・リ・イ、accent=4、語末高域）と標準辞書登録はPASS。夕方・使われ方・画面上・開いて・バックグラウンド・iPhone・iOS・AppleはHuman Gate 2で承認済み。 |
-| Policy | PASS | 位置情報、通知、バックグラウンド通信、5G、強制終了の一律オフ推奨を含めない。サムネイル生成・YouTube操作は行わない。 |
+| Policy | PASS | 位置情報、通知、バックグラウンド通信、5G、強制終了の一律オフ推奨を含めない。Human提供サムネイルを使用し、YouTubeはprivate uploadのみ実施。公開予約・公開は行わない。 |
 | Privacy | PASS_WITH_RESTRICTIONS | raw screenshotsはsource保管。production assetにはアプリ名を避けたcropのみ使用し、Apple Account・メールアドレス・電話番号・端末名・通知・位置情報履歴・個人的な利用状況・シリアル番号を残さない。raw screenshots/はcommit対象外。 |
 | Subtitle | PASS | 34 cueを実音声タイミングから生成。60px、最大2行、subtitle preflight fail=0 / warn=0。 |
 | Draft | PASS | `output/draft_auto_v2.mp4`。321.13秒、1920×1080、30fps、Phase 2 QA failures=0 / warnings=0。旧v1は保持。 |
@@ -58,8 +58,8 @@
 - phase2 QA final: **PASS**。failures=0 / warnings=0。scene quality final: **PASS**（15/15）。video decode: **PASS**
 - visual revision QA v2: **PASS**。実画面9 scene、slot幅66.1%、字幕帯重なりなし、AI Apple UIなし、汎用盾・チェック0件
 - 実尺: 本編音声 308.681秒。CTA音声 11.456秒＋末尾1秒を含むdraft v2 321.137秒（probe表示321.13秒）
-- サムネイル: **未生成**
-- YouTube操作: **未実施**
+- サムネイル: **Human提供画像を使用**。Codexによる生成なし。YouTube設定済み
+- YouTube操作: **private upload済み**。公開予約・公開・End Screen・固定コメントは未実施
 
 ## Human Gate 2確認結果
 
@@ -80,6 +80,7 @@
 - CTA canonical preflight: **PASS**。`config/channel_cta.json`とEpisode016再利用素材を使用。
 - viewer-facing INTERNAL_ONLY QA: **PASS**（count 0）。
 - privacy QA: **PASS**。Human提供の正規化実画面のみをproductionへ使用し、raw screenshotsは未追跡。
-- publish preflight: **PASS**（private dry-run、OAuth/API未接続、upload未実施）。thumbnailは生成せず、private dry-run用の省略設定のみ記録。
-- サムネイル: 未生成。予定パスは`episodes/017_smartphone_battery_drain/assets/thumbnail/thumbnail.png`。
-- YouTube upload、schedule、publish、End Screen、固定コメント設定: **未実施**。
+- publish preflight: **PASS**（upload前private dry-run）。
+- YouTube upload: **uploaded_private**。video ID `XjAf_B77EtE`、privacy `private`、publishAt未設定。API再確認は**PASS**。
+- サムネイル: Human提供画像を`episodes/017_smartphone_battery_drain/assets/thumbnail/thumbnail.png`へ配置し、YouTube設定済み。
+- YouTubeのschedule、publish、End Screen、固定コメント設定: **未実施**。

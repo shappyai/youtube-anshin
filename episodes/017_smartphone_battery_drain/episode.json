@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "metadata": {
     "research_date": "2026-09-08",
-    "production_phase": "Phase C / final candidate ready / YouTube operation pending",
+    "production_phase": "Phase C / private upload済み、公開操作待ち",
     "channel": "大人のデジタル安心室",
     "visual_theme": "adult_digital_soft_background",
     "target_audience_detail": "50〜70代、特に65歳以上。iPhoneの設定画面をテレビでも読める大きさで見せ、まず確認だけを行う。",
@@ -13,7 +13,7 @@
     "human_gates": [
       "Gate 1: APPROVED_WITH_MINOR_CHANGES。iPhone中心の方針、最終3項目、タイトル、4〜6分構成を承認。撮影端末はHuman提供実機の表示を正とする",
       "Gate 2: APPROVED。Humanがdraft_auto_v2.mp4を全編確認し、映像・実iPhone画面・字幕・音声・発音を承認",
-      "Gate 3: サムネイル生成・YouTube操作は未実施（本Episodeの依頼範囲外）"
+      "Gate 3: Human提供サムネイルを使用してprivate upload完了。公開予約・公開・End Screen・固定コメントは未実施"
     ],
     "do_not_create_in_phase_a": [
       "実画面capture",
@@ -54,7 +54,7 @@
     "target_duration_seconds": 300,
     "target_duration_range_seconds": [240, 360],
     "status": "publish_ready",
-    "publication_status": "final_ready_youtube_operation_pending",
+    "publication_status": "uploaded_private_human_approved",
     "topic": "iPhoneの充電の減りが早いと感じた人が、交換や一括の節電設定の前に、使用状況・画面表示・バッテリー状態を確認する。",
     "target_audience": "以前より充電が早く減ると感じる50〜70代、特に65歳以上のiPhone利用者。",
     "opening_list": {
@@ -553,14 +553,14 @@
     "upload_eligible": false,
     "contains_synthetic_media": false,
     "ai_disclosure_review": "PASS_NO_AI_GENERATED_VISUALS; HUMAN_GATE_2_CONFIRMED",
-    "visibility": null,
+    "visibility": "private",
     "human_approved": true,
     "human_gate": "HUMAN_GATE_2_APPROVED",
     "human_review_record": "work/human_review.json",
-    "thumbnail": null,
-    "thumbnail_status": "NOT_GENERATED_BY_REQUEST",
+    "thumbnail": "assets/thumbnail/thumbnail.png",
+    "thumbnail_status": "UPLOADED_SUCCESS",
     "thumbnail_planned_path": "assets/thumbnail/thumbnail.png",
-    "thumbnail_optional_private": true,
+    "thumbnail_optional_private": false,
     "final_path": "output/final.mp4",
     "finalization_method": "copy-only; no re-encode",
     "finalized_at": "2026-09-09",
@@ -569,9 +569,34 @@
     "final_qa_status": "PASS",
     "final_qa_report": "output/review/final_qa.md",
     "publish_preflight_status": "PASS",
-    "publish_preflight_mode": "dry-run; no OAuth/API; no upload",
+    "publish_preflight_mode": "dry-run; no OAuth/API; no upload (upload前記録)",
     "publish_preflight_report": "work/youtube_publish/dry_run.json",
-    "youtube_operation": false
+    "youtube_operation": true,
+    "youtube_upload": "uploaded_private",
+    "youtube_video_id": "XjAf_B77EtE",
+    "youtube_url": "https://youtu.be/XjAf_B77EtE",
+    "youtube_privacy": "private",
+    "youtube_scheduled_at": null,
+    "youtube_scheduled_at_api": null,
+    "thumbnail_uploaded": true,
+    "uploaded_at": "2026-09-09T10:31:45Z",
+    "youtube_channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+    "upload_verification": {
+      "status": "PASS",
+      "verified_at": "2026-09-09T10:34:50Z",
+      "video_id": "XjAf_B77EtE",
+      "channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+      "channel_guard": "PASS",
+      "channel_id_match": true,
+      "channel_title_match": true,
+      "title_match": true,
+      "description_match": true,
+      "privacy_status": "private",
+      "publish_at": null,
+      "thumbnail_present": true,
+      "thumbnail_keys": ["default", "high", "maxres", "medium", "standard"],
+      "videos_list_parts": "snippet,status"
+    }
   },
   "device": {
     "model": "iPhone 12 mini",
@@ -580,7 +605,7 @@
     "screen_truth": "Human提供画面の表示を正とする"
   },
   "phase_b": {
-    "status": "FINAL_READY_HUMAN_GATE_2_APPROVED",
+    "status": "UPLOADED_PRIVATE_HUMAN_APPROVED",
     "real_screen_capture": true,
     "screenshot_directory": "screenshots/",
     "privacy_policy": "rawのアプリ一覧はviewer-facingに使用せず、正規化cropのみをproduction assetにする",
@@ -614,7 +639,7 @@
     "publish_preflight_status": "PASS",
     "publish_preflight_report": "work/youtube_publish/dry_run.json",
     "thumbnail_generation": false,
-    "youtube_operation": false
+    "youtube_operation": true
   },
   "phase_a": {
     "status": "APPROVED_WITH_MINOR_CHANGES",

@@ -3,7 +3,7 @@
 - Episode: 017_smartphone_battery_drain
 - Topic: iPhoneの充電が以前より早く減ると感じたときに、原因を切り分けるために確認する3か所
 - 基準日: 2026-09-09
-- Phase: **Phase C / final candidate ready / YouTube operation pending**
+- Phase: **Phase C / private upload済み / 公開操作待ち**
 - status: finalized
 - platform_recommendation: iPhone中心
 - selected_title: 「【iPhone】充電の減りが早い？まず確認したい3か所」Human Gate 2承認済み・final確定
@@ -20,8 +20,8 @@
 - 字幕生成: 34 cue、v2実音声タイミングから再計算。v1と内容・SHAが一致、subtitle preflight PASS
 - scene生成: 15 scene。SCENE-004/005/006/007/009/010/011/013/014でHuman実画面を大きく表示。汎用盾・チェック表示は除去し、contact sheetで目視確認済み
 - 動画生成: full draft v2生成済み。draft_auto_v2.mp4、321.13秒。Phase 2 QA PASS。旧draft_auto_v1.mp4は保持
-- サムネイル生成: 未実施
-- YouTube操作: 未実施
+- サムネイル生成: Codex生成なし。Human提供画像を`assets/thumbnail/thumbnail.png`へ正規化配置
+- YouTube操作: **非公開upload済み**。公開予約・公開は未実施
 - minor changes: canonical CTAはconfig/channel_cta.jsonを使用し、Episode016の最新音声・visualをcopy/reuse。section番号を1/2/3へ統一。冒頭3項目を大きく表示。バッテリー説明は最大容量・注意表示中心
 - CTA audio reuse: episodes/016_line_storage_cleanup/audio/voicevox_kenzaki/cta_channel_common.wav
 - CTA visual reuse: episodes/016_line_storage_cleanup/work/channel_cta.png
@@ -37,6 +37,19 @@
 - draft_sha256 / final_sha256: `76BC6321AB21A2C520E92F7743FBDFE4707FF7820A1A488046899119AE5978D5`（一致）
 - finalized_at: 2026-09-09
 - final_qa: [output/review/final_qa.md](output/review/final_qa.md)
-- publish_preflight: PASS（dry-run、OAuth/API未接続、upload未実施）
-- サムネイル生成: 未実施。予定パス `assets/thumbnail/thumbnail.png`（ChatGPT作成予定）
-- YouTube操作: 未実施。End Screen・固定コメント設定も未実施
+- publish_preflight: PASS（upload前private dry-run）
+- サムネイル: Human提供画像 `assets/thumbnail/thumbnail.png`。YouTube設定済み
+- YouTube upload: `uploaded_private`。End Screen・固定コメント設定は未実施
+
+## YouTube publication
+- youtube_upload: uploaded_private
+- youtube_video_id: XjAf_B77EtE
+- youtube_url: https://youtu.be/XjAf_B77EtE
+- youtube_privacy: private
+- youtube_scheduled_at: null
+- youtube_scheduled_at_api: null
+- thumbnail_uploaded: true
+- uploaded_at: 2026-09-09T10:31:45Z
+- youtube_channel_id: UCgVRceTJYO5KOrPX4w2jXZw
+- thumbnail_status: UPLOADED_SUCCESS
+- upload_verification: PASS（videos.listでtitle・description・private・publishAt未設定・thumbnail・channelを確認）

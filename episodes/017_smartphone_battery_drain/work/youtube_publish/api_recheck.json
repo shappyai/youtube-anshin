@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-09-09T10:34:50Z",
+  "video_id": "XjAf_B77EtE",
+  "channel_id": "UCgVRceTJYO5KOrPX4w2jXZw",
+  "channel_guard": "PASS",
+  "channel_id_match": true,
+  "channel_title_match": true,
+  "title_match": true,
+  "description_match": true,
+  "privacyStatus": "private",
+  "publishAt": null,
+  "thumbnail_present": true,
+  "thumbnail_keys": [
+    "default",
+    "high",
+    "maxres",
+    "medium",
+    "standard"
+  ],
+  "videos_list_parts": "snippet,status"
+}
